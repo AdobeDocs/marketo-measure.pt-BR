@@ -3,18 +3,32 @@ unique-page-id: 42762648
 description: Documentação do painel de Jornada de coorte - [!DNL Marketo Measure] - Documentação do produto
 title: Documentação do painel de Jornada de coorte
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Documentação do painel de Jornada de coorte {#cohort-journey-dashboard-documentation}
 
-O painel de Jornada de coorte permite que os profissionais de marketing visualizem a progressão de um estágio de coorte inicial para um período selecionado e meçam a taxa de conversão.
+Os painéis Impacto de coorte e Funil permitem que os profissionais de marketing visualizem o progresso a partir de um estágio de coorte inicial em um período de tempo selecionado e meçam a taxa de conversão.
 
-Este painel tem dois blocos:
+A principal diferença é como contamos cada entidade do estágio de coorte.
+
+* Funil de coorte: O resultado de cada estágio é diretamente derivado do estágio anterior.
+
+   * Somente os registros que passaram por cada estágio abaixo do funil após a hora de início do coorte de conjunto são contados.
+
+![](assets/cohort-journey-dashboard-documentation-1.png)
+
+* Impacto da coorte: O resultado de cada estágio é derivado do estágio de coorte, não do estágio anterior.
+
+   * Todos os registros em cada estágio são contados desde que tenham ocorrido após a hora de início da coorte de conjunto. Esse painel terá naturalmente mais registros do que o painel Funil desde que estamos observando como as entidades foram afetadas a partir do estágio de coorte, não apenas o movimento através do funil.
+
+![](assets/cohort-journey-dashboard-documentation-2.png)
+
+Cada painel tem dois blocos:
 
 * Receita da coorte: O valor total da oportunidade de todas as oportunidades no estágio de negócios do bloco de Jornada de coorte .
 * Jornada de coorte: A progressão para cada estágio da jornada a partir do estágio de coorte inicial para um período selecionado.
@@ -40,7 +54,7 @@ Em todos os filtros, a lógica &quot;AND&quot; é usada.
 >
 >Os filtros de segmento se aplicam somente ao estágio LC e depois. Se o Estágio de coorte for Desconhecido ou Conhecido e um dos filtros de segmento tiver um valor, o painel não retornará nenhum resultado.
 
-![](assets/one-2.png)
+![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Os estágios incluem Desconhecido, Conhecido, LC, palcos selecionados de Funil em Estágios de Lead/Contato Abertos (Configurações > CRM > Mapeamento de Estágio), OC, palcos de Funil selecionados em Estágios de Oportunidade Aberta (Configurações > CRM > Mapeamento de Estágio) e Vendas (Oportunidades de Ganho Fechado).
 
