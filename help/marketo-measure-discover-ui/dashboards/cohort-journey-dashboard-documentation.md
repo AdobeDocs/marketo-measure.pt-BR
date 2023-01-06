@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: Documentação do painel de Jornada de coorte - [!DNL Marketo Measure] - Documentação do produto
 title: Documentação do painel de Jornada de coorte
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Cada painel tem dois blocos:
 >
 >Em todos os painéis do Discover, somente um objeto de pessoa, seja Líder ou Contato, pode ser relatado. Isso é definido em [!UICONTROL Configurações] > [!UICONTROL Relatório] > [!UICONTROL Configurações de atribuição] > [!UICONTROL Objeto padrão do painel].
 
-Esse painel oferece suporte aos seguintes filtros:
+Os painéis são compatíveis com os seguintes filtros:
 
 * Estágio de coorte: selecione o estágio de coorte inicial. Os registros em todos os estágios seguintes são evoluídos dos registros no estágio de coorte.
 * Intervalo de datas da coorte: selecione o período de tempo do estágio de coorte selecionado. Juntamente com o Estágio de coorte, ele define o conjunto de dados inicial.
@@ -53,8 +53,6 @@ Em todos os filtros, a lógica &quot;AND&quot; é usada.
 >[!NOTE]
 >
 >Os filtros de segmento se aplicam somente ao estágio LC e depois. Se o Estágio de coorte for Desconhecido ou Conhecido e um dos filtros de segmento tiver um valor, o painel não retornará nenhum resultado.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Os estágios incluem Desconhecido, Conhecido, LC, palcos selecionados de Funil em Estágios de Lead/Contato Abertos (Configurações > CRM > Mapeamento de Estágio), OC, palcos de Funil selecionados em Estágios de Oportunidade Aberta (Configurações > CRM > Mapeamento de Estágio) e Vendas (Oportunidades de Ganho Fechado).
 
