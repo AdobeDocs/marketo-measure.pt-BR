@@ -5,7 +5,7 @@ title: Criando uma exibição de lista de campanha para [!DNL Salesforce] Campan
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A exibição da lista de campanha que pode ser criada permite ter um local &quot
 1. Nomeie a exibição como &quot;Campanhas a serem sincronizadas [!DNL Marketo Measure].&quot;
 1. Queremos que esta lista mostre apenas as campanhas com as quais queremos sincronizar [!DNL Marketo Measure] então precisamos de alguns filtros:
 
-   * **Tipo** [IGUAL] &quot;Todos os tipos de campanha que mapeamos para seus canais offline&quot;. Consulte o Plano de implementação ou a guia Canais offline em [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> Minha conta -> Configurações -> Canais offline). Você pode selecionar os Tipos desejados (aqueles mapeados para um canal de marketing offline) por meio do ícone da lupa.
+   * **Tipo** [IGUAL] &quot;Todos os tipos de campanha que mapeamos para seus canais offline&quot;. Consulte o Plano de implementação ou a guia Canais offline em [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Minha conta -> Configurações -> Canais offline). Você pode selecionar os Tipos desejados (aqueles mapeados para um canal de marketing offline) por meio do ícone da lupa.
 
       * Escolha o máximo de 3 Tipos para cada filtro. Existe um limite de caracteres que você pode ter em um campo de filtro. Comece com 3 Tipos por filtro e adicione linhas adicionais de filtros &quot;Tipo&quot;, se necessário.
    * **Data de criação** [MAIOR OU IGUAL] your [!DNL Marketo Measure] data de início. Você pode encontrar a data de início no painel do ROI no [!DNL Marketo Measure] Aplicativo. Basta selecionar &quot;Desde a data de criação&quot; no intervalo de datas do traço e ele mostrará a data de início.
@@ -39,4 +39,4 @@ A exibição da lista de campanha que pode ser criada permite ter um local &quot
 
 >[!MORELIKETHIS]
 >
->[Solução de problemas comuns com a edição em linha da exibição de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[Solução de problemas comuns com a edição em linha da exibição de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

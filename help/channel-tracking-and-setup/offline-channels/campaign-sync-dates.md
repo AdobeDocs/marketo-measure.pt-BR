@@ -5,7 +5,7 @@ title: Datas de sincronização da campanha
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Pode haver momentos em que uma equipe de marketing não consegue adicionar parâ
 
 Se você é um novo [!DNL Marketo Measure] cliente, você pode estar interessado em trazer alguns dos dados de marketing que tem rastreado por meio das Campanhas SFDC. No entanto, se você ativasse os Pontos de Contato para suas campanhas SFDC online, você poderia se deparar com o problema da atribuição de dupla contagem desde [!DNL Marketo Measure] O cria automaticamente pontos de contato para seus esforços de marketing online. Em um esforço para evitar a dupla contagem de dados, você pode usar as Datas finais do ponto de contato da campanha para definir um limite nas datas do ponto de contato criadas por [!DNL Marketo Measure] na campanha SFDC. Como exemplo, se você deseja adicionar conversões retroativas para uma Campanha Social, você tem rastreado no SFDC, mas sabe que adicionou a variável [!DNL Marketo Measure] O JavaScript (que está criando pontos de contato online) em 1º de julho, você pode editar a Campanha SFDC Social para conter uma Data final do ponto de contato igual a 1º de julho e ativar os pontos de contato do comprador para essa campanha.
 
-Pode haver muitos outros casos de uso para datas de término do ponto de contato. Se precisar de ajuda para descobrir uma situação específica, não hesite em entrar em contato com a [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Pode haver muitos outros casos de uso para datas de término do ponto de contato. Se precisar de ajuda para descobrir uma situação específica, não hesite em entrar em contato com a [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

@@ -26,7 +26,7 @@ O que deve ser lembrado:
 * Selecione o campo de receita que é preciso e utilizado para todas as Oportunidades
    * Recomendamos usar ARR ou Valor total do contrato
 * Não usar um campo de fórmula
-* Se estiver usando uma Quantia de Receita Personalizada para conversões de moeda, a variável [!UICONTROL Marketo Mede Várias Moedas] em vez disso, é o método preferido.
+* Se estiver usando uma Quantia de Receita Personalizada para conversões de moeda, a variável [!UICONTROL Várias Moedas do Marketo Measure] em vez disso, é o método preferido.
    * O [!DNL Marketo Measure] A funcionalidade de várias moedas faz referência às taxas de conversão estabelecidas em [!DNL Salesforce] para melhor garantir o alinhamento entre conversões de moeda. Isso permite que você continue utilizando o &quot;Valor&quot; padrão (Padrão SFDC) ou qualquer outro campo Quantia personalizada relacionado ao [!DNL Salesforce] taxas de conversão.
 * Se você atualizar o campo Quantia que deseja [!DNL Marketo Measure] para fazer referência, use o Data Loader para atualizar Oportunidades passadas para garantir que seus dados de receita sejam consistentes e que o campo correto seja preenchido por meio do workflow
 

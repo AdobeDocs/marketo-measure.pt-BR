@@ -6,7 +6,7 @@ exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Os Canais de marketing são usados para ajudar a categorizar (ou &quot;agrupar&q
 Sempre que você receber um visitante de uma de suas páginas de Conteúdo do site (seja essa página da Web, um download de white-paper, um URL de página etc.), o lead será &quot;agrupado&quot; em um canal/subcanal com base em vários parâmetros de UTM encontrados no URL:
 
 * Médio
-* Fonte
+* Origem
 * Campanha
 * Página
 * Website de indicação
@@ -72,7 +72,7 @@ Mais exemplos...
 * Clique duas vezes
 * Capterra
 * Campanhas de Drill
-* Anúncios do linkedIn
+* Anúncios do LinkedIn
 
 **Conteúdo (white-papers, URLs de página, postagens no blog)**
 

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874771
 description: Como usar o Data Loader para atualizar [!DNL Marketo Measure] Campo de valor personalizado - [!DNL Marketo Measure] - Documentação do produto
-title: Usando o Carregador de Dados para Atualizar o Campo de Quantia Personalizada de Medida do Marketo
+title: Usando o Carregador de Dados para Atualizar o Campo de Quantia Personalizada do Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt

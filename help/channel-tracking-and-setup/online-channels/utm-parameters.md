@@ -5,7 +5,7 @@ title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Marcar URLs é uma maneira simples e eficaz de capturar dados sobre seus esforços de marketing digital. É o processo de adicionar parâmetros ao final dos URLs que coletam e registram dados. Os parâmetros mais usados são os Módulos de rastreamento de Urchin (UTMs), compatíveis com o Google. Há cinco parâmetros principais de UTM disponíveis: Meio, Fonte, Campanha, Conteúdo e Termo. Eles são discutidos com mais detalhes na próxima seção.
 
-Os parâmetros de UTM podem ser adicionados manualmente aos URLs ou anexados por meio da marcação automática com determinadas plataformas, como o AdWords, por exemplo. A marcação automática automatiza o processo de anexação de parâmetros a URLs. Há também a opção de [Construtores de URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} para acelerar a marcação de URLs manualmente. Com um construtor de URL, basta especificar os valores a serem usados para cada parâmetro e o construtor formatará o URL para você.
+Os parâmetros de UTM podem ser adicionados manualmente aos URLs ou anexados por meio da marcação automática com determinadas plataformas, como o AdWords, por exemplo. A marcação automática automatiza o processo de anexação de parâmetros a URLs. Há também a opção de [Construtores de URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} para acelerar a marcação manual de URLs. Com um construtor de URL, basta especificar os valores a serem usados para cada parâmetro e o construtor formatará o URL para você.
 
 ## O que são parâmetros de UTM? {#what-are-utm-parameters}
 

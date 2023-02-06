@@ -59,6 +59,6 @@ As etapas incluem FT, LC, estágios de Funil selecionados em Estágios de Lead/C
 
 >[!NOTE]
 >
->Para estágios convertidos, as contagens de registro são somente para registros transitados para o palco durante o período selecionado.
+>Para estágios convertidos, as contagens de registro são somente para registros transitados para o estágio durante o período de tempo selecionado.
 
 Você pode fazer drill-down em cada barra para exibir os registros de Lead/Contato para cada estágio.

@@ -5,7 +5,7 @@ title: Plataformas de anúncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ O Modelo de rastreamento é uma ferramenta fornecida pelo Google para adicionar 
 [!DNL Marketo Measure] Pesquisa por modelos de rastreamento no [!DNL AdWords] conta:
 
 * *Opção A*: Modelo de rastreamento encontrado. [!DNL Marketo Measure] adiciona seus parâmetros ao template.
-* *Opção B*: O redirecionamento de terceiros foi encontrado. Se um redirecionamento de terceiros for encontrado no Modelo de rastreamento, [!DNL Marketo Measure] não pode tomar nenhuma ação. Será necessário adicionar manualmente a variável [!DNL Marketo Measure] para o sistema de terceiros. Um exemplo de redirecionamento de terceiros seria uma ferramenta de gerenciamento de lances como Kenshoo ou Marin. Saiba mais sobre como [as ferramentas de gerenciamento de lances afetam [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* *Opção B*: O redirecionamento de terceiros foi encontrado. Se um redirecionamento de terceiros for encontrado no Modelo de rastreamento, [!DNL Marketo Measure] não pode tomar nenhuma ação. Será necessário adicionar manualmente a variável [!DNL Marketo Measure] para o sistema de terceiros. Um exemplo de redirecionamento de terceiros seria uma ferramenta de gerenciamento de lances como Kenshoo ou Marin. Saiba mais sobre como [as ferramentas de gerenciamento de lances afetam [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Opção C*: Nenhum modelo de rastreamento foi encontrado. [!DNL Marketo Measure] O verificará todos os URLs de Destino de anúncio do [!DNL Marketo Measure] parâmetros. Com base na verificação, se:
    * Os parâmetros são encontrados: a configuração foi concluída!
    * Parâmetros não encontrados: [!DNL Marketo Measure] A anexará seus parâmetros ao final dos URLs de destino do anúncio. [!DNL Marketo Measure] anexa novos anúncios em duas horas após sua criação. Lembre-se de que os parâmetros não serão adicionados a um modelo.
 
-Saiba mais sobre nossa [[!DNL AdWords] funcionalidade de marcação automática](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target=&quot;_blank&quot;}.
+Saiba mais sobre nossa [[!DNL AdWords] funcionalidade de marcação automática](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Como ativar [!DNL Marketo Measure] Marcação automática para palavras adicionais {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -51,7 +51,7 @@ Antes de habilitar [!DNL Marketo Measure] marcação automática, **certifique-s
 
 Depois que você tiver um modelo de rastreamento em vigor, siga as instruções abaixo para ativar [!DNL Marketo Measure] Marcação automática. Observação: [!DNL Marketo Measure] A também incluirá tags automáticas de quaisquer anúncios pausados em sua conta.
 
-1. Faça logon em seu [!DNL Marketo Measure] conta em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+1. Faça logon em seu [!DNL Marketo Measure] conta em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Ir para [!UICONTROL Minha conta] > [!UICONTROL Configurações] > [!UICONTROL Integrações] > [!UICONTROL Conexões].
 
@@ -67,7 +67,7 @@ Depois que você tiver um modelo de rastreamento em vigor, siga as instruções 
 
 ## Como configurar um modelo de rastreamento no AdWords com [!DNL Marketo Measure] Parâmetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Lembre-se de que você deve adicionar modelos de rastreamento no [!UICONTROL Conta], [!UICONTROL Campanha] ou Grupo de anúncios no AdWords. Se você adicionar Modelos de rastreamento ao nível de Palavra-chave, Sitelink ou Anúncio, sua publicidade precisará passar pelo processo de revisão e aprovação e você corre o risco de reiniciar o histórico de desempenho de suas publicidades. Saiba mais sobre [criação de modelos de rastreamento](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;}.
+Lembre-se de que você deve adicionar modelos de rastreamento no [!UICONTROL Conta], [!UICONTROL Campanha] ou Grupo de anúncios no AdWords. Se você adicionar Modelos de rastreamento ao nível de Palavra-chave, Sitelink ou Anúncio, sua publicidade precisará passar pelo processo de revisão e aprovação e você corre o risco de reiniciar o histórico de desempenho de suas publicidades. Saiba mais sobre [criação de modelos de rastreamento](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Faça logon no [!DNL Google AdWords] Conta.
 1. Vá para o seu [!UICONTROL Campanhas] exibir na barra de navegação à esquerda
@@ -96,21 +96,21 @@ As tags de UTM podem parecer difíceis de criar no início, mas há muitas ferra
 
 **[!DNL Google URL]Criador**
 
-O Google URL Builder é uma ferramenta padrão para criar URLs formatados corretamente com tags de UTM. Basta inserir o URL e o valor desejado de cada parâmetro e clicar em &quot;[!UICONTROL Gerar URL]&quot;. Essa é uma ferramenta ideal a ser usada se você tiver apenas alguns URLs para marcar. Acessar a ferramenta [here](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}.
+O Google URL Builder é uma ferramenta padrão para criar URLs formatados corretamente com tags de UTM. Basta inserir o URL e o valor desejado de cada parâmetro e clicar em &quot;[!UICONTROL Gerar URL]&quot;. Essa é uma ferramenta ideal a ser usada se você tiver apenas alguns URLs para marcar. Acessar a ferramenta [here](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Planilha do Google gerada pelo EpikOne**
 
-Esta planilha tem uma fórmula que gerará automaticamente URLs de destino marcados. Essa é uma excelente ferramenta a ser usada se um grande número de links precisar ser marcados. Acessar a planilha [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target=&quot;_blank&quot;}.
+Esta planilha tem uma fórmula que gerará automaticamente URLs de destino marcados. Essa é uma excelente ferramenta a ser usada se um grande número de links precisar ser marcados. Acessar a planilha [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **Ferramenta Marcação de link do Rafflecopter**
 
 A planilha criada pelo Rafflecopter é uma versão modificada de [!DNL EpikOne's] planilha. Ela também contém uma fórmula que gerará automaticamente links de destino marcados para você usar.
 
-Cada uma dessas ferramentas tem instruções detalhadas sobre como usá-las e modificá-las de acordo com suas necessidades. A ferramenta está disponível [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;}.
+Cada uma dessas ferramentas tem instruções detalhadas sobre como usá-las e modificá-las de acordo com suas necessidades. A ferramenta está disponível [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **Effin Incrível Construtor de UTM**
 
-Essa ferramenta é uma extensão do Chrome que permite gerar tags de UTM rapidamente. Localizar [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target=&quot;_blank&quot;}.
+Essa ferramenta é uma extensão do Chrome que permite gerar tags de UTM rapidamente. Localizar [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Bing Ads {#bing-ads}
 
@@ -136,17 +136,17 @@ Um modelo de rastreamento pode ser usado se desejar, mas não é necessário par
 
 A marcação automática deve ser ativada por meio de [!DNL Marketo Measure] para que o [!DNL Marketo Measure] os parâmetros podem ser anexados automaticamente. Não há risco de perder o histórico de desempenho de anúncios anteriores com o Bing Ads.
 
-Visite o [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls)Site do {target=&quot;_blank&quot;} para obter mais informações sobre como adicionar tags à plataforma.
+Visite o [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} para obter mais informações sobre como adicionar tags em sua plataforma.
 
 ## Anúncios do Facebook {#facebook-ads}
 
-O [!DNL Marketo Measure] integração com [!DNL Facebook] permite baixar automaticamente as informações da publicidade e marcar o URL com seus parâmetros. [!DNL Marketo Measure] O obterá as informações da Campanha e do Conjunto de anúncios por meio da marcação automática. O Conjunto de anúncios preencherá o campo Nome do grupo de anúncios. Para obter mais informações sobre como configurar tags de URL no [!DNL Facebook] visita a [!DNL Facebook] [empresa](https://www.facebook.com/business/help/1016122818401732/?ref=u2u)página {target=&quot;_blank&quot;}.
+O [!DNL Marketo Measure] integração com [!DNL Facebook] permite baixar automaticamente as informações da publicidade e marcar o URL com seus parâmetros. [!DNL Marketo Measure] O obterá as informações da Campanha e do Conjunto de anúncios por meio da marcação automática. O Conjunto de anúncios preencherá o campo Nome do grupo de anúncios. Para obter mais informações sobre como configurar tags de URL no [!DNL Facebook] visita a [!DNL Facebook] [empresa](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} página.
 
 Antes de ativar a marcação automática com [!DNL Facebook Ads], é importante exportar o histórico de desempenho anterior como CSV. Nesse momento, quando [!DNL Marketo Measure] tags [!DNL Facebook Ads] com seu parâmetro _bf, [!DNL Facebook] O lê os anúncios como novos e apaga o histórico de desempenho. Portanto, é importante exportar um registro do desempenho anterior, se isso for um valor para você e sua organização.
 
 Observe que você pode conectar seu [!DNL Facebook] a qualquer momento da [!DNL Marketo Measure] aplicativo e nenhum dado será perdido — somente quando a marcação automática estiver ativada é que o histórico de desempenho é apagado.
 
-[Consulte este artigo](https://www.facebook.com/business/help/393890194130036){target=&quot;_blank&quot;} do Facebook para obter mais informações sobre a exportação [!DNL Facebook] Relatórios de anúncios.
+[Consulte este artigo](https://www.facebook.com/business/help/393890194130036){target="_blank"} do Facebook para obter mais informações sobre exportação [!DNL Facebook] Relatórios de anúncios.
 
 ## Conteúdo patrocinado pela linkedIn {#linkedin-sponsored-content}
 

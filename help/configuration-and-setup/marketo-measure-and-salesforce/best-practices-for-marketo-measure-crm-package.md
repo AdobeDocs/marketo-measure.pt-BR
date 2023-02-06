@@ -4,7 +4,7 @@ title: Práticas recomendadas para [!DNL Marketo Measure] Pacote CRM
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ Outras razões para isso podem desencadear uma revisão...
 
 >[!NOTE]
 >
->Quando você desativa a Medição de Marketo exportando dados para o Salesforce, os dados existentes não são removidos. Para removê-lo, siga as etapas em [este artigo de ajuda do Salesforce](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target=&quot;_blank&quot;}.
+>Quando você desativa a exportação de dados do Marketo Measure para o Salesforce, os dados existentes não são removidos. Para removê-lo, siga as etapas em [este artigo de ajuda do Salesforce](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Atualizar Pacote do Ponto de Contato do Comprador](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Conjuntos de permissões](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Compartilhamento de relatórios e pastas de painéis](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
->* [Conexão da medida do Marketo ao Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [Conectar o Marketo Measure ao Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
 

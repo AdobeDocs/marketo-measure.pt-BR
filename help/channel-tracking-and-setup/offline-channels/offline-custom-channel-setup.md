@@ -70,7 +70,7 @@ Outra dica para lidar com campanhas de atividades online é mapear a variável [
 
 ## Inserir suas regras de canal offline no aplicativo {#entering-your-offline-channel-rules-to-the-app}
 
-Depois de editar e atualizar a planilha com suas regras personalizadas, a próxima etapa é recriar o mapeamento de canal na [!DNL Marketo Measure] aplicativo — você não fará upload de uma planilha para canais offline. Em vez disso, você inserirá as informações nas caixas da lista de seleção, conforme exibido na imagem abaixo. Isso é encontrado clicando em **[!UICONTROL Canais offline]** nos termos do **[!UICONTROL Canais]** seção.
+Depois de editar e atualizar a planilha com suas regras personalizadas, a próxima etapa é recriar o mapeamento de canal na [!DNL Marketo Measure] aplicativo—na verdade, você não fará upload de uma planilha para canais offline. Em vez disso, você inserirá as informações nas caixas da lista de seleção, conforme exibido na imagem abaixo. Isso é encontrado clicando em **[!UICONTROL Canais offline]** nos termos do **[!UICONTROL Canais]** seção.
 
 ![](assets/7-2.png)
 

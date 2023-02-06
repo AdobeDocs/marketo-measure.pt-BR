@@ -66,13 +66,13 @@ Recomendamos adicionar o [!DNL Marketo Measure] campos para sua campanha SFDC so
    >
    >Selecione o formato &quot;uma coluna&quot; para cada uma dessas seções.
 
-1. Arraste o **[!UICONTROL Lista Relacionada a Lead de Medida da Marketo]** Forçar a página a entrar na seção de layout da página.
+1. Arraste o **[!UICONTROL Lista de leads relacionados da Marketo Measure]** Forçar a página a entrar na seção de layout da página.
 
    ![](assets/5-1.png)
 
 1. Clique na chave inglesa dentro da janela [!DNL VisualForce] e altere a altura para 100 e ative barras de rolagem.
 
-1. De volta ao menu, selecione o [!UICONTROL Aplicativos Canvas] e crie uma nova seção chamada &quot;Marketo Measure Insights&quot; abaixo dos pontos de contato [!DNL VisualForce] seção que você acabou de criar.
+1. De volta ao menu, selecione o [!UICONTROL Aplicativos Canvas] e criar uma nova seção chamada &quot;Marketo Measure Insights&quot; abaixo dos Pontos de contato [!DNL VisualForce] seção que você acabou de criar.
 
    >[!NOTE]
    >

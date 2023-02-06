@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874568
-description: Modelos de atribuição de medida do Marketo - Medida do Marketo - Documentação do produto
-title: Modelos de atribuição de medida do Marketo
+description: Modelos de atribuição do Marketo Measure - Marketo Measure - Documentação do produto
+title: Modelos de atribuição do Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
@@ -10,9 +10,9 @@ ht-degree: 2%
 
 ---
 
-# Modelos de atribuição de medida do Marketo {#marketo-measure-attribution-models}
+# Modelos de atribuição do Marketo Measure {#marketo-measure-attribution-models}
 
-A medida do Marketo oferece seis tipos de modelos de atribuição:
+O Marketo Measure oferece seis tipos de modelos de atribuição:
 
 * Primeiro toque
 * Criação do leads
@@ -69,7 +69,7 @@ A primeira visita de Kate a www.adobe.com por meio de um anúncio do Adwords rec
 
 Três dos pontos de contato principais estão incluídos no modelo de Forma de W. Neste modelo, os pontos de contato FT, LC e OC são atribuídos a cada um 30% do crédito de atribuição. Os 10% restantes são atribuídos proporcionalmente a qualquer ponto de contato intermediário que ocorra entre os três pontos de contato do marco.
 
-Kate e Austin mencionam Marketo Measure para o colega deles, Hillary. Ela encontra um conteúdo por meio de uma pesquisa no google e preenche um formulário. Posteriormente, Austin recebe um email para registro no webinário e preenche o formulário de registro no site. Kate tem uma conversa com um representante de vendas sobre o produto Marketo Measure.
+Kate e Austin mencionam o Marketo Measure ao seu colega de trabalho, Hillary. Ela encontra um conteúdo por meio de uma pesquisa no google e preenche um formulário. Posteriormente, Austin recebe um email para registro no webinário e preenche o formulário de registro no site. Kate tem uma conversa com um representante de vendas sobre o produto Marketo Measure.
 
 Hillary recebe um email com um link para a página de preços e visita a página. Em seguida, uma Oportunidade é criada para sua conta. A visita da Web de Hillary à página de preços recebe crédito pela Criação de Oportunidades porque foi a interação de marketing mais próxima da Data de Criação de Oportunidades. Cada um dos pontos de contato do marco recebe 30% do crédito de atribuição e os pontos de contato intermediários recebem os 10% restantes.
 
@@ -79,10 +79,10 @@ Hillary recebe um email com um link para a página de preços e visita a página
 
 O modelo de caminho completo inclui todos os quatro pontos de contato de marco. A FT, a LC, a OC e a CW recebem, cada uma, 22,5% do crédito da receita, e os 10% restantes são distribuídos igualmente entre os toques intermediários.
 
-Após a criação da oportunidade, Kate, Austin e Hillary decidem lançar a medida do Marketo para sua OCM, Elizabeth. Elizabeth participa de uma conferência onde a Marketo Measure está hospedando um evento. Kate vê uma postagem no Linkedin sobre um estudo de caso e preenche um formulário para baixar o conteúdo. Elizabeth participa de um jantar de vendas hospedado pela Marketo Measure. Após o jantar, ela decide comprar a Marketo Measure e se tornar um cliente. Nesse cenário, o jantar de venda seria atribuído a 22,5% do crédito de receita do acordo fechado. Os pontos de contato FT, LC e OC também recebem 22,5% do crédito. Os pontos de contato intermediários recebem igualmente os 10% restantes do crédito de receita.
+Após a criação da oportunidade, Kate, Austin e Hillary decidem lançar Marketo Measure à sua OCM, Elizabeth. Elizabeth participa de uma conferência onde a Marketo Measure está hospedando um evento. Kate vê uma postagem no Linkedin sobre um estudo de caso e preenche um formulário para baixar o conteúdo. Elizabeth participa de um jantar de vendas hospedado pela Marketo Measure. Após o jantar, ela decide comprar a Marketo Measure e se tornar um cliente. Nesse cenário, o jantar de venda seria atribuído a 22,5% do crédito de receita do acordo fechado. Os pontos de contato FT, LC e OC também recebem 22,5% do crédito. Os pontos de contato intermediários recebem igualmente os 10% restantes do crédito de receita.
 
 ![](assets/6.png)
 
 **Modelo de atribuição personalizada**
 
-A medida do Marketo também oferece um modelo de Atribuição personalizada que permite que os usuários escolham quais pontos de contato ou estágios personalizados serão incluídos em seus modelos. Além disso, os usuários podem controlar a porcentagem do crédito de atribuição atribuído a esses pontos de contato e estágios.
+O Marketo Measure também oferece um modelo de Atribuição personalizada que permite que os usuários escolham quais pontos de contato ou estágios personalizados serão incluídos em seus modelos. Além disso, os usuários podem controlar a porcentagem do crédito de atribuição atribuído a esses pontos de contato e estágios.

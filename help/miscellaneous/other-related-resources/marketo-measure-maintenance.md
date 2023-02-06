@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Manutenção"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Atualize sua memória sobre como fazer upload de informações de custo lendo [e
 
 **Atualizar lista de domínios a serem rastreados (1x/mês)**
 
-O Marketo Measure rastreia todas as páginas e subdomínios em que o Javascript está ativo, mas somente para domínios que conhecemos. Se você depurou recentemente um novo domínio, expandiu internacionalmente ou alterou seu domínio principal, entre em contato com o [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} para garantir que atualizamos sua conta adequadamente.
+O Marketo Measure rastreia todas as páginas e subdomínios em que o Javascript está ativo, mas somente para domínios que conhecemos. Se você depurou recentemente um novo domínio, expandiu internacionalmente ou alterou seu domínio principal, entre em contato com o [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para garantir que atualizemos sua conta adequadamente.
 
 **Analise o mapeamento de canal personalizado para obter precisão (1x/mês)**
 
-Durante a integração, você configura o mapeamento de canal personalizado para seus esforços de marketing online e offline. Conforme sua estratégia de marketing e uso da medida do Marketo evoluem, você deve manter a atenção nessa lógica de mapeamento para garantir que todos os seus pontos de contato estejam sendo categorizados adequadamente.
+Durante a integração, você configura o mapeamento de canal personalizado para seus esforços de marketing online e offline. Conforme sua estratégia de marketing e uso do Marketo Measure evoluem, você deve manter a atenção nessa lógica de mapeamento para garantir que todos os seus pontos de contato estejam sendo categorizados adequadamente.
 
 Lembre-se, [!DNL Marketo Measure] O reprocessa seus dados ao editar a lógica de mapeamento, de modo que não seja possível alterar essas regras mais de uma vez a cada 7 dias.
 

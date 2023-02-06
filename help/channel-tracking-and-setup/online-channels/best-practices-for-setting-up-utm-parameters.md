@@ -5,7 +5,7 @@ title: Práticas recomendadas para configurar parâmetros de UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os parâmetros de UTM são uma ótima maneira de destrinchar e analisar seus dados de marketing. [!DNL Marketo Measure] O usa e captura todos os parâmetros da UTM para preencher campos no Salesforce e no [!DNL Marketo Measure] aplicativo. Com essas informações, você poderá obter uma compreensão granular de onde vêm seus leads, oportunidades e negócios fechados/ganhos.
 
-Você pode utilizar o [Construtor de URL da Google](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;} para configurar seus parâmetros de UTM e adicioná-los aos links em seus esforços de marketing. Use este [Planilha do Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} se você quiser uma maneira mais fácil de rastrear todos os links de UTM.
+Você pode utilizar o [Construtor de URL da Google](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} se quiser uma maneira mais fácil de rastrear todos os links de UTM.
 
 ## Valores de alto nível para cada parâmetro {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Observe que os termos/canais não são duplicados e utm_term não é usado neste caso.
 
-Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

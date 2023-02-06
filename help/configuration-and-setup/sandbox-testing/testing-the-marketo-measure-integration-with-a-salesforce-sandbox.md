@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874765
-description: Testar a integração de medida do Marketo com uma sandbox do Salesforce - [!DNL Marketo Measure] - Documentação do produto
-title: Teste da integração de medida da Marketo com uma sandbox Salesforce
+description: Testar a integração da Marketo Measure com uma sandbox do Salesforce - [!DNL Marketo Measure] - Documentação do produto
+title: Teste da integração da Marketo Measure com uma sandbox do Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Teste da integração de medida da Marketo com uma sandbox Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# Teste da integração da Marketo Measure com uma sandbox do Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >

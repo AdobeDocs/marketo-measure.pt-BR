@@ -5,7 +5,7 @@ title: Modelo e configuração de atribuição personalizada
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ O [!DNL Marketo Measure] O modelo Atribuição personalizada permite que os usu�
 
    Para começar a criar seu modelo de atribuição personalizado, você precisará selecionar quais estágios são importantes para sua equipe de marketing. Além do [!DNL Marketo Measure] estágios de marcos (FT, LC, OC, Closed) você pode adicionar até seis status adicionais de lead/contato ou estágios de oportunidade em seu modelo personalizado. Por exemplo, é comum que o estágio MQL seja incluído no modelo personalizado. As equipes de marketing geralmente querem saber quais esforços ou canais estão conduzindo as transições para o estágio MQL.
 
-   Fazer logon em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Ir para [!UICONTROL Minha conta] > [!UICONTROL Configurações] > e, na seção CRM , selecione **[!UICONTROL Mapeamento de palco]**.
+   Fazer logon em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ir para [!UICONTROL Minha conta] > [!UICONTROL Configurações] > e, na seção CRM , selecione **[!UICONTROL Mapeamento de palco]**.
 
    Uma vez aqui, você precisará selecionar quais leads/contatos e estágios de oportunidade serão incluídos ao selecionar o **[!UICONTROL Incluir no modelo]** caixa.
 

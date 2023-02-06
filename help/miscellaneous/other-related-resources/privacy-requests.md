@@ -4,7 +4,7 @@ title: Solicitações de privacidade
 exl-id: 883e475f-9868-412a-b505-230556f38484
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -15,14 +15,14 @@ Este documento fornece uma visão geral do gerenciamento de solicitações indiv
 
 Você pode enviar solicitações individuais para acessar e excluir dados do consumidor de [!DNL Marketo Measure] de duas formas:
 
-* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=&quot;_blank&quot;}.
-* Por meio da **[!DNL Privacy Service]API**. Veja a documentação [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=&quot;_blank&quot;} e a referência da API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target=&quot;_blank&quot;}.
+* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Por meio da **[!DNL Privacy Service]API**. Veja a documentação [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-O [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;} oferece suporte a dois tipos de solicitações: acesso aos dados e exclusão dos dados.
+O [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} O suporta dois tipos de solicitações: acesso aos dados e exclusão dos dados.
 
 Saiba como criar solicitações de acesso e exclusão.
 
-## Configuração necessária para enviar solicitações para a Medida do Marketo {#required-setup-to-send-requests-for-marketo-measure}
+## Configuração necessária para enviar solicitações para o Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 Para fazer solicitações de acesso e exclusão de dados para [!DNL Marketo Measure], você deve:
 

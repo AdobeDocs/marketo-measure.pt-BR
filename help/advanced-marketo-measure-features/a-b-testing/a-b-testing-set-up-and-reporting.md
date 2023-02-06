@@ -5,18 +5,18 @@ title: Configuração e criação de relatórios de testes A/B
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
 
 # Configuração e criação de relatórios de testes A/B {#a-b-testing-set-up-and-reporting}
 
-O [!DNL Marketo Measure] A integração do teste A/B permite rastrear o impacto da receita do [Otimizado](https://optimizely.com/){target=&quot;_blank&quot;} e experimentos de site VWO. Este guia de artigo fornece instruções sobre como adicionar [!DNL Marketo Measure] seções Teste A/B ao cliente potencial, [!UICONTROL Contato], Caso e [!UICONTROL Oportunidade] layouts de página. Também abordaremos práticas gerais de relatórios e recomendações de execução [!DNL Marketo Measure] Tipos de relatório A/B.
+O [!DNL Marketo Measure] A integração do teste A/B permite rastrear o impacto da receita do [Otimizado](https://optimizely.com/){target="_blank"} experimentos no local do VWO e do . Este guia de artigo fornece instruções sobre como adicionar [!DNL Marketo Measure] seções Teste A/B ao cliente potencial, [!UICONTROL Contato], Caso e [!UICONTROL Oportunidade] layouts de página. Também abordaremos práticas gerais de relatórios e recomendações de execução [!DNL Marketo Measure] Tipos de relatório A/B.
 
 ## Configurar {#set-up}
 
-Adicione o [!DNL Marketo Measure] seções Teste A/B sobre lead, contato, caso e oportunidade. [!DNL Marketo Measure] A integração do teste A/B permite rastrear o impacto da receita do [Otimizado](https://optimizely.com/){target=&quot;_blank&quot;} e [VWO](https://vwo.com/)Experimentos de site do {target=&quot;_blank&quot;}.
+Adicione o [!DNL Marketo Measure] seções Teste A/B sobre lead, contato, caso e oportunidade. [!DNL Marketo Measure] A integração do teste A/B permite rastrear o impacto da receita do [Otimizado](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos no local.
 
 1. Verifique se você está usando o pacote [!DNL Marketo Measure] v3.9 ou posterior. Você pode fazer isso indo para [!UICONTROL Salesforce] >[!UICONTROL Configurar] > [!UICONTROL Pacotes instalados].
 1. Edite o layout da Página de lead e adicione o **[!DNL Marketo Measure]Testes A/B** Lista relacionada à página.
@@ -31,7 +31,7 @@ Adicione o [!DNL Marketo Measure] seções Teste A/B sobre lead, contato, caso e
 
    ![](assets/3.png)
 
-1. Entre em contato com seu [!DNL Marketo Measure] rep ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} para habilitar o recurso.
+1. Entre em contato com seu [!DNL Marketo Measure] rep ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para ativar o recurso.
 
 ## Gerando relatório {#reporting}
 

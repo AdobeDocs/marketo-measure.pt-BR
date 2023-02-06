@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Parâmetros"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ Exemplo de um URL com [!DNL Marketo Measure] parâmetros:
 
 >[!NOTE]
 >
->Para obter mais informações sobre tipos de correspondência, [este é um artigo relevante do AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target=&quot;_blank&quot;}.
+>Para obter mais informações sobre tipos de correspondência, [este é um artigo relevante do AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
-   * Representa o tipo de rede de anúncios - [exibir ou pesquisar](https://support.google.com/adwords/answer/1752334?hl=en){target=&quot;_blank&quot;}.
+   * Representa o tipo de rede de anúncios - [exibir ou pesquisar](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
    * Isso é semelhante ao parâmetro de origem da UTM.
 
 * `_bg={adgroupID}`

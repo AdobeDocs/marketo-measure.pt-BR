@@ -18,7 +18,7 @@ Se estiver usando [!DNL Uberflip] para gerenciar seu conteúdo, é importante qu
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. Certifique-se de que [!DNL Marketo Measure] o código do preâmbulo é acionado no carregamento da página e AJAX alteração da página. Faça isso dentro da [!UICONTROL Custom Code>JS] seção
+1. Certifique-se de que [!DNL Marketo Measure] o código do preâmbulo é acionado no carregamento da página e na alteração AJAX página. Faça isso dentro da [!UICONTROL Custom Code>JS] seção
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 

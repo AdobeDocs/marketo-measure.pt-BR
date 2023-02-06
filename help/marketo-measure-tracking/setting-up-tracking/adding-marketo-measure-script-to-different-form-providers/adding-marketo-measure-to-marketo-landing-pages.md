@@ -5,7 +5,7 @@ title: Adição de [!DNL Marketo Measure] para páginas de aterrissagem do Marke
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Exemplo na captura de tela abaixo
 
 * É provável que você tenha vários modelos de Landing page em uso, certifique-se de adicionar o código a todos os modelos que têm formulários neles.
 
-* Às vezes, ao editar o modelo para landing pages, é necessário aprovar novamente as páginas nas quais a landing page é usada. Este artigo explica [como aprovar em massa](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}.
+* Às vezes, ao editar o modelo para landing pages, é necessário aprovar novamente as páginas nas quais a landing page é usada. Este artigo explica [como aprovar em massa](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

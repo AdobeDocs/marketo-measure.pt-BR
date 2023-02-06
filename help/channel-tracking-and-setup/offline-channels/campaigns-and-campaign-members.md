@@ -5,7 +5,7 @@ title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -66,12 +66,12 @@ Isso pode ser necessário se uma lista tiver sido carregada dias/semanas/meses a
 
 Para saber se você precisa usar a Data do ponto de contato do comprador ou não, veja como as datas são determinadas por [!DNL Marketo Measure] dependendo do [!UICONTROL Tipo de sincronização] que é selecionado para a Campanha.
 
-Se a variável [!UICONTROL Tipo de sincronização] for definida como &quot;Incluir todos os membros da campanha&quot;, a prioridade de definir a Data do ponto de contato será de cima para baixo:
+Se a variável [!UICONTROL Tipo de Sincronização] for definida como &quot;Incluir todos os membros da campanha&quot;, a prioridade de definir a Data do ponto de contato será de cima para baixo:
 
 * Data do ponto de contato do comprador
 * Data de criação do membro da campanha
 
-Se a variável [!UICONTROL Tipo de sincronização] for definida como &quot;Incluir somente membros da campanha &quot;respondidos&quot;, a prioridade de definir a Data do ponto de contato será de cima para baixo:
+Se a variável [!UICONTROL Tipo de Sincronização] for definida como &quot;Incluir somente membros da campanha &quot;respondidos&quot;, a prioridade de definir a Data do ponto de contato será de cima para baixo:
 
 * Data do ponto de contato do comprador
 * Data da primeira resposta
@@ -87,7 +87,7 @@ A Data do ponto de contato da atualização em massa está incluída no [!DNL Ma
 
 Se um grande número de registros do Membro da campanha precisar ser atualizado, você poderá usar a variável [!UICONTROL Data do ponto de contato de atualização em massa] botão para editar em massa.
 
-Se houver casos de uso exclusivos que não sejam abordados por essa interface, você também poderá usar o [Carregador de dados](https://dataloader.io/){target=&quot;_blank&quot;} para exportar os registros, fazer a alteração e fazer upload dos registros de volta.
+Se houver casos de uso exclusivos que não sejam abordados por essa interface, você também poderá usar o [Carregador de dados](https://dataloader.io/){target="_blank"} para exportar os registros, fazer a alteração e fazer upload dos registros novamente.
 
 Comece pesquisando os registros e filtrando aqueles para os quais deseja definir uma Data do ponto de contato do comprador.
 
@@ -117,7 +117,7 @@ Para contornar esse problema, [!DNL Marketo Measure] criado um [!DNL Marketo Mea
 
 >[!CAUTION]
 >
->Lembre-se de que esse acionador não rastreia nenhum membro da campanha que foi removido no passado, portanto, isso só funciona daqui para frente. Se precisar remover um grande número de pontos de contato de membros da campanha anteriores, entre em contato com [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+>Lembre-se de que esse acionador não rastreia nenhum membro da campanha que foi removido no passado, portanto, isso só funciona daqui para frente. Se precisar remover um grande número de pontos de contato de membros da campanha anteriores, entre em contato com [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

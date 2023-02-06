@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Glossário de campos de medida do Marketo - Medida do Marketo - Documentação do produto
-title: Glossário de campos de medida do Marketo
+description: Glossário de campos do Marketo Measure - Marketo Measure - Documentação do produto
+title: Glossário de campos do Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Glossário de campos de medida do Marketo {#glossary-of-marketo-measure-fields}
+# Glossário de campos do Marketo Measure {#glossary-of-marketo-measure-fields}
 
-Este artigo fornece um glossário de todos os Campos de medida do Marketo adicionados ao seu Salesforce a partir do Pacote base de medidas do Marketo. Você também encontrará informações sobre em qual Objeto o Campo pode ser encontrado e como cada Campo é preenchido com informações.
+Este artigo fornece um glossário de todos os Campos do Marketo Measure adicionados ao seu Salesforce a partir do Pacote básico do Marketo Measure. Você também encontrará informações sobre em qual Objeto o Campo pode ser encontrado e como cada Campo é preenchido com informações.
 
-Para um mapa ao qual cada Campo de Medida do Marketo está relacionado, [clique aqui](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Para um mapa ao qual cada Campo Marketo Measure está relacionado, [clique aqui](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ ・ [B](#b) ・ ・ [C](#c) ・ ・ [D](#d) ・ ・ [E](#e) ・ ・ [F](#f) ・ ・ [G](#g) H ・ I ・ J ・ [K](#k) ・ ・ [L](#l) ・ ・ [M](#m) ・ N ・ [O](#o) ・ ・ [P](#p) ・ Q ・ [R](#r) ・ ・ [S](#s) ・ ・ [T](#t) ・ ・ [U](#u) ・ ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ Se nenhuma das opções acima, esse campo ficará em branco.
 
 `3)` Se o ponto de contato veio de uma campanha do Salesforce, o nome da campanha do Salesforce será exibido aqui.
 
-`4)` Isso será preenchido com o Nome da campanha definido para Pontos de contato gerados a partir de Atividades, conforme criado em sua Conta de medida do Marketo.
+`4)` Isso será preenchido com o Nome da campanha definido para Pontos de contato gerados a partir de Atividades, conforme criado em sua Conta do Marketo Measure.
 
 Se nenhuma das opções acima, esse campo ficará em branco.
 
@@ -126,9 +126,9 @@ Este campo exibirá a porcentagem da receita atribuída a um ponto de contato de
 
 ## B {#b}
 
-**Valor da Oportunidade de Medida da Marketo** | Oportunidade do Salesforce
+**Valor da Oportunidade da Marketo Measure** | Oportunidade do Salesforce
 
-Se você estiver usando um campo Quantia personalizado para relatar a receita da Oportunidade, a Medida do Marketo não poderá ler esses campos de Quantia personalizados. O Valor da Oportunidade de Medida do Marketo é um campo oculto usado para criar um fluxo de trabalho que permite que a Medida do Marketo leia campos de Quantia personalizados na Oportunidade.
+Se você estiver usando um campo Quantia personalizado para relatar a receita da Oportunidade, o Marketo Measure não poderá ler esses campos de Quantia personalizados. O Valor da Oportunidade do Marketo Measure é um campo oculto usado para criar um fluxo de trabalho que permite que o Marketo Measure leia campos de Quantia personalizados na Oportunidade.
 
 **Navegador** | Ponto de contato do comprador, ponto de contato da atribuição do comprador
 
@@ -196,9 +196,9 @@ Este campo mostra, em formato decimal, a porcentagem de crédito atribuída a um
 
 ## D {#d}
 
-Data de comunicação | Marketo Measure ABTest, Evento de medida Marketo
+Data de comunicação | Marketo Measure ABTest, Evento Marketo Measure
 
-Evento de medida do Marketo - a data em que um usuário tomou uma ação específica em seu site, ativando um Evento
+Evento do Marketo Measure - a data em que um usuário tomou uma ação específica em seu site, ativando um Evento
 
 Marketo Measure ABTest - a data em que um usuário participou de um teste A/B em seu site
 
@@ -206,11 +206,11 @@ Marketo Measure ABTest - a data em que um usuário participou de um teste A/B em
 
 ## E {#e}
 
-**Nome do evento** | Evento de medida Marketo
+**Nome do evento** | Evento Marketo Measure
 
 Este campo exibe o nome da ação que acionou o evento (ou seja, Exibição de página).
 
-**Valor do evento** | Evento de medida Marketo
+**Valor do evento** | Evento Marketo Measure
 
 A descrição do evento (ou seja, Página inicial)
 
@@ -218,7 +218,7 @@ A descrição do evento (ou seja, Página inicial)
 
 Este campo exibe o nome do experimento (ou seja, o botão Avaliação)
 
-**ID do experimento** |Teste AB de medida Marketo
+**ID do experimento** |Teste AB do Marketo Measure
 
 O código de identificação único para cada experimento
 
@@ -288,7 +288,7 @@ Este campo exibe a versão reduzida do URL (sem parâmetros de UTM) da primeira 
 
 Este campo exibe todo o URL (incluindo parâmetros de UTM) da primeira página da Web visitada durante uma sessão da Web.
 
-**Líder** | Ponto de contato do comprador, Pessoa de medida da Marketo
+**Líder** | Ponto de contato do comprador, Marketo Measure
 
 Este campo exibe o nome do lead ao qual um ponto de contato pertence.
 
@@ -316,7 +316,7 @@ Este campo mostra o canal de marketing e o subcanal ao qual um ponto de contato 
 
 `4)` Isso será preenchido com o valor Tipo de atividade da Atividade relacionada que gerou o Ponto de contato.
 
-Se nenhuma das situações anteriores, a Marketo Measure definirá automaticamente um valor Médio.
+Se nenhuma das situações acima, o Marketo Measure define automaticamente um valor Médio.
 
 [Clique aqui para retornar à parte superior da página](#top)
 

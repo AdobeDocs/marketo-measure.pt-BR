@@ -5,7 +5,7 @@ title: Campos do Touchpoint
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Para criar um campo calculado, lembre-se de que há três ações diferentes que
 
 Extrações
 
-O operador de extração extrai o valor de um campo de outro local, como: um campo Campanha, um campo de lead ou um caso de uso mais avançado, [extrair parâmetros personalizados da landing page](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}. Em seguida, o coloca em um Campo de ponto de contato (Consulte [Mapas Para Exemplo](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2).
+O operador de extração extrai o valor de um campo de outro local, como: um campo Campanha, um campo de lead ou um caso de uso mais avançado, [extrair parâmetros personalizados da landing page](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
 
 **Exemplo #1**
 
@@ -220,7 +220,7 @@ Há trabalho adicional necessário para expor os novos campos na variável [!DNL
 
 **Como posso validar se minha expressão de extração é válida e obter o valor correto?**
 
-Há uma ferramenta online ([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}) que você pode executar e testar a expressão. A expressão será exibida em verde se for válida ou em vermelho se for inválida. Além disso, a caixa de explicação no canto superior direito é útil e informa o que você está extraindo.
+Há uma ferramenta online ([https://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão será exibida em verde se for válida ou em vermelho se for inválida. Além disso, a caixa de explicação no canto superior direito é útil e informa o que você está extraindo.
 
 ![](assets/twelve.png)
 

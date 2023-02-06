@@ -5,7 +5,7 @@ title: Sandbox do Salesforce para migração de produção
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Se você optou por testar [!DNL Marketo Measure] em [!DNL Salesforce] Ambiente d
 
 * Instale os dois [!DNL Marketo Measure] pacotes em produção com o &quot;[!UICONTROL Todos os usuários]&quot;
 
-   * [Pacote básico](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [Pacote de extensão do painel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [Pacote básico](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Pacote de extensão do painel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Para obter mais informações sobre o [!DNL Marketo Measure] relação com [!DNL Salesforce], dê uma olhada em [este artigo](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Um pouco de [!DNL Salesforce] é necessária. Os elementos de ação específicos são descritos a seguir em [Etapa 4 abaixo](#salesforce-configuration)
@@ -51,7 +51,7 @@ Se você optou por testar [!DNL Marketo Measure] em [!DNL Salesforce] Ambiente d
 
 [Conjuntos de permissões](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Compartilhamento de relatórios](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[Compartilhamento de relatórios](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Ocultar tipos de relatório desnecessários](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

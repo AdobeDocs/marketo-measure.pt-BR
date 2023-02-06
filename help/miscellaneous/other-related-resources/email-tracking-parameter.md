@@ -26,7 +26,7 @@ Quando um visitante chega ao seu site, [!DNL Marketo Measure] O espera encontrar
 
 Como cliente, você criará um modelo de email normalmente. Quando chegar o momento de adicionar a página de aterrissagem da ação que deseja rastrear, será necessário determinar o token, a tag da variável ou a macro que sua plataforma de Automação de marketing aceita para exibir dinamicamente o valor de cada indivíduo.
 
-A medida Marketo aceita os seguintes valores: Endereço de email, ID do cliente potencial do Salesforce ou ID de contato do Salesforce.
+A Marketo Measure aceita os seguintes valores: Endereço de email, ID do cliente potencial do Salesforce ou ID de contato do Salesforce.
 
 ## Exemplos de tag {#tag-examples}
 

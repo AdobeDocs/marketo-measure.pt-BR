@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586069
-description: Garantia do consentimento do GDPR no Marketo Measure Js - Medida do Marketo - Documentação do produto
+description: Garantia do consentimento do GDPR no Marketo Measure Js - Marketo Measure - Documentação do produto
 title: Garantia do consentimento do GDPR no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458

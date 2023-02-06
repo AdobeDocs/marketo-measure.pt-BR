@@ -5,7 +5,7 @@ title: Reautorizar contas conectadas
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Se a plataforma de CRM se desconectar, [!DNL Marketo Measure] não poderá atual
 
 ## Autorizar novamente contas desconectadas {#re-authorizing-disconnected-accounts}
 
-1. Ir para [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} e fazer logon.
+1. Ir para [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e faça logon.
 1. Selecionar **[!UICONTROL Configurações]** nos termos do [!UICONTROL Minha conta] no canto superior esquerdo.
 1. Encontre a seção Integrações à esquerda e clique em **[!UICONTROL Conexões]**.
 1. Selecione o símbolo da Chave Vermelha ao lado da conta que precisa ser reconectada.

@@ -5,7 +5,7 @@ title: Noções básicas [!DNL Marketo Measure] Marcação do AdWords
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ No entanto, o mesmo URL fornecerá dados granulares por causa da variável [!DNL
 **If [!DNL Marketo Measure] encontra um modelo de rastreamento:**
 
 * [!DNL Marketo Measure] adicionará seus parâmetros ao Modelo de rastreamento.
-* Se um redirecionamento de terceiros for encontrado em um Modelo de rastreamento, como Kenshoo ou Marin, [!DNL Marketo Measure] não executará nenhuma ação. Em vez disso, você deve [adicionar [!DNL Marketo Measure] parâmetros para a ferramenta de terceiros na sua conta](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Se um redirecionamento de terceiros for encontrado em um Modelo de rastreamento, como Kenshoo ou Marin, [!DNL Marketo Measure] não executará nenhuma ação. Em vez disso, você deve [adicionar [!DNL Marketo Measure] parâmetros para a ferramenta de terceiros na sua conta](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 No entanto, se nenhum Modelo de rastreamento for encontrado, [!DNL Marketo Measure] irá:
 
@@ -40,7 +40,7 @@ No entanto, se nenhum Modelo de rastreamento for encontrado, [!DNL Marketo Measu
 
 ## Modelos de rastreamento {#tracking-templates}
 
-Conforme explicado por [!DNL Google AdWords], um modelo de rastreamento é o URL usado para acessar uma página de aterrissagem. As informações de rastreamento coletadas são usadas para entender o tráfego de anúncios. [Clique aqui](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} para obter mais informações do Google.
+Conforme explicado por [!DNL Google AdWords], um modelo de rastreamento é o URL usado para acessar uma página de aterrissagem. As informações de rastreamento coletadas são usadas para entender o tráfego de anúncios. [Clique aqui](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} para obter mais informações da Google.
 
 [!DNL Marketo Measure] A recomenda o uso de um modelo de Rastreamento no nível da conta, nível da campanha ou grupo de anúncios , pois permite a adição e subtração de parâmetros para todos os anúncios sem o risco de interrupções ou exclusão do histórico de anúncios.
 
@@ -108,6 +108,6 @@ A: 4 horas
 
 >[!NOTE]
 >
->Depois que as alterações forem feitas, você estará pronto. Sinta-se à vontade para entrar em contato com o [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} se houver dúvidas durante a configuração.
+>Depois que as alterações forem feitas, você estará pronto. Sinta-se à vontade para entrar em contato com o [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} se houver dúvidas durante a configuração.
 
-[Clique aqui](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} para obter instruções da Google sobre como criar Modelos de rastreamento no nível da conta.
+[Clique aqui](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} para obter instruções da Google sobre como criar Modelos de rastreamento no nível da conta.

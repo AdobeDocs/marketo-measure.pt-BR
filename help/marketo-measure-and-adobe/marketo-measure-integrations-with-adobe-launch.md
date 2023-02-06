@@ -4,7 +4,7 @@ title: '[!DNL Marketo Measure] Integrações com o Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 source-git-commit: 19f670505358b04fb26620574b71c2af8d0d9847
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ Quando instalado e configurado no Adobe Launch, a variável [!DNL Marketo Measur
 >
 >Confira os seguintes links para saber mais sobre o Adobe Launch e suas extensões:
 >
->* [[!DNL Marketo Measure] Extensão](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target=&quot;_blank&quot;}
->* [Visão geral do Adobe Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target=&quot;_blank&quot;}
->* [Visão geral da extensão do Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target=&quot;_blank&quot;}
+>* [[!DNL Marketo Measure] Extensão](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
+>* [Visão geral do Adobe Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
+>* [Visão geral da extensão do Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
 
 
-1. Crie uma propriedade seguindo as etapas [neste artigo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target=&quot;_blank&quot;}.
+1. Crie uma propriedade seguindo as etapas [neste artigo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Clique na propriedade que você acabou de criar.
 

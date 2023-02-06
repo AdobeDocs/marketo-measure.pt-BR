@@ -5,7 +5,7 @@ title: Por que você nunca deve excluir pontos de contato
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Quando um ponto de contato é excluído, ele cria um buraco nos dados de atribui
 
 ![](assets/1.png)
 
-Se os pontos de contato tiverem sido excluídos do SFDC, entre em contato com [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} para solicitar uma reimportação de seus dados.
+Se os pontos de contato tiverem sido excluídos do SFDC, entre em contato com [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar uma reimportação dos seus dados.

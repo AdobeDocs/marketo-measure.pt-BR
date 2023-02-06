@@ -5,7 +5,7 @@ title: Usando um Campo de Quantia de Receita Personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ A partir daqui, começaremos a criar o workflow.
 
    Isso pode ser feito executando suas oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre o uso do Carregador de dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Se houver alguma dúvida no caminho, não hesite em entrar em contato com o Gerente de sucesso do cliente ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Se houver alguma dúvida no caminho, não hesite em entrar em contato com o Gerente de sucesso do cliente ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

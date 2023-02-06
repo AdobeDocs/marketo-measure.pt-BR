@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] [!DNL Salesforce] Instalação e configuração d
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ O [!DNL Marketo Measure] O pacote básico contém:
 
 Siga as etapas abaixo para instalar o [!DNL Marketo Measure Salesforce] pacote base.
 
-1. Usando um navegador incógnito, acesse [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;} e fazer logon.
+1. Usando um navegador incógnito, acesse [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} e faça logon.
 
 1. Instalar no [!DNL Marketo Measure] pacote em sandbox ou produção.
 
@@ -41,17 +41,17 @@ Siga as etapas abaixo para instalar o [!DNL Marketo Measure Salesforce] pacote b
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-Após concluir a instalação, você pode atualizar seu [[!DNL Salesforce] layouts de página](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target=&quot;_blank&quot;} com o [!DNL Marketo Measure] , se desejar.
+Após concluir a instalação, você pode atualizar seu [[!DNL Salesforce] layouts de página](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} com o [!DNL Marketo Measure] , se desejar.
 
 >[!NOTE]
 >
->Leia sobre o [!DNL Marketo Measure] Conjuntos de permissões criados e [como eles serão usados](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target=&quot;_blank&quot;}.
+>Leia sobre o [!DNL Marketo Measure] Conjuntos de permissões criados e [como eles serão usados](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Instalar [!DNL Marketo Measure] Pacote do painel {#install-marketo-measure-dashboard-package}
 
 O [!UICONTROL Painel] O Pacote de extensão contém três painéis pré-criados. Recomendamos instalar [!UICONTROL within] Produção para todos os usuários.
 
-1. Instale o pacote do [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}.
+1. Instale o pacote do [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
 
 1. Selecionar **[!UICONTROL Instalar para todos os usuários]**.
 
