@@ -1,12 +1,10 @@
 ---
 description: '''[!DNL Marketo Measure] Visão geral do Ultimate - [!DNL Marketo Measure] - Documentação do produto'
 title: '[!DNL Marketo Measure] Visão geral do Ultimate'
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -28,29 +26,29 @@ ht-degree: 1%
 
 * Integração com RTCDP (B2B ou B2P Edition), fornecendo uma solução de atribuição B2B integrada para clientes RTCDP como RTCDP e [!DNL Marketo Measure] ambos trabalham com dados centralizados do Adobe Experience Platform (AEP).
 
-**Camadas Marketo Measure 1-3**
+**[!DNL Marketo Measure]Camadas 1-3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## Novidades da versão [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**TÍTULO DO CABEÇALHO - Importar dados B2B por meio do AEP**
+**Importar dados B2B por meio do AEP**
 
 Espera-se que os profissionais de marketing forneçam seus dados B2B (por exemplo, Conta, Oportunidade, Contato, Cliente Potencial, Campanha, Membro da Campanha, Atividade) por meio da AEP. As conexões diretas de CRM e Marketo Engage não estão mais disponíveis para o Ultimate. Os profissionais de marketing continuarão a trazer dados da plataforma de publicidade por meio de conexões diretas e do rastreamento de atividades da Web por meio de [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**TÍTULO DO CABEÇALHO - Configuração de moeda padrão**
+**Configuração de Moeda Padrão**
 
-BREVE INTRO???
+[!DNL Marketo Measure Ultimate] definirá a moeda padrão como USD até que o usuário a altere. Definir uma nova moeda padrão atualizará os dados sem reprocessar. Desde que a moeda selecionada esteja presente como um código ISO de destino, não é necessário enviar taxas de conversão.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**TÍTULO DO CABEÇALHO - Sandbox do Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]Área restrita**
 
 [!DNL Marketo Measure Ultimate] A instância deve ser mapeada para uma sandbox AEP antes de criar o [!DNL Marketo Measure] fluxos de dados de destino no AEP.
 
@@ -64,7 +62,7 @@ Os dados de uma determinada entidade (por exemplo, Conta) de uma determinada fon
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**TÍTULO DO CABEÇALHO - Mapeamento de estágio**
+**Mapeamento de estágios**
 
 Todos [!DNL Marketo Measure Ultimate] As regras do são específicas do conjunto de dados. As regras de Mapeamento de Estágio devem ser criadas para todos os conjuntos de dados e todos os estágios selecionados.
 
