@@ -1,18 +1,18 @@
 ---
 unique-page-id: 27656441
 description: Perguntas frequentes sobre integração de Drift - [!DNL Marketo Measure] - Documentação do produto
-title: Perguntas frequentes sobre integração de Drift
+title: Perguntas frequentes sobre integração de desvio
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 1%
 
 ---
 
-# Perguntas frequentes sobre integração de Drift {#drift-integration-faq}
+# Perguntas frequentes sobre integração de desvio {#drift-integration-faq}
 
-Como parte do [!DNL Marketo Measure] integração com o Drift, descrevemos algumas das perguntas mais frequentes. Se houver alguma dúvida não descrita abaixo, entre em contato com o Gerente de sucesso do cliente ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Como parte do [!DNL Marketo Measure] integração com o Drift, descrevemos algumas das perguntas mais frequentes. Se houver alguma dúvida não descrita abaixo, entre em contato com a equipe de conta do Adobe (seu gerente de conta) ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Como a integração está habilitada?**
 

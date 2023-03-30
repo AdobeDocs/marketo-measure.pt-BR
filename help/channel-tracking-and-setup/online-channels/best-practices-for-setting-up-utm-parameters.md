@@ -3,10 +3,10 @@ unique-page-id: 18874732
 description: Práticas recomendadas para configurar parâmetros de UTM - [!DNL Marketo Measure] - Documentação do produto
 title: Práticas recomendadas para configurar parâmetros de UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 3%
 
 ---
 
@@ -20,13 +20,13 @@ Você pode utilizar o [Construtor de URL da Google](https://support.google.com/a
 
 **utm_medium**: Esse campo mapeia para o campo Médio. Use utm_medium para indicar o canal de alto nível.
 
-Por exemplo: [!UICONTROL Social], CPC, email, web, orgânico
+por exemplo, [!UICONTROL Social], CPC, email, web, orgânico
 
 Não use esse campo para chamar o subcanal.
 
 **utm_source**: Esse campo mapeia para o campo Fonte do ponto de contato. Use utm_source para definir o subcanal do qual o lead se origina.
 
-Por exemplo: Facebook, Twitter, Linkedin, Drip_email, Email_blast, boletim informativo.
+Por exemplo, Facebook, Twitter, Linkedin, Drip_email, Email_blast, boletim informativo.
 
 Mantenha simples. Não use esse parâmetro para indicar o tipo de anúncio, como redefinição de metas, patrocinado etc. Não adicione um utm_source = homepage, webdirect, site. [!DNL Marketo Measure] O preencherá automaticamente essas informações para você.
 
@@ -36,17 +36,17 @@ Esse também é um bom parâmetro para indicar localização geográfica, tipo d
 
 Recomendamos usar sublinhados em vez de espaços e evitar usar pontuação. Isso reduz as chances de codificação de erros pelos navegadores ao ler seus parâmetros.
 
-Por exemplo: AU_Idea_for_an_App_50k
+Por exemplo, AU_Idea_for_an_App_50k
 
 **utm_content**: Isso mapeia para Conteúdo de anúncio. Use o Título da Publicidade no parâmetro utm_content. Se for uma publicidade em imagem, use o título da publicidade e inclua as dimensões da publicidade.
 
-Por exemplo: [título da publicidade] 200x400px
+por exemplo, [título da publicidade] 200x400px
 
 **utm_term**: Isso mapeia para Texto de palavra-chave. Use esse parâmetro para denotar a palavra-chave relacionada ao acionamento da publicidade.
 
 Se não houver uma palavra-chave relacionada à publicidade, deixe este parâmetro em branco.
 
-Por exemplo: Ideias do aplicativo iPhone
+Por exemplo, iPhone App Ideas
 
 **Mantenha simples e sucinto. Não duplique esforços, termos e canais.**
 
@@ -54,7 +54,7 @@ Imaginamos a hierarquia de UTM da seguinte maneira:
 
 Médio > [!UICONTROL Origem] > [!UICONTROL Campanha] > [!UICONTROL Conteúdo/Termo]
 
-Por exemplo: Se uma [!UICONTROL display] e for colocado no Facebook, recomendamos o seguinte:
+Por exemplo, se uma [!UICONTROL display] e for colocado no Facebook, recomendamos o seguinte:
 
 fakewebsite.com/
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Observe que os termos/canais não são duplicados e utm_term não é usado neste caso.
 
-Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Em caso de dúvidas, entre em contato com a Equipe de conta do Adobe (seu Gerente de conta) ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

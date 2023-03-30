@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874793
 description: Usando um campo de valor de receita personalizado - [!DNL Marketo Measure] - Documentação do produto
-title: Usando um Campo de Quantia de Receita Personalizada
+title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 3%
 
 ---
 
-# Usando um Campo de Quantia de Receita Personalizada {#using-a-custom-revenue-amount-field}
+# Utilização de um campo de quantia de receita personalizada {#using-a-custom-revenue-amount-field}
 
 Por padrão, os pontos de contato de atribuição do comprador obterão a Quantidade da oportunidade de um dos dois campos:
 
@@ -53,4 +53,4 @@ A partir daqui, começaremos a criar o workflow.
 
    Isso pode ser feito executando suas oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre o uso do Carregador de dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Se houver alguma dúvida no caminho, não hesite em entrar em contato com o Gerente de sucesso do cliente ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Se houver alguma dúvida no caminho, não hesite em entrar em contato com a equipe de conta do Adobe (seu gerente de conta) ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

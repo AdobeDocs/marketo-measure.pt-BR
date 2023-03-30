@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL Marketo Measure] - Documentação do produto"
 title: "[!DNL Marketo Measure] Integrações com [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ A integração dos atributos do cliente B2B permite que usuários mútuos de [!D
 
 1. Clique no botão **[!UICONTROL Configurar nova conexão de atributos do cliente]** e siga as instruções para configurar a integração dos Atributos do cliente. A interface do usuário solicitará a identificação de alias e as informações de conexão do FTP adquiridas ao criar a Fonte de atributos do cliente no Console dos principais serviços, bem como a seleção do conjunto de atributos da conta que você deseja sincronizar com o [!DNL Adobe Analytics] conta.
 
-   Você também precisará inserir sua ID organizacional do Adobe IMS. Essa ID é exibida no canto inferior direito do Admin Console Adobe Experience Cloud. Para obter mais ajuda para encontrar essa ID, consulte o Gerente de sucesso do cliente.
+   Você também precisará inserir sua ID organizacional do Adobe IMS. Essa ID é exibida no canto inferior direito do Admin Console Adobe Experience Cloud. Para obter mais ajuda para encontrar essa ID, consulte a Equipe da conta do Adobe (seu Gerente de conta).
 
 1. Quando terminar de criar a conexão no [!DNL Marketo Measure] , você precisará voltar para o console do Experience Cloud para [validar o esquema](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Você não precisa se preocupar com o upload do arquivo FTP, [!DNL Marketo Measure] O automatizou essa parte para você. Tudo o que você precisa fazer é ir para a tela de esquema &quot;Exibir/editar&quot; da Fonte de atributos do cliente criada na Etapa 1 e informar ao Adobe quais tipos de dados são para cada um dos atributos que [!DNL Marketo Measure] foi enviado em seu nome. Você também pode criar novos nomes compatíveis com a exibição para os atributos carregados, se desejar.
 

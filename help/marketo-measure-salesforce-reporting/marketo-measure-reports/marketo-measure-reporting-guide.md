@@ -2,10 +2,10 @@
 description: "[!DNL Marketo Measure] Guia de relatórios - [!DNL Marketo Measure] - Documentação do produto"
 title: "[!DNL Marketo Measure] Guia de relatórios"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
-ht-degree: 1%
+source-wordcount: '6395'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ No nível mais alto, há duas categorias de relatórios com base nos dois objeto
 
 Artigo de suporte: [Diferença entre pontos de contato do comprador e pontos de contato da atribuição do comprador](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
-## Ponto de contato do comprador (BT) {#buyer-touchpoint-bt}
+## Buyer Touchpoint (BT) {#buyer-touchpoint-bt}
 
 O BT (Buyer Touchpoint, ponto de contato do comprador) é o objeto usado para rastrear todas as interações de marketing que alguém tem com seus materiais de marketing. Cada pessoa (lead/contato/[!DNL Marketo Measure] Pessoa) A jornada seria representada pelas suas BT relacionadas. Em [!DNL Marketo Measure], a jornada de um indivíduo consiste em:
 
@@ -497,7 +497,7 @@ A principal conclusão desse relatório é que os dados do ponto de contato do c
 
 Considere a [!DNL Marketo Measure] A Pessoa nos permite relatar todos os pontos de contato em um único relatório. É o tipo de relatório ideal a ser usado ao tentar validar seus dados. Queremos garantir que não estamos ignorando nenhum ponto de contato que possa revelar onde, por exemplo, há um problema na configuração de seus &quot;Canais de marketing&quot; (consulte os artigos de suporte vinculados abaixo para obter mais informações sobre como configurar seus &quot;Canais de marketing&quot;).
 
-* [Configuração de Canal Personalizado Online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Configuração de canal personalizado online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Configuração de canal personalizado offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 
 Essencialmente, os dados do ponto de contato refletirão o que foi rastreado pelo [!DNL Marketo Measure] e podem ser auditadas para garantir que sua configuração corresponda a entradas com base em coisas como: Valores de parâmetro da UTM, Páginas de referência ou Tipos de campanha. Se os dados do ponto de contato não corresponderem à sua configuração, algo provavelmente precisará ser ajustado. Além da configuração &quot;Canal de marketing&quot;, você pode ver os dados do ponto de contato para determinar quais pontos de contato precisam ser [suprimido](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) ou [segmentado](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). É recomendável auditar seus dados de ponto de contato em um[!DNL Marketo Measure] Relatório de Pessoas e Pontos de Contato de Comprador no final de cada mês ou trimestre, se possível. Isso garantirá que sua atribuição seja tão precisa quanto possível. O &quot;[!DNL Marketo Measure] 101º | Relatório de clientes potenciais/contatos por canal disponível e pronto para uso é um excelente ponto de partida. Inclua os seguintes campos se eles ainda não estiverem incluídos para revisar algumas das partes mais cruciais da configuração:
@@ -523,7 +523,7 @@ Tendo em conta que a relação principal das MTD é com a Oportunidade, estas s�
 
 O [modelos de atribuição](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) fornecer o melhor insight sobre as métricas baseadas em Oportunidade são:
 
-**Forma de W** - O &quot;_Modelo de pipeline_&quot;. Três pontos de contato de marco estão incluídos no modelo de Forma de W. Neste modelo, os pontos de contato FT, LC e OC são atribuídos a cada um 30% do crédito de atribuição. Os 10% restantes são atribuídos igualmente a quaisquer pontos de contato intermediários que ocorram entre os três pontos de contato do marco.
+**Forma de W** - O &quot;_Modelo de pipeline_&quot;. Três pontos de contato de marco estão incluídos no modelo de Forma de W. Neste modelo, os touchpoints FT, LC e OC são atribuídos a cada um 30% do crédito de atribuição. Os 10% restantes são atribuídos igualmente a quaisquer pontos de contato intermediários que ocorram entre os três pontos de contato do marco.
 
 <table> 
  <tbody>
@@ -557,7 +557,7 @@ Ao tentar medir o impacto do marketing em contratos fechados ou receita vencida 
 
 >[!NOTE]
 >
->O Modelo de atribuição personalizada é um recurso adicional não disponível para todos os clientes. Entre em contato com o Gerente de sucesso do cliente para saber mais sobre como adicionar esse recurso à sua conta.
+>O Modelo de atribuição personalizada é um recurso adicional não disponível para todos os clientes. Entre em contato com a equipe de conta do Adobe (seu gerente de conta) para saber mais sobre como adicionar esse recurso à sua conta.
 
 Geralmente, os profissionais de marketing precisam saber, &quot;de onde vêm minhas oportunidades?&quot;. Semelhante ao relatório de nível de lead, essa pergunta era historicamente respondida com um valor único e unidimensional (Fonte de campanha primária, por exemplo). No entanto, sabemos que muito mais vai para o desenvolvimento de uma Oportunidade do que um único ponto de contato de um único contato. Normalmente, há vários pontos de contato de vários canais e de várias partes interessadas que influenciam uma Oportunidade na criação. Com [!DNL Marketo Measure], podemos exibir todos os pontos de contato de uma Conta para entender melhor de onde veio uma Oportunidade. Além disso, no entanto, podemos continuar a destacar qualquer ponto de contato que tenha ocorrido após a criação da Oportunidade e até o ponto em que a Oportunidade é fechada. Isso nos permite não apenas adotar uma abordagem multitoque para entender de onde veio uma Oportunidade, mas também o que a influenciou a fechar e, por fim, representar receita vencida fechada. Isso dá insights sobre diferentes perguntas como, &quot;qual é o impacto do marketing em influenciar os Contratos a fechar?&quot;, &quot;que marketing está direcionando a Receita fechada?&quot; e, por fim, &quot;quais dos meus esforços de marketing estão vendo o maior ROI?&quot;
 
