@@ -3,22 +3,24 @@ unique-page-id: 27656735
 description: Visão geral - [!DNL Marketo Measure] - Documentação do produto
 title: Visão geral
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '335'
 ht-degree: 1%
 
 ---
 
 # Visão geral {#overview}
 
-Hoje, o [!DNL Marketo Measure] O aplicativo só oferece suporte a uma moeda única (presumivelmente USD), enquanto sabemos e estamos cientes de que temos clientes em todo o mundo que precisam fazer relatórios sobre suas próprias moedas corporativas e de usuários. Esse recurso tem a capacidade de os usuários alternarem entre moedas diferentes quando estiverem olhando para o gasto relatado ou receita de vendas.
+Hoje, o [!DNL Marketo Measure] O aplicativo só oferece suporte a uma moeda única (presumivelmente USD), enquanto sabemos e estamos cientes de que temos clientes em todo o mundo que precisam fazer relatórios sobre suas próprias moedas corporativas e de usuários. Esse recurso permite que os usuários alternem entre as mesmas moedas usadas em seu CRM ao visualizar o gasto relatado ou a receita de vendas no [!DNL Marketo Measure].
 
 ## Disponibilidade {#availability}
 
 Nível 2 e superior.
 
 ## Requisitos {#requirements}
+
+[!DNL Marketo Measure] obtém automaticamente a configuração de moeda do CRM do cliente. Configuração manual em [!DNL Marketo Measure] para corresponder ao CRM não é mais necessário. A configuração de moeda pode ser encontrada na página &quot;Geral&quot; em &quot;CRM&quot;.
 
 Em [!DNL Salesforce], o cliente deve ter a opção &quot;Ativar várias moedas&quot; ativada. Opcionalmente, o cliente também pode selecionar &quot;Sim, eu desejo ativar o Gerenciamento de Moeda Avançado&quot;.
 
