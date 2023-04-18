@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874554
 description: Geração e mapeamento de ponto de contato - [!DNL Marketo Measure] - Documentação do produto
-title: Geração e mapeamento de ponto de contato
+title: Geração e mapeamento de touchpoint
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 2%
 
 ---
 
-# Geração e mapeamento de ponto de contato {#touchpoint-generation-and-mapping}
+# Geração e mapeamento de touchpoint {#touchpoint-generation-and-mapping}
 
 [!DNL Marketo Measure] as histórias de atribuição dobram em dois processos:
 
@@ -22,6 +22,10 @@ Para que você aproveite ao máximo o [!DNL Marketo Measure], você deve trabalh
 Métodos de geração de ponto de contato
 
 O processo de geração de pontos de contato responde à pergunta &quot;Como [!DNL Marketo Measure] vai saber que isso ocorreu?&quot; Dependendo do seu conjunto de recursos e dos tipos de interações que seus clientes em potencial podem ter, há até três maneiras [!DNL Marketo Measure] O pode selecionar uma interação e criar um ponto de contato para representá-la.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] gera somente um ponto de contato por sessão. Se mais de um formulário tiver sido preenchido, somente o primeiro formulário será capturado.
 
 | **Tipo de interação** | **Exemplo** | **Método de geração de ponto de contato** |
 |---|---|---|
