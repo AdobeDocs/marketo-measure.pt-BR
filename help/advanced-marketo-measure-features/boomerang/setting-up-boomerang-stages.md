@@ -1,26 +1,30 @@
 ---
 unique-page-id: 18874767
-description: Configurando Estágios do Boomerang - [!DNL Marketo Measure] - Documentação do produto
-title: Configurando Estágios do Boomerang
+description: Configuração de estágios de bumerangue - [!DNL Marketo Measure] - Documentação do produto
+title: Configurando estágios de bumerangue
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
-# Configurando Estágios do Boomerang {#setting-up-boomerang-stages}
+# Configurando estágios de bumerangue {#setting-up-boomerang-stages}
 
-Para ativar [!UICONTROL Bomerang] Estágios para sua conta, você deve ser um administrador de conta. Ou pode ser ativado ao acessar [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Depois que o recurso for ativado, siga estas instruções para configurá-las.
+>[!AVAILABILITY]
+>
+>O recurso Boomerang é ativado somente para clientes de Nível 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
 
-## Configuração de Estágio do Boomerang {#boomerang-stage-setup}
+Para habilitar [!UICONTROL Bumerangue] Estágios da sua conta. Você deve ser um Administrador da conta. Ou pode ser ativado ao acessar [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Depois que o recurso for habilitado, siga estas instruções para configurá-los.
 
-1. Ir para [!UICONTROL Mapeamento de palco]. Na coluna intitulada &quot;[!UICONTROL Bomerang],&quot; selecione as caixas ao lado dos estágios que deseja rastrear.
+## Configuração do estágio de bumerangue {#boomerang-stage-setup}
+
+1. Ir para [!UICONTROL Mapeamento de preparo]. Na coluna intitulada &quot;[!UICONTROL Bumerangue],&quot; selecione as caixas ao lado dos estágios que deseja rastrear.
 
    ![](assets/1-2.png)
 
-1. Vá para o [!UICONTROL Configurações de atribuição] e insira o número de pontos de contato para cada estágio que deseja visualizar. Nós permitimos no máximo 10. O padrão é definido como 1.
+1. Vá para a [!UICONTROL Configurações de atribuição] e insira o número de pontos de contato para cada estágio que você deseja ver. Permitimos um máximo de 10. O padrão é definido como 1.
 
    ![](assets/2-2.png)
 
@@ -30,25 +34,25 @@ Para ativar [!UICONTROL Bomerang] Estágios para sua conta, você deve ser um ad
    >
    >Aguarde de 24 a 48 horas para que seus dados sejam reprocessados de acordo com essas alterações.
 
-## Configuração de Estágio do Boomerang com Atribuição de Modelo Personalizada {#boomerang-stage-setup-with-custom-model-attribution}
+## Configuração de estágio de bumerangue com atribuição de modelo personalizada {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Ir para [!UICONTROL Mapeamento de palco]. Na coluna intitulada &quot;[!UICONTROL Bomerang],&quot; selecione as caixas ao lado dos estágios que deseja rastrear.
+1. Ir para [!UICONTROL Mapeamento de preparo]. Na coluna intitulada &quot;[!UICONTROL Bumerangue],&quot; selecione as caixas ao lado dos estágios que deseja rastrear.
 
    ![](assets/3-1.png)
 
-1. Se você também deseja que esses estágios do Boomerang sejam incluídos em seu Modelo personalizado e recebam crédito de atribuição, selecione também a caixa sob a opção &quot;[!UICONTROL Modelo personalizado]coluna &quot;.
+1. Se você também quiser que esses estágios do Bumerangue sejam incluídos em seu Modelo personalizado e recebam crédito de atribuição, selecione também a caixa sob o &quot;[!UICONTROL Modelo personalizado]&quot;.
 
    ![](assets/4-1.png)
 
-1. Vá para o [!UICONTROL Configurações de atribuição] guia . Determine como você gostaria de pesar a atribuição para seus estágios de bumerangue. As opções são pesar a atribuição na primeira ocorrência, na última ocorrência ou dividi-la uniformemente em todas as ocorrências.
+1. Vá para a [!UICONTROL Configurações de atribuição] guia. Determine como gostaria de pesar a atribuição dos estágios do bumerangue. As opções são pesar a atribuição na primeira ocorrência, na última ocorrência ou dividi-la uniformemente em todas as ocorrências.
 
    ![](assets/5-1.png)
 
-1. Insira o número de ocorrências de cada estágio que deseja ver. Podemos permitir no máximo 10. O padrão é definido como 1.
+1. Insira o número de ocorrências de cada estágio que você deseja ver. Podemos permitir um máximo de 10. O padrão é definido como 1.
 
    ![](assets/6-1.png)
 
-1. Defina a porcentagem de atribuição que deseja alocar para as Estágio do Boomerang que você incluiu no modelo personalizado. Certifique-se de que a atribuição total para todos os estágios adicione até 100%. Clique em **[!UICONTROL Salvar e processar]**.
+1. Defina a porcentagem de atribuição que deseja alocar para os Estágios do bumerangue incluídos no modelo personalizado. Assegure que a atribuição total para todos os estágios totalize 100%. Clique em **[!UICONTROL Salvar e processar]**.
 
    ![](assets/7-1.png)
 
