@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Segmentação personalizada - [!DNL Marketo Measure] - Documentação do produto
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 7d037783805567370daa412629d58a5dee175722
+source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,7 @@ Os segmentos oferecem a capacidade de filtrar dados na [!DNL Marketo Measure] Pa
 
 **Por que a segmentação personalizada?**
 
-O recurso Segmentação personalizada permite filtrar pontos de contato por uma categoria e por até cinco segmentos. Dependendo do objeto para o qual o traço de ROI é apontado (cliente potencial ou contato), você pode criar segmentos com base nos campos encontrados no objeto cliente potencial/contato. Além disso, você poderá criar segmentos com base em qualquer campo encontrado no Objeto de oportunidade.
-
->[!NOTE]
->
->A Segmentação personalizada permite filtrar Pontos de contato por categorias (nome do filtro) e regras (valores do filtro). Os clientes de nível 1 recebem um segmento, os de nível 2 e superior, dez.
+A Segmentação personalizada permite filtrar Pontos de contato por categorias (nome do filtro) e regras (valores do filtro). Os clientes de nível 1 recebem um segmento, os de nível 2 e superior, dez. Dependendo do objeto para o qual o traço de ROI é apontado (cliente potencial ou contato), você pode criar segmentos com base nos campos encontrados no objeto cliente potencial/contato. Além disso, você poderá criar segmentos com base em qualquer campo encontrado no Objeto de oportunidade.
 
 **Quando o recurso Segmentação personalizada é útil?**
 
