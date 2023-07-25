@@ -3,18 +3,18 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parâmetros - [!DNL Marketo Measure] - Documentação do produto"
 title: "[!DNL Marketo Measure] Parâmetros"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Parâmetros {#marketo-measure-parameters}
+# Parâmetros do [!DNL Marketo Measure] {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure] Parâmetros explicados {#marketo-measure-parameters-explained}
 
-Para obter mais informações sobre o uso de UTMs, [!DNL Marketo Measure] anexa parâmetros personalizados a suas publicidades em [!DNL Google] AdWords, Bing Ads e [!DNL Facebook] Anúncios. [!DNL Marketo Measure] O integra-se com essas plataformas para automatizar a maioria do processo de configuração. Se você optar por usar a marcação automática, [!DNL Marketo Measure] O anexará automaticamente seus parâmetros aos URLs de suas publicidades. [!DNL Marketo Measure] também baixará automaticamente os custos de marketing das plataformas e os carregará no [!DNL Marketo Measure] aplicativo.
+Para obter mais informações sobre a utilização de MTU, [!DNL Marketo Measure] anexa parâmetros personalizados aos seus anúncios no [!DNL Google] AdWords, Bing Ads e [!DNL Facebook] Anúncios. [!DNL Marketo Measure] O integra-se a essas plataformas para automatizar a maior parte do processo de configuração. Se você optar por usar a marcação automática, [!DNL Marketo Measure] O anexará automaticamente os parâmetros aos URLs dos anúncios. [!DNL Marketo Measure] também baixará automaticamente seus custos de marketing das plataformas e os carregará na [!DNL Marketo Measure] aplicativo.
 
 Exemplo de um URL sem parâmetros:
 
@@ -31,24 +31,28 @@ Exemplo de um URL com [!DNL Marketo Measure] parâmetros:
    * É semelhante ao parâmetro de termo UTM.
 
 * `_bt={creative}`
-   * Representa a ID ou o nome criativo.
-   * É semelhante ao parâmetro de conteúdo da UTM.
+   * Representa a ID criativa ou o nome.
+   * É semelhante ao parâmetro de conteúdo UTM.
 
 * `_bm={matchtype}`
-   * Representa o grau de correspondência da palavra-chave.
-   * Os tipos de correspondência de palavras-chave ajudam a controlar quais pesquisas acionam sua publicidade. Por exemplo, você pode usar uma ampla correspondência para mostrar sua publicidade para um público-alvo amplo ou pode usar a correspondência exata para participar de grupos específicos de clientes.
+   * Representa com que proximidade a palavra-chave foi correspondida.
+   * Os tipos de correspondência de palavra-chave ajudam a controlar quais pesquisas acionam seu anúncio. Por exemplo, você pode usar uma ampla correspondência para mostrar seu anúncio para um amplo público ou usar uma correspondência exata para focalizar grupos específicos de clientes.
    * Os três tipos de correspondência são: amplo, difuso e exato.
 
->[!NOTE]
+>[!TIP]
 >
->Para obter mais informações sobre tipos de correspondência, [este é um artigo relevante do AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
+>Para obter mais informações sobre tipos de correspondência, [aqui está um artigo relevante do AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
    * Representa o tipo de rede de anúncios - [exibir ou pesquisar](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
-   * Isso é semelhante ao parâmetro de origem da UTM.
+   * É semelhante ao parâmetro Origem UTM.
 
 * `_bg={adgroupID}`
-   * Representa a ID do Grupo de publicidade ao qual a publicidade pertence
+   * Representa a ID do grupo de anúncios ao qual o anúncio pertence
+
+>[!NOTE]
+>
+>Não oferecemos suporte a parâmetros de URL de redirecionamento.
 
 ## Parâmetros do Bing Ads {#bing-ads-parameters}
 
@@ -57,7 +61,7 @@ Exemplo de um URL com [!DNL Marketo Measure] parâmetros:
 * `utm_source=bing`
 * `utm_term={keyword}`
 
-## Parâmetros facebook {#facebook-parameters}
+## Parâmetros do facebook {#facebook-parameters}
 
 * `_bf ={creative}`
-   * Representa a ID ou o nome da criação
+   * Representa a ID ou o nome do criativo
