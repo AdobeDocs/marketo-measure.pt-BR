@@ -2,8 +2,9 @@
 description: “[!DNL Marketo Measure] Instalação e configuração do pacote Salesforce - [!DNL Marketo Measure] - Documentação do produto”
 title: “[!DNL Marketo Measure] [!DNL Salesforce] Instalação e configuração do pacote”
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
-workflow-type: ht
+feature: Installation, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
 

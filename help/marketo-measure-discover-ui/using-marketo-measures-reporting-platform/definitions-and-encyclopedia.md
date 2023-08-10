@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874662
 description: Definições e Enciclopédia - [!DNL Marketo Measure] - Documentação do produto
-title: Definições e Enciclopédia
+title: Definições enciclopédia
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 7%
 
 ---
 
-# Definições e Enciclopédia {#definitions-and-encyclopedia}
+# Definições enciclopédia {#definitions-and-encyclopedia}
 
-Veja a seguir uma visão geral dos diferentes quadros e blocos presentes na plataforma Discover, bem como os filtros nessas placas. Na captura de tela de cada quadro estão vários blocos, cujas definições podem ser encontradas na seção do quadro abaixo.
+Veja a seguir uma visão geral dos diferentes Quadros e Blocos presentes na plataforma Discover, bem como os Filtros nesses Quadros. Na captura de tela de cada Quadro há vários blocos gráficos, cujas definições podem ser encontradas na seção desse Quadro abaixo.
 
 **[!DNL Marketo Measure]Quadros**
 
@@ -36,7 +37,7 @@ Mídia paga
 
 Marketing de conteúdo
 
-Oportunidades de marketing
+Oportunidades de marketing 
 
 **Jornada**
 
@@ -44,15 +45,15 @@ Velocidade
 
 Instantâneo
 
-Funil Passport
+Funil de passaporte
 
-Caminho de envolvimento
+Caminho de engajamento
 
 ## [!DNL Marketo Measure] Quadros {#marketo-measure-boards}
 
 ### Visão geral {#overview}
 
-A visão geral oferece ao usuário uma visão de alto nível sobre o desempenho da equipe de marketing em relação ao impacto sobre a receita, o gasto e o ROI.
+Visão geral oferece ao usuário uma visão geral de alto nível sobre o desempenho da equipe de marketing em relação ao impacto na receita, gastos e ROI.
 
 **Filtros**
 
@@ -60,11 +61,11 @@ O tipo de data é Data de fechamento
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
-Métrica é receita
+A métrica é receita
 
-Canal Dimension is
+Dimension é canal
 
 Canal é igual a __
 
@@ -78,19 +79,19 @@ Categorias
 
 **Receita**
 
-`1.` O valor total da receita das oportunidades de Vencedor Fechado, com base no modelo de atribuição.
+`1.` O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visão geral**
 
-`2.` Usando a lista suspensa Métrica no menu Filtros , este gráfico mostra a receita / pipeline receita / gastos / ofertas / oportunidades / clientes potenciais / contatos atribuídos a cada canal, mostrados ao longo do tempo.
+`2.` Usando a lista suspensa Métrica no menu Filtros, este gráfico mostra a receita/receita do pipeline/gasto/ofertas/oportunidades/leads/contatos atribuídos a cada canal, mostrados ao longo do tempo.
 
 **Gastos**
 
-`3.` A quantidade total de gastos registrados dos custos da API e dos custos autorrelatados acumulados no nível mais alto do Canal.
+`3.` O valor total do gasto registrado dos custos de API e dos custos relatados automaticamente totalizados no nível mais alto do Canal.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **ROI**
 
@@ -98,51 +99,51 @@ Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualizaç
 
 **Resumo do ROI**
 
-Usando a lista suspensa Dimension no menu Filtros, isso mostra quanto Receita, Gasto e ROI foram atribuídos a cada Canal/Subcanal/Campanha/Conta/AdGroup/Ad/Anunciante/Creative/Palavra-chave/Disposição/Site com base no modelo de atribuição durante todo o intervalo de datas selecionado.
+Usando a lista suspensa Dimension no menu Filtros, isso mostra quanto de Receita, Gastos e ROI foram atribuídos a cada Canal/Subcanal/Campanha/Conta/AdGroup/Anúncio/Anunciante/Criativo/Palavra-chave/Posicionamento/Site com base no modelo de atribuição durante todo o intervalo de datas selecionado.
 
 **Negócios**
 
-`5.` O número total de oportunidades de Vencedor Fechado, com base na contagem de modelos de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque é possível excluir alguns pontos de contato em uma oportunidade usando esse tipo de data.
+`5.` O número total de oportunidades Ganhas Fechadas, com base na contagem de modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois é possível excluir alguns pontos de contato em uma oportunidade usando esse tipo de data.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Custo por negócio**
 
-`6.` O gasto total dividido pelo número total de ofertas, fornecendo um custo médio que é necessário para adquirir uma oportunidade vencida.
+`6.` O gasto total dividido pelo número total de negócios, fornecendo um custo médio necessário para adquirir uma oportunidade conquistada fechada.
 
 **Receita de planejamento**
 
-`7.` A receita potencial total de qualquer Oportunidade Aberta, o que significa que ela não está Fechada ou Fechada. A receita é baseada no modelo de atribuição selecionado.
+`7.` A receita potencial total de qualquer Oportunidade em Aberto, significando que não é Perdida Fechada ou Ganha Fechada. A receita é baseada no modelo de atribuição selecionado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Tamanho do negócio**
 
-`8.` A quantidade média de uma oportunidade de Vencedor Fechado.
+`8.` O valor médio de uma oportunidade Ganha Fechada.
 
 **Resumo do canal**
 
-`9`. Usando a lista suspensa Métrica no menu Filtros , esta é uma lista de canais com base na receita / pipeline receita / gasto / ofertas / oportunidades / leads / contatos que foi atribuída a cada canal, classificada pela mais alta com base no modelo de atribuição selecionado.
+`9`. Usando a lista suspensa Métrica no menu Filtros, esta é uma lista de canais com base em quanta receita/receita de pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos foi atribuída a cada canal, classificada pelo maior com base no modelo de atribuição selecionado.
 
 **Resumo do Subcanal**
 
-`10.` Usando a lista suspensa Métrica no menu Filtros , esta é uma lista de subcanais com base na receita / pipeline receita / gasto / ofertas / oportunidades / leads / contatos que foi atribuída a cada subcanal, classificado pelo mais alto com base no modelo de atribuição selecionado.
+`10.` Usando a lista suspensa Métrica no menu Filtros, esta é uma lista de subcanais com base em quanta receita/receita de pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos foi atribuída a cada subcanal, classificada pelo maior com base no modelo de atribuição selecionado.
 
 **Resumo da campanha**
 
-`11.` Usando a lista suspensa Métrica no menu Filtros , esta é uma lista de campanhas com base em quanta receita / pipeline receita / gasto / ofertas / oportunidades / leads / contatos foi atribuída a cada campanha, classificada pela mais alta com base no modelo de atribuição selecionado.
+`11.` Usando a lista suspensa Métrica no menu Filtros, esta é uma lista de campanhas com base na quantidade de receita/receita de pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos atribuída a cada campanha, classificada pela maior com base no modelo de atribuição selecionado.
 
 ### Crescimento {#growth}
 
-O crescimento permite que o profissional de marketing veja o que eles geraram em todos os sentidos, desde os contatos até as oportunidades e receita. É uma visão rápida de todos os canais e como eles foram executados ao longo do tempo.
+O crescimento permite que o profissional de marketing veja o que gerou em todos os aspectos, desde leads a contatos e oportunidades até receitas. É uma visualização rápida de todos os pipelines e de como eles se deram ao longo do tempo.
 
 **Filtros**
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
 Agrupar por Nenhum
 
@@ -160,105 +161,105 @@ Categorias
 
 **Receita**
 
-`1.` O valor total da receita das oportunidades de Vencedor Fechado, com base no modelo de atribuição.
+`1.` O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Receita ao longo do tempo**
 
-`2.` O valor total da receita de oportunidades com Ganho Fechado, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`2.` O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 **Negócios**
 
-`3.` O número total de oportunidades de Vencedor Fechado, com base na contagem de modelos de atribuição.
+`3.` O número total de oportunidades Ganhas Fechadas, com base na contagem de modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
-**Contratos ao longo do tempo**
+**Transações ao longo do tempo**
 
-`4.` O número total de oportunidades de Vencedor Fechado, com base no modelo de atribuição que mostra a tendência em um período de tempo específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`4.` O número total de oportunidades Ganhas Fechadas, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 **Receita de planejamento**
 
-`5.` A receita potencial total de qualquer Oportunidade Aberta, o que significa que ela não está Fechada ou Fechada. A receita é baseada no modelo de atribuição selecionado.
+`5.` A receita potencial total de qualquer Oportunidade em Aberto, significando que não é Perdida Fechada ou Ganha Fechada. A receita é baseada no modelo de atribuição selecionado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Receita do pipeline ao longo do tempo**
 
-`6.` A receita potencial total de qualquer Oportunidade Aberta, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`6.` A receita potencial total de qualquer oportunidade aberta, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 **Leads**
 
-`7.` O número total de Leads, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque é possível excluir alguns pontos de contato em um registro de lead usando esse tipo de data. Se um modelo de atribuição além do Forma de U for aplicado, a contagem de Forma de U será usada para Forma de W, Forma de W e Modelo personalizado.
+`7.` O número total de clientes em potencial, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois é possível excluir alguns pontos de contato em um registro de cliente potencial usando esse tipo de data. Se um modelo de atribuição além de Forma de U for aplicado, a contagem de Forma de U será usada para Forma de W, Forma de W e Modelo personalizado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
-**Potenciais ao longo do tempo**
+**Clientes potenciais ao longo do tempo**
 
-`8.` O número total de leads, com base no modelo de atribuição que mostra a tendência em um período de tempo específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`8.` O número total de clientes em potencial, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 **Contatos**
 
-`9.` O número total de Contatos, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque é possível excluir alguns pontos de contato em um registro de contato usando esse tipo de data. Se um modelo de atribuição além do Forma de U for aplicado, a contagem de Forma de U será usada para Forma de W, Forma de W e Modelo personalizado.
+`9.` O número total de Contatos, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois é possível excluir alguns pontos de contato em um registro de Contato usando esse tipo de data. Se um modelo de atribuição além de Forma de U for aplicado, a contagem de Forma de U será usada para Forma de W, Forma de W e Modelo personalizado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Contatos ao longo do tempo**
 
-`10.` O número total de Contatos, com base no modelo de atribuição que mostra a tendência em um período de tempo específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`10.` O número total de Contatos, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 **Oportunidades**
 
-`11.` O número total de Oportunidades, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque é possível excluir alguns pontos de contato em um registro de Oportunidade usando esse tipo de data.
+`11.` O número total de Oportunidades, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois é possível excluir alguns pontos de contato em um registro de Oportunidade usando esse tipo de data.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Oportunidades ao longo do tempo**
 
-`12.` O número total de Oportunidades, com base no modelo de atribuição que mostra a tendência em um período de tempo específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`12.` O número total de Oportunidades, com base no modelo de atribuição que mostra a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 **Visitas**
 
-`13.` O número total de visitas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+`13.` O número total de visitas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
-(O recurso será exibido como 0 se estiver desativado.)
+(Aparecerá como 0 se esse recurso estiver desativado.)
 
 **Visitas ao longo do tempo**
 
-`14.` O número total de visitas ao site rastreadas que mostram a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`14.` O número total de visitas ao site rastreadas que mostram a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 (Isso aparecerá vazio se esse recurso estiver desativado.)
 
 **Visitas Exclusivas**
 
-`15.` O número total de visitas únicas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+`15.` O número total de visitas únicas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
-(O recurso será exibido como 0 se estiver desativado.)
+(Aparecerá como 0 se esse recurso estiver desativado.)
 
 **Visitas únicas ao longo do tempo**
 
-`16.` O número total de visitas únicas ao site rastreadas que mostram a tendência ao longo de um período específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`16.` O número total de visitas exclusivas ao site rastreadas que mostram a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 (Isso aparecerá vazio se esse recurso estiver desativado.)
 
@@ -266,21 +267,21 @@ Faça o drill-in para exibir os dados de uma dimensão de data menor.
 
 `17.` O número total de formulários enviados para todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
-(O recurso será exibido como 0 se estiver desativado.)
+(Aparecerá como 0 se esse recurso estiver desativado.)
 
 **Forms ao longo do tempo**
 
-`18.` O número total de formulários enviados que mostram a tendência de um período específico. Use o filtro Agrupar por para alterar a pilha por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+`18.` O número total de formulários enviados que mostram a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento, site.
 
-Faça o drill-in para exibir os dados de uma dimensão de data menor.
+Faça drill-in para exibir os dados de uma dimensão de data menor.
 
 (Isso aparecerá vazio se esse recurso estiver desativado.)
 
 ### ROI de anúncios {#ads-roi}
 
-O ROI de anúncios fornece aos gerentes de mídia pagos uma visão de seus esforços de marketing, proporcionando a eles informações sobre o desempenho de sua campanha para o desempenho de palavras-chave.
+O ROI dos anúncios fornece aos gerentes de mídia paga uma visualização de seus esforços de marketing, fornecendo-lhes insights sobre o desempenho da campanha para desempenho de palavras-chave.
 
 **Filtros**
 
@@ -288,7 +289,7 @@ O tipo de data é Data de fechamento
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
 Canal é igual a __
 
@@ -304,29 +305,29 @@ Categorias
 
 **Resumo do ROI da campanha**
 
-`1.` Uma lista de campanhas com base na receita, gasto e ROI atribuídos a cada campanha, classificadas pela maior receita com base no modelo de atribuição selecionado.
+`1.` Uma lista de campanhas com base em quanta receita, gasto e ROI foram atribuídos a cada campanha, classificados pela receita mais alta com base no modelo de atribuição selecionado.
 
 **Resumo do ROI do criativo**
 
-`2.` Uma lista de criações com base na quantidade de receita, gasto e ROI atribuída a cada criativo, classificada pela maior receita com base no modelo de atribuição selecionado.
+`2.` Uma lista de criadores com base em quanta receita, gasto e ROI são atribuídos a cada criativo, classificados pela receita mais alta com base no modelo de atribuição selecionado.
 
 **Resumo do ROI da Palavra-chave**
 
-`3.` Uma lista de palavras-chave com base na quantidade de receita, gasto e ROI atribuída a cada palavra-chave, classificadas pela maior receita com base no modelo de atribuição selecionado.
+`3.` Uma lista de palavras-chave com base em quanta receita, gasto e ROI são atribuídos a cada palavra-chave, classificadas pela receita mais alta com base no modelo de atribuição selecionado.
 
 ### Marketing baseado em conta {#account-based-marketing}
 
-O Marketing baseado em conta fornece às empresas que usam o ABM a capacidade de acompanhar seus esforços em relação às contas-alvo e ao nível de engajamento que viram em seu marketing.
+O Marketing baseado em conta fornece às empresas que usam a ABM a capacidade de rastrear seus esforços em relação às contas de destino e quanto engajamento elas já viram em seu marketing.
 
 **Filtros**
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
-O Modelo de atribuição é atribuição com forma de W
+O modelo de atribuição tem forma de W
 
-Agrupar por é canal
+Agrupar por seu canal
 
 Contas é igual a __
 
@@ -334,63 +335,63 @@ Contas é igual a __
 
 **Receita**
 
-O valor total da receita das oportunidades de Vencedor Fechado, com base no modelo de atribuição.
+O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Receita de planejamento**
 
-A receita potencial total de qualquer Oportunidade Aberta, o que significa que ela não está Fechada ou Fechada. A receita é baseada no modelo de atribuição selecionado.
+A receita potencial total de qualquer Oportunidade em Aberto, significando que não é Perdida Fechada ou Ganha Fechada. A receita é baseada no modelo de atribuição selecionado.
 
 **Número Médio de Toques por Conta**
 
-O número médio de pontos de contato gerados a partir de cada conta CRM, por ID de conta.
+O número médio de pontos de contato gerados de cada conta do CRM, por ID de conta.
 
 **Leads Correspondidos**
 
-O número total de Leads que foram correspondidos com êxito a uma Conta usando a variável [!DNL Marketo Measure] Recurso de cliente potencial para conta, usando site, nome da empresa e algoritmos de correspondência de domínio de email.
+O número total de clientes em potencial que foram correspondidos com êxito a uma Conta usando o [!DNL Marketo Measure] Recurso de lead para conta, usando algoritmos de correspondência de site, nome da empresa e domínio de email.
 
 **Contas envolvidas**
 
-O número total de contas que receberam qualquer ponto de contato. Se uma lista de contas de destino for usada, esse será o subconjunto de contas dessa lista de contas de destino.
+O número total de contas que receberam qualquer ponto de contato. Se uma lista de contas de destino for usada, será o subconjunto de contas dessa lista.
 
 **Oportunidades Envolvidas**
 
-O número total de oportunidades que receberam qualquer ponto de contato. Se uma lista de contas de destino for usada, esse será o subconjunto de oportunidades dessa lista de contas de destino.
+O número total de oportunidades que receberam qualquer ponto de contato. Se uma lista de contas de destino for usada, será o subconjunto de oportunidades dessa lista de contas de destino.
 
 **Indivíduos envolvidos**
 
-O número total de indivíduos (leads e contatos por endereços de email) que receberam qualquer ponto de contato. Se uma lista de contas de destino for usada, esse será o subconjunto de indivíduos dessa lista de contas de destino.
+O número total de indivíduos (clientes potenciais e contatos por endereços de email) que receberam qualquer ponto de contato. Se uma lista de contas de destino for usada, este será o subconjunto de indivíduos dessa lista de contas de destino.
 
 **Touchpoints ao longo do tempo**
 
-O número total de pontos de contato registrados durante o período de tempo especificado. Se uma lista de contas de destino for usada, esse será o subconjunto de contas dessa lista de contas de destino.
+O número total de pontos de contato registrados durante o período especificado. Se uma lista de contas de destino for usada, será o subconjunto de contas dessa lista.
 
-**Contas tocadas ao longo do tempo (gráfico)**
+**Contas Tocadas ao Longo do Tempo (gráfico)**
 
-O número total de contas que receberam qualquer ponto de contato por mês durante o período de tempo especificado com a opção de agrupar os resultados por Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição ou Site. Se uma lista de contas de destino for usada, esse será o subconjunto de contas dessa lista de contas de destino.
+O número total de contas que receberam qualquer ponto de contato por mês durante o período de tempo especificado com a opção de agrupar os resultados por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento ou site. Se uma lista de contas de destino for usada, será o subconjunto de contas dessa lista.
 
 **Contas por contagem de Touchpoints**
 
-Por ID de conta e Nome de conta, o número total de pontos de contato de cada conta.
+Por ID da conta e Nome da conta, o número total de pontos de contato de cada conta.
 
 **Contagem dos Touchpoints**
 
-O número de pontos de contato atribuídos a cada dimensão, onde a dimensão pode ser alterada pelo filtro Agrupar por , como: Nenhum / Canal / Subcanal / Campanha / Conta / Anunciante / Anúncio / Criativo / Grupo de publicidade / Palavra-chave / Posicionamento / Site.
+O número de pontos de contato atribuídos a cada dimensão, em que a dimensão pode ser alterada pelo filtro Agrupar por, como: Nenhum / Canal / Subcanal / Campanha / Conta / Anunciante / Anúncio / Criativo / Grupo de anúncios / Palavra-chave / Posicionamento / Site.
 
 ### Despesa de marketing {#marketing-spend}
 
-Os gastos com marketing mostram aos profissionais de marketing quanto eles gastaram por um período de tempo para que possam acompanhar os gastos por mês e por canal.
+Gastos com marketing mostra aos profissionais de marketing quanto gastaram em um período para que possam rastrear o gasto por mês e por canal.
 
 **Filtros**
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
 Modelo de atribuição
 
-Agrupar por é igual a Canal
+Agrupar por é igual a canal
 
 Canal é igual a __
 
@@ -402,15 +403,15 @@ A campanha é igual a __
 
 **Receita**
 
-O valor total da receita das oportunidades de Vencedor Fechado, com base no modelo de atribuição.
+O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Gastos**
 
-A quantidade total de gastos registrados dos custos da API e dos custos autorrelatados acumulados no nível mais alto do Canal.
+O valor total do gasto registrado dos custos de API e dos custos relatados automaticamente totalizados no nível mais alto do Canal.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **ROI**
 
@@ -418,43 +419,43 @@ O ROI (retorno sobre o investimento) calculado da receita total (do modelo de at
 
 **Gasto (gráfico)**
 
-O valor total da despesa registrada que mostra a tendência ao longo de um período de tempo específico. Use o filtro Agrupar por para alterar a pilha em Nenhum, Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+A quantidade total de gastos registrados mostrando a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por Nenhum, Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento, Site.
 
-Como Gasto não é registrado em todos os níveis, é possível que os totais não sejam iguais a cada seleção &quot;Agrupar por&quot;. Por exemplo, o total de todas as Campanhas não será igual ao total de todos os Subcanais.
+Como o gasto não é registrado em todos os níveis, é possível que os totais não sejam iguais a cada seleção &quot;Agrupar por&quot;. Por exemplo, o total de todas as campanhas não será igual ao total de todos os subcanais.
 
-**Gasto + ROI**
+**Gastos + ROI**
 
-Exibe a quantidade de marketing gasto por mês junto com o ROI no eixo y direito.
+Exibe a quantidade de gastos em marketing por mês junto com o ROI no eixo y direito.
 
 **Gasto por Canal**
 
-Uma lista de canais com base na quantidade relatada para cada canal, classificada pelo gasto mais alto.
+Uma lista de canais com base no valor relatado para cada canal, classificado pelo maior gasto.
 
 **Gasto por Subcanal**
 
-Uma lista de subcanais com base no valor reportado para cada subcanal, classificado pelo valor mais alto gasto.
+Uma lista de subcanais com base no quanto foi relatado para cada subcanal, classificado pelo maior gasto.
 
 **Gasto por Campanha**
 
-Uma lista de campanhas com base em quanto foi relatado para cada campanha, classificada pelo valor mais alto gasto. As campanhas consistem em uma lista completa de campanhas que incluem valores utm_campaign de Exibições de página.
+Uma lista de campanhas com base em quanto foi relatado para cada campanha, classificada pelo maior gasto. As campanhas consistem em uma lista completa de campanhas que incluem valores utm_campaign de Exibições de página.
 
 ### Tráfego na Web {#web-traffic}
 
-A exibição Tráfego da Web permite que os profissionais de marketing rastreiem a atividade em seu site, medindo o tráfego de visitantes conhecidos e anônimos do site.
+A exibição de Tráfego da Web permite que os profissionais de marketing rastreiem a atividade em seus sites, medindo o tráfego de visitantes conhecidos e anônimos do site.
 
 **Filtros**
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
-O Modelo de atribuição é atribuição com forma de W
+O modelo de atribuição tem forma de W
 
 URL é igual a __
 
 Agrupar por é Nenhum
 
-Métrica é Visitas
+Métrica são visitas
 
 Canal é igual a __
 
@@ -472,77 +473,77 @@ A campanha é igual a __
 
 **Visitas Exclusivas**
 
-O número total de visitas únicas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+O número total de visitas únicas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visitas**
 
-O número total de visitas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+O número total de visitas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Custo por visita única**
 
-O total de gastos dividido pelo número total de visitas únicas, fornecendo o custo por taxa de visitas exclusiva.
+O gasto total dividido pelo número total de visitas únicas, fornecendo o custo por taxa de visita única.
 
 **Custo por visita**
 
-O total de gastos dividido pelo número total de visitas, fornecendo o custo por taxa de visita.
+O gasto total dividido pelo número total de visitas, fornecendo a taxa de custo por visita.
 
 **Receita por visita única**
 
-A média calculada de receita fechada por visita única ao site de visitantes conhecidos e anônimos.
+A média calculada da receita fechada por visita única ao site de visitantes conhecidos e anônimos.
 
 **Receita por visita**
 
-A média calculada de receita fechada por visita ao site de visitantes conhecidos e anônimos.
+A média calculada da receita fechada por visita do site de visitantes conhecidos e anônimos.
 
 **Visualizações de página**
 
-O número total de visualizações de páginas rastreadas em todos os visitantes conhecidos e anônimos.
+O número total de exibições de páginas rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Formulários**
 
 O número total de formulários enviados para todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visão geral**
 
-Usando a lista suspensa Métrica no menu Filtros , este gráfico mostra a receita / pipeline receita / gastos / ofertas / oportunidades / clientes potenciais / contatos / cliques / impressões / visitas / visitas exclusivas / exibições de página / formulários atribuídos a cada dimensão, mostrados ao longo do tempo. O Dimension pode ser alterado de None para Channel / Subchannel / Campaign / Account / Advertiser / Ad / Creative / Ad Group / Keyword / Placement / Site.
+Usando a lista suspensa Métrica no menu Filtros, este gráfico mostra a receita/receita do pipeline/gasto/ofertas/oportunidades/contatos/cliques/impressões/visitas/visitas/visualizações de página/formulários atribuídos a cada dimensão, mostrados ao longo do tempo. Os Dimension podem ser alterados de None para Channel / Subchannel / Campaign / Account / Advertiser / Ad / Creative / Ad Group / Keyword / Placement / Site.
 
 **Resumo do Tráfego da Web**
 
-Por URL, visualize o número de exibições de página, visitas, visitas exclusivas e envios de formulário creditados a cada um.
+Por URL, visualize o número de exibições de página, visitas, visitas únicas e envios de formulário creditados a cada um.
 
 **Resumo do Referenciador**
 
-O número de visitas da página e visitas exclusivas que vieram de cada URL de referência.
+O número de visitas à página e visitas exclusivas provenientes de cada URL de referência.
 
 **Visitas únicas por origem**
 
-Usando a lista suspensa Agrupar por no menu Filtros , visualize a origem dos Visitantes únicos no site. Altere o Grupo para: Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+Usando a lista suspensa Agrupar por no menu Filtros, visualize a origem dos Visitantes únicos do site. Altere o Agrupar por: Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento, Site.
 
 **Visitas por origem**
 
-Usando a lista suspensa Agrupar por no menu Filtros , visualize a origem dos Visitantes do site. Altere o Grupo para: Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site.
+Usando a lista suspensa Agrupar por no menu Filtros, visualize a origem dos Visitantes do site. Altere o Agrupar por: Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento, Site.
 
 **Leads por Página de Aterrissagem**
 
-Uma lista de páginas de aterrissagem com base no número de leads que foram gerados em cada página de aterrissagem, classificadas pelo maior número de leads.
+Uma lista de páginas de aterrissagem com base no número de clientes potenciais gerados a partir de cada página de aterrissagem, classificados pelo maior número de clientes potenciais.
 
 **Leads por URL de Formulário**
 
-Uma lista de URLs de formulário com base no número de leads que foram gerados a partir de cada URL, classificados pelo maior número de leads.
+Uma lista de URLs de formulário com base no número de clientes potenciais gerados a partir de cada URL, classificados pelo maior número de clientes potenciais.
 
 ## Visualizações baseadas em função {#role-based-views}
 
 ### CMO {#cmo}
 
-As visualizações da OCM proporcionam à OCM uma visão de alto nível sobre o desempenho da equipe de marketing em relação ao seu impacto na receita, no gasto e no ROI.
+As visualizações de CMO oferecem a CMO uma visão de alto nível sobre o desempenho da equipe de marketing em relação ao impacto na receita, no gasto e no ROI.
 
 **Filtros**
 
@@ -550,7 +551,7 @@ O tipo de data é Data de fechamento
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
 Canal é igual a __
 
@@ -558,7 +559,7 @@ Subcanal é igual a __
 
 A campanha é igual a __
 
-Métrica é receita
+A métrica é receita
 
 Categorias
 
@@ -566,19 +567,19 @@ Categorias
 
 **Receita**
 
-`1.` O valor total da receita das oportunidades de Vencedor Fechado, com base no modelo de atribuição.
+`1.` O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visão geral**
 
-`2.` Usando a lista suspensa Métrica no menu Filtros , este gráfico mostra a receita / pipeline receita / gastos / ofertas / oportunidades / clientes potenciais / contatos atribuídos a cada canal, mostrados ao longo do tempo.
+`2.` Usando a lista suspensa Métrica no menu Filtros, este gráfico mostra a receita/receita do pipeline/gasto/ofertas/oportunidades/leads/contatos atribuídos a cada canal, mostrados ao longo do tempo.
 
 **Gastos**
 
-`3.` A quantidade total de gastos registrados dos custos da API e dos custos autorrelatados acumulados no nível mais alto do Canal.
+`3.` O valor total do gasto registrado dos custos de API e dos custos relatados automaticamente totalizados no nível mais alto do Canal.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **ROI**
 
@@ -586,51 +587,51 @@ Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualizaç
 
 **Negócios**
 
-`5.` O número total de oportunidades de Vencedor Fechado, com base na contagem de modelos de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque é possível excluir alguns pontos de contato em uma oportunidade usando esse tipo de data.
+`5.` O número total de oportunidades Ganhas Fechadas, com base na contagem de modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois é possível excluir alguns pontos de contato em uma oportunidade usando esse tipo de data.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Custo por negócio**
 
-`6.` O gasto total dividido pelo número total de ofertas, fornecendo um custo médio que é necessário para adquirir uma oportunidade vencida.
+`6.` O gasto total dividido pelo número total de negócios, fornecendo um custo médio necessário para adquirir uma oportunidade conquistada fechada.
 
 **Receita de planejamento**
 
-`7.` A receita potencial total de qualquer Oportunidade Aberta, o que significa que ela não está Fechada ou Fechada. A receita é baseada no modelo de atribuição selecionado.
+`7.` A receita potencial total de qualquer Oportunidade em Aberto, significando que não é Perdida Fechada ou Ganha Fechada. A receita é baseada no modelo de atribuição selecionado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Tamanho do negócio**
 
-`8.` A quantidade média de uma oportunidade de Vencedor Fechado.
+`8.` O valor médio de uma oportunidade Ganha Fechada.
 
 **Resumo do canal**
 
-`9.` Usando a lista suspensa Métrica no menu Filtros , esta é uma lista de canais com base na receita / pipeline receita / gasto / ofertas / oportunidades / leads / contatos que foi atribuída a cada canal, classificada pela mais alta com base no modelo de atribuição selecionado.
+`9.` Usando a lista suspensa Métrica no menu Filtros, esta é uma lista de canais com base em quanta receita/receita de pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos foi atribuída a cada canal, classificada pelo maior com base no modelo de atribuição selecionado.
 
 **Resumo do Subcanal**
 
-`10.` Usando a lista suspensa Métrica no menu Filtros , esta é uma lista de subcanais com base na receita / pipeline receita / gasto / ofertas / oportunidades / leads / contatos que foi atribuída a cada subcanal, classificado pelo mais alto com base no modelo de atribuição selecionado.
+`10.` Usando a lista suspensa Métrica no menu Filtros, esta é uma lista de subcanais com base em quanta receita/receita de pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos foi atribuída a cada subcanal, classificada pelo maior com base no modelo de atribuição selecionado.
 
 **Resumo da campanha**
 
-`11.` Usando a lista suspensa Métrica no menu Filtros , esta é uma lista de campanhas com base em quanta receita / pipeline receita / gasto / ofertas / oportunidades / leads / contatos foi atribuída a cada campanha, classificada pela mais alta com base no modelo de atribuição selecionado.
+`11.` Usando a lista suspensa Métrica no menu Filtros, esta é uma lista de campanhas com base na quantidade de receita/receita de pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos atribuída a cada campanha, classificada pela maior com base no modelo de atribuição selecionado.
 
 ### Mídia paga {#paid-media}
 
-Os painéis de Mídia paga fornecem aos Gerentes de mídia paga (ou semelhante) uma espiada do desempenho de mídia paga. Consiga ver quanto foi atendido nos canais relevantes e quanta demanda foi gerada por seus esforços. Todas as métricas são obtidas de integrações de mídia paga.
+Os painéis Mídia paga fornecem aos Gerentes de mídia paga (ou semelhantes) uma espiada no desempenho da mídia paga. Ser capaz de ver quanto foi atendido nos canais relevantes e quanta demanda foi gerada por seus esforços. Todas as métricas são extraídas de integrações de mídia paga.
 
 **Filtros**
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
-Métrica é receita
+A métrica é receita
 
-Canal Dimension is
+Dimension é canal
 
 Canal é igual a __
 
@@ -646,15 +647,15 @@ Categorias
 
 **Receita**
 
-`1.` O valor total da receita das oportunidades de Vencedor Fechado, com base no modelo de atribuição.
+`1.` O valor total de receita de oportunidades Ganhas Fechadas, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Gastos**
 
-`2.` A quantidade total de gastos registrados dos custos da API e dos custos autorrelatados acumulados no nível mais alto do Canal.
+`2.` O valor total do gasto registrado dos custos de API e dos custos relatados automaticamente totalizados no nível mais alto do Canal.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **ROI**
 
@@ -662,79 +663,79 @@ Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualizaç
 
 **Receita de planejamento**
 
-`4.` A receita potencial total de qualquer Oportunidade Aberta, o que significa que ela não está Fechada ou Fechada. A receita é baseada no modelo de atribuição selecionado.
+`4.` A receita potencial total de qualquer Oportunidade em Aberto, significando que não é Perdida Fechada ou Ganha Fechada. A receita é baseada no modelo de atribuição selecionado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visão geral**
 
-`5.` Usando a lista suspensa Métrica no menu Filtros , este gráfico mostra a receita / pipeline / gastos / ofertas / oportunidades / clientes potenciais / contatos / visitas / visitas exclusivas / impressões / cliques / formulários ao longo do tempo.
+`5.` Usando a lista suspensa Métrica no menu Filtros, este gráfico mostra a receita/receita do pipeline/gasto/ofertas/oportunidades/clientes potenciais/contatos/visitas/visitas/visitas/impressões/cliques/formulários ao longo do tempo.
 
 **Impressões**
 
-`6.` O número total de impressões emitidas por todas as contas de anúncios ligadas.
+`6.` O número total de impressões servidas de todas as contas de anúncios conectadas.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **CPM**
 
-`7.` O total de gastos das impressões servidas dividido pelo total de impressões (dividido por 1000), fornecendo a taxa CPM.
+`7.` O gasto total das impressões veiculadas dividido pelo total de impressões (dividido por 1000), fornecendo a taxa de CPM.
 
 **Cliques**
 
 `8.` O número total de cliques rastreados de todas as contas de anúncios conectadas.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **CPC**
 
-`9.` O gasto total dos cliques acompanhados dividido pelo total de cliques, fornecendo a taxa CPC.
+`9.` O gasto total dos cliques rastreados dividido pelo total de cliques, fornecendo a taxa de CPC.
 
 **Leads**
 
-`10.` O número total de leads criados no CRM.
+`10.` O número total de clientes potenciais criados no CRM.
 
 **Custo por lead**
 
-`11.` O gasto total dos leads criados dividido pelo total de cliques, fornecendo a taxa CPL.
+`11.` O gasto total dos clientes potenciais criados dividido pelo total de cliques, fornecendo a taxa CPL.
 
 **Visitas**
 
-`12.` O número total de visitas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+`12.` O número total de visitas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visitas Exclusivas**
 
-`13.` O número total de visitas únicas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+`13.` O número total de visitas únicas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Resumo do Tráfego da Web**
 
-Usando o seletor de dimensão no menu Filtros, alterne entre Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Criativo, Palavra-chave, Disposição, Site e visualize o número de exibições de página, visitas, visitas exclusivas e envios de formulário creditados a cada um.
+Usando o seletor de dimensão no menu Filtros, alterne entre Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento, Site e visualize o número de exibições de página, visitas, visitas exclusivas e envios de formulário creditados a cada uma.
 
 **Resumo do Pipeline de Leads**
 
-Usando o seletor de dimensão no menu Filtros, alterne entre Canal, Subcanal, Campanha, Conta, Grupo de anúncios, Anúncio, Anunciante, Criativo, Palavra-chave, Disposição, Site e visualize o número de Clientes potenciais ou Contatos atribuídos a cada um, com base no modelo de atribuição selecionado.
+Usando o seletor de dimensão no menu Filtros, alterne entre Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento, Site e visualize o número de Clientes potenciais ou Contatos atribuídos a cada um, com base no modelo de atribuição selecionado.
 
 **Resumo do Pipeline de Oportunidades**
 
-Usando o seletor de dimensão no menu Filtros, alterne entre Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Criativo, Palavra-chave, Disposição, Site e visualize o número de Oportunidades, Ofertas, Receita de pipeline, Gasto, ROI e Receita atribuídas a cada um, com base no modelo de atribuição selecionado.
+Usando o seletor de dimensão no menu Filtros, alterne entre Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento, Site e visualize o número de Oportunidades, Ofertas, Receita do pipeline, Gastos, ROI e Receita atribuídos a cada um, com base no modelo de atribuição selecionado.
 
 ### Marketing de conteúdo {#content-marketing}
 
-O painel Marketing de conteúdo oferece aos profissionais de marketing de conteúdo a capacidade de visualizar o desempenho de seu conteúdo de marketing, desde quantas visitas eles geraram até quanta receita foi fechada. Exiba-o por todo o conteúdo ou restrinja-o a partes específicas do conteúdo ou páginas.
+O painel Marketing de conteúdo oferece aos profissionais de marketing de conteúdo a capacidade de ver o desempenho de seu conteúdo de marketing, de quantas visitas eles geraram até quanta receita foi fechada. Visualize por todo o conteúdo ou restrinja-o a partes específicas do conteúdo ou de páginas.
 
 Filtros
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
-A página de aterrissagem é igual a __
+Página de aterrissagem é igual a __
 
 Canal é igual a __
 
@@ -752,29 +753,29 @@ Categorias
 
 **Total da receita**
 
-`1.` O valor total da receita de oportunidades com ganhos fechados somente de fontes digitais, com base no modelo de atribuição.
+`1.` O valor total de receita de oportunidades Ganhas fechadas somente de fontes digitais, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Páginas de Aterrissagem por Receita**
 
-`2.` Uma lista de páginas iniciais com base na receita foi atribuída a cada página inicial, classificada pela maior receita com base no modelo de atribuição selecionado.
+`2.` Uma lista de páginas de aterrissagem com base na receita atribuída a cada página de aterrissagem, classificada pela receita mais alta com base no modelo de atribuição selecionado.
 
 **Total de Receita de Pipeline**
 
-`3.` A receita potencial total de qualquer Oportunidade Aberta somente de fontes digitais, o que significa que ela não é Fechada Perdida ou Fechada. A receita é baseada no modelo de atribuição selecionado.
+`3.` A receita potencial total de qualquer Oportunidade em Aberto proveniente apenas de fontes digitais, o que significa que não é Perda Fechada ou Ganho Fechado. A receita é baseada no modelo de atribuição selecionado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Páginas de Aterrissagem por Receita de Pipeline**
 
-`4.` Uma lista de páginas iniciais com base na quantidade de receita do pipeline atribuída a cada página inicial, classificada pela maior receita do pipeline com base no modelo de atribuição selecionado.
+`4.` Uma lista de páginas de aterrissagem com base na quantidade de receita do pipeline atribuída a cada página de aterrissagem, classificada pela receita do pipeline mais baseada no modelo de atribuição selecionado.
 
 **Total de Oportunidades**
 
-`5.` O número total de Oportunidades somente de fontes digitais, com base no modelo de atribuição.
+`5.` O número total de oportunidades somente de fontes digitais, com base no modelo de atribuição.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Páginas de Aterrissagem por Contagem de Oportunidades**
 
@@ -784,53 +785,53 @@ Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualizaç
 
 `7.` O número total de formulários enviados em todas as páginas rastreadas.
 
-**URLs de formulário principais por envio de formulário**
+**Principais URLs de Formulário por Envio de Formulário**
 
 `8.` Uma lista de URLs de formulário com base no número de formulários enviados em cada URL, classificados pelo maior número de formulários enviados em uma página.
 
 **URLs de formulário por canal**
 
-`9.` Os 10 principais URLs de formulário agrupados pelo canal que está direcionando a visita.
+`9.` As 10 principais URLs de formulário agrupadas pelo canal que está direcionando a visita.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Visitas Exclusivas**
 
-`10.` O número total de visitas únicas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+`10.` O número total de visitas únicas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
-Faça o detalhamento para ver as visitas únicas do site acompanhadas por mês.
+Detalhe para ver as visitas exclusivas ao site rastreadas por mês.
 
 **Principais Páginas de Aterrissagem por Visitas Exclusivas**
 
-`11.` Uma lista de páginas de aterrissagem com base no número de visitas únicas a cada página de aterrissagem, classificadas pelas páginas com o maior número de visitas únicas.
+`11.` Uma lista de páginas de aterrissagem com base no número de visitas exclusivas a cada página de aterrissagem, classificadas pelas páginas com o maior número de visitas exclusivas.
 
-Faça o detalhamento para visualizar as visitas únicas por mês no URL selecionado.
+Faça drill-in para ver as visitas exclusivas por mês ao URL selecionado.
 
 **Visitas**
 
-`12.` O número total de visitas ao site rastreadas por todos os visitantes conhecidos e anônimos.
+`12.` O número total de visitas ao site rastreadas em todos os visitantes conhecidos e anônimos.
 
 **Principais Páginas de Aterrissagem por Visitas**
 
-`13.` Uma lista de páginas de aterrissagem com base no número de visitas iniciais a cada página de aterrissagem, classificadas pelas páginas com o maior número de visitas.
+`13.` Uma lista de páginas de aterrissagem com base no número de visitas iniciais a cada página de aterrissagem, classificada pelas páginas com mais visitas.
 
 **Leads**
 
-`14.` O número total de Leads, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque é possível excluir alguns pontos de contato em um registro de lead usando esse tipo de data. Se um modelo de atribuição além do Forma de U for aplicado, a contagem de Forma de U será usada para Forma de W, Forma de W e Modelo personalizado.
+`14.` O número total de clientes em potencial, com base no modelo de atribuição. Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois é possível excluir alguns pontos de contato em um registro de cliente potencial usando esse tipo de data. Se um modelo de atribuição além de Forma de U for aplicado, a contagem de Forma de U será usada para Forma de W, Forma de W e Modelo personalizado.
 
-Clique em Mostrar detalhes e aprofunde os dados exibindo-os como uma visualização e tabela.
+Clique em para Mostrar detalhes e detalhar os dados exibindo-os como uma visualização e tabela.
 
 **Páginas de Aterrissagem por Contagem de Leads**
 
-`15.` Uma lista de URLs de página com base no número de leads criados a partir de cada URL, classificados pelas páginas com mais leads.
+`15.` Uma lista de URLs de página com base no número de clientes potenciais criados a partir de cada URL, classificados pelas páginas com mais clientes potenciais.
 
-### Oportunidades de marketing {#marketing-ops}
+### Oportunidades de marketing  {#marketing-ops}
 
-Validar e diagnosticar [!DNL Marketo Measure] dados com visibilidade completa em pontos de contato individuais.
+Validar e diagnosticar [!DNL Marketo Measure] com total visibilidade em pontos de contato individuais.
 
 **Filtros**
 
-ID da conta
+ID da Conta
 
 Nome da conta
 
@@ -842,7 +843,7 @@ Email do Lead ou Contato
 
 ID da campanha
 
-Ganho da Oportunidade (S/N)
+Oportunidade conquistada (S/N)
 
 Data de criação da oportunidade
 
@@ -868,65 +869,65 @@ Detalhes do Touchpoint
 
 **Contas**
 
-`1.` Lista de todas as contas com pontos de contato. As informações de cada conta incluem classificação de envolvimento, número de oportunidades, número de contatos, número de clientes potenciais, número de pontos de contato de atribuição e número de pontos de contato.
+`1.` Lista de todas as contas com pontos de contato. As informações de cada conta incluem classificação de engajamento, número de oportunidades, número de contatos, número de leads, número de pontos de contato de atribuição e número de pontos de contato.
 
-Clique nos números agregados para detalhar os dados básicos.
+Clique nos números agregados para fazer drill-down para obter detalhes dos dados básicos.
 
 **Oportunidades**
 
-`2.` Lista de todas as oportunidades com pontos de contato de atribuição. As informações para cada oportunidade incluem a quantidade da oportunidade, o número de contatos e o número de pontos de contato de atribuição.
+`2.` Lista de todas as oportunidades com pontos de contato de atribuição. As informações para cada oportunidade incluem o valor da oportunidade, o número de contatos e o número de pontos de contato de atribuição.
 
-Clique nos números agregados para detalhar os dados básicos.
+Clique nos números agregados para fazer drill-down para obter detalhes dos dados básicos.
 
 **Contatos**
 
 `3.` Lista de todos os contatos com pontos de contato. As informações para cada contato incluem o número de pontos de contato do atributo e o número de pontos de contato
 
-Clique nos números agregados para detalhar os dados básicos.
+Clique nos números agregados para fazer drill-down para obter detalhes dos dados básicos.
 
 **Leads**
 
-`4.` Lista de todos os leads com pontos de contato. As informações para cada lead incluem o número de pontos de contato.
+`4.` Lista de todos os clientes potenciais com pontos de contato. As informações para cada lead incluem o número de pontos de contato.
 
-Clique nos números agregados para detalhar os dados básicos.
+Clique nos números agregados para fazer drill-down para obter detalhes dos dados básicos.
 
 **Campanhas**
 
-`5.` Lista de todas as campanhas com pontos de contato. As informações de cada campanha incluem gastos da campanha, quantidade do atributo, número de pontos de contato da atribuição e número de pontos de contato.
+`5.` Lista de todas as campanhas com pontos de contato. As informações para cada campanha incluem gasto da campanha, valor do atributo, número de pontos de contato de atribuição e número de pontos de contato.
 
-Clique nos números agregados para detalhar os dados básicos.
+Clique nos números agregados para fazer drill-down para obter detalhes dos dados básicos.
 
-**Perguntas frequentes sobre Ops de marketing**
+**Perguntas frequentes sobre Operações de Marketing**
 
 **P: Por que há um filtro &quot;ID da conta&quot; e &quot;Nome da conta&quot;?**
 
-A: Embora as IDs de conta sejam exclusivas, os nomes de conta não precisam ser usados. Por exemplo, você poderia ter criado várias contas diferentes para cada unidade de negócios em uma empresa corporativa. Embora o uso do nome da conta possa ser mais intuitivo, para garantir que você esteja filtrando uma conta específica, convém usar a ID da conta.
+R: Embora as IDs de conta sejam exclusivas, os nomes de conta não precisam ser. Por exemplo, você poderia ter criado várias contas diferentes para cada unidade de negócios em uma empresa. Embora o uso do nome da conta possa ser mais intuitivo, para garantir que você esteja filtrando uma conta específica, convém usar a ID da conta.
 
 **P: Se eu filtrar por ID de conta, todas as tabelas serão filtradas?**
 
-A: Sim, ele aplicará o filtro a cada bloco no quadro. Por exemplo, se você aplicasse um filtro de conta para &quot;Microsoft&quot;, no bloco &quot;Oportunidades&quot;, veria apenas oportunidades relacionadas ao Microsoft.
+R: Sim, ele aplicará o filtro a cada bloco no quadro. Por exemplo, se você aplicasse um filtro de conta para &quot;Microsoft&quot;, no bloco &quot;Oportunidades&quot; você só veria as oportunidades relacionadas ao Microsoft.
 
-**P: O que é a coluna &quot;Classificação de envolvimento&quot;?**
+**P: Qual é a coluna &quot;Classificação de engajamento&quot;?**
 
-A: A classificação de engajamento obtém do [!DNL Marketo Measure] Pontuação preditiva de engajamento da conta, que está disponível em [!DNL Marketo Measure] Nível 2. Caso contrário, esse campo será exibido como nulo.
+R: A classificação de engajamento extrai do [!DNL Marketo Measure] Pontuação de engajamento preditivo da conta, que está disponível em [!DNL Marketo Measure] Nível 2. Se não tiver, esse campo aparecerá como nulo.
 
-**P: Posso mudar a forma como a tabela é organizada?**
+**P: Posso alterar a forma como a tabela é classificada?**
 
-A: Sim, se você clicar em qualquer um dos cabeçalhos da coluna, ela classificará a tabela. Se você clicar no mesmo cabeçalho novamente, a classificação da tabela será revertida.
+R: Sim, se você clicar em qualquer um dos cabeçalhos da coluna, ela classificará a tabela. Se você clicar no mesmo cabeçalho novamente, a classificação da tabela será invertida.
 
 **P: Posso exportar os dados?**
 
-A: Sim, ao passar o mouse sobre o título do bloco (por exemplo, &quot;Contas&quot;), clique nos três pontos verticais no canto superior direito. Isso permitirá baixar os dados desse bloco nos seguintes formatos: TXT, CSV, XLS, JSON, HTML e Markdown.
+R: Sim, ao passar o mouse sobre o título do bloco (por exemplo, &quot;Contas&quot;), clique nos três pontos verticais no canto superior direito. Isso permitirá baixar os dados desse bloco nos seguintes formatos: TXT, CSV, XLS, JSON, HTML e Markdown.
 
 **P: Posso ver mais de 500 linhas de dados?**
 
-A: O bloco está limitado à exibição de 500 linhas por vez, mas é possível exportar os dados e escolher &quot;Todos os resultados&quot; para ver mais de 500 linhas exibidas.
+R: O bloco é limitado a exibir 500 linhas por vez, mas você pode exportar os dados e escolher &quot;Todos os resultados&quot; para ver mais de 500 linhas exibidas.
 
 ## Jornada {#journey}
 
 ### Velocidade de vendas {#sales-velocity}
 
-A velocidade de vendas permite que profissionais de marketing e vendas vejam a rapidez com que seus prospetos estão se movendo pelo funil e descubram quais canais têm um tempo de conversão mais rápido (ou mais lento).
+A Velocidade de vendas permite que profissionais de marketing e vendas vejam a rapidez com que seus clientes potenciais estão passando pelo funil e descubram quais canais têm um tempo de conversão mais rápido (ou mais lento).
 
 **Filtros**
 
@@ -934,7 +935,7 @@ A data está nos últimos 12 meses completos
 
 Won é Sim
 
-O estágio é igual a __
+Estágio é igual a __
 
 Canal é igual a __
 
@@ -946,51 +947,51 @@ Subcanal é igual a __
 
 **Velocidade (dias)**
 
-`1.` O número médio de dias em que as Oportunidades estão em seu ciclo de vendas, desde o primeiro contato anônimo até o fechamento da oportunidade.
+`1.` O número médio de dias que as Oportunidades estão em seu ciclo de vendas, desde o primeiro contato anônimo até o fechamento da oportunidade.
 
 **Oportunidades ativas**
 
-`2.` O número total de oportunidades de qualquer Oportunidade Aberta, o que significa que não é Oportunidade Fechada ou Vencedora Fechada.
+`2.` O número total de oportunidades de qualquer Oportunidade Aberta, significando que não é Perdida Fechada ou Ganha Fechada.
 
 **Tamanho médio da oferta**
 
-`3.` A quantidade média de uma oportunidade de Vencedor Fechado.
+`3.` O valor médio de uma oportunidade Ganha Fechada.
 
 **Taxa de obtenções**
 
-`4.` O número total de oportunidades de Vencedor Fechado dividido pelo número total de Oportunidades de Ganho Fechado e Oportunidades de Ganho Fechado, mostrando a porcentagem de taxa de ganho.
+`4.` O número total de oportunidades Ganhas Fechadas dividido pelo número total de Oportunidades Ganhas Fechadas e Perdidas Fechadas, mostrando a porcentagem de taxa de ganho.
 
 **Velocidade da oportunidade por canal**
 
-`5.` O número médio de dias em que as Oportunidades estão em seu ciclo por estágio, agrupado pelo Canal de marketing e mostrando o tempo necessário para o progresso até o próximo estágio. Os estágios que aparecem aqui são estágios de marco (FT, LC, OC) e estágios personalizados.
+`5.` O número médio de dias que as Oportunidades estão em seu ciclo por estágio, agrupadas pelo Canal de Marketing e mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC, OC) e estágios personalizados.
 
 **Velocidade de Lead por Canal**
 
-`6.` O número médio de dias em que os Clientes Potenciais estão em seu ciclo por estágio antes de serem convertidos em um Contato/Oportunidade/Conta, agrupados pelo Canal de marketing e mostrando o tempo necessário para o progresso para o próximo estágio. Os estágios que aparecem aqui são estágios de marco (FT, LC) e estágios personalizados.
+`6.` O número médio de dias que os clientes potenciais estão em seu ciclo por estágio antes de serem convertidos em um Contato/Oportunidade/Conta, agrupados pelo Canal de marketing e mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC) e estágios personalizados.
 
 **Velocidade média da oportunidade**
 
-`7.` O número médio de dias em que as Oportunidades estão em seu ciclo por estágio, mostrando o tempo necessário para o progresso até o próximo estágio. Os estágios que aparecem aqui são estágios de marco (FT, LC, OC) e estágios personalizados. Os números aqui refletem o tempo por estágio no gráfico Velocidade por canal da oportunidade acima.
+`7.` O número médio de dias que as Oportunidades estão em seu ciclo por estágio, mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC, OC) e estágios personalizados. Os números aqui refletem o tempo por estágio no gráfico Velocidade da oportunidade por canal acima.
 
 **Velocidade média de lead**
 
-`8.` O número médio de dias em que os Clientes Potenciais estão em seu ciclo por estágio antes de serem convertidos em um Contato/Oportunidade/Conta, mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marco (FT, LC) e estágios personalizados. Os números aqui refletem o tempo por estágio no gráfico Velocidade de lead por canal acima.
+`8.` O número médio de dias que os clientes potenciais estão em seu ciclo por estágio antes de serem convertidos em um Contato/Oportunidade/Conta, mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC) e estágios personalizados. Os números aqui refletem o tempo por estágio no gráfico Velocidade do lead por canal acima.
 
 **Velocidade da oportunidade ao longo do tempo**
 
 `9.` O número médio de dias em que as Oportunidades estão em seu ciclo por estágio com uma tendência ao longo do tempo.
 
-**Velocidade de lead ao longo do tempo**
+**Velocidade do lead ao longo do tempo**
 
-`10.` O número médio de dias que os Leads estão em seu ciclo por estágio com uma tendência ao longo do tempo.
+`10.` O número médio de dias que os clientes em potencial estão em seu ciclo por estágio com uma tendência ao longo do tempo.
 
 ### Instantâneo {#snapshot}
 
-O instantâneo fornece aos profissionais de marketing uma visualização de todo o pipeline em um determinado ponto no tempo. Uma única data é adicionada ao filtro para mostrar como era o estado do pipeline nessa data.
+O instantâneo fornece aos profissionais de marketing uma visualização de todo o pipeline em um determinado momento. Uma única data é adicionada ao filtro para mostrar como era o estado do pipeline nessa data.
 
 Filtros
 
-A data está em 2018-01-01
+A data é 01/01/2018
 
 Leads ou Contatos
 
@@ -998,31 +999,31 @@ Leads ou Contatos
 
 **Instantâneo de Lead/Contato**
 
-`1.` O número de registros de Lead ou Contato que estavam em cada estágio na data selecionada.
+`1.` O número de registros de Cliente Potencial ou Contato que estavam em cada estágio na data selecionada.
 
 **Instantâneo de Cliente Potencial/Contato (Tabela)**
 
-`2.` O número de registros de Lead ou Contato que estavam em cada estágio na data selecionada.
+`2.` O número de registros de Cliente Potencial ou Contato que estavam em cada estágio na data selecionada.
 
 **Instantâneo da Oportunidade**
 
 `3.` O número de registros de Oportunidade que estavam em cada estágio na data selecionada.
 
-**Instantâneo da Oportunidade (Tabela)**
+**Instantâneo da oportunidade (Tabela)**
 
 `4.` O número de registros de Oportunidade que estavam em cada estágio na data selecionada.
 
 ### Passaporte {#passport}
 
-O Passport é a nova visão de cascata de demanda. [!DNL Marketo Measure] Painel ROI, em que cada estágio mostra o número de registros em cada estágio e o total de registros que passaram por cada estágio.
+O Passport é a nova exibição de cascata de demanda do [!DNL Marketo Measure] Painel de ROI, onde cada estágio mostra o número de registros em cada estágio e o total de registros que passaram por cada estágio.
 
 **Filtros**
 
-O tipo de data é Data do ponto de contato
+O tipo de data é a data do ponto de contato
 
 A data está nos últimos 12 meses completos
 
-O modelo de atribuição tem forma W
+O modelo de atribuição tem forma de W
 
 Canal é igual a __
 
@@ -1034,21 +1035,21 @@ Categorias
 
 ![](assets/definitions-and-encyclopedia-22.png)
 
-**Passaporte de cliente potencial/contato**
+**Passaporte de Cliente Potencial/Contato**
 
-`1.` &amp; `2.` Cada estágio mostra o número de registros em cada Status de lead ou Estágio de contato e o total de registros que passaram por cada estágio.
+`1.` &amp; `2.` Cada estágio mostra o número de registros em cada Status de Cliente Potencial ou Estágio de Contato e o total de registros que passaram por cada estágio.
 
 **Passaporte de oportunidades**
 
 `3.` Cada estágio mostra o número de registros em cada Estágio da Oportunidade e o total de registros que passaram por cada estágio.
 
-### Caminho de envolvimento {#engagement-path}
+### Caminho de engajamento {#engagement-path}
 
-Entenda como os leads, contatos, oportunidades e contas se envolvem do primeiro ao fechamento.
+Entenda como clientes potenciais, contatos, oportunidades e contas se envolvem desde o primeiro contato até o fechamento.
 
 **Filtros**
 
-Nome da conta/ID
+Nome/ID da conta
 
 E-mail/ID do lead
 
@@ -1070,7 +1071,7 @@ Tipo de Contato de Marketing
 
 Canal
 
-Médio
+Meio
 
 Fonte da Web
 
@@ -1082,36 +1083,36 @@ Receita atribuída
 
 **Jornada de eventos**
 
-Lista de todos os eventos com detalhes de pontos de contato associados e receita atribuída.
+Lista de todos os eventos com detalhes de ponto de contato associados e receita atribuída.
 
-Clique em Tipo de evento para detalhar e exibir os detalhes do evento.
+Clique em Tipo de Evento para fazer drill-down e exibir detalhes do evento.
 
-**Perguntas frequentes sobre o caminho de envolvimento**
+**Perguntas frequentes sobre o caminho de engajamento**
 
-**P: Como posso ver a jornada de uma única pessoa?**
+**P: Como posso visualizar a jornada de uma única pessoa?**
 
-A: Usando o filtro &quot;ID/email de cliente potencial&quot; ou &quot;ID de contato/email&quot;, defina o filtro como &quot;contém [endereço de email]e clique em &#39;Executar&#39;.
+R: Usando o filtro &quot;ID/email do cliente potencial&quot; ou &quot;ID/email do contato&quot;, defina o filtro como &quot;contém [endereço de email]&#39; e clique em &#39;Executar&#39;.
 
 **P: O que o filtro &quot;Modelo de atribuição&quot; afeta?**
 
-A: O filtro de modelo de atribuição afetará a coluna &quot;Receita atribuída&quot;
+R: O filtro do modelo de atribuição afetará a coluna &quot;Receita atribuída&quot;
 
-**P: O que é o filtro &quot;Tipo de toque de marketing&quot;?**
+**P: Qual é o filtro &quot;Tipo de toque de marketing&quot;?**
 
-A: O &quot;Tipo de contato de marketing&quot; é o tipo de envolvimento, que pode incluir Visita à Web, Formulário Web, Bate-papo na Web, Email, Chamada, Mensagem à esquerda ou CRM (ou seja, associação de campanha para canais offline)
+R: O &quot;Tipo de toque de marketing&quot; é o tipo de engajamento, que pode incluir Visita na Web, Formulário da Web, Chat da Web, Email, Chamada, Mensagem à esquerda ou CRM (ou seja, associação de campanha para canais offline)
 
-**P: Como faço para filtrar todas as sessões da Web da jornada?**
+**P: Como filtrar todas as sessões da Web da jornada?**
 
-A: Usando o filtro &quot;Tipo de toque de marketing&quot;, defina o filtro como &quot;não contém visita da Web&quot; OU &quot;contém [todos os tipos de toque exceto Visita à Web]e, em seguida, clique em &#39;Executar&#39;
+R: Usando o filtro &quot;Tipo de toque de marketing&quot;, defina o filtro como &quot;não contém visita da Web&quot; OU &quot;contém [todos os tipos de contato, exceto Visita na Web]e, em seguida, clique em &#39;Executar&#39;
 
 **P: Posso exportar os dados?**
 
-A: Sim, ao passar o mouse sobre a tabela &quot;Jornada de eventos&quot;, clique nos três pontos verticais no canto superior direito. Isso permitirá baixar os dados nos seguintes formatos: TXT, CSV, XLS, JSON, HTML e Markdown.
+R: Sim, ao passar o mouse sobre a tabela &quot;Jornada de eventos&quot;, clique nos três pontos verticais no canto superior direito. Isso permitirá baixar os dados nos seguintes formatos: TXT, CSV, XLS, JSON, HTML e Markdown.
 
-**P: Posso mudar a forma como a tabela é organizada?**
+**P: Posso alterar a forma como a tabela é classificada?**
 
-A: Sim, se você clicar em qualquer um dos cabeçalhos da coluna, ela classificará a tabela. Se você clicar no mesmo cabeçalho novamente, a classificação da tabela será revertida. Por padrão, as tabelas são classificadas por Data do ponto de contato, começando com a mais antiga.
+R: Sim, se você clicar em qualquer um dos cabeçalhos da coluna, ela classificará a tabela. Se você clicar no mesmo cabeçalho novamente, a classificação da tabela será invertida. Por padrão, as tabelas são classificadas por Data do ponto de contato que começa com a mais antiga.
 
 **P: Posso ver mais de 500 linhas de dados?**
 
-A: O bloco está limitado à exibição de 500 linhas por vez, mas é possível exportar os dados e escolher &quot;Todos os resultados&quot; para ver mais de 500 linhas exibidas.
+R: O bloco é limitado a exibir 500 linhas por vez, mas você pode exportar os dados e escolher &quot;Todos os resultados&quot; para ver mais de 500 linhas exibidas.

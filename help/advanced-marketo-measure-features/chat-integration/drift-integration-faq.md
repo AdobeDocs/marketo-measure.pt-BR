@@ -1,9 +1,10 @@
 ---
 unique-page-id: 27656441
-description: Perguntas frequentes sobre integração de Drift - [!DNL Marketo Measure] - Documentação do produto
+description: Perguntas frequentes sobre a integração de deriva - [!DNL Marketo Measure] - Documentação do produto
 title: Perguntas frequentes sobre integração de desvio
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -12,32 +13,32 @@ ht-degree: 1%
 
 # Perguntas frequentes sobre integração de desvio {#drift-integration-faq}
 
-Como parte do [!DNL Marketo Measure] integração com o Drift, descrevemos algumas das perguntas mais frequentes. Se houver alguma dúvida não descrita abaixo, entre em contato com a equipe de conta do Adobe (seu gerente de conta) ou [Suporte Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Como parte do [!DNL Marketo Measure] integração com o Drift, descrevemos algumas das perguntas mais frequentes. Se houver dúvidas não descritas abaixo, entre em contato com a Equipe de conta do Adobe (seu gerente de conta) ou [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-**Como a integração está habilitada?**
+**Como a integração é habilitada?**
 
-Rastreamento do Chat de Drift para [!DNL Marketo Measure] está ativada por padrão. Se, por qualquer motivo, você quiser desativá-lo (e não criar pontos de contato a partir do Drift Chats por padrão), precisaremos de um atributo adicional adicionado ao seu [!DNL Marketo Measure] Implementação de JavaScript, em negrito abaixo:
+Rastreamento de Drift Chat para [!DNL Marketo Measure] é ativado por padrão. Se, por qualquer motivo, você quiser desativá-lo (e não criar pontos de contato a partir de chats de deriva por padrão), precisaremos de um atributo adicional adicionado ao seu [!DNL Marketo Measure] Implementação do Javascript, em negrito abaixo:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" id="bizible-settings" data-chatEnabled="false"></script>`
 
-Para aqueles que usam [!DNL Google Tag Manager] para carregar o [!DNL Marketo Measure] Script, se você quiser excluir seus Chats de Drift da qualificação de Pontos de Contato, será necessário adicionar o seguinte `<span>` logo após a [!DNL Marketo Measure] Script:
+Para quem usa [!DNL Google Tag Manager] para carregar o [!DNL Marketo Measure] Script, se você quiser excluir seus Bate-papos Derivados de serem qualificados para Pontos de Contato, será necessário adicionar aos seguintes `<span>` logo após o [!DNL Marketo Measure] Script:
 
 `<span id="bizible-settings" data-chatEnabled="false"></span>`
 
 **O que a integração faz?**
 
-A integração agora permite [!DNL Marketo Measure] para rastrear quando um usuário final fornece seu endereço de email em um chat de Drift. A partir daí, criamos pontos de contato a partir dessas interações com um tipo de ponto de contato &quot;Bate-papo da Web&quot;. Essa integração permite que os profissionais de marketing entendam o desempenho de suas interações de chat, juntamente com os canais/subcanais/campanhas que fazem com que as pessoas interajam com esses chats.
+A integração agora permite [!DNL Marketo Measure] para rastrear quando um usuário final fornece seu endereço de email em um chat Drift. A partir daí, criamos pontos de contato a partir dessas interações com um Tipo de ponto de contato de &quot;bate-papo na Web&quot;. Essa integração permite que os profissionais de marketing entendam o desempenho de suas interações de chat, juntamente com os canais/subcanais/campanhas que impulsionam as pessoas a interagir com esses chats.
 
-**E se eu rastrear o Drift por meio das regras de sincronização da campanha?**
+**E se eu rastrear o Drift através de regras de sincronização de campanha?**
 
-Se houver regras de sincronização de campanha em vigor para criar pontos de contato para interações do chat de Drift, será necessário garantir que pare de adicionar esses usuários finais específicos à campanha de CRM correspondente. Caso contrário, uma vez que o bit de recurso estiver ativado, criaremos um ponto de contato de Campanha CRM e um ponto de contato digital para uma interação de chat de Drift.
+Se houver regras de sincronização de campanha em vigor para criar pontos de contato para interações de bate-papo do Drift, você precisará garantir que deixará de adicionar esses usuários finais específicos à Campanha de CRM correspondente. Caso contrário, uma vez habilitado o bit do recurso, criaremos um ponto de contato da Campanha do CRM e um ponto de contato digital para uma interação do Drift Chat.
 
-**E se eu rastrear o Drift via Campanhas do CRM?**
+**E se eu rastrear o Drift via Campanhas de CRM?**
 
-Se houver campanhas de CRM em vigor para criar pontos de contato para interações de chat por Drift, uma Data final do ponto de contato precisará ser definida nessas campanhas específicas (a Data final do ponto de contato deve ser a data em que o bit do recurso de Integração de chat da Web está ativado).
+Se houver campanhas de CRM em vigor para criar pontos de contato para interações de bate-papo de deriva, uma Data de término do ponto de contato precisará ser definida nessas campanhas específicas (a Data de término do ponto de contato deve ser a data em que o bit de recurso de Integração de bate-papo na Web está habilitado).
 
-**E se eu rastrear o Drift via Atividades?**
+**E se eu rastrear o Drift através das atividades?**
 
-Se houver regras de atividade em vigor para criar pontos de contato para interações do chat de Drift, será necessário adicionar uma lógica adicional às regras. Você precisará adicionar lógica usando o campo Data da criação da tarefa para impedir que a duplicação de pontos de contato seja criada (IE CrmTask.CreatedDate é Menor que a data em que o bit de recurso foi ativado). Veja a captura de tela abaixo, por exemplo.
+Se houver regras de atividade em vigor para criar pontos de contato para interações de bate-papo de deriva, uma parte adicional da lógica precisará ser adicionada às regras. Você precisará adicionar lógica usando o campo Data de criação da tarefa para evitar que a duplicação de pontos de contato seja criada (IE CrmTask.CreatedDate é Menor que a data em que o bit de recurso foi habilitado). Consulte a captura de tela abaixo para obter um exemplo.
 
 ![](assets/activity-rule-drift.png)

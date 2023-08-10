@@ -3,7 +3,8 @@ unique-page-id: 18874558
 description: Estágios e pontos de contato do bumerangue - [!DNL Marketo Measure] - Documentação do produto
 title: Estágios de bumerangue e touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang, Touchpoints
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 1%

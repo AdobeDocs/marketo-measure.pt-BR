@@ -1,30 +1,31 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Esquema dinâmico - [!DNL Marketo Measure] - Documentação do produto"
-title: "[!DNL Marketo Measure] Esquema dinâmico"
+description: "[!DNL Marketo Measure] Esquema do Dynamics - [!DNL Marketo Measure] - Documentação do produto"
+title: "[!DNL Marketo Measure] Esquema do Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
-# [!DNL Marketo Measure] Esquema dinâmico {#marketo-measure-dynamics-schema}
+# [!DNL Marketo Measure] Esquema do Dynamics {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizá-la e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
-Abaixo você encontrará o esquema do Dynamics necessário para começar a usar [!DNL Marketo Measure]. Todas as entidades e campos são listados, juntamente com o acesso de leitura e/ou gravação necessário.
+Abaixo, você encontrará o esquema do Dynamics necessário para começar a usar o [!DNL Marketo Measure]. Todas as entidades e campos são listados, juntamente com o acesso de leitura e/ou gravação necessário.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
 O ponto de contato do comprador é um [!DNL Marketo Measure] entidade personalizada para encapsular as interações de marketing para Contatos e Clientes potenciais.
 
-## Relacionamentos do Ponto de Contato do Comprador {#buyer-touchpoint-relationships}
+## Relacionamentos com pontos de contato do comprador {#buyer-touchpoint-relationships}
 
-Este diagrama é uma visualização de alto nível das relações entre as entidades do Dynamics Stock e o Ponto de Contato do Comprador.
+Este diagrama é uma visualização de alto nível dos relacionamentos entre as entidades do Dynamics Stock e o Ponto de contato do comprador.
 
 ## Ponto de contato do comprador {#buyer-touchpoint}
 
@@ -303,13 +304,13 @@ Este diagrama é uma visualização de alto nível das relações entre as entid
  </tbody> 
 </table>
 
-## Ponto de contato da atribuição do comprador {#buyer-attribution-touchpoint}
+## Ponto de contato de atribuição do comprador {#buyer-attribution-touchpoint}
 
-O ponto de contato da atribuição do comprador é um [!DNL Marketo Measure] entidade personalizada para encapsular a influência do marketing nas Oportunidades.
+O ponto de contato de atribuição do comprador é um [!DNL Marketo Measure] entidade personalizada para encapsular a influência do marketing em Oportunidades.
 
-## Relacionamentos de ponto de contato da atribuição do comprador {#buyer-attribution-touchpoint-relationships}
+## Relacionamentos de Touchpoint de atribuição do comprador {#buyer-attribution-touchpoint-relationships}
 
-Este diagrama é uma visualização de alto nível dos relacionamentos entre as entidades do Dynamics Stock e o Ponto de Contato da Atribuição de Comprador.
+Este diagrama é uma visualização de alto nível dos relacionamentos entre as entidades do Dynamics Stock e o Ponto de contato de atribuição do comprador.
 
 ## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
@@ -911,7 +912,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
 
 ## Entidades do Dynamics Standard {#dynamics-standard-entities}
 
-Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] interage com o , bem como com os campos personalizados que adicionamos a essas entidades.
+Essa lista fornece as Entidades do Dynamics Standard que [!DNL Marketo Measure] O interage com o, bem como com os campos personalizados que adicionamos a essas entidades.
 
 **Lead**
 
@@ -954,7 +955,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -966,19 +967,19 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>qualificfyingoportunityid</p></td> 
+   <td><p>qualifyingoportunityid</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>websiteurl</p></td> 
+   <td><p>url do site</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>companyname</p></td> 
+   <td><p>company name</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1033,7 +1034,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1064,7 +1065,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>websiteurl</p></td> 
+   <td><p>url do site</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1076,7 +1077,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1119,7 +1120,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1167,7 +1168,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_bizible_offer_amount_Base</p></td> 
+   <td><p>bizible2_bizible_opportunity_amount_Base</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1186,7 +1187,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
-   <td><p>campanha</p></td> 
+   <td><p>campaignnid</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1210,7 +1211,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1283,7 +1284,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1307,7 +1308,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>regdingobjectid</p></td> 
+   <td><p>regardingobjectid</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1337,7 +1338,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Oportunity</p></td> 
+   <td><p>bizible2_Touchpoint_Status_Opportunity</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1380,7 +1381,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1429,7 +1430,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1472,7 +1473,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>modifiedon</p></td> 
+   <td><p>modificado em</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1484,7 +1485,7 @@ Esta lista fornece as Entidades Padrão do Dynamics que [!DNL Marketo Measure] i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>regdingobjectid</p></td> 
+   <td><p>regardingobjectid</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

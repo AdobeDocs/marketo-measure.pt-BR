@@ -3,20 +3,21 @@ unique-page-id: 18874722
 description: Práticas recomendadas para testes - [!DNL Marketo Measure] - Documentação do produto
 title: Práticas recomendadas para testes
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 # Práticas recomendadas para testes {#best-practices-for-testing}
 
-Você deve testar todos os diferentes tipos de formulários necessários para garantir que [!DNL Marketo Measure] O JavaScript está funcionando corretamente.
+Você deve testar todos os diferentes tipos de formulários para garantir a [!DNL Marketo Measure] O JavaScript está funcionando corretamente.
 
 ## Processo de teste recomendado {#recommended-test-process}
 
-1. Use um navegador incógnito ou limpe os cookies entre cada teste de envio de formulário _e_ use um endereço de email diferente sempre.
+1. Usar um navegador incógnito ou limpar os cookies entre cada teste de envio de formulário _e_ usar um endereço de email diferente a cada vez.
 
    >[!TIP]
    >
@@ -26,10 +27,10 @@ Você deve testar todos os diferentes tipos de formulários necessários para ga
 
 1. Envie o formulário no seu site usando um endereço de email exclusivo.
 
-1. Registre o URL da página que está enviando o formulário e o endereço de email usado.
+1. Registre a URL da página em que você está enviando o formulário e o endereço de email usado.
 
-1. Localize o registro criado em seu CRM (Lead ou contato) para o envio do formulário e verifique se um ponto de contato foi criado adequadamente.
+1. Localize o registro criado no CRM (Lead ou Contato) para o envio desse formulário e verifique se um ponto de contato foi criado corretamente.
 
 >[!NOTE]
 >
->Você pode usar um [!DNL Marketo Measure] relatório de estoque, como Leads com [!DNL Marketo Measure] Pontos de contato ou observe o layout da página Lead/contato se optar por atualizar os layouts de página com [!DNL Marketo Measure] detalhes. Isso pode levar algum tempo para que os dados sejam processados.
+>Você pode usar um [!DNL Marketo Measure] relatório de estoque, como Clientes potenciais com [!DNL Marketo Measure] Pontos de contato ou verifique o layout da página Cliente potencial/Contato se optar por atualizar os layouts de página com [!DNL Marketo Measure] detalhes. Isso pode levar algum tempo para que os dados sejam processados.

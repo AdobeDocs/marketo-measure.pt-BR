@@ -3,7 +3,8 @@ unique-page-id: 18874692
 description: Cenários de estágio de bumerangue - [!DNL Marketo Measure] - Documentação do produto
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 0%

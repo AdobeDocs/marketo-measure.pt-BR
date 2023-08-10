@@ -1,9 +1,10 @@
 ---
 unique-page-id: 18874793
-description: Usando um campo de valor de receita personalizado - [!DNL Marketo Measure] - Documentação do produto
+description: Uso de um Campo de Valor de Receita Personalizado - [!DNL Marketo Measure] - Documentação do produto
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 3%
@@ -12,12 +13,12 @@ ht-degree: 3%
 
 # Utilização de um campo de quantia de receita personalizada {#using-a-custom-revenue-amount-field}
 
-Por padrão, os pontos de contato de atribuição do comprador obterão a Quantidade da oportunidade de um dos dois campos:
+Por padrão, os Pontos de Contato da Atribuição do Comprador extrairão a Quantia da Oportunidade de um dos dois campos:
 
-* Valor (Padrão SFDC)
-* [!DNL Marketo Measure] Valor da Oportunidade (Personalizado)
+* Valor (padrão SFDC)
+* [!DNL Marketo Measure] Valor da oportunidade (personalizado)
 
-Se você estiver usando um campo Quantia personalizada em suas Oportunidades, precisaremos configurar um fluxo de trabalho para calcular a Receita do ponto de contato do comprador. Isso requer um conhecimento mais avançado de [!DNL Salesforce], portanto, pode precisar de assistência do administrador SFDC.
+Se você estiver usando um campo Valor personalizado em suas Oportunidades, precisaremos configurar um fluxo de trabalho para calcular a Receita do ponto de contato do comprador. Isso exige um conhecimento mais avançado sobre [!DNL Salesforce], portanto, pode precisar de assistência do administrador do SFDC.
 
 A partir de agora, precisaremos das seguintes informações:
 
@@ -25,32 +26,32 @@ A partir de agora, precisaremos das seguintes informações:
 
 A partir daqui, começaremos a criar o workflow.
 
-1. Navegar para **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Fluxo de trabalho e aprovações]** > **[!UICONTROL Regras de fluxo de trabalho]**.
+1. Navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Fluxo de trabalho e aprovações]** > **[!UICONTROL Regras de fluxo de trabalho]**.
 
    ![](assets/1.jpg)
 
-1. Selecionar **[!UICONTROL Nova regra]**, defina o objeto como &quot;Oportunidade&quot; e clique em **[!UICONTROL Próximo]**.
+1. Selecionar **[!UICONTROL Nova regra]**, defina o objeto como &quot;Oportunidade&quot; e clique em **[!UICONTROL Próxima]**.
 
    ![](assets/2.jpg)
 
    ![](assets/3.jpg)
 
-1. Configure o workflow. Defina o nome da regra como &quot;Atualizar&quot; [!DNL Marketo Measure] Valor da Oportunidade.&quot; Defina os Critérios de avaliação como &quot;Criado e sempre que ele for editado&quot;. Para os Critérios da Regra, selecione o campo Quantia personalizada e selecione o Operador [!UICONTROL como &quot;Diferente de&quot;] e deixe o campo &quot;Value&quot; em branco.
+1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar&quot; [!DNL Marketo Measure] Valor da oportunidade.&quot; Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL como &quot;Não Igual a&quot;] e deixe o campo &quot;Valor&quot; em branco.
 
    ![](assets/4.jpg)
 
-1. Adicione uma ação de workflow. Definir esta lista de opções como &quot;[!UICONTROL Nova atualização de campo].&quot;
+1. Adicione uma ação de workflow. Defina esta lista de opções como &quot;[!UICONTROL Nova atualização de campo].&quot;
 
    ![](assets/5.jpg)
 
-1. Aqui você preencherá as informações do campo. No campo &quot;Nome&quot;, recomendamos usar esta nomenclatura: &quot;[!DNL Marketo Measure] Valor da opção.&quot; O &quot;Nome exclusivo&quot; será preenchido automaticamente com base no campo &quot;Nome&quot;. Na lista de opções &quot;Campo a ser atualizado&quot;, selecione &quot;[!DNL Marketo Measure] Valor da Oportunidade.&quot; Depois de selecionar o campo, selecione a caixa &quot;Reavaliar regras do fluxo de trabalho após alteração do campo&quot;. Em &quot;Especificar novo valor de campo&quot;, selecione &quot;Usar fórmula para definir o novo valor&quot;. Na caixa vazia, solte o nome da API do seu campo Quantia personalizada. Clique em **[!UICONTROL Salvar]**.
+1. Aqui você preencherá as informações de campo. No campo &quot;Nome&quot;, recomendamos usar este nome: &quot;[!DNL Marketo Measure] Quantia Opp.&quot; O &quot;Nome exclusivo&quot; será preenchido automaticamente com base no campo &quot;Nome&quot;. Na lista de opções &quot;Campo a atualizar&quot;, selecione &quot;[!DNL Marketo Measure] Valor da oportunidade.&quot; Depois de selecionar o campo, marque a caixa &quot;Reavaliar Regras de Workflow após Alteração do Campo&quot;. Em &quot;Especificar novo valor do campo&quot;, selecione &quot;Usar uma fórmula para definir o novo valor&quot;. Na caixa vazia, solte o nome da API do campo Valor personalizado. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/6.png)
 
-1. Você será redirecionado para uma página de rollup do fluxo de trabalho, certifique-se de &quot;Ativar&quot; e estará pronto para prosseguir. Para ativar, clique em **Editar** ao lado do novo fluxo de trabalho e clique em **Ativar**.
+1. Você será redirecionado a uma página de rollup do seu fluxo de trabalho, certifique-se de &quot;Ativar&quot; e pronto para começar. Para ativar, clique em **Editar** ao lado do novo fluxo de trabalho e clique em **Ativar**.
 
-   Após concluir essas etapas, as oportunidades precisarão ser atualizadas para acionar o fluxo de trabalho e ter o novo valor da variável [!UICONTROL oportunidade personalizada] campo.
+   Depois de concluir essas etapas, as oportunidades precisarão ser atualizadas para acionar o workflow para ter o novo valor do [!UICONTROL oportunidade personalizada] campo.
 
-   Isso pode ser feito executando suas oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre o uso do Carregador de dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Isso pode ser feito abrindo oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre o uso do Carregador de dados no [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Se houver alguma dúvida no caminho, não hesite em entrar em contato com a equipe de conta do Adobe (seu gerente de conta) ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Se houver dúvidas ao longo do caminho, entre em contato com a Equipe de conta do Adobe (seu gerente de conta) ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

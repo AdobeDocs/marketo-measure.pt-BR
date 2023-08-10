@@ -1,65 +1,66 @@
 ---
 unique-page-id: 18874781
-description: Configuração Da Visualização Do Doubleclick Campaign Manager Por Meio Da Atribuição - [!DNL Marketo Measure] - Documentação do produto
-title: Configuração Da Exibição Do Doubleclick Campaign Manager Por Meio Da Atribuição
+description: Configuração Da Visualização Do Gerenciador De Campanhas Doubleclick Por Meio Da Atribuição - [!DNL Marketo Measure] - Documentação do produto
+title: Configuração da atribuição de visualização do Doubleclick Campaign Manager
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Configuração Da Exibição Do Doubleclick Campaign Manager Por Meio Da Atribuição {#configuring-doubleclick-campaign-manager-view-through-attribution}
+# Configuração da atribuição de visualização do Doubleclick Campaign Manager {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
-## Avaliação da visualização por meio da atribuição {#measuring-view-through-attribution}
+## Medir visualização por meio de atribuição {#measuring-view-through-attribution}
 
 >[!NOTE]
 >
->Se estiver usando o [!DNL Marketo Measure] e integração do DoubleClick Campaign Manager, precisamos de um [Conexão da API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) assim, podemos baixar detalhes das campanhas e criações para resolver os anúncios.
+>Se você estiver usando o [!DNL Marketo Measure] e a integração do DoubleClick Campaign Manager, exigimos uma [Conexão de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que possamos baixar os detalhes das campanhas e criações para resolver os anúncios.
 
-Para começar a obter informações mais granulares da exibição por meio do rastreamento com o Doubleclick Campaign Manager, nosso pixel de rastreamento precisa ser configurado.
+Para começar a obter insights mais granulares da visualização por meio do rastreamento com o Doubleclick Campaign Manager, nosso pixel de rastreamento precisa ser configurado.
 
-Por favor [clique aqui](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) para obter mais informações sobre o [!DNL Marketo Measure] Funcionalidade de atribuição de view through .
+Por favor [clique aqui](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) para obter mais informações sobre o [!DNL Marketo Measure] Visualização por meio da funcionalidade de atribuição.
 
-[!DNL Marketo Measure] O é considerado uma tag piggyback porque é uma chamada de terceiros por meio da tag de anúncio do DCM. As tags de reprodução não funcionam com tags de imagem, somente tags de iframe ou javascript. De acordo com o Suporte DCM, isso não mudou recentemente e sempre aconteceu. As tags padrão foram descontinuadas em 2 de outubro de 2017, mas não afetam a capacidade de [!DNL Marketo Measure] para rastrear as impressões.
+[!DNL Marketo Measure] é considerada uma tag piggyback porque é uma chamada de terceiros por meio da tag de publicidade do DCM. As tags Piggyback não funcionam com tags de imagem, somente tags iframe ou javascript. De acordo com o Suporte do DCM, isso não mudou recentemente e sempre foi o caso. As tags padrão foram descontinuadas em 2 de outubro de 2017, mas não afetam a capacidade de [!DNL Marketo Measure] para rastrear as impressões.
 
-Caso você use uma hierarquia Pai e Filho no DCM, precisaremos de nossa tag aplicada a todos os níveis para o rastreamento de impressões.
+Caso você use uma hierarquia Pai e Filho no DCM, precisaremos que nossa tag seja aplicada a todos os níveis para rastrear as impressões.
 
 ## Como adicionar a tag de imagem {#how-to-add-the-image-tag}
 
-Você adicionará a tag em Doubleclick na configuração Anunciante e desejará criar uma tag de evento de impressão.
+Você adicionará a tag no Doubleclick sob a configuração Anunciante e criará uma tag de evento de impressão.
 
-1. Adicione o seguinte código como um pixel de imagem 1x1.
+1. Adicione o código a seguir como um pixel de imagem 1x1.
 
 `https://cdn.bizibly.com/i?v=%eadv!&a=%eaid!&c=%ecid!&s=%esid!&p=%epid!&m=%m&n=%n`
 
-1. Depois de adicionado, confirme se os delimitadores são mapeados da seguinte maneira. Isso deve ser automático quando a tag for aplicada:
+1. Depois de adicionado, confirme se os delimitadores são mapeados da seguinte maneira. Isso deve ser automático depois que a tag for aplicada:
 
-   v = %ekey! Expandir A Id Do Anunciante\
-   a = %eaid! Expandir Id Do Anúncio\
-   c = %ecid! Expandir Id Criativa\
+   v = %eadv! Expandir ID do anunciante\
+   a = %eaid! Expandir ID do anúncio\
+   c = %ecid! Expandir ID de criação\
    s = %esid! Expandir ID do site\
-   p = %epid! Expandir A Id De Disposição\
+   p = %epid! Expandir ID de posicionamento\
    m = %m Corresponder Macro de Código\
-   n = %n Macro de Número Aleatório
+   n = %n Macro de número aleatório
 
    ![](assets/1.png)
 
 ## Perguntas frequentes {#faq}
 
-**P: A tag da imagem é segura?**
+**P: A tag de imagem é segura?**
 
-A: Sim. Não é uma tag JavaScript, é uma tag de imagem.
+R: Sim. Não é uma tag JavaScript, é uma tag de imagem.
 
-**P: Quais permissões o usuário conectado precisa?**
+**P: Quais permissões são necessárias para o usuário conectado?**
 
-A: tráfico, desexportação, userinfo.email
+A: dfatrafficking, dfareporting, userinfo.email
 
 **P: Quanto tempo pode levar para importar dados de gastos?**
 
-A: Até 6 horas
+A: até 6 horas
 
-**P: Quanto tempo pode levar para importar dados de anúncio?**
+**P: Quanto tempo pode levar para importar dados de anúncios?**
 
-A: Até 6 horas
+A: até 6 horas

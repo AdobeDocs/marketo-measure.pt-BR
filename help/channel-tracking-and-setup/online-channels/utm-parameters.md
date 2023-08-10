@@ -3,8 +3,9 @@ unique-page-id: 18874606
 description: Parâmetros do UTM - [!DNL Marketo Measure] - Documentação do produto
 title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
-workflow-type: ht
+feature: UTM Parameters
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
 

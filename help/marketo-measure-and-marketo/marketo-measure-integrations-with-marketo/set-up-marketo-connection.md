@@ -1,24 +1,25 @@
 ---
 unique-page-id: 42762762
 description: Configurar conexão do Marketo - [!DNL Marketo Measure] - Documentação do produto
-title: Configurar conexão Marketo
+title: Configurar conexão do Marketo
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
-source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Configurar conexão Marketo {#set-up-marketo-connection}
+# Configurar conexão do Marketo {#set-up-marketo-connection}
 
 Veja como configurar sua conexão com o Marketo.
 
 >[!PREREQUISITES]
 >
->[Criar uma função de usuário somente de API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) para [!DNL Marketo Measure]Conexão /Marketo Engage.
+>[Criar uma função de usuário Somente API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) para o [!DNL Marketo Measure]/Marketo Engage conexão.
 
-1. Em [!DNL Marketo Measure], clique no botão **[!UICONTROL Minha conta]** e selecione **[!UICONTROL Configurações]**.
+1. Entrada [!DNL Marketo Measure], clique no link **[!UICONTROL Minha conta]** e selecione **[!UICONTROL Configurações]**.
 
    ![](assets/set-up-marketo-connection-1.png)
 
@@ -26,31 +27,31 @@ Veja como configurar sua conexão com o Marketo.
 
    ![](assets/set-up-marketo-connection-2.png)
 
-1. Clique em **[!UICONTROL Configurar nova conexão do CRM]**.
+1. Clique em **[!UICONTROL Configurar Nova Conexão do CRM]**.
 
    ![](assets/set-up-marketo-connection-3.png)
 
-1. Clique no botão **[!UICONTROL Connect]** ao lado do Marketo.
+1. Clique em **[!UICONTROL Conectar]** botão ao lado do Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Em uma nova guia, faça logon em sua conta Marketo Engage. Ir para **Administrador** > **Serviços Web**. Role para baixo até REST API. Realce e salve o Endpoint e o URL do serviço de identidade. Você vai precisar deles daqui a pouco.
+1. Em uma nova guia, faça logon em sua conta Marketo Engage. Ir para **Admin** > **Serviços da Web**. Role para baixo até API REST. Realce e salve o Ponto de extremidade e o URL do serviço de identidade. Você vai precisar deles daqui a pouco.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Ainda no Marketo Engage, selecione **LaunchPoint** na árvore à esquerda. Encontre o serviço personalizado que deseja conectar ao Marketo Measure e clique em **Exibir detalhes**.
+1. Ainda no Marketo Engage, selecione **LaunchPoint** na árvore à esquerda. Localize o serviço personalizado que deseja conectar ao Marketo Measure e clique em **Exibir detalhes**.
 
    ![](assets/set-up-marketo-connection-6.png)
 
-1. Realce e salve a ID do cliente e o Segredo do cliente. Clique em **Fechar**.
+1. Destaque e salve a ID do cliente e a Segredo do cliente. Clique em **Fechar**.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. Voltar a [!DNL Marketo Measure], preencha os campos com os dados que acabou de coletar.
+1. Voltar para [!DNL Marketo Measure], preencha os campos com os dados que acabou de coletar.
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. Depois de inserir os valores, clique em **[!UICONTROL Autenticar]**. Sua conta do Marketo Engage será conectada ao [!DNL Marketo Measure].
+1. Depois de inserir os valores, clique em **[!UICONTROL Autenticar]**. Sua conta Marketo Engage será conectada ao [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 

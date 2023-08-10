@@ -1,26 +1,27 @@
 ---
 unique-page-id: 18874686
-description: Configurações para vários tipos de registro de campanha - [!DNL Marketo Measure] - Documentação do produto
+description: Configurações para vários tipos de registros de campanha - [!DNL Marketo Measure] - Documentação do produto
 title: Configurações para vários tipos de registro de campanha
 exl-id: 10499556-a591-4630-9149-ae676e6494af
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 # Configurações para vários tipos de registro de campanha {#configurations-for-multiple-campaign-record-types}
 
-**Valores da Lista de Opções Ausentes no Campo &quot;Ativar Pontos de Contato do Comprador&quot;**
+**Valores de Lista de Seleção Ausentes do Campo &quot;Ativar Pontos de Contato do Comprador&quot;**
 
-Se sua organização SFDC usa vários tipos de registro de campanha, os valores da lista de opções para &quot;Ativar pontos de contato do comprador&quot; devem ser adicionados para cada tipo de registro. Para adicionar as opções, siga as etapas abaixo.
+Se a organização do SFDC usar vários tipos de registro de campanha, os valores da lista de opções para &quot;Ativar pontos de contato do comprador&quot; deverão ser adicionados para cada tipo de registro. Para adicionar as opções, siga as etapas abaixo.
 
 1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Tipos de registro]**.
 
    ![](assets/1.jpg)
 
-1. Selecione os Tipos de registro de campanha clicando no botão **[!UICONTROL Rótulo de Tipo de Registro]**, não o [!UICONTROL editar] botão.
+1. Selecione os Tipos de registro de campanha clicando no **[!UICONTROL Rótulo de Tipo de Registro]**, não o [!UICONTROL editar] botão.
 
    ![](assets/2.jpg)
 
@@ -28,8 +29,8 @@ Se sua organização SFDC usa vários tipos de registro de campanha, os valores 
 
    ![](assets/3.jpg)
 
-1. Adicione todos os três valores do agrupamento &quot;Valores disponíveis&quot; ao agrupamento &quot;Valores selecionados&quot;.
+1. Adicione todos os três valores do agrupamento &quot;Valores Disponíveis&quot; ao agrupamento &quot;Valores Selecionados&quot;.
 
    ![](assets/4.jpg)
 
-1. Defina o valor padrão como &quot;Nenhum&quot; e clique em **[!UICONTROL Salvar]**. Repita o procedimento para qualquer tipo de registro de campanha adicional.
+1. Defina o valor padrão como &quot;None&quot; e clique em **[!UICONTROL Salvar]**. Repita o procedimento para qualquer tipo de registro de campanha adicional.

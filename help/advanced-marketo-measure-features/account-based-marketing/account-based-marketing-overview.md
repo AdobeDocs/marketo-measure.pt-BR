@@ -3,10 +3,11 @@ unique-page-id: 18874730
 description: Visão geral de marketing baseado em conta - [!DNL Marketo Measure] - Documentação do produto
 title: Visão geral de marketing baseado em conta
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -84,5 +85,5 @@ Para começar a usar o PES, basta adicionar o campo do PES e a Lista relacionada
 
    ![](assets/3.png)
 
-Tudo pronto!
+Pronto!
 

@@ -2,7 +2,8 @@
 description: Práticas recomendadas para mapeamento de preparo - [!DNL Marketo Measure] - Documentação do produto
 title: Práticas recomendadas para o mapeamento de estágio
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
+feature: Tracking, Custom Models
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%

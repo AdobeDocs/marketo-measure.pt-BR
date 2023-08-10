@@ -3,7 +3,8 @@ unique-page-id: 18874604
 description: Segmentação personalizada - [!DNL Marketo Measure] - Documentação do produto
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%

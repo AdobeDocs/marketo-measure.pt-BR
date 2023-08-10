@@ -3,7 +3,8 @@ unique-page-id: 35586140
 description: Esquema de Data Warehouse - Marketo Measure - Documentação do produto
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '22610'
 ht-degree: 99%
@@ -17,8 +18,7 @@ O Data Warehouse permite rastrear o quanto você desejar, relatar os dados de at
 >[!IMPORTANT]
 >
 >* As linhas com um valor para _DELETED_DATE serão retidas por 7 dias e removidas do Snowflake.
->* Os fusos horários usados em Snowflake aderem ao Tempo Universal Coordenado (UTC).
-
+>* Os fusos horários usados no Snowflake aderem ao Tempo Universal Coordenado (UTC).
 
 >[!NOTE]
 >
@@ -4331,7 +4331,7 @@ Contatos importados do sistema de origem.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esse recurso foi substituído. Não use esta coluna.</p>
+        <p>Esse recurso foi descontinuado. Não use esta coluna.</p>
       </td>
       <td>
         <p>N/D</p>
@@ -9557,7 +9557,7 @@ Leads importados do sistema de origem.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esse recurso foi substituído. Não use esta coluna.</p>
+        <p>Esse recurso foi descontinuado. Não use esta coluna.</p>
       </td>
       <td>
         <p>N/D</p>
@@ -10175,7 +10175,7 @@ Oportunidades importadas do sistema de origem.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Esse recurso foi substituído. Não use esta coluna.</p>
+        <p>Esse recurso foi descontinuado. Não use esta coluna.</p>
       </td>
       <td>
         <p>N/D</p>
@@ -15558,7 +15558,7 @@ order by 1
 
 >[!NOTE]
 >
->Este query retorna a receita atribuída ao modelo w. Altere o modelo atualizando o campo no cálculo da receita atribuída.
+>Esta consulta retorna a receita atribuída para o modelo w shape. Altere o modelo atualizando o campo no cálculo da receita atribuída.
 
 ```
 select bat.id

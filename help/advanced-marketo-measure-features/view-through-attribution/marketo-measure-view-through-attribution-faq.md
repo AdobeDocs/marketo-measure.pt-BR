@@ -1,28 +1,29 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de visualização - [!DNL Marketo Measure] - Documentação do produto"
-title: "[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de visualização por meio de"
+description: "[!DNL Marketo Measure] Exibir por meio das perguntas frequentes sobre atribuição - [!DNL Marketo Measure] - Documentação do produto"
+title: "[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# [!DNL Marketo Measure] Perguntas frequentes sobre Atribuição de visualização por meio {#marketo-measure-view-through-attribution-faq}
+# [!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through {#marketo-measure-view-through-attribution-faq}
 
-## O que é Atribuição de view through? {#what-is-view-through-attribution}
+## O que é Visualizar por meio de atribuição? {#what-is-view-through-attribution}
 
-O [!DNL Marketo Measure] O recurso Atribuição de view through inclui a capacidade de incluir impressões de anúncios no modelo de atribuição.
+A variável [!DNL Marketo Measure] O recurso Visualizar através da atribuição inclui a capacidade de incluir impressões de anúncios no modelo de atribuição.
 
-## Por que a visualização por meio da atribuição é importante? {#why-is-view-through-attribution-important}
+## Por que a visualização por atribuição é importante? {#why-is-view-through-attribution-important}
 
-Historicamente, o re-direcionamento ou a publicidade de impressão tem sido difícil para os profissionais de marketing contabilizar na análise de atribuição. Os clientes em potencial podem, ocasionalmente, ser expostos ao redirecionamento de anúncios, mas é improvável que eles realmente cliquem em um desses anúncios e preencham um formulário na mesma sessão. Nossa solução de Atribuição de View Through agora tem a capacidade de rastrear se alguém foi ou não exposto a um anúncio de impressão. Esse ponto de contato será anexado ao registro individual e continuará até que o prospecto se torne um cliente. Com essas informações, o profissional de marketing obterá agora melhores insights sobre o desempenho de seus anúncios de re-direcionamento.
+Historicamente, o redirecionamento ou a publicidade de impressão têm sido difíceis de serem considerados pelos profissionais de marketing na análise de atribuição. Os possíveis clientes podem, ocasionalmente, ser expostos a anúncios de redirecionamento, mas é improvável que realmente cliquem em um desses anúncios e preencham um formulário na mesma sessão. Nossa solução View Through Attribution agora tem a capacidade de rastrear se alguém foi exposto ou não a um anúncio de impressão. Esse ponto de contato será anexado ao registro individual e continuará até que o cliente potencial se torne um cliente. Com essas informações, o profissional de marketing agora terá uma melhor compreensão do desempenho de seus anúncios de redirecionamento.
 
 ## O que está envolvido na configuração? {#what-is-involved-in-setting-this-up}
 
-Para [!DNL Marketo Measure] para começar a medir as impressões do anúncio, há uma tag de impressão que precisa ser colocada no Doubleclick Campaign Manager. Quando a tag for implementada, as impressões serão armazenadas em nossos logs e cuidaremos do restante. Entre em contato com seu Gerente de sucesso se estiver interessado em medir a exibição por meio de atribuição.
+A fim de [!DNL Marketo Measure] para começar a medir as impressões do anúncio, há uma tag de impressão que precisa ser colocada no Doubleclick Campaign Manager. Depois que a tag é implementada, as impressões são armazenadas em nossos logs e cuidamos do resto. Entre em contato com o Gerente de sucesso se estiver interessado em medir a visualização por meio de atribuição.
 
 ## Quais plataformas de anúncios são compatíveis? {#which-ad-platforms-are-supported}
 
@@ -30,7 +31,7 @@ Atualmente, oferecemos suporte ao Doubleclick Campaign Manager.
 
 ## Como a atribuição é calculada? {#how-is-the-attribution-calculated}
 
-Fizemos uma análise cuidadosa dos dados de impressões e de sua influência nas conversões em todos os estágios e canais de marketing. A distribuição varia de acordo com o modelo, como pode ser visto na tabela abaixo:
+Fizemos uma análise cuidadosa dos dados de impressão e de sua influência nas conversões em todos os estágios e canais de marketing. A distribuição varia dependendo do modelo, como pode ser visto na tabela abaixo:
 
 <table> 
  <colgroup> 
@@ -45,11 +46,11 @@ Fizemos uma análise cuidadosa dos dados de impressões e de sua influência nas
  <tbody> 
   <tr> 
    <th><br></th> 
-   <th>Primeiro toque</th> 
-   <th>Criação do leads</th> 
+   <th>Primeiro contato</th> 
+   <th>Criação de lead</th> 
    <th>Em forma de U</th> 
    <th>Em forma de W</th> 
-   <th>Em caminho completo</th> 
+   <th>Caminho completo</th> 
    <th>Modelo personalizado</th> 
   </tr> 
   <tr> 
@@ -109,8 +110,8 @@ Fizemos uma análise cuidadosa dos dados de impressões e de sua influência nas
  </tbody> 
 </table>
 
-## Como será isso em Salesforce? {#what-will-this-look-like-in-salesforce}
+## Como será a aparência no Salesforce? {#what-will-this-look-like-in-salesforce}
 
-[!DNL Marketo Measure] O criará um único ponto de contato de impressão em qualquer lead exposto ao anúncio de exibição. Podemos mapear o usuário mesmo depois que ele chega ao seu site (FT) pela primeira vez e preencher um formulário (LC). O ponto de contato conterá informações de publicidade, como Nome/ID da campanha, ID do anúncio, Conteúdo do anúncio, Nome/ID do site, Nome/ID do posicionamento, Canal de marketing, Geo, Página do referenciador e muito mais.
+[!DNL Marketo Measure] criará um ponto de contato de impressão único em qualquer lead que foi exposto ao anúncio de exibição. Somos capazes de mapear o usuário mesmo depois que ele chega pela primeira vez ao seu site (FT) e preenche um formulário (LC). O ponto de contato conterá informações de anúncios, como Nome/ID da campanha de publicidade, ID do anúncio, Conteúdo do anúncio, Nome/ID do site, Nome/ID da disposição, Canal de marketing, Geografia, Página do referenciador e muito mais.
 
-O modelo de atribuição view-through dependerá do cliente e de seus dados.
+O modelo de atribuição de view-through dependerá do cliente e de seus dados.

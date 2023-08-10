@@ -1,42 +1,43 @@
 ---
 unique-page-id: 18874718
-description: Criando uma exibição de lista de campanha para [!DNL Salesforce Campaigns] - [!DNL Marketo Measure] - Documentação do produto
-title: Criando uma exibição de lista de campanha para [!DNL Salesforce] Campanhas
+description: Criar uma visualização da lista de campanhas para [!DNL Salesforce Campaigns] - [!DNL Marketo Measure] - Documentação do produto
+title: Criação de uma exibição de lista de campanha para [!DNL Salesforce] Campanhas
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Criando uma exibição de lista de campanha para [!DNL Salesforce] Campanhas {#creating-a-campaign-list-view-for-salesforce-campaigns}
+# Criação de uma exibição de lista de campanha para[!DNL Salesforce]Campanhas {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
-Saiba como criar uma Exibição de lista para as campanhas que você deseja sincronizar com Pontos de contato do comprador.
+Saiba como criar uma Exibição de lista para as campanhas que você deseja sincronizar com os Pontos de contato do comprador.
 
-A exibição da lista de campanha que pode ser criada permite ter um local &quot;go-to&quot; para ver e gerenciar os campos &quot;Type&quot; e &quot;Enable Buyer Touchpoints&quot; para garantir que cada um dos [!DNL Salesforce] campanhas que informam que seus canais de marketing offline são configuradas corretamente.
+A exibição de lista do Campaign que pode ser criada permite ter um local &quot;ir para&quot; para ver e gerenciar os campos &quot;Tipo&quot; e &quot;Ativar pontos de contato do comprador&quot; para garantir que cada um dos [!DNL Salesforce] as campanhas que informam seus canais de marketing offline estão configuradas corretamente.
 
-1. Vá até a guia Campanhas em [!DNL Salesforce] e criar uma nova exibição de lista
-1. Nomeie a exibição como &quot;Campanhas a serem sincronizadas [!DNL Marketo Measure].&quot;
-1. Queremos que esta lista mostre apenas as campanhas com as quais queremos sincronizar [!DNL Marketo Measure] então precisamos de alguns filtros:
+1. Vá até a guia Campanhas no [!DNL Salesforce] e criar uma nova visualização de lista
+1. Nomeie a exibição &quot;Campanhas para sincronizar com [!DNL Marketo Measure].&quot;
+1. Queremos que essa lista mostre apenas as campanhas que queremos sincronizar [!DNL Marketo Measure] portanto, precisamos de alguns filtros:
 
-   * **Tipo** [IGUAL] &quot;Todos os tipos de campanha que mapeamos para seus canais offline&quot;. Consulte o Plano de implementação ou a guia Canais offline em [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Minha conta -> Configurações -> Canais offline). Você pode selecionar os Tipos desejados (aqueles mapeados para um canal de marketing offline) por meio do ícone da lupa.
+   * **Tipo** [IGUAL A] &quot;Todos os tipos de campanha que mapeamos para seus canais offline&quot;. Consulte seu Plano de implementação ou a guia Canais offline no [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Minha conta -> Configurações -> Canais offline). Você pode selecionar os Tipos que deseja (aqueles mapeados para um canal de marketing offline) por meio do ícone de lupa.
 
-      * Escolha o máximo de 3 Tipos para cada filtro. Existe um limite de caracteres que você pode ter em um campo de filtro. Comece com 3 Tipos por filtro e adicione linhas adicionais de filtros &quot;Tipo&quot;, se necessário.
-   * **Data de criação** [MAIOR OU IGUAL] your [!DNL Marketo Measure] data de início. Você pode encontrar a data de início no painel do ROI no [!DNL Marketo Measure] Aplicativo. Basta selecionar &quot;Desde a data de criação&quot; no intervalo de datas do traço e ele mostrará a data de início.
-   * **&#42;Tipo de registro&#42;** - Para fazer edições na Exibição de lista, é necessário adicionar um filtro para Tipo de registro. Cada registro de campanha que você pode precisar editar precisa ser do mesmo Tipo de registro.
+      * Escolha 3 Types max para cada filtro. Há um limite de caracteres que você pode ter em um campo de filtro. Comece com 3 tipos por filtro e adicione linhas adicionais de filtros &quot;Tipo&quot;, se necessário.
 
+   * **Data de criação** [MAIOR OU IGUAL] seu [!DNL Marketo Measure] data de início. Você pode encontrar sua data de início no painel de ROI dentro do [!DNL Marketo Measure] Aplicativo. Basta selecionar &quot;Desde a data de criação&quot; no intervalo de datas do traço e ela mostrará a data de início.
+   * **&#42;Tipo de registro&#42;** - Para fazer edições na Exibição de lista, é necessário adicionar um filtro para o Tipo de registro. Cada registro de campanha que talvez precise ser editado precisa ser o mesmo Tipo de registro.
 
-1. Edite os campos Selecionados para mostrar na exibição de lista. A configuração completa da exibição de lista deve ser semelhante ao exemplo abaixo:
+1. Edite os campos Selecionados para exibição na exibição de lista. A configuração completa da exibição em lista deve ser semelhante ao exemplo abaixo:
 
-   Essa visualização permite visualizar suas campanhas e editar os campos &quot;Tipo&quot; e &quot;Ativar pontos de contato do comprador&quot;, se necessário. Ao criar novas campanhas que devem ser sincronizadas com o [!DNL Marketo Measure], elas aparecerão nessa visualização e você poderá gerenciar todas as configurações para essas campanhas diretamente da lista.
+   Essa visualização permite que você veja suas campanhas e edite os campos &quot;Tipo&quot; e &quot;Ativar pontos de contato do comprador&quot;, se necessário. Ao criar novas campanhas que devem ser sincronizadas com o [!DNL Marketo Measure], eles aparecerão nessa visualização e você poderá gerenciar todas as configurações para essas campanhas diretamente da lista.
 
-   Para fazer edições em linha na Exibição de lista, você precisa verificar se o seguinte também é verdadeiro em sua [!DNL Salesforce] configuração:
+   Para fazer edições em linha a partir da Exibição de lista, é necessário garantir que o seguinte também seja verdadeiro dentro do [!DNL Salesforce] configuração:
 
    * **[!UICONTROL Configuração]** > **[!UICONTROL Interface do usuário]** > **[!UICONTROL Ativar edição em linha]**
-   * Também é necessário ativar as listas aprimoradas marcadas (logo abaixo da caixa para edição em linha)
-   * Certifique-se de ter permissões para os campos
+   * Também é necessário ativar listas aprimoradas marcadas (logo abaixo da caixa para edição em linha)
+   * Verifique se você tem permissões para os campos
 
 >[!MORELIKETHIS]
 >
->[Solução de problemas comuns com a edição em linha da exibição de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Solução de problemas comuns com a Edição em linha do Modo de exibição de lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

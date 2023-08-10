@@ -3,8 +3,9 @@ unique-page-id: 18874570
 description: Estrutura do Marketo Measure - Marketo Measure - Documentação do produto
 title: Estrutura do Marketo Measure
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
-source-git-commit: 7eb5ef616e3ae77d53056496f9a1b301ce59d6ee
-workflow-type: ht
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 

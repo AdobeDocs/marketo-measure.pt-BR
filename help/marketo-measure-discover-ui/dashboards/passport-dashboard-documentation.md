@@ -3,62 +3,63 @@ unique-page-id: 42762628
 description: Documentação do painel do Passport - [!DNL Marketo Measure] - Documentação do produto
 title: Documentação do painel do Passport
 exl-id: 43cb01a8-d02e-4086-af57-d7ec9275f87a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Documentação do painel do Passport {#passport-dashboard-documentation}
 
-O painel Passport permite que os profissionais de marketing visualizem leads/contatos e oportunidades que passaram por cada estágio do pipeline durante um determinado período de tempo.
+O painel Passport permite que os profissionais de marketing visualizem clientes em potencial/contatos e oportunidades que passaram por cada estágio do pipeline durante um determinado período.
 
-Este painel tem dois blocos:
+Esse painel tem dois blocos:
 
-* Oportunidades: O número de registros de Oportunidade passados por cada estágio durante o intervalo de tempo especificado.
-* Clientes potenciais/Contatos: O número de registros de Lead ou Contato passados por cada estágio durante um determinado período.
+* Oportunidades: o número de registros de Oportunidade transmitidos em cada estágio durante o período especificado.
+* Clientes Potenciais/Contatos: o número de registros de Clientes Potenciais ou Contatos transmitidos em cada estágio durante o período determinado.
 
 >[!NOTE]
 >
->Em todos os painéis do Discover, somente um objeto de pessoa, seja Líder ou Contato, pode ser relatado. Isso é definido em [!UICONTROL Configurações] > [!UICONTROL Relatório] > [!UICONTROL Configurações de atribuição] > [!UICONTROL Objeto padrão do painel].
+>Em todos os painéis do Discover, somente um objeto de pessoa, Cliente potencial ou Contato, pode ser relatado. Isso é definido em [!UICONTROL Configurações] > [!UICONTROL Relatórios] > [!UICONTROL Configurações de atribuição] > [!UICONTROL Objeto de painel padrão].
 
-Este painel oferece suporte aos seguintes filtros (todos os filtros se aplicam aos dois blocos):
+Esse painel é compatível com os seguintes filtros (todos os filtros se aplicam a ambos os blocos):
 
 * Data: selecione o intervalo de tempo.
 * Canal: filtre os registros por canais. Um registro é associado a um canal se qualquer um de seus pontos de contato estiver associado ao canal.
-* Subcanal: filtre os registros por subcanais. Um registro é associado a um subcanal se qualquer um de seus pontos de contato estiver associado ao subcanal.
-* Campanha: filtre os registros por campanhas. Um registro é associado a uma campanha se qualquer um de seus pontos de contato estiver associado a ela.
-* Fonte da campanha: filtre os registros por fontes de campanha. As fontes de campanha de exemplo são Adwords, BingAds, Facebook, LinkedIn etc. Um registro é associado a uma fonte de campanha se qualquer um de seus pontos de contato estiver associado à fonte da campanha.
-* Nome da conta CRM: filtre os registros por Nomes de Conta do CRM.
-* Filtros de segmento: filtrar os registros por segmentos personalizados. Um registro é associado a um segmento se qualquer um de seus pontos de contato estiver associado a ele.
+* Subchannel: filtrar os registros por subcanais. Um registro é associado a um subcanal se qualquer um de seus pontos de contato estiver associado ao subcanal.
+* Campanha: filtre os registros por campanhas. Um registro é associado a uma campanha se qualquer um de seus pontos de contato estiver associado à campanha.
+* Campaign Source: filtre os registros por origens de campanha. Exemplos de fontes de campanha são Adwords, BingAds, Facebook, LinkedIn etc. Um registro é associado a uma origem de campanha se qualquer um de seus pontos de contato estiver associado à origem da campanha.
+* Nome da conta do CRM: filtre os registros por Nomes de conta do CRM.
+* Filtros de segmento: filtre os registros por segmentos personalizados. Um registro é associado a um segmento se qualquer um de seus pontos de contato estiver associado ao segmento.
 
 Em todos os filtros, a lógica &quot;AND&quot; é usada.
 
 >[!NOTE]
 >
->Se um registro mudar de estágio na data selecionada, o registro será contado para os estágios de de de e para e todos os estágios de passagem.
+>Se um registro mudar de estágio na data selecionada, ele será contado para os estágios de e até e todos os estágios de passagem.
 
 ## Oportunidades {#opportunities}
 
 ![](assets/one-1.png)
 
-Os estágios incluem OC, estágios selecionados de Funil em Estágios de Oportunidade Aberta ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de palco]) e Ganhar Estágios da Oportunidade ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de palco]).
+Os estágios incluem OC, estágios de Funil selecionados em Estágios de Oportunidade Abertos ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de preparo]) e Estágios de oportunidade conquistada ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de preparo]).
 
 >[!NOTE]
 >
->Para estágios Won, as contagens de registro são somente para registros transitados para o estágio durante o período de tempo selecionado.
+>Para estágios ganhos, as contagens de registro são somente para registros transicionados para o estágio durante o período selecionado.
 
-Você pode fazer drill-down em cada barra para exibir os registros de Oportunidade para cada estágio.
+Você pode fazer drill-down a partir de cada barra para exibir os registros de Oportunidade para cada estágio.
 
 ## Leads/contatos {#leads-contacts}
 
 ![](assets/two-1.png)
 
-As etapas incluem FT, LC, estágios de Funil selecionados em Estágios de Lead/Contato Abertos em Configurações - CRM - Mapeamento de Estágio e Estágios de Lead/Contato Convertidos em Configurações - CRM - Mapeamento de Estágio.
+Os estágios incluem FT, LC, estágios de funil selecionados em estágios de lead/contato abertos em configurações - CRM - mapeamento de estágio e estágios de lead/contato convertidos em configurações - CRM - mapeamento de estágio.
 
 >[!NOTE]
 >
->Para estágios convertidos, as contagens de registro são somente para registros transitados para o estágio durante o período de tempo selecionado.
+>Para Estágios convertidos, as contagens de registros são somente para registros transicionados para o estágio durante o período selecionado.
 
 Você pode fazer drill-down em cada barra para exibir os registros de Lead/Contato para cada estágio.

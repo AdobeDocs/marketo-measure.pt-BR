@@ -3,59 +3,60 @@ unique-page-id: 42762600
 description: Documentação do painel de instantâneos - [!DNL Marketo Measure] - Documentação do produto
 title: Documentação do painel de instantâneos
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Documentação do painel de instantâneos {#snapshot-dashboard-documentation}
 
-O painel Instantâneo permite que você visualize o estado do seu CRM em qualquer ponto no tempo, com a distribuição de registros nos estágios de Lead/Contato e Oportunidade.
+O painel Instantâneo permite que você visualize o estado do seu CRM em qualquer momento determinado, com a distribuição de registros nos estágios Lead/Contato e Oportunidade.
 
-Este painel tem dois blocos:
+Esse painel tem dois blocos:
 
-* **Instantâneo do cliente potencial/contato:** O número de registros de Lead ou Contato em cada estágio na data selecionada.
+* **Instantâneo do Cliente Potencial/Contato:** O número de registros de Cliente Potencial ou Contato em cada estágio na data selecionada.
 
 >[!NOTE]
 >
->Em todos os painéis do Discover, somente um objeto de pessoa, seja Líder ou Contato, pode ser relatado. Isso é definido em [!UICONTROL Configurações] > [!UICONTROL Relatório] > [!UICONTROL Configurações de atribuição] > [!UICONTROL Objeto padrão do painel].
+>Em todos os painéis do Discover, somente um objeto de pessoa, Cliente potencial ou Contato, pode ser relatado. Isso é definido em [!UICONTROL Configurações] > [!UICONTROL Relatórios] > [!UICONTROL Configurações de atribuição] > [!UICONTROL Objeto de painel padrão].
 
-* **Instantâneo da Oportunidade:** O número de registros de Oportunidade em cada estágio na data selecionada.
+* **Instantâneo da oportunidade:** O número de registros de Oportunidade em cada estágio na data selecionada.
 
-Este painel oferece suporte aos seguintes filtros (todos os filtros se aplicam aos dois blocos):
+Esse painel é compatível com os seguintes filtros (todos os filtros se aplicam a ambos os blocos):
 
 * Data do Instantâneo: selecione a data do instantâneo.
-* ID/nome da conta do CRM: filtre os registros por IDs ou nomes de conta do CRM.
+* ID/Nome da Conta do CRM: filtre os registros por IDs ou Nomes da Conta do CRM.
 
 >[!NOTE]
 >
->Sugestões mostram somente nomes.
+>As sugestões mostram apenas nomes.
 
 * Canal: filtre os registros por canais. Um registro é associado a um canal se qualquer um de seus pontos de contato estiver associado ao canal.
-* Subcanal: filtre os registros por subcanais. Um registro é associado a um subcanal se qualquer um de seus pontos de contato estiver associado ao subcanal.
-* Campanha: filtre os registros por campanhas. Um registro é associado a uma campanha se qualquer um de seus pontos de contato estiver associado a ela.
-* Fonte da campanha: filtre os registros por fontes de campanha. As fontes de campanha de exemplo são [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Um registro é associado a uma fonte de campanha se qualquer um de seus pontos de contato estiver associado à fonte da campanha.
-* ID/nome da conta do anúncio: filtre os registros por IDs ou nomes de conta de anúncio. Um registro é associado a uma conta de anúncio se qualquer um de seus pontos de contato estiver associado a uma campanha a partir das contas de anúncio selecionadas.
+* Subchannel: filtrar os registros por subcanais. Um registro é associado a um subcanal se qualquer um de seus pontos de contato estiver associado ao subcanal.
+* Campanha: filtre os registros por campanhas. Um registro é associado a uma campanha se qualquer um de seus pontos de contato estiver associado à campanha.
+* Campaign Source: filtre os registros por origens de campanha. Exemplos de origens de campanha são [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Um registro é associado a uma origem de campanha se qualquer um de seus pontos de contato estiver associado à origem da campanha.
+* ID/nome da conta do anúncio: filtre os registros por IDs ou nomes da conta do anúncio. Um registro é associado a uma Conta publicitária se qualquer um dos seus pontos de contato estiver associado a uma campanha das Contas publicitárias selecionadas.
 
 >[!NOTE]
 >
->A sugestão mostra somente nomes.
+>Sugestão: mostrar apenas nomes.
 
-* Filtros de segmento: filtrar os registros por segmentos personalizados. Um registro é associado a um segmento se qualquer um de seus pontos de contato estiver associado a ele.
+* Filtros de segmento: filtre os registros por segmentos personalizados. Um registro é associado a um segmento se qualquer um de seus pontos de contato estiver associado ao segmento.
 
 Em todos os filtros, a lógica &quot;AND&quot; é usada.
 
 >[!NOTE]
 >
->Se um registro mudar de estágio na data selecionada, o registro será contado para os estágios de de de e para e todos os estágios de passagem.
+>Se um registro mudar de estágio na data selecionada, ele será contado para os estágios de e até e todos os estágios de passagem.
 
 ## Instantâneo de Lead/Contato {#lead-contact-snapshot}
 
 ![](assets/one.png)
 
-Os estágios incluem FT, LC e os estágios selecionados de Funil em Estágios de Lead/Contato Abertos ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de palco]).
+Os estágios incluem FT, LC e estágios de funil selecionados em Estágios de lead/contato abertos ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de preparo]).
 
 Você pode fazer drill-down em cada barra para exibir os registros de Lead/Contato para cada estágio.
 
@@ -63,6 +64,6 @@ Você pode fazer drill-down em cada barra para exibir os registros de Lead/Conta
 
 ![](assets/two.png)
 
-As etapas incluem FT, LC, estágios selecionados de Funil em Estágios de Lead/Contato Abertos ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de palco]). E OC e estágios de Funil selecionados em Estágios de Oportunidade Aberta ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de palco]).
+Os estágios incluem FT, LC, estágios de funil selecionados em estágios de lead/contato abertos ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de preparo]). E OC e estágios de Funil selecionados em Estágios de Oportunidade Abertos ([!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Mapeamento de preparo]).
 
-Você pode fazer drill-down em cada barra para exibir os registros de Oportunidade para cada estágio.
+Você pode fazer drill-down a partir de cada barra para exibir os registros de Oportunidade para cada estágio.

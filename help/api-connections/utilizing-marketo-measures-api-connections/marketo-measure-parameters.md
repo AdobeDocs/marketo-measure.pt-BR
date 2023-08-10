@@ -3,7 +3,8 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parâmetros - [!DNL Marketo Measure] - Documentação do produto"
 title: "[!DNL Marketo Measure] Parâmetros"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%

@@ -1,98 +1,99 @@
 ---
 unique-page-id: 18874539
-description: Criação personalizada [!DNL Marketo Measure] Tipos de relatórios - [!DNL Marketo Measure] - Documentação do produto
-title: Criação personalizada [!DNL Marketo Measure] Tipos de relatórios
+description: Criação de personalizados [!DNL Marketo Measure] Tipos de relatório - [!DNL Marketo Measure] - Documentação do produto
+title: Criação de tipos de relatórios [!DNL Marketo Measure] personalizados
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Criação personalizada [!DNL Marketo Measure] Tipos de relatórios {#creating-custom-marketo-measure-report-types}
+# Criação de tipos de relatórios[!DNL Marketo Measure]personalizados {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na nossa documentação, mas ainda veja &quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizá-la e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot;em nossa documentação, mas ainda consulte&quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
-Saiba como criar personalizado [!DNL Marketo Measure] [!DNL Salesforce] tipos de relatório. Há três tipos diferentes de relatórios que recomendamos criar: Clientes potenciais com pontos de contato de comprador (Personalizado), [!DNL Marketo Measure] Pessoa com pontos de contato de comprador (Personalizado), Oportunidades com ponto de contato de atribuição de comprador (Personalizado).
+Saiba como criar relatórios personalizados [!DNL Marketo Measure] [!DNL Salesforce] tipos de relatório. Há três tipos diferentes de relatórios que recomendamos criar: Clientes potenciais com Pontos de contato do comprador (Personalizado), [!DNL Marketo Measure] Pessoa com Pontos de contato do comprador (Personalizado), Oportunidades com Ponto de contato de atribuição do comprador (Personalizado).
 
-## Clientes potenciais com pontos de contato de comprador (Personalizado) {#leads-with-buyer-touchpoints-custom}
+## Clientes potenciais com pontos de contato do comprador (personalizado) {#leads-with-buyer-touchpoints-custom}
 
-1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Tipos de relatórios]** > **[!UICONTROL Novos tipos de relatório personalizado]**.
+1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Build]** > **[!UICONTROL Tipos de relatório]** > **[!UICONTROL Novos tipos de relatórios personalizados]**.
 
    ![](assets/1.png)
 
 1. Defina o Tipo de relatório personalizado.
 
-   * [!UICONTROL Foco do tipo de relatório] > [!UICONTROL [!UICONTROL Objeto principal]]: Líder
-   * Identificação > [!UICONTROL Rótulo do tipo de relatório]: Clientes potenciais com pontos de contato de comprador (Personalizado)
+   * [!UICONTROL Foco do tipo de relatório] > [!UICONTROL [!UICONTROL Objeto primário]]: lead
+   * Identificação > [!UICONTROL Rótulo de tipo de relatório]: Clientes potenciais com pontos de contato do comprador (personalizado)
    * [!UICONTROL Armazenar na categoria]: Outros relatórios
-   * [!UICONTROL Implantação] > [!UICONTROL Status da implantação]: Implantado
+   * [!UICONTROL Implantação] > [!UICONTROL Status da implantação]: implantado
 
    ![](assets/2.png)
 
-1. Defina os Relacionamentos de Objeto.
+1. Defina os Relacionamentos entre objetos.
 
-   * Relate o objeto de lead (A) ao [!DNL Marketo Measure] Objeto de Pessoa (B) e, em seguida, para o Objeto de Ponto de Contato do Comprador (C)
-   * Certifique-se de que &quot;[!UICONTROL Cada registro A/B deve ter pelo menos um registro B/C]&quot; registro selecionado
+   * Relacionar o objeto de cliente em potencial (A) ao [!DNL Marketo Measure] Objeto Pessoa (B) e, em seguida, ao Objeto Ponto de Contato do Comprador (C)
+   * Certifique-se de que &quot;[!UICONTROL Cada registro A/B deve ter pelo menos um registro B/C]O registro &quot; está selecionado
    * [!UICONTROL Salvar]
 
    ![](assets/3.png)
 
-## [!DNL Marketo Measure] Pessoa com pontos de contato de comprador (Personalizado) {#marketo-measure-person-with-buyer-touchpoints-custom}
+## [!DNL Marketo Measure] Pessoa com Pontos de contato do comprador (Personalizado) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
-1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Tipos de relatórios]** > **[!UICONTROL Novos tipos de relatório personalizado]**.
+1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Build]** > **[!UICONTROL Tipos de relatório]** > **[!UICONTROL Novos tipos de relatórios personalizados]**.
 
    ![](assets/4.png)
 
 1. Defina o Tipo de relatório personalizado.
 
-   * [!UICONTROL Foco do tipo de relatório] > [!UICONTROL Objeto principal]: [!DNL Marketo Measure] Pessoas
-   * [!UICONTROL Identificação] > [!UICONTROL Rótulo do tipo de relatório]: [!DNL Marketo Measure] Pessoa com pontos de contato de comprador (Personalizado)
+   * [!UICONTROL Foco do tipo de relatório] > [!UICONTROL Objeto primário]: [!DNL Marketo Measure] Pessoas
+   * [!UICONTROL Identificação] > [!UICONTROL Rótulo de tipo de relatório]: [!DNL Marketo Measure] Pessoa com Pontos de contato do comprador (Personalizado)
    * [!UICONTROL Armazenar na categoria]: Outros relatórios
-   * [!UICONTROL Implantação] > [!UICONTROL Status da implantação]: Implantado
+   * [!UICONTROL Implantação] > [!UICONTROL Status da implantação]: implantado
 
    ![](assets/5.png)
 
-1. Defina os Relacionamentos de Objeto.
+1. Defina os Relacionamentos entre objetos.
 
-   * Relacione o [!DNL Marketo Measure] Objeto Pessoa (A) para o Objeto de ponto de contato do comprador (B)
-   * Certifique-se de que &quot;[!UICONTROL Cada registro A deve ter pelo menos um registro B]&quot; registro selecionado
+   * Relacione o [!DNL Marketo Measure] Objeto de pessoa (A) para o Objeto de ponto de contato do comprador (B)
+   * Certifique-se de que &quot;[!UICONTROL Cada registro A deve ter pelo menos um B]O registro &quot; está selecionado
    * [!UICONTROL Salvar]
 
    ![](assets/6.png)
 
-## Oportunidades com Ponto de Contato de Atribuição de Comprador (Personalizado) {#opportunities-with-buyer-attribution-touchpoint-custom}
+## Oportunidades com o ponto de contato de atribuição do comprador (personalizado) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
-1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Tipos de relatórios]** > **[!UICONTROL Novos tipos de relatório personalizado]**.
+1. Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Build]** > **[!UICONTROL Tipos de relatório]** > **[!UICONTROL Novos tipos de relatórios personalizados]**.
 
    ![](assets/7.png)
 
 1. Defina o Tipo de relatório personalizado.
 
-   * [!UICONTROL Foco do tipo de relatório] > [!UICONTROL Objeto principal]: Oportunidades
-   * [!UICONTROL Identificação] > [!UICONTROL Rótulo do tipo de relatório]: Oportunidades com Ponto de Contato de Atribuição de Comprador (Personalizado)
+   * [!UICONTROL Foco do tipo de relatório] > [!UICONTROL Objeto primário]: Oportunidades
+   * [!UICONTROL Identificação] > [!UICONTROL Rótulo de tipo de relatório]: Oportunidades com o ponto de contato de atribuição do comprador (personalizado)
    * [!UICONTROL Armazenar na categoria]: Outros relatórios
-   * [!UICONTROL Implantação] > [!UICONTROL Status da implantação]: Implantado
+   * [!UICONTROL Implantação] > [!UICONTROL Status da implantação]: implantado
 
    ![](assets/8.png)
 
-1. Defina os Relacionamentos de Objeto.
+1. Defina os Relacionamentos entre objetos.
 
-   * Relate o objeto Oportunidades (A) ao objeto de ponto de contato da atribuição do comprador (B)
-   * Certifique-se de que &quot;[!UICONTROL Cada registro A deve ter pelo menos um registro B]&quot; registro selecionado
+   * Relacione o objeto Oportunidades (A) ao Objeto de ponto de contato (B) de atribuição do comprador
+   * Certifique-se de que &quot;[!UICONTROL Cada registro A deve ter pelo menos um B]O registro &quot; está selecionado
    * [!UICONTROL Salvar]
 
    ![](assets/9.png)
 
-## Adicionar campos personalizados aos tipos de relatório personalizados {#adding-custom-fields-to-custom-report-types}
+## Adição de campos personalizados a tipos de relatórios personalizados {#adding-custom-fields-to-custom-report-types}
 
 1. Depois que os relatórios forem criados, você será redirecionado para uma visão geral do tipo de relatório. Clique em **[!UICONTROL Editar layout]**.
 
    ![](assets/10.png)
 
-1. Verifique se os campos personalizados que deseja adicionar ao relatório são exibidos na seção Propriedades de layout de campo . Se houver outros campos que você deseja adicionar, use o[!UICONTROL Adicionar campos relacionados por meio de pesquisa]&quot;.
+1. Verifique se os campos personalizados que deseja adicionar ao relatório aparecem na seção Propriedades de layout do campo. Se houver outros campos que você deseja adicionar, use o &quot;[!UICONTROL Adicionar campos relacionados por meio de pesquisa]&quot;.
 
    ![](assets/11.png)

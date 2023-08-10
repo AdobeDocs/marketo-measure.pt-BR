@@ -3,8 +3,9 @@ unique-page-id: 18874646
 description: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints - [!DNL Marketo Measure] - Documentação do produto
 title: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
-workflow-type: ht
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 

@@ -1,18 +1,19 @@
 ---
 unique-page-id: 34406468
-description: Mosaicos da placa de visão geral - [!DNL Marketo Measure] - Documentação do produto
+description: Visão geral dos blocos de cartão - [!DNL Marketo Measure] - Documentação do produto
 title: Visão geral dos blocos de quadros
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # Visão geral dos blocos de quadros {#overview-board-tiles}
 
-O quadro geral oferece a visão mais abrangente do desempenho de marketing, ajudando as equipes de marketing a tomarem as decisões certas ao aumentar sua equipe, orçamento ou receita.
+O quadro Visão geral fornece a visualização mais abrangente do desempenho de marketing, ajudando as equipes de marketing a tomar as decisões certas ao aumentar sua equipe, orçamento ou receita.
 
 <table> 
  <colgroup> 
@@ -218,110 +219,110 @@ O quadro geral oferece a visão mais abrangente do desempenho de marketing, ajud
 
 ![](assets/one.png)
 
-Receita total atribuída de oportunidades de Vencedor Fechado com base no modelo de atribuição.
+Receita total atribuída de oportunidades Ganhas Fechadas com base no modelo de atribuição.
 
-- Detalhes da oportunidade: Exibe um detalhamento das IDs de oportunidade relacionadas, Data de criação, Data de fechamento, Código ISO e Atribuição de receita.\
--Mostrar detalhes: Uma análise mensal.
+-Detalhes da oportunidade: exibe um detalhamento das IDs de oportunidade relacionadas, a data de criação, a data de fechamento, o código ISO e a atribuição de receita.\
+- Mostrar detalhes: um detalhamento por mês.
 
-## Bloco de Visão Geral (gráfico) {#overview-chart-tile}
+## Visão geral (gráfico) Lado a lado {#overview-chart-tile}
 
 ![](assets/two.png)
 
 O gráfico exibirá a receita atribuída a cada canal, mostrada ao longo do tempo.
 
-- Detalhes da oportunidade: Exibe um detalhamento das IDs de oportunidade relacionadas, Data de criação, Data de fechamento, Código ISO e Atribuição de receita.\
--Exibe um detalhamento das IDs de opção de contribuição:
+-Detalhes da oportunidade: exibe um detalhamento das IDs de oportunidade relacionadas, a data de criação, a data de fechamento, o código ISO e a atribuição de receita.\
+-Exibe um detalhamento das IDs de Opp da contribuição:
 
-* Por semana de ROI
+* Por Semana do ROI
 * Por dados de ROI
-* Por Hora do ROI
+* Por hora de ROI
 * Por minuto de ROI
-* Por Tempo de ROI
+* Por ROI Time
 
-## Gastar mosaico {#spend-tile}
+## Mosaico de gastos {#spend-tile}
 
 ![](assets/three.png)
 
-A quantia total de gastos com custos de API e custos de autorrelatório para o período em questão.
+O valor total do gasto com custos de API e custos relatados automaticamente para o período específico.
 
 >[!NOTE]
 >
->Ao fazer exercícios em menos de um mês, [!DNL Marketo Measure] fará a média dos gastos desse mês e alocará essa média para cada dia.
+>Ao fazer drill-in em menos de um mês, [!DNL Marketo Measure] fará a média do gasto para esse mês e alocará essa média para cada dia.
 
-- Detalhes da despesa: Exibe um detalhamento da ID exclusiva da campanha de gastos, Nome da campanha, Canal, Subcanal, Data, Moeda original, Gasto.  -Mostrar detalhes: Uma análise mensal.
+-Detalhes de gastos: exibe um detalhamento da ID exclusiva da campanha de gastos relacionada, nome da campanha, canal, subcanal, data, moeda original e gastos.  - Mostrar detalhes: um detalhamento por mês.
 
-## Bloco de ROI {#roi-tile}
+## Mosaico de ROI {#roi-tile}
 
 ![](assets/four.png)
 
-O ROI calculado (retorno do investimento) da receita total (do modelo de atribuição selecionado) e o gasto total (Bloco de receita ÷ Basto = Bloco de ROI).
+O ROI calculado (retorno do investimento) do total da receita (do modelo de atribuição selecionado) e do gasto total (Bloco de receita ÷ Bloco de gasto = Bloco de ROI).
 
-## Bloco de ofertas {#deals-tile}
+## Mosaico de ofertas {#deals-tile}
 
 ![](assets/five.png)
 
-Exibe o número total de ofertas atribuídas (Ofertas são uma contagem de oportunidades de Vencedor Fechado).
+Exibe o número total de negociações atribuídas (Negociações são uma contagem de oportunidades Ganhas Fechadas).
 
 >[!NOTE]
 >
->Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis porque podem haver determinados pontos de contato que não se encaixam no intervalo de tempo.
+>Se o tipo de data &quot;Data do ponto de contato&quot; for selecionado, contagens parciais serão possíveis, pois pode haver determinados pontos de contato que não se enquadram no intervalo de tempo.
 
-- Detalhes da oportunidade: Exibe um detalhamento das IDs de oportunidade relacionadas, Data de criação, Data de fechamento e Atribuição (contagem).  -Mostrar detalhes: Uma análise mensal.
+-Detalhes da oportunidade: exibe um detalhamento das IDs de oportunidade relacionadas, a data de criação, a data de fechamento e a atribuição (contagem).  - Mostrar detalhes: um detalhamento por mês.
 
-## Custo por mosaico de venda {#cost-per-deal-tile}
+## Custo por bloco de negociação {#cost-per-deal-tile}
 
 ![](assets/six.png)
 
-Custo médio que é necessário para adquirir uma oportunidade vencida. O gasto total dividido pelo número total de transações (Bloco de Gastos ÷ Bloco de Vendas = Custo por Bloco de Vendas).
+Custo médio necessário para adquirir uma oportunidade conquistada fechada. O gasto total dividido pelo número total de negociações (Bloco de gastos ÷ Bloco de negociações = Custo por bloco de negociações).
 
-## Bloco de receita do pipeline {#pipeline-revenue-tile}
+## Mosaico de receita do pipeline {#pipeline-revenue-tile}
 
 ![](assets/seven.png)
 
-O total da receita potencial atribuída para Oportunidades Abertas
+A receita potencial total atribuída para Oportunidades em Aberto
 
 >[!NOTE]
 >
 >A receita será refletida para o modelo de atribuição especificado.
 
-- Detalhes da oportunidade: Exibe um detalhamento das IDs de oportunidade relacionadas, Data de criação, Data de fechamento, Código ISO e Atribuição de receita.  -Mostrar detalhes: Uma análise mensal.
+-Detalhes da oportunidade: exibe um detalhamento das IDs de oportunidade relacionadas, a data de criação, a data de fechamento, o código ISO e a atribuição de receita.  - Mostrar detalhes: um detalhamento por mês.
 
-## Bloco de tamanho da venda {#deal-size-tile}
+## Mosaico de tamanho do negócio {#deal-size-tile}
 
 ![](assets/eight.png)
 
-A receita média das oportunidades de Vencedor Fechado (Bloco de Receitas ÷ Bloco de Vendas = Bloco de Tamanho do Negócio).
+A receita média das oportunidades Ganhas Fechadas (Bloco de Receita ÷ Bloco de Transações = Bloco de Tamanho da Transação).
 
-## Bloco de resumo do canal {#channel-summary-tile}
+## Mosaico de resumo do canal {#channel-summary-tile}
 
 ![](assets/nine.png)
 
-Exiba uma lista de canais com base na métrica selecionada (receita, receita do pipeline, gasto, ofertas, oportunidades, clientes potenciais, contatos).
+Exibir uma lista de canais com base na métrica selecionada (receita, receita do pipeline, gastos, ofertas, oportunidades, clientes potenciais, contatos).
 
-## Bloco de resumo de subcanal {#subchannel-summary-tile}
+## Mosaico de resumo do subcanal {#subchannel-summary-tile}
 
 ![](assets/ten.png)
 
-Exiba uma lista de subcanais com base na métrica selecionada (receita, receita do pipeline, gasto, ofertas, oportunidades, clientes potenciais, contatos).
+Exibir uma lista de subcanais com base na métrica selecionada (receita, receita do pipeline, gastos, ofertas, oportunidades, clientes potenciais, contatos).
 
-## Bloco de resumo da campanha {#campaign-summary-tile}
+## Mosaico de resumo da campanha {#campaign-summary-tile}
 
 ![](assets/eleven.png)
 
-Exiba uma lista de Campanhas com base na métrica selecionada (receita, receita do pipeline, gasto, ofertas, oportunidades, clientes potenciais, contatos).
+Exibir uma lista de Campanhas com base na métrica selecionada (receita, receita de pipeline, gastos, ofertas, oportunidades, clientes potenciais, contatos).
 
-## Bloco de ROI (gráfico) {#roi-chart-tile}
+## Mosaico de ROI (gráfico) {#roi-chart-tile}
 
 ![](assets/twelve.png)
 
-Exibe o ROI atribuído à métrica selecionada (canal, subcanal, campanha, conta, adgroup, anúncio, anunciante, criativo, palavra-chave, disposição, site) com base no modelo de atribuição selecionado.
+Exibe o ROI atribuído à métrica selecionada (canal, subcanal, campanha, conta, adgroup, anúncio, anunciante, criativo, palavra-chave, posicionamento, site) com base no modelo de atribuição selecionado.
 
-## Bloco de resumo do ROI {#roi-summary-tile}
+## Mosaico de resumo do ROI {#roi-summary-tile}
 
 ![](assets/thirteen.png)
 
-Exibe o ROI atribuído à métrica selecionada (canal, subcanal, campanha, conta, adgroup, anúncio, anunciante, criativo, palavra-chave, disposição, site) com base no modelo de atribuição selecionado.
+Exibe o ROI atribuído à métrica selecionada (canal, subcanal, campanha, conta, adgroup, anúncio, anunciante, criativo, palavra-chave, posicionamento, site) com base no modelo de atribuição selecionado.
 
-- Detalhes da oportunidade: Exibe um detalhamento das IDs de oportunidade relacionadas, Data de criação, Data de fechamento e Atribuição (contagem).
+-Detalhes da oportunidade: exibe um detalhamento das IDs de oportunidade relacionadas, a data de criação, a data de fechamento e a atribuição (contagem).
 
--Mostrar detalhes: Uma análise mensal.
+- Mostrar detalhes: um detalhamento por mês.
