@@ -4,9 +4,9 @@ description: Campanhas do Dynamics e listas de marketing - [!DNL Marketo Measure
 title: Campanhas do Dynamics e listas de marketing
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '820'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado no aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Campanhas {#campaigns}
 

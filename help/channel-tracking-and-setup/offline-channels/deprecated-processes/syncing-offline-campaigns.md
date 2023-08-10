@@ -4,9 +4,9 @@ description: Sincronização de campanhas offline - [!DNL Marketo Measure] - Doc
 title: Sincronização de campanhas offline
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Sincronização de campanhas offline {#syncing-offline-campaigns}
 
 Pode ser difícil rastrear com precisão as campanhas offline e entender como elas se comparam aos seus esforços de marketing digital. [!DNL Marketo Measure] O permite rastrear e atribuir pontos de contato às campanhas offline no [!DNL Salesforce]mesmo em situações em que um [!DNL Salesforce] a campanha não é criada até algumas semanas após o evento.
+
+>[!NOTE]
+>
+>Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado no aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Antes de sincronizar {#before-you-sync}
 

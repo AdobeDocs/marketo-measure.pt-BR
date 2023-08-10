@@ -4,9 +4,9 @@ description: Criar uma visualização da lista de campanhas para [!DNL Salesforc
 title: Criação de uma exibição de lista de campanha para [!DNL Salesforce] Campanhas
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # Criação de uma exibição de lista de campanha para[!DNL Salesforce]Campanhas {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Saiba como criar uma Exibição de lista para as campanhas que você deseja sincronizar com os Pontos de contato do comprador.
+
+>[!NOTE]
+>
+>Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado no aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 A exibição de lista do Campaign que pode ser criada permite ter um local &quot;ir para&quot; para ver e gerenciar os campos &quot;Tipo&quot; e &quot;Ativar pontos de contato do comprador&quot; para garantir que cada um dos [!DNL Salesforce] as campanhas que informam seus canais de marketing offline estão configuradas corretamente.
 

@@ -4,9 +4,9 @@ description: Campanhas e membros da campanha - [!DNL Marketo Measure] - Document
 title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1188'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Campanhas e membros da campanha {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] As campanhas têm como objetivo rastrear listas de clientes potenciais e contatos associadas a um programa ou atividade de marketing. Normalmente, foram webinários, registros ou ambas as visitas, por exemplo. Os profissionais de marketing podem selecionar se uma campanha deve ser creditada em uma jornada de ponto de contato.
+
+>[!NOTE]
+>
+>Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado no aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Ativar pontos de contato {#enabling-touchpoints}
 
