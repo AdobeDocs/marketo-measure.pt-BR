@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Manutenção - [!DNL Marketo Measure] - Doc
 title: "[!DNL Marketo Measure] Manutenção"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **Sincronizar pontos de contato do comprador para novas campanhas offline (2x/mês)**
 
-Conforme você aprendeu durante a integração, [!DNL Marketo Measure] O obtém informações sobre suas iniciativas de marketing offline sincronizando com as campanhas do seu CRM. À medida que sua organização inicia novas campanhas, ative os Pontos de contato do comprador para cada campanha, conforme apropriado. Confira [este artigo](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)para obter mais informações.
+Conforme você aprendeu durante a integração, [!DNL Marketo Measure] O obtém informações sobre suas iniciativas de marketing offline sincronizando com as campanhas do seu CRM. À medida que sua organização inicia novas campanhas, ative os Pontos de contato do comprador para cada campanha, conforme apropriado. Confira [este artigo](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)para obter mais informações.
 
 **Gasto de upload para todos os canais (1x/mês)**
 

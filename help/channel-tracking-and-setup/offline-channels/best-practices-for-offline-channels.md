@@ -3,10 +3,10 @@ description: Práticas recomendadas para canais offline - [!DNL Marketo Measure]
 title: Práticas recomendadas para canais offline
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -51,7 +51,7 @@ Se você estiver mapeando seus Canais offline pela primeira vez ou apenas revisa
    * Para canais offline como eventos ou webinários: os &quot;registros&quot; normalmente são rastreados por meio de envios de formulários em seu site e [!DNL Marketo Measure] Funcionalidade online. Portanto, os Membros da campanha com um Status de &quot;Registrado&quot; não devem receber um ponto de contato offline da campanha para evitar dupla contagem. Os pontos de contato offline devem ser representativos apenas da &quot;participação&quot; no evento ou webinário.
    * Alguns canais offline, como Conteúdo sindicado, geralmente são mais simples, pois cada membro do Campaign tem o mesmo status &quot;respondido&quot; que representa que realmente respondeu à campanha. Nesse caso, baixar conteúdo em um site de terceiros e, portanto, deve receber um ponto de contato offline
 * Ao usar o método de sincronização Campanha personalizada no [!DNL Marketo Measure] Certifique-se de que o campo &quot;Data do ponto de contato&quot; seja baseado no campo de data do membro da campanha ou da campanha que seja mais indicativo de quando a interação do ponto de contato realmente ocorreu
-* Use o botão &quot;Atualização em massa da data do ponto de contato&quot; se precisar substituir a &quot;Data do ponto de contato&quot; por qualquer um dos pontos de contato offline originados de uma campanha de CRM. A &quot;Data do ponto de contato&quot; precisa ser o mais precisa possível para garantir que o ponto de contato tenha a &quot;Posição do ponto de contato&quot; mais precisa possível e, portanto, o valor correto do crédito de atribuição
+* Use o botão &quot;Atualização em massa da data do ponto de contato&quot; se precisar substituir a &quot;Data do ponto de contato&quot; por qualquer um dos pontos de contato offline originados de uma campanha de CRM. A &quot;Data do ponto de contato&quot; precisa ser o mais precisa possível para garantir que o ponto de contato contenha a &quot;Posição do ponto de contato&quot; mais precisa possível e, portanto, o valor correto do crédito de atribuição
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
@@ -72,9 +72,9 @@ Se sua equipe tiver tido alguma das situações acima, [!DNL Marketo Measure] A 
 >
 >* [Configuração de canal offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Sincronização de campanha personalizada - Sincronização de aplicativos](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Sincronização de Campanhas Offline - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
->* [Membros offline do Campaign e do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
->* [Datas de sincronização do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
+>* [Sincronização de Campanhas Offline - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Membros offline do Campaign e do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+>* [Datas de sincronização do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
 >* [Configurações para vários tipos de registro de campanha](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Criar uma visualização da lista de campanhas](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Sincronização de dados históricos](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
+>* [Criar uma visualização da lista de campanhas](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Sincronização de dados históricos](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)

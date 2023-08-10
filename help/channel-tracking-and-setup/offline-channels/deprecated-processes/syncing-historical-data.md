@@ -4,7 +4,7 @@ description: Sincronização de dados históricos - [!DNL Marketo Measure] - Doc
 title: Sincronização de dados históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 2%
@@ -91,7 +91,7 @@ Se os dados forem alojados em outro lugar (como ainda viver na Automação de ma
 
 Como resultado, é possível definir em massa a data de todos na Lista de marketing que será usada para a Data do ponto de contato. Para ter datas históricas mais precisas, crie várias Listas de marketing para a mesma campanha, cada uma com sua própria Data de ponto de contato. Se a Campanha tiver um curto período de tempo, talvez valha a pena criar uma Lista de marketing para cada dia. Se a Campanha tiver um período de tempo mais longo, pode fazer sentido criar uma Lista de marketing semanalmente.
 
-Mais informações sobre como Sincronizar Listas de Marketing podem ser encontradas aqui: [[!DNL Dynamics] Campanhas e listas de marketing](/help/marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
+Mais informações sobre como Sincronizar Listas de Marketing podem ser encontradas aqui: [[!DNL Dynamics] Campanhas e listas de marketing](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >

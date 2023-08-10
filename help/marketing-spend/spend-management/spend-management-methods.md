@@ -3,7 +3,7 @@ description: Métodos de gerenciamento de gastos - [!DNL Marketo Measure] - Docu
 title: Métodos de gerenciamento de gastos
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -28,7 +28,7 @@ A cada [!DNL Marketo Measure] A conta do tem acesso a um recurso chamado [Sincro
 
 Depois de habilitado, esse recurso extrairá automaticamente os gastos de qualquer campanha/programa de CRM que atenda aos seguintes critérios
 
-i) [!DNL Marketo Measure] primeiro, verifica se a Campanha/Programa está criando pontos de contato, seja a partir de um correspondente [Regra de sincronização de campanha](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) que foi criado ou um [Regra de sincronização de programa](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) que foi criado ou o [Ativar valor de Pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) é &quot;Incluir todos os membros da campanha&quot; ou &quot;Incluir membros da campanha &#39;Respondidos&#39;&quot;.
+i) [!DNL Marketo Measure] primeiro, verifica se a Campanha/Programa está criando pontos de contato, seja a partir de um correspondente [Regra de sincronização de campanha](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) que foi criado ou um [Regra de sincronização de programa](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) que foi criado ou o [Ativar valor de Pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) é &quot;Incluir todos os membros da campanha&quot; ou &quot;Incluir membros da campanha &#39;Respondidos&#39;&quot;.
 
 ii) Uma Data de início deve ser preenchida na campanha/programa
 

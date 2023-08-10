@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Lista de recursos - [!DNL Marketo Measure] 
 title: "[!DNL Marketo Measure] Lista de recursos"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudar você a c
 * [Configuração de canal offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [O que são parâmetros de UTM?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Práticas recomendadas UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Sincronizando campanhas do SFDC com pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [Sincronizando campanhas do SFDC com pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
 * [Carregando gasto com marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Conectar Contas Ad Novamente](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Adicionando [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -61,7 +61,7 @@ Tópicos abordados:
 * O que é atribuição
 * O que é o [!DNL Marketo Measure]
 * [!DNL Marketo Measure] Dados
-* Pontos de Contato
+* Pontos de contato
 * Modelos de atribuição do  
 
 **[[!DNL Marketo Measure] Relatórios no SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minutos)**
