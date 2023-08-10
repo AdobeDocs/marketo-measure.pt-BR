@@ -4,9 +4,9 @@ description: Como [!DNL Marketo Measure] e [!DNL Salesforce] Interact - Marketo 
 title: Como [!DNL Marketo Measure] e [!DNL Salesforce] interagir
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1719'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,7 @@ Ao modificar essa configuração, lembre-se de que tamanhos de lote menores cons
 
 Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O interage com o, bem como com os campos personalizados que adicionamos a esses objetos depois que a conexão é estabelecida e o [!DNL Marketo Measure] pacote está instalado. Pronto para uso, [!DNL Marketo Measure] NÃO gravará em nenhum padrão [!DNL Salesforce] Campos de objeto.
 
-**Lead**
+**Cliente potencial**
 
 <table> 
  <tbody> 
@@ -721,6 +721,20 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Para garantir a precisão da captura de eventos de exclusão pelo Marketo Measure em sua conta do Salesforce, são necessárias permissões replicáveis para os objetos abaixo. As permissões replicáveis vêm, por padrão, com os seguintes objetos:
+>
+>* Conta
+>* Campanha
+>* Membro de campanha
+>* Contato
+>* Evento
+>* Cliente potencial
+>* Oportunidade
+>* Tarefa
+
 
 ## [!DNL Marketo Measure] Objetos personalizados no [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
