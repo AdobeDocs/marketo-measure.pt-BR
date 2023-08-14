@@ -5,7 +5,7 @@ title: Atribuição de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
