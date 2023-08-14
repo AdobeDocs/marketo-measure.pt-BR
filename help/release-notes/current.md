@@ -4,7 +4,7 @@ title: Notas da versão atual
 exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
 feature: Release Notes
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
