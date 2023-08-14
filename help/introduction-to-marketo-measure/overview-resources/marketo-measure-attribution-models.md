@@ -5,7 +5,7 @@ title: Modelos de atribuição do Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
 ht-degree: 100%
 
