@@ -4,7 +4,7 @@ title: Teste
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: 7c27b18ac61704851e78a84e215a81d46f8d322a
 workflow-type: tm+mt
 source-wordcount: '13'
 ht-degree: 15%
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Texto
 
-![](assets/picture50.gif)
+![](assets/image.gif)
 
 Mais texto
 
