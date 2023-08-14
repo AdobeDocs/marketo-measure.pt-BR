@@ -6,7 +6,7 @@ feature: Segmentation
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -14,35 +14,35 @@ ht-degree: 2%
 
 ## Visão geral {#overview}
 
-[!DNL Marketo Measure] A segmentação permite definir regras, que são essencialmente filtros, com base nos campos do CRM para agrupá-los em segmentos individuais. Esses segmentos estarão disponíveis para uso nos painéis do Discover e no [!DNL Salesforce] relatórios.
+A segmentação do [!DNL Marketo Measure] permite definir regras, que são essencialmente filtros, com base nos seus campos do CRM para agrupá-los em segmentos individuais. Esses segmentos estarão disponíveis para uso em seus painéis do Discover, bem como em seus relatórios do [!DNL Salesforce].
 
-A segmentação é essencial para a utilização do [!DNL Marketo Measure] conta, especialmente dentro de seus quadros do Discover. Como a variável [!DNL Marketo Measure] Os quadros do Discover são limitados a um conjunto predeterminado de filtros, a segmentação oferece a capacidade de dissecar seus dados no Discover de forma semelhante à que você faria em seu [!DNL Salesforce] relatórios.
+A segmentação é essencial para a utilização da sua conta do [!DNL Marketo Measure], especialmente dentro dos quadros do Discover. Como os painéis do Discover do [!DNL Marketo Measure] são limitados a um conjunto predeterminado de filtros, a segmentação oferece a capacidade de dissecar seus dados no Discover de forma semelhante à que você faria em seus relatórios do [!DNL Salesforce].
 
-Quando enviado para [!DNL Salesforce], Os valores de Segmento são gravados no campo &quot;Segmento&quot; e estão em qualquer tipo de relatório de Ponto de contato do Comprador. Isso permite relatórios uniformes em ambas as plataformas. O segmento também pode ser encontrado no &quot;Detalhe do ponto de contato&quot; de qualquer ponto de contato.
+Quando enviado para [!DNL Salesforce], os valores de segmento são gravados no campo “Segmento” e estão em qualquer tipo de relatório do Buyer touchpoint. Isso permite relatórios uniformes em ambas as plataformas. O segmento também pode ser encontrado nos “Detalhes do touchpoint” de qualquer touchpoint.
 
-Quando enviados para o Discover, os segmentos aparecerão como um filtro disponível no menu suspenso do filtro localizado em todos os quadros.
+Quando enviados para o Discover, os segmentos aparecerão como um filtro disponível no menu suspenso de filtros localizado em todos os quadros.
 
 ## Prática recomendada {#best-practice}
 
 Se você estiver definindo a segmentação pela primeira vez ou apenas revisando a segmentação estabelecida anteriormente, lembre-se das práticas recomendadas a seguir.
 
-* Mantenha simples!
+* Mantenha simples.
 * Alinhe o nome do segmento à nomenclatura de sua organização, ou seja, a categoria = nome do filtro, segmento = valor do filtro
 * Não use campos de fórmula em suas regras
 * Sempre que possível, crie a segmentação no cliente potencial/contato e na oportunidade para usá-la em todo o funil
-   * Nem todas as categorias de segmentos serão alinhadas em todo o funil
-      * Por exemplo, uma categoria de segmento de &quot;Tipo de oportunidade&quot; não está relacionada a clientes em potencial, no entanto, um segmento relacionado a &quot;Região&quot; é provavelmente uma categoria que pode ser definida no funil
-* Pense na maneira como você gosta de cortar seus dados atualmente, seja no CRM ou em uma ferramenta de BI, considere criar isso como um Segmento no [!DNL Marketo Measure] para que você possa ter os mesmos relatórios no Discover
+   * Nem todas as categorias de segmentos se alinharão em todo o funil
+      * Por exemplo, uma categoria de segmento de “Tipo de oportunidade” não será relacionada a clientes potenciais, no entanto, um segmento relacionado à “Região” é provavelmente uma categoria que pode ser definida em todo o funil
+* Pense nas formas como você prefere dividir seus dados atualmente, seja no CRM ou em uma ferramenta de BI, considere criar isso como um segmento no [!DNL Marketo Measure] para ter os mesmos relatórios no Discover
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
-Analisar a segmentação pelo menos duas vezes por ano garantirá que ela esteja atualizada. Como prática recomendada, recomendamos a revisão de suas regras no &#39;[!UICONTROL Segmentos]Guia &#39; do seu [!DNL Marketo Measure] Configurações da conta, bem como emissão de relatórios no [!DNL Salesforce] para revisar os Segmentos em ação. Essas etapas ajudarão você e sua equipe a se sentirem confiantes na segmentação e, posteriormente, no [!DNL Marketo Measure] relatórios.
+Revisar a segmentação pelo menos duas vezes por ano garantirá que ela esteja atualizada. Como prática recomendada, recomendamos a revisão de suas regras na guia “[!UICONTROL Segmentos]” das suas Configurações da conta do [!DNL Marketo Measure], bem como fazer a emissão de relatórios dentro do [!DNL Salesforce] para revisar os segmentos em ação. Essas etapas ajudarão você e sua equipe a se sentirem confiantes em sua segmentação e, posteriormente, nos relatórios do [!DNL Marketo Measure].
 
-Outros motivos para isso podem acionar uma revisão da segmentação:
+Outros motivos que podem acionar uma revisão da sua segmentação incluem...
 
-* Volume de negócios da sua equipe de marketing
+* Rotatividade de sua equipe de marketing
 * Alterações nos campos usados para definir seus segmentos
-* Adições ou alterações nos Segmentos que já foram estabelecidas
+* Adições ou alterações nos segmentos que já foram estabelecidas
 
 >[!MORELIKETHIS]
 >
