@@ -4,7 +4,7 @@ title: Painel de Visão Geral da Receita
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
+source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -46,30 +46,25 @@ Perguntas que o painel responde:
   <tr>
     <td>Total de transações lado a lado</td>
     <td>Número total de ofertas marcadas como "Ganhadas Fechadas" no CRM.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Mosaico de receita atribuída</td>
     <td>Receita total atribuível de oportunidades "Ganhadas fechadas" com pontos de contato registrados.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Mosaico de ofertas atribuíveis</td>
     <td>Número total de negociações "Ganhadas Fechadas" de oportunidades atribuíveis.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Gráfico de Receita e Receita Atribuída</td>
     <td>Este gráfico de barras lado a lado de série temporal fornece uma visualização abrangente da cobertura da atribuição justapondo a Receita total à Receita atribuída.
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td> </td>
   </tr>
   <tr>
     <td>Gráfico de cobertura de atribuição</td>
     <td>Este gráfico de pizza fornece uma comparação visual clara entre Receita Atribuída e Receita Não Atribuída. A torta cobre a receita total.
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td> </td>
   </tr>
 </tbody>
 </table>
