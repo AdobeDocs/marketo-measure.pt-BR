@@ -1,16 +1,16 @@
 ---
 description: Acesso ao Data Warehouse - Conta Reader - Documentação do produto
-title: Acesso ao Data Warehouse - Conta Reader
+title: Acesso ao Data Warehouse - Conta do Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Acesso ao Data Warehouse - Conta Reader {#data-warehouse-access-reader-account}
+# Acesso ao Data Warehouse - Conta do Reader {#data-warehouse-access-reader-account}
 
 ## Link de acesso ao Snowflake {#snowflake-access-link}
 
