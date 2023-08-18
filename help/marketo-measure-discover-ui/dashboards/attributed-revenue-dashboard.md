@@ -4,10 +4,10 @@ title: Painel de receitas atribuídas
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 8%
+source-wordcount: '180'
+ht-degree: 15%
 
 ---
 
@@ -30,8 +30,8 @@ Qual é a quantia total de nossa receita atribuída e a contagem de nossas negoc
    <th>Filtros</th>
   </tr>
   <tr>
-    <td>Mosaico de receita total</td>
-    <td>Receita total proveniente da CRM, incluindo as receitas afetadas.</td>
+    <td>Mosaico de receita atribuída</td>
+    <td>Receita total atribuível de oportunidades "Ganhadas fechadas" com pontos de contato registrados.</td>
     <td rowspan="6"><li>ID da oportunidade</li>
 <li>Nome da oportunidade</li>
 <li>Data de criação da oportunidade</li>
@@ -39,32 +39,32 @@ Qual é a quantia total de nossa receita atribuída e a contagem de nossas negoc
 <li>Está Fechado (S/N)</li>
 <li>Está conquistado (S/N)</li>
 <li>Estágio atual</li>
-<li>Receita</li></td>
+<li>Modelo de atribuição</li>
+<li>Receita atribuída</li>
+<li>Receita Realizada</li></td>
     <td rowspan="6">Data de encerramento</td>
-    <td rowspan="6">Data</td>
-  </tr>
-  <tr>
-    <td>Total de transações lado a lado</td>
-    <td>Número total de ofertas marcadas como "Ganhadas Fechadas" no CRM.</td>
-  </tr>
-  <tr>
-    <td>Mosaico de receita atribuída</td>
-    <td>Receita total atribuível de oportunidades "Ganhadas fechadas" com pontos de contato registrados.</td>
+    <td rowspan="6"><li>Data</li>
+<li>Modelo de atribuição</li>
+<li>Canal</li>
+<li>Subcanal</li>
+<li>Campanha</li>
+<li>Segmentos</li></td>
   </tr>
   <tr>
     <td>Mosaico de ofertas atribuíveis</td>
     <td>Número total de negociações "Ganhadas Fechadas" de oportunidades atribuíveis.</td>
   </tr>
   <tr>
-    <td>Gráfico de Receita e Receita Atribuída</td>
-    <td>Este gráfico de barras lado a lado de série temporal fornece uma visualização abrangente da cobertura da atribuição justapondo a Receita total à Receita atribuída.
-    <br/>PICC</td>
+    <td>Receita atribuída por canal ao longo do tempo</td>
+    <td>Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada por canal associado, para cada trimestre/mês.
+    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
-    <td>Gráfico de cobertura de atribuição</td>
-    <td>Este gráfico de pizza fornece uma comparação visual clara entre Receita Atribuída e Receita Não Atribuída. A torta cobre a receita total.
-    <br/>
-    PICC</td>
+    <td>Tabela de Receitas Atribuídas</td>
+    <td>A receita total atribuída segmentada por canal, subcanal e campanha, apresentada nos formatos Tabular e Árvore.
+    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
+    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
+  </tr>
   </tr>
 </tbody>
 </table>
