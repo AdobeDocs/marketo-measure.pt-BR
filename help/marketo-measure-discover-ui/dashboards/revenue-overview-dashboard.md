@@ -4,7 +4,7 @@ title: Painel de Visão Geral da Receita
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -20,8 +20,8 @@ Perguntas que o painel responde:
 * Que porcentagem de nossa receita é atribuível aos nossos esforços de marketing?
 * Que porcentagem de nossos negócios &quot;Closed Won&quot; foi influenciada por nossos esforços de marketing?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Componente</th> 
    <th>Descrição</th>
@@ -58,13 +58,13 @@ Perguntas que o painel responde:
   <tr>
     <td>Gráfico de Receita e Receita Atribuída</td>
     <td>Este gráfico de barras lado a lado de série temporal fornece uma visualização abrangente da cobertura da atribuição justapondo a Receita total à Receita atribuída.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Gráfico de cobertura de atribuição</td>
     <td>Este gráfico de pizza fornece uma comparação visual clara entre Receita Atribuída e Receita Não Atribuída. A torta cobre a receita total.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
