@@ -1,10 +1,8 @@
 ---
 description: Painel de ROI - [!DNL Marketo Measure] - Produto
 title: Painel de ROI
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 18%
@@ -26,8 +24,8 @@ Perguntas que o painel responde:
  <tr> 
    <th>Componente</th> 
    <th>Descrição</th>
+   <th>Tipo de data</th>
    <th>Campos de Drill-Through</th>
-   <th>Tipo de dados</th>
    <th>Filtros</th>
   </tr>
   <tr>
