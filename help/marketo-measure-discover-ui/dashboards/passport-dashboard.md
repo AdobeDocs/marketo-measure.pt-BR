@@ -2,10 +2,10 @@
 description: Painel do Passport - [!DNL Marketo Measure] - Produto
 title: Painel do Passport
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 8%
+source-wordcount: '290'
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,15 @@ Perguntas que o painel responde:
 <li>As datas de início e término são inclusivas.</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">Data de transição</td>
-    <td></td>
+    <td><li>ID da oportunidade</li>
+<li>Nome da oportunidade</li>
+<li>Data de criação</li>
+<li>Data de fechamento</li>
+<li>Está Fechado (S/N)</li>
+<li>Está conquistado (S/N)</li>
+<li>Estágio atual</li>
+<li>Data de entrada na transição</li>
+<li>Data de saída da transição</li></td>
     <td rowspan="2"><li>Data</li>
 <li>Canal</li>
 <li>Subcanal</li>
