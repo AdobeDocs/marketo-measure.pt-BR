@@ -1,8 +1,10 @@
 ---
 description: Painel de Visão Geral da Receita - [!DNL Marketo Measure] - Produto
 title: Painel de Visão Geral da Receita
+hide: true
+hidefromtoc: true
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 8%
