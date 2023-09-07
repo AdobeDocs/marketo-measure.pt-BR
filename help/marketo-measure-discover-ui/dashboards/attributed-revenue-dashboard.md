@@ -4,70 +4,79 @@ title: Painel de receitas atribuídas
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 14%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
 # Painel de receitas atribuídas {#attributed-revenue-dashboard}
 
-O Painel de receita atribuída oferece uma perspectiva focada na receita diretamente vinculada às suas iniciativas de marketing. Explore em detalhes como suas estratégias de marketing têm sido fundamentais para selar ofertas.
+O Painel de receita atribuída oferece uma perspectiva focada na receita diretamente vinculada às suas iniciativas de marketing. Explore como suas estratégias de marketing foram fundamentais para selar ofertas.
 
-Perguntas que o painel responde:
+>[!NOTE]
+>
+>Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
-Quais canais, subcanais ou campanhas têm a classificação mais alta em termos de receita atribuída?
-Qual é a quantia total de nossa receita atribuída e a contagem de nossas negociações fechadas atribuídas?
+**Perguntas que o painel responde:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Componente</th> 
-   <th>Descrição</th>
-   <th>Campos de Drill-Through</th>
-   <th>Tipo de data</th>
-   <th>Filtros</th>
-  </tr>
-  <tr>
-    <td>Mosaico de receita atribuída</td>
-    <td>Receita total atribuível de oportunidades "Ganhadas fechadas" com pontos de contato registrados.</td>
-    <td rowspan="6"><li>ID da oportunidade</li>
-<li>Nome da oportunidade</li>
-<li>Data de criação da oportunidade</li>
-<li>Data de Fechamento da Oportunidade</li>
-<li>Está Fechado (S/N)</li>
-<li>Está conquistado (S/N)</li>
-<li>Estágio atual</li>
-<li>Modelo de atribuição</li>
-<li>Receita atribuída</li>
-<li>Receita Realizada</li></td>
-    <td rowspan="6">Data de encerramento</td>
-    <td rowspan="6"><li>Data</li>
-<li>Modelo de atribuição</li>
-<li>Canal</li>
-<li>Subcanal</li>
-<li>Campanha</li>
-<li>Segmentos</li></td>
-  </tr>
-  <tr>
-    <td>Mosaico de ofertas atribuíveis</td>
-    <td>Número total de negociações "Ganhadas Fechadas" de oportunidades atribuíveis.</td>
-  </tr>
-  <tr>
-    <td>Receita atribuída por canal ao longo do tempo</td>
-    <td>Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada por canal associado, para cada trimestre/mês.
-    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Tabela de Receitas Atribuídas</td>
-    <td>A receita total atribuída segmentada por canal, subcanal e campanha, apresentada nos formatos Tabular e Árvore.
-    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
-    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
-  </tr>
-  </tr>
-</tbody>
-</table>
+* Quais canais, subcanais ou campanhas têm a classificação mais alta em termos de receita atribuída?
+* Qual é a quantia total de nossa receita atribuída e a contagem de nossas negociações fechadas atribuídas?
+
+## Componentes do painel {#dashboard-components}
+
+### Blocos de KPI {#kpi-tiles}
+
+* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado
+* **Ofertas atribuídas**: o número de Oportunidades &quot;Ganhadas fechadas&quot; que têm pontos de contato.
+
+### Gráfico de Receita Atribuída por Canal ao Longo do Tempo {#attributed-revenue-by-channel-over-time-chart}
+
+Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada por canal, para cada mês/trimestre/ano.
+
+* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por mês, trimestre ou ano.
+* Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
+
+**Perguntas que o gráfico responde:**
+
+* Quais canais geraram mais receita atribuída a cada trimestre?
+* Qual foi o detalhamento da receita atribuída por canal no mês passado?
+
+![](assets/attributed-revenue-dashboard-1.png)
+
+### Tabela de Receitas Atribuídas {#attributed-revenue-table}
+
+A receita total atribuída segmentada por canal, subcanal e campanha, apresentada nos formatos Tabular e Árvore. Clique no botão no canto superior direito para alternar entre exibições.
+
+**Perguntas que o painel responde:**
+
+* Como a distribuição da receita atribuída varia entre diferentes subcanais em um canal?
+* Quais campanhas em um determinado subcanal estão gerando a receita mais atribuída?
+
+**Exibição Tabular**
+
+* A exibição em tabelas oferece insights claros e organizados da distribuição das receitas atribuídas. Os usuários podem discernir rapidamente os padrões de desempenho e apontar estratégias de marketing de alto impacto categorizando dados em canais, subcanais e campanhas.
+* Clique no ícone &quot;+&quot; ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
+
+![](assets/attributed-revenue-dashboard-2.png)
+
+**Visualização em árvore**
+
+* A visualização em árvore permite uma exploração de dados mais interativa e granular, permitindo que os profissionais de marketing identifiquem tendências, anomalias ou artistas de destaque em suas iniciativas de marketing.
+* Clique em uma ramificação para se aprofundar na camada de hierarquia subsequente.
+
+![](assets/attributed-revenue-dashboard-3.png)
+
+## Painel de Filtro {#filter-pane}
+
+Esse painel é equipado com as seguintes configurações e filtros:
+
+* Data (com base na data de fechamento)
+* Modelo de atribuição
+* Canal, Subcanal
+* Campanha
+* Segmentos
 
 >[!MORELIKETHIS]
 >

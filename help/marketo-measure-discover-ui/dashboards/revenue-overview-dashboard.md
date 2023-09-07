@@ -4,7 +4,7 @@ title: Painel de Visão Geral da Receita
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 09748b8ba76a89b2d955c8384ae926bb995c2171
+source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
