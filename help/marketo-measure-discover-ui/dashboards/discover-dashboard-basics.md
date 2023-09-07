@@ -4,9 +4,9 @@ title: Descubra as noções básicas do painel
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -30,23 +30,23 @@ Cada painel tem uma variedade de filtros, acompanhados pelos seguintes controles
    <th>Descrição</th>
   </tr> 
   <tr> 
-   <td>Botão de alternância do filtro</td>
+   <td><b>Botão de alternância do filtro</b></td>
    <td>Alterne o painel de filtro aberto ou fechado.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Botão de redefinição</td>
-   <td>Retornar filtros às configurações padrão.
+   <td><b>Barra de pesquisa</b></td>
+   <td>Use a pesquisa na parte superior do painel de filtros para procurar um filtro específico. Cada filtro também tem sua própria barra de pesquisa.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Botão Aplicar</td>
-   <td>Clique em para confirmar e implementar as alterações no filtro no painel.
+   <td><b>Botão Limpar Filtro</b></td>
+   <td>Para limpar um filtro, clique no ícone de borracha localizado no canto superior direito de cada filtro.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Botão Segmentar</td>
-   <td>Nos painéis com filtros de Segmento, clique no botão Segmento na parte inferior do painel de filtro para fazer a transição para Segmentos.
+   <td><b>Botão Aplicar</b></td>
+   <td>Clique em para confirmar e implementar as alterações no filtro no painel.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
