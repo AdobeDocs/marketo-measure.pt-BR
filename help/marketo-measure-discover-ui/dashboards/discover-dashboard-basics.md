@@ -4,16 +4,20 @@ title: Descubra as noções básicas do painel
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
 
 # Descubra as noções básicas do painel {#discover-dashboard-basics}
 
-Este artigo o guiará pelos recursos fundamentais da interface reprojetada, garantindo que você possa acessar e interpretar seus dados com facilidade. Analise a dinâmica do painel de filtros e descubra as complexidades de nossas funcionalidades de relatórios aprimoradas, como os recursos de drill, filtragem cruzada e dicas de ferramentas.
+Este artigo o guiará pelos recursos fundamentais da interface reprojetada, garantindo que você possa acessar e interpretar seus dados com facilidade. Analise a dinâmica do painel de filtros e descubra as complexidades de nossas funcionalidades de relatórios aprimoradas, como recursos de drill, filtragem cruzada e dicas de ferramentas.
+
+>[!NOTE]
+>
+>Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
 ## Painel de Filtro {#filter-pane}
 
@@ -23,26 +27,36 @@ Cada painel tem uma variedade de filtros, acompanhados pelos seguintes controles
  <tbody> 
   <tr> 
    <th>Nome</th> 
-   <th>Ícone</th>
    <th>Descrição</th>
   </tr> 
   <tr> 
-   <td>Botão Hamburger</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Alterne o painel de filtro aberto ou fechado.</td>
+   <td>Botão de alternância do filtro</td>
+   <td>Alterne o painel de filtro aberto ou fechado.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Redefinir</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Retornar filtros às configurações padrão.</td>
+   <td>Botão de redefinição</td>
+   <td>Retornar filtros às configurações padrão.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Filtros no visual</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Passe o mouse sobre o canto superior direito de um visual e clique no botão para ver os filtros ativos.</td>
+   <td>Botão Aplicar</td>
+   <td>Clique em para confirmar e implementar as alterações no filtro no painel.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Botão Segmentar</td>
+   <td>Nos painéis com filtros de Segmento, clique no botão Segmento na parte inferior do painel de filtro para fazer a transição para Segmentos.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Filtros no visual {#filters-on-visual}
+
+Passe o mouse sobre o canto superior direito de um visual para ver uma lista somente leitura dos filtros aplicados.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Recursos do relatório {#report-capabilities}
 
@@ -70,21 +84,24 @@ Use o ícone de bifurcação para adicionar outro nível de hierarquia na exibi�
 
 ### Drill-through {#drill-through}
 
-* Para explorar os dados por trás do visual, clique com o botão direito do mouse no elemento visual e selecione a opção de &quot;drill-through&quot;.
+Para explorar os dados por trás do visual, clique com o botão direito do mouse no elemento visual e selecione a opção de &quot;drill-through&quot;.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* Para exportar os dados subjacentes, passe o mouse sobre o canto superior direito da página de drill-through, clique no botão &quot;mais opções&quot; e selecione &quot;exportar dados&quot;.
+### Exportar dados {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+Para exportar os dados subjacentes de um visual, passe o mouse sobre o canto superior direito. Clique no botão &quot;mais opções&quot;, escolha &quot;exportar dados&quot;, selecione o formato de sua preferência e clique em &quot;exportar&quot;.
+![](assets/discover-dashboard-basics-10.gif)
 
-* Para aplicar mais zoom a um visual ou bloco gráfico específico, passe o mouse sobre o canto superior direito e selecione o botão &quot;foco&quot;.
+### Modo de foco {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+Para aplicar mais zoom a um visual ou bloco gráfico específico, passe o mouse sobre o canto superior direito e selecione o botão &quot;foco&quot;.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Filtragem cruzada {#cross-filtering}
 
-Por padrão, selecionar um rótulo de valor ou eixo em uma visualização cruzará os filtros de outros visuais na página do relatório, garantindo que eles exibam apenas os dados relevantes e filtrados.
+Selecionar um rótulo de valor ou eixo em uma visualização filtrará outros visuais na página do relatório, garantindo que eles exibam apenas os dados relevantes filtrados.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
