@@ -4,10 +4,10 @@ title: Painel do Passport
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 12%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -15,61 +15,47 @@ ht-degree: 12%
 
 O painel Passport oferece aos profissionais de marketing uma visualização dinâmica de clientes potenciais, contatos e oportunidades à medida que transitam por vários estágios em um período especificado. Ao filtrar por uma data específica, os usuários também podem obter um instantâneo dos registros desse dia.
 
-Perguntas que o painel responde:
+>[!NOTE]
+>
+>Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
+
+**Perguntas que o painel responde:**
 
 * Quantos leads, contatos ou oportunidades existiam em cada estágio não terminal em um dia escolhido?
 * Durante um período especificado, quantos Clientes Potenciais ou Contatos distintos avançaram em cada estágio transitório?
    * _Exemplo_: Se o lead A estivesse na fase 1 em 1/1/2023 e avançasse para a fase 5 até 31/3/2023, a análise do passaporte do primeiro trimestre de 2023 contaria o lead A nas fases de 1 a 5.
-* Quantas Oportunidades exclusivas passaram por cada estágio transitório durante um determinado período?
+* Quantas oportunidades únicas passaram por cada estágio transitório durante um determinado período?
 
-<table style="table-layout:auto"> 
-<tbody>
-<tr> 
-   <th>Componente</th> 
-   <th>Descrição</th>
-   <th>Tipo de data</th>
-   <th>Campos de Drill-Through</th>
-   <th>Filtros</th>
-  </tr>
-  <tr>
-    <td>Oportunidades</td>
-    <td><li>Cada etapa mostra o número de Oportunidades com MTDs que passaram por elas em um determinado período.</li>
-<ul style="padding-left: 30px;"><li>Se uma Oportunidade progredir por vários estágios dentro desse período, ela será contada em cada estágio que passou.</li></ul>
-<li>Estágios terminais como "Ganhado fechado" e "Perdido fechado" são excluídos.</li>
-<li>As datas de início e término são inclusivas.</li>
-<br/><img src="assets/passport-dashboard-1.png" width="600"></td>
-    <td rowspan="2">Data de transição</td>
-    <td><li>ID da oportunidade</li>
-<li>Nome da oportunidade</li>
-<li>Data de criação</li>
-<li>Data de fechamento</li>
-<li>Está Fechado (S/N)</li>
-<li>Está conquistado (S/N)</li>
-<li>Estágio atual</li>
-<li>Data de entrada na transição</li>
-<li>Data de saída da transição</li></td>
-    <td rowspan="2"><li>Data</li>
-<li>Canal</li>
-<li>Subcanal</li>
-<li>Campanha</li>
-<li>Segmentos</li></td>
-  </tr>
-  <tr>
-    <td>Leads/contatos</td>
-    <td><li>Cada estágio mostra o número de Clientes Potenciais ou Contatos com BTs que passaram por eles em um determinado período.</li>
-<ul style="padding-left: 30px;"><li>A exibição de "Cliente em potencial" ou "Contato" é determinada pela preferência definida em: Configurações &gt; Configurações de atribuição &gt; Objeto de painel padrão.</li></ul>
-<li>Estágios terminais como "Ganhado fechado" e "Perdido fechado" são excluídos.</li>
-<li>As datas de início e término são inclusivas.</li>
-<br/><img src="assets/passport-dashboard-2.png" width="600"></td>
-    <td><li>Id Do Cliente Potencial/Contato</li>
-<li>Email de cliente potencial/contato</li>
-<li>Data de criação</li>
-<li>Estágio atual</li>
-<li>Data de entrada na transição</li>
-<li>Data de saída da transição</li></td>
-  </tr>
-</tbody>
-</table>
+## Componentes do painel {#dashboard-components}
+
+### Oportunidades em Estágio por Nome de Estágio {#opportunities-in-stage-by-stage-name}
+
+* Cada estágio mostra o número de Oportunidades com pontos de contato que passaram por elas em um determinado período.
+   * Se uma oportunidade progredir por vários estágios dentro desse intervalo, ela será contada em cada estágio que passar.
+* Estágios terminais como &quot;Ganhado fechado&quot; e &quot;Perdido fechado&quot; são excluídos.
+* As datas de início e término são inclusivas.
+
+![](assets/passport-dashboard-1.png)
+
+### Contatos em Preparo por Nome de Estágio {#contacts-in-stage-by-stage-name}
+
+* Cada estágio mostra o número de Clientes Potenciais ou Contatos com pontos de contato que passaram por eles em um determinado período.
+   * A exibição de &quot;Cliente em potencial&quot; ou &quot;Contato&quot; é determinada pela preferência definida em: Configurações > Configurações de atribuição > Objeto de painel padrão.
+   * Se um lead ou contato progredir por vários estágios dentro desse intervalo, ele será contado em cada estágio que passar.
+* Estágios terminais como &quot;Ganhado fechado&quot; e &quot;Perdido fechado&quot; são excluídos.
+* As datas de início e término são inclusivas.
+
+![](assets/passport-dashboard-2.png)
+
+## Painel de Filtro {#filter-pane}
+
+Esse painel é equipado com as seguintes configurações e filtros:
+
+* Data (com base na Data de transição)
+* Modelo de atribuição
+* Canal, Subcanal
+* Campanha
+* Segmentos
 
 >[!MORELIKETHIS]
 >
