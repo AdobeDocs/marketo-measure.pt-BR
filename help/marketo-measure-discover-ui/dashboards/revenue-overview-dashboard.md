@@ -4,10 +4,10 @@ title: Painel de Visão Geral da Receita
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: 09748b8ba76a89b2d955c8384ae926bb995c2171
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 8%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
@@ -15,59 +15,54 @@ ht-degree: 8%
 
 O painel Visão geral da receita fornece insights sobre a receita total derivada do seu CRM, esclarecendo a função das estratégias de marketing. Ele oferece uma visão geral de como o marketing influencia sua receita geral e contribui para o encerramento bem-sucedido das ofertas.
 
-Perguntas que o painel responde:
+>[!NOTE]
+>
+>Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
-* Que porcentagem de nossa receita é atribuível aos nossos esforços de marketing?
-* Que porcentagem de nossos negócios &quot;Closed Won&quot; foi influenciada por nossos esforços de marketing?
+**Perguntas que o painel responde:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Componente</th> 
-   <th>Descrição</th>
-   <th>Campos de Drill-Through</th>
-   <th>Tipo de data</th>
-   <th>Filtros</th>
-  </tr>
-  <tr>
-    <td>Mosaico de receita total</td>
-    <td>Receita total proveniente da CRM, incluindo as receitas afetadas.</td>
-    <td rowspan="6"><li>ID da oportunidade</li>
-<li>Nome da oportunidade</li>
-<li>Data de criação da oportunidade</li>
-<li>Data de Fechamento da Oportunidade</li>
-<li>Está Fechado (S/N)</li>
-<li>Está conquistado (S/N)</li>
-<li>Estágio atual</li>
-<li>Receita</li></td>
-    <td rowspan="6">Data de encerramento</td>
-    <td rowspan="6">Data</td>
-  </tr>
-  <tr>
-    <td>Total de transações lado a lado</td>
-    <td>Número total de ofertas marcadas como "Ganhadas Fechadas" no CRM.</td>
-  </tr>
-  <tr>
-    <td>Mosaico de receita atribuída</td>
-    <td>Receita total atribuível de oportunidades "Ganhadas fechadas" com pontos de contato registrados.</td>
-  </tr>
-  <tr>
-    <td>Mosaico de ofertas atribuíveis</td>
-    <td>Número total de negociações "Ganhadas Fechadas" de oportunidades atribuíveis.</td>
-  </tr>
-  <tr>
-    <td>Gráfico de Receita e Receita Atribuída</td>
-    <td>Este gráfico de barras lado a lado de série temporal fornece uma visualização abrangente da cobertura da atribuição justapondo a Receita total à Receita atribuída.
-    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Gráfico de cobertura de atribuição</td>
-    <td>Este gráfico de pizza fornece uma comparação visual clara entre Receita Atribuída e Receita Não Atribuída. A torta cobre a receita total.
-    <br/>
-    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
-  </tr>
-</tbody>
-</table>
+* Qual % de nossa receita é atribuível aos nossos esforços de marketing?
+* Quais % de nossas ofertas de &quot;Closed Won&quot; foram influenciadas por nossos esforços de marketing?
+
+## Componentes do painel {#dashboard-components}
+
+### Blocos de KPI {#kpi-tiles}
+
+* Receita total: a receita total de Oportunidades &quot;Ganhas fechadas&quot;, incluindo Oportunidades sem pontos de contato.
+* Total de Transações: o número de Oportunidades &quot;Ganhadas Fechadas&quot;, incluindo Oportunidades sem pontos de contato.
+* Receita atribuída: a receita total de Oportunidades &quot;Ganhadas fechadas&quot; com pontos de contato.
+* Contratos atribuídos: o número de oportunidades &quot;Ganhadas fechadas&quot; que têm pontos de contato.
+
+### Gráfico de Receita e Receita Atribuída {#revenue-and-attributed-revenue-chart}
+
+Este gráfico de barras lado a lado da série temporal contrasta a Receita total com a Receita atribuída, visualizando claramente o impacto de marketing na receita geral.
+
+* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por trimestre e ano.
+* Passe o mouse sobre uma seção do gráfico de barras para revelar suas informações detalhadas.
+
+**Perguntas que o gráfico responde:**
+
+* Qual % de nossa receita de agosto de 2022 pode ser atribuída às nossas iniciativas de marketing?
+* Como a receita atribuída no terceiro trimestre do ano passado se compara ao quarto trimestre?
+
+![](assets/revenue-overview-dashboard-1.png)
+
+### Gráfico de cobertura de atribuição {#attribution-coverage-chart}
+
+Este gráfico de pizza visualiza distintamente a cobertura de atribuição, segmentando a receita total em receita Atribuída e Não Atribuída, destacando a porcentagem precisa da receita influenciada pelos seus esforços de marketing.
+
+**Perguntas que o gráfico responde:**
+
+* Qual foi a % de cobertura de receita atribuída aos nossos esforços de marketing no ano passado?
+
+![](assets/revenue-overview-dashboard-2.png)
+
+## Painel de Filtro {#filter-pane}
+
+Esse painel é equipado com as seguintes configurações e filtros:
+
+* Modelo de atribuição
+* Data (com base na data de fechamento)
 
 >[!MORELIKETHIS]
 >
