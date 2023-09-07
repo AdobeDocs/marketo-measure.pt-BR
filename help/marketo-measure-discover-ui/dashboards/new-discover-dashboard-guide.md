@@ -4,9 +4,9 @@ title: Novo Guia do Painel do Discover
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
+source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1069'
 ht-degree: 9%
 
 ---
@@ -503,6 +503,4 @@ Novos recursos podem ser encontrados na [Descubra as noções básicas do painel
 
 ## Feedback {#feedback}
 
-Como nos esforçamos continuamente para aprimorar sua experiência, gostaríamos muito de receber seus comentários sobre esta última atualização. Seus pensamentos influenciarão diretamente os refinamentos futuros, garantindo que nossa plataforma sempre se alinhe às suas necessidades.
-
-Forneça instruções sobre como eles podem compartilhar feedback (por exemplo, formulário de feedback no aplicativo, email etc.)
+Como nos esforçamos continuamente para aprimorar sua experiência, gostaríamos muito de receber seus comentários sobre esta última atualização. Seus pensamentos influenciarão diretamente os refinamentos futuros, garantindo que nossa plataforma sempre se alinhe às suas necessidades. Fique atento a um formulário de feedback no Marketo Measure.
