@@ -4,7 +4,7 @@ title: Painel de Visão Geral da Receita
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ O painel Visão geral da receita fornece insights sobre a receita total derivada
 
 ### Blocos de KPI {#kpi-tiles}
 
-* Receita total: a receita total de Oportunidades &quot;Ganhas fechadas&quot;, incluindo Oportunidades sem pontos de contato.
-* Total de Transações: o número de Oportunidades &quot;Ganhadas Fechadas&quot;, incluindo Oportunidades sem pontos de contato.
-* Receita atribuída: a receita total de Oportunidades &quot;Ganhadas fechadas&quot; com pontos de contato.
-* Contratos atribuídos: o número de oportunidades &quot;Ganhadas fechadas&quot; que têm pontos de contato.
+* **Receita Total**: a receita total de Oportunidades &quot;Ganhas Fechadas&quot;, incluindo Oportunidades sem pontos de contato.
+* **Total de ofertas**: o número de Oportunidades &quot;Ganhadas fechadas&quot;, incluindo Oportunidades sem pontos de contato.
+* **Receita Atribuída**: a receita total de oportunidades &quot;Ganhadas fechadas&quot; com pontos de contato.
+* **Ofertas atribuídas**: o número de Oportunidades &quot;Ganhadas fechadas&quot; que têm pontos de contato.
 
 ### Gráfico de Receita e Receita Atribuída {#revenue-and-attributed-revenue-chart}
 
