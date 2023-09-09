@@ -4,7 +4,7 @@ title: Painel de ROI
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 2%
@@ -30,7 +30,7 @@ O painel de ROI fornece aos profissionais de marketing uma visão detalhada do r
 ### Blocos de KPI {#kpi-tiles}
 
 * **Custo**: Custos totais de fontes de dados conectadas e custos carregados manualmente.
-* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado
+* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado.
 * **Receita atribuída realizada**: a contribuição da receita total, com base no modelo de atribuição escolhido, das Oportunidades com pontos de contato dentro do período de data filtrado, independentemente de quando foram fechadas.
 * **Total de Novos Clientes Potenciais**: Número total de novos Clientes Potenciais gerados, incluindo Clientes Potenciais tocados e não tocados.
 * **Custo por Novo Cliente Potencial**: o custo médio por novo lead, derivado do custo total dividido pelo número total de novos leads.

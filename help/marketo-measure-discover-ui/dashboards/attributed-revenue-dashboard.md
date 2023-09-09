@@ -4,9 +4,9 @@ title: Painel de receitas atribuídas
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ O Painel de receita atribuída oferece uma perspectiva focada na receita diretam
 
 ### Blocos de KPI {#kpi-tiles}
 
-* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado
+* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato.
 * **Ofertas atribuídas**: o número de Oportunidades &quot;Ganhadas fechadas&quot; que têm pontos de contato.
 
 ### Gráfico de Receita Atribuída por Canal ao Longo do Tempo {#attributed-revenue-by-channel-over-time-chart}
