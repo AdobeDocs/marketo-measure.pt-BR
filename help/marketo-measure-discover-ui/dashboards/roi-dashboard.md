@@ -1,10 +1,8 @@
 ---
 description: Painel de ROI - [!DNL Marketo Measure] - Produto
 title: Painel de ROI
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 2%
@@ -19,7 +17,7 @@ O painel de ROI fornece aos profissionais de marketing uma visão detalhada do r
 >
 >Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
-**Perguntas que o painel responde:**
+**Perguntas que o painel responde**
 
 * Quais eram os valores de ROI para cada canal, subcanal e campanha?
 * Como os custos e as receitas foram distribuídos em cada canal, subcanal e campanha?
@@ -49,7 +47,7 @@ Gráfico de barras que ilustra o custo e a receita, projetado para oferecer uma 
 * Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por Subcanal e Campaign.
 * Passe o mouse sobre cada barra para visualizar os ROIs simples e realizados.
 
-**Perguntas que o gráfico responde:**
+**Perguntas que o gráfico responde**
 
 * Quais eram os valores de ROI para cada canal, subcanal e campanha?
 * Existem canais ou subcanais com custos excepcionalmente altos ou baixos em relação à receita?
@@ -62,7 +60,7 @@ Gráfico de linhas de série temporal exibindo a comparação entre ROI Realizad
 
 * Passe o mouse sobre uma seção do gráfico para visualizar os ROIs simples e realizados.
 
-**Perguntas que o gráfico responde:**
+**Perguntas que o gráfico responde**
 
 * Como o ROI realizado se compara ao ROI simples em períodos específicos?
 * Como a tendência do ROI realizado está relacionada a eventos de marketing significativos durante o mesmo período?
@@ -76,7 +74,7 @@ Gráfico de barras empilhadas exibindo os Custos totais, segmentados por Canais 
 * Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por mês, trimestre ou ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
-**Perguntas que o gráfico responde:**
+**Perguntas que o gráfico responde**
 
 * Como o custo combinado de todos os canais se compara de um trimestre/mês ao próximo?
 * Como os custos de um canal específico evoluíram com o tempo?
@@ -89,7 +87,7 @@ Gráfico de barras que exibe os gastos com marketing segmentados por canal/subca
 
 * Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por Canal/Subcanal/Campanha.
 
-**Perguntas que o gráfico responde:**
+**Perguntas que o gráfico responde**
 
 * Quais subcanais ou campanhas em um canal principal têm a alocação mais alta?
 * Quais canais de marketing (canal, subcanal ou campanha) parecem ter menos recursos em comparação a outros?
@@ -102,7 +100,7 @@ Tabela exibindo a receita atribuída, os custos e o ROI segmentados por canais i
 
 * Clique no ícone &quot;+&quot; ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
 
-**Colunas:**
+**Colunas**
 
 * Canal/Subcanal/Campanha
 * Custo
@@ -118,7 +116,7 @@ Tabela que exibe custos, novos clientes em potencial, oportunidades e ofertas fe
 
 * Clique no ícone &quot;+&quot; ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
 
-**Colunas:**
+**Colunas**
 
 * Canal/Subcanal/Campanha
 * Custo

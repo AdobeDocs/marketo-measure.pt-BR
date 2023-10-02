@@ -1,10 +1,8 @@
 ---
 description: Painel de receitas atribuídas - [!DNL Marketo Measure] - Produto
 title: Painel de receitas atribuídas
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%

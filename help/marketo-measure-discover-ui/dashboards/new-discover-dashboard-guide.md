@@ -1,10 +1,8 @@
 ---
 description: Novo Guia do painel do Discover - [!DNL Marketo Measure] - Produto
 title: Novo Guia do Painel do Discover
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
