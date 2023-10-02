@@ -3,10 +3,10 @@ description: Notas da versão atual - [!DNL Marketo Measure] - Documentação do
 title: Notas da versão atual
 exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
 feature: Release Notes
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 22f8cedf401a28444026d7b63384ce3cbabe0305
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 43%
 
 ---
 
@@ -14,31 +14,80 @@ ht-degree: 100%
 
 Abaixo você encontrará todos os recursos novos e atualizados das versões de 2023.
 
+## Versão do quarto trimestre {#q4-release}
+
+<p>
+
+**Descubra o novo design do painel**
+
+Todos os usuários do Marketo Measure experimentarão nossos painéis no aplicativo reprojetados, que combinam usabilidade aprimorada com valor agregado. Também estamos introduzindo novas métricas, como &quot;ROI realizado&quot;, que leva em conta o atraso típico entre investimentos e compras de marketing no mercado B2B.
+
+O novo conjunto de painéis pré-construídos está programado para ser introduzido em ondas, começando na primeira semana de outubro e concluindo antes do final do ano. Esses novos painéis aparecerão automaticamente em suas instâncias, juntamente com informações no produto e links para a documentação.
+
+* [Novo Guia do Painel do Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
+* [Descubra as noções básicas do painel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+* [Painel de Visão Geral da Receita](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
+* [Painel de receitas atribuídas](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
+* [Painel de ROI](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
+* [Painel do Passport](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
+
+>[!NOTE]
+>
+>Embora os painéis atuais sejam descontinuados em meados de janeiro de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição suave.
+
+### Desaprovações {#deprecations}
+
+<p>
+
+* **Campo &quot;custom_properties&quot;**
+
+Em nosso data warehouse, o campo &quot;custom_properties&quot; tem servido como um armazenamento para pontos de dados adicionais não cobertos pelo nosso esquema fixo. Armazenado no formato JSON, o uso desse campo é limitado e sua integração com consultas SQL pode ser complicada, afetando o desempenho. Dados esses fatores, decidimos descontinuar esse campo. Essa alteração afetará principalmente a camada de processamento de dados em nosso armazenamento de tabela do Azure e os dados exportados para nosso data warehouse.
+
+* **Pacote do Dynamics relacionado**
+
+   * Para permanecer conectado ao Dynamics, instale a versão mais recente do pacote, v6.12. Versões antigas `(<v6.12)` O não será mais compatível. Essa atualização otimiza a criação de registros históricos para reduzir o uso do armazenamento.
+
+   * O método desatualizado do OAuth com um RefreshToken será descontinuado. Consulte [este guia](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para atualizar suas credenciais para seguir as práticas recomendadas da Microsoft de uso do ClientSecret.
+
+### O que está por vir? {#q4-whats-coming}
+
+<p>
+
+**Relatórios personalizados no aplicativo**
+
+Os clientes do Marketo Measure, pela primeira vez, poderão criar e salvar seus próprios relatórios diretamente no aplicativo. Isso seguirá o lançamento dos painéis pré-criados no início de 2024.
+
+<br>
+
 ## Versão do segundo trimestre {#q2-release}
 
 <p>
 
-**Consolidação de pacotes do Salesforce**
+* **Consolidação de pacotes do Salesforce**
 
-* Estamos mesclando todos os pacotes do Salesforce em um pacote único e abrangente para melhorar a experiência do usuário e simplificar o uso. Os pacotes V1, V2_EXT e Relatórios serão descontinuados no próximo trimestre. O novo pacote combina todos os recursos anteriores, permitindo um rastreamento mais eficiente e insights do cliente mais profundos.
-* Os clientes que já têm o pacote V2 instalado devem atualizá-lo para a nova versão consolidada.
-* Adicionamos dois novos campos para aprimorar seus recursos de relatório:
-   * form_name: agora disponível em objetos BT/BAT, esse campo permite criar relatórios com base em nomes de formulário.
-   * user_touchpoint_id: esse campo permite criar relatórios com contagens de pontos de contato de usuários exclusivos.
-* [Este artigo](/help/configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md){target="_blank"} inclui guias sobre como recriar relatórios e painéis de pacotes de relatórios herdados.
+Estamos mesclando todos os pacotes do Salesforce em um pacote único e abrangente para melhorar a experiência do usuário e simplificar o uso. Os pacotes V1, V2_EXT e Relatórios serão descontinuados no próximo trimestre. O novo pacote combina todos os recursos anteriores, permitindo um rastreamento mais eficiente e insights do cliente mais profundos.
 
-**Atualizações de versão da API do Salesforce**
+Os clientes que já têm o pacote V2 instalado devem atualizá-lo para a nova versão consolidada.
 
-* Todas as versões da API do Salesforce das classes Apex, incluindo a classe UserActivityContext, foram atualizadas para versões compatíveis. (31.0 a 57.0)
+Adicionamos dois novos campos para aprimorar seus recursos de relatório:
 
-**Instalação do novo pacote**
+* form_name: agora disponível em objetos BT/BAT, esse campo permite criar relatórios com base em nomes de formulário.
+* user_touchpoint_id: esse campo permite criar relatórios com contagens de pontos de contato de usuários exclusivos.
 
-* O link de instalação do novo pacote consolidado [pode ser encontrado aqui](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
+[Este artigo](/help/configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md){target="_blank"} inclui guias sobre como recriar relatórios e painéis de pacotes de relatórios herdados.
 
-### O que está por vir? {#whats-coming}
+* **Atualizações de versão da API do Salesforce**
+
+Todas as versões da API do Salesforce das classes Apex, incluindo a classe UserActivityContext, foram atualizadas para versões compatíveis. (31.0 a 57.0)
+
+* **Instalação do novo pacote**
+
+O link de instalação do novo pacote consolidado [pode ser encontrado aqui](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
+
+### O que está por vir? {#q2-whats-coming}
 
 <p>
 
 **Alterações no armazenamento de endereços IP**
 
-* Não armazenaremos mais endereços IP em nosso sistema conforme as considerações de privacidade. Continuaremos a identificar e armazenar a localização geográfica do endereço IP, mas o formato será alterado (por exemplo, “Estados Unidos” para “EUA”).
+Não armazenaremos mais endereços IP em nosso sistema conforme as considerações de privacidade. Continuaremos a identificar e armazenar a localização geográfica do endereço IP, mas o formato será alterado (por exemplo, “Estados Unidos” para “EUA”).
