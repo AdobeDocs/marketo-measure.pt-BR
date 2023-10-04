@@ -1,87 +1,87 @@
 ---
 unique-page-id: 18874730
-description: Visão geral de marketing baseado em conta - [!DNL Marketo Measure] - Documentação do produto
-title: Visão geral de marketing baseado em conta
+description: Visão geral do marketing baseado em conta - [!DNL Marketo Measure] - Documentação do produto
+title: Visão geral do marketing baseado em conta
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Visão geral de marketing baseado em conta {#account-based-marketing-overview}
+# Visão geral do marketing baseado em conta {#account-based-marketing-overview}
 
-Apresenta-se a seguir uma breve panorâmica da gestão por [!DNL Marketo Measure] recurso ABM e como adicioná-lo ao seu [!DNL Salesforce] layout de página. Para ler mais sobre a ABM, confira [esta página](https://www.marketo.com/account-based-marketing/){target="_blank"}.
+Veja abaixo uma breve visão geral do ABM (Marketing baseado em conta), os componentes do recurso de ABM do [!DNL Marketo Measure] e como adicioná-lo ao layout da página do [!DNL Salesforce]. Para ler mais sobre o ABM, confira [esta página](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-Para acessar diretamente as instruções de configuração do ABM em seu [!DNL Salesforce] instância, [clique aqui](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+Para acessar diretamente as instruções de configuração do ABM na sua instância do [!DNL Salesforce], [clique aqui](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
-## O que é ABM {#what-is-abm}
+## O que é o ABM {#what-is-abm}
 
-O marketing baseado em conta, ABM, é uma estratégia de marketing na qual você direciona e vende para empresas e contas como um todo, não apenas como indivíduos. [!DNL Marketo Measure] O ajuda as equipes de marketing e vendas a executarem estratégias de ABM bem-sucedidas com sua funcionalidade de mapeamento de lead para conta e Pontuação preditiva de engajamento.
+O marketing baseado em conta, ABM, é uma estratégia de marketing na qual você direciona e vende para empresas e contas como um todo, não apenas como indivíduos. O [!DNL Marketo Measure] ajuda as equipes de marketing e vendas na execução de estratégias de ABM bem-sucedidas com sua funcionalidade de mapeamento de lead para conta e a Pontuação preditiva de engajamento.
 
-Para que nosso modelo de Marketing baseado em conta comece a preencher o em seu CRM, [!DNL Marketo Measure] precisa que os seguintes critérios sejam atendidos:
+Para que nosso modelo de Marketing baseado em conta comece a preencher o seu CRM, o [!DNL Marketo Measure] precisa que os seguintes critérios sejam atendidos:
 
-* Seu CRM precisa de, pelo menos, 25 contas com pelo menos uma Oportunidade conquistada fechada para que possamos medir melhor as semelhanças de uma Conta/Oportunidade &quot;bem-sucedida&quot; para sua empresa.
-* Do outro lado da moeda, seu CRM precisa de pelo menos 25 contas sem nenhuma oportunidade conquistada fechada (todas as oportunidades devem estar em nossa categoria de estágio &quot;Aberto&quot; ou em uma categoria &quot;Perdido Fechado&quot; - isso nos ajuda a medir o que faz uma conta de nível inferior em sua organização.
+* O CRM precisa de, no mínimo, 25 contas com pelo menos uma Oportunidade fechada ganha para que possamos avaliar melhor os pontos em comum de uma conta/oportunidade “bem-sucedida” para o seu negócio.
+* Do outro lado da moeda, o seu CRM precisa de pelo menos 25 contas sem Oportunidades fechadas ganhas (todas as oportunidades devem estar em nossa categoria de estágio “Aberta” ou em uma categoria “Fechada perdida”). Isso nos ajuda a medir o que faz uma conta ser de nível inferior na sua organização.
 
 >[!NOTE]
 >
->As contas &quot;ruins&quot; acima precisam estar abertas por pelo menos 12 meses sem acumular um Opp Won fechado; essa é nossa diretriz básica para saber se um Opp ficou obsoleto ou não para os fins do modelo.
+>As contas “ruins” citadas acima precisam estar abertas por pelo menos 12 meses sem acumular uma oportunidade fechada ganha. Essa é nossa diretriz básica para saber se uma oportunidade ficou obsoleta ou não para os fins do modelo.
 
 ## Mapeamento de lead para conta {#lead-to-account-mapping}
 
-O mapeamento entre lead e conta é uma parte essencial de uma abordagem ABM eficaz. Com o mapeamento de lead para conta, os prospetos ou leads são agrupados na mesma conta da empresa à medida que se envolvem com sua marca. Isso permite direcionar e vender para indivíduos da mesma empresa de maneira consistente. Não há [!DNL Salesforce] configuração necessária para começar a se beneficiar desse recurso. A variável [!DNL Marketo Measure] Conduzir ao Mapeamento de conta cinco métodos diferentes de correspondência:
+O mapeamento de lead para conta é uma parte essencial de uma abordagem de ABM eficaz. Com o mapeamento de lead para conta, os prospectos, ou leads, são agrupados na mesma conta da empresa à medida que se engajam com sua marca. Isso permite direcionar e vender para indivíduos da mesma empresa de maneira consistente. Não é necessário nenhuma configuração adicional do [!DNL Salesforce] para começar a se beneficiar desse recurso. O mapeamento de lead para conta do [!DNL Marketo Measure] possui cinco métodos diferentes de correspondência:
 
-* Site do Cliente Potencial para Site da Conta
+* Site do lead para o site da conta
 * Domínio de email do lead para o domínio do site da conta
-* Nome da Empresa Cliente Potencial para Nome da Conta
-* Empresa líder para domínio do site da conta
-* Correspondência do domínio no endereço de email do lead à conta pelo endereço de email do contato
+* Nome da empresa do lead para o nome da conta
+* Empresa do lead para o domínio do site da conta
+* Correspondência do domínio no endereço de email do lead com a conta pelo endereço de email do contato
 
 >[!NOTE]
 >
->Tenta-se corresponder cada cliente potencial a uma Conta na ordem preferencial dos métodos acima. Depois que uma correspondência é feita, a AccountId é definida imediatamente no cliente potencial e não será correspondida usando outro método. Se o cliente potencial já tiver uma AccountId válida, o cliente potencial será ignorado.
+>Tenta-se corresponder cada lead a uma conta na ordem preferencial dos métodos acima. Depois que uma correspondência é feita, a AccountId é definida imediatamente no lead e não será correspondida usando outro método. Se o lead já possuir uma AccountId válida, será ignorado.
 
 ## Pontuação preditiva de engajamento {#predictive-engagement-score}
 
-A variável [!DNL Marketo Measure] A Pontuação preditiva de engajamento, ou PES, é um valor dinâmico que ilustra o engajamento de uma determinada conta em suas iniciativas de marketing. Essa pontuação é útil para segmentar contas no target. É uma ferramenta valiosa para identificar contas a serem direcionadas de forma mais eficaz e eficiente.
+A Pontuação preditiva de engajamento do [!DNL Marketo Measure], ou PES, é um valor dinâmico que ilustra o engajamento de uma conta específica com as suas iniciativas de marketing. Essa pontuação é útil na segmentação de contas para direcionamento. É uma ferramenta valiosa para identificar contas a serem direcionadas de forma mais eficaz e eficiente.
 
-Há muitos componentes que entram no algoritmo que calcula o PES. A recenticidade e a idade têm uma grande influência nas alterações da pontuação, juntamente com a última atividade de ponto de contato ou exibições de página. A adição de novos contatos a uma conta também afeta os SPE. Abaixo está uma lista de algumas entradas do PES:
+Há muitos componentes que fazem parte do algoritmo que calcula a PES. A recenticidade e a idade possuem uma grande influência nas alterações da pontuação, juntamente com a última atividade do ponto de contato e as visualizações de página. A adição de novos contatos a uma conta também afeta a PES. Esta é uma lista de algumas entradas da PES:
 
-* Número total de exibições de página da conta
-* Número médio de exibições de página
+* Número total de visualizações de página da conta
+* Número médio de visualizações de página
 * Número médio de pessoas na conta
-* Idade da última exibição de página
-* Idade média das exibições de página
+* Idade da última visualização de página
+* Idade média das visualizações de página
 * Número de pessoas na conta
 * Páginas importantes específicas e se houve uma visita nos últimos 30/60/90 dias
-* Se a conta tiver uma negociação fechada perdida/ganha
-* Qual a probabilidade de ser fechado, perdido/ganho
+* Se a conta possui uma negociação fechada perdida/ganha
+* Qual a probabilidade de ser fechada perdida/ganha
 
 >[!NOTE]
 >
->Você pode notar uma nota &quot;N/A&quot; ou &quot;-&quot; (o símbolo de traço) na pontuação preditiva de engajamento de algumas contas.
+>Você pode notar uma nota “N/D“ ou “-” (o símbolo de traço) na Pontuação preditiva de engajamento de algumas contas.
 
-_Uma nota &quot;N/A&quot; simplesmente significa que ainda não temos dados suficientes sobre essa conta para que o nosso modelo gere uma nota verdadeira - com mais dados, uma nota será dada eventualmente._
-_Uma nota de &quot;-&quot; (o símbolo de traço) significa que essa conta ainda precisa ser processada pelo processo ABM, devido a restrições de tempo, processos ocasionalmente perdidos etc. Se você acredita que uma conta deve ter uma nota, com base em outras contas ou intervalos de tempo semelhantes, entre em contato e deixe [!DNL Marketo Measure] Eu sei._
+_Uma nota “N/D” significa que ainda não temos dados suficientes sobre essa conta para que o nosso modelo gere uma nota verdadeira. Com mais dados, uma nota será dada, eventualmente._
+_Uma nota de “-” (o símbolo de traço) significa que essa conta ainda precisa passar pelo processo de ABM, devido a restrições de tempo, processos ocasionalmente perdidos, etc. Se acreditar que uma conta já deveria ter uma nota, com base em outras contas ou intervalos de tempo semelhantes, entre em contato e informe o [!DNL Marketo Measure]._
 
-## Configuração do layout da página ABM no [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
+## Configuração do layout da página de ABM no [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 
-Para começar a usar o PES, basta adicionar o campo do PES e a Lista relacionada aos layouts de página apropriados no [!DNL Salesforce].
+Para começar a usar a PES, basta adicionar o campo de PES e a Lista relacionada aos layouts de página apropriados no [!DNL Salesforce].
 
 1. Navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Contas]** > **[!UICONTROL Layout da página]**. Em seguida, selecione o layout de página que deseja editar.
-1. Ir para [!UICONTROL Campos] e mova o campo &quot;Pontuação preditiva de engajamento&quot; para a seção Informações da conta.
+1. Vá para [!UICONTROL Campos] e mova o campo “Pontuação preditiva de engajamento” para a seção Informações da conta.
 
    ![](assets/1.png)
 
-1. Por fim, acesse [!UICONTROL Listas Relacionadas] e mova a Lista relacionada &quot;Clientes potenciais&quot; para o layout da página.
+1. Por fim, acesse [!UICONTROL Listas Relacionadas] e mova a Lista relacionada “Leads” para o layout da página.
 
    ![](assets/2.png)
 
-1. Em seguida, acesse **[!UICONTROL Configuração]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Clientes potenciais]** > **[!UICONTROL Layout da página]** e selecione os layouts de página apropriados que deseja editar.
-1. Clique em **[!UICONTROL Campos]** e adicione o [!UICONTROL Conta] onde você vê o ajuste na página.
+1. Em seguida, acesse **[!UICONTROL Configuração]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Leads]** > **[!UICONTROL Layout da página]** e selecione os layouts de página apropriados que deseja editar.
+1. Clique em **[!UICONTROL Campos]** e adicione o campo [!UICONTROL Conta] onde achar mais adequado na página.
 
    ![](assets/3.png)
 
