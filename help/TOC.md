@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 99%
 
 ---
 
@@ -156,19 +156,20 @@ ht-degree: 100%
       + [Painel de receita atribuída](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Painel de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Painel de passaporte](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Política de Visibilidade de Dados do Painel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + Painéis herdados {#legacy-dashboards}
       + [Documentação do painel de Jornada de coorte](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentação do painel do Passport](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
       + [Documentação do painel de instantâneos](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-   + Utilização de [!DNL Marketo Measure]Plataforma de relatórios {#using-marketo-measures-reporting-platform}
-      + [Casos de uso comuns](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
-      + [Definições enciclopédia](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-      + [Detalhamentos](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/drill-throughs.md)
-      + [Filtros](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/filters.md)
-      + [Perguntas frequentes](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/faq.md)
-      + [Caminho de engajamento](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/engagement-path.md)
-      + [Oportunidades de marketing  Janelas](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-      + [Visão geral dos blocos de quadros](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
+      + Utilização de [!DNL Marketo Measure]Plataforma de relatórios {#using-marketo-measures-reporting-platform}
+         + [Casos de uso comuns](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
+         + [Definições enciclopédia](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
+         + [Detalhamentos](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
+         + [Filtros](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
+         + [Perguntas frequentes](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
+         + [Caminho de engajamento](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
+         + [Oportunidades de marketing  Janelas](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
+         + [Visão geral dos blocos de quadros](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] e Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] Integrações com o Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Integrações com o Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
