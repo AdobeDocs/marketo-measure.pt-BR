@@ -1,15 +1,16 @@
 ---
 description: Painel de receitas atribuídas - [!DNL Marketo Measure] - Produto
-title: Painel de receitas atribuídas
+title: Painel de receita atribuída
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
-# Painel de receitas atribuídas {#attributed-revenue-dashboard}
+# Painel de receita atribuída {#attributed-revenue-dashboard}
 
 O Painel de receita atribuída oferece uma perspectiva focada na receita diretamente vinculada às suas iniciativas de marketing. Explore como suas estratégias de marketing foram fundamentais para selar ofertas.
 
@@ -78,4 +79,6 @@ Esse painel é equipado com as seguintes configurações e filtros:
 
 >[!MORELIKETHIS]
 >
->[Descubra as noções básicas do painel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

@@ -1,15 +1,16 @@
 ---
 description: Painel de Visão Geral da Receita - [!DNL Marketo Measure] - Produto
-title: Painel de Visão Geral da Receita
+title: Painel de visão geral da receita
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
-# Painel de Visão Geral da Receita {#revenue-overview-dashboard}
+# Painel de visão geral da receita {#revenue-overview-dashboard}
 
 O painel Visão geral da receita fornece insights sobre a receita total derivada do seu CRM, esclarecendo a função das estratégias de marketing. Ele oferece uma visão geral de como o marketing influencia sua receita geral e contribui para o encerramento bem-sucedido das ofertas.
 
@@ -59,9 +60,9 @@ Este gráfico de pizza visualiza distintamente a cobertura de atribuição, segm
 
 Esse painel é equipado com as seguintes configurações e filtros:
 
-* Modelo de atribuição
 * Data (com base na data de fechamento)
 
 >[!MORELIKETHIS]
 >
->[Descubra as noções básicas do painel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

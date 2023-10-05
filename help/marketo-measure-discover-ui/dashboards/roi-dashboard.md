@@ -2,10 +2,11 @@
 description: Painel de ROI - [!DNL Marketo Measure] - Produto
 title: Painel de ROI
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 2%
+source-wordcount: '758'
+ht-degree: 3%
 
 ---
 
@@ -143,4 +144,6 @@ Esse painel é equipado com as seguintes configurações e filtros:
 
 >[!MORELIKETHIS]
 >
->[Descubra as noções básicas do painel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+
