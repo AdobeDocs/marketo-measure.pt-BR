@@ -1,43 +1,43 @@
 ---
 unique-page-id: 18874672
-description: Como [!DNL Marketo Measure] e [!DNL Salesforce] Interact - Marketo Measure - Documentação do produto
-title: Como [!DNL Marketo Measure] e [!DNL Salesforce] interagir
+description: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem - Marketo Measure - Documentação do produto
+title: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1719'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Como[!DNL Marketo Measure]e[!DNL Salesforce]interagir {#how-marketo-measure-and-salesforce-interact}
+# Como o [!DNL Marketo Measure] e o [!DNL Salesforce] interagem {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando “[!DNL Marketo Measure]” em nossa documentação, mas ainda ver “Bizible” em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
-Vamos analisar a relação entre [!DNL Marketo Measure] e Salesforce.
+Vamos analisar em alto nível a relação entre o [!DNL Marketo Measure] e o Salesforce.
 
 ## Salesforce e [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-Quando a variável [!DNL Marketo Measure] a conta é criada e [!DNL Salesforce] está conectado, [!DNL Marketo Measure] começará a enviar dados de marketing para a instância do CRM desde que o [!DNL Marketo Measure] o pacote gerenciado estiver instalado e a variável [!DNL Marketo Measure] O usuário do Salesforce tem permissões de edição.
+Quando a conta do [!DNL Marketo Measure] é criada e o [!DNL Salesforce] é conectado, o [!DNL Marketo Measure] começará a enviar dados de marketing para a instância do CRM desde que o o pacote gerenciado do [!DNL Marketo Measure] esteja instalado e o usuário do Salesforce no [!DNL Marketo Measure] tenha permissões de edição.
 
-Se você não instalou o [!DNL Marketo Measure] Pacote do Salesforce, [!DNL Marketo Measure] não gravará dados na sua instância do Salesforce.
+Se você não instalou o pacote do Salesforce para [!DNL Marketo Measure], o [!DNL Marketo Measure] não gravará dados na sua instância do Salesforce.
 
 ![](assets/1-3.png)
 
-Por padrão, [!DNL Marketo Measure] O exporta 200 registros por crédito de API sempre que um trabalho envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como workflows e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para o efeito, [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível no [!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Geral] página no [!DNL Marketo Measure] o aplicativo web e os clientes podem escolher entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
+Por padrão, o [!DNL Marketo Measure] exporta 200 registros por crédito de API sempre que um trabalho envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como fluxos de trabalho e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para isso, o [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível na página [!UICONTROL Configurações] > [!UICONTROL CRM] > [!UICONTROL Geral] no aplicativo web do [!DNL Marketo Measure], e os clientes podem escolher entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consumirão mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver enfrentando um tempo limite de CPU ou alta carga de CPU no seu CRM.
+Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consumirão mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver atingindo o tempo limite da CPU ou uma alta carga de CPU no CRM.
 
 ## Objetos e acesso padrão do Salesforce {#salesforce-standard-objects-and-access}
 
-Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O interage com o, bem como com os campos personalizados que adicionamos a esses objetos depois que a conexão é estabelecida e o [!DNL Marketo Measure] pacote está instalado. Pronto para uso, [!DNL Marketo Measure] NÃO gravará em nenhum padrão [!DNL Salesforce] Campos de objeto.
+Lista os objetos padrão do [!DNL Salesforce] com os quais o [!DNL Marketo Measure] interage, bem como os campos personalizados que adicionamos a esses objetos depois que a conexão é estabelecida e o pacote do [!DNL Marketo Measure] é instalado. Pronto para uso, o [!DNL Marketo Measure] NÃO gravará em nenhum campo de objeto padrão do [!DNL Salesforce].
 
-**Cliente potencial**
+**Lead**
 
 <table> 
  <tbody> 
@@ -72,13 +72,13 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataConvertida</p></td> 
+   <td><p>ConvertedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -120,67 +120,67 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Account_c</p></td> 
+   <td><p>bizible2__Account__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_LC_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT_c</p></td> 
+   <td><p>bizible2__Landing_Page_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC_c</p></td> 
+   <td><p>bizible2__Landing_Page_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_LC_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -229,67 +229,67 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_LC_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT_c</p></td> 
+   <td><p>bizible2__Landing_Page_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC_c</p></td> 
+   <td><p>bizible2__Landing_Page_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_LC_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -320,7 +320,7 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -338,61 +338,61 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_LC_c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT_c</p></td> 
+   <td><p>bizible2__Landing_Page_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC_c</p></td> 
+   <td><p>bizible2__Landing_Page_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_FT_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_LC_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -423,7 +423,7 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -435,7 +435,7 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Engagement_Score_c</p></td> 
+   <td><p>bizible2__Engagement_Score__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -472,7 +472,7 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -496,13 +496,13 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>FecharData</p></td> 
+   <td><p>CloseDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>NomeEstágio</p></td> 
+   <td><p>StageName</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -514,7 +514,7 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Opportunity_Amount_c</p></td> 
+   <td><p>bizible2__Bizible_Opportunity_Amount__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -563,13 +563,13 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataConvertida</p></td> 
+   <td><p>ConvertedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -642,7 +642,7 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>DataDaÚltimaModificação</p></td> 
+   <td><p>LastModifiedDate</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -666,13 +666,13 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ContactId</p></td> 
+   <td><p>ID de contato</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LeadId</p></td> 
+   <td><p>ID de lead</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -684,37 +684,37 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CampaignId</p></td> 
+   <td><p>ID de campanha</p></td> 
    <td><p>Padrão</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Touchpoint_Date_c</p></td> 
+   <td><p>bizible2__Bizible_Touchpoint_Date__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Date_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Date__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Contact_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Contact__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Leade_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Leade__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Opportunity_c</p></td> 
+   <td><p>bizible2__Touchpoint_Status_Opportunity__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -731,18 +731,18 @@ Isso lista as [!DNL Salesforce] Objetos Padrão que [!DNL Marketo Measure] O int
 >* Membro de campanha
 >* Contato
 >* Evento
->* Cliente potencial
+>* Lead
 >* Oportunidade
 >* Tarefa
 
 
-## [!DNL Marketo Measure] Objetos personalizados no [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## Objetos personalizados do [!DNL Marketo Measure] no [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Além de criar campos personalizados nos Objetos Padrão do SFDC, uma vez que a variável [!DNL Marketo Measure] estiver instalado, ele criará alguns Objetos personalizados. Abaixo está uma lista desses Objetos personalizados, juntamente com uma tabela que indica os campos que [!DNL Marketo Measure] O gravará em.
+Além de criar campos personalizados nos objetos padrão do SFDC, uma vez que o pacote do [!DNL Marketo Measure] estiver instalado, ele criará alguns objetos personalizados. Abaixo está uma lista desses objetos personalizados, juntamente com uma tabela que indica os campos em que o [!DNL Marketo Measure] gravará.
 
-**Ponto de contato do comprador**
+**Buyer Touchpoint**
 
-O ponto de contato do comprador é um [!DNL Marketo Measure] Custom Object para encapsular as interações de marketing para contatos, leads e ocorrências.
+O Buyer Touchpoint é um objeto personalizado do [!DNL Marketo Measure] para encapsular as interações de marketing de contatos, leads e casos.
 
 <table> 
  <tbody> 
@@ -753,7 +753,7 @@ O ponto de contato do comprador é um [!DNL Marketo Measure] Custom Object para 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Person_c</p></td> 
+   <td><p>bizible2__Bizible_Person__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -765,127 +765,127 @@ O ponto de contato do comprador é um [!DNL Marketo Measure] Custom Object para 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UniqueId__c</p></td> 
+   <td><p>bizible2__UniqueId__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_c</p></td> 
+   <td><p>bizible2__Marketing_Channel__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_Path_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type_c</p></td> 
+   <td><p>bizible2__Touchpoint_Type__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Id_c</p></td> 
+   <td><p>bizible2__Ad_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Content_c</p></td> 
+   <td><p>bizible2__Ad_Content__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Id_c</p></td> 
+   <td><p>bizible2__Ad_Group_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Name__c</p></td> 
+   <td><p>bizible2__Ad_Group_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Id__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Id__c</p></td> 
+   <td><p>bizible2__Placement_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Name__c</p></td> 
+   <td><p>bizible2__Placement_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Id__c</p></td> 
+   <td><p>bizible2__Site_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Name__c</p></td> 
+   <td><p>bizible2__Site_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL__c</p></td> 
+   <td><p>bizible2__Form_URL__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw_c</p></td> 
+   <td><p>bizible2__Form_URL_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Platform_c</p></td> 
+   <td><p>bizible2__Platform__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Browser_c</p></td> 
+   <td><p>bizible2__Browser__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_City__c</p></td> 
+   <td><p>bizible2__Geo_City__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Country_c</p></td> 
+   <td><p>bizible2__Geo_Country__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Region_c</p></td> 
+   <td><p>bizible2__Geo_Region__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -897,109 +897,109 @@ O ponto de contato do comprador é um [!DNL Marketo Measure] Custom Object para 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_MatchType_c</p></td> 
+   <td><p>bizible2__Keyword_MatchType__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Position_c</p></td> 
+   <td><p>bizible2__Touchpoint_Position__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_Text_c</p></td> 
+   <td><p>bizible2__Keyword_Text__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_c</p></td> 
+   <td><p>bizible2__Landing_Page__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_Raw_c</p></td> 
+   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Medium_c</p></td> 
+   <td><p>bizible2__Medium__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_c</p></td> 
+   <td><p>bizible2__Referrer_Page__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_Raw_c</p></td> 
+   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Search_Phrase_c</p></td> 
+   <td><p>bizible2__Search_Phrase__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Segment_c</p></td> 
+   <td><p>bizible2__Segment__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_First_Touch_c</p></td> 
+   <td><p>bizible2__Count_First_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Lead_Creation_Touch_c</p></td> 
+   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped_c</p></td> 
+   <td><p>bizible2__Count_U_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Destination_URL__c</p></td> 
+   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Case_c</p></td> 
+   <td><p>bizible2__Case__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Contact_c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1007,9 +1007,9 @@ O ponto de contato do comprador é um [!DNL Marketo Measure] Custom Object para 
  </tbody> 
 </table>
 
-**[!DNL Marketo Measure]Pessoa**
+Pessoa do **[!DNL Marketo Measure]**
 
-A variável [!DNL Marketo Measure] A pessoa é um [!DNL Marketo Measure] Objeto personalizado relacionado aos objetos cliente potencial, contato e caso.
+A Pessoa do [!DNL Marketo Measure] é um objeto personalizado do [!DNL Marketo Measure] relacionado aos objetos lead, contato e caso.
 
 <table> 
  <tbody> 
@@ -1020,25 +1020,25 @@ A variável [!DNL Marketo Measure] A pessoa é um [!DNL Marketo Measure] Objeto 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UniqueId__c</p></td> 
+   <td><p>bizible2__UniqueId__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Lead_c</p></td> 
+   <td><p>bizible2__Lead__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Case_c</p></td> 
+   <td><p>bizible2__Case__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Contact_c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -1046,11 +1046,11 @@ A variável [!DNL Marketo Measure] A pessoa é um [!DNL Marketo Measure] Objeto 
  </tbody> 
 </table>
 
-## Ponto de contato de atribuição do comprador {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-O ponto de contato de atribuição do comprador é um [!DNL Marketo Measure] Custom Object para encapsular a influência do marketing em Oportunidades.
+O Buyer Attribution Touchpoint é um objeto personalizado do [!DNL Marketo Measure] para encapsular a influência do marketing nas oportunidades.
 
-**Ponto de contato de atribuição do comprador**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 
@@ -1061,7 +1061,7 @@ O ponto de contato de atribuição do comprador é um [!DNL Marketo Measure] Cus
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Account_c</p></td> 
+   <td><p>bizible2__Account__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1073,139 +1073,139 @@ O ponto de contato de atribuição do comprador é um [!DNL Marketo Measure] Cus
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Contact_c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Opportunity_c</p></td> 
+   <td><p>bizible2__Opportunity__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_UniqueId__c</p></td> 
+   <td><p>bizible2__UniqueId__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_c</p></td> 
+   <td><p>bizible2__Marketing_Channel__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_Path_c</p></td> 
+   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type_c</p></td> 
+   <td><p>bizible2__Touchpoint_Type__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Id_c</p></td> 
+   <td><p>bizible2__Ad_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Content_c</p></td> 
+   <td><p>bizible2__Ad_Content__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Id_c</p></td> 
+   <td><p>bizible2__Ad_Group_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Name__c</p></td> 
+   <td><p>bizible2__Ad_Group_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Id__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name__c</p></td> 
+   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Id__c</p></td> 
+   <td><p>bizible2__Placement_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Name__c</p></td> 
+   <td><p>bizible2__Placement_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Id__c</p></td> 
+   <td><p>bizible2__Site_Id__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Site_Name__c</p></td> 
+   <td><p>bizible2__Site_Name__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL__c</p></td> 
+   <td><p>bizible2__Form_URL__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw_c</p></td> 
+   <td><p>bizible2__Form_URL_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Platform_c</p></td> 
+   <td><p>bizible2__Platform__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Browser_c</p></td> 
+   <td><p>bizible2__Browser__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_City__c</p></td> 
+   <td><p>bizible2__Geo_City__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Country_c</p></td> 
+   <td><p>bizible2__Geo_Country__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Geo_Region_c</p></td> 
+   <td><p>bizible2__Geo_Region__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1217,187 +1217,187 @@ O ponto de contato de atribuição do comprador é um [!DNL Marketo Measure] Cus
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_MatchType_c</p></td> 
+   <td><p>bizible2__Keyword_MatchType__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Position_c</p></td> 
+   <td><p>bizible2__Touchpoint_Position__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_Text_c</p></td> 
+   <td><p>bizible2__Keyword_Text__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_c</p></td> 
+   <td><p>bizible2__Landing_Page__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_Raw_c</p></td> 
+   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Medium_c</p></td> 
+   <td><p>bizible2__Medium__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_c</p></td> 
+   <td><p>bizible2__Referrer_Page__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_Raw_c</p></td> 
+   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Search_Phrase_c</p></td> 
+   <td><p>bizible2__Search_Phrase__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_c</p></td> 
+   <td><p>bizible2__Touchpoint_Date__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_c</p></td> 
+   <td><p>bizible2__Touchpoint_Source__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Segment_c</p></td> 
+   <td><p>bizible2__Segment__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_First_Touch_c</p></td> 
+   <td><p>bizible2__Attribution_First_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Lead_Conversion_Touch_c</p></td> 
+   <td><p>bizible2__Attribution_Lead_Conversion_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_U_Shaped_c</p></td> 
+   <td><p>bizible2__Attribution_U_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shaped_c</p></td> 
+   <td><p>bizible2__Attribution_W_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_c</p></td> 
+   <td><p>bizible2__Attribution_Custom_Model__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_2__c</p></td> 
+   <td><p>bizible2__Attribution_Custom_Model_2__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_First_Touch_c</p></td> 
+   <td><p>bizible2__Count_First_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Lead_Creation_Touch_c</p></td> 
+   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped_c</p></td> 
+   <td><p>bizible2__Count_U_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_W_Shaped_c</p></td> 
+   <td><p>bizible2__Count_W_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model_c</p></td> 
+   <td><p>bizible2__Count_Custom_Model__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model_2__c</p></td> 
+   <td><p>bizible2__Count_Custom_Model_2__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Destination_URL__c</p></td> 
+   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_First_Touch_c</p></td> 
+   <td><p>bizible2__Revenue_First_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Lead_Creation_Touch__c</p></td> 
+   <td><p>bizible2__Revenue_Lead_Creation_Touch__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_U_Shaped_c</p></td> 
+   <td><p>bizible2__Revenue_U_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_W_Shaped_c</p></td> 
+   <td><p>bizible2__Revenue_W_Shaped__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model_c</p></td> 
+   <td><p>bizible2__Revenue_Custom_Model__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model_2__c</p></td> 
+   <td><p>bizible2__Revenue_Custom_Model_2__c</p></td> 
    <td><p>Personalizado</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
