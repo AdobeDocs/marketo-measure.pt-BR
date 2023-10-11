@@ -1,80 +1,80 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Objetos do Salesforce - [!DNL Marketo Measure] - Documentação do produto"
-title: "[!DNL Marketo Measure] Objetos do Salesforce"
+description: “Objetos do Salesforce do [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentação do produto”
+title: “Objetos do Salesforce do [!DNL Marketo Measure]”
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Objetos do Salesforce {#marketo-measure-salesforce-objects}
+# Objetos do Salesforce do [!DNL Marketo Measure] {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando “[!DNL Marketo Measure]” em nossa documentação, mas ainda ver “Bizible” em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
-Quando [!DNL Marketo Measure] está instalado em [!DNL Salesforce] (SFDC), vários relatórios [!DNL Marketo Measure] Objetos são adicionados. Este artigo fornece uma explicação de vários desses [!DNL Marketo Measure] Objetos. Alguns Objetos que [!DNL Marketo Measure] adiciona a [!DNL Salesforce] são:
+Quando [!DNL Marketo Measure] está instalado no [!DNL Salesforce] (SFDC), vários objetos personalizados do [!DNL Marketo Measure] são adicionados. Este artigo fornece uma explicação de vários desses objetos personalizados do [!DNL Marketo Measure]. Alguns dos objetos que o [!DNL Marketo Measure] adiciona ao [!DNL Salesforce] são:
 
-* [Ponto de contato do comprador](#touchpoint)
-* [Ponto de contato de atribuição do comprador](#attribution)
-* [[!DNL Marketo Measure] Pessoa](#person)
-* [[!DNL Marketo Measure] Teste A/B](#ab)
-* [[!DNL Marketo Measure] Eventos](#events)
+* [Buyer Touchpoint](#touchpoint)
+* [Buyer Attribution Touchpoint](#attribution)
+* [Pessoa do [!DNL Marketo Measure]](#person)
+* [Teste A/B do [!DNL Marketo Measure]](#ab)
+* [Eventos do [!DNL Marketo Measure]](#events)
 
-Os pontos de contato capturados pelas coisas que você deseja rastrear gravarão nos objetos personalizados criados pela instalação do [!DNL Bizible Salesforce] pacote.
+Os touchpoints capturados pelas coisas que você deseja monitorar gravarão nos objetos personalizados criados pela instalação do pacote do [!DNL Bizible Salesforce].
 
-[!DNL Marketo Measure] Os objetos estão relacionados a um padrão específico [!DNL Salesforce] Objetos. Isso permite criar relatórios sobre [!DNL Marketo Measure] e [!DNL Salesforce] Objetos juntos. O quadro seguinte mostra [!DNL Salesforce] Objeto do [!DNL Marketo Measure] Objeto relacionado a.
+Os objetos do [!DNL Marketo Measure] estão relacionados a objetos padrão específicos do [!DNL Salesforce]. Isso permite criar relatórios sobre objetos do [!DNL Marketo Measure] e do [!DNL Salesforce] ao mesmo tempo. O quadro a seguir mostra a qual objeto do [!DNL Salesforce] o objeto do [!DNL Marketo Measure] se relaciona.
 
 ![](assets/1-1.png)
 
-## Ponto de contato do comprador {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
-A variável [!UICONTROL Ponto de contato do comprador] (BT) Object conta a história de marketing de um indivíduo. Ele armazena todos os dados relacionados aos pontos de contato de marketing gerados por clientes potenciais e contatos. O BT mostra informações como de qual canal de marketing o ponto de contato veio ou qual Campanha publicitária trouxe esse lead/contato específico para seu site.
+O objeto [!UICONTROL Buyer Touchpoint] (BT) conta a história de marketing de um indivíduo. Ele armazena todos os dados relacionados aos touchpoints de marketing gerados por leads e contatos. O BT mostra informações como de qual canal de marketing o touchpoint veio ou qual campanha publicitária trouxe esse leads/contato específico para seu site.
 
-O objeto BT é visível nas páginas de clientes em potencial e contatos como um **Lista relacionada** (veja a imagem abaixo).
+O objeto BT é visível nas páginas de leads e contatos como uma **Lista relacionada** (veja a imagem abaixo).
 
 ![](assets/2-1.png)
 
-A Lista Relacionada ao BT exibe todos os pontos de contato que pertencem ao Lead ou Contato. Na lista estão os personalizados [!DNL Marketo Measure] Campos que fornecem mais detalhes sobre cada ponto de contato. Ao clicar no número de ID do ponto de contato do comprador, você será direcionado para a página Detalhes do ponto de contato do comprador, que fornece ainda mais detalhes sobre o ponto de contato, como a primeira página da Web que o lead/contato visitou durante essa sessão da Web (**landing page**).
+A lista relacionada do BT exibe todos os touchpoints que pertencem ao lead ou contato. Na lista estão os campos personalizados do [!DNL Marketo Measure] que fornecem mais detalhes sobre cada touchpoint. Ao clicar no número de ID do Buyer Touchpoint, você será direcionado para a página Detalhes dele, que fornece ainda mais detalhes sobre o touchpoint, como a primeira página da web que o lead/contato visitou durante essa sessão da web (**página de destino**).
 
-## Ponto de contato de atribuição do comprador {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-A variável [!UICONTROL Ponto de contato de atribuição do comprador] Objeto conta a história das interações de marketing de seus contatos relacionadas a uma oportunidade. Ele exibe a variável *atribuição* dados relacionados aos pontos de contato de marketing. Esse Objeto permite que você veja quanto crédito de receita é atribuído a cada ponto de contato de marketing. O tipo de modelo de atribuição que você está usando determinará a porcentagem de receita atribuída aos pontos de contato.
+O objeto [!UICONTROL Buyer Attribution Touchpoint] conta a história das interações de marketing de seus contatos relacionadas a uma oportunidade. Ele exibe os dados de *atribuição* relacionados aos touchpoints de marketing. Esse Objeto permite que você veja quanto crédito de receita é atribuído a cada touchpoint de marketing. O tipo de modelo de atribuição que você está usando determinará a porcentagem de receita atribuída aos touchpoints.
 
-Os Pontos de contato de atribuição do comprador (BATs) são criados apenas depois que uma Oportunidade é criada e se relaciona aos contatos que têm dados de Pontos de contato do comprador (BT). As MTDs não serão criadas sem uma oportunidade. Depois que a oportunidade for criada, o objeto BAT usará a variável [!DNL Salesforce] *Quantidade* na Oportunidade para entender quanta receita deve ser atribuída aos pontos de contato.
+Os Buyer Attribution Touchpoints (BATs) são criados apenas depois que uma oportunidade é criada, e se relacionam aos contatos que têm dados de Buyer Touchpoint (BT). Os BATs não serão criados sem uma oportunidade. Depois que a oportunidade for criada, o objeto BAT usará o campo *Valor* do [!DNL Salesforce] na oportunidade para entender quanta receita deve ser atribuída aos touchpoints.
 
-A **fluxo de trabalho** deve ser criado se você usar um [campo Valor personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) para mostrar a receita no Objeto da oportunidade. [!DNL Marketo Measure] O não consegue ler as informações exibidas nos campos de Valor personalizado e, consequentemente, não pode preencher dados de atribuição de receita nos pontos de contato. Este fluxo de trabalho usará o **[!DNL Marketo Measure]Valor da oportunidade** Campo, um dos [!DNL Marketo Measure] campos personalizados, para mapear o valor de receita do campo Valor personalizado para o campo Valor da oportunidade.
+Um **fluxo de trabalho** precisa ser criado se você usar um [campo personalizado Valor](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) para mostrar a receita no objeto da oportunidade. O [!DNL Marketo Measure] não consegue ler as informações exibidas nos campos personalizados Valor e, consequentemente, não pode preencher dados de atribuição de receita nos touchpoints. Este fluxo de trabalho usará o campo Valor da oportunidade **do**[!DNL Marketo Measure], um dos campos personalizados do [!DNL Marketo Measure], para mapear o valor de receita do campo personalizado Valor para o campo Valor da oportunidade.
 
 ![](assets/3-1.png)
 
-O objeto MTD é visível na [!UICONTROL Oportunidade], [!UICONTROL Contato], e [!UICONTROL Conta] Objeto como uma lista relacionada. Esta lista exibe todos os pontos de contato com os dados de atribuição pertencentes a uma Oportunidade. Ao clicar na ID de ponto de contato de atribuição do comprador, você será direcionado para a página Detalhes do ponto de contato de atribuição do comprador. Aqui você poderá ver dados de atribuição e informações mais específicas sobre de onde o ponto de contato veio (semelhantes ao que é fornecido a partir do Objeto de ponto de contato do comprador).
+O objeto BAT é visível nos objetos [!UICONTROL Oportunidade], [!UICONTROL Contato] e [!UICONTROL Conta] como uma lista relacionada. Esta lista exibe todos os touchpoints com os dados de atribuição pertencentes a uma oportunidade. Ao clicar na ID do Buyer Attribution Touchpoint, você será direcionado para a página Detalhes dele.  Aqui você poderá ver dados de atribuição e informações mais específicas sobre de onde o touchpoint veio (semelhante ao que é fornecido a partir do objeto Buyer Touchpoint).
 
-## [!DNL Marketo Measure] Pessoa {#marketo-measure-person}
+## Pessoa do [!DNL Marketo Measure] {#marketo-measure-person}
 
-A variável [!DNL Marketo Measure] Objeto Pessoa relaciona os objetos Cliente Potencial e Contato. Imediatamente, o Salesforce não fornece a opção de criar relatórios usando os objetos de cliente potencial e contato no mesmo relatório. Ao se relacionar com o Objeto de Cliente Potencial e Contato, o [!DNL Marketo Measure] Pessoa permite relatar ambos os Objetos no mesmo relatório. Isso é especialmente útil quando um cliente potencial é convertido em um Contato. Em um [!DNL Marketo Measure] Registro de pessoa você verá uma pesquisa no registro de cliente potencial e/ou contato correspondente, uma lista relacionada dos pontos de contato vinculados à pessoa e a ID de pessoa (que é sempre o endereço de email do cliente potencial/contato). Uma vez que a [!DNL Marketo Measure] A pessoa se relaciona com o objeto de cliente potencial e contato; nunca haverá uma [!DNL Marketo Measure] Registro de pessoa vinculado a um ponto de contato de atribuição do comprador. Veja abaixo um exemplo de [!DNL Marketo Measure] Registro de pessoa no Salesforce:
+O objeto Pessoa do [!DNL Marketo Measure] se relaciona aos objetos Lead e Contato. O Salesforce não fornece uma opção pronta para uso de criar relatórios usando os objetos Lead e Contato no mesmo relatório. Ao se relacionar com os objetos Lead e Contato, o objeto Pessoa do [!DNL Marketo Measure] permite incluir ambos os objetos no mesmo relatório. Isso é especialmente útil quando um lead é convertido em um contato. Em um registro do objeto Pessoa do [!DNL Marketo Measure], você verá uma pesquisa no registro de Lead e/ou Contato correspondente, uma lista relacionada dos touchpoints vinculados à pessoa e a ID de pessoa (que é sempre o endereço de email do lead/contato). Como o objeto Pessoa do [!DNL Marketo Measure] se relaciona com os objetos Lead e Contato, nunca haverá um registro de Pessoa do [!DNL Marketo Measure] vinculado a um Buyer Attribution Touchpoint. Veja abaixo um exemplo de registro do objeto Pessoa do [!DNL Marketo Measure] no Salesforce:
 
 ![](assets/4.png)
 
-## [!DNL Marketo Measure] Teste A/B {#marketo-measure-a-b-test}
+## Teste A/B do [!DNL Marketo Measure] {#marketo-measure-a-b-test}
 
-Se você estiver executando testes A/B até [!DNL Optimizely] ou VWO (Visual Web Otimizer), você pode conectar essas contas ao seu [!DNL Marketo Measure] para exibir dados de teste A/B no Salesforce. A variável [!DNL Marketo Measure] O objeto de teste A/B permite essencialmente obter dados de teste A/B do Otimizely/VWO e vincular os dados a clientes potenciais e contatos.
+Se você estiver executando testes A/B através do [!DNL Optimizely] ou do VWO (Visual Web Otimizer), pode conectar essas contas à sua conta do [!DNL Marketo Measure] para exibir dados de teste A/B no Salesforce. O objeto Teste A/B do [!DNL Marketo Measure] permite essencialmente obter dados de teste A/B do Optimizely/VWO e vincular os dados a leads e contatos.
 
 ![](assets/5.png)
 
-A variável [!DNL Marketo Measure] O objeto de teste A/B é exibido como uma lista relacionada no [!UICONTROL Clientes potenciais], [!UICONTROL Contatos] e [!UICONTROL Oportunidade] páginas. A lista exibe todos os experimentos e variações que você está executando Otimizely ou VWO e permite que você veja os experimentos/variações que estão relacionados a clientes potenciais e contatos específicos.
+O objeto Teste A/B do [!DNL Marketo Measure] é exibido como uma lista relacionada nas páginas [!UICONTROL Leads], [!UICONTROL Contatos] e [!UICONTROL Oportunidade]. A lista exibe todos os experimentos e variações que você está executando no Optimizely ou VWO, e permite ver os experimentos/variações que estão relacionados a leads e contatos específicos.
 
-## [!DNL Marketo Measure] Eventos {#marketo-measure-events}
+## Eventos do [!DNL Marketo Measure] {#marketo-measure-events}
 
-A variável [!DNL Marketo Measure] Events Object permite rastrear eventos específicos que ocorrem em seu site. Para rastrear eventos específicos que ocorrem no seu site, é necessário adicionar um código personalizado às suas páginas, além da [!DNL Marketo Measure] Javascript As informações capturadas serão exibidas no [!DNL Marketo Measure] Lista Relacionada a Objetos, que pode ser encontrada no [!UICONTROL Clientes potenciais], [!UICONTROL Contatos] e [!UICONTROL Oportunidade] páginas. A variável [!DNL Marketo Measure] Objeto Events *não* vincular aos dados de atribuição. A finalidade deste objeto é ver se as pessoas estão executando ações específicas no site.
+O objeto Eventos do [!DNL Marketo Measure] permite monitorar eventos específicos que ocorrem em seu site. Para monitorar eventos específicos que ocorrem no seu site, é necessário adicionar um código personalizado às suas páginas, além do Javascript do [!DNL Marketo Measure]. As informações capturadas serão exibidas na lista relacionada de objetos do [!DNL Marketo Measure], que pode ser encontrada nas páginas [!UICONTROL Leads], [!UICONTROL Contatos] e [!UICONTROL Oportunidade]. O objeto Eventos do [!DNL Marketo Measure] *não* é vinculado aos dados de atribuição. A finalidade deste objeto é conferir se as pessoas estão executando ações específicas no seu site.
 
-## [!DNL Marketo Measure] Campos {#marketo-measure-fields}
+## Campos do [!DNL Marketo Measure] {#marketo-measure-fields}
 
-Dados capturados pelo [!DNL Marketo Measure] O JavaScript será enviado para o [!DNL Marketo Measure] Campos em nossos [!DNL Marketo Measure] Objetos. Determinados campos só estarão presentes em determinados objetos. Para obter um glossário de todas as [!DNL Marketo Measure] campos, [clique aqui](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). Para uma visualização da qual [!DNL Marketo Measure] Objeto cada [!DNL Marketo Measure] O campo está relacionado a, [clique aqui](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Dados capturados pelo JavaScript do [!DNL Marketo Measure] serão enviados para os campos personalizados do [!DNL Marketo Measure] em nossos objetos do [!DNL Marketo Measure]. Determinados campos só estarão presentes em determinados objetos. Para obter um glossário de todos os campos do [!DNL Marketo Measure], [clique aqui](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). Para visualizar a qual objeto do [!DNL Marketo Measure] cada campo do [!DNL Marketo Measure] está relacionado, [clique aqui](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
-## [!DNL Marketo Measure] Relatórios e painéis {#marketo-measure-reports-and-dashboards}
+## Relatórios e painéis do [!DNL Marketo Measure] {#marketo-measure-reports-and-dashboards}
 
-A variável [!DNL Marketo Measure] Relatórios e painéis adicionados ao seu [!DNL Salesforce] O fornece recursos de visualização de dados e relatórios prontos para uso. Estas são as [!DNL Marketo Measure] relatórios para permitir que você organize, analise e entenda rapidamente os dados de ponto de contato.
+Os Relatórios e painéis do [!DNL Marketo Measure] adicionados ao [!DNL Salesforce] fornecem recursos de visualização de dados e relatórios prontos para uso. Eles são relatórios básicos do [!DNL Marketo Measure] que permitem organizar, analisar e entender rapidamente os dados de touchpoint.
