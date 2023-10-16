@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
 source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 99%
       + [Painel de receita atribuída](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Painel de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Painel de passaporte](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Política de Visibilidade de Dados do Painel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Política de visibilidade de dados do painel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + Painéis herdados {#legacy-dashboards}
       + [Documentação do painel de Jornada de coorte](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentação do painel do Passport](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
