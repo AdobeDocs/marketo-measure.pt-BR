@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
-source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
 workflow-type: ht
-source-wordcount: '804'
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 100%
       + [[!DNL Marketo Measure] Cookies](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [Definição de [!DNL Marketo Measure] Sessões da Web](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [Práticas recomendadas para testes](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [Sincronização de cookies atrasados](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + Configuração e definição {#configuration-and-setup}
    + Introdução ao [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Geração e mapeamento de touchpoint](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
