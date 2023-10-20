@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
+source-git-commit: 2d2fe74998abd853f6592c5e65edfe2ce39d7ce6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,7 @@ ht-degree: 100%
    + Valor da receita personalizada {#custom-revenue-amount}
       + [Práticas recomendadas para utilizar uma quantia de receita personalizada](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Utilização de um campo de quantia de receita personalizada](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+      + [Documento de teste](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [Como usar o carregador de dados para atualizar o [!DNL Marketo Measure] campo de quantia personalizada](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + Atribuição de view through {#view-through-attribution}
       + [[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
