@@ -5,9 +5,9 @@ title: Cookies do [!DNL Marketo Measure]”
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
     <th>Tipo de cookie</th>
     <th>Finalidade</th>
     <th>Expiração</th>
-    <th>O sinalizador seguro está definido?<br></th>
-    <th>O sinalizador Somente HTTP está definido?</th>
+    <th>O sinalizador de segurança está ativado?<br></th>
+    <th>O sinalizador somente HTTP está ativado?</th>
     <th>Definidor de cookies</th>
   </tr>
 </thead>
@@ -49,7 +49,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   <tr>
     <td>_biz_flagsA</td>
     <td>Próprio</td>
-    <td>Um cookie que armazena várias informações do usuário, como envio de formulário, migração entre domínios, pixel de view-through, status de rastreamento de recusa, etc.</td>
+    <td>Um cookie que armazena várias informações do usuário, como envio de formulário, migração entre domínios, pixel de viewthrough, status de rastreamento de recusa, etc.</td>
     <td>1 ano</td>
     <td>Não</td>
     <td>Não</td>
@@ -58,7 +58,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   <tr>
     <td>_biz_pendingA</td>
     <td>Próprio</td>
-    <td>Armazena temporariamente dados de análise até serem enviados com êxito ao servidor do Marketo Measure.</td>
+    <td>Armazena temporariamente dados de análise até serem enviados com sucesso ao servidor do Marketo Measure.</td>
     <td>1 ano</td>
     <td>Não</td>
     <td>Não</td>
@@ -76,7 +76,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   <tr>
     <td>_biz_EventA</td>
     <td>Próprio</td>
-    <td>Lista de somas de verificação relatadas pelos Eventos Bizible para impedir que o bizible.js reenvie dados coletados.</td>
+    <td>Lista de somas de verificação relatadas por eventos do Bizible para impedir que o bizible.js reenvie dados coletados.</td>
     <td>1 ano</td>
     <td>Não</td>
     <td>Não</td>
@@ -94,7 +94,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   <tr>
     <td>_BUID</td>
     <td>Terceiro, domain=.<a href="http://bizible.com/">bizible.com</a></td>
-    <td>Universal user ID para identificar um usuário em vários domínios.</td>
+    <td>ID de usuário universal para identificar um usuário em vários domínios.</td>
     <td>1 ano</td>
     <td>Sim</td>
     <td>Não</td>
@@ -103,7 +103,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   <tr>
     <td>_BUID</td>
     <td>Terceiro, domain=.<a href="http://bizibly.com/">bizibly.com</a></td>
-    <td>Mapeamento entre a ID do cookie do Marketo Measure no domínio do locatário e a ID do cookie de impressão do Doubleclick.</td>
+    <td>Mapeamento entre a ID do cookie do Marketo Measure no domínio do locatário e sua ID do cookie de impressão do Doubleclick.</td>
     <td>1 ano</td>
     <td>Sim</td>
     <td>Não</td>
@@ -112,6 +112,6 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
 </tbody>
 </table>
 
-Se um aviso do Firewall de aplicativo Web (WAF) for acionado durante a configuração do JavaScript, os usuários poderão desativar essa regra do WAF ou incluir os cookies na lista de permissões, como no exemplo abaixo:
+Se um aviso do Firewall de Aplicativo Web (WAF) for acionado durante a configuração do JavaScript, você pode desativar essa regra do WAF ou incluir os cookies na lista de permissões, como no exemplo abaixo:
 
 ![](assets/marketo-measure-cookies-1.png)
