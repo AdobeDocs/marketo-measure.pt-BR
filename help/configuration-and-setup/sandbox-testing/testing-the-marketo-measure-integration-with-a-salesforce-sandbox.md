@@ -4,10 +4,10 @@ description: Teste da integração do Marketo Measure com uma sandbox do Salesfo
 title: Teste da integração do Marketo Measure com uma sandbox do Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando “[!DNL Marketo Measure]” em nossa documentação, mas ainda ver “Bizible” em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 Um dos [!DNL Marketo Measure] as funcionalidades principais são a capacidade de rastrear seus esforços de marketing digital por meio de ações em seu site e, em seguida, enviar esses dados para a produção [!DNL Salesforce org] por meio de clientes potenciais e contatos. No entanto, normalmente não há leads de entrada criados em seu site em uma integração de sandbox, portanto, o foco nos dados será de uma perspectiva puramente offline.
 
-Estas são as duas fontes referenciadas para as duas fases do teste. [Etapas 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) e [Etapas 5-6](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md). Recomendamos revisar esses documentos, pois eles fornecem mais detalhes em algumas áreas.
+Estas são as duas fontes referenciadas para as duas fases do teste. [Etapas 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) e [Etapas 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Recomendamos revisar esses documentos, pois eles fornecem mais detalhes em algumas áreas.
 
 1. Você precisará criar alguns leads em um CSV para poder carregá-los em uma campanha. A maneira de fazer isso é exportar alguns clientes em potencial por meio de um relatório na Salesforce de produção. Caso contrário, você pode criar manualmente os clientes em potencial em um arquivo do Excel e salvá-lo como um CSV para importação. Você só precisa de cerca de 20 registros. O arquivo precisa ter as seguintes colunas:
 

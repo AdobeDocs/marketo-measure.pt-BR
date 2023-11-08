@@ -3,10 +3,10 @@ description: Práticas recomendadas para canais offline - [!DNL Marketo Measure]
 title: Práticas recomendadas para canais offline
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ O valor &quot;Canal de marketing&quot; para esses pontos de contato é baseado n
 Se você estiver mapeando seus Canais offline pela primeira vez ou apenas revisando-os para verificar a precisão, lembre-se das seguintes práticas recomendadas.
 
 * Criar uma estrutura deliberada para seus Canais offline
-   * Reserve algum tempo para pensar sobre a organização de suas campanhas de marketing e como elas se encaixam na [!DNL Marketo Measure] quadro regulamentar. Determine quais canais e subcanais devem ser representados nos canais offline, bem como quais tipos de campanha de CRM diferenciam esses canais uns dos outros
+   * Reserve algum tempo para pensar sobre a organização de suas campanhas de marketing e como elas se encaixam na estrutura do [!DNL Marketo Measure]. Determine quais canais e subcanais devem ser representados nos canais offline, bem como quais tipos de campanha de CRM diferenciam esses canais uns dos outros
 * Trabalhe para utilizar primeiro os valores atuais de &quot;Tipo&quot; da campanha do CRM
    * Os canais offline são definidos pelo &quot;Tipo&quot; da campanha do CRM. No entanto, o valor &quot;Tipo&quot; da campanha do CRM personalizada pode precisar ser criado para acomodar os valores ideais de Canal offline e Subcanal. Os valores ideais do &quot;Tipo&quot; de campanha de CRM personalizado devem ter a convenção de nomenclatura mostrada abaixo:
       * CANAL - SUBCANAL
@@ -55,7 +55,7 @@ Se você estiver mapeando seus Canais offline pela primeira vez ou apenas revisa
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
-Depois da configuração inicial, sua configuração de Canal offline continuará a criar pontos de contato offline de acordo. Como prática recomendada, recomendamos que você analise sua configuração offline pelo menos duas vezes por ano. Isso garantirá dados de ponto de contato do Comprador limpos e precisos.
+Depois da configuração inicial, sua configuração de Canal offline continuará a criar pontos de contato offline de acordo. Como prática recomendada, recomendamos que você analise sua configuração offline pelo menos duas vezes por ano. Isso garantirá dados limpos e precisos do ponto de contato do comprador.
 
 Além disso, se você fizer alterações no gerenciamento ou nos processos do Campaign, precisará verificar se está atualizando o [!DNL Marketo Measure] Processo de sincronização e/ou mapeamento de canal offline.
 
@@ -72,9 +72,9 @@ Se sua equipe tiver tido alguma das situações acima, [!DNL Marketo Measure] A 
 >
 >* [Configuração de canal offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Sincronização de campanha personalizada - Sincronização de aplicativos](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Sincronização de Campanhas Offline - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [Membros offline do Campaign e do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
->* [Datas de sincronização do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+>* [Sincronização de Campanhas Offline - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [Membros offline do Campaign e do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Datas de sincronização do Campaign - Sincronização de CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [Configurações para vários tipos de registro de campanha](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Criar uma visualização da lista de campanhas](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Sincronização de dados históricos](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+>* [Criar uma visualização da lista de campanhas](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Sincronização de dados históricos](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

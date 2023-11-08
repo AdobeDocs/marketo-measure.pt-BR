@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Lista de recursos - [!DNL Marketo Measure] 
 title: "[!DNL Marketo Measure] Lista de recursos"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -25,11 +25,11 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudar você a c
 **Configuração**
 
 * [Configuração de canal de marketing, prática recomendada](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
-* [Configuração de canal online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Configuração do canal online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Configuração de canal offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [O que são parâmetros de UTM?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
-* [Práticas recomendadas UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Sincronizando campanhas do SFDC com pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+* [Práticas recomendadas do UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+* [Sincronizando campanhas do SFDC com pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Carregando gasto com marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Conectar Contas Ad Novamente](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Adicionando [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -54,7 +54,7 @@ Estes são alguns vídeos para ajudá-lo a se atualizar:
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minutos)**
 
-Esta série de cursos foi projetada como uma introdução geral aos conceitos básicos que você precisará saber para principal [!DNL Marketo Measure]. Ele fornece uma introdução ao conceito de atribuição, o que [!DNL Marketo Measure] funciona como um instrumento e o quadro geral em que se [!DNL Marketo Measure] funciona.
+Esta série de cursos foi projetada como uma introdução geral aos conceitos básicos que você precisará saber para dominar [!DNL Marketo Measure]. Ele fornece uma introdução ao conceito de atribuição, o que [!DNL Marketo Measure] funciona como um instrumento e o quadro geral em que se [!DNL Marketo Measure] funciona.
 
 Tópicos abordados:
 
@@ -83,7 +83,7 @@ Este curso aborda várias maneiras de personalizar o [!DNL Marketo Measure], em 
 
 Tópicos abordados:
 
-* Configuração de canal online
+* Configuração do canal online
 * Criação e edição de regras de canal online
 * Mapeamento [!DNL Salesforce] Campanhas para canais
 * Campos de membro da campanha e da campanha

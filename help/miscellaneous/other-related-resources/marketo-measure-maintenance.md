@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Manutenção - [!DNL Marketo Measure] - Doc
 title: "[!DNL Marketo Measure] Manutenção"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 **Sincronizar pontos de contato do comprador para novas campanhas offline (2x/mês)**
 
-Conforme você aprendeu durante a integração, [!DNL Marketo Measure] O obtém informações sobre suas iniciativas de marketing offline sincronizando com as campanhas do seu CRM. À medida que sua organização inicia novas campanhas, ative os Pontos de contato do comprador para cada campanha, conforme apropriado. Confira [este artigo](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)para obter mais informações.
+Conforme você aprendeu durante a integração, [!DNL Marketo Measure] O obtém informações sobre suas iniciativas de marketing offline sincronizando com as campanhas do seu CRM. À medida que sua organização inicia novas campanhas, ative os Pontos de contato do comprador para cada campanha, conforme apropriado. Confira [este artigo](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)para obter mais informações.
 
 **Gasto de upload para todos os canais (1x/mês)**
 
 Aproveitar todos os recursos de geração de relatórios sobre receita e ROI para[!DNL Marketo Measure], é necessário informar [!DNL Marketo Measure] quanto você está gastando em cada canal e subcanal de marketing. Recomendamos designar o proprietário de cada canal/subcanal e fazer com que essas pessoas relatem gastos a um único responsável por carregar novas informações de custo mensalmente.
 
-Atualize sua memória sobre como carregar informações de custos lendo [este artigo](/help/marketing-spend/spend-management/marketing-channel-costs.md).
+Atualize sua memória sobre como carregar informações de custo lendo [este artigo](/help/marketing-spend/spend-management/marketing-channel-costs.md).
 
 **Atualizar lista de domínios para rastrear (1x/mês)**
 
