@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guia de instalação do CRM - Marketo Me
 title: "[!DNL Microsoft Dynamics] Guia de instalação do CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 0%
+source-wordcount: '965'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando “[!DNL Marketo Measure]” em nossa documentação, mas ainda ver “Bizible” em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 ## Versões suportadas {#supported-versions}
 
@@ -100,53 +100,6 @@ Para entidades padrão do Dynamics, consulte a [!DNL Marketo Measure] Documento 
 
 [!DNL Marketo Measure] aponta para o campo Data Real de Fechamento pronto para uso. Se você não estiver usando essa opção ou também usar o campo Data de fechamento estimada, explique seu processo ao seu engenheiro de soluções ou gerente de sucesso. Um fluxo de trabalho personalizado pode ser necessário para considerar ambos os campos.
 
-## Configurar o Adobe Admin Console e o provedor de identidade {#set-up-your-adobe-admin-console-and-identity-provider}
-
-A primeira etapa para usar o [!DNL Marketo Measure] é criar e fazer logon na Adobe Admin Console provisionada. Se você ainda não recebeu o email com instruções de logon, entre em contato com [!DNL Marketo Measure] Representante da Conta.
-
-Como um produto no Adobe Suite, [!DNL Marketo Measure] aproveita a funcionalidade completa do Adobe Admin Console para Identity Management. Mais recursos podem ser [encontrado aqui](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
-
-Recomendamos analisar todos os recursos, práticas recomendadas e opções disponíveis para você para [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
-
-Para orientação e revisão da configuração do Identity Management na Adobe Admin Console, entre em contato com o [!DNL Marketo Measure] Representante da Conta.
-
-Para facilitar a autenticação e autorização do usuário com o seu [!DNL Marketo Measure] instância(s), as seguintes etapas são necessárias no Adobe Admin Console:
-
-**Configuração da [!DNL Marketo Measure] Cartão do produto**
-
-Ao acessar o Adobe Admin Console, você verá sua [!DNL Marketo Measure] Instâncias de produto presentes na seção Visão geral.
-
-![](assets/microsoft-dynamics-crm-installation-guide-8a.png)
-
-Clicar no [!DNL Marketo Measure] O Cartão do produto mostrará todos os [!DNL Marketo Measure] instância(s). Por padrão, cada [!DNL Marketo Measure] A instância tem seu próprio perfil com o prefixo &#39;[!DNL Marketo Measure]&#39;. Todos os administradores ou usuários adicionados a este ou a qualquer outro perfil nesta instância poderão fazer logon no [!DNL Marketo Measure].
-
-![](assets/microsoft-dynamics-crm-installation-guide-8b.png)
-
-Nenhuma ação é necessária para criar um novo perfil na [!DNL Marketo Measure] Instâncias do produto.
-
-Para começar a adicionar usuários que podem acessar [!DNL Marketo Measure], consulte o [Adicionando [!DNL Marketo Measure] Administradores e [!DNL Marketo Measure] Usuários](#adding-marketo-measure-admins-and-marketo-measure-users) abaixo.
-
-## Adicionando [!DNL Marketo Measure] Administradores e [!DNL Marketo Measure] Usuários {#adding-marketo-measure-admins-and-marketo-measure-users}
-
-A próxima etapa é conceder acesso ao [!DNL Marketo Measure] aplicativo adicionando usuários. Isso pode ser feito no diretório de administradores e usuários do [!DNL Marketo Measure] cartão do produto.
-
-| Tipo de usuário | Descrição |
-|---|---|
-| Administradores | são administradores e usuários avançados do [!DNL Marketo Measure] Aplicativo com capacidade total de atualização e gerenciamento [!DNL Marketo Measure]Opções de configuração específicas do |
-| Usuários | esses são os usuários padrão do [!DNL Marketo Measure] Aplicativo com permissões somente leitura dentro do [!DNL Marketo Measure] aplicativo |
-
-Ao adicionar um usuário ao seu respectivo grupo, você verá seus [Tipo de identidade listado](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html).
-
->[!NOTE]
->
->Para ser um [!DNL Marketo Measure] administrador (em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), um usuário deve ser adicionado como um Usuário _e_ um Administrador para qualquer [!DNL Marketo Measure] perfil do produto no [!DNL Marketo Measure] cartão do produto.
-
-**Fazendo login no[!DNL Marketo Measure]**
-
-Depois que um usuário é adicionado a um Perfil de produto, ele pode acessar seus [!DNL Marketo Measure] instância(s) escolhendo o **Fazer logon com a Adobe ID** opção em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
-
-![](assets/microsoft-dynamics-crm-installation-guide-15.png)
-
 ## Configuração de conexões e provedores de dados {#configuring-your-connections-and-data-providers}
 
 Depois de fazer logon na [!DNL Marketo Measure] e foram configurados como usuário no Adobe Admin Console, o próximo passo é configurar suas várias conexões de dados.
@@ -215,9 +168,9 @@ A fim de [!DNL Marketo Measure] para rastrear suas atividades da web, há vária
 
    >[!NOTE]
    >
-   >Por padrão, [!DNL Marketo Measure] O exporta 200 registros por crédito de API sempre que um trabalho envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como workflows e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para o efeito, [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível na página Configurações > CRM > Geral no [!DNL Marketo Measure] o aplicativo web e os clientes podem escolher entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
+   >Por padrão, o [!DNL Marketo Measure] exporta 200 registros por crédito de API sempre que um trabalho envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como fluxos de trabalho e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para isso, o [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível na página Configurações > CRM > Geral no aplicativo web do [!DNL Marketo Measure], e os clientes podem escolher entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
    >
-   >Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consumirão mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver enfrentando um tempo limite de CPU ou alta carga de CPU no seu CRM.
+   >Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consumirão mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver atingindo o tempo limite da CPU ou uma alta carga de CPU no CRM.
 
    >[!NOTE]
    >
