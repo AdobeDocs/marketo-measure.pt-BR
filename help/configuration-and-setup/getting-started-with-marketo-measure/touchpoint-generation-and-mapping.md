@@ -5,7 +5,7 @@ title: Geração e mapeamento de pontos de contato
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
 source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
