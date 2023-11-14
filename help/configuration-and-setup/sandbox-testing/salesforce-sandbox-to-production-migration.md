@@ -4,10 +4,10 @@ description: Migração da sandbox para produção do Salesforce - [!DNL Marketo
 title: Sandbox do Salesforce para migração de produção
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '331'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,6 @@ Se você optou por testar [!DNL Marketo Measure] em um [!DNL Salesforce] Ambient
 * Instale os dois [!DNL Marketo Measure] pacotes na produção com o &quot;[!UICONTROL Todos os usuários]Configuração &quot;
 
    * [Pacote base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [Pacote de extensão do painel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Para obter mais informações sobre o [!DNL Marketo Measure] relação com [!DNL Salesforce], dê uma olhada [este artigo](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Um pouco de [!DNL Salesforce] é necessária. Os itens de ação específicos são descritos abaixo em [Etapa 4 abaixo](#salesforce-configuration)
