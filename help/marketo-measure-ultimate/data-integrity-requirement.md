@@ -6,7 +6,7 @@ hidefromtoc: true
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 source-git-commit: 4d4dd1817547dc9fff0dd1f1b5e8bb88f5809120
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 100%
 
