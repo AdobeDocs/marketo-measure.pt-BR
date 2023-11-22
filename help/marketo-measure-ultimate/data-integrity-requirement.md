@@ -1,19 +1,20 @@
 ---
-description: '[!DNL Marketo Measure] Último requisito de integridade de dados - [!DNL Marketo Measure] - Documentação do produto'
-title: '''[!DNL Marketo Measure] Último requisito de integridade de dados'
+description: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate —  [!DNL Marketo Measure]  — Documentação do produto”
+title: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate”
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
-workflow-type: tm+mt
+exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
+source-git-commit: 4d4dd1817547dc9fff0dd1f1b5e8bb88f5809120
+workflow-type: ht
 source-wordcount: '1465'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Último requisito de integridade de dados {#marketo-measure-ultimate-data-integrity-requirement}
+# Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para garantir que os dados sejam suficientes e coerentes para fins de atribuição. O não cumprimento do requisito de integridade de dados fará com que o conjunto de dados seja rejeitado pelo [!DNL Marketo Measure] sistema. Este documento detalha o requisito de integridade de dados, fornece exemplos de consulta para inspeção de dados e recomenda uma solução para campos obrigatórios com um valor nulo.
+O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para garantir que os dados sejam suficientes e coerentes para fins de atribuição. O não cumprimento do requisito de integridade de dados fará com que o conjunto de dados seja rejeitado pelo sistema do [!DNL Marketo Measure]. Este documento detalha o requisito de integridade de dados, fornece exemplos de consulta para inspeção de dados e recomenda uma solução para campos obrigatórios com um valor nulo.
 
 ## Objeto Entidade {#entity-object}
 
@@ -29,45 +30,45 @@ ht-degree: 22%
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>Conta</strong> (Conta do Salesforce, Empresa e/ou Conta nomeada para o Marketo)</td>
+      <td colspan="7"><strong>Conta</strong> (Conta para o Salesforce, Empresa e/ou Conta nomeada para o Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="6">Conta de negócios XDM</td>
+      <td rowspan="6">Conta empresarial XDM</td>
       <td></td>
       <td>accountKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - 123@999-abc-888.Marketo</td>
+      <td>Ex: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>accountKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>Por exemplo, - 123</td>
+      <td>Ex: 123</td>
     </tr>
     <tr>
       <td></td>
       <td>accountKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>accountKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -75,60 +76,60 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td>Detalhes da conta de negócios XDM</td>
+      <td>Detalhes da conta empresarial XDM</td>
       <td>accountName</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Nome</td>
       <td>Sim</td>
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campaign</strong> (Campanha para Salesforce, Programa para Marketo)</td>
+      <td colspan="7"><strong>Campanha</strong> (Campanha para o Salesforce, Programa para o Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="8">Campanha de negócios XDM</td>
+      <td rowspan="8">Campanha empresarial XDM</td>
       <td></td>
       <td>campaignKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - 55555@999-abc-888.Marketo</td>
+      <td>Ex: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>Por exemplo, - 55555</td>
+      <td>Ex: 55555</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -136,7 +137,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
@@ -144,7 +145,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>campaignName</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Nome</td>
       <td>Sim</td>
       <td></td>
@@ -152,16 +153,16 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>campaignType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>CampaignType</td>
       <td>Não</td>
       <td>Para mapeamento de canal</td>
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">Detalhes da campanha de negócios XDM</td>
+      <td rowspan="5">Detalhes da campanha empresarial XDM</td>
       <td>channelName</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ChannelName</td>
       <td>Não</td>
       <td>Para mapeamento de canal</td>
@@ -169,23 +170,23 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>campaignStartDate</td>
-      <td>date-time</td>
-      <td>DataInício</td>
+      <td>data e hora</td>
+      <td>StartDate</td>
       <td>Não</td>
       <td>Para custo de campanha</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignEndDate</td>
-      <td>date-time</td>
-      <td>DataFinal</td>
+      <td>data e hora</td>
+      <td>EndDate</td>
       <td>Não</td>
       <td>Para custo de campanha</td>
     </tr>
     <tr>
       <td></td>
       <td>actualCost.amount</td>
-      <td>number</td>
+      <td>número</td>
       <td>Custo</td>
       <td>Não</td>
       <td>Para custo de campanha</td>
@@ -194,7 +195,7 @@ ht-degree: 22%
       <td></td>
       <td>actualCost.currencyCode</td>
       <td>
-        <p>sequência</p>
+        <p>string</p>
         <p>^[A-Z]{3}$</p>
       </td>
       <td>CurrencyIsoCode</td>
@@ -202,45 +203,45 @@ ht-degree: 22%
       <td>Para custo de campanha</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Membro da campanha</strong> (Membro da campanha do Salesforce, membros do programa do Marketo)</td>
+      <td colspan="7"><strong>Membro da campanha</strong> (Membro da campanha para o Salesforce, Associações do programa para o Marketo)</td>
     </tr>
     <tr>
-      <td rowspan="14">Membros da campanha de negócios XDM</td>
+      <td rowspan="14">Membros da campanha empresarial XDM</td>
       <td></td>
       <td>campaignMemberKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - 987654321@999-abc-888.Marketo</td>
+      <td>Ex: 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignMemberKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>Por exemplo: 987654321</td>
+      <td>Ex: 987654321</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignMemberKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignMemberKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -248,7 +249,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
@@ -256,86 +257,86 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>personKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - 333@999-abc-888.Marketo</td>
+      <td>Ex: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceID</td>
-      <td>sequência</td>
-      <td>ID do cliente potencial ou ID do contato</td>
+      <td>string</td>
+      <td>ID do lead ou ID do contato</td>
       <td>Sim</td>
       <td>
-        <p>Por exemplo, - 333, dependendo da tabela de fonte de dados, é a ID do cliente potencial ou a ID do contato.</p>
-        <p>Chave estrangeira para cliente potencial ou contato</p>
+        <p>Ex: 333, dependendo da tabela de fonte de dados, é a ID do lead ou a ID do contato.</p>
+        <p>Chave estrangeira para o lead ou o contato</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - 55555@999-abc-888.Marketo</td>
+      <td>Ex: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID da campanha</td>
       <td>Sim</td>
       <td>
-        <p>Por exemplo, - 55555.</p>
-        <p>Chave estrangeira para o Campaign</p>
+        <p>Ex: 55555.</p>
+        <p>Chave estrangeira para a campanha</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>campaignKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td rowspan="4">Detalhes do membro da campanha de negócios XDM</td>
+      <td rowspan="4">Detalhes do membro da campanha empresarial XDM</td>
       <td>b2b.personType</td>
-      <td>sequência</td>
-      <td>"Lead" ou "Contato</td>
+      <td>string</td>
+      <td>“Lead” ou “Contato”</td>
       <td>Sim</td>
-      <td>Dependendo da tabela de fonte de dados, isso deve ser definido como "Lead" ou "Contato". Recomendamos configurá-lo como "Contato" para a maioria dos casos de uso</td>
+      <td>Dependendo da tabela de fonte de dados, isso deve ser definido como “Lead” ou “Contato”. É recomendável configurá-lo como “Contato” para a maioria dos casos de uso</td>
     </tr>
     <tr>
       <td></td>
       <td>memberStatus</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Status</td>
       <td>Sim</td>
       <td></td>
@@ -343,7 +344,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>hasResponded</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>HasResponded</td>
       <td>Sim</td>
       <td></td>
@@ -351,53 +352,53 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>firstRespondedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>FirstRespondedDate</td>
       <td>Não</td>
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Person</strong> (Contato ou cliente em potencial para Salesforce, Pessoas para Marketo)</td>
+      <td colspan="7"><strong>Pessoa</strong> (Contato ou Lead para o Salesforce, Pessoas para o Marketo)</td>
     </tr>
     <tr>
       <td>Perfil individual XDM</td>
-      <td rowspan="11">Detalhes de pessoa de negócios XDM</td>
+      <td rowspan="11">Detalhes da pessoa de negócios XDM</td>
       <td>b2b.personKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 333@999-abc-888.Marketo</td>
+      <td>ex: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>b2b.personKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>Por exemplo, - 333, dependendo da tabela de fonte de dados, é a ID do cliente potencial ou a ID do contato</td>
+      <td>ex: 333, dependendo da tabela de fonte de dados, é a ID do lead ou a ID do contato</td>
     </tr>
     <tr>
       <td></td>
       <td>b2b.personKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>b2b.personKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>workEmail.address</td>
       <td>
-        <p>sequência</p>
-        <p>e-mail</p>
+        <p>string</p>
+        <p>email</p>
       </td>
       <td>Email</td>
       <td>Sim</td>
@@ -406,15 +407,15 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>b2b.personStatus</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Status</td>
-      <td>Sim somente para lead personType</td>
-      <td>Necessário somente se b2b.personType for "Lead"</td>
+      <td>Sim somente para personType lead</td>
+      <td>Necessário somente se b2b.personType for “Lead”</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -422,7 +423,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
@@ -430,23 +431,23 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>b2b.isConverted</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>IsConverted</td>
-      <td>Sim somente para lead personType</td>
-      <td>Necessário somente se b2b.personType for "Lead"</td>
+      <td>Sim somente para personType lead</td>
+      <td>Necessário somente se b2b.personType for “Lead”</td>
     </tr>
     <tr>
       <td></td>
       <td>b2b.personType</td>
-      <td>sequência</td>
-      <td>"Lead" ou "Contato</td>
+      <td>string</td>
+      <td>“Lead” ou “Contato”</td>
       <td>Sim</td>
-      <td>Dependendo da tabela de fonte de dados, isso deve ser definido como "Lead" ou "Contato". Recomendamos configurá-lo como "Contato" para a maioria dos casos de uso</td>
+      <td>Dependendo da tabela de fonte de dados, isso deve ser definido como “Lead” ou “Contato”. É recomendável configurá-lo como “Contato” para a maioria dos casos de uso</td>
     </tr>
     <tr>
       <td></td>
       <td>extendedWorkDetails.jobTitle</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Não</td>
       <td></td>
@@ -455,82 +456,82 @@ ht-degree: 22%
       <td></td>
       <td rowspan="4">Componentes de pessoa de negócios XDM</td>
       <td>personComponents.sourceAccountKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Não</td>
       <td>
-        <p>Por exemplo - 123@999-abc-888.Marketo.</p>
-        <p>O conjunto de campos sourceAccountKey é "obrigatório" apenas para registros de contato verdadeiros, definidos como registros de pessoa vinculados à Conta. Faltando, não fará com que o conjunto de dados seja rejeitado, mas os resultados da atribuição estarão desativados.</p>
+        <p>Ex: 123@999-abc-888.Marketo.</p>
+        <p>O conjunto de campos sourceAccountKey é “obrigatório” apenas para registros de contato verdadeiros, definidos como registros de pessoa vinculados à conta. Se estiver ausente, não fará com que o conjunto de dados seja rejeitado, mas os resultados da atribuição estarão desativados.</p>
         <p>personComponents é uma matriz, mas o Marketo Measure só pega o primeiro elemento personComponents[0]</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>personComponents.sourceAccountKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID da Conta</td>
       <td>Não</td>
       <td>
-        <p>Por exemplo, - 123.</p>
+        <p>Ex: 123.</p>
         <p>Chave estrangeira para a conta</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>personComponents.sourceAccountKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Não</td>
-      <td>por exemplo: 999-abc-888</td>
+      <td>ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>personComponents.sourceAccountKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Não</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Oportunidade</strong> (Oportunidade para Salesforce, Oportunidades para Marketo)</td>
+      <td colspan="7"><strong>Oportunidade</strong> (Oportunidade para o Salesforce, Oportunidades para o Marketo)</td>
     </tr>
     <tr>
       <td rowspan="13">Oportunidade de negócios XDM</td>
       <td></td>
       <td>opportunityKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 77777@999-abc-888.Marketo</td>
+      <td>ex: 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>Por exemplo, 77777</td>
+      <td>Ex: 77777</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -538,7 +539,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
@@ -546,42 +547,42 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>accountKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 123@999-abc-888.Marketo</td>
+      <td>ex: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>accountKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID da Conta</td>
       <td>Sim</td>
       <td>
-        <p>Por exemplo, - 123.</p>
+        <p>Ex: 123.</p>
         <p>Chave estrangeira para a conta</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>accountKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>accountKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityName</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Nome</td>
       <td>Sim</td>
       <td></td>
@@ -589,7 +590,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>opportunityStage</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Estágio</td>
       <td>Sim</td>
       <td></td>
@@ -597,24 +598,24 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>opportunityType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Não</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">Detalhes de oportunidades de negócios XDM</td>
-      <td>isWon</td>
-      <td>boolean</td>
+      <td rowspan="5">Detalhes da oportunidade de negócios XDM</td>
+      <td>IsWon</td>
+      <td>booleano</td>
       <td>IsWon</td>
       <td>Sim</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td>isClosed</td>
-      <td>boolean</td>
+      <td>IsClosed</td>
+      <td>booleano</td>
       <td>IsClosed</td>
       <td>Sim</td>
       <td></td>
@@ -630,7 +631,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>opportunityAmount.amount</td>
-      <td>number</td>
+      <td>número</td>
       <td>Valor</td>
       <td>Sim</td>
       <td></td>
@@ -639,7 +640,7 @@ ht-degree: 22%
       <td></td>
       <td>opportunityAmount.currencyCode</td>
       <td>
-        <p>sequência</p>
+        <p>string</p>
         <p>^[A-Z]{3}$</p>
       </td>
       <td>CurrencyIsoCode</td>
@@ -647,48 +648,48 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Função de Contato da Oportunidade (Necessária somente se o plano usar a Função de Contato da Oportunidade como grupo de compras para atribuição)</strong></td>
+      <td colspan="7"><strong>Função de contato da oportunidade (Necessária somente se planejar usar a Função de contato da oportunidade como grupo de compras para atribuição)</strong></td>
     </tr>
     <tr>
-      <td rowspan="16">Relação pessoal de oportunidade de negócios XDM</td>
+      <td rowspan="16">Relação da pessoa da oportunidade de negócios XDM</td>
       <td></td>
       <td>personKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 333@999-abc-888.Marketo</td>
+      <td>ex: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID do contato</td>
       <td>Sim</td>
       <td>
-        <p>por exemplo, - 333.</p>
+        <p>Ex: 333</p>
         <p>Chave estrangeira para contato</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>isPrimary</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td>IsPrimary</td>
       <td>Sim</td>
       <td></td>
@@ -696,74 +697,74 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>opportunityKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 77777@999-abc-888.Marketo</td>
+      <td>ex: 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID da oportunidade</td>
       <td>Sim</td>
       <td>
-        <p>por exemplo, 77777.</p>
+        <p>ex: 77777.</p>
         <p>Chave estrangeira para a oportunidade</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityPersonKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 222222@999-abc-888.Marketo</td>
+      <td>ex: 222222@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityPersonKey.sourceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>por exemplo, - 222222</td>
+      <td>ex: 222222</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityPersonKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td>opportunityPersonKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>personRole</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>Função</td>
       <td>Não</td>
       <td></td>
@@ -771,7 +772,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -779,51 +780,51 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Taxa de conversão (necessária somente se usar várias moedas; somente um conjunto de dados de Taxa de conversão pode ser ativado para o Marketo Measure)</strong></td>
+      <td colspan="7"><strong>Taxa de conversão (necessária somente se usar várias moedas, somente um conjunto de dados de taxa de conversão pode ser ativado para o Marketo Measure)</strong></td>
     </tr>
     <tr>
       <td rowspan="7">Conversão</td>
       <td></td>
       <td>extSourceSystemAudit.externalKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>por exemplo - 8888@0x012345.Salesforce</td>
+      <td>Ex: 8888@0x012345.Salesforce</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.externalKey.sourceId</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>por exemplo - 8888</td>
+      <td>ex: 8888</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.externalKey.sourceInstanceId</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 0x012345</td>
+      <td>Ex: 0x012345</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.externalKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Salesforce</td>
+      <td>Ex: Salesforce</td>
     </tr>
     <tr>
       <td></td>
       <td>extSourceSystemAudit.createdDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>CreatedDate</td>
       <td>Sim</td>
       <td></td>
@@ -831,7 +832,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>extSourceSystemAudit.lastUpdatedDate</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>ModifiedDate</td>
       <td>Sim</td>
       <td></td>
@@ -839,17 +840,17 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>isDeleted</td>
-      <td>boolean</td>
+      <td>booleano</td>
       <td></td>
       <td>Sim</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">Detalhes do Índice de Conversão Monetária</td>
+      <td rowspan="5">Detalhes da taxa de conversão monetária</td>
       <td>conversionRate</td>
-      <td>number</td>
-      <td>TaxaDeConversão</td>
+      <td>número</td>
+      <td>ConversionRate</td>
       <td>Sim</td>
       <td></td>
     </tr>
@@ -857,7 +858,7 @@ ht-degree: 22%
       <td></td>
       <td>endDate</td>
       <td>data</td>
-      <td>PróximaDataInicial</td>
+      <td>NextStartDate</td>
       <td>Sim</td>
       <td></td>
     </tr>
@@ -865,22 +866,22 @@ ht-degree: 22%
       <td></td>
       <td>startDate</td>
       <td>data</td>
-      <td>DataInício</td>
+      <td>StartDate</td>
       <td>Sim</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
       <td>sourceISOCode</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ISOCode</td>
       <td>Sim</td>
-      <td>Por exemplo, EUR</td>
+      <td>Ex: EUR</td>
     </tr>
     <tr>
       <td></td>
       <td>targetISOCode</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
       <td>O código de moeda padrão definido no Marketo Measure, por exemplo, USD</td>
@@ -905,10 +906,10 @@ ht-degree: 22%
       <td colspan="7"><strong>Atividade</strong></td>
     </tr>
     <tr>
-      <td rowspan="3">XDM ExperienceEvent</td>
+      <td rowspan="3">ExperienceEvent XDM</td>
       <td></td>
       <td>_ID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID</td>
       <td>Sim</td>
       <td>Sim</td>
@@ -916,7 +917,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>eventType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ActivityType</td>
       <td>Sim</td>
       <td>Sim</td>
@@ -924,7 +925,7 @@ ht-degree: 22%
     <tr>
       <td></td>
       <td>carimbo de data e hora</td>
-      <td>date-time</td>
+      <td>data e hora</td>
       <td>Data da atividade</td>
       <td>Sim</td>
       <td>Sim</td>
@@ -933,118 +934,118 @@ ht-degree: 22%
       <td></td>
       <td>Identificador de pessoa</td>
       <td>personKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - 333@999-abc-888.Marketo</td>
+      <td>Ex: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>personKey.sourceID</td>
-      <td>sequência</td>
-      <td>ID do cliente potencial ou ID do contato</td>
+      <td>string</td>
+      <td>ID do lead ou ID do contato</td>
       <td>Sim</td>
       <td>
-        <p>Por exemplo, - 333, dependendo da tabela de fonte de dados, é a ID do cliente potencial ou a ID do contato.</p>
-        <p>Chave estrangeira para cliente potencial ou contato</p>
+        <p>Ex: 333, dependendo da tabela de fonte de dados, é a ID do lead ou a ID do contato.</p>
+        <p>Chave estrangeira para o lead ou o contato</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>personKey.sourceInstanceID</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>personKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>Adicionar à campanha</td>
       <td>leadOperation.addToCampaign.campaignKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim somente para o tipo leadOperation.addToCampaign</td>
-      <td>Por exemplo - 55555@999-abc-888.Marketo</td>
+      <td>Ex: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>leadOperation.addToCampaign.campaignKey.sourceId</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID da campanha</td>
       <td>Sim somente para o tipo leadOperation.addToCampaign</td>
       <td>
-        <p>Por exemplo, - 55555.</p>
-        <p>Chave estrangeira para o Campaign</p>
+        <p>Ex: 55555.</p>
+        <p>Chave estrangeira para a campanha</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>leadOperation.addToCampaign.campaignKey.sourceInstanceId</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim somente para o tipo leadOperation.addToCampaign</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>leadOperation.addToCampaign.campaignKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim somente para o tipo leadOperation.addToCampaign</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>Status na progressão da campanha alterado</td>
       <td>leadOperation.campaignProgression.campaignKey.sourceKey</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim somente para o tipo leadOperation.campaignProgression</td>
-      <td>Por exemplo - 55555@999-abc-888.Marketo</td>
+      <td>Ex: 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>leadOperation.campaignProgression.campaignKey.sourceId</td>
-      <td>sequência</td>
+      <td>string</td>
       <td>ID da campanha</td>
       <td>Sim somente para o tipo leadOperation.campaignProgression</td>
       <td>
-        <p>Por exemplo, - 55555.</p>
-        <p>Chave estrangeira para o Campaign</p>
+        <p>Ex: 55555.</p>
+        <p>Chave estrangeira para a campanha</p>
       </td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>leadOperation.campaignProgression.campaignKey.sourceInstanceId</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim somente para o tipo leadOperation.campaignProgression</td>
-      <td>Por exemplo: 999-abc-888</td>
+      <td>Ex: 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>leadOperation.campaignProgression.campaignKey.sourceType</td>
-      <td>sequência</td>
+      <td>string</td>
       <td></td>
       <td>Sim somente para o tipo leadOperation.campaignProgression</td>
-      <td>Por exemplo - Marketo</td>
+      <td>Ex: Marketo</td>
     </tr>
   </tbody>
 </table>
@@ -1064,63 +1065,63 @@ ht-degree: 22%
       <td>Use para registrar a criação e os detalhes de um novo lead de marketing</td>
     </tr>
     <tr>
-      <td>Converter lead</td>
+      <td>Conversão de lead</td>
       <td>leadOperation.convertLead</td>
-      <td>Usar quando um lead de marketing é convertido em um contato qualificado de vendas atribuído a um usuário de vendas</td>
+      <td>Use quando um lead de marketing for convertido em um contato qualificado de vendas atribuído a um(a) usuário(a) de vendas</td>
     </tr>
     <tr>
       <td>Momento interessante</td>
       <td>leadOperation.interestingMoment</td>
-      <td>Use para rastrear atividades de alto valor por clientes em potencial</td>
+      <td>Use para rastrear atividades de alto valor de clientes em potencial</td>
     </tr>
     <tr>
-      <td>Preencher formulário</td>
+      <td>Preenchimento de formulário</td>
       <td>web.formFilledOut</td>
       <td>Use para registrar detalhes quando uma pessoa preenche um formulário em uma página da Web</td>
     </tr>
     <tr>
-      <td>Cancelar inscrição do e-mail</td>
+      <td>Cancelamento de inscrição do email</td>
       <td>directMarketing.emailUnsubscribed</td>
       <td>Use para registrar detalhes quando uma pessoa cancela a assinatura de um email</td>
     </tr>
     <tr>
-      <td>Abrir e-mail</td>
+      <td>Abertura de email</td>
       <td>directMarketing.emailOpened</td>
       <td>Use para registrar detalhes quando uma pessoa abre um email de marketing</td>
     </tr>
     <tr>
-      <td>Clicar em e-mail</td>
+      <td>Cliques em email</td>
       <td>directMarketing.emailClicked</td>
       <td>Use para registrar detalhes quando uma pessoa clica em um link em um email de marketing</td>
     </tr>
     <tr>
-      <td>Alteração de status em andamento</td>
+      <td>Alteração do status na progressão</td>
       <td>leadOperation.statusInCampaignProgressionChanged</td>
       <td>Use para registrar detalhes quando o status de um lead em uma campanha é alterado</td>
     </tr>
     <tr>
-      <td>Adicionar ao programa de engajamento (Adicionar à criação)</td>
+      <td>Adição ao programa de engajamento (Adição ao programa)</td>
       <td>leadOperation.addToCampaign</td>
       <td>Use para adicionar uma pessoa à campanha específica.</td>
     </tr>
   </tbody>
 </table>
 
-Use o tipo de evento &quot;Momento interessante&quot; para tipos de evento não compatíveis na tabela acima. Adicione um campo personalizado para indicar o subtipo &quot;Momento interessante&quot;.
+Use o tipo de evento “Momento interessante” para tipos de evento não aceitos na tabela acima. Adicione um campo personalizado para indicar o subtipo “Momento interessante”.
 
 ## Exemplos de consulta para inspeção de dados {#query-examples-for-data-inspection}
 
-Veja a seguir uma lista de exemplos de consulta para inspecionar conjuntos de dados assimilados no data lake da AEP. Para usá-los em relação aos conjuntos de dados, substitua o nome da tabela nos exemplos de consulta abaixo pelo nome real da tabela do conjunto de dados.
+Veja a seguir uma lista de exemplos de consultas para inspecionar conjuntos de dados assimilados no data lake da AEP. Para usar em seus conjuntos de dados, substitua o nome da tabela nos exemplos de consultas abaixo pelo nome real da sua tabela do conjunto de dados.
 
-Esperamos que todas as contagens sejam 0.
+Espera-se que todas as contagens sejam 0.
 
-Para o campo personType, esperamos que haja apenas valores &quot;Lead&quot; ou &quot;Contact&quot; e não haja um valor nulo.
+Para o campo personType, espera-se que haja apenas valores de “Lead” ou de “Contato” e que não haja nenhum valor nulo.
 
-Para todos os registros de pessoa de &quot;Contato&quot;, esperamos que haja uma chave externa Account.
+Espera-se que haja uma chave estrangeira de conta para todos os registros de pessoa de “Contato”.
 
-Para registros de pessoas &quot;Líderes&quot;, uma chave externa de Conta não existe e não é necessária. Se você optar por assimilar registros de pessoa &quot;Líder&quot; como registros de pessoa &quot;Contato&quot; (o que é recomendado), não será necessária uma chave estrangeira de Conta nesses registros de pessoa.
+Chaves estrangeiras de conta não existem para registros de pessoa de “Lead”, nem são necessárias. Se optar por assimilar registros de pessoa de “Lead” como registros de pessoa de “Contato” (o que é recomendado), não será necessária uma chave estrangeira de conta nesses registros de pessoa.
 
-### Conta de negócios XDM {#xdm-business-account}
+### Conta empresarial XDM {#xdm-business-account}
 
 ```
 select 'account source id', count(*) from salesforce_account where accountKey.sourceId is null
@@ -1138,7 +1139,7 @@ union all
 select 'last updated date', count(*) from salesforce_account where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### Campanha de negócios XDM {#xdm-business-campaign}
+### Campanha empresarial XDM {#xdm-business-campaign}
 
 ```
 select 'campaign source id', count(*) from salesforce_campaign where campaignKey.sourceId is null
@@ -1156,7 +1157,7 @@ union all
 select 'last updated date', count(*) from salesforce_campaign where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### Membro da campanha de negócios XDM {#xdm-business-campaign-member}
+### Membro da campanha empresarial XDM {#xdm-business-campaign-member}
 
 ```
 select 'campaign member source id', count(*) from salesforce_campaign_member where campaignMemberKey.sourceId is null
@@ -1286,7 +1287,7 @@ union all
 select 'last updated date', count(*) from salesforce_opportunity where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### XDM ExperienceEvent {#xdm-experienceevent}
+### ExperienceEvent XDM {#xdm-experienceevent}
 
 ```
 select 'id', count(*) from marketo_activity where _id is null
@@ -1362,13 +1363,12 @@ union all
 select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-## Solução recomendada para campos obrigatórios com um valor NULL {#recommended-solution-for-required-fields-with-a-null-value}
+## Solução recomendada para campos obrigatórios com um valor NULO {#recommended-solution-for-required-fields-with-a-null-value}
 
-Recomendamos usar um campo calculado no mapeamento de campos para padronizar o campo com um valor não NULO. Veja a seguir dois exemplos:
+É recomendável usar um campo calculado no mapeamento de campos para padronizar o campo com um valor não NULO. Veja a seguir dois exemplos:
 
-* Se o opportunityName de alguns registros de oportunidade for nulo, crie e use o seguinte campo calculado no mapeamento de campos
+* Se opportunityName de alguns registros de oportunidade for nulo, crie e use o seguinte campo calculado no mapeamento de campos
    * `iif(name != null && name != "", name, "Unknown")`
 
 * Se leadOperation.campaignProgression.campaignID de alguns registros experienceevent for nulo, crie e use o seguinte campo calculado no mapeamento de campos
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
-
