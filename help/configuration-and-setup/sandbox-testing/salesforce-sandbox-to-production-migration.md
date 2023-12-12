@@ -4,10 +4,10 @@ description: Migração da sandbox para produção do Salesforce - [!DNL Marketo
 title: Sandbox do Salesforce para migração de produção
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 6%
+source-wordcount: '322'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 Se você optou por testar [!DNL Marketo Measure] em um [!DNL Salesforce] Ambiente de sandbox, siga estas instruções para migrar para produção quando estiver pronto. As instruções a seguir pressupõem que você já tenha baixado o [!DNL Marketo Measure] pacote na organização da Sandbox, executou os testes necessários e estão prontos para enviar [!DNL Marketo Measure] para produção.
 
-## Etapa 1: instalar [!DNL Marketo Measure] Pacotes na produção [!DNL Salesforce] Instância {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Etapa 1: instalar o [!DNL Marketo Measure] Pacote em sua produção [!DNL Salesforce] Instância
 
-* Instale os dois [!DNL Marketo Measure] pacotes na produção com o &quot;[!UICONTROL Todos os usuários]Configuração &quot;
+* Instale o [!DNL Marketo Measure] para produção com o &quot;[!UICONTROL Todos os usuários]Configuração &quot;
 
    * [Pacote base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
