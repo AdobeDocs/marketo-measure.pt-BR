@@ -5,9 +5,9 @@ title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20697'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
