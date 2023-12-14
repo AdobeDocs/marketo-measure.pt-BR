@@ -1,11 +1,9 @@
 ---
 description: Painel de tráfego da Web - [!DNL Marketo Measure] - Produto
 title: Painel de tráfego na web
-hide: true
-hidefromtoc: true
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: b41c36997d04060750d698718c04f56023021921
+source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
