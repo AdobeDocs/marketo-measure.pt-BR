@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -152,13 +152,16 @@ ht-degree: 100%
    + Painéis {#dashboards}
       + [Noções básicas do painel do Discover](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Novo guia do painel do Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Painel de visão geral da receita](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Painel de receita atribuída](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [Painel de engajamento](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Painel de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Painel de passaporte](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Painel de tráfego na web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Política de visibilidade de dados do painel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Painel de receita atribuída](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Painel de envolvimentos](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Painel da velocidade do lead](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Painel da velocidade da oportunidade](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Painel de passaporte](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Painel de visão geral da receita](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Painel de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Painel de tráfego na web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + Painéis herdados {#legacy-dashboards}
       + [Documentação do painel de Jornada de coorte](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentação do painel do Passport](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
