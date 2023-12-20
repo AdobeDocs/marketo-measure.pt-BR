@@ -4,7 +4,7 @@ title: Visão geral das permissões de integração
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -33,24 +33,24 @@ Este guia descreve as permissões necessárias para uma integração perfeita co
     <td>Dados do sistema B2B    
 </td>
     <td>O Marketo Measure está rastreando:
-    <br>
+    <p>
     <li>Conta</li>
-<li>Campanha</li>
-<li>CampaignMember</li>
-<li>Contato</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>Eventos</li>
-<li>Histórico do campo (lead, contato e oportunidade)</li>
-<li>Lead</li>
-<li>Oportunidade</li>
-<li>OpportunityContactRole</li>
-<li>OpportunityHistory</li>
-<li>Tarefas</li>
-<br>
+    <li>Campanha</li>
+    <li>CampaignMember</li>
+    <li>Contato</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>Eventos</li>
+    <li>Histórico do campo (lead, contato e oportunidade)</li>
+    <li>Lead</li>
+    <li>Oportunidade</li>
+    <li>OpportunityContactRole</li>
+    <li>OpportunityHistory</li>
+    <li>Tarefas</li>
+<p>
 Os pontos de contato criados e outros dados são gravados em campos bizíveis personalizados em Conta, Campanha, Membro da campanha, Caso, Contato, Cliente potencial e Oportunidade.</td>
     <td><b>Permissões de usuário conectado do Salesforce (obrigatório)</b>
-    <br>
+    <p>
     <b>Conjunto De Permissões De Administrador Do Marketo Measure Para Usuário Dedicado:</b> Permitir que o administrador do SFDC execute operações CRUD no marketing para medir objetos.
     <br>
     <b>Exibir e editar o conjunto de permissões de clientes em potencial convertidos:</b> Isso permite que o Marketo Measure decore leads depois de serem convertidos em contatos.
