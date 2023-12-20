@@ -4,7 +4,7 @@ title: Visão geral das permissões de integração
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -18,13 +18,13 @@ Este guia descreve as permissões necessárias para uma integração perfeita co
 <table>
 <thead>
   <tr>
-    <th>Integração</th>
-    <th>Tipo de dados
+    <th style="width:10%">Integração</th>
+    <th style="width:20%">Tipo de dados
     <li>Dados de interação na Web</li>
     <li>Dados do sistema B2B</li>
     <li>Dados da plataforma de publicidade</li></th>
-    <th>O que rastreamos</th>
-    <th>Requisitos de permissão</th>
+    <th style="width:30%">O que rastreamos</th>
+    <th style="width:40%">Requisitos de permissão</th>
   </tr>
 </thead>
 <tbody>
