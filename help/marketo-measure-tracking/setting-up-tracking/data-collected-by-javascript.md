@@ -2,7 +2,7 @@
 description: Dados coletados pelo JavaScript - [!DNL Marketo Measure] - Documentação do produto
 title: Dados coletados pelo JavaScript
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 8%
@@ -49,25 +49,25 @@ O Marketo Measure coleta os seguintes dados comuns para todos os tipos de solici
     <td>Parâmetro de consulta</td>
     <td>_biz_u</td>
     <td>string</td>
-    <td>ID do cookie da Bizible</td>
+    <td>ID do cookie da Bizible.</td>
   </tr>
   <tr>
     <td>Parâmetro de consulta</td>
     <td>_biz_l</td>
     <td>string</td>
-    <td>URL da página atual</td>
+    <td>URL da página atual.</td>
   </tr>
   <tr>
     <td>Parâmetro de consulta</td>
     <td>_biz_t</td>
     <td>long</td>
-    <td>Carimbo de data e hora da atividade</td>
+    <td>Carimbo de data e hora da atividade.</td>
   </tr>
   <tr>
     <td>Parâmetro de consulta</td>
     <td>_biz_i</td>
     <td>string</td>
-    <td>Título da página atual</td>
+    <td>Título da página atual.</td>
   </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ Além dos dados comuns acima, o bizible.js também anexa dados adicionais, depen
     <td></td>
     <td>_biz_c</td>
     <td>string</td>
-    <td>Parâmetro opcional. Se esse parâmetro estiver presente, ele indicará que o locatário configura o bizible.js para aguardar o consentimento dos usuários antes do rastreamento e que o bizible.js recebeu o consentimento do usuário para ser rastreado.</td>
+    <td>Parâmetro opcional. Se esse parâmetro estiver presente, ele indicará que o locatário configura o bizible.js para aguardar o consentimento do usuário antes do rastreamento e que o bizible.js recebeu o consentimento do usuário para ser rastreado.</td>
   </tr>
   <tr>
     <td>Envios de formulário</td>
@@ -118,7 +118,7 @@ Além dos dados comuns acima, o bizible.js também anexa dados adicionais, depen
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>Que tipo de mapeamento de id de usuário o bizible.js detectou (Marketo munchkin id e Adobe ECID)</td>
+    <td>Que tipo de mapeamento de id de usuário o bizible.js detectou (Marketo Munchkin id e Adobe ECID)</td>
   </tr>
   <tr>
     <td></td>
