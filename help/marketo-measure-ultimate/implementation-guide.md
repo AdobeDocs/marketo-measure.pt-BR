@@ -1,19 +1,17 @@
 ---
 description: '[!DNL Marketo Measure] Guia de implementação do Ultimate - [!DNL Marketo Measure] - Documentação do produto'
 title: '[!DNL Marketo Measure] Guia de implementação do Ultimate'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
 
 # [!DNL Marketo Measure] Guia de implementação do Ultimate {#marketo-measure-ultimate-implementation-guide}
 
-FRASE DE INTRODUÇÃO
+Este artigo serve como um guia de implementação do Marketo Measure Ultimate, fornecendo etapas e insights claros para garantir uma integração e utilização bem-sucedidas.
 
 ## Principais diferenças ao usar o Ultimate em relação às camadas padrão {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Para aqueles com um _**Direito de CDP**_: crie esquemas indo até a página Orig
    >* Se você mapear um tipo de esquema para outro idêntico, ele será feito automaticamente.
    >* Você também pode importar o mapeamento de outro fluxo no sistema.
    >* Você pode mapear um campo de Origem para vários campos de destino, mas não pode fazer o oposto.
-   >* É possível criar campos calculados (ExL: funções de mapeamento de Preparo de dados).
+   >* É possível criar campos calculados ([Funções de mapeamento de Preparo de dados](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Página Origens > Fluxos de dados para verificar o status dos fluxos de dados
 * Para exibir erros de fluxo de dados, selecione um fluxo de dados, escolha uma execução de fluxo de dados e clique em &quot;Visualização de diagnóstico de erro&quot;.
 
 ## Inspeção de dados {#data-inspection}
-
-ExL: requisito de integridade de dados do Marketo Measure Ultimate Este documento inclui campos obrigatórios para cada XDM, bem como consultas de inspeção. Ele será publicado no ExL. - JÁ ESTÁ MARCADO ACIMA - POST DE NOVO???
 
 Opção 1: para executar consultas diretamente da interface do usuário, acesse a guia Consultas em Gerenciamento de dados.
 
