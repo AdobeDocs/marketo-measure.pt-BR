@@ -4,7 +4,7 @@ title: '[!DNL Marketo Measure] Guia de implementação do Ultimate'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 6%
@@ -32,13 +32,13 @@ Os usuários finais serão provisionados com a AEP. Se eles já tiverem o AEP, n
 
 * A versão da AEP provisionada incluirá todos os conectores de origem, modelagem de dados de esquema, conjuntos de dados, serviço de consulta ad hoc e um destino somente para o Marketo Measure.
 
-Saiba mais sobre [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+Saiba mais sobre [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## Esquemas e conjuntos de dados {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Confira [Blocos de construção de um esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) para obter uma visão geral de esquemas, classes e grupos de campos.
+>Confira [Blocos de construção de um esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} para obter uma visão geral de esquemas, classes e grupos de campos.
 
 **Esquema XDM = Classe + Grupo de campos de esquema&#42;**
 
@@ -49,13 +49,13 @@ Saiba mais sobre [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marke
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): todos os dados assimilados com sucesso na AEP são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas).
+[Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: todos os dados assimilados com sucesso na AEP são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas).
 
 ## Criação de um esquema {#creating-a-schema}
 
 Recomendamos usar um utilitário de geração automática para criar 10 esquemas B2B padrão.
 
-* Etapas para baixar e configurar o utilitário [pode ser encontrado aqui](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* Etapas para baixar e configurar o utilitário [pode ser encontrado aqui](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 Para aqueles com um _**Direito de CDP**_: crie esquemas indo até a página Origens.
 
@@ -69,7 +69,7 @@ Para aqueles com um _**Direito de CDP**_: crie esquemas indo até a página Orig
 
 ## Fluxos de dados {#dataflows}
 
-[Visão geral dos fluxos de dados](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[Visão geral dos fluxos de dados](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Etapas para criar um fluxo de dados:**
 
@@ -93,7 +93,7 @@ Para aqueles com um _**Direito de CDP**_: crie esquemas indo até a página Orig
 
    >[!NOTE]
    >
-   >[Requisito de integridade de dados do Marketo Measure Ultimate](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Requisito de integridade de dados do Marketo Measure Ultimate](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Defina uma cadência de carregamento de dados.
 1. Revisar e concluir.
@@ -114,7 +114,7 @@ Opção 1: para executar consultas diretamente da interface do usuário, acesse 
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Opção 2: [Baixar e usar o PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (mais rápido e mais confiável)
+Opção 2: [Baixar e usar o PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (mais rápido e mais confiável).
 
 ## Ativar conjunto de dados para o Marketo Measure {#activate-dataset-for-marketo-measure}
 
