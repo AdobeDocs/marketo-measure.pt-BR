@@ -4,9 +4,9 @@ title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ Abaixo você encontrará todos os recursos novos e atualizados das versões de 2
 
 <p>
 
-**Painel de tráfego da Web**
+**Painel de tráfego na web**
 
-O novo design [Painel de Tráfego da Web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} O agora está acessível a todos os clientes. Esse painel oferece uma visão geral completa das interações de visitante do site. Você pode analisar métricas, como contagens de visitantes únicos por URL, visitas gerais, visualizações de página e envios de formulários de URLs de formulários ou páginas de aterrissagem específicas. Você também pode acompanhar as tendências mensais de tráfego e identificar mídias pagas de alto desempenho, o que ajudará você a refinar suas estratégias para a geração de receita ideal.
+O novo design do [Painel de tráfego na web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} agora está acessível a todos os clientes. Esse painel oferece uma visão geral completa das interações de visitantes do site. Você pode analisar métricas, como contagens de visitantes únicos por URL, total de visitas, visualizações de página e envios de formulários, utilizando páginas de destino ou URLs de formulários específicos. Também é possível acompanhar as tendências mensais de tráfego e identificar mídias pagas de alto desempenho, o que ajudará você a refinar suas estratégias para uma geração de receita ideal.
 
-O novo conjunto de painéis pré-construídos está programado para ser introduzido em ondas, concluindo antes do final do ano.
+O novo conjunto de painéis pré-construídos está programado para ser introduzido em ondas, e esse processo será concluído antes do final do ano.
 
 >[!NOTE]
 >
->Embora os painéis atuais sejam descontinuados em meados de janeiro de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição suave.
+>Embora os painéis atuais serão descontinuados em meados de janeiro de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição fluida.
 
 **Remoção de dados do endereço IP**
 
-Estamos removendo dados de endereço IP de nosso armazenamento de longo prazo para garantir a conformidade com a privacidade de dados. Atualmente, as tabelas e visualizações de Snowflake a seguir contêm endereços IP e planejamos remover esses dados e adicionar novas informações de geolocalização:
+Estamos removendo os dados de endereços IP do nosso armazenamento de longo prazo para garantir a conformidade com a privacidade de dados. Atualmente, as tabelas e visualizações do Snowflake a seguir contêm endereços IP, e planejamos remover esses dados e adicionar novas informações de geolocalização:
 
 <table style="width:400px">
 <thead>
@@ -61,7 +61,7 @@ Estamos removendo dados de endereço IP de nosso armazenamento de longo prazo pa
     <td>BIZ_PAGE_VIEWS</td>
   </tr>
   <tr>
-    <td>SESSÕES</td>
+    <td>SESSIONS</td>
     <td>BIZ_SESSIONS</td>
   </tr>
   <tr>
@@ -71,15 +71,15 @@ Estamos removendo dados de endereço IP de nosso armazenamento de longo prazo pa
 </tbody>
 </table>
 
-* A partir de agora, baixaremos o Código do país, Nome da cidade e Código da região em vez de Nome do país, Nome da cidade e Nome da região.
-* Durante o processamento de todas as atividades históricas da Web, podem surgir inconsistências nas informações de localização nos registros. Essas inconsistências podem incluir a presença de endereços IP sem detalhes de geolocalização, informações de geolocalização atualizadas sem endereços IP ou uma combinação de nomes e códigos de países ou regiões.
+* A partir de agora, baixaremos o código do país, nome da cidade e código da região em vez do nome do país, nome da cidade e nome da região.
+* Durante o processamento de todas as atividades históricas da web, poderão surgir inconsistências nas informações de localização dos registros. Essas inconsistências podem incluir a presença de endereços IP sem detalhes de geolocalização, informações de geolocalização atualizadas sem endereços IP ou uma combinação de nomes e códigos de países ou regiões.
 * _**Este período de dados mistos deve ocorrer de 04/01/2023 a 29/02/2023.**_
 
 **Dados do título da página na tabela de URL**
 
 A tabela de URL no [data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} agora incluirá um campo de título da página, além das tabelas de dados da web.
 
-Observe que o título da página na tabela de URL nem sempre pode corresponder ao título da página em outras tabelas da Web. A tabela de URL terá o título de página mais recente. Se o título tiver sido alterado para o URL após a atividade da Web, ele não corresponderá ao que está na tabela de URL.
+Observe que o título da página na tabela de URL nem sempre corresponderá ao título da página em outras tabelas da web. A tabela de URL utilizará o título de página mais recente. Se o título tiver sido alterado para o URL após a atividade da web, ele não corresponderá ao utilizado na tabela de URL.
 
 **Novo design do painel Discover**
 
@@ -102,9 +102,9 @@ O novo conjunto de painéis pré-construídos está programado para ser introduz
 
 <p>
 
-* **Substituições de campo do Salesforce**
+* **Descontinuações de campos do Salesforce**
 
-Vamos eliminar gradualmente nossos trabalhos de exportação para objetos de cliente potencial/contato a fim de simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Os campos desnormalizados listados abaixo também serão descontinuados, pois os clientes podem obter os mesmos dados de seus objetos Touchpoint. _**A linha do tempo de desativação é junho de 2024.**_
+Vamos eliminar gradualmente nossos processos de exportação para objetos de clientes potenciais e contatos a fim de simplificar a integração e eliminar a necessidade de exportação para objetos padrão do Salesforce. Os campos desnormalizados listados abaixo também serão descontinuados, pois clientes podem obter os mesmos dados de seus objetos de touchpoint. _**A linha do tempo de descontinuação foi definida para junho de 2024.**_
 
 <table style="width:300px">
 <tbody>
