@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
 source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
       + [Práticas recomendadas para implementação do  [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Adição de [!DNL Marketo Measure] script](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Adição de [!DNL Marketo Measure] script via Gerenciador de tags do Google](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
-      + [Dados coletados pelo JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
+      + [Dados coletados por JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + Adição de script [!DNL Marketo Measure] para diferentes provedores de formulário {#adding-marketo-measure-script-to-different-form-providers}
          + [Adição de [!DNL Marketo Measure] JavaScript para Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Adição de [!DNL Marketo Measure] script para formulários do Lightbox](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
@@ -156,9 +156,9 @@ ht-degree: 98%
       + [Novo guia do painel do Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Política de visibilidade de dados do painel](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
       + [Painel de receita atribuída](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-      + [Painel de envolvimentos](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Painel de engajamento](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [Painel da velocidade do lead](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
-      + [Painel da velocidade da oportunidade](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Painel de velocidade da oportunidade](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Painel de passaporte](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Painel de visão geral da receita](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Painel de ROI](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
