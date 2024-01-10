@@ -2,7 +2,7 @@
 description: Painel de envolvimentos - [!DNL Marketo Measure] - Produto
 title: Painel de engajamento
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Perguntas que o painel responde:
 * Pessoas tocadas: o número total de pessoas que têm quaisquer pontos de contato.
 * Pontos de contato por pessoa: número médio de pontos de contato por pessoa que foram tocados.
 
-## Pontos de contato e pessoas tocadas ao longo do tempo {#touchpoints-and-people-touched-over-time}
+### Pontos de contato e pessoas tocadas ao longo do tempo {#touchpoints-and-people-touched-over-time}
 
 O gráfico de barras de série temporal exibe o número de pontos de contato, Pessoas tocadas e pontos de contato por pessoa para cada mês, trimestre e ano.
 
@@ -46,7 +46,7 @@ Perguntas que o gráfico responde:
 
 ![](assets/engagement-dashboard-1.png)
 
-## Pontos de contato/pessoas tocadas por canal {#touchpoints-people-touched-by-channel}
+### Pontos de contato/pessoas tocadas por canal {#touchpoints-people-touched-by-channel}
 
 Gráfico de barras que exibe pontos de contato ou pessoas tocadas segmentado por canal/subcanal/campanha.
 
