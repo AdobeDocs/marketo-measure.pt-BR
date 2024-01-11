@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Integrações com o Adobe Launch - [!DNL Ma
 title: '[!DNL Marketo Measure] Integrações com o Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '299'
 ht-degree: 2%
 
 ---
@@ -44,13 +44,13 @@ Quando instalado e configurado no Adobe Launch, a variável [!DNL Marketo Measur
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
-1. No campo Bizible AccountId, digite o URL do seu site.
+1. No campo Bizible AccountId, digite o URL do seu site (por exemplo, `adobe.com`).
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
    >[!NOTE]
    >
-   >Esse campo não é a &quot;ID da conta&quot; na tabela Business_Prod.Business. Todas as atividades da Web do URL especificado serão mapeadas para o [!DNL Marketo Measure] inquilino.
+   >Esse campo não é a &quot;ID da conta&quot; na tabela Business_Prod.Business. Todas as atividades da Web do URL especificado (por exemplo, `adobe.com`) serão mapeados para a variável [!DNL Marketo Measure] inquilino.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
