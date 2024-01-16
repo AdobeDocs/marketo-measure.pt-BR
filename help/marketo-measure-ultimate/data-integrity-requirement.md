@@ -3,9 +3,9 @@ description: “Requisito de integridade de dados do [!DNL Marketo Measure] Ulti
 title: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 034c4639e6054118052524c457995f4caf7a4bf2
+source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1493'
 ht-degree: 100%
 
 ---
@@ -407,7 +407,7 @@ O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para gara
       <td>b2b.personStatus</td>
       <td>string</td>
       <td>Status</td>
-      <td>Sim somente para personType lead</td>
+      <td><mark>Sim somente para personType lead</mark></td>
       <td>Necessário somente se b2b.personType for “Lead”</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para gara
       <td>b2b.isConverted</td>
       <td>booleano</td>
       <td>IsConverted</td>
-      <td>Sim somente para personType lead</td>
+      <td><mark>Sim somente para personType lead</mark></td>
       <td>Necessário somente se b2b.personType for “Lead”</td>
     </tr>
     <tr>
