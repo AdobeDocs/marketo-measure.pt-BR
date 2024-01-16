@@ -3,10 +3,10 @@ description: Notas da versão atual - [!DNL Marketo Measure] - Documentação do
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: ht
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ O novo conjunto de painéis pré-construídos está programado para ser introduz
 
 >[!NOTE]
 >
->Embora os painéis atuais serão descontinuados em meados de janeiro de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição fluida.
+>Embora os painéis atuais sejam descontinuados em março de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição suave.
 
 **Remoção de dados do endereço IP**
 
@@ -96,7 +96,7 @@ O novo conjunto de painéis pré-construídos está programado para ser introduz
 
 >[!NOTE]
 >
->Embora os painéis atuais sejam descontinuados em meados de janeiro de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição suave.
+>Embora os painéis atuais sejam descontinuados em março de 2024, é possível utilizar ambas as versões até lá, garantindo uma transição suave.
 
 ### Descontinuações {#deprecations}
 
