@@ -3,10 +3,10 @@ description: Práticas recomendadas para segmentação - [!DNL Marketo Measure] 
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,9 @@ Se você estiver definindo a segmentação pela primeira vez ou apenas revisando
 * Alinhe o nome do segmento à nomenclatura de sua organização, ou seja, a categoria = nome do filtro, segmento = valor do filtro
 * Não use campos de fórmula em suas regras
 * Sempre que possível, crie a segmentação no cliente potencial/contato e na oportunidade para usá-la em todo o funil
+   * Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
    * Nem todas as categorias de segmentos se alinharão em todo o funil
       * Por exemplo, uma categoria de segmento de “Tipo de oportunidade” não será relacionada a clientes potenciais, no entanto, um segmento relacionado à “Região” é provavelmente uma categoria que pode ser definida em todo o funil
 * Pense nas formas como você prefere dividir seus dados atualmente, seja no CRM ou em uma ferramenta de BI, considere criar isso como um segmento no [!DNL Marketo Measure] para ter os mesmos relatórios no Discover

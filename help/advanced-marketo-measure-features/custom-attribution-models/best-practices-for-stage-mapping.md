@@ -3,10 +3,10 @@ description: Práticas recomendadas para mapeamento de preparo - [!DNL Marketo M
 title: Práticas recomendadas para o mapeamento de estágio
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '480'
+ht-degree: 4%
 
 ---
 
@@ -31,6 +31,9 @@ Quer você esteja avaliando seu Mapeamento de estágios pela primeira vez ou ape
    * Um campo booleano é a recomendação de prática recomendada
 * Observe que a seção de estágio de Cliente Potencial ou Contato é dividida em Perdido, Aberto e Convertido; valide se os estágios estão na seção de estágio apropriada
    * Ter um estágio na seção de estágio incorreta pode resultar em altamente incorreto [!DNL Marketo Measure] dados
+   * Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
 * Observe que a seção Estágio da oportunidade é dividida em Perdido, Aberto e Ganho; valide se os estágios estão na seção apropriada do estágio
    * Ter um estágio na seção de estágio incorreta pode resultar em altamente incorreto [!DNL Marketo Measure] dados de receita ou de receita de pipeline
 * Evite usar nomes de estágio duplicados (nosso sistema os detectará e removerá automaticamente um).
@@ -42,7 +45,7 @@ A análise do mapeamento de preparo uma vez por ano garantirá que os dados de o
 
 Outros motivos que podem acionar uma revisão do mapeamento de preparo incluem...
 
-* Volume de negócios da sua equipe de marketing
+* Rotatividade de sua equipe de marketing
 * Quaisquer alterações nos estágios do CRM
 * Atualizações no funil da sua organização
 * Visualização de dados de receita incorretos em seu [!DNL Marketo Measure] relatórios
