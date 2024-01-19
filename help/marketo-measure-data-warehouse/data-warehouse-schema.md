@@ -4,10 +4,10 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentação do pro
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
-workflow-type: ht
-source-wordcount: '20697'
-ht-degree: 100%
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
+workflow-type: tm+mt
+source-wordcount: '20757'
+ht-degree: 99%
 
 ---
 
@@ -147,8 +147,23 @@ Contas importadas do sistema de origem.
       <td>Data em que o registro foi marcado como excluído no Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>*</b> SETOR</td>
+      <td>varchar</td>
+      <td>Principal negócio da conta.</td>
+      <td>Varejo, Telecomunicações</td>
+    </tr>
+    <tr>
+      <td><b>*</b> PAÍS</td>
+      <td>varchar</td>
+      <td>Parte do país do endereço da conta.</td>
+      <td>EUA, Canadá</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Disponível somente no Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ Tabela de mapeamento entre endereços de email de lead/contato e contas conhecid
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13.000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID da conta do sistema de origem.</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>ID da conta do sistema de origem.</td>
+      <td>0013100001phrBAAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Endereço de email que foi mapeado para a Conta, por meio de Relações de contato ou Mapeamento de lead para conta.</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>Endereço de email que foi mapeado para a Conta, por meio de Relações de contato ou Mapeamento de lead para conta.</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>A última data de modificação da conta, no sistema de origem.</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>A última data de modificação da conta, no sistema de origem.</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>A data de criação da conta, no sistema de origem.</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32.000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>A data de criação da conta, no sistema de origem.</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Se o registro é ou não considerado excluído.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Se o registro é ou não considerado excluído.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ Atividades importadas de um sistema de origem ou Conta de anúncio conectada.
     <th><strong>Dados de amostra</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>A ID da atividade do sistema de origem.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>A ID da atividade do sistema de origem.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>Id do lead associado à atividade.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>Id do contato associado à atividade.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id do contato associado à atividade.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id do Tipo de atividade, no sistema de origem.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>Id do Tipo de atividade, no sistema de origem.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -372,7 +318,7 @@ Atividades importadas de um sistema de origem ou Conta de anúncio conectada.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
+      <td>IS_DELETED</td>
       <td>boolean</td>
       <td>Se o registro é considerado excluído ou não no sistema de origem.</td>
       <td>false</td>
@@ -4388,18 +4334,10 @@ Contatos importados do sistema de origem.
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Chave estrangeira da exibição Biz_Facts.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Chave estrangeira da exibição Biz_Facts.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ Contatos importados do sistema de origem.
       <td>Data em que o registro foi marcado como excluído no Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>*</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>Cargo do Contato.</td>
+      <td>CEO, Vice-presidente</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Disponível somente no Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ Oportunidades importadas do sistema de origem.
       <td>Data em que o registro foi marcado como excluído no Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>Tipo de oportunidade, como novos negócios, renovação etc.</td>
+      <td>Renovação, cliente potencial</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Disponível somente no Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
