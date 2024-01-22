@@ -5,9 +5,9 @@ title: Cookies do [!DNL Marketo Measure]”
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
 
 >[!IMPORTANT]
 >
->Devido a preocupações com a privacidade, cookies de terceiros estão a caminho de sair. A desativação de cookies de terceiros anunciada pelo Google Chrome no terceiro trimestre de 2024 marca efetivamente o fim dessa forma de rastreamento. Como resultado, o Adobe descontinuará as funções do Marketo Measure que dependem de cookies de terceiros; especificamente, Rastreamento entre domínios e Atribuição de view-through, que usam o cookie de impressão Google/DoubleClick. Nenhuma outra função do Marketo Measure será afetada. O uso de cookies próprios também não é afetado. À luz da programação da Google, a data de desativação esperada para as duas funções acima é 1º/6/2024. Os dados relacionados coletados antes dessa data permanecerão disponíveis para os clientes do Adobe.
+>Devido a preocupações com a privacidade, cookies de terceiros serão desativados. A desativação de cookies de terceiros no terceiro trimestre de 2024 anunciada pelo Google Chrome marca efetivamente o fim dessa forma de rastreamento. Como resultado, a Adobe descontinuará as funções do Marketo Measure que dependem de cookies de terceiros. Especificamente, rastreamento entre domínios e atribuição de visualização, que usam o cookie de impressão Google/DoubleClick. Nenhuma outra função do Marketo Measure será afetada. O uso de cookies próprios também não será afetado. À luz do cronograma do Google, a data esperada de descontinuação das duas funções acima é de 01/06/2024. Os dados relacionados coletados antes dessa data permanecerão disponíveis para os clientes da Adobe.
 
 <table>
 <thead>
