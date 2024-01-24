@@ -3,10 +3,10 @@ description: Notas da versão atual - [!DNL Marketo Measure] - Documentação do
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -102,7 +102,7 @@ O novo conjunto de painéis pré-construídos está programado para ser introduz
 
 <p>
 
-* **Descontinuações de campos do Salesforce**
+#### Substituições de campo do Salesforce {#salesforce-field-deprecations}
 
 Vamos eliminar gradualmente nossos processos de exportação para objetos de clientes potenciais e contatos a fim de simplificar a integração e eliminar a necessidade de exportação para objetos padrão do Salesforce. Os campos desnormalizados listados abaixo também serão descontinuados, pois clientes podem obter os mesmos dados de seus objetos de touchpoint. _**A linha do tempo de descontinuação foi definida para junho de 2024.**_
 
