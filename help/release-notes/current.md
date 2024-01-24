@@ -3,10 +3,10 @@ description: Notas da versão atual - [!DNL Marketo Measure] - Documentação do
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: ht
-source-wordcount: '926'
-ht-degree: 100%
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -106,7 +106,7 @@ O novo conjunto de painéis pré-construídos está programado para ser introduz
 
 Vamos eliminar gradualmente nossos processos de exportação para objetos de clientes potenciais e contatos a fim de simplificar a integração e eliminar a necessidade de exportação para objetos padrão do Salesforce. Os campos desnormalizados listados abaixo também serão descontinuados, pois clientes podem obter os mesmos dados de seus objetos de touchpoint. _**A linha do tempo de descontinuação foi definida para junho de 2024.**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2__Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ Vamos eliminar gradualmente nossos processos de exportação para objetos de cli
   </tr>
 </tbody>
 </table>
+
+Os campos que contêm as mesmas informações nos objetos Ponto de contato e Ponto de contato de atribuição são:
+
+* bizible2__Ad_Campaign_Name__c
+* bizible2__Landing_Page__c
+* bizible2__Marketing_Channel__c
+* bizible2__Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**Ações necessárias**
+
+* Criar novos Tipos de relatório para clientes potenciais e contatos com ou sem pontos de contato.
+
+![](assets/release-notes-2023-1.png)
+
+* Crie relatórios que capturem a funcionalidade de qualquer relatório existente que utilize os campos removidos. Como parte desse processo, você desejará alterar os campos no relatório conforme especificado abaixo:
+
+   * Remover campos FT/LC de lead/contato:
+
+![](assets/release-notes-2023-2.png)
+
+* Adicionar campos de Touchpoint:
+
+![](assets/release-notes-2023-3.png)
+
+* O filtro Posição do ponto de contato e quaisquer filtros que usam campos FT/LC, incluindo o Campo de data, devem ser atualizados da seguinte maneira:
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* Exclua todos os relatórios pré-existentes que utilizaram os campos removidos do objeto de cliente potencial/contato para não fazer mais referência a esses campos.
+
+<p>
 
 * **Pacote do Dynamics relacionado**
 
