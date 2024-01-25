@@ -4,7 +4,7 @@ title: Notificações de erro
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
 <table>
   <tbody>
     <tr>
-      <th>Código do erro</th>
-      <th>Exemplo de notificação</th>
-      <th>Descrição</th>
-      <th>Etapas de solução de problemas</th>
+      <th style="width:31%">Código do erro</th>
+      <th style="width:23%">Exemplo de notificação</th>
+      <th style="width:23%">Descrição</th>
+      <th style="width:23%">Etapas de solução de problemas</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
