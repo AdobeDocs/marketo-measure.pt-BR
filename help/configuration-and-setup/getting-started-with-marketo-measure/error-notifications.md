@@ -2,9 +2,9 @@
 description: Notificações de erro - [!DNL Marketo Measure] - Documentação do produto
 title: Notificações de erro
 feature: Fundamentals
-source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
+source-git-commit: 05ec40d3fa1fe1076eeaa755a9244b614ac5fda6
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
             </li>
           </ul>
           <p>
-            CAPTURA DE TELA
+           <img src="assets/error-notifications-1.png">
           </p>
       </td>
     </tr>
