@@ -1,10 +1,8 @@
 ---
 description: Notificações de erro - [!DNL Marketo Measure] - Documentação do produto
 title: Notificações de erro
-hide: true
-hidefromtoc: true
 feature: Fundamentals
-source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%

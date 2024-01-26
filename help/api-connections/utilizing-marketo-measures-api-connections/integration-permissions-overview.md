@@ -2,9 +2,9 @@
 description: Visão geral das permissões de integração - [!DNL Marketo Measure] - Documentação do produto
 title: Visão geral das permissões de integração
 feature: APIs, Integration
-source-git-commit: e427f5e9f234917c033188116602d4798701118c
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1288'
 ht-degree: 2%
 
 ---
@@ -236,3 +236,7 @@ O Marketo Measure está rastreando Campanhas, Grupos de publicidade, Criativos, 
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

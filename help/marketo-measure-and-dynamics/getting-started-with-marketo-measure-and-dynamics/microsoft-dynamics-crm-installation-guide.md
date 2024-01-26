@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guia de instalação do CRM - Marketo Me
 title: "[!DNL Microsoft Dynamics] Guia de instalação do CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 17%
+source-wordcount: '983'
+ht-degree: 14%
 
 ---
 
@@ -96,7 +96,7 @@ Para entidades padrão do Dynamics, consulte a [!DNL Marketo Measure] Documento 
 
 [!DNL Marketo Measure] aponta para o campo padrão Receita Real por padrão. Se você não estiver usando esse recurso, explique como relata a receita ao seu engenheiro de soluções ou gerente de sucesso, pois será necessário um fluxo de trabalho personalizado.
 
-**Data de fechamento**
+**Fechar data**
 
 [!DNL Marketo Measure] aponta para o campo Data Real de Fechamento pronto para uso. Se você não estiver usando essa opção ou também usar o campo Data de fechamento estimada, explique seu processo ao seu engenheiro de soluções ou gerente de sucesso. Um fluxo de trabalho personalizado pode ser necessário para considerar ambos os campos.
 
@@ -168,10 +168,14 @@ A fim de [!DNL Marketo Measure] para rastrear suas atividades da web, há vária
 
    >[!NOTE]
    >
-   >Por padrão, o [!DNL Marketo Measure] exporta 200 registros por crédito de API sempre que um trabalho envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como fluxos de trabalho e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para isso, o [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível na página Configurações > CRM > Geral no aplicativo web do [!DNL Marketo Measure], e os clientes podem escolher entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
+   >Por padrão, o [!DNL Marketo Measure] exporta 200 registros por crédito de API sempre que um trabalho envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como fluxos de trabalho e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para isso, o [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível na página Configurações > CRM > Geral no [!DNL Marketo Measure] o aplicativo web e os clientes podem escolher entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
    >
    >Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consumirão mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver atingindo o tempo limite da CPU ou uma alta carga de CPU no CRM.
 
    >[!NOTE]
    >
    >Ao desativar a exportação de dados para o Dynamics, o Marketo Measure não removerá os dados existentes. Para obter ajuda sobre como remover dados existentes, entre em contato com o Suporte ao Dynamics.
+
+   >[!MORELIKETHIS]
+   >
+   >[Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
