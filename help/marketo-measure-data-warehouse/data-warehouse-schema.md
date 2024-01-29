@@ -5,9 +5,9 @@ title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -148,15 +148,15 @@ Contas importadas do sistema de origem.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> SETOR</td>
+      <td><b>∗</b> INDÚSTRIA</td>
       <td>varchar</td>
-      <td>Principal negócio da conta.</td>
-      <td>Varejo, Telecomunicações</td>
+      <td>Principal empresa da conta.</td>
+      <td>Varejo, telecomunicações</td>
     </tr>
     <tr>
-      <td><b>*</b> PAÍS</td>
+      <td><b>∗</b> PAÍS</td>
       <td>varchar</td>
-      <td>Parte do país do endereço da conta.</td>
+      <td>Parte onde fica o país no endereço da conta.</td>
       <td>EUA, Canadá</td>
     </tr>
   </tbody>
@@ -4358,10 +4358,10 @@ Contatos importados do sistema de origem.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> JOB_TITLE</td>
+      <td><b>∗</b> JOB_TITLE</td>
       <td>varchar</td>
-      <td>Cargo do Contato.</td>
-      <td>CEO, Vice-presidente</td>
+      <td>Cargo do contato.</td>
+      <td>Diretor executivo, vice-presidente</td>
     </tr>
   </tbody>
 </table>
@@ -10219,10 +10219,10 @@ Oportunidades importadas do sistema de origem.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td><b>∗</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
-      <td>Tipo de oportunidade, como novos negócios, renovação etc.</td>
-      <td>Renovação, cliente potencial</td>
+      <td>Tipo de oportunidade, como novo negócio, renovação etc.</td>
+      <td>Renovação, cliente em potencial</td>
     </tr>
   </tbody>
 </table>
