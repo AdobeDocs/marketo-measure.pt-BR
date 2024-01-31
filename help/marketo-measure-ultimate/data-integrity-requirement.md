@@ -3,8 +3,8 @@ description: “Requisito de integridade de dados do [!DNL Marketo Measure] Ulti
 title: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
-workflow-type: ht
+source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -1366,7 +1366,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 É recomendável usar um campo calculado no mapeamento de campos para padronizar o campo com um valor não NULO. Veja a seguir dois exemplos:
 
 * Se opportunityName de alguns registros de oportunidade for nulo, crie e use o seguinte campo calculado no mapeamento de campos
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Se leadOperation.campaignProgression.campaignID de alguns registros experienceevent for nulo, crie e use o seguinte campo calculado no mapeamento de campos
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
