@@ -4,7 +4,7 @@ title: â€œRequisito de integridade de dados do [!DNL Marketo Measure] Ultimateâ€
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1493'
 ht-degree: 100%
 
