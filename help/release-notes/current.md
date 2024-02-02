@@ -4,9 +4,9 @@ title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ O novo conjunto de painéis pré-construídos está programado para ser introduz
 
 <p>
 
-#### Substituições de campo do Salesforce
+#### Descontinuações de campos do Salesforce
 
 Vamos eliminar gradualmente nossos processos de exportação para objetos de clientes potenciais e contatos a fim de simplificar a integração e eliminar a necessidade de exportação para objetos padrão do Salesforce. Os campos desnormalizados listados abaixo também serão descontinuados, pois clientes podem obter os mesmos dados de seus objetos de touchpoint. _**A linha do tempo de descontinuação foi definida para junho de 2024.**_
 
@@ -141,7 +141,7 @@ Vamos eliminar gradualmente nossos processos de exportação para objetos de cli
 </tbody>
 </table>
 
-Os campos que contêm as mesmas informações nos objetos Ponto de contato e Ponto de contato de atribuição são:
+Os campos que contêm as mesmas informações nos objetos Touchpoint e Touchpoint de atribuição são:
 
 * bizible2__Ad_Campaign_Name__c
 * bizible2__Landing_Page__c
@@ -151,27 +151,27 @@ Os campos que contêm as mesmas informações nos objetos Ponto de contato e Pon
 
 **Ações necessárias**
 
-* Criar novos Tipos de relatório para clientes potenciais e contatos com ou sem pontos de contato.
+* Crie novos tipos de relatório para leads e contatos com ou sem touchpoints.
 
 ![](assets/release-notes-2023-1.png)
 
-* Crie relatórios que capturem a funcionalidade de qualquer relatório existente que utilize os campos removidos. Como parte desse processo, você desejará alterar os campos no relatório conforme especificado abaixo:
+* Crie relatórios que capturem a funcionalidade de qualquer relatório já existente que utilize os campos removidos. Como parte deste processo, você poderá alterar os campos do relatório conforme especificado abaixo:
 
    * Remover campos FT/LC de lead/contato:
 
 ![](assets/release-notes-2023-2.png)
 
-* Adicionar campos de Touchpoint:
+* Adicionar campos de touchpoint:
 
 ![](assets/release-notes-2023-3.png)
 
-* O filtro Posição do ponto de contato e quaisquer filtros que usam campos FT/LC, incluindo o Campo de data, devem ser atualizados da seguinte maneira:
+* O filtro Posição do touchpoint e todos os filtros que usam campos FT/LC, incluindo o Campo de data, devem ser atualizados da seguinte maneira:
 
 ![](assets/release-notes-2023-4.png)
 
 ![](assets/release-notes-2023-5.png)
 
-* Exclua todos os relatórios pré-existentes que utilizaram os campos removidos do objeto de cliente potencial/contato para não fazer mais referência a esses campos.
+* Exclua todos os relatórios pré-existentes que utilizaram os campos removidos do objeto de lead/contato para não fazer mais referência a esses campos.
 
 <p>
 
@@ -181,7 +181,7 @@ Os campos que contêm as mesmas informações nos objetos Ponto de contato e Pon
 
 * O método desatualizado do OAuth com um RefreshToken será descontinuado. Consulte [este manual](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para atualizar suas credenciais e seguir as práticas recomendadas da Microsoft de uso do ClientSecret.
 
-#### Campo &quot;custom_properties&quot;
+#### Campo “custom_properties”
 
 Em nosso data warehouse, o campo “custom_properties” tem servido como um armazenamento para pontos de dados adicionais não cobertos pelo nosso esquema fixo. Armazenado no formato JSON, o uso desse campo é limitado e sua integração com consultas SQL pode ser complicada, afetando o desempenho. Dados esses fatores, decidimos descontinuar esse campo. Essa alteração afetará principalmente a camada de processamento de dados em nosso armazenamento de tabela do Azure e os dados exportados para nosso data warehouse.
 
