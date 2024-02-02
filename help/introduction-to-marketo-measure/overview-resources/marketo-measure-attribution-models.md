@@ -5,9 +5,9 @@ title: Modelos de atribuição do Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
 source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ O Marketo Measure oferece seis tipos de modelos de atribuição:
 * Caminho completo
 * Modelo personalizado
 
-Esses modelos variam em complexidade. Primeiro contato e Criação de lead são nossos modelos simples de único contato. Os quatro restantes são nossos modelos mais complexos e multicontato. A estrutura dos modelos de atribuição do Marketo Measure reflete os quatro principais pontos de contato que ocorrem na jornada do cliente:
+Esses modelos variam em complexidade. Primeiro contato e Criação de lead são nossos modelos simples de único contato. Os quatro restantes são nossos modelos mais complexos e multicontato. A estrutura dos modelos de atribuição do Marketo Measure reflete os quatro principais touchpoints que ocorrem na jornada do cliente:
 
 * Primeiro toque (PT)
 * Criação de leads (LC)
@@ -31,7 +31,7 @@ Esses modelos variam em complexidade. Primeiro contato e Criação de lead são 
 
 ![](assets/1-1.png)
 
-No **modelos de toque único**No entanto, o crédito de atribuição é atribuído apenas a um ponto de contato de marco, portanto, o nome &quot;único contato&quot;.
+Nos **modelos de contato único**, o crédito de atribuição é atribuído apenas a um touchpoint de marco, daí o nome “contato único”.
 Nos **modelos multicontato**, a maior parte do crédito de atribuição é atribuída a dois ou mais touchpoints de marco. O crédito restante é atribuído a touchpoints que ocorrem entre os touchpoints de marco.
 
 As próximas seções abordam cada modelo de atribuição e como o crédito de atribuição é atribuído.
@@ -42,7 +42,7 @@ As próximas seções abordam cada modelo de atribuição e como o crédito de a
 
 O modelo de Primeiro contato se concentra somente na primeira interação que um lead tem com sua organização. Esse modelo atribui 100% do crédito de atribuição para a primeira vez que o lead tomou conhecimento da sua empresa, o FT (Primeiro contato).
 
-Diga visitas de Kate `www.adobe.com` pela primeira vez por meio de um Anúncio do Adwords e visualiza um whitepaper. O canal do Adwords receberia 100% do crédito de atribuição dessa Oportunidade.
+Digamos que Kate acesse o `www.adobe.com` pela primeira vez por meio de um anúncio do Google AdWords e visualize um white paper. O canal do Adwords receberia 100% do crédito de atribuição dessa Oportunidade.
 
 ![](assets/2.png)
 
@@ -50,7 +50,7 @@ Diga visitas de Kate `www.adobe.com` pela primeira vez por meio de um Anúncio d
 
 O modelo Criação de leads atribui 100% do crédito de atribuição ao touchpoint LC, quando um prospecto fornece suas informações de contato e se torna um lead.
 
-Continuando do exemplo anterior, após a primeira visita de Kate a `www.adobe.com` Por meio do Adwords, Austin visita o site através de uma publicação do Linkedin. Austin preenche um formulário e se torna um lead. Nesse modelo, o LinkedIn receberia 100% do crédito de atribuição.
+Continuando com o exemplo anterior, após a primeira visita de Kate ao `www.adobe.com` por meio do Google AdWords, Austin acessa o site por meio de uma postagem no Linkedin. Austin preenche um formulário e se torna um lead. Nesse modelo, o LinkedIn receberia 100% do crédito de atribuição.
 
 ![](assets/3.png)
 
@@ -62,7 +62,7 @@ Modelos multicontato são usados para ciclos de vendas mais longos e complicados
 
 O modelo em Forma de U se concentra nos touchpoints FT e LC. Neste modelo, o touchpoint FT e LC recebe cada um 50% do crédito de receita.
 
-A primeira visita de Kate a `www.adobe.com` por meio de um anúncio do Adwords, receberia 50% do crédito de atribuição. Os 50% restantes seriam atribuídos à publicação do LinkedIn que fez com que Austin preenchesse um formulário e se tornar um lead.
+O primeiro acesso de Kate a `www.adobe.com` por meio de um anúncio do Google AdWords receberia 50% do crédito de atribuição. Os 50% restantes seriam atribuídos à publicação do LinkedIn que fez com que Austin preenchesse um formulário e se tornar um lead.
 
 ![](assets/4.png)
 
@@ -86,4 +86,4 @@ Após a criação da oportunidade, Kate, Austin e Hillary decidem lançar o Mark
 
 **Modelo de atribuição personalizada**
 
-O Marketo Measure também oferece um modelo de Atribuição personalizada que permite que os usuários escolham quais touchpoints ou estágios personalizados serão incluídos em seus modelos. Além disso, os usuários podem controlar a porcentagem de crédito de atribuição atribuída a esses pontos de contato e estágios. Se uma Oportunidade não tiver contatos intermediários dedicados, a porcentagem será distribuída uniformemente entre outras posições.
+O Marketo Measure também oferece um modelo de Atribuição personalizada que permite que os usuários escolham quais touchpoints ou estágios personalizados serão incluídos em seus modelos. Além disso, os usuários podem controlar a porcentagem do crédito de atribuição atribuído a esses touchpoints e estágios. Se uma Oportunidade não tiver contatos intermediários dedicados, a porcentagem será distribuída uniformemente entre outras posições.
