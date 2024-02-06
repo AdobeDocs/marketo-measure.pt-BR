@@ -4,10 +4,10 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentação do pro
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: ht
-source-wordcount: '20757'
-ht-degree: 100%
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+workflow-type: tm+mt
+source-wordcount: '20781'
+ht-degree: 99%
 
 ---
 
@@ -6740,6 +6740,10 @@ Tabela de mapeamento para endereços de email e IDs de visitante.
 ### BIZ_FACTS {#biz-facts}
 
 Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário, Touchpoints do usuário, Touchpoint (BT), Touchpoints de atribuição (BAT) e Dados de custo. Usado internamente para oferecer suporte a relatórios do [!DNL Marketo Measure].
+
+>[!IMPORTANT]
+>
+>A Marketo Measure substituirá essa tabela em meados de 2024. Se desejar criá-lo em seu lado, execute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
