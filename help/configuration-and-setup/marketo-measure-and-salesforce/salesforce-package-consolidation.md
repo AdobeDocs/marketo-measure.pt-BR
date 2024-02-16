@@ -1,16 +1,16 @@
 ---
 description: '[!DNL Salesforce] Consolidação de pacotes - [!DNL Marketo Measure] - Documentação do produto'
 title: '[!DNL Salesforce] Consolidação de pacote'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 0%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
-# [!DNL Salesforce] Consolidação de pacotes {#salesforce-package-consolidation}
+# Consolidação de pacotes do [!DNL Salesforce] {#salesforce-package-consolidation}
 
 Estamos animados em anunciar as próximas mudanças nos Pacotes do Marketo Measure Salesforce. Em um esforço para aprimorar a experiência do usuário e simplificar o uso, estamos consolidando todos os pacotes existentes em um único pacote abrangente.
 
@@ -22,10 +22,10 @@ Como consequência dessa consolidação, os pacotes V1, V2_EXT, V2_Security e to
 
 O novo pacote V2 consolidado incorpora todos os recursos e funcionalidades dos pacotes anteriores, fornecendo uma experiência do usuário aprimorada. Este pacote atualizado permite um rastreamento mais eficiente do desempenho de marketing e vendas, além de informações mais detalhadas sobre o comportamento do cliente.
 
-Adicionamos dois novos campos para aprimorar seus recursos de relatórios:
+Adicionamos dois novos campos para aprimorar seus recursos de relatório:
 
-* form_name: Agora disponível em objetos BT/BAT, esse campo permite que os usuários criem relatórios com base em nomes de formulário.
-* user_touchpoint_id: esse campo permite que os usuários criem relatórios com contagens de pontos de contato de usuário exclusivas.
+* form_name: agora disponível em objetos BT/BAT, esse campo permite criar relatórios com base em nomes de formulário.
+* user_touchpoint_id: esse campo permite que os usuários criem relatórios com contagens de pontos de contato de usuário exclusivas (`bizible2__User_Touchpoint_V2__c` no Salesforce).
 
 ## Suporte e transição {#support-and-transition}
 
@@ -65,4 +65,4 @@ Sim. O pacote consolidado conterá os mesmos campos em V1 com detalhamentos adic
 
 **Os relatórios que usam os campos V2_EXT podem ser recriados no pacote consolidado?**
 
-Sim. Siga as etapas no [Ações necessárias](#retired-actions) acima.
+Sim. Siga as etapas na guia [Ações necessárias](#retired-actions) acima.
