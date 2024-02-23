@@ -2,9 +2,9 @@
 description: Painel de envolvimentos - [!DNL Marketo Measure] - Produto
 title: Painel de engajamento
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -59,3 +59,11 @@ Perguntas que o gráfico responde:
 * Como o número de pontos de contato se compara às pessoas tocadas em um canal/subcanal/campanha específico?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Painel de Filtro {#filter-pane}
+
+Esse painel é equipado com as seguintes configurações e filtros:
+
+* Data (com base na data do ponto de contato)
+* Canal, Subcanal
+* Campanha

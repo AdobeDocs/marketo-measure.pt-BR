@@ -3,10 +3,10 @@ description: Novo Guia do painel do Discover - [!DNL Marketo Measure] - Produto
 title: Novo guia do painel do Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 10%
+ht-degree: 3%
 
 ---
 
@@ -39,14 +39,12 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
           <li>
             <strong>Receita do pipeline:</strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Tamanho médio do negócio: </strong>Obsoleto (veja abaixo)</li>
-        </ul>
+            <strong>Tamanho médio do negócio: </strong>Obsoleto (veja abaixo)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Crescimento</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Receita e receita ao longo do tempo</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
@@ -162,19 +160,19 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
           <li>
             <strong>Clientes potenciais por URL do formulário:</strong>Painel de tráfego da Web</li>
           <li>
-            <strong>Custo por visita exclusiva</strong>
+            <strong>Custo por visita única</strong>
           </li>
           <li>
             <strong>Custo por visita</strong>
           </li>
           <li>
-            <strong>Receita por Visita Exclusiva</strong>
+            <strong>Receita por visita única</strong>
           </li>
           <li>
-            <strong>Receita por Visita</strong>
+            <strong>Receita por visita</strong>
           </li>
           <li>
-            <strong>Leads por Página de Aterrissagem</strong>
+            <strong>Clientes potenciais por página inicial</strong>
           </li>
         </ul>
       </td>
@@ -351,7 +349,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Receita de planejamento</strong>
+          <strong>Receita do pipeline</strong>
         </p>
       </td>
       <td rowspan="3">
@@ -362,7 +360,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Receita de Pipeline ao longo do tempo</strong>
+          <strong>Receita do pipeline ao longo do tempo</strong>
         </p>
       </td>
     </tr>
@@ -376,7 +374,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Tamanho médio da oferta</strong>
+          <strong>Tamanho Médio do Negócio</strong>
         </p>
       </td>
       <td rowspan="3">Optamos por não duplicar esses pontos de dados do CRM em nossos painéis para enfatizar os insights de atribuição.</td>
@@ -384,7 +382,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Oportunidades abertas</strong>
+          <strong>Oportunidades em Aberto</strong>
           <strong>
             <br/>
           </strong>
@@ -394,14 +392,14 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Taxa de obtenções</strong>
+          <strong>Taxa de Ganhos</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Ofertas ao longo do tempo</strong>
+          <strong>Transações ao Longo do Tempo</strong>
         </p>
       </td>
       <td rowspan="4">Essas métricas já são fornecidas nos blocos de KPI. Excluímos sua visualização de série temporal do painel para evitar redundância e manter a clareza.
@@ -414,12 +412,12 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     </tr>
     <tr>
       <td>
-        <strong>Oportunidades ao longo do tempo</strong>
+        <strong>Oportunidades ao Longo do Tempo</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Leads ao longo do tempo</strong>
+        <strong>Clientes Potenciais ao Longo do Tempo</strong>
       </td>
     </tr>
     <tr>
@@ -436,7 +434,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Custo por visita exclusiva</strong>
+          <strong>Custo por visita única</strong>
         </p>
       </td>
       <td rowspan="7">
@@ -454,28 +452,28 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Receita por Visita</strong>
+          <strong>Receita por visita</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Leads por Página de Aterrissagem</strong>
+          <strong>Clientes potenciais por página inicial</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Páginas de Aterrissagem por Receita</strong>
+          <strong>Páginas de aterrissagem por receita</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Páginas de Aterrissagem por Contagem de Oportunidades</strong>
+          <strong>Páginas de aterrissagem por contagem de oportunidade</strong>
         </p>
       </td>
     </tr>
