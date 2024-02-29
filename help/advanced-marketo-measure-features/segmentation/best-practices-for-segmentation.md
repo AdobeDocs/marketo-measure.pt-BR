@@ -3,10 +3,10 @@ description: Práticas recomendadas para segmentação - [!DNL Marketo Measure] 
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ A segmentação é essencial para a utilização da sua conta do [!DNL Marketo M
 
 Quando enviado para [!DNL Salesforce], os valores de segmento são gravados no campo “Segmento” e estão em qualquer tipo de relatório do Buyer touchpoint. Isso permite relatórios uniformes em ambas as plataformas. O segmento também pode ser encontrado nos “Detalhes do touchpoint” de qualquer touchpoint.
 
-Quando enviados para o Discover, os segmentos aparecerão como um filtro disponível no menu suspenso de filtros localizado em todos os quadros.
+Quando enviado para [!UICONTROL Descobrir], Segmentos serão exibidos como um filtro disponível no menu suspenso de filtro localizado em todos os quadros.
 
 ## Prática recomendada {#best-practice}
 

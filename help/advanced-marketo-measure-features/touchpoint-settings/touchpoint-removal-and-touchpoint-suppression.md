@@ -4,9 +4,9 @@ description: Remoção do ponto de contato e supressão do ponto de contato - [!
 title: Remoção e supressão do touchpoint
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Escolha em uma lista de Operadores que estarão relacionados ao próximo conjunt
 
 >[!TIP]
 >
->Para contabilizar um valor em branco ou NULO em um campo, basta deixar a caixa Valor vazia. Isso levará em conta cenários como avaliação em um ponto de contato sem URL de formulário.
+>Para contabilizar um valor em branco ou NULO em um campo, basta deixar a variável [!UICONTROL Valor] caixa vazia. Isso levará em conta cenários como avaliação em um ponto de contato sem URL de formulário.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Ou adicione novas instruções fora do grupo para utilizar a lógica &quot;OR&qu
 
 ![](assets/2.png)
 
-`3)` Se suas regras se tornam complexas e você precisa recriar grupos e fazer pequenas alterações em cada instrução, use a opção Clonar para simplificar as coisas.
+`3)` Se as regras se tornarem complexas e você precisar recriar grupos e fazer pequenas alterações em cada instrução, use o [!UICONTROL Clonar] opção para simplificar as coisas.
 
 ![](assets/3.png)
 
@@ -65,7 +65,7 @@ Se você cometer um erro, não se preocupe. Também é possível excluir linhas 
 
 ![](assets/5.png)
 
-Para concluir, Salve e processe suas regras. Se você estiver fazendo muitas alterações, não deixe de Salvar as alterações ao longo do caminho. [!DNL Marketo Measure] não começará a remover seus Pontos de contato até que você clique no botão **Salvar e processar** botão.
+Para concluir, [!UICONTROL Salvar e processar] suas regras. Se você estiver fazendo muitas alterações, não deixe de Salvar as alterações ao longo do caminho. [!DNL Marketo Measure] não começará a remover seus Pontos de contato até que você clique no botão **Salvar e processar** botão.
 
 | **Operador** | **Caso de uso** |
 |---|---|

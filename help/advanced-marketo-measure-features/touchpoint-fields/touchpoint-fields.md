@@ -4,9 +4,9 @@ description: Campos de ponto de contato - [!DNL Marketo Measure] - Documentaçã
 title: Campos do Touchpoint
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para criar um campo calculado, lembre-se de que há três ações diferentes que
 
 Extrações
 
-O operador extrai o valor de um campo de outro local, como: um campo do Campaign, campo de cliente potencial ou em um caso de uso mais avançado, [extrair parâmetros personalizados da página inicial](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+A variável [!UICONTROL extratos] O operador extrai o valor de um campo de outro local, como: um campo Campanha, campo Lead ou em um caso de uso mais avançado, [extrair parâmetros personalizados da página inicial](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Exemplo #1**
 
@@ -123,7 +123,7 @@ Vamos tentar um exemplo semelhante em que extraímos um código de rastreamento 
 
 **Mapeia para**
 
-O operador maps to cria uma tabela de valores que precisam ser traduzidos ou classificados em outro valor. Normalmente, isso assume a forma de um valor principal, em que um código representa um nome amigável e precisa ser mapeado para esse nome amigável.
+A variável [!UICONTROL mapeia para] operador cria uma tabela de valores que precisam ser traduzidos ou classificados em outro valor. Normalmente, isso assume a forma de um valor principal, em que um código representa um nome amigável e precisa ser mapeado para esse nome amigável.
 
 **Exemplo #1**
 
@@ -145,18 +145,18 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
    * **(** marca o início da extração
 
       * Observe que, como estamos extraindo apenas o 4, somente os primeiros dígitos têm o parêntese de abertura
-
    * **)** marca o fim da extração
 
       * Observe que, como estamos extraindo apenas o 4, somente os primeiros dígitos têm o parêntese fechado
-
    * **\d** informa que estamos extraindo um &quot;dígito&quot;
    * **{2}** é o número de caracteres que estamos extraindo
+
+
 
 * Clique em [!UICONTROL Salvar]. Você deve salvar seu novo campo antes que ele possa estar disponível para uso na próxima regra!
 * Em seguida, devemos mapear todos os valores possíveis para os primeiros dígitos para seus nomes amigáveis
 * Crie um campo calculado e rotule-o como &quot;Region_Name&quot;
-* Defina a regra começando pela pesquisa do campo extraído. Nesse caso, Touchpoint.Region
+* Defina a regra começando pela pesquisa do campo extraído. Nesse caso, [!DNL Touchpoint.Region]
 * Usar o operador &quot;[!UICONTROL mapeia para]&quot;, pois queremos criar um mapeamento para cada número para seu valor
 * Uma tabela será apresentada para listar cada mapeamento. No final, será algo assim:
 * Com base no mapeamento e no URL acima, o &quot;Region_Value&quot; para um ponto de contato com essa página inicial seria &quot;EMEA&quot;
@@ -171,7 +171,7 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
 
 **Concatenadas**
 
-O operador concatenado combina valores de vários campos em um único campo. Isso é útil para criar um valor personalizado que puxa os dados em vários campos para fazer
+A variável [!UICONTROL concatenados] O operador combina valores de vários campos em um único campo. Isso é útil para criar um valor personalizado que puxa os dados em vários campos para fazer
 
 **Exemplo #1**
 
@@ -221,7 +221,7 @@ Há trabalho adicional necessário para expor os novos campos no [!DNL Marketo M
 
 **Como posso validar se minha expressão de extração é válida e está extraindo o valor correto?**
 
-Há uma ferramenta online ([https://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão aparecerá em verde se for válida ou em vermelho se for inválida. Além disso, a caixa de explicação na parte superior direita é útil e informa o que você está extraindo.
+Há uma ferramenta online ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão aparecerá em verde se for válida ou em vermelho se for inválida. Além disso, a variável [!UICONTROL explicação] caixa no canto superior direito é útil e informa o que você está extraindo.
 
 ![](assets/twelve.png)
 

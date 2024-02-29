@@ -4,10 +4,10 @@ description: Segmentação personalizada - [!DNL Marketo Measure] - Documentaç�
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Etapa 1 - Determinar quais informações você deseja ver.
 
 Antes de usar esse recurso, descubra por quais informações de ponto de contato você gostaria de filtrar. Lembre-se de usar os valores exatos no CRM para seus tipos de registro. A configuração filtrará os pontos de contato de cima para baixo do funil de marketing.
 
-Etapa 2 - Fazer logon e localizar o recurso Segmentos.
+Etapa 2 - Fazer logon e localizar o [!UICONTROL Segmentos] recurso.
 
 * Ir para [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e fazer logon
 * No [!UICONTROL Minha conta] selecione [!UICONTROL Configurações]
@@ -43,7 +43,7 @@ Etapa 3 - Entender os componentes.
 
 Etapa 4 - Adicionar regras de filtro.
 
-* Primeiro, insira o nome da categoria. Business Type é um exemplo. Clique na marca de seleção quando terminar. Você precisa inserir um nome de categoria antes de adicionar segmentos
+* Primeiro, insira o nome da categoria. [!UICONTROL Tipo de empresa] é um exemplo. Clique na marca de seleção quando terminar. Você precisa inserir um nome de categoria antes de adicionar segmentos
 * Clique no sinal de mais para adicionar um segmento
 * Informe um nome de Segmento. Por exemplo, você pode ter um segmento para novos negócios, parceiros, renovação ou venda adicional
 
@@ -57,11 +57,11 @@ Etapa 4 - Adicionar regras de filtro.
 >
 >Os campos de fórmula não podem ser usados em suas regras e não aparecerão na lista de opções. Como as fórmulas calculam em segundo plano e não modificam um registro, [!DNL Marketo Measure] O não pode detectar se um registro se encaixa ou não em uma regra.
 
-* A opção Value não é uma lista suspensa e seu valor deve ser inserido manualmente. Verifique os valores em sua organização do Salesforce
+* A variável [!UICONTROL Valor] não é uma lista suspensa e seu valor deve ser inserido manualmente. Verifique os valores em sua organização do Salesforce
 * Repita esse processo para as regras de segmento de Oportunidades
 * A categoria &quot;Outros&quot; é um segmento padrão que capturará quaisquer pontos de contato indefinidos. Você pode alterar o nome do segmento padrão
 * Clique no ícone de lixeira para excluir uma categoria inteira ou uma regra individual dentro de uma categoria. Como alternativa, clique no ícone de lápis para editar a categoria ou regra
-* Você perceberá que tem um botão &quot;Salvar&quot; e um botão &quot;Salvar e processar&quot;. Use o botão Salvar para salvar seu trabalho e as alterações ao longo do tempo. Use o botão Salvar e Processar SOMENTE depois de se certificar de que:
+* Você perceberá que tem um &quot;[!UICONTROL Salvar]&quot; e um botão &quot;Salvar e processar&quot;. Use o botão Salvar para salvar seu trabalho e as alterações ao longo do tempo. Use o botão Salvar e Processar SOMENTE depois de se certificar de que:
 
    * Seu mapeamento está preciso
    * Você adicionou todos os segmentos que deseja rastrear em uma categoria
@@ -73,7 +73,7 @@ Se as regras não forem configuradas para Clientes potenciais/Contatos e Oportun
 
 Quando terminar, clique em [!UICONTROL Salvar] primeiro, verifique tudo novamente e clique em [!UICONTROL Salvar e processar]. Lembre-se de que você não poderá editar suas configurações por sete dias ao salvar e processar, conforme [!DNL Marketo Measure] O está reformatando seus dados durante esse período.
 
-Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos específicos abaixo para Lead ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
