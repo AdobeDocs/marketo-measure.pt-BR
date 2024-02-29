@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874690
-description: Reautorizar Contas Conectadas - [!DNL Marketo Measure] - Documentação do produto
+description: Reautorizar Contas Conectadas - [!DNL Marketo Measure]
 title: Reautorizar contas conectadas
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 3%
 
 ---

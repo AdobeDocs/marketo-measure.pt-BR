@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874602
-description: Custos de canal de marketing - [!DNL Marketo Measure] - Documentação do produto
+description: Custos de canal de marketing - [!DNL Marketo Measure]
 title: Custos de canal de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 2%
+source-wordcount: '1305'
+ht-degree: 0%
 
 ---
 
@@ -25,23 +25,23 @@ Os custos relatados e importados das conexões de anúncios diretos são automat
 
 ## Definições {#definitions}
 
-**Gasto por Campanha**
+**Gastos por campanha**
 
 No nível mais granular, os clientes podem inserir gastos por Campanhas individuais, agrupadas em seu respectivo Canal. Para campanhas CRM, [!DNL Marketo Measure] O puxou a ID da campanha em uma coluna separada que ajudará você a mapear os gastos offline da campanha do seu CRM para esta tabela. Adicionar gastos nesse nível permitirá que os clientes visualizem o ROI do Campaign e otimizem o desempenho por meio do Campaign.
 
 O total de todas as campanhas não precisa somar quaisquer valores inseridos no Subcanal ou Canal, mas não pode ser maior do que quaisquer valores inseridos no Subcanal ou Canal. Se a soma for menor que o valor inserido no Subcanal ou Canal, [!DNL Marketo Measure] O adicionará automaticamente uma linha para &quot;Outros&quot; para cobrir a diferença e preencher quaisquer lacunas.
 
-**Gasto por Subcanal**
+**Gastos por Subcanal**
 
 Em um nível superior, os clientes podem inserir gastos por Subcanal, agrupados abaixo de seu Canal. Adicionar gastos neste nível permitirá que os clientes visualizem o ROI do subcanal e otimizem o desempenho por subcanal.
 
 O total de todos os subcanais não precisa totalizar até os valores inseridos no Canal, mas não pode ser maior do que os valores inseridos no Canal. Se a soma for menor que o valor inserido no Channel, [!DNL Marketo Measure] O adicionará automaticamente uma linha para &quot;Outros&quot; para cobrir a diferença e preencher quaisquer lacunas.
 
-**Gasto por Canal**
+**Gastos por canal**
 
 No nível mais alto, os clientes podem inserir gastos por canal. A adição de gastos nesse nível permitirá que os clientes visualizem o ROI do canal e otimizem o desempenho por canal.
 
-**Seletor de datas**
+**Seletor de data**
 
 O intervalo de datas padrão começará a partir da data inicial com [!DNL Marketo Measure] até o mês atual. Para garantir que os custos permaneçam corretos, você não poderá inserir custos para meses futuros, mas poderá inserir custos para meses anteriores à sua parceria com a [!DNL Marketo Measure].
 
@@ -53,15 +53,15 @@ Para restringir seus resultados na tabela de Gastos com marketing, selecione um 
 
 Use a caixa Pesquisar para localizar o texto correspondente de Canais, Subcanais ou Campanhas.
 
-**Baixar custos atuais**
+**Baixar Custos Atuais**
 
 O CSV baixado extrairá os resultados da tela atual, o que significa que as datas, os filtros ou as pesquisas aplicados serão baixados como estão.
 
-**Carregar CSV**
+**Fazer upload de CSV**
 
 Independentemente da visualização que estiver localizada no navegador, se for uma visualização filtrada ou a visualização padrão com todas as datas e canais, você poderá fazer upload de qualquer CSV.
 
-O erro mais comum que enfrentamos é o formato das colunas de data, que acontece se o formato de data é alterado e pode ocorrer intencionalmente se mover entre o Excel e/ou o Google Sheets. Lembre-se de que a data deve ser MM-AA, portanto, 12 de setembro e não 12 de setembro ou 12 de maio e não 05-12.
+O erro mais comum que enfrentamos é o formato das colunas de data, que acontece se o formato de data é alterado e pode ocorrer intencionalmente se mover entre o Excel e/ou o Google Sheets. Lembre-se de que a data deve ser MM-AA, portanto, setembro de 12 e não setembro de 12, ou maio de 12 e não 05-12.
 
 ## Antes de começar {#before-you-begin}
 
@@ -129,4 +129,4 @@ Com a capacidade de alterar o intervalo de datas, filtrar o canal ou pesquisar v
 
 **Por que não posso carregar um arquivo?**
 
-Temos diferentes conjuntos de permissões na [!DNL Marketo Measure] Aplicativo. Para carregar um arquivo, você precisa ser um &quot;AccountAdmin&quot;. Para contornar isso, solicite acesso ao seu AccountAdmin ou solicite que seu AccountAdmin carregue o arquivo em seu nome. Uma lista de usuários e suas funções pode ser encontrada em **[!UICONTROL Minha conta]** > **[!UICONTROL Configurações]** > **[!UICONTROL Exibir/adicionar usuários da conta]**.
+Temos diferentes conjuntos de permissões na [!DNL Marketo Measure] Aplicativo. Para carregar um arquivo, você precisa ser um &quot;AccountAdmin&quot;. Para contornar isso, solicite acesso ao seu AccountAdmin ou peça a ele que carregue o arquivo em seu nome. Uma lista de usuários e suas funções pode ser encontrada em **[!UICONTROL Minha conta]** > **[!UICONTROL Configurações]** > **[!UICONTROL Exibir/adicionar usuários da conta]**.

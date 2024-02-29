@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586105
-description: Caminho de engajamento - [!DNL Marketo Measure] - Documentação do produto
+description: Caminho de engajamento - [!DNL Marketo Measure]
 title: Caminho de engajamento
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 9%
+source-wordcount: '873'
+ht-degree: 4%
 
 ---
 
@@ -42,8 +42,8 @@ O Caminho de compromisso permite que você veja uma visão completa dos compromi
 **Origem na Web:** Essa coluna exibirá a origem do compromisso
 
 * Se o envolvimento vier de uma plataforma conectada à API, a fonte da Web exibirá o nome da plataforma de anúncio
-* Se o touchpoint veio de uma pesquisa orgânica, esse campo exibirá o nome do mecanismo de pesquisa
-* Se não for #1 ou #2, e o valor utm_source estiver presente no URL da landing page do touchpoint, esse valor será exibido aqui
+* Se o ponto de contato tiver vindo da pesquisa orgânica, esse campo exibirá o nome do mecanismo de pesquisa
+* Se não for #1 ou #2, e o valor utm_source estiver presente no URL da página de aterrissagem do ponto de contato, esse valor será exibido aqui
 * Se não for #1 ou #2 e não houver um valor utm_source, o domínio raiz do URL de referência será exibido aqui.
 * Se nenhuma das opções acima for exibida, isso exibirá Web Direct ou Web
 
@@ -96,7 +96,7 @@ O Caminho de compromisso permite que você veja uma visão completa dos compromi
    <td><p>Filtrar a jornada por estágio de oportunidade no qual o ponto de contato do usuário se baseia. Permite vários valores adicionando filtros por meio do sinal de mais "+" à direita. O filtro padrão para "é igual a" mostrará sugestões para escolher, mas recomenda-se usar "contém" como critério de filtro para vários filtros em estágios.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Data do Touchpoint</p></td> 
+   <td><p>Data do touchpoint</p></td> 
    <td><p>Filtre a jornada por data/hora do ponto de contato.</p></td> 
   </tr> 
   <tr> 

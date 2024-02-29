@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integração de pessoas"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '867'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ A integração de pessoas da Marketo permite [!DNL Marketo Measure] para começa
 * Instância do Marketo de produção
 * Produção [!DNL Salesforce] ou [!DNL Microsoft Dynamics] instância
 * Quaisquer [!DNL Marketo Measure] subscrição
-* SOLR habilitada (entre em contato com [Suporte ao Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) para habilitar)
+* SOLR habilitada (alcançar até [Suporte ao Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) para habilitar)
 
 ## Como funciona {#how-it-works}
 
@@ -40,7 +40,7 @@ Os clientes têm a opção de relatar o conjunto completo de pessoas do Marketo 
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-Ao relatar clientes em potencial (pessoas) no [!DNL Marketo Measure Discover], você verá o total de seus clientes potenciais do Marketo e do CRM. Para criar relatórios somente sobre pessoas do Marketo ou somente clientes potenciais do CRM, será necessário criar uma Categoria do segmento para a origem e, em seguida, criar Regras de segmento para o Marketo e o CRM usando o campo &quot;Sistema de origem&quot; para definir a regra. Depois que seus segmentos forem criados, você verá a categoria Origem disponível para filtrar pelos seus [!DNL Marketo Measure Discover] painéis.
+Ao relatar clientes em potencial (pessoas) no [!DNL Marketo Measure Discover], você verá o total de seus clientes potenciais do Marketo e do CRM. Para criar relatórios somente sobre pessoas do Marketo ou somente clientes potenciais do CRM, será necessário criar uma Categoria do segmento para a origem e, em seguida, criar Regras de segmento para o Marketo e o CRM usando o campo &quot;Sistema de origem&quot; para definir a regra. Depois que seus segmentos forem criados, você verá a categoria Origem disponível para filtrar pela [!DNL Marketo Measure Discover] painéis.
 
 ![](assets/bizible-discover-1.png)
 
@@ -72,7 +72,7 @@ Ao relatar clientes em potencial (pessoas) no [!DNL Marketo Measure Discover], v
   </tr> 
   <tr> 
    <td><p>EMAIL</p></td> 
-   <td><p>e-mail</p></td> 
+   <td><p>email</p></td> 
   </tr> 
   <tr> 
    <td><p>WEB_SITE</p></td> 

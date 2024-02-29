@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874722
-description: Práticas recomendadas para testes - [!DNL Marketo Measure] - Documentação do produto
+description: Práticas recomendadas para testes - [!DNL Marketo Measure]
 title: Práticas recomendadas para testes
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 5%
+source-wordcount: '181'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Você deve testar todos os diferentes tipos de formulários para garantir a [!DN
 
 1. Registre a URL da página em que você está enviando o formulário e o endereço de email usado.
 
-1. Localize o registro criado no CRM (Lead ou Contato) para o envio desse formulário e verifique se um ponto de contato foi criado corretamente.
+1. Localize o registro criado no CRM (cliente potencial ou contato) desse envio de formulário e verifique se um ponto de contato foi criado corretamente.
 
 >[!NOTE]
 >

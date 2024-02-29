@@ -3,10 +3,10 @@ description: Acesso ao Data Warehouse - Conta Reader - Documentação do produto
 title: Acesso ao Data Warehouse - Conta do Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Para acessar o data warehouse do Snowflake, será necessário navegar até o URL
    >
    >Essa é uma conta somente leitura disponível para sua organização, não apenas para um usuário individual. Qualquer usuário em sua organização que tenha acesso ao [!DNL Marketo Measure] Você pode usar essa conta para fazer logon na conta do leitor de Data Warehouse do Snowflake.
 
-1. Clique no link fornecido no URL do Snowflake e você será direcionado à página de logon do Snowflake, onde digitará seu nome de usuário e senha. _Se você não tiver sua senha, consulte as etapas abaixo para redefini-la_.
+1. Clique no link fornecido no URL do Snowflake e você será direcionado à página de login do Snowflake, na qual digitará seu nome de usuário e senha. _Se você não tiver sua senha, consulte as etapas abaixo para redefini-la_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -59,7 +59,7 @@ Para acessar o data warehouse do Snowflake, será necessário navegar até o URL
 
 ## Conexão com o Snowflake através de ferramentas de terceiros {#connecting-to-snowflake-via-third-party-tools}
 
-Você precisará inserir algumas informações para conectar seu data warehouse Snowflake a uma ferramenta de terceiros.
+você precisará inserir algumas informações para conectar seu data warehouse Snowflake a uma ferramenta de terceiros.
 
 >[!NOTE]
 >

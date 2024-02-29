@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874767
-description: Configuração de estágios de bumerangue - [!DNL Marketo Measure] - Documentação do produto
+description: Configuração de estágios de bumerangue - [!DNL Marketo Measure]
 title: Configurando estágios de bumerangue
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
+source-wordcount: '319'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 >
 >O recurso Boomerang é ativado somente para clientes de Nível 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
 
-Para habilitar [!UICONTROL Bumerangue] Estágios da sua conta. Você deve ser um Administrador da conta. Ou pode ser ativado ao acessar [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Depois que o recurso for habilitado, siga estas instruções para configurá-los.
+Para habilitar [!UICONTROL Bumerangue] Estágios da sua conta. Você deve ser um Administrador da conta. Ou pode ser ativado ao acessar [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Depois que o recurso for ativado, siga estas instruções para configurá-los.
 
 ## Configuração do estágio de bumerangue {#boomerang-stage-setup}
 
@@ -33,7 +33,7 @@ Para habilitar [!UICONTROL Bumerangue] Estágios da sua conta. Você deve ser um
 
    >[!NOTE]
    >
-   >Aguarde de 24 a 48 horas para que seus dados sejam reprocessados de acordo com essas alterações.
+   >Aguarde 24 a 48 horas para que seus dados sejam reprocessados de acordo com essas alterações.
 
 ## Configuração de estágio de bumerangue com atribuição de modelo personalizada {#boomerang-stage-setup-with-custom-model-attribution}
 
@@ -53,10 +53,10 @@ Para habilitar [!UICONTROL Bumerangue] Estágios da sua conta. Você deve ser um
 
    ![](assets/6-1.png)
 
-1. Defina a porcentagem de atribuição que deseja alocar para os Estágios do bumerangue incluídos no modelo personalizado. Assegure que a atribuição total para todos os estágios totalize 100%. Clique em **[!UICONTROL Salvar e processar]**.
+1. Defina a porcentagem de atribuição que deseja alocar para os Estágios do bumerangue incluídos no modelo personalizado. Garanta que a atribuição total para todos os estágios agregue até 100%. Clique em **[!UICONTROL Salvar e processar]**.
 
    ![](assets/7-1.png)
 
    >[!NOTE]
    >
-   >Aguarde de 24 a 48 horas para que seus dados sejam reprocessados de acordo com essas alterações.
+   >Aguarde 24 a 48 horas para que seus dados sejam reprocessados de acordo com essas alterações.

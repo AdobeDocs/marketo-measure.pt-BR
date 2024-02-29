@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Guia de relatórios - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Measure] Guia de relatórios - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Guia de relatórios"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6395'
+source-wordcount: '6431'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 Antes de criar um [!DNL Marketo Measure] relatório, é mais importante confirmar a [!DNL Marketo Measure] As Configurações da conta foram revisadas e configuradas para garantir que os dados nos relatórios sejam precisos e reflitam as especificidades de sua empresa. Além disso, os projetos de relatórios funcionam melhor quando seguem um processo estruturado. Justin Norris, [!DNL Marketo Measure] usuário avançado, defensor e parceiro da [Perkuto](https://perkuto.com/) resumido de forma especializada [como abordar relatórios no [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
@@ -44,7 +44,7 @@ No nível mais alto, há duas categorias de relatório baseadas nos dois objetos
 
 >[!NOTE]
 >
->As MTD são criadas a partir de BT. Basicamente, o rastreamento começa em nível individual por meio dos BTs. Depois que uma Oportunidade é criada em uma Conta, todos os BTs de Contatos na mesma Conta são referenciados e qualificados para criar BATs relacionados à Oportunidade. Portanto, é desejável usar um ou outro dependendo das perguntas que você está tentando responder: perguntas relacionadas às métricas &quot;Pessoas&quot; (relatórios BT) ou perguntas relacionadas às métricas &quot;Oportunidade&quot; (relatórios BAT)
+>As MTD são criadas a partir de BT. Basicamente, o rastreamento começa em nível individual por meio dos BTs. Depois que uma Oportunidade é criada em uma Conta, todos os BTs de Contatos na mesma Conta são referenciados e qualificados para criar BATs relacionados à Oportunidade, portanto, você desejará usar um ou outro dependendo das perguntas que estiver tentando responder: perguntas relacionadas às métricas &quot;Pessoas&quot; (relatórios BT) ou perguntas relacionadas às métricas &quot;Oportunidade&quot; (relatórios BAT)
 
 Artigo de suporte: [Diferença entre Pontos de Contato do Comprador e Pontos de Contato de Atribuição do Comprador](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -218,7 +218,7 @@ No entanto, os gerentes de eventos podem estar mais interessados em quais evento
 * Filtragem de registros internos a partir de testes, geralmente por endereço de email
 * Filtragem com base em determinados &quot;Tipos de registro&quot; que podem ser específicos da sua unidade de negócios
 
-**1.3 | Novos clientes em potencial por conteúdo (somente relatórios de CRM)**
+**1.3 | Novos clientes em potencial por conteúdo (somente relatórios do CRM)**
 
 <table> 
  <tbody>
@@ -262,10 +262,10 @@ No entanto, os gerentes de eventos podem estar mais interessados em quais evento
 >   * /webinário
 >
 >* OU: &#39;URL do formulário&#39; CONTÉM (por exemplo)
->   * /contato
+>   * /contact
 >   * /demo
 
-Os relatórios baseados em &quot;Conteúdo&quot; são de grande valor quando relatados em qualquer parte do funil. No entanto, são usados com mais frequência na parte superior do funil para fornecer informações adicionais sobre um envolvimento inicial de clientes potenciais. Considerando que a &quot;Pesquisa orgânica&quot; tende a ser o canal mais forte na promoção do engajamento inicial (FT), não há muitos dados de nível de &quot;Campanha&quot;.
+Os relatórios baseados em &quot;Conteúdo&quot; são de grande valor quando relatados em qualquer parte do funil. No entanto, são usados com mais frequência na parte superior do funil para fornecer informações adicionais sobre um envolvimento inicial de clientes potenciais. Considerando que a &quot;Pesquisa orgânica&quot; tende a ser o canal mais forte na promoção do engajamento inicial (FT), não há muitos dados a nível de &quot;Campanha&quot;.
 
 Os relatórios baseados em &quot;Conteúdo&quot; são excelentes para obter insights sobre o que está impulsionando os clientes potenciais mais especificamente no Canal de marketing de nível superior, neste caso, &quot;Pesquisa orgânica&quot;.
 
@@ -284,7 +284,7 @@ Os relatórios baseados em &quot;Conteúdo&quot; são excelentes para obter insi
   </tr>
   <tr>
    <td>Campo de data / Tipo de data</td> 
-   <td>Data do Touchpoint</td> 
+   <td>Data do touchpoint</td> 
   </tr>
   <tr>
    <td>Intervalo de datas</td> 
@@ -329,7 +329,7 @@ Essa abordagem para medir o impacto do marketing em influenciar MQLs é essencia
   </tr>
   <tr>
    <td>Campo de data / Tipo de data</td> 
-   <td>Data MQL (ou equivalente) / Data de criação ([!DNL Marketo Measure] Discover)<br> <i>A Data de Criação do Cliente Potencial também poderá ser usada no relatório do CRM se 'Data MQL' não for uma opção no seu CRM. É importante ter em mente que o Campo de data que você está usando nele define o conjunto de dados coortado.</i></td> 
+   <td>Data MQL (ou equivalente) / Data de criação ([!DNL Marketo Measure] Discover)<br> <i>A Data de Criação do Cliente Potencial também poderá ser usada no relatório do CRM se "Data MQL" não for uma opção no seu CRM. É importante ter em mente que o Campo de data que você está usando nele define o conjunto de dados coortado.</i></td> 
   </tr>
   <tr>
    <td>Intervalo de datas</td> 
@@ -347,7 +347,7 @@ Essa abordagem para medir o impacto do marketing em influenciar MQLs é essencia
  </tbody>
 </table>
 
-**2.2 | Clientes potenciais qualificados de marketing por canal (contato único, CRM somente)**
+**2.2 | Clientes potenciais qualificados de marketing por canal (somente para toque único, CRM)**
 
 Essa abordagem para medir o impacto do marketing em influenciar os MQLs se concentra mais em identificar quais _ponto de contato único_ foi o último contato antes do lead atingir o MQL.
 
@@ -384,7 +384,7 @@ Essa abordagem para medir o impacto do marketing em influenciar os MQLs se conce
   </tr>
   <tr>
    <td>Modelos ideais</td> 
-   <td><i>Como esse relatório é filtrado em um único ponto de contato, os modelos de atribuição de nível de lead não são tão relevantes. Assim como no "Relatório de engajamento de lead" (1.4), o número de registros de ponto de contato seria aproveitado aqui para entender quais canais são os mais fortes (cada lead teria apenas um ponto de contato MQL).</i></td> 
+   <td><i>Como esse relatório é filtrado em um único ponto de contato, os modelos de atribuição de nível de lead não são tão relevantes. Assim como no "Relatório de engajamento de lead" (1.4), o número de registros de ponto de contato seria usado aqui para entender quais canais são os mais fortes (cada lead teria apenas um ponto de contato MQL).</i></td> 
   </tr>
  </tbody>
 </table>
@@ -397,7 +397,7 @@ Essa abordagem para medir o impacto do marketing em influenciar os MQLs se conce
 
 Há um terceiro personalizado [!DNL Marketo Measure] objeto no Salesforce que pode ser muito útil ao criar relatórios sobre métricas relacionadas a pessoas: **o [!DNL Marketo Measure] Pessoa (BP)**. A BP soluciona o antigo problema de como representar informações de clientes potenciais e contatos no mesmo relatório. Reúne todos os BT relacionados com uma &quot;pessoa&quot; (um [!DNL Marketo Measure] A ID da pessoa é o endereço de email dela). Independentemente de eles existirem como um lead ou um contato, a BP atua como um objeto de ponte, para ajudar os relatórios a se estender por lead e contato, e é muito útil na produção de relatórios mais sofisticados sobre as pessoas.
 
-A variável [!DNL Marketo Measure] Pessoa está relacionada a apenas um dos objetos de ponto de contato, o ponto de contato do comprador (BT). Isso significa que ele não pode ser aproveitado para uma Oportunidade ou métricas relacionadas à receita. A &#39;[!DNL Marketo Measure] O tipo de relatório de Pontos de contato de pessoa e comprador é ótimo para entender _engajamento total_ como mostra todos os BT se o BT se relaciona com um lead ou contato mais especificamente. Por exemplo, se você tiver uma Campanha do Salesforce sendo usada para rastrear um Evento, poderá ter membros da campanha dentro da Campanha CRM que existem como Clientes potenciais OU Contatos. [!DNL Marketo Measure] criará pontos de contato para os membros da campanha independentemente, mas sem a [!DNL Marketo Measure] Pessoa, os relatórios padrão do Salesforce exigiriam dois relatórios separados para entender quantos _total_ Pontos de contato que você tem no Evento: um que é &quot;Clientes potenciais com pontos de contato do comprador&quot; e outro que é &quot;Contatos com pontos de contato do comprador&quot;. Algumas outras [!DNL Marketo Measure] Os casos de uso de relatórios com base em pessoas estão listados abaixo:
+A variável [!DNL Marketo Measure] Pessoa está relacionada a apenas um dos objetos de ponto de contato, o ponto de contato do comprador (BT). Isso significa que ele não pode ser usado para métricas relacionadas a oportunidade ou receita. A &#39;[!DNL Marketo Measure] O tipo de relatório de Pontos de contato de pessoa e comprador é ótimo para entender _engajamento total_ como mostra todos os BT se o BT se relaciona com um lead ou contato mais especificamente. Por exemplo, se você tiver uma Campanha do Salesforce sendo usada para rastrear um Evento, poderá ter membros da campanha dentro da Campanha CRM que existem como Clientes potenciais OU Contatos. [!DNL Marketo Measure] criará pontos de contato para os membros da campanha independentemente, mas sem a [!DNL Marketo Measure] Pessoa, os relatórios padrão do Salesforce exigiriam dois relatórios separados para entender quantos _total_ Pontos de contato que você tem no Evento: um que é &quot;Clientes potenciais com pontos de contato do comprador&quot; e outro que é &quot;Contatos com pontos de contato do comprador&quot;. Algumas outras [!DNL Marketo Measure] Os casos de uso de relatórios com base em pessoas estão listados abaixo:
 
 **3.1 [!DNL Marketo Measure] Pessoas que baixaram &quot;ebooks&quot; ou &quot;whitepapers&quot; (downloads totais)**
 
@@ -441,7 +441,7 @@ Esse relatório seria o mesmo que um relatório baseado em &quot;Conteúdo&quot;
 
 >[!TIP]
 >
->Para qualquer cliente potencial com [!DNL Marketo Measure] Tipo de relatório de pessoas, comece personalizando o relatório pré-criado intitulado &#39;**[!DNL Marketo Measure]101 | Clientes potenciais/Contatos por canal**&#39;. Esse relatório está disponível pronto para uso e é uma ótima ferramenta [!DNL Marketo Measure] Sandbox baseada em pessoas. Ele é pré-criado e pode ser rapidamente personalizado para necessidades de relatórios mais específicas.
+>Para qualquer cliente potencial com [!DNL Marketo Measure] Tipo de relatório de pessoas, comece personalizando o relatório pré-criado intitulado &#39;**[!DNL Marketo Measure]101 | Clientes Potenciais/Contatos por Canal**&#39;. Esse relatório está disponível pronto para uso e é uma ótima ferramenta [!DNL Marketo Measure] Sandbox baseada em pessoas. Ele é pré-criado e pode ser rapidamente personalizado para necessidades de relatórios mais específicas.
 
 >[!TIP]
 >
@@ -464,7 +464,7 @@ _Este relatório só é aplicável se os formulários de registro estiverem hosp
   <tr>
    <td>Filtros</td> 
    <td>'URL do formulário' CONTÉM (por exemplo)<br>
-   <li>/evento</li>
+   <li>/event</li>
    <i>O valor do filtro acima é apenas para exemplos. O valor real será baseado na estrutura de URL de cada organização.</i></td> 
   </tr>
   <tr>
@@ -500,7 +500,7 @@ Considerando o [!DNL Marketo Measure] Pessoa permite relatar todos os pontos de 
 * [Configuração de canal personalizado online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Configuração de canal personalizado offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 
-Basicamente, os dados do ponto de contato refletirão o que foi rastreado pelo [!DNL Marketo Measure] e podem ser auditados para garantir que a configuração corresponda às entradas com base em coisas como: valores de parâmetro UTM, Páginas de referência ou Tipos de campanha. Se os dados do ponto de contato não corresponderem à sua configuração, algo provavelmente precisará ser ajustado. Além da configuração do &quot;Canal de marketing&quot;, você pode consultar os dados do ponto de contato para determinar quais pontos de contato podem precisar ser [suprimido](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) ou [segmentado](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). É recomendável auditar os dados de ponto de contato em um &#39;[!DNL Marketo Measure] Relatório de pessoas e pontos de contato do comprador no final de cada mês ou trimestre, se possível. Isso garantirá que sua atribuição seja a mais precisa possível. O &#39;[!DNL Marketo Measure] 101 | Clientes potenciais/Contatos por canal&#39;, disponível e pronto para uso, é um ótimo ponto de partida. Inclua os seguintes campos se eles ainda não estiverem incluídos para revisar algumas das partes mais importantes da configuração:
+Basicamente, os dados do ponto de contato refletirão o que foi rastreado pelo [!DNL Marketo Measure] e podem ser auditados para garantir que a configuração corresponda às entradas com base em coisas como: valores de parâmetro UTM, Páginas de referência ou Tipos de campanha. Se os dados do ponto de contato não corresponderem à sua configuração, algo provavelmente precisará ser ajustado. Além da configuração do &quot;Canal de marketing&quot;, você pode consultar os dados do ponto de contato para determinar quais pontos de contato podem precisar ser [suprimido](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) ou [segmentado](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). É recomendável auditar os dados de ponto de contato em um &#39;[!DNL Marketo Measure] Relatório de pessoas e pontos de contato do comprador no final de cada mês ou trimestre, se possível. Isso garantirá que sua atribuição seja a mais precisa possível. O &#39;[!DNL Marketo Measure] 101 | Relatório de clientes potenciais/contatos por canal disponível e pronto para uso é um ótimo ponto de partida. Inclua os seguintes campos se eles ainda não estiverem incluídos para revisar algumas das partes mais importantes da configuração:
 
 * **Canal de marketing** - Caminho = Marketing Channel.Subchannel (valores definidos em [!DNL Marketo Measure])
 * **Fonte do ponto de contato** = utm_source
@@ -583,7 +583,7 @@ Resumir os dados de ponto de contato da atribuição do comprador das suas oport
    <td>
    <li>Estágio da oportunidade* <i>(opcional) dependendo de quais Oportunidades específicas você pode limitar ao relatório. É possível relatar apenas sobre as MTDs que ainda estão associadas somente a Oportunidades "Abertas" (por exemplo)</i></li>
    <li>Tipo de oportunidade (é comum filtrar determinadas oportunidades como "Novos negócios" e não <i>all</i> Oportunidades)</li><br>
-   *Um filtro de Segmento para 'Tipo de oportunidade' deve ser utilizado em [!DNL Marketo Measure] Descobrir</td> 
+   *Um filtro de Segmento para 'Tipo de oportunidade' deve ser usado em [!DNL Marketo Measure] Descobrir</td> 
   </tr>
   <tr>
    <td>Campo de data / Tipo de data</td> 
@@ -635,7 +635,7 @@ Resumir os dados de ponto de contato da atribuição do comprador das suas oport
    <li>Canal de marketing = Pesquisa paga</li>
    <li>Estágio da oportunidade* <i>(opcional) dependendo de quais Oportunidades específicas você pode limitar ao relatório. Este exemplo é baseado na Receita do pipeline, que é definida em [!DNL Marketo Measure] por Oportunidades "Abertas" que representam receita potencial/pipeline aberto)</i></li>
    <li>Tipo de oportunidade (é comum filtrar determinadas oportunidades como "Novos negócios" e não <i>all</i> Oportunidades)</li><br>
-   *Um filtro de Segmento para 'Tipo de oportunidade' deve ser utilizado em [!DNL Marketo Measure] Descobrir</td> 
+   *Um filtro de Segmento para 'Tipo de oportunidade' deve ser usado em [!DNL Marketo Measure] Descobrir</td> 
   </tr>
   <tr>
    <td>Campo de data / Tipo de data</td> 
@@ -725,7 +725,7 @@ Ao gerar relatórios sobre o ROI no [!DNL Marketo Measure] Descubra, é recomend
 
 Os filtros destacados abaixo são cruciais para um relatório focado no ROI no [!DNL Marketo Measure] (provavelmente, você definirá esses filtros nas placas &quot;Visão geral&quot;, &quot;CMO&quot; ou &quot;ROI&quot;):
 
-**5.1 | ROI no painel &quot;Visão geral&quot;**
+**5.1 | ROI na placa &quot;Visão geral&quot;**
 
 ![](assets/bizible-reporting-guide-4.png)
 

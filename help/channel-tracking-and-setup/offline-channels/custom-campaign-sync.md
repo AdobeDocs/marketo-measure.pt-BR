@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874588
-description: Sincronização de campanha personalizada - [!DNL Marketo Measure] - Documentação do produto
+description: Sincronização de campanha personalizada - [!DNL Marketo Measure]
 title: Sincronização de campanha personalizada
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---

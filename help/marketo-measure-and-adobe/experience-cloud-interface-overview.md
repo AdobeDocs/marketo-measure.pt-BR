@@ -1,16 +1,16 @@
 ---
-description: Visão geral da interface do Adobe Experience Cloud - [!DNL Marketo Measure] - Documentação do produto
-title: Visão geral da interface do Adobe Experience Cloud
+description: Visão geral da interface do Adobe Experience Cloud - [!DNL Marketo Measure]
+title: Visão geral da interface da Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '277'
+ht-degree: 4%
 
 ---
 
-# Visão geral da interface do Adobe Experience Cloud {#experience-cloud-interface-overview}
+# Visão geral da interface da Adobe Experience Cloud {#experience-cloud-interface-overview}
 
 A interface da Adobe Experience Cloud alinha a aparência dos aplicativos e serviços da Adobe Experience Cloud. Mas é mais do que um novo design. É um aplicativo de página única que fornece experiência do usuário em uma única instância.
 
@@ -28,7 +28,7 @@ Se você estiver _não_ já estiver conectado a um produto Adobe Experience Clou
 
 ## Novos recursos {#new-features}
 
-Além da aparência atualizada, você observará os seguintes recursos:
+Além da aparência atualizada, observe os seguintes recursos:
 
 **Gerenciamento de domínio**
 
@@ -44,7 +44,7 @@ Procure por artigos de suporte, envie tíquetes, forneça feedback, tudo dentro 
 
 **Alternador de aplicativos**
 
-Aqueles com acesso a vários produtos de Adobe poderão alternar facilmente entre eles.
+Aqueles com acesso a vários produtos de Adobe podem alternar facilmente entre eles.
 
 ![](assets/unified-shell-overview-7.png)
 
@@ -58,7 +58,7 @@ Visualize e interaja com notificações específicas de produtos e anúncios ger
 
 **Configurações do Adobe**
 
-Clique no ícone do perfil para alterar o idioma ou outras preferências do Adobe. Você também pode fazer [!DNL Marketo Measure]Alterações específicas do clicando em **Minhas configurações**.
+Para alterar o idioma ou outras preferências do Adobe, clique no ícone do perfil. Você também pode fazer [!DNL Marketo Measure]Alterações específicas do clicando em **Minhas configurações**.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -66,7 +66,7 @@ Clique no ícone do perfil para alterar o idioma ou outras preferências do Adob
 
 **O que acontece com meus marcadores?**
 
-Os marcadores serão redirecionados. Por exemplo, se você navegasse até https://apps.marketo-measure.com/Discover/391, seria redirecionado para https://experience.adobe.com/marketo-measure/Discover/391 após concluir a autenticação.
+Os marcadores são redirecionados. Por exemplo, se você navegasse até https://apps.marketo-measure.com/Discover/391, seria redirecionado para https://experience.adobe.com/marketo-measure/Discover/391 após concluir a autenticação.
 
 **Não consigo fazer login no [!DNL Marketo Measure] por meio da interface Experience Cloud. Qual pode ser o problema?**
 

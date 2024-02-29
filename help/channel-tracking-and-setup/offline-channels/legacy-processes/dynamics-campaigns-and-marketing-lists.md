@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874610
-description: Campanhas do Dynamics e listas de marketing - [!DNL Marketo Measure] - Documentação do produto
+description: Campanhas do Dynamics e listas de marketing - [!DNL Marketo Measure]
 title: Campanhas do Dynamics e listas de marketing
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 2%
+source-wordcount: '818'
+ht-degree: 1%
 
 ---
 

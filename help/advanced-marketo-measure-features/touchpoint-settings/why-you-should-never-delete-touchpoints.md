@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874560
-description: Por que você nunca deve excluir pontos de contato - [!DNL Marketo Measure] - Documentação do produto
+description: Por que você nunca deve excluir pontos de contato - [!DNL Marketo Measure]
 title: Por que você nunca deve excluir touchpoints
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 5%
 
 ---
@@ -21,4 +21,4 @@ Quando um ponto de contato é excluído, ele cria um buraco nos dados de atribui
 
 ![](assets/1.png)
 
-Se os pontos de contato tiverem sido excluídos do SFDC, entre em contato com [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar uma reimportação dos seus dados.
+Se os pontos de contato tiverem sido excluídos do SFDC, entre em contato com [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar uma reimportação dos seus dados.

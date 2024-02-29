@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874664
-description: Drill-throughs - [!DNL Marketo Measure] - Documentação do produto
+description: Drill-throughs - [!DNL Marketo Measure]
 title: Detalhamentos
 exl-id: c9ce5a51-e8f9-40ff-aa10-6b059e4998d3
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '3849'
-ht-degree: 4%
+source-wordcount: '3847'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +35,11 @@ _Drill-Into: Receita total por mês dividida por semana ou data._
 
 Definição: Total de gastos por mês por meio de gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Negócios**
+**Transações**
 
 Definição: número total de ofertas por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Receita de planejamento**
+**Receita do pipeline**
 
 Definição: Receita total do pipeline por mês via gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -47,7 +47,7 @@ Definição: Receita total do pipeline por mês via gráfico de barras e tabela.
 
 Definição: Receita ou gasto total de cada canal por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
-**Custo por negócio**
+**Custo por oferta**
 
 Definição: o gasto total dividido pelo número total de negócios, fornecendo o custo médio necessário para adquirir uma oportunidade conquistada fechada. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
@@ -73,7 +73,7 @@ Definição: contagem total de gastos ou negócios de cada canal por mês por me
 
 ![](assets/3-1.png)
 
-**Total da receita**
+**Receita Total**
 
 Definição: Receita total por mês através do gráfico de barras e da tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -83,7 +83,7 @@ Definição: Receita total por mês através do gráfico de barras e da tabela. 
 
 _Receita total por mês, discriminada por semana ou data._
 
-**Total de Ofertas**
+**Total de ofertas**
 
 Definição: número total de ofertas por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -93,7 +93,7 @@ Definição: número total de ofertas por mês por meio de um gráfico de barras
 
 _Número total de ofertas por mês, detalhado por semana ou data._
 
-**Total de Receita de Pipeline**
+**Receita total do pipeline**
 
 Definição: Receita total do pipeline por mês via gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -105,7 +105,7 @@ _Receita total do pipeline por mês dividida por semana ou data._
 
 ![](assets/4-1.png)
 
-**Total de leads**
+**Total de clientes em potencial**
 
 Definição: total de clientes em potencial por mês por meio de gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -115,7 +115,7 @@ Definição: total de clientes em potencial por mês por meio de gráfico de bar
 
 _Total de clientes potenciais por mês detalhado por semana ou data._
 
-**Total de contatos**
+**Total de Contatos**
 
 Definição: total de contatos por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -125,7 +125,7 @@ Definição: total de contatos por mês por meio de um gráfico de barras e uma 
 
 _Total de contatos por mês, detalhados por semana ou data._
 
-**Total de Oportunidades**
+**Total de oportunidades**
 
 Definição: total de oportunidades por mês através de gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -137,7 +137,7 @@ _Oportunidades totais por mês detalhadas por semana ou data._
 
 ![](assets/5-1.png)
 
-**Visitas Exclusivas**
+**Visitas únicas**
 
 Definição: Número total de exibições de página por mês por gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -153,7 +153,7 @@ Definição: número total de visitas ao site por mês via gráfico de barras e 
 
 Definição: o número total de visitas ao site rastreadas que mostram a tendência em um período específico. Use o filtro Agrupar por para alterar a pilha por canal, subcanal, campanha, conta, grupo de anúncios, anúncio, anunciante, criativo, palavra-chave, posicionamento e site. Isso aparecerá vazio se esse recurso estiver desativado.
 
-**Formulários**
+**Forms**
 
 Definição: número total de envios de formulários por mês através do gráfico de barras e da tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -175,15 +175,15 @@ Definição: Total de gastos por mês por meio de gráfico de barras e tabela. C
 
 _Total gasto por mês dividido por semana, data ou hora. O tempo é possível para gastar desde [!DNL Marketo Measure] O baixa o gasto real por minuto de nossas conexões de anúncios._
 
-**Gasto por Canal**
+**Gastos por canal**
 
 Definição: Total de gastos de cada canal por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
-**Gasto por Subcanal**
+**Gastos por Subcanal**
 
 Definição: gasto total de cada subcanal por mês por meio de gráfico de barras e tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
-**Gasto por Campanha**
+**Gastos por campanha**
 
 Definição: gasto total de cada campanha por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
@@ -195,7 +195,7 @@ Definição: gasto total de cada campanha por mês por meio de um gráfico de ba
 
 Definição: o número médio de dias que as oportunidades estão em seu ciclo de vendas, desde o primeiro contato anônimo até o fechamento da oportunidade.
 
-**Oportunidades ativas**
+**Oportunidades Ativas**
 
 Definição: O número total de oportunidades de qualquer Oportunidade em Aberto, significando que não é Perdida Fechada ou Ganha Fechada.
 
@@ -203,7 +203,7 @@ Definição: O número total de oportunidades de qualquer Oportunidade em Aberto
 
 Definição: O valor médio de uma oportunidade Ganha Fechada.
 
-**Taxa de obtenções**
+**Taxa de Ganhos**
 
 Definição: O número total de oportunidades Ganhas Fechadas dividido pelo número total de oportunidades Perdidas Fechadas e Ganhas Fechadas.
 
@@ -211,7 +211,7 @@ Definição: O número total de oportunidades Ganhas Fechadas dividido pelo núm
 
 Definição: o número médio de dias que as Oportunidades estão em seu ciclo por estágio, agrupadas pelo Canal de marketing e mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC, OC) e estágios personalizados.
 
-**Velocidade de Lead por Canal**
+**Velocidade do lead por canal**
 
 Definição: o número médio de dias que os clientes potenciais estão em seu ciclo por estágio antes de serem convertidos em um Contato/Oportunidade/Valor, agrupados pelo Canal de marketing e mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC) e estágios personalizados.
 
@@ -221,7 +221,7 @@ Definição: o número médio de dias que os clientes potenciais estão em seu c
 
 Definição: O número médio de dias que as Oportunidades estão em seu ciclo por estágio, mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC, OC) e estágios personalizados. os números aqui refletem o tempo por estágio no gráfico Velocidade da oportunidade por canal.
 
-**Velocidade média de lead**
+**Velocidade média do lead**
 
 Definição: O número médio de dias que os clientes potenciais estão em seu ciclo por estágio antes de serem convertidos em um Contato/Oportunidade/Valor, mostrando o tempo necessário para avançar para o próximo estágio. Os estágios que aparecem aqui são estágios de marcos (FT, LC) e estágios personalizados. os números aqui refletem o tempo por estágio na Velocidade do lead pelo gráfico Canal.
 
@@ -237,15 +237,15 @@ Definição: o número médio de dias que os clientes em potencial estão em seu
 
 ![](assets/9-1.png)
 
-**Total da receita**
+**Receita Total**
 
 Definição: Receita total por mês através do gráfico de barras e da tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Total de Receita de Pipeline**
+**Receita total do pipeline**
 
 Definição: Receita total do pipeline por mês via gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Leads Correspondidos**
+**Clientes Potenciais Correspondentes**
 
 Definição: número total de clientes em potencial correspondidos com êxito a uma conta.
 
@@ -273,11 +273,11 @@ Definição: uma lista de IDs de conta do mês selecionado.
 
 _O número de contas tocadas detalhadas por semana, data ou hora._
 
-## Web Analytics {#web-analytics}
+## Análise da web {#web-analytics}
 
 ![](assets/10-1.png)
 
-**Visitas Exclusivas**
+**Visitas únicas**
 
 Definição: número total de visitas únicas ao site por mês, por meio de um gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -289,11 +289,11 @@ Definição: gasto total dividido pelo número total de visitas únicas. A parti
 
 Definição: uma lista de páginas de aterrissagem com base no número de visitantes únicos de cada URL.
 
-**Visitas Exclusivas por Origem**
+**Visitas únicas por origem**
 
 Definição: uma visualização nas fontes de visitantes únicos do site.
 
-**Visitas Exclusivas ao longo do tempo**
+**Visitas únicas ao longo do tempo**
 
 Definição: o número total de visitas únicas rastreadas, que mostra uma tendência em um período específico.
 
@@ -311,7 +311,7 @@ Definição: o gasto total dividido pelo número total de visitas.
 
 Definição: uma lista de páginas de aterrissagem com base no número de visitas em cada URL.
 
-**Visitas por Origem**
+**Visitas por origem**
 
 Definição: origem dos visitantes do site. Pode ser alterado por Canal, Subcanal, Campanha, Conta, Grupo de publicidade, Anúncio, Anunciante, Criativo, Palavra-chave, Posicionamento e Site.
 
@@ -321,7 +321,7 @@ Definição: o número total de visitas rastreadas, que mostra a tendência em u
 
 ![](assets/12-1.png)
 
-**Visualizações de página**
+**Exibições de página**
 
 Definição: Número total de exibições de página por mês por gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -345,7 +345,7 @@ Definição: o número total de formulários rastreados, mostrando a tendência 
 
 ![](assets/13-1.png)
 
-**Formulários**
+**Forms**
 
 Definição: número total de envios de formulários por mês através do gráfico de barras e da tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -357,11 +357,11 @@ Definição: o gasto total dividido pelo total de formulários enviados.
 
 Definição: uma lista de URLs de formulário com base no número enviado em cada URL.
 
-**Leads por Página de Aterrissagem**
+**Clientes potenciais por página inicial**
 
 Definição: uma lista de páginas de aterrissagem com base no número de leads gerados em cada página de aterrissagem.
 
-**Leads por URL de Formulário**
+**Clientes potenciais por URL de formulário**
 
 Definição: uma lista de URLs de formulário com base no número de leads gerados de cada URL.
 
@@ -387,15 +387,15 @@ Definição: Total de gastos por mês por meio de gráfico de barras e tabela. A
 
 Definição: o retorno calculado sobre o investimento do total da receita e do gasto total (com base no modelo de atribuição).
 
-**Negócios**
+**Transações**
 
 Definição: número total de ofertas por mês por meio de um gráfico de barras e uma tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Custo por negócio**
+**Custo por oferta**
 
 Definição: o gasto total dividido pelo número total de negócios, fornecendo o custo médio necessário para adquirir uma oportunidade conquistada fechada.
 
-**Receita de planejamento**
+**Receita do pipeline**
 
 Definição: Receita total do pipeline por mês via gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -429,33 +429,33 @@ Definição: contagem total de gastos ou negócios de cada canal por mês por me
 
 ![](assets/16-1.png)
 
-**Total da receita**
+**Receita Total**
 
 Definição: Receita total por mês através do gráfico de barras e da tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Páginas de Aterrissagem por Receita**
+**Páginas de aterrissagem por receita**
 
 Definição: a receita total de cada landing page por meio do gráfico de barras e da tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
-**Total de Receita de Pipeline**
+**Receita total do pipeline**
 
 Definição: Receita total do pipeline por mês via gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Páginas de Aterrissagem por Receita de Pipeline**
+**Páginas de aterrissagem por receita do pipeline**
 
 Definição: a receita total do pipeline de cada página de aterrissagem por meio de um gráfico de barras e uma tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
-**Total de Oportunidades**
+**Total de oportunidades**
 
 Definição: número total de oportunidades por mês através de um gráfico de barras e uma tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Páginas de Aterrissagem por Contagem de Oportunidades**
+**Páginas de aterrissagem por contagem de oportunidade**
 
 Definição: número total de oportunidades de cada página de aterrissagem por meio de um gráfico de barras e uma tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
 ![](assets/17-1.png)
 
-**Total de Formulários**
+**Total do Forms**
 
 Definição: número total de formulários por mês por meio de gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
@@ -469,11 +469,11 @@ Definição: número total de formulários enviados da URL do formulário por m�
 
 ![](assets/18-1.png)
 
-**Visitas Exclusivas**
+**Visitas únicas**
 
 Definição: o número total de visitas únicas ao site rastreadas em todos os visitantes conhecidos e anônimos. Detalhe para ver as visitas exclusivas ao site rastreadas por mês.
 
-**Principais Páginas de Aterrissagem por Visitas Exclusivas**
+**Principais páginas de aterrissagem por visitas únicas**
 
 Definição: uma lista de páginas de destino com base no número de visitas exclusivas a cada página de destino. Faça drill-in para ver as visitas exclusivas por mês ao URL selecionado.
 
@@ -481,15 +481,15 @@ Definição: uma lista de páginas de destino com base no número de visitas exc
 
 Definição: o número total de visitas ao site rastreadas em todos os visitantes conhecidos e anônimos. Detalhe para ver as visitas do site rastreadas por mês.
 
-**Principais Páginas de Aterrissagem por Visitas**
+**Principais páginas de aterrissagem por visitas**
 
 Definição: uma lista de páginas de destino com base no número de visitas iniciais a cada página de destino. Faça drill-in para ver as visitas por mês ao URL selecionado.
 
-**Total de leads**
+**Total de clientes em potencial**
 
 Definição: número total de clientes potenciais por mês por meio de gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Páginas de Aterrissagem por Contagem de Leads**
+**Páginas de aterrissagem por contagem de leads**
 
 Definição: número total de clientes em potencial de cada página de aterrissagem por meio de um gráfico de barras e uma tabela. A partir daí, é possível detalhar essa linha por um único mês ou dividir um mês por semana, dia ou hora.
 
@@ -513,7 +513,7 @@ Definição: Número total de cliques por mês por meio de um gráfico de barras
 
 Definição: o gasto total dos cliques rastreados dividido pelo total de cliques.
 
-**Leads**
+**Clientes potenciais**
 
 Definição: Número total de clientes potenciais com base no modelo de atribuição.
 
@@ -525,7 +525,7 @@ Definição: O gasto total dos clientes potenciais criados dividido pelo total d
 
 Definição: número total de visitas ao site por mês via gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 
-**Visualizações de página**
+**Exibições de página**
 
 Definição: Número total de exibições de página por mês por gráfico de barras e tabela. A partir daí, é possível entrar em um único mês ou sair um mês por semana, dia ou hora.
 

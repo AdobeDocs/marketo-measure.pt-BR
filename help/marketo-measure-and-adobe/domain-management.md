@@ -1,22 +1,22 @@
 ---
-description: Gerenciamento de domínio - [!DNL Marketo Measure] - Documentação do produto
+description: Gerenciamento de domínio - [!DNL Marketo Measure]
 title: Gerenciamento de domínio
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 1%
 
 ---
 
 # Gerenciamento de domínio {#domain-management}
 
-Para locatários habilitados para IMS em execução [!DNL Marketo Measure] na interface do Experience Cloud, [!DNL Marketo Measure] O fornece uma interface que permite aos usuários gerenciar sua própria lista de domínios. [!DNL Marketo Measure] os usuários devem primeiro verificar todos os domínios que desejam rastrear na [Adobe Admin Console](https://adminconsole.adobe.com/). Depois que os domínios forem verificados no Admin Console, os usuários poderão gerenciar se [!DNL Marketo Measure] O usa esses domínios para rastrear o tráfego do site.
+Para locatários habilitados para IMS em execução [!DNL Marketo Measure] na interface do Experience Cloud, [!DNL Marketo Measure] O fornece uma interface que permite aos usuários gerenciar sua própria lista de domínios. [!DNL Marketo Measure] usuários devem primeiro verificar todos os domínios que desejam rastrear no [Adobe Admin Console](https://adminconsole.adobe.com/). Depois que os domínios forem verificados no Admin Console, os usuários poderão gerenciar se [!DNL Marketo Measure] O usa esses domínios para rastrear o tráfego do site.
 
 ## Adicionar domínios no Admin Console {#adding-domains-in-admin-console}
 
-Os usuários do IMS com acesso à Adobe Admin Console podem adicionar e validar os domínios que possuem. A validação de domínio envolve adicionar um registro DNS para cada domínio e, subsequentemente, permitir que o Admin Console verifique esse registro.
+Os usuários do IMS com acesso à Adobe Admin Console podem adicionar e validar os domínios que possuem. A validação de domínio envolve adicionar um registro DNS para cada domínio e permitir que o Admin Console verifique esse registro.
 
 ![](assets/domain-management-1.png)
 
@@ -24,11 +24,11 @@ As instruções para adicionar domínios podem ser encontradas na [Documentaçã
 
 ## Gerenciamento de domínios no [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-Depois que um domínio é adicionado ao Admin Console, [!DNL Marketo Measure] O sincronizará este registro em nosso banco de dados regularmente. Essa sincronização acontece à noite e também sempre que um usuário visita a **[!UICONTROL Domínios]** página no [!DNL Marketo Measure] IU. Por padrão, todos os registros que [!DNL Marketo Measure] as importações serão desativadas, e o locatário deverá ativar manualmente cada domínio.
+Depois que um domínio é adicionado ao Admin Console, [!DNL Marketo Measure] O sincroniza este registro no banco de dados regularmente. Essa sincronização acontece à noite e também sempre que um usuário visita a **[!UICONTROL Domínios]** página no [!DNL Marketo Measure] IU. Por padrão, todos os registros que [!DNL Marketo Measure] as importações estão desativadas e o locatário deve ativar manualmente cada domínio.
 
 ![](assets/domain-management-2.png)
 
-No **[!UICONTROL Integração]** > **[!UICONTROL Domínios]** , o usuário verá todos os domínios que registrou no Admin Console, juntamente com seu status. Cada domínio pode ser ativado ou desativado. Se um domínio estiver ativado, [!DNL Marketo Measure] o rastreamento coletará todo o tráfego visto nesse domínio. Se um domínio estiver desativado, [!DNL Marketo Measure] O ignorará qualquer tráfego visto desse domínio e não criará pontos de contato ou outros dados. [!DNL Marketo Measure] também confirmará a desativação de um domínio e alertará sobre as ramificações:
+No **[!UICONTROL Integração]** > **[!UICONTROL Domínios]** página, o usuário vê todos os domínios que registrou no Admin Console, juntamente com seu status. Cada domínio pode ser ativado ou desativado. Se um domínio estiver ativado, [!DNL Marketo Measure] O rastreamento do coleta qualquer tráfego que seja visto nesse domínio. Se um domínio estiver desativado, [!DNL Marketo Measure] O ignora qualquer tráfego visto desse domínio e não cria pontos de contato ou outros dados. [!DNL Marketo Measure] confirma a desativação de um domínio e avisa sobre as ramificações:
 
 ![](assets/domain-management-3.png)
 
@@ -45,17 +45,17 @@ Os status de Admin Console são classificados da seguinte maneira:
 
 Os status de rastreamento podem ser os seguintes:
 
-* **ATIVO**: [!DNL Marketo Measure] está recebendo dados deste domínio no momento
-* **DESATIVADO**: este domínio está disponível para rastreamento, mas está desativado no momento
+* **ATIVO**: [!DNL Marketo Measure] está recebendo dados deste domínio
+* **DESATIVADO**: este domínio está disponível para rastreamento, mas está desativado
 * **INDISPONÍVEL**: este domínio não está disponível para rastreamento porque não foi verificado
 
-Passar o mouse sobre qualquer item de status individual acionará uma dica de ferramenta que explica mais detalhadamente esse status.
+Passar o mouse sobre qualquer item de status individual aciona uma dica de ferramenta que explica melhor esse status.
 
 ## Perguntas frequentes {#faq}
 
 **O que acontece quando um domínio é removido no Admin Console?**
 
-Quando um domínio é removido no Admin Console, [!DNL Marketo Measure] marcará o domínio como excluído. [!DNL Marketo Measure] interromperá imediatamente o rastreamento do tráfego neste domínio, mas não removerá nenhum dado coletado anteriormente.
+Quando um domínio é removido no Admin Console, [!DNL Marketo Measure] marca o domínio como excluído. [!DNL Marketo Measure] interromperá imediatamente o rastreamento do tráfego neste domínio, mas não removerá nenhum dado coletado anteriormente.
 
 **Por que não consigo habilitar um domínio?**
 
@@ -63,4 +63,4 @@ Há vários motivos pelos quais um domínio pode não ser permitido para seleç�
 
 **Como remover um domínio desta lista?**
 
-Se um domínio tiver a opção &quot;habilitado&quot; desligada, [!DNL Marketo Measure] ignorá-lo-á e será efetivamente removido do [!DNL Marketo Measure]. Para remover permanentemente um domínio do [!DNL Marketo Measure], você deve desativá-lo em [!DNL Marketo Measure]e, em seguida, remova-o do Admin Console.
+Se um domínio tiver a opção &quot;habilitado&quot; desligada, [!DNL Marketo Measure] o ignora e é efetivamente removido de [!DNL Marketo Measure]. Para remover permanentemente um domínio do [!DNL Marketo Measure], você deve desativá-lo em [!DNL Marketo Measure]e, em seguida, remova-o do Admin Console.

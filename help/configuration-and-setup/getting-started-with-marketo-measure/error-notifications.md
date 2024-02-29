@@ -1,17 +1,17 @@
 ---
-description: Notificações de erro – [!DNL Marketo Measure] – Documentação do produto
+description: Notificações de erro - [!DNL Marketo Measure]
 title: Notificações de erro
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
 # Notificações de erro {#error-notifications}
 
-Veja abaixo uma lista de erros que você pode receber por notificação no aplicativo ou por email. Se você receber alguma dessas mensagens, siga as respectivas etapas de solução de problemas. Se essas etapas não resolverem o problema, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
+Veja abaixo uma lista de erros que você pode receber por notificação no aplicativo ou por email. Se você receber alguma dessas notificações, siga as respectivas etapas de solução de problemas. Se essas etapas não resolverem o problema, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -54,7 +54,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Erro durante a exportação do Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Erro: upload não permitido. Confirme o esquema da fonte de dados antes de fazer o upload. ID da Fonte de dados: 1234</td>
+      <td>Erro durante a exportação do Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Erro: upload não permitido. Confirme o esquema de fonte de dados antes de fazer upload. ID da Fonte de dados: 1234</td>
       <td>A integração do Adobe Analytics não está configurada corretamente.</td>
       <td>Consulte os seguintes artigos de ajuda para garantir a configuração correta:
         <ul>
@@ -139,7 +139,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Erro durante a Importação do CRM: UNSUPPORTED_CRM_PACKAGE_VERSION : atualize o pacote do CRM</td>
+      <td>Erro durante a Importação do Crm: UNSUPPORTED_CRM_PACKAGE_VERSION : atualize o pacote do crm</td>
       <td>Não há mais suporte para o pacote atual detectado.</td>
       <td>Atualize seu pacote para a versão mais recente:
         <ul>

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874688
-description: Custos de campanha de CRM - [!DNL Marketo Measure] - Documentação do produto
+description: Custos de campanha de CRM - [!DNL Marketo Measure]
 title: Custos de campanhas de CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Isso pode ser útil para rastrear os gastos excessivos com marketing ou ferramen
 
 ## Sincronização de programa do Marketo {#marketo-program-sync}
 
-Se você trouxer Programas do Marketo para o CRM como Campanhas, convém garantir que a Data inicial, a Data final e o mapeamento do Custo do Período estejam configurados para os campos de CRM necessários. Como não há mapeamento para o campo Ativar pontos de contato do comprador, ainda será necessário ativar essas campanhas para que saibamos quais são os custos.
+Se você trouxer Programas do Marketo para o CRM como Campanhas, desejará garantir que a Data inicial, a Data final e o mapeamento do Custo do Período estejam configurados nos campos CRM necessários. Como não há mapeamento para o campo Ativar pontos de contato do comprador, ainda será necessário ativar essas campanhas para que saibamos quais são os custos.
 
 ## Editando os Custos {#editing-the-costs}
 

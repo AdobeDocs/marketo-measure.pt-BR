@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37357059
-description: OAuth com [!DNL Azure Active Directory] para Dynamics CRM - [!DNL Marketo Measure] - Documentação do produto
+description: OAuth com [!DNL Azure Active Directory] para Dynamics CRM - [!DNL Marketo Measure]
 title: OAuth com [!DNL Azure Active Directory] para Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -116,9 +116,9 @@ b. Segredo do cliente é o segredo do aplicativo criado no Portal do Azure para 
 
 ![](assets/creating-2e.png)
 
-c. O URI da ID do aplicativo é o URL da API da Web de destino (recurso seguro). Para localizar a URL da ID do aplicativo, no Portal do Azure, clique em [!DNL Azure Active Directory], clique em Registros do aplicativo, abra a página Configurações do aplicativo e clique em Propriedades. Também pode ser um recurso externo como `https://graph.microsoft.com`. Normalmente, essa é a URL da instância do Dynamics.
+c. O URI da ID do aplicativo é o URL da API da Web de destino (recurso seguro). Para localizar a URL da ID do aplicativo, no Portal do Azure, clique em [!DNL Azure Active Directory], clique em Registros do aplicativo, abra a página Configurações do aplicativo e clique em Propriedades. Também pode ser um recurso externo, como `https://graph.microsoft.com`. Normalmente, essa é a URL da instância do Dynamics.
 
-1. Depois de clicar em **[!UICONTROL Enviar]**, você será solicitado a fazer logon com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será conectada como provedor de dados no [!DNL Marketo Measure].
+1. Depois de clicar em **[!UICONTROL Enviar]**, será solicitado que você entre com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será conectada como provedor de dados no [!DNL Marketo Measure].
 
 ## Reautenticação da conta do Dynamics {#re-authenticating-your-dynamics-account}
 
@@ -130,4 +130,4 @@ c. O URI da ID do aplicativo é o URL da API da Web de destino (recurso seguro).
 
    ![](assets/re-authenticating-3.png)
 
-1. Depois de clicar em **[!UICONTROL Enviar]**, você será solicitado a fazer logon com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será reautorizada dentro de [!DNL Marketo Measure].
+1. Depois de clicar em **[!UICONTROL Enviar]**, será solicitado que você entre com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será reautorizada dentro de [!DNL Marketo Measure].

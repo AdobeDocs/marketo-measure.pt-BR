@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: Modelo e configuração de atribuição personalizados - [!DNL Marketo Measure] - Documentação do produto
+description: Modelo e configuração de atribuição personalizados - [!DNL Marketo Measure]
 title: Modelo e configuração de atribuição personalizada
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Veja abaixo uma visão geral do [!DNL Marketo Measure] modelo de atribuição personalizado e como configurá-lo.
 
-## Modelo de atribuição personalizada {#custom-attribution-model}
+## Modelo de atribuição personalizado {#custom-attribution-model}
 
 A variável [!DNL Marketo Measure] O modelo de Atribuição personalizada permite que os usuários escolham quais pontos de contato ou estágios personalizados incluir no modelo. Os usuários podem controlar a porcentagem de crédito de receita atribuída a esses pontos de contato e estágios ou podem usar os valores percentuais de atribuição sugeridos pelo [!DNL Marketo Measure] Modelo de aprendizado de máquina.
 
@@ -27,7 +27,7 @@ A variável [!DNL Marketo Measure] O modelo de Atribuição personalizada permit
 
    Fazer logon em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Ir para [!UICONTROL Minha conta] > [!UICONTROL Configurações] > e na seção CRM, selecione **[!UICONTROL Mapeamento de preparo]**.
 
-   Aqui, você deverá selecionar os estágios de Clientes Potenciais/Contatos e Oportunidade a serem incluídos selecionando o **[!UICONTROL Incluir no modelo]** caixa.
+   Em seguida, escolha os estágios de Clientes Potenciais/Contatos e Oportunidade a serem incluídos, selecionando o **[!UICONTROL Incluir no modelo]** caixa.
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ A variável [!DNL Marketo Measure] O modelo de Atribuição personalizada permit
 
    Se houver outros estágios que você deseja incluir no modelo, mas que não estejam na variável [!UICONTROL Status do Cliente Potencial/Contato] ou [!UICONTROL Estágio da oportunidade] , você pode definir seu próprio estágio personalizado com base em campos no seu CRM.
 
-   No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um campo de data. A regra simplesmente declara que, se o campo Data MQL não estiver vazio, ele deverá ser considerado um MQL e deverá ser incluído no modelo personalizado. Observe que também é importante classificar os estágios personalizados depois de criados, para que sigam a progressão do ciclo de vendas.
+   No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um campo de data. A regra simplesmente declara que, se o campo Data MQL não estiver vazio, ele deverá ser considerado um MQL e deverá ser incluído no modelo personalizado. Também é importante classificar os estágios personalizados depois de criados, para que sigam a progressão do ciclo de vendas.
 
    ![](assets/2-1.png)
 
@@ -51,7 +51,7 @@ A variável [!DNL Marketo Measure] O modelo de Atribuição personalizada permit
    >
    >Não se esqueça de ativar o rastreamento de histórico para campos personalizados.
 
-Se um campo personalizado estiver sendo usado em seu modelo personalizado, o rastreamento do Histórico de campos DEVERÁ ser habilitado no CRM. Para obter instruções sobre como ativar o rastreamento do histórico de campo, [clique aqui](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+Se um campo personalizado for usado em seu modelo personalizado, o rastreamento do Histórico de campos DEVERÁ ser habilitado no CRM. Para obter instruções para ativar o rastreamento do histórico de campo, consulte [Configuração do modelo personalizado: ativar o rastreamento do histórico do campo](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. Determine as porcentagens de atribuição do modelo personalizado.
 
@@ -59,7 +59,7 @@ Se um campo personalizado estiver sendo usado em seu modelo personalizado, o ras
 
    Na coluna à direita denominada &quot;**[!UICONTROL Personalizado]**&quot;, você pode definir a ponderação percentual para cada estágio no modelo de atribuição personalizado. Basta inserir os valores de cada estágio na coluna Personalizado. Depois **[!UICONTROL Salvar e reprocessar]** após a conclusão.
 
-   À esquerda da coluna &quot;Personalizado&quot; está o **[!DNL Marketo Measure]Modelo de aprendizado de máquina**. O modelo de aprendizado de máquina calcula a ponderação de atribuição com base na importância relativa de ganhar um negócio, dependendo do que aconteceu em cada estágio personalizado. Para obter mais informações sobre o modelo Aprendizado de Máquina, [clique aqui](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   À esquerda do _Personalizado_ coluna é a **[!DNL Marketo Measure]Modelo de aprendizado de máquina**. O modelo de aprendizado de máquina calcula a ponderação de atribuição com base na importância relativa de ganhar um negócio, dependendo do que aconteceu em cada estágio personalizado. Para obter mais informações sobre o modelo de aprendizado de máquina, consulte [Perguntas frequentes sobre o modelo de aprendizado de máquina](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

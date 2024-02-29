@@ -1,13 +1,13 @@
 ---
 unique-page-id: 27656739
-description: Relatórios do Discover - [!DNL Marketo Measure] - Documentação do produto
+description: Relatórios do Discover - [!DNL Marketo Measure]
 title: Relatórios do Discover
 exl-id: 73e1ffaf-01d0-4454-bd4f-b9e39c33615a
 feature: Multi-Currency, Discover
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 

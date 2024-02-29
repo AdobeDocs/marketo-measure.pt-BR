@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874795
-description: Adicionar  [!DNL Marketo Measure]  Script - [!DNL Marketo Measure] - Documentação do produto
+description: Adicionando [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
 title: Adição do  [!DNL Marketo Measure]  Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 82%
 
 ---
 
@@ -26,11 +26,11 @@ Ao começar com o [!DNL Marketo Measure], há duas maneiras de adicionar o JavaS
 
 ## Codificação rígida {#hard-coding}
 
-Como prática recomendada, sugerimos a codificação rígida do JavaScript do [!DNL Marketo Measure] nas propriedades da Web. Para codificar o script, será necessário colocá-lo antes de fechar o `</head>` em todas as páginas do site.
+Como prática recomendada, sugerimos a codificação rígida do JavaScript do [!DNL Marketo Measure] nas propriedades da Web. Para codificar o script, você precisará colocá-lo antes de fechar `</head>` em todas as páginas do site.
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-A codificação rígida do JavaScript no `<head>` de suas páginas garante que o script do [!DNL Marketo Measure] será carregado primeiro e as informações de referência não serão perdidas. O JavaScript do [!DNL Marketo Measure] é carregado de forma assíncrona. Se estiver usando codificação rígida, o JavaScript deve ser adicionado manualmente à Automação de marketing.
+A codificação rígida do JavaScript no `<head>` de suas páginas garante a [!DNL Marketo Measure] o script será carregado primeiro e as informações de referência não serão perdidas. O JavaScript do [!DNL Marketo Measure] é carregado de forma assíncrona. Se estiver usando codificação rígida, o JavaScript deve ser adicionado manualmente à Automação de marketing.
 
 >[!TIP]
 >
@@ -38,13 +38,13 @@ A codificação rígida do JavaScript no `<head>` de suas páginas garante que o
 
 ## Sistemas de gerenciamento de Tags {#tag-management-systems}
 
-Se adicionar o JavaScript do [!DNL Marketo Measure] via codificação rígida não for possível, outra opção é adicionar o script do [!DNL Marketo Measure] usando um Sistema de gerenciamento de tags, como o [!DNL Google Tag Manager] (GTM) ou Tealium.
+Se adicionar [!DNL Marketo Measure] JavaScript via codificação rígida não for possível, outra opção é adicionar o [!DNL Marketo Measure] usando um Sistema Tag Management, como [!DNL Google Tag Manager] (GTM) ou Tealium.
 
-Observe que usar sistemas de gerenciamento de tags para implantar o JS do [!DNL Marketo Measure] pode resultar em uma perda de dados de 5 a 10% devido à latência do tempo de carregamento do script. Basicamente, se a ferramenta de gerenciamento de tags não carregar rápido o suficiente, o JS do [!DNL Marketo Measure] também não carregará com a velocidade necessária e pode perder as informações do primeiro referenciador.
+Observe que usar sistemas de gerenciamento de tags para implantar [!DNL Marketo Measure] O JS pode resultar em uma possível perda de dados de 5 a 10% devido à latência de tempo de carregamento do script. Basicamente, se a ferramenta de gerenciamento de tags não carregar rápido o suficiente, o JS do [!DNL Marketo Measure] também não carregará com a velocidade necessária e pode perder as informações do primeiro referenciador.
 
 Uma prática comum é implantar o JS do [!DNL Marketo Measure] por meio de uma ferramenta de gerenciamento de tags até uma melhoria de tempo/recursos para então mudar para a codificação rígida.
 
-Para adicionar o script do [!DNL Marketo Measure] por meio de uma solução de gerenciamento de tags, será necessário criar uma nova tag e adicionar nosso JavaScript nela. Aplique essa tag a todas as páginas do site que deseja rastrear.
+Para adicionar [!DNL Marketo Measure] por meio de uma solução de gerenciamento de tags, será necessário criar uma nova tag e adicionar nosso JavaScript nela. Aplique essa tag a todas as páginas do site que deseja rastrear.
 
 O [!DNL Marketo Measure] recomenda que qualquer visualização de página faça com que a tag seja acionada. Além disso, é melhor dar ao [!DNL Marketo Measure] a prioridade mais alta na ordem de acionamento e verificar se não há scripts síncronos na frente da tag do [!DNL Marketo Measure] para garantir a mais alta qualidade de dados.
 
@@ -54,13 +54,13 @@ Você encontra informações mais detalhadas [aqui](/help/marketo-measure-tracki
 
 O JavaScript do [!DNL Marketo Measure] é baseado em domínio, podendo se adaptar automaticamente a qualquer subdomínio, desde que o JavaScript esteja nas páginas e o domínio raiz seja o mesmo que o domínio usado para criar a conta do Marketo Measure.
 
-No entanto, se estiver usando domínios separados ou internacionais, avise ao(à) consultor(a) do [!DNL Marketo Measure]. O(s) domínio(s) precisa(m) ser adicionado(s) manualmente à sua conta no [!DNL Marketo Measure] para que o [!DNL Marketo Measure] vincule os dados de domínios adicionais à sua conta. Portanto, envie quaisquer domínios separados/internacionais para o(a) consultor(a) do [!DNL Marketo Measure].
+No entanto, se estiver usando domínios separados ou internacionais, avise ao(à) consultor(a) do [!DNL Marketo Measure]. O(s) domínio(s) precisa(m) ser adicionado(s) manualmente à sua conta no [!DNL Marketo Measure] para que o [!DNL Marketo Measure] vincule os dados de domínios adicionais à sua conta. Então, envie qualquer domínio separado/internacional para o seu [!DNL Marketo Measure] Consultor.
 
-Se usar qualquer página de terceiros, converse sobre seu caso de uso com o(a) consultor(a) do [!DNL Marketo Measure]. Em geral, é recomendado saber se é possível adicionar uma versão personalizada do JavaScript do [!DNL Marketo Measure] para rastrear essas páginas, se necessário. Se isso não for possível, o rastreamento por meio dos pontos de contato da campanha de CRM deverá ser explorado com o(a) consultor(a) do [!DNL Marketo Measure].
+Se usar qualquer página de terceiros, converse sobre seu caso de uso com o(a) consultor(a) do [!DNL Marketo Measure]. Em geral, você desejará saber se é possível adicionar uma versão personalizada do [!DNL Marketo Measure] JavaScript para rastrear essas páginas, se apropriado. Se isso não for possível, o rastreamento por meio dos pontos de contato do CRM Campaign será explorado com o [!DNL Marketo Measure] Consultor.
 
-Você tem formulários que NÃO devem ser rastreados pelo [!DNL Marketo Measure], já que não fazem necessariamente sentido para a atribuição (por exemplo, cancelar inscrição de formulários, logons de clientes, etc.)? Se tiver, é recomendado adicionar o código de exclusão [neste artigo](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} para cada formulário
+Você tem formulários que NÃO devem ser rastreados pelo [!DNL Marketo Measure], já que não fazem necessariamente sentido para a atribuição (por exemplo, cancelar inscrição de formulários, logons de clientes, etc.)? Nesse caso, será necessário adicionar o código de exclusão [neste artigo](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} para cada formulário
 
-Você tem alguma página não segura? Se tiver, é recomendado protegê-las, pois navegar entre uma página segura/não segura interromperá a sessão de rastreamento.
+Você tem alguma página não segura? Em caso positivo, você deverá protegê-los, pois navegar entre uma página segura/não segura interromperá a sessão de rastreamento.
 
 Converse com a sua equipe da web para informá-los de que o JavaScript do [!DNL Marketo Measure] deve estar sempre nas propriedades da web apropriadas. Se novos formulários/páginas/sites forem introduzidos, certifique-se que a implantação do JavaScript do [!DNL Marketo Measure] faça parte do protocolo.
 
@@ -73,7 +73,7 @@ Se um aviso do [!DNL Web Application Firewall (WAF)] for acionado durante a conf
 **Envio de vários formulários**
 
 * Problema: se você tiver vários formulários vinculados como parte de um único envio de formulário, é possível que o primeiro formulário gere um ponto de contato mesmo que o formulário completo não seja enviado.
-* Solução: será necessário forçar um dos formulários a relatar o usuário ao [!DNL Marketo Measure] com base nos dados em cache e discutir as práticas de abandono. Em geral, [relatar o código do usuário](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} pode resolver isso.
+* Solução: será necessário forçar um dos formulários a relatar ao usuário [!DNL Marketo Measure] com base nos dados em cache e discutir as práticas de abandono. Em geral, [relatar o código do usuário](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} pode resolver isso.
 
 **Logon da conta (não criação)**
 

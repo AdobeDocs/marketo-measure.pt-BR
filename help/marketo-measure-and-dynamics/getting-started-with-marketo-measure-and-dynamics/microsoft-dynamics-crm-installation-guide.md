@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guia de instalação do CRM - Marketo Me
 title: "[!DNL Microsoft Dynamics] Guia de instalação do CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 14%
+source-wordcount: '975'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando “[!DNL Marketo Measure]” em nossa documentação, mas ainda ver “Bizible” em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 ## Versões suportadas {#supported-versions}
 
@@ -63,7 +63,7 @@ Para [!DNL Marketo Measure] entidades personalizadas, precisaremos de permissõe
 
 ![](assets/4.png)
 
-Para entidades padrão do Dynamics, consulte a [!DNL Marketo Measure] Documento de esquema dinâmico. Em um alto nível, [!DNL Marketo Measure] O só precisa ler em determinadas entidades para coletar os dados apropriados e gravar em campos personalizados que serão instalados com a solução gerenciada. Não criaremos novos registros padrão, nem atualizaremos campos padrão.
+Para entidades padrão do Dynamics, consulte o [!DNL Marketo Measure] Documento de esquema dinâmico. Em um alto nível, [!DNL Marketo Measure] O só precisa ler em determinadas entidades para coletar os dados apropriados e gravar em campos personalizados que serão instalados com a solução gerenciada. Não criaremos novos registros padrão, nem atualizaremos campos padrão.
 
 ## Incluir pontos de contato em layouts de página: {#include-touchpoints-on-page-layouts}
 
@@ -94,7 +94,7 @@ Para entidades padrão do Dynamics, consulte a [!DNL Marketo Measure] Documento 
 
 **Receita**
 
-[!DNL Marketo Measure] aponta para o campo padrão Receita Real por padrão. Se você não estiver usando esse recurso, explique como relata a receita ao seu engenheiro de soluções ou gerente de sucesso, pois será necessário um fluxo de trabalho personalizado.
+[!DNL Marketo Measure] aponta para o campo padrão Receita Real por padrão. Se você não estiver usando isso, explique como relata a receita para o engenheiro de soluções ou gerente de sucesso, pois será necessário um fluxo de trabalho personalizado.
 
 **Fechar data**
 
@@ -128,7 +128,7 @@ Depois de fazer logon na [!DNL Marketo Measure] e foram configurados como usuár
 
    >[!NOTE]
    >
-   >Para obter mais informações sobre OAuth, visite [este artigo](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Se tiver dúvidas sobre o processo, entre em contato com o [!DNL Marketo Measure] Representante de conta.
+   >Para obter mais informações sobre OAuth, visite [este artigo](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Em caso de dúvidas sobre o processo, entre em contato com o [!DNL Marketo Measure] Representante de conta.
 
 1. Neste exemplo, escolhemos Credenciais. Insira suas credenciais e clique em **[!UICONTROL Próxima]**.
 

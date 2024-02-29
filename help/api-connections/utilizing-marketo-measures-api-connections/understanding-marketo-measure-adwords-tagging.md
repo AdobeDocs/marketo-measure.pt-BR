@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874678
-description: Noções básicas [!DNL Marketo Measure] Marcação do AdWords - [!DNL Marketo Measure] - Documentação do produto
+description: Noções básicas [!DNL Marketo Measure] Marcação do AdWords - [!DNL Marketo Measure]
 title: Noções básicas de [!DNL Marketo Measure] Marcação do AdWords
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
-# Noções básicas de[!DNL Marketo Measure]Marcação do AdWords {#understanding-marketo-measure-adwords-tagging}
+# Noções básicas [!DNL Marketo Measure] Marcação do AdWords {#understanding-marketo-measure-adwords-tagging}
 
 Para rastrear seus anúncios em um nível muito granular, os URLs de destino do anúncio devem ser exclusivos. Para fazer isso, [!DNL Marketo Measure] A marcação automática adiciona automaticamente parâmetros de rastreamento aos URLs de destino do anúncio do [!DNL AdWords] anúncios. Vamos observar um exemplo abaixo.
 

@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874539
-description: Criação de personalizados [!DNL Marketo Measure] Tipos de relatório - [!DNL Marketo Measure] - Documentação do produto
+description: Criação de personalizados [!DNL Marketo Measure] Tipos de relatório - [!DNL Marketo Measure]
 title: Criação de tipos de relatórios [!DNL Marketo Measure] personalizados
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '372'
+ht-degree: 5%
 
 ---
 
-# Criação de tipos de relatórios[!DNL Marketo Measure]personalizados {#creating-custom-marketo-measure-report-types}
+# Criação de personalizados [!DNL Marketo Measure] Tipos de relatório {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot;em nossa documentação, mas ainda consulte&quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda consulte &quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 Saiba como criar relatórios personalizados [!DNL Marketo Measure] [!DNL Salesforce] tipos de relatório. Há três tipos diferentes de relatórios que recomendamos criar: Clientes potenciais com Pontos de contato do comprador (Personalizado), [!DNL Marketo Measure] Pessoa com Pontos de contato do comprador (Personalizado), Oportunidades com Ponto de contato de atribuição do comprador (Personalizado).
 

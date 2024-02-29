@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874628
-description: Oportunidades por canal de marketing - [!DNL Marketo Measure] - Documentação do produto
+description: Oportunidades por canal de marketing - [!DNL Marketo Measure]
 title: Oportunidades por canal de marketing
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 3%
+source-wordcount: '199'
+ht-degree: 4%
 
 ---
 

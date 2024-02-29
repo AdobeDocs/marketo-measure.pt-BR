@@ -3,7 +3,7 @@ description: Painel de ROI - [!DNL Marketo Measure] - Produto
 title: Painel de ROI
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 3%
@@ -45,7 +45,7 @@ O painel de ROI fornece aos profissionais de marketing uma visão detalhada do r
 
 Gráfico de barras que ilustra o custo e a receita, projetado para oferecer uma perspectiva comparativa sobre sua magnitude em relação a vários canais, subcanais e campanhas.
 
-* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por Subcanal e Campaign.
+* use as funcionalidades de detalhamento e aumento para categorizar os dados por Subcanal e Campaign.
 * Passe o mouse sobre cada barra para visualizar os ROIs simples e realizados.
 
 **Perguntas que o gráfico responde**
@@ -72,7 +72,7 @@ Gráfico de linhas de série temporal exibindo a comparação entre ROI Realizad
 
 Gráfico de barras empilhadas exibindo os Custos totais, segmentados por Canais associados para cada mês/trimestre/ano.
 
-* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por mês, trimestre ou ano.
+* use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
 **Perguntas que o gráfico responde**
@@ -86,7 +86,7 @@ Gráfico de barras empilhadas exibindo os Custos totais, segmentados por Canais 
 
 Gráfico de barras que exibe os gastos com marketing segmentados por canal/subcanal/campanha.
 
-* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por Canal/Subcanal/Campanha.
+* use as funcionalidades de detalhamento e aumento para categorizar os dados por Canal/Subcanal/Campanha.
 
 **Perguntas que o gráfico responde**
 

@@ -1,12 +1,12 @@
 ---
-description: Atribuição de práticas recomendadas para atividades - [!DNL Marketo Measure] - Documentação do produto
+description: Atribuição de práticas recomendadas para atividades - [!DNL Marketo Measure]
 title: Práticas recomendadas para atribuição de atividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 2%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 ## Visão geral {#overview}
 
-A variável [!DNL Marketo Measure] O recurso de Atribuição de atividades permite que os clientes criem pontos de contato a partir de registros de Atividade no seu CRM. Esse método de criação de pontos de contato é flexível, pois permite criar regras com base nos campos Tarefa ou Evento para informar [!DNL Marketo Measure] de quais registros de atividade ela deve produzir pontos de contato e depois receber crédito de atribuição.
+A variável [!DNL Marketo Measure] O recurso de Atribuição de atividades permite que os clientes criem pontos de contato a partir de registros de Atividade no seu CRM. Esse método de criação de pontos de contato é flexível. Ele permite criar regras com base nos campos &quot;Tarefa&quot; ou &quot;Evento&quot; para informar [!DNL Marketo Measure] de quais registros de atividade ela deve produzir pontos de contato e, portanto, receber crédito de atribuição.
 
 O caso de uso mais comum para esse recurso é criar regras que incorporam interações de vendas nos dados do ponto de contato do Comprador. A Atribuição de atividades possibilita alinhar os dados de Vendas e Marketing em uma jornada.
 
-Para muitos [!DNL Salesforce] , o objeto Atividade pode hospedar vários tipos de registros, portanto, é importante que suas regras de Atividade sejam específicas e personalizadas para os registros que você está tentando traduzir em pontos de contato. As práticas recomendadas a seguir ajudarão a garantir que você esteja criando pontos de contato significativos e valiosos por meio da atribuição Atividades.
+Para muitos [!DNL Salesforce] , o objeto Atividade pode hospedar vários tipos de registros, portanto, é importante que suas regras de Atividade sejam específicas e personalizadas para os registros que você está tentando traduzir em pontos de contato. As práticas recomendadas a seguir ajudam a garantir que você esteja criando pontos de contato significativos e valiosos por meio da atribuição Atividades.
 
 ## Prática recomendada {#best-practice}
 
@@ -30,28 +30,27 @@ Se você estiver definindo Regras de atividade pela primeira vez ou apenas revis
 
 >[!NOTE]
 >
->É necessário **NOT** é recomendável rastrear as Atividades de vendas que ocorrem após a criação da Oportunidade, pois o rastreamento de um processo de Executivos de vendas não oferecerá muitas informações. O objetivo é rastrear a influência das vendas ao lado da influência do marketing, principalmente no desenvolvimento de uma nova geração de oportunidades/pipeline
+>É necessário **NOT** É recomendável rastrear as Atividades de vendas que ocorrem após a criação da Oportunidade, pois o rastreamento de um processo de Executivos de vendas não oferece muita visão. O objetivo é rastrear a influência das vendas ao lado da influência do marketing, principalmente no desenvolvimento de uma nova geração de oportunidades/pipeline
 
 * Não usar campos de fórmula para definir suas regras
 * Criar regras específicas e precisas
-   * Você deseja que o limite para a criação de um ponto de contato da Atividade seja o mesmo (ou semelhante) para um preenchimento de formulário ou associação à campanha, ou seja, (Respostas a um email de saída ou conversas telefônicas concluídas)
+   * O limite para a criação de um ponto de contato da Atividade deve ser o mesmo (ou semelhante) para um preenchimento de formulário ou associação à campanha: Respostas a um email de saída ou conversas telefônicas concluídas
 * Sempre validar novas regras no [!DNL Salesforce] antes de salvar e processar
-   * A replicação da(s) regra(s) de Atividade em um tipo de relatório &quot;Tarefas e eventos&quot; fornecerá uma compreensão clara de exatamente quantos pontos de contato serão criados a partir dessa regra
+   * A replicação das regras de atividade em um tipo de relatório &quot;Tarefas e eventos&quot; oferece uma compreensão clara de exatamente quantos pontos de contato são da regra
 * Trabalhar com sua equipe de vendas Opp
    * Trazer a equipe que trabalha mais próxima com seus registros de atividade ou ferramenta de ativação de vendas garantirá que você esteja usando os campos corretos para definir suas regras
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
-Revisar as regras de Atribuição de atividade pelo menos duas vezes por ano garantirá que seus pontos de contato da Atividade sejam precisos e atualizados. Verifique se essas regras não estão criando pontos de contato indesejados que estão diluindo seus dados de Atribuição do comprador. Uma análise de como suas regras são definidas ajudará você e sua equipe a se sentirem confiantes na Atribuição de atividades e na função que desempenham no [!DNL Marketo Measure] dados.
+Revisar as regras de Atribuição de atividade pelo menos duas vezes por ano garante que os pontos de contato da Atividade sejam precisos e atualizados. Verifique se essas regras não estão criando pontos de contato indesejados que estão diluindo seus dados de Atribuição do comprador. Uma análise de como suas regras são definidas ajudará você e sua equipe a se sentirem confiantes na Atribuição de atividades e na função que desempenham no [!DNL Marketo Measure] dados.
 
 Outros motivos para isso podem acionar uma revisão das regras de atividade:
 
-* Volume de negócios da sua equipe de marketing
+* Rotatividade de sua equipe de marketing
 * Alterações nos campos usados para definir seus registros de atividade
-* Alterações ou atualizações em suas ferramentas de ativação de vendas
+* Alterações ou atualizações nas ferramentas de ativação de vendas
 
 >[!MORELIKETHIS]
 >
 >* [Atribuição de atividades](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [Perguntas frequentes sobre atribuição de atividades de vendas](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-

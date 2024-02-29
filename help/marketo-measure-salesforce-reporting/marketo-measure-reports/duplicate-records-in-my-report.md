@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874634
-description: Duplicar registros no meu relatório - [!DNL Marketo Measure] - Documentação do produto
+description: Duplicar registros no meu relatório - [!DNL Marketo Measure]
 title: Duplicar registros em meu relatório
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 3%
+source-wordcount: '267'
+ht-degree: 10%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot;em nossa documentação, mas ainda consulte&quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda consulte &quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 À medida que você mergulha no [!DNL Marketo Measure] Relatórios em [!DNL Salesforce], você pode começar a encontrar registros &#39;duplicados&#39; em seus relatórios. Você provavelmente experimentará essa sensação ao revisar [!DNL Marketo Measure] relatórios prontos para uso.
 
-Ao criar relatórios com o objeto Pontos de contato do comprador ou com o objeto Ponto de contato de atribuição do comprador, é importante entender que você não está mais relatando a contagem de clientes potenciais, contatos ou oportunidades, mas relatará o número de Pontos de contato do comprador ou Pontos de contato de atribuição do comprador associados a esses objetos padrão (clientes potenciais, contatos, oportunidades).
+Ao criar relatórios com o objeto Pontos de contato do comprador ou com o objeto Ponto de contato de atribuição do comprador, é importante entender que você não está mais relatando a contagem de clientes potenciais, contatos ou oportunidades, mas sim relatando o número de Pontos de contato do comprador ou Pontos de contato de atribuição do comprador associados a esses objetos padrão (clientes potenciais, contatos, oportunidades).
 
 Vamos ver o seguinte relatório como exemplo:
 

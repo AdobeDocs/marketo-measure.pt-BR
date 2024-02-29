@@ -1,10 +1,10 @@
 ---
-description: Visão geral das permissões de integração - [!DNL Marketo Measure] - Documentação do produto
+description: Visão geral das permissões de integração - [!DNL Marketo Measure]
 title: Visão geral das permissões de integração
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ Recomendamos criar um Usuário dedicado do Marketo Measure no Dynamics para que 
 <p>
 <b>Funções de segurança</b>
 <br>
-Se sua organização usa Funções de Segurança do Dynamics, verifique se o usuário conectado ou o Usuário dedicado do Marketo Measure tem permissões de leitura/gravação suficientes para as entidades necessárias.
+Se sua organização usar Funções de Segurança do Dynamics, verifique se o usuário conectado ou o Usuário dedicado do Marketo Measure tem permissões de leitura/gravação suficientes para as entidades necessárias.
 <br>
 As Funções de Segurança estão localizadas aqui: Configurações &gt; Segurança &gt; Funções de Segurança
 <br>

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874590
-description: “Cookies do [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentação do produto”
+description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
 title: Cookies do [!DNL Marketo Measure]”
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 

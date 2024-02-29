@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874747
-description: Adicionando [!DNL Marketo Measure] Script para páginas Sitecore - [!DNL Marketo Measure] - Documentação do produto
+description: Adicionando [!DNL Marketo Measure] Script para páginas Sitecore - [!DNL Marketo Measure]
 title: Adição de [!DNL Marketo Measure] script para páginas do Sitecore
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
-# Adição de[!DNL Marketo Measure]script para páginas do Sitecore {#adding-marketo-measure-script-to-sitecore-pages}
+# Adicionando [!DNL Marketo Measure] Script para páginas do Sitecore {#adding-marketo-measure-script-to-sitecore-pages}
 
 Os sistemas de gerenciamento de conteúdo podem exigir etapas adicionais além da implementação padrão de scripts para [!DNL Marketo Measure] para reconhecer envios de formulários. O processo abaixo descreve como adicionar o [!DNL Marketo Measure] javascript para o [!DNL Sitecore] páginas.
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874578
-description: Campanhas e membros da campanha - [!DNL Marketo Measure] - Documentação do produto
+description: Campanhas e membros da campanha - [!DNL Marketo Measure]
 title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ A data de início pode ser usada caso uma Campanha existente seja usada para ras
 
 ## Caso de uso para data de término do ponto de contato {#use-case-for-touchpoint-end-date}
 
-Se antes de usar [!DNL Marketo Measure], você usou uma plataforma de Automação de marketing que rastreou as interações digitais dos clientes potenciais (envios de formulários IE) e depois carregou esses clientes em um [!DNL Saleforce] Campaign, você pode aproveitar o campo Data final do ponto de contato. Você definiria a Data de término do ponto de contato como a data de início com [!DNL Marketo Measure] e ativar Pontos de contato do comprador, então a interação digital de cada um desses Clientes potenciais será criada como um Ponto de contato. O motivo pelo qual você definirá a Data final do ponto de contato como a Data inicial com [!DNL Marketo Measure] é porque, dali em diante, rastrearemos essas interações digitais por meio do nosso javascript.
+Se antes de usar [!DNL Marketo Measure], você usou uma plataforma de Automação de marketing que rastreou as interações digitais dos clientes potenciais (envios de formulários IE) e depois carregou esses clientes em um [!DNL Saleforce] Campaign, você pode usar o campo Data final do ponto de contato. Você definiria a Data de término do ponto de contato como a data de início com [!DNL Marketo Measure] e ativar Pontos de contato do comprador, então a interação digital de cada um desses Clientes potenciais será criada como um Ponto de contato. O motivo pelo qual você definirá a Data final do ponto de contato como a Data inicial com [!DNL Marketo Measure] é porque, dali em diante, rastrearemos essas interações digitais por meio do nosso javascript.
 
 ![](assets/3.png)
 

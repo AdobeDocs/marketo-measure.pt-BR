@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Fluxos de trabalho de receita para Dynamics - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Measure] Fluxos de trabalho de receita para Dynamics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Fluxos de trabalho de receita para o Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Se as oportunidades abertas não tiverem dados no campo Data Real de Fechamento,
 1. O cliente deverá fornecer o nome da API da data de fechamento personalizada a [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] para atualizar o [!DNL Marketo Measure] configurações do aplicativo para apontar para a variável [!DNL Marketo Measure] Campo Data de fechamento personalizada no painel.
 
-   Após a conclusão das etapas acima, precisaremos executar workflows para atualizar a Personalizada [!DNL Marketo Measure] O campo Valor de abertura e a variável [!DNL Marketo Measure] Campo Data de fechamento personalizada em suas oportunidades históricas para refletir os dados corretos. Isso provavelmente alterará os campos &quot;ligado/por&quot; modificados para que você verifique com sua equipe se há problemas.
+   Após a conclusão das etapas acima, precisaremos executar workflows para atualizar a Personalizada [!DNL Marketo Measure] O campo Valor de abertura e a variável [!DNL Marketo Measure] Campo Data de fechamento personalizada em suas oportunidades históricas para refletir os dados corretos. Isso provavelmente alterará os campos &quot;ligado/por&quot; modificados para que você queira verificar com a sua equipe se há problemas.
 
 Para atualizar as oportunidades fechadas...
 

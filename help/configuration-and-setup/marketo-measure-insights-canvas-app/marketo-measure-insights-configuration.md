@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Configuração do Insights - [!DNL Marketo Measure] - Documentação do produto"
-title: "[!DNL Marketo Measure] Configuração de Insights"
+description: "[!DNL Marketo Measure] Configuração do Insights - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Configuração do Insights"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '114'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ A variável [!DNL Marketo Measure] O aplicativo Insights Canvas deve ser adicion
 
 1. Selecione o [!DNL Marketo Measure Insights] na lista que é preenchida.
 
-1. No [!UICONTROL OAuth] , altere a configuração Usuários permitidos para &quot;Usuários aprovados pelo administrador são pré-autorizados&quot;. Uma janela pop-up será exibida, clique em **[!UICONTROL OK]** e depois **[!UICONTROL Salvar]**.
+1. No [!UICONTROL OAuth] , altere a configuração Usuários permitidos para &quot;Usuários aprovados pelo administrador são pré-autorizados&quot;. Um pop-up é exibido, clique em **[!UICONTROL OK]** e depois **[!UICONTROL Salvar]**.
 
    ![](assets/1-1.png)
 
-1. Depois que a página for salva, você poderá clicar no link **[!UICONTROL Gerenciar perfis]** botão.
+1. Depois que a página for salva, é possível clicar no link **[!UICONTROL Gerenciar perfis]** botão.
 
    ![](assets/2-1.png)
 

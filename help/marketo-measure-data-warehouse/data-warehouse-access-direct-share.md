@@ -3,9 +3,9 @@ description: Acesso à Data Warehouse - Compartilhamento direto - Documentação
 title: Acesso ao Data Warehouse - Compartilhamento direto
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ A fim de [!DNL Marketo Measure] para configurar um compartilhamento direto no da
 * Sua instância Snowflake está localizada na região de Snowflake do Azure East US 2.
 * Você fornece [!DNL Marketo Measure] com a id da conta Snowflake.
 
-## Limitação {#limitations}
+## Limitações {#limitations}
 
 [!DNL Marketo Measure] O só poderá configurar Compartilhamentos Diretos de Snowflake com contas localizadas no Azure East US 2 devido às limitações atuais de Compartilhamento Direto de Snowflake. Se você precisar que seus dados sejam disponibilizados em outras regiões do Snowflake, recomendamos fazer uma cópia dos dados em uma conta do Snowflake localizada no Azure East US 2 e aproveitar o [Replicação de Banco de Dados Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} recurso para copiar seus dados na região/conta da Snowflake de sua escolha.
 

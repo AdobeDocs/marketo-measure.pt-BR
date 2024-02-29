@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586080
-description: Integração do linkedIn - [!DNL Marketo Measure] - Documentação do produto
+description: Integração do linkedIn - [!DNL Marketo Measure]
 title: Integração do linkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2653'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ Para [!DNL Marketo Measure] Para criar/atualizar criações patrocinadas, você 
 
 Saiba mais: [Funções de administrador da página do linkedIn](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
-Há outros [!DNL LinkedIn] funções que desempenhamos **não** necessários para nossa integração. Essas funções são frequentemente confundidas com as funções necessárias, portanto, observe que há uma diferença!
+Há outros [!DNL LinkedIn] funções que desempenhamos **não** necessários para nossa integração. Geralmente, essas funções são confundidas com as funções necessárias. Portanto, observe que há uma diferença!
 
 **Funções do administrador da página**
 
@@ -80,7 +80,7 @@ Os tipos de conteúdo patrocinado e formatos compatíveis com o [!DNL Marketo Me
 
 **[!DNL LinkedIn's]Requisitos exclusivos de marcação automática**
 
-[!DNL Marketo Measure]O pode ajudar a rastrear o desempenho de sua campanha do marcando automaticamente suas páginas.[!DNL LinkedIn]
+[!DNL Marketo Measure] pode ajudar a rastrear seus [!DNL LinkedIn] desempenho da campanha marcando automaticamente suas páginas de aterrissagem.
 
 [!DNL Marketo Measure] pesquisará por criações com um Compartilhamento exclusivo da LinkedIn e adicionará uma `?_bl={creativeId}` até o fim dele.
 
@@ -96,7 +96,7 @@ Avançando, [!DNL Marketo Measure] A recomenda que você não duplique nenhum [!
 
 O motivo da etapa extra é porque o LinkedIn permite que URLs de destino sejam um URL mais curto (bit.ly, goog.le etc.), o que significa [!DNL Marketo Measure] não vê o URL longo e resolvido e [!DNL Marketo Measure] precisa adicionar parâmetros de rastreamento a um URL resolvido. Para contornar esse problema, [!DNL Marketo Measure] O procura URLs encurtados antes de recriar um anúncio, expande o URL e, em seguida, cria o novo anúncio com o URL resolvido e todos os seus parâmetros, permitindo [!DNL Marketo Measure] para adicionar tags. A criação de um novo anúncio apagará o histórico de anúncios (impressões, cliques, compartilhamentos), daí a necessidade de permissão para marcar URLs encurtados.
 
-Caso use muito URLs abreviadas, seus criativos podem ser bastante impactados. Recomendamos que você não use URLs encurtados para que [!DNL Marketo Measure] O pode marcar as páginas de aterrissagem sem precisar criar novos anúncios e apagar o Histórico de anúncios.
+Se você usar URLs encurtados intensamente, isso poderá afetar seriamente suas criações. Recomendamos que você não use URLs encurtados para que [!DNL Marketo Measure] O pode marcar as páginas de aterrissagem sem precisar criar novos anúncios e apagar o Histórico de anúncios.
 
 **O processo**
 
@@ -129,7 +129,7 @@ Creative D : Compartilhar 234
 
 **[!DNL LinkedIn's]Requisitos exclusivos de marcação automática**
 
-[!DNL Marketo Measure]O pode ajudar a rastrear o desempenho de sua campanha do marcando automaticamente suas páginas.[!DNL LinkedIn]
+[!DNL Marketo Measure] pode ajudar a rastrear seus [!DNL LinkedIn] desempenho da campanha marcando automaticamente suas páginas de aterrissagem.
 
 [!DNL Marketo Measure] pesquisará por criações com um Compartilhamento exclusivo da LinkedIn e adicionará uma `?_bl={creativeId}` até o fim dele.
 
@@ -159,7 +159,7 @@ Antes de [!DNL Marketo Measure] e existia a Integração LinkedIn Lead Gen Forms
 
 ## Detalhes do Touchpoint {#touchpoint-details}
 
-Uma vez [!DNL Marketo Measure] marcou sua página de aterrissagem no criativo do LinkedIn com êxito. Você poderá visualizar os dados dos anúncios resolvidos no ponto de contato. Este é o mapeamento de valores de dados que você deve esperar:
+Depois [!DNL Marketo Measure] tiver marcado sua página de aterrissagem no criativo do LinkedIn, você poderá visualizar os dados de anúncios resolvidos no ponto de contato. Este é o mapeamento de valores de dados que você deve esperar:
 
 <table> 
  <colgroup> 
@@ -270,7 +270,7 @@ Assim como em outras integrações de anúncios, [!DNL Marketo Measure] definiu 
 
 ![](assets/four.png)
 
-## [!DNL Marketo Measure] Discover {#marketo-measure-discover}
+## [!DNL Marketo Measure] Descobrir {#marketo-measure-discover}
 
 Foram feitos alguns aprimoramentos no [!DNL Marketo Measure] Conheça o para oferecer suporte aos relatórios da geração líder de Forms.
 
@@ -328,7 +328,7 @@ O conectado [!DNL LinkedIn] O usuário precisa ter acesso de edição adequado, 
 
 **Como saber se meu criativo será copiado? Posso ver se meus criadores estão usando o mesmo compartilhamento?**
 
-A ID de compartilhamento não é fornecida em um [!DNL LinkedIn] relatório, portanto, não há uma maneira clara e óbvia de verificar os mapeamentos criativos para compartilhamento. Se você suspeitar que um anúncio pode ser uma cópia, verifique manualmente abrindo o anúncio no seu [!DNL LinkedIn] Gerente de campanha — isso abrirá o anúncio em uma nova guia e você encontrará a ID de compartilhamento no URL.
+A ID de compartilhamento não é fornecida em um [!DNL LinkedIn] relatório, portanto, não há uma maneira clara e óbvia de verificar os mapeamentos de criação para compartilhamento. Se você suspeitar que um anúncio pode ser uma cópia, verifique manualmente abrindo o anúncio no seu [!DNL LinkedIn] Gerente de campanha — isso abre o anúncio em uma nova guia e você pode encontrar a ID de compartilhamento no URL.
 
 ![](assets/six.png)
 

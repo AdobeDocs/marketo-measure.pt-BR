@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874656
-description: Filtros - [!DNL Marketo Measure] - Documentação do produto
+description: Filtros - [!DNL Marketo Measure]
 title: Filtros
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ _Usado em: Visão geral, Crescimento, Gastos com marketing, ROI de anúncios, Ma
 
 Escolha o tipo de data que deseja usar, vinculado ao filtro Data. O tipo de data padrão varia por quadro. A data do ponto de contato refere-se à data em que a atividade de marketing ocorreu, a data de criação é a data em que o lead ou contato ou a oportunidade foi criado no CRM e a data de fechamento é a data em que a oportunidade foi fechada.
 
-**Dimensão**
+**Dimension**
 
 _Usado em: Mídia paga_
 
@@ -117,7 +117,7 @@ Ajusta os gráficos para alterar a dimensão que está sendo empilhada e agrupad
 
 ![](assets/2.png)
 
-**Página de destino**
+**Landing Page**
 
 _Usado em: Marketing de conteúdo_
 
@@ -173,7 +173,7 @@ _Usado em: Tráfego da Web_
 
 Detalhe o tráfego de um único URL, ou talvez URLs que contenham uma determinada palavra, como &quot;produto&quot;.
 
-**Obtido**
+**Won**
 
 _Usado em: Velocity_
 

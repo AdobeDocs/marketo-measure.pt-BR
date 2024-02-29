@@ -1,12 +1,12 @@
 ---
-description: Solicitações de privacidade - [!DNL Marketo Measure] - Documentação do produto
+description: Solicitações de privacidade - [!DNL Marketo Measure]
 title: Solicitações de privacidade
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 3%
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -42,15 +42,15 @@ Para fazer solicitações de Acesso e Exclusão de dados para [!DNL Marketo Meas
 &quot;companyContexts&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;valor&quot;: `<Your IMS Org ID Value>`
+* &quot;value&quot;: `<Your IMS Org ID Value>`
 
-&quot;usuários&quot;:
+&quot;users&quot;:
 
 * &quot;action&quot;: [!UICONTROL acesso] ou excluir
 * &quot;userIDs&quot;
    * &quot;namespace&quot;: email
    * &quot;type&quot;: standard
-   * &quot;valor&quot;: `<Data Subject's Email Address>`
+   * &quot;value&quot;: `<Data Subject's Email Address>`
 
 &quot;include&quot;:
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656741
-description: Configurações - [!DNL Marketo Measure] - Documentação do produto
+description: Configurações - [!DNL Marketo Measure]
 title: Configurações
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---

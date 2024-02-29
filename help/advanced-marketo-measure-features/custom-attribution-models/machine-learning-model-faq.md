@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: Perguntas frequentes sobre o modelo de aprendizado de máquina - [!DNL Marketo Measure] - Documentação do produto
+description: Perguntas frequentes sobre o modelo de aprendizado de máquina - [!DNL Marketo Measure]
 title: Perguntas frequentes de modelo de aprendizado de máquina
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Atribuir 10% de crédito de atribuição a Contatos intermediários é uma confi
 
 Quando devo alterar minha distribuição de atribuição?
 
-Entre em contato com o gerente de conta para discutir as implicações da alteração das porcentagens de atribuição e quais estágios incluir em seu modelo personalizado. Each [!DNL Salesforce] e o processo de vendas é exclusivo, e queremos garantir que seu modelo personalizado seja modelado com precisão.
+Entre em contato com o gerente de conta para discutir as implicações da alteração das porcentagens de atribuição e quais estágios incluir no modelo personalizado. Each [!DNL Salesforce] e o processo de vendas é exclusivo, e queremos garantir que seu modelo personalizado seja modelado com precisão.
 
 Dito isso, identificamos algumas tendências gerais em nossos clientes:
 
@@ -55,4 +55,4 @@ Uma tendência que percebemos é que nem sempre é benéfico incluir mais estág
 
 Também notamos que há uma alta taxa de conversão dos estágios de Criação de leads para os estágios de Qualificação de marketing e, consequentemente, os estágios de Qualificação de marketing podem receber uma ponderação de atribuição de porcentagem menor. Dependendo do ciclo de negócios e vendas, pode ser útil remover esse estágio do modelo personalizado.
 
-Lembre-se de rastrear as atividades de marketing por meio de uma transição de estágio específica, mas não quiser que esse estágio receba crédito de atribuição. Você pode incluir esse estágio no modelo e atribuir 0% de crédito de atribuição a esse estágio.
+Lembre-se de rastrear atividades de marketing por meio de uma transição de estágio específica, mas não quiser que esse estágio receba crédito de atribuição, você pode incluir esse estágio no modelo e atribuir 0% de crédito de atribuição a esse estágio.

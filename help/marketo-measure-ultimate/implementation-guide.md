@@ -1,11 +1,11 @@
 ---
-description: “Guia de implementação do [!DNL Marketo Measure]Ultimate - [!DNL Marketo Measure] - Documentação do produto”
+description: '[!DNL Marketo Measure] Guia de implementação do Ultimate - [!DNL Marketo Measure]'
 title: “Guia de implementação do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 98%
+source-wordcount: '1013'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ Para aqueles com _**direito a CDP**_: crie esquemas acessando a página Origens.
 
    >[!CAUTION]
    >
-   >* Você poderia editar um fluxo de dados, mas os dados não serão preenchidos quando um mapeamento for alterado.
+   >* Você poderia editar um fluxo de dados, mas os dados não são preenchidos retroativamente quando um mapeamento é alterado.
    >* Se um campo obrigatório for NULO, todo o fluxo será rejeitado.
 
    >[!NOTE]

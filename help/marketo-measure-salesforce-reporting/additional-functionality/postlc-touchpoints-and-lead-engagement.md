@@ -4,9 +4,9 @@ description: Pontos de contato e envolvimento principal do PostLC - Marketo Meas
 title: Touchpoints pós-LC e engajamento de lead
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Os pontos de contato PostLC são dinâmicos. Como um lead ou contato continua a 
 
 Para ajustar as configurações de ponto de contato PostLC para seus clientes em potencial ou contatos, siga as instruções abaixo.
 
-**Leads**
+**Clientes potenciais**
 
 1. Faça logon no [!DNL Marketo Measure] conta em [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e vá para [!UICONTROL Configurações].
 

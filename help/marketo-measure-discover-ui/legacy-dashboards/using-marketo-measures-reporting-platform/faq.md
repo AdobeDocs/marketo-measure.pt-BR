@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: Perguntas frequentes - [!DNL Marketo Measure] - Documentação do produto
+description: Perguntas frequentes - [!DNL Marketo Measure]
 title: Perguntas frequentes
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Não existem valores para cada hierarquia de dados, pois a hierarquia nem sempre
 
 **O que é &quot;corresponde a um atributo de usuário&quot; nos operadores de filtro?**
 
-Os atributos do usuário são aplicados a usuários como ID comercial, nome ou sobrenome, mas como nossos usuários são você (nossos clientes) e não seus clientes, os atributos do usuário não podem ser usados na [!DNL Marketo Measure Discover] experiência. Sinta-se à vontade para ignorar essa opção. Estamos trabalhando em uma melhor experiência de filtro personalizado que removerá filtros que não se aplicam a nossos clientes.
+Os atributos do usuário são aplicados a usuários como ID comercial, nome ou sobrenome, mas como nossos usuários são você (nossos clientes) e não seus clientes, os atributos do usuário não podem ser usados na [!DNL Marketo Measure Discover] experiência. Estamos trabalhando em uma melhor experiência de filtro personalizado que removerá filtros que não se aplicam a nossos clientes.
 
 **Por que alguns intervalos de datas padrão passam pelo primeiro dia do mês seguinte?**
 

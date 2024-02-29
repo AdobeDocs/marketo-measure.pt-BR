@@ -1,11 +1,11 @@
 ---
-description: Métodos de gerenciamento de gastos - [!DNL Marketo Measure] - Documentação do produto
+description: Métodos de gerenciamento de gastos - [!DNL Marketo Measure]
 title: Métodos de gerenciamento de gastos
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 1%
 
 ---

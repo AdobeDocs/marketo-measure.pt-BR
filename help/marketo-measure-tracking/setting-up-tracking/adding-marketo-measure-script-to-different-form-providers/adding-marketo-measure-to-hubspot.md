@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874759
-description: Adicionando [!DNL Marketo Measure] para [!DNL Hubspot] - [!DNL Marketo Measure] - Documentação do produto
+description: Adicionando [!DNL Marketo Measure] para [!DNL Hubspot] - [!DNL Marketo Measure]
 title: Adicionando [!DNL Marketo Measure] para [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---

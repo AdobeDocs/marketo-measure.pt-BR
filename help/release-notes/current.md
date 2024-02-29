@@ -1,12 +1,12 @@
 ---
-description: Notas da versão atual - [!DNL Marketo Measure] - Documentação do produto
+description: Notas de versão atuais - [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Estamos removendo os dados de endereços IP do nosso armazenamento de longo praz
 
 A tabela de URL no [data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} agora incluirá um campo de título da página, além das tabelas de dados da web.
 
-Observe que o título da página na tabela de URL nem sempre corresponderá ao título da página em outras tabelas da web. A tabela de URL utilizará o título de página mais recente. Se o título tiver sido alterado para o URL após a atividade da web, ele não corresponderá ao utilizado na tabela de URL.
+Observe que o título da página na tabela URL nem sempre pode corresponder ao título da página em outras tabelas da Web. A tabela de URL utilizará o título de página mais recente. Se o título tiver sido alterado para o URL após a atividade da web, ele não corresponderá ao utilizado na tabela de URL.
 
 **Novo design do painel Discover**
 
@@ -157,7 +157,7 @@ Os campos que contêm as mesmas informações nos objetos Touchpoint e Touchpoin
 
 * Crie relatórios que capturem a funcionalidade de qualquer relatório já existente que utilize os campos removidos. Como parte deste processo, você poderá alterar os campos do relatório conforme especificado abaixo:
 
-   * Remover campos FT/LC de lead/contato:
+* Remover campos FT/LC de lead/contato:
 
 ![](assets/release-notes-2023-2.png)
 
@@ -179,7 +179,7 @@ Os campos que contêm as mesmas informações nos objetos Touchpoint e Touchpoin
 
 * Para permanecer conectado ao Dynamics, instale a versão mais recente do pacote, v6.12. Versões antigas do `(<v6.12)` não serão mais compatíveis. Essa atualização otimiza a criação de registros históricos para reduzir o uso do armazenamento.
 
-* O método desatualizado do OAuth com um RefreshToken será descontinuado. Consulte [este manual](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para atualizar suas credenciais e seguir as práticas recomendadas da Microsoft de uso do ClientSecret.
+* O método desatualizado do OAuth com um RefreshToken será descontinuado. Consulte [este guia](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} para atualizar suas credenciais para seguir as práticas recomendadas da Microsoft de uso do ClientSecret.
 
 #### Campo “custom_properties”
 

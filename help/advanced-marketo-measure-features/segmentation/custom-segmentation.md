@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: Segmentação personalizada - [!DNL Marketo Measure] - Documentação do produto
+description: Segmentação personalizada - [!DNL Marketo Measure]
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '741'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Os segmentos oferecem a capacidade de filtrar dados na [!DNL Marketo Measure] Pa
 
 **Por que a segmentação personalizada?**
 
-A Segmentação personalizada permite filtrar Pontos de contato por categorias (nome do filtro) e regras (valores do filtro). Os clientes de nível 1 recebem um segmento, os de nível 2 e superior, dez. Dependendo do objeto para o qual o traço de ROI é apontado (cliente potencial ou contato), você pode criar segmentos com base nos campos encontrados no objeto cliente potencial/contato. Além disso, você poderá criar segmentos com base em qualquer campo encontrado no Objeto de oportunidade.
+A Segmentação personalizada permite filtrar Pontos de contato por categorias (nome do filtro) e regras (valores do filtro). Os clientes de nível 1 recebem um segmento, os de nível 2 e superior, dez. Dependendo do objeto para o qual o traço de ROI é apontado (cliente potencial ou contato), você pode criar segmentos com base nos campos encontrados no objeto cliente potencial/contato. Além disso, você poderá criar segmentos com base em qualquer campo encontrado no Objeto da oportunidade.
 
 **Quando o recurso Segmentação personalizada é útil?**
 
@@ -61,7 +61,7 @@ Etapa 4 - Adicionar regras de filtro.
 * Repita esse processo para as regras de segmento de Oportunidades
 * A categoria &quot;Outros&quot; é um segmento padrão que capturará quaisquer pontos de contato indefinidos. Você pode alterar o nome do segmento padrão
 * Clique no ícone de lixeira para excluir uma categoria inteira ou uma regra individual dentro de uma categoria. Como alternativa, clique no ícone de lápis para editar a categoria ou regra
-* Você perceberá que tem um &quot;[!UICONTROL Salvar]&quot; e um botão &quot;Salvar e processar&quot;. Use o botão Salvar para salvar seu trabalho e as alterações ao longo do tempo. Use o botão Salvar e Processar SOMENTE depois de se certificar de que:
+* Observe que você tem um &quot;[!UICONTROL Salvar]&quot; e um botão &quot;Salvar e processar&quot;. Use o botão Salvar para salvar seu trabalho e as alterações ao longo do tempo. Use o botão Salvar e Processar SOMENTE depois de se certificar de que:
 
    * Seu mapeamento está preciso
    * Você adicionou todos os segmentos que deseja rastrear em uma categoria

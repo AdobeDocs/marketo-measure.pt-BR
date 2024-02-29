@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656745
-description: Perguntas frequentes (várias moedas) - [!DNL Marketo Measure] - Documentação do produto
+description: Perguntas frequentes (várias moedas) - [!DNL Marketo Measure]
 title: Perguntas frequentes (várias moedas)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Se você tiver um bloco com uma mensagem &quot;Moedas mistas&quot; na parte infe
 
 A declaração de uma nova moeda ou taxa de conversão só pode ser feita em [!DNL Salesforce] ou [!DNL Dynamics] para que haja apenas uma única fonte de verdade para esses valores. Quando uma nova moeda ou taxa de conversão for detectada, [!DNL Marketo Measure] O baixará o arquivo e o disponibilizará para você. Não oferecemos uma área para inserir essas taxas.
 
-**A moeda não está sendo exibida no formato correto. Como posso alterar isso?**
+**A moeda não é exibida no formato correto. Como posso alterar isso?**
 
 Entendemos que alguns países têm uma maneira diferente de formatar valores (por exemplo, 1.234,00, 1.234, 1.234). Mas introduzimos outro nível de complexidade se tivermos de determinar não só a moeda de um usuário, mas também o seu país de origem, uma vez que países e moedas diferentes podem ser tratados de forma diferente. O formato consistente escolhido é 1.234,00. Isso não pode ser alterado.
 

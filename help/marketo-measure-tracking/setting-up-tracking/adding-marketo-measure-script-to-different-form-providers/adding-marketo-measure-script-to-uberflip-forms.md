@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874749
-description: Adicionando [!DNL Marketo Measure] Script para [!DNL Uberflip] FORMS - [!DNL Marketo Measure] - Documentação do produto
-title: Adição de [!DNL Marketo Measure] script para formulários do  [!DNL Uberflip]
+description: Adicionando [!DNL Marketo Measure] Script para [!DNL Uberflip] FORMS - [!DNL Marketo Measure]
+title: Adicionando [!DNL Marketo Measure] Script para [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
-# Adição de[!DNL Marketo Measure]script para formulários do [!DNL Uberflip] {#adding-marketo-measure-script-to-uberflip-forms}
+# Adicionando [!DNL Marketo Measure] Script para [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
 Se você estiver usando [!DNL Uberflip] para gerenciar seu conteúdo, é importante que você siga estas etapas necessárias para garantir que [!DNL Marketo Measure] O está rastreando os envios desses formulários. Seu gerente de sucesso em [!DNL Uberflip] O também deve ser capaz de ajudá-lo com isso.
 
@@ -23,7 +23,7 @@ Se você estiver usando [!DNL Uberflip] para gerenciar seu conteúdo, é importa
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   Você adicionará este preâmbulo a [!DNL Hubs.onLoad] e a variável [!DNL Hubs.onPageChange] Ganchos de evento AJAX Javascript conforme abaixo. (Observação: você também pode ter outros códigos nesses ganchos de evento. Certifique-se de incluir o preâmbulo também.)
+   você adicionará este preâmbulo à [!DNL Hubs.onLoad] e a variável [!DNL Hubs.onPageChange] Ganchos de evento AJAX Javascript conforme abaixo. (Observação: você também pode ter outros códigos nesses ganchos de evento. Certifique-se de incluir o preâmbulo também.)
 
    `Hubs.onLoad = function () {`
 

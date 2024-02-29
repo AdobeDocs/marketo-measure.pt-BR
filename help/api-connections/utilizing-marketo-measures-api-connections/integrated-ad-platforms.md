@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874594
-description: Plataformas de publicidade integradas - [!DNL Marketo Measure] - Documentação do produto
+description: Plataformas de publicidade integradas - [!DNL Marketo Measure]
 title: Plataformas de anúncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1661'
 ht-degree: 0%
 
 ---
@@ -95,9 +95,9 @@ Lembre-se de adicionar modelos de rastreamento na [!UICONTROL Conta], [!UICONTRO
 
 As tags UTM podem parecer difíceis de criar no início, mas há muitas ferramentas disponíveis para criar URLs facilmente com parâmetros UTM. Você pode usar qualquer um dos recursos a seguir ou pesquisar mais ferramentas na Web. Lembre-se [!DNL Marketo Measure] A não endossa nem garante nada com essas plataformas e ferramentas.
 
-**[!DNL Google URL]Criador**
+**[!DNL Google URL]Construtor**
 
-O Google URL Builder é uma ferramenta padrão para criar URLs formatados corretamente com tags UTM. Basta inserir o URL e o valor desejado de cada parâmetro e clicar em &quot;[!UICONTROL Gerar URL]&quot;. Essa é uma ferramenta ideal para usar se você só tiver alguns URLs para marcar. Acessar a ferramenta [aqui](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
+O Google URL Builder é uma ferramenta padrão para criar URLs formatados corretamente com tags UTM. Basta inserir o URL e o valor desejado de cada parâmetro e clicar em &quot;[!UICONTROL Gerar URL]&quot;. Essa é uma ferramenta ideal para usar se você só tiver alguns URLs para marcar. Acessar a ferramenta [aqui](https://support.google.com/analytics/answer/1033867?hl=pt-BR){target="_blank"}.
 
 **Planilha do Google gerada pelo EpikOne**
 
@@ -147,7 +147,7 @@ Antes de ativar a marcação automática com [!DNL Facebook Ads], é importante 
 
 Observe que você pode conectar seu [!DNL Facebook] conta a qualquer momento para o [!DNL Marketo Measure] e nenhum dado será perdido — somente quando a marcação automática estiver ativada é que o histórico de desempenho será apagado.
 
-[Consulte este artigo](https://www.facebook.com/business/help/393890194130036){target="_blank"} no Facebook para obter mais informações sobre a exportação [!DNL Facebook] Adicionar relatórios.
+Consulte [este artigo](https://www.facebook.com/business/help/393890194130036){target="_blank"} no Facebook para obter mais informações sobre a exportação [!DNL Facebook] Adicionar relatórios.
 
 ## Conteúdo patrocinado pela linkedIn {#linkedin-sponsored-content}
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Quanto à configuração, há sete etapas a serem concluídas no [!DNL Marketo M
 
 Depois de habilitar a integração, [!DNL Marketo Measure] começará a baixar o custo do nível de anúncio na [!DNL Marketo Measure Marketing ROI] Painel.
 
-Para que a integração funcione corretamente, será necessário habilitar a marcação automática no [!DNL Facebook] conta. Isso permitirá que nosso sistema adicione um parâmetro _bf em todos os links de anúncios. Esse processo adicionará o novo parâmetro sobre qualquer outro parâmetro de rastreamento que você já tenha adicionado ao seu [!DNL Facebook] anúncios.
+Para que a integração funcione corretamente, é necessário habilitar a marcação automática no [!DNL Facebook] conta. Isso permitirá que nosso sistema adicione um parâmetro _bf em todos os links de anúncios. Esse processo adicionará o novo parâmetro sobre qualquer outro parâmetro de rastreamento que você já tenha adicionado ao seu [!DNL Facebook] anúncios.
 
 ![](assets/3.gif)
 
@@ -108,7 +108,7 @@ Para que a integração funcione corretamente, será necessário habilitar a mar
   </tr> 
   <tr> 
    <td><p>Ad_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Nome do anúncio]</p></td> 
+   <td><p>[[!DNL Facebook] Ad Name]</p></td> 
   </tr> 
   <tr> 
    <td><p>Palavra-Chave_Unique_Id (Data Warehouse)</p></td> 

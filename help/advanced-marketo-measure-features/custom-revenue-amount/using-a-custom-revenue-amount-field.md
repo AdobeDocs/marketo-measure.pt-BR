@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874793
-description: Uso de um Campo de Valor de Receita Personalizado - [!DNL Marketo Measure] - Documentação do produto
+description: Uso de um Campo de Valor de Receita Personalizado - [!DNL Marketo Measure]
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 2%
 
 ---
 
@@ -96,14 +96,14 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você tiver alt
 1. Adicione uma ação de workflow. Defina esta lista de opções como &quot;[!UICONTROL Nova atualização de campo].&quot;
    ![](assets/using-a-custom-revenue-amount-field-14.png)
 
-1. Aqui você preencherá as informações de campo. No campo &quot;Nome&quot;, recomendamos usar este nome: &quot;[!DNL Marketo Measure] Quantia Opp.&quot; O &quot;Nome exclusivo&quot; será preenchido automaticamente com base no campo &quot;Nome&quot;. Na lista de opções &quot;Campo a atualizar&quot;, selecione &quot;[!DNL Marketo Measure] Valor da oportunidade.&quot; Depois de selecionar o campo, marque a caixa &quot;Reavaliar Regras de Workflow após Alteração do Campo&quot;. Em &quot;Especificar novo valor do campo&quot;, selecione &quot;Usar uma fórmula para definir o novo valor&quot;. Na caixa vazia, solte o nome da API do campo Valor personalizado. Clique em **[!UICONTROL Salvar]**.
+1. Aqui você preencherá as informações do campo. No campo &quot;Nome&quot;, recomendamos usar este nome: &quot;[!DNL Marketo Measure] Quantia Opp.&quot; O &quot;Nome exclusivo&quot; será preenchido automaticamente com base no campo &quot;Nome&quot;. Na lista de opções &quot;Campo a atualizar&quot;, selecione &quot;[!DNL Marketo Measure] Valor da oportunidade.&quot; Depois de selecionar o campo, marque a caixa &quot;Reavaliar Regras de Workflow após Alteração do Campo&quot;. Em &quot;Especificar novo valor do campo&quot;, selecione &quot;Usar uma fórmula para definir o novo valor&quot;. Na caixa vazia, solte o nome da API do campo Valor personalizado. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. Você será redirecionado a uma página de rollup do seu fluxo de trabalho, certifique-se de &quot;Ativar&quot; e pronto para começar. Para ativar, clique em **[!UICONTROL Editar]** ao lado do novo fluxo de trabalho e clique em **[!UICONTROL Ativar]**.
+1. você será redirecionado a uma página de rollup do seu fluxo de trabalho, certifique-se de &quot;Ativar&quot; e poderá continuar. Para ativar, clique em **[!UICONTROL Editar]** ao lado do novo fluxo de trabalho e clique em **[!UICONTROL Ativar]**.
 
    Depois de concluir essas etapas, as oportunidades precisarão ser atualizadas para acionar o workflow para ter o novo valor do [!UICONTROL oportunidade personalizada] campo.
 
-   Isso pode ser feito abrindo oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre o uso do Carregador de dados no [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Isso pode ser feito abrindo oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre como usar o Carregador de dados no [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Se houver dúvidas ao longo do caminho, entre em contato com a Equipe de conta do Adobe (seu gerente de conta) ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Se houver dúvidas ao longo do caminho, entre em contato com a Equipe de conta do Adobe (seu Gerente de conta) ou [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

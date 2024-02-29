@@ -1,16 +1,16 @@
 ---
-description: Explicação das Posições e Geração dos Pontos de Contato entre BT e MTD - [!DNL Marketo Measure] - Documentação do produto
+description: Explicação das Posições e Geração dos Pontos de Contato entre BT e MTD - [!DNL Marketo Measure]
 title: Explicação das posições de touchpoint e da geração entre BTs e [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 4%
+source-wordcount: '770'
+ht-degree: 3%
 
 ---
 
-# Explicação das posições de touchpoint e da geração entre BTs e [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# Explicação das Posições e Geração de Pontos de Contato entre BT e [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Geração de posições de ponto de contato e fluxo através da Jornada de compradores**
 

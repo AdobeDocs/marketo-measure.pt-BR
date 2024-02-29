@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Salesforce] Consolidação de pacotes - [!DNL Marketo Measure] - Documentação do produto'
+description: '[!DNL Salesforce] Consolidação de pacotes - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Consolidação de pacote'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 5%
 
 ---
 
 # Consolidação de pacotes do [!DNL Salesforce] {#salesforce-package-consolidation}
 
-Estamos animados em anunciar as próximas mudanças nos Pacotes do Marketo Measure Salesforce. Em um esforço para aprimorar a experiência do usuário e simplificar o uso, estamos consolidando todos os pacotes existentes em um único pacote abrangente.
+Para aprimorar a experiência do usuário e simplificar o uso, os pacotes existentes estão sendo compilados em um único pacote abrangente.
 
 ## Aposentadoria de Pacote {#package-retirement}
 
@@ -22,19 +22,19 @@ Como consequência dessa consolidação, os pacotes V1, V2_EXT, V2_Security e to
 
 O novo pacote V2 consolidado incorpora todos os recursos e funcionalidades dos pacotes anteriores, fornecendo uma experiência do usuário aprimorada. Este pacote atualizado permite um rastreamento mais eficiente do desempenho de marketing e vendas, além de informações mais detalhadas sobre o comportamento do cliente.
 
-Adicionamos dois novos campos para aprimorar seus recursos de relatório:
+Há dois novos campos para aprimorar seus recursos de relatórios:
 
 * form_name: agora disponível em objetos BT/BAT, esse campo permite criar relatórios com base em nomes de formulário.
 * user_touchpoint_id: esse campo permite que os usuários criem relatórios com contagens de pontos de contato de usuário exclusivas (`bizible2__User_Touchpoint_V2__c` no Salesforce).
 
 ## Suporte e transição {#support-and-transition}
 
-Sabemos que essa alteração pode exigir ajustes e temos o compromisso de apoiá-lo durante todo o processo. Nosso [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} O está prontamente disponível para responder a qualquer pergunta e ajudar a garantir uma transição suave para o novo pacote consolidado.
+A variável [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} O está disponível para responder a qualquer pergunta e ajudar a garantir uma transição suave para o novo pacote consolidado.
 
 ## Ações necessárias {#retired-actions}
 
 * Se você já tiver o pacote V2 instalado, deverá atualizá-lo para a nova versão consolidada.
-* Se você tiver relatórios ou painéis de controle de qualquer pacote de relatórios, é possível recriá-los facilmente sem qualquer modificação necessária, pois todos os campos utilizados existem no pacote consolidado.
+* Se você tiver relatórios ou painéis de controle de qualquer pacote de relatórios, é possível recriá-los facilmente sem qualquer modificação necessária, pois todos os campos existem no pacote consolidado.
 * Se você tiver relatórios usando campos no pacote V2_EXT, poderá recriá-los no pacote consolidado através das etapas abaixo:
    * Todos os dados nos campos V2_EXT estão disponíveis nos campos de ponto de contato, portanto, você pode modificar seus relatórios para buscar dados dos campos de ponto de contato V2 correspondentes, adicionando um filtro na posição do ponto de contato.
    * Exemplo de relatório que busca todos os leads com a FT de conteúdo do anúncio contendo o texto &quot;Outreach&quot;.
@@ -53,7 +53,7 @@ Sabemos que essa alteração pode exigir ajustes e temos o compromisso de apoiá
 
 **O pacote consolidado entrará em conflito com os campos do meu pacote existente?**
 
-Não é necessário desinstalar o pacote antes de instalar o pacote consolidado. Não haverá conflitos nos campos, pois eles estarão em um namespace diferente.
+Não é necessário desinstalar o pacote antes de instalar o pacote consolidado. Não haverá conflitos nos campos, pois eles estão em um namespace diferente.
 
 **Como posso preencher retroativamente os dados dos meus pacotes atuais?**
 
@@ -61,8 +61,8 @@ Você pode arquivar um tíquete [com suporte](https://nation.marketo.com/t5/supp
 
 **Os campos nos pacotes V1 e V2_EXT estarão disponíveis no pacote consolidado?**
 
-Sim. O pacote consolidado conterá os mesmos campos em V1 com detalhamentos adicionais por objetos e campos V2_EXT por meio de campos Touchpoint.
+Sim. O pacote consolidado contém os mesmos campos em V1, com detalhamentos adicionais por objetos e campos V2_EXT por meio de campos Touchpoint.
 
 **Os relatórios que usam os campos V2_EXT podem ser recriados no pacote consolidado?**
 
-Sim. Siga as etapas na guia [Ações necessárias](#retired-actions) acima.
+Sim. Siga as etapas na guia [Ações necessárias](#retired-actions) seção.

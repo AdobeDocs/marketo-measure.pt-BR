@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874592
-description: Integração de rastreamento de chamadas - [!DNL Marketo Measure] - Documentação do produto
+description: Integração de rastreamento de chamadas - [!DNL Marketo Measure]
 title: Integração ao rastreamento de chamadas
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---

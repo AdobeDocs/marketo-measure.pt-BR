@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874745
-description: Manuseio de formulário AJAX - [!DNL Marketo Measure] - Documentação do produto
+description: Manuseio de formulário AJAX - [!DNL Marketo Measure]
 title: Manuseio de formulário AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Para relatar manualmente conversões de clientes para [!DNL Marketo Measure], fo
 
 ## Cenário 1 - Formulário HTML com um envio AJAX {#scenario-html-form-with-an-ajax-submit}
 
-Ao usar formulários contendo AJAX (ou outro mecanismo) para enviar datas de conversão do cliente para nossos servidores, [!DNL Marketo Measure] pode não estar ciente da conversão do cliente por meio de qualquer um dos caminhos padrão que monitoramos. Nesse cenário, podemos aproveitar uma API simples (fornecida abaixo).
+Ao usar formulários contendo AJAX (ou outro mecanismo) para enviar datas de conversão do cliente para nossos servidores, [!DNL Marketo Measure] pode não estar ciente da conversão do cliente por meio de qualquer um dos caminhos padrão que monitoramos. Nesse cenário, podemos usar uma API simples (fornecida abaixo).
 
 Se você manipula seus próprios envios de formulários, pode chamar explicitamente o [!DNL Marketo Measure] do Javascript. [!DNL Marketo Measure] O coletará todas as informações relevantes do formulário e as publicará de forma assíncrona em nossos servidores.
 

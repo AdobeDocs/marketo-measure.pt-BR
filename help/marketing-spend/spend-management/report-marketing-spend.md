@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656737
-description: Gasto com marketing de relatório - [!DNL Marketo Measure] - Documentação do produto
+description: Gasto com marketing de relatório - [!DNL Marketo Measure]
 title: Gasto de marketing de relatório
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 A tabela de Gastos com marketing agora contém uma nova coluna para exibir a moeda para cada linha de Canal, Subcanal e Campanha. Esta nova coluna será exibida para todos os clientes, mesmo que eles não tenham Várias Moedas ativadas.
 
-A tabela agora conterá uma combinação de moedas diferentes. Consulte o painel Gastos com marketing se precisar obter uma soma de todos os canais, subcanais ou campanhas em uma única moeda.
+A tabela agora conterá uma combinação de moedas diferentes. Consulte o painel Gastos com marketing se precisar obter uma soma de quaisquer Canais, Subcanais ou Campanhas em uma única moeda.
 
 ## Fazer upload de custos {#upload-costs}
 

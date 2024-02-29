@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874598
-description: Configuração de canal personalizado offline - [!DNL Marketo Measure] - Documentação do produto
+description: Configuração de canal personalizado offline - [!DNL Marketo Measure]
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Depois de editar e atualizar a planilha com suas regras personalizadas, a próxi
 
 >[!TIP]
 >
->Deseja determinar _quando_ a [!DNL Salesforce] O tipo de campanha é colocado em [!DNL Marketo Measure] mapeamento de canal? Basta ir para **[!UICONTROL Configuração]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. Você pode ver quais valores estão na lista de opções e quais estão inativos. Os inativos não serão exibidos como um tipo selecionável no nosso &quot;[!UICONTROL Canais offline]&quot;. Esse processo pode levar de alguns minutos a 48 horas.
+>Deseja determinar _quando_ a [!DNL Salesforce] O tipo de campanha é colocado em [!DNL Marketo Measure] mapeamento de canal? Basta ir para **[!UICONTROL Configuração]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. Você pode ver quais valores estão na lista de opções e quais estão inativos. Os inativos não serão exibidos como um tipo selecionável no nosso &quot;[!UICONTROL Canais offline]&quot;. Observe que esse processo pode levar de alguns minutos a 48 horas.
 
 Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] fará upload das alterações e reprocessará os dados.
 
@@ -87,4 +87,4 @@ Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] fará
 >
 >* [[!DNL Marketo Measure] Universidade: sincronizando campanhas offline](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
 >
->* [Integração de programas o Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Integração de programas do Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)

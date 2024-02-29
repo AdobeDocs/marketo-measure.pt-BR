@@ -2,7 +2,7 @@
 description: Painel da velocidade do lead - [!DNL Marketo Measure] - Produto
 title: Painel da velocidade do lead
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Como o tempo gasto no estágio &quot;Primeiro contato&quot; se compara ao estág
 
 O gráfico de linha de série de tempo exibe o tempo médio, em dias, que os clientes potenciais/contatos gastam em cada estágio de vendas no período especificado.
 
-* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por mês, trimestre ou ano.
+* use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre uma linha para revelar informações detalhadas.
 
 Perguntas que o gráfico responde:

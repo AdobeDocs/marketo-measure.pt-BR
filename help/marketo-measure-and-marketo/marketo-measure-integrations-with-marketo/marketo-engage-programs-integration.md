@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Integração de programas - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Engage] Integração de programas - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integração de programas"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Todos os níveis.
 
    ![](assets/two.png)
 
-1. Você pode, opcionalmente, definir um nome para a regra se isso ajudar a rastreá-los. Primeiro, você selecionará o campo para definir sua regra da lista dos campos Program e Program Membership (Programa). Continue criando a regra selecionando o operador e o valor esperado a serem verificados.
+1. Você pode, opcionalmente, definir um nome para a regra se isso ajudar a rastreá-los. primeiro, selecione o campo para definir a regra na lista dos campos Program e Program Membership (Programa). Continue criando a regra selecionando o operador e o valor esperado a serem verificados.
 
    ![](assets/three.png)
 
@@ -85,7 +85,7 @@ Na lista de Canais de programa do Marketo, é desejável mapear os valores para 
 
 1. Comece navegando até **[!UICONTROL Minha conta]** > **[!UICONTROL Configurações]** > **[!UICONTROL Canais offline]**.
 
-1. Na parte superior, você terá a opção de mapear para seus Tipos de campanha do CRM e, abaixo, verá as opções para os Canais de programa do Marketo.
+1. Na parte superior, você terá a opção de mapear para seus Tipos de campanha de CRM e, abaixo, verá as opções para os Canais de programa do Marketo.
 
 1. Primeiro, selecione o Canal que deve ser mapeado para o valor e, como opção, selecione o Subcanal. Quando terminar, clique em **[!UICONTROL Salvar]** na parte inferior.
 
@@ -97,7 +97,7 @@ Por meio da importação de dados dos Programas do Marketo, os custos são baixa
 
 ## Como funciona {#how-it-works}
 
-**Mapeamento de campos**
+**Mapeamentos de campos**
 
 <table> 
  <colgroup> 
@@ -169,7 +169,7 @@ Para acionar o preenchimento automático, comece inserindo uma chave `{` no camp
 
 **Se eu criar regras do Programa Marketo e também tiver regras de Campanha do CRM, elas serão contadas duas vezes?**
 
-Depende da definição da regra, mas possivelmente sim. Avalie seu conjunto de regras para que não tenha regras que cubram um Programa e uma Campanha, pois não removeremos a duplicação ou detectaremos associações semelhantes. Uma solução possível é copiar as regras do Campaign para os Programas se desejar que o Marketo seja a única fonte da verdade e, em seguida, remover as regras do Campaign. Outra opção é adicionar os critérios &quot;CreatedOn&quot; ou &quot;CreatedDate&quot; às regras, para que as regras anteriores a uma determinada data usem as regras de Campanha e as regras após uma determinada data usem as regras do Programa. Há muitas soluções alternativas disponíveis, mas será necessário planejamento e coordenação.
+Depende da definição da regra, mas possivelmente sim. avalie seu conjunto de regras para que não tenha regras que cubram um Programa e uma Campanha, pois não removeremos a duplicação ou detectaremos associações semelhantes. Uma solução possível é copiar as regras do Campaign para os Programas se desejar que o Marketo seja a única fonte da verdade e, em seguida, remover as regras do Campaign. Outra opção é adicionar os critérios &quot;CreatedOn&quot; ou &quot;CreatedDate&quot; às regras, para que as regras anteriores a uma determinada data usem as regras de Campanha e as regras após uma determinada data usem as regras do Programa. Há muitas soluções alternativas disponíveis, mas será necessário planejamento e coordenação.
 
 **Os Campos personalizados de associação ao programa da Marketo estão disponíveis para definição?**
 

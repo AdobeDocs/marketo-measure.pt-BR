@@ -3,9 +3,9 @@ description: Painel de Visão Geral da Receita - [!DNL Marketo Measure] - Produt
 title: Painel de visão geral da receita
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ O painel Visão geral da receita fornece insights sobre a receita total derivada
 
 Este gráfico de barras lado a lado da série temporal contrasta a Receita total com a Receita atribuída, visualizando claramente o impacto de marketing na receita geral.
 
-* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por trimestre e ano.
+* use as funcionalidades de detalhamento e aumento para categorizar os dados por Trimestre e Ano.
 * Passe o mouse sobre uma seção do gráfico de barras para revelar suas informações detalhadas.
 
 **Perguntas que o gráfico responde:**

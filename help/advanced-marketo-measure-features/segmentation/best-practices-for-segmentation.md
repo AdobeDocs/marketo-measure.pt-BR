@@ -1,12 +1,12 @@
 ---
-description: Práticas recomendadas para segmentação - [!DNL Marketo Measure] - Documentação do produto
+description: Práticas recomendadas para segmentação - [!DNL Marketo Measure]
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 88%
+source-wordcount: '449'
+ht-degree: 87%
 
 ---
 

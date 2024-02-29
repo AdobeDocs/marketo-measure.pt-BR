@@ -1,9 +1,9 @@
 ---
-description: Práticas recomendadas para modelo personalizado - [!DNL Marketo Measure] - Documentação do produto
+description: Práticas recomendadas para modelo personalizado - [!DNL Marketo Measure]
 title: Práticas recomendadas para o modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Se seu modelo personalizado utilizar o modelo de aprendizado de máquina, você 
 
 Outros motivos para isso podem acionar uma revisão do Modelo personalizado incluem...
 
-* Volume de negócios da sua equipe de marketing
+* Rotatividade de sua equipe de marketing
 * Quaisquer alterações nos estágios do CRM
 * Atualizações no funil de suas organizações
 * Visualização de dados de receita imprecisos em seu [!DNL Marketo Measure] relatórios ao aplicar o modelo personalizado
@@ -71,4 +71,4 @@ Outros motivos para isso podem acionar uma revisão do Modelo personalizado incl
 >
 >* [Modelo e configuração de atribuição personalizada](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Ativar O Rastreamento Do Histórico De Campos Para O Modelo Personalizado](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [Modelo de aprendizagem de máquina](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
+>* [Modelo de aprendizado de máquina](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

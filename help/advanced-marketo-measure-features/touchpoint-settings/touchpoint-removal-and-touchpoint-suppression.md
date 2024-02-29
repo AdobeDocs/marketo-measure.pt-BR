@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874710
-description: Remoção do ponto de contato e supressão do ponto de contato - [!DNL Marketo Measure] - Documentação do produto
+description: Remoção do ponto de contato e supressão do ponto de contato - [!DNL Marketo Measure]
 title: Remoção e supressão do touchpoint
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '649'
 ht-degree: 1%
 
 ---

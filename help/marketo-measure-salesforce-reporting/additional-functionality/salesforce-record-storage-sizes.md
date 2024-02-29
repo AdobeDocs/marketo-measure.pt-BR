@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874576
-description: "[!DNL Salesforce] Tamanhos de armazenamento de registros - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Salesforce] Tamanhos de armazenamento de registros - [!DNL Marketo Measure]"
 title: "[!DNL Salesforce] Tamanhos de armazenamento de registros"
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---

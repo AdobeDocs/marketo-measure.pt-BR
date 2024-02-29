@@ -3,7 +3,7 @@ description: Painel de tráfego da Web - [!DNL Marketo Measure] - Produto
 title: Painel de tráfego na web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Tabela que exibe o total de visitas e visitantes únicos por referenciadores.
 
 Gráfico de barras que exibe Visitas ou Visitantes únicos segmentados por Canal/Subcanal/Campanha.
 
-* Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por Subcanal e Campaign.
+* use as funcionalidades de detalhamento e aumento para categorizar os dados por Subcanal e Campaign.
 * Passe o mouse sobre cada barra para visualizar as Visitas ou Visitantes únicos.
 
 Perguntas que o gráfico responde:

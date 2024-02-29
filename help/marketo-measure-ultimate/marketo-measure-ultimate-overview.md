@@ -1,12 +1,12 @@
 ---
-description: “Visão geral do [!DNL Marketo Measure] Ultimate - [!DNL Marketo Measure] - Documentação do produto”
+description: '[!DNL Marketo Measure] Visão geral final - [!DNL Marketo Measure]'
 title: “Visão geral do [!DNL Marketo Measure] Ultimate”
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ A instância do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma san
 >
 >Uma instância de produção do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox de produção da AEP. Uma instância de desenvolvedores do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox de desenvolvedores da AEP.
 
-Após a seleção de mapeamento da sandbox ser salva, não é possível alterá-la no aplicativo. Para alterá-la, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Após a seleção de mapeamento da sandbox ser salva, não é possível alterá-la no aplicativo. Para alterá-lo, entre em contato com [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Os dados de uma determinada entidade (por exemplo, Conta) em uma determinada fonte de dados só podem ir para um conjunto de dados. Cada conjunto de dados pode ser incluído somente em um fluxo de dados. As violações interromperão o fluxo de dados no tempo de execução.
 

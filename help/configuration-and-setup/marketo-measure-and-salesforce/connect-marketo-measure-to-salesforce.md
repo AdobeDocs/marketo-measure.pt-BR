@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874580
-description: Conectar o Marketo Measure ao Salesforce - [!DNL Marketo Measure] - Documentação do produto
+description: Conectar o Marketo Measure ao Salesforce - [!DNL Marketo Measure]
 title: Conectar o Marketo Measure ao Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -29,23 +29,23 @@ Este artigo fornece uma visão geral de como conectar seus [!DNL Salesforce] par
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. Uma janela pop-up será exibida solicitando que você selecione a conexão CRM. Clique em **[!UICONTROL Conectar]** ao lado do botão [!DNL Salesforce] logotipo.
+1. Uma janela pop-up é exibida solicitando que você selecione a conexão CRM. Clique em **[!UICONTROL Conectar]** ao lado da [!DNL Salesforce] logotipo.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. Uma janela pop-up final será exibida, solicitando os [!DNL Salesforce] credenciais, sandbox ou produção. Insira suas informações e clique em **[!UICONTROL Autorizar]** para conectar a conta ao [!DNL Marketo Measure].
+1. Uma janela pop-up final é exibida, solicitando o [!DNL Salesforce] credenciais, sandbox ou produção. Insira suas informações e clique em **[!UICONTROL Autorizar]** para conectar a conta ao [!DNL Marketo Measure].
 
 >[!NOTE]
 >
 >[!DNL Marketo Measure] só pode ser conectado a um [!DNL Salesforce] instância de cada vez.
 >
 >* A [!DNL Marketo Measure] A instância do pode ser conectada a uma instância de sandbox do SFDC para testar a integração antes de alternar a conexão com sua instância de produção do SFDC.
->* Se você testar primeiro com uma sandbox da SFDC, recomendamos testar com uma que seja uma réplica exata da instância de produção da SFDC em termos de campos nos objetos lead, contact, account, Opportunity, Campaign e case. Se você tiver acionadores APEX ativos na produção que são acionados em atualizações dos objetos Lead, Contact, Account, Opportunity, Campaign e Case, tente ativá-los em sua sandbox.
->* Depois de concluir os testes, você atualizará [!DNL Marketo Measure] conta para apontar para sua Produção [!DNL Salesforce] (em vez de Sandbox [!DNL Salesforce]). Devido à forma como a integração foi criada, uma vez que um [!DNL Marketo Measure] A conta do está conectada à Produção [!DNL Salesforce], não é possível &quot;retroceder&quot; e conectar-se a uma sandbox [!DNL Salesforce] org.
+>* Se você testar primeiro com uma sandbox da SFDC, recomendamos testar com uma que seja uma réplica exata da instância de produção da SFDC em termos de campos nos objetos Lead, Contact, Account, Opportunity, Campaign e Case. Se você tiver acionadores APEX ativos na produção que são acionados em atualizações dos objetos Lead, Contact, Account, Opportunity, Campaign e Case, tente ativá-los em sua sandbox.
+>* Quando terminar os testes, você atualizará o [!DNL Marketo Measure] conta para apontar para sua Produção [!DNL Salesforce] (em vez de Sandbox [!DNL Salesforce]). Devido à forma como a integração foi criada, uma vez que um [!DNL Marketo Measure] A conta do está conectada à Produção [!DNL Salesforce], não é possível &quot;retroceder&quot; e conectar-se a uma sandbox [!DNL Salesforce] org.
 
 ## Uso de créditos de API {#api-credits-usage}
 
-A Marketo Measure emprega uma tarefa de integração de CRM para fazer a interface com a Salesforce de um cliente por meio de um usuário integrado. Todas as trocas de dados por meio desse usuário utilizam créditos de API do Salesforce. Você pode alocar uma cota de crédito a um usuário de integração, o que serve para regular chamadas excessivas de API. Essa cota ou limite é redefinido a cada 24 horas.
+A Marketo Measure emprega uma tarefa de integração de CRM para fazer a interface com a Salesforce de um cliente por meio de um usuário integrado. Todas as trocas de dados por meio desse usuário usam créditos de API do Salesforce. Você pode alocar uma cota de crédito a um usuário de integração, o que serve para regular chamadas excessivas de API. Essa cota ou limite é redefinido a cada 24 horas.
 
 É possível acessar esse limite no Marketo Measure via: **Minha conta** > **Configurações** > **CRM** > **Geral** > **Limite diário da API do CRM** e podem configurá-lo para seus locatários.
 
@@ -55,7 +55,7 @@ A Marketo Measure emprega uma tarefa de integração de CRM para fazer a interfa
 
 1. Navegue até **Minha conta** > **Configurações**.
 
-1. Em CRM, clique em **Geral**. Você verá o **Limite diário da API do CRM** opção.
+1. Em CRM, clique em **Geral**. Você vê a **Limite diário da API do CRM** opção.
 
 1. Clique no ícone Bloquear para editar.
 

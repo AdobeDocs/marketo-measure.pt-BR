@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: Campos de ponto de contato - [!DNL Marketo Measure] - Documentação do produto
+description: Campos de ponto de contato - [!DNL Marketo Measure]
 title: Campos do Touchpoint
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
 * Crie um campo calculado e rotule-o como &quot;Region_Name&quot;
 * Defina a regra começando pela pesquisa do campo extraído. Nesse caso, [!DNL Touchpoint.Region]
 * Usar o operador &quot;[!UICONTROL mapeia para]&quot;, pois queremos criar um mapeamento para cada número para seu valor
-* Uma tabela será apresentada para listar cada mapeamento. No final, será algo assim:
+* Uma tabela é exibida para listar cada mapeamento. No final, será algo assim:
 * Com base no mapeamento e no URL acima, o &quot;Region_Value&quot; para um ponto de contato com essa página inicial seria &quot;EMEA&quot;
 * Repetir a extração e o mapeamento dos 4 conjuntos de dígitos restantes
 
@@ -213,7 +213,7 @@ Não se esqueça de salvar suas regras depois de criá-las. Se você não visual
 
 **Qual expressão devo usar para extrair vários parâmetros de uma única página de aterrissagem?**
 
-Como no Exemplo de Extração #4, será necessário criar vários campos para extrair cada um dos parâmetros. Portanto, se você tiver cinco valores diferentes, criará cinco Campos de ponto de contato para extrair cada um deles.
+Como no Exemplo de Extração #4, é necessário criar vários campos para extrair cada um dos parâmetros. Portanto, se você tiver cinco valores diferentes, criará cinco Campos de ponto de contato para extrair cada um deles.
 
 **Por que não vejo meus novos campos na [!DNL Marketo Measure] esquema?**
 

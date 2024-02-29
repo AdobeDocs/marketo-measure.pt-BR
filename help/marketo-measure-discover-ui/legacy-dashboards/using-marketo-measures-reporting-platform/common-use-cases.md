@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874658
-description: Casos de uso comuns - [!DNL Marketo Measure] - Documentação do produto
+description: Casos de uso comuns - [!DNL Marketo Measure]
 title: Casos de uso comuns
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Procurando identificar o impacto geral do marketing na receita? [!DNL Marketo Me
 
 ## Contatos criados {#contacts-created}
 
-Para exibir o número total de contatos criados, agrupados por uma dimensão, navegue até o painel Visão geral ou CMO do Discover, abra os Filtros acima dos blocos, ajuste o filtro Métrica para Contatos e mova o Tipo de data para Data de criação. Feito!
+Para exibir o número total de contatos criados, agrupados por uma dimensão, navegue até o painel Visão geral ou CMO do Discover, abra os Filtros acima dos blocos, ajuste o filtro Métrica para Contatos e mova o Tipo de data para Data de criação. Pronto!
 
 Para obter uma contagem total de contatos ou ver os contatos totais ao longo do tempo, navegue até o painel Crescimento, ajuste o Tipo de data para Data de criação e selecione o intervalo de tempo desejado. Contatos e Contatos ao longo do tempo são blocos focados em contato dentro desse painel.
 

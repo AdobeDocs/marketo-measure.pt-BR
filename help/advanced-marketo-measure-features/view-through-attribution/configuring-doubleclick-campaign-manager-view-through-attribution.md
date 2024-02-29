@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: Configuração Da Visualização Do Gerenciador De Campanhas Doubleclick Por Meio Da Atribuição - [!DNL Marketo Measure] - Documentação do produto
+description: Configuração Da Visualização Do Gerenciador De Campanhas Doubleclick Por Meio Da Atribuição - [!DNL Marketo Measure]
 title: Configuração da atribuição de visualização do Doubleclick Campaign Manager
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 4%
 
 Para começar a obter insights mais granulares da visualização por meio do rastreamento com [!DNL Doubleclick Campaign Manager], nosso pixel de rastreamento precisa ser configurado.
 
-Por favor [clique aqui](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) para obter mais informações sobre o [!DNL Marketo Measure] Visualização por meio da funcionalidade de atribuição.
+Para obter mais informações sobre o [!DNL Marketo Measure] Visualizar por meio da funcionalidade de atribuição, consulte [Perguntas frequentes sobre a visualização do Marketo Measure por meio da atribuição](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] é considerada uma tag piggyback porque é uma chamada de terceiros por meio da tag de publicidade do DCM. As tags Piggyback não funcionam com tags de imagem, somente tags iframe ou javascript. De acordo com o Suporte do DCM, isso não mudou recentemente e sempre foi o caso. As tags padrão foram descontinuadas em 2 de outubro de 2017, mas não afetam a capacidade de [!DNL Marketo Measure] para rastrear as impressões.
 
-Caso você use uma hierarquia Pai e Filho no DCM, precisaremos que nossa tag seja aplicada a todos os níveis para rastrear as impressões.
+Caso use uma hierarquia Pai e Filho no DCM, precisaremos que nossa tag seja aplicada a todos os níveis para rastreamento de impressões.
 
 ## Como adicionar a tag de imagem {#how-to-add-the-image-tag}
 
-Você adicionará a tag em [!DNL Doubleclick] na configuração Anunciante, e você desejará criar uma tag de evento de impressão.
+Adicione a tag ao Doubleclick sob a configuração Anunciante e crie uma tag de evento de impressão.
 
 1. Adicione o código a seguir como um pixel de imagem 1x1.
 

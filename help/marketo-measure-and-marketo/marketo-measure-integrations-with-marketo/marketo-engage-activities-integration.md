@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Integração de atividades - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Engage] Integração de atividades - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integração de atividades"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ No âmbito do quadro [!DNL Marketo Measure] e [!DNL Marketo Engage] Integração
    * País
    * Região
 
-   * Página
+   * Página de destino
    * Página de indicação
    * Página do formulário
    * Data do formulário
@@ -155,7 +155,7 @@ Compartilhar conteúdo (400) Caixa de diálogo Envolvida (158) Documento interag
 
 ## Mapeamento de canal {#channel-mapping}
 
-Para qualquer uma das regras de um Tipo de atividade com uma ID de programa, o Canal de programa do Marketo é determinado a partir do programa. Usamos o Canal do programa para mapear para seus canais offline personalizados, portanto, você deve se certificar de que seus canais estejam configurados corretamente [conforme instruído aqui](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Para qualquer uma das regras de um Tipo de atividade com uma ID de programa, o Canal de programa do Marketo é determinado a partir do programa. Usamos o Canal do programa para mapear para seus canais offline personalizados, portanto, você precisará verificar se seus canais estão configurados corretamente [conforme instruído aqui](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
 E para qualquer uma das regras de um Tipo de atividade sem uma ID de programa, seu primeiro passo foi criar um Nome de campanha. Use este Nome de campanha para configurar seus Canais online personalizados [apresentado aqui](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 

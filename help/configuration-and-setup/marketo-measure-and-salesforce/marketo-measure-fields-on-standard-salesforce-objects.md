@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Campos no Padrão [!DNL Salesforce] Objetos - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Measure] Campos no Padrão [!DNL Salesforce] Objetos - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Campos no Padrão [!DNL Salesforce] Objetos"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 1%
+source-wordcount: '1292'
+ht-degree: 2%
 
 ---
 
-# Objetos [!DNL Marketo Measure] Campos no padrão[!DNL Salesforce] {#marketo-measure-fields-on-standard-salesforce-objects}
+# [!DNL Marketo Measure] Campos no Padrão [!DNL Salesforce] Objetos {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 Saiba mais sobre os vários [!DNL Marketo Measure] campos que são adicionados a [!DNL Salesforce] objetos padrão.
 
@@ -67,7 +67,7 @@ Atualizar [!DNL Marketo Measure] Atribuição (regra de validação): essa regra
 
 Há 5 campos e 1 acionador de apex adicionado com o pacote.
 
-Status do ponto de contato (lead): é um campo de diagnóstico relacionado a um recurso que não está ativado imediatamente. Usamos isso para entender se um ponto de contato foi criado em relação ao registro de lead relacionado ou, se não foi, por quê.
+Status do ponto de contato (lead): é um campo de diagnóstico relacionado a um recurso que não é ativado imediatamente. Usamos isso para entender se um ponto de contato foi criado em relação ao registro de lead relacionado ou, se não foi, por quê.
 
 Status do ponto de contato (Contato): é um campo de diagnóstico relacionado a um recurso que não está ativado imediatamente. Usamos isso para entender se um ponto de contato foi criado em relação ao registro de contato relacionado ou, se não, por quê.
 
@@ -77,7 +77,7 @@ Data do Status do Ponto de Contato: é a data em que os campos de diagnóstico f
 
 Data do ponto de contato do comprador: está relacionada à [!UICONTROL Atualização em massa Data do ponto de contato] no objeto Campaign. Quando isso é usado, aplicamos a data do ponto de contato definida ao membro da campanha.
 
-OnCampaignMemberDelete: pronto para uso, [!DNL Salesforce] O não aparece quando os Membros da campanha são excluídos, o que pode causar problemas com relatórios de atribuição precisos. Quando um membro da campanha é excluído, isso é acionado para informar [!DNL Marketo Measure] para remover Touchpoints relacionados a esse Membro inexistente do Campaign.
+OnCampaignMemberDelete: pronto para uso, [!DNL Salesforce] não aparece quando Membros da campanha são excluídos, o que pode causar problemas com relatórios de atribuição precisos. Quando um membro da campanha é excluído, isso é acionado para informar [!DNL Marketo Measure] para remover Touchpoints relacionados a esse Membro inexistente do Campaign.
 
 ## Contato {#contact}
 
@@ -137,7 +137,7 @@ Isso é usado para o mapeamento de lead para conta do recurso ABM. Preenchemos e
 
 ## Oportunidade {#opportunity}
 
-[!DNL Marketo Measure] Valor da oportunidade: esse campo é usado no cenário em que um campo de valor personalizado é aproveitado na oportunidade. Mapeamos esse valor de campo personalizado para [!DNL Marketo Measure] Valor da oportunidade usando um fluxo de trabalho e, em seguida, leia este campo para os campos de atribuição de Receita no objeto de ponto de contato Atribuição do comprador.
+[!DNL Marketo Measure] Valor da oportunidade: esse campo é usado no cenário em que um campo de valor personalizado é usado na oportunidade. Mapeamos esse valor de campo personalizado para [!DNL Marketo Measure] Valor da oportunidade usando um fluxo de trabalho e, em seguida, leia este campo para os campos de atribuição de Receita no objeto de ponto de contato Atribuição do comprador.
 
 ## Atividade {#activity}
 

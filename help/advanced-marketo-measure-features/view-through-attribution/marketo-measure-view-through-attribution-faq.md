@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] Exibir por meio das perguntas frequentes sobre atribuição - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Measure] Exibir por meio das perguntas frequentes sobre atribuição - [!DNL Marketo Measure]"
 title: '"[!DNL Marketo Measure] "Exibir por meio das perguntas frequentes sobre atribuição"'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 6%
 
 ---

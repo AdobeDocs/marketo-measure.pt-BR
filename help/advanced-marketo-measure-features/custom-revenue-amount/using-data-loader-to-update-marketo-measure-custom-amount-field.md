@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874771
-description: Uso do Carregador de Dados para Atualização [!DNL Marketo Measure] Campo Valor personalizado - [!DNL Marketo Measure] - Documentação do produto
+description: Uso do Carregador de Dados para Atualização [!DNL Marketo Measure] Campo Valor personalizado - [!DNL Marketo Measure]
 title: Utilização do Carregador de dados para atualizar o campo Valor personalizado do Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 9%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
-# Como usar o carregador de dados para atualizar o[!DNL Marketo Measure]campo de quantia personalizada {#using-data-loader-to-update-marketo-measure-custom-amount-field}
+# Uso do Carregador de Dados para Atualização [!DNL Marketo Measure] Campo Valor personalizado {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure] A recomenda usar o Carregador de dados como uma opção conveniente para atualizar valores de oportunidade ao usar um campo de receita personalizado (usamos o campo Valor imediatamente) na [!DNL Marketo Measure]. O Carregador de dados é preferível ao uso de [!DNL Marketo Measure] atualizar o script como o script exige que os usuários desativem todas as regras de validação do Salesforce enquanto o [!DNL Marketo Measure] execução do script.
 
-## Como usar o carregador de dados para atualizar o[!DNL Marketo Measure]campo de quantia personalizada{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
+## Uso do Carregador de Dados para Atualização [!DNL Marketo Measure] Campo Valor personalizado{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
 
 1. Crie uma planilha do Excel com:
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874556
-description: "[!DNL Marketo Measure] Manutenção - [!DNL Marketo Measure] - Documentação do produto"
+description: "[!DNL Marketo Measure] Manutenção - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Manutenção"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '640'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ O Marketo Measure rastreia todas as páginas e subdomínios em que nosso Javascr
 
 **Revise o mapeamento de canal personalizado para verificar a precisão (1x/mês)**
 
-Durante a integração, é possível configurar o mapeamento de canal personalizado para seus esforços de marketing online e offline. À medida que sua estratégia de marketing e uso do Marketo Measure evoluem, convém acompanhar essa lógica de mapeamento para garantir que todos os pontos de contato sejam categorizados adequadamente.
+Durante a integração, é possível configurar o mapeamento de canal personalizado para seus esforços de marketing online e offline. À medida que sua estratégia de marketing e uso do Marketo Measure evoluem, você desejará acompanhar essa lógica de mapeamento para garantir que todos os pontos de contato sejam categorizados adequadamente.
 
 Lembre-se: [!DNL Marketo Measure] O reprocessa seus dados ao editar a lógica de mapeamento, de modo que você não poderá alterar essas regras mais de uma vez a cada 7 dias.
 

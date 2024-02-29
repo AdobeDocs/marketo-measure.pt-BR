@@ -4,10 +4,10 @@ description: Glossário de campos do Marketo Measure - Marketo Measure - Documen
 title: Glossário de campos do Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '3211'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '3213'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artigo fornece um glossário de todos os Campos do Marketo Measure adicionados ao seu Salesforce a partir do Pacote básico do Marketo Measure. Você também encontrará informações sobre em qual objeto o campo pode ser encontrado e como cada campo é preenchido com informações.
 
-Para obter um mapa ao qual cada Campo do Marketo Measure está relacionado, [clique aqui](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Para um mapa com o qual Objeto cada Campo do Marketo Measure está relacionado, [clique aqui](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · W · X · Y · Z
 
@@ -299,7 +299,7 @@ Este campo exibe o nome do lead ao qual um touchpoint pertence.
 
 **Canal de marketing** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Este campo mostra o grupo geral de atividades de marketing ou canal de marketing ao qual o touchpoint pertence (ou seja, Pesquisa paga, Direta, Social etc.). Os touchpoints são agrupados de acordo com a configuração dos canais no aplicativo Marketo Measure. Para obter mais informações sobre canais de marketing ou como configurar canais, [clique aqui](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Este campo mostra o grupo geral de atividades de marketing ou canal de marketing ao qual o touchpoint pertence (ou seja, Pesquisa paga, Direta, Social etc.). Os touchpoints são agrupados de acordo com a configuração dos canais no aplicativo Marketo Measure. Para obter mais informações sobre canais de marketing ou como configurar seus canais, [clique aqui](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Canal de marketing - Caminho** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

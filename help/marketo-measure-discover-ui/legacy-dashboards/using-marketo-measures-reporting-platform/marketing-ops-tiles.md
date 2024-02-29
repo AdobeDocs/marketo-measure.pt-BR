@@ -1,17 +1,17 @@
 ---
 unique-page-id: 34406495
-description: Blocos de Operações de Marketing - [!DNL Marketo Measure] - Documentação do produto
-title: Oportunidades de marketing  Janelas
+description: Blocos de Operações de Marketing - [!DNL Marketo Measure]
+title: Blocos de operações de marketing
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 4%
 
 ---
 
-# Oportunidades de marketing  Janelas {#marketing-ops-tiles}
+# Blocos de operações de marketing {#marketing-ops-tiles}
 
 As Operações de marketing permitem validar e diagnosticar [!DNL Marketo Measure] dados com total visibilidade em pontos de contato individuais por clientes potenciais, contatos, contas, campanhas e oportunidades.
 
@@ -44,7 +44,7 @@ As Operações de marketing permitem validar e diagnosticar [!DNL Marketo Measur
    <td><p><strong>Oportunidade Ganha</strong></p></td> 
    <td><p><strong>Data de criação do aplicativo</strong></p></td> 
    <td><p><strong>Data de Fechamento do Opp</strong></p></td> 
-   <td><p><strong>Data do Touchpoint</strong></p></td> 
+   <td><p><strong>Data do touchpoint</strong></p></td> 
    <td><p><strong>Modelo de atribuição</strong></p></td> 
   </tr> 
   <tr> 

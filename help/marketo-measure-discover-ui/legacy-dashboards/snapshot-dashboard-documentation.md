@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762600
-description: Documentação do painel de instantâneos - [!DNL Marketo Measure] - Documentação do produto
+description: Documentação do painel de instantâneos - [!DNL Marketo Measure]
 title: Documentação do painel de instantâneos
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ Em todos os filtros, a lógica &quot;AND&quot; é usada.
 >
 >Se um registro mudar de estágio na data selecionada, ele será contado para os estágios de e até e todos os estágios de passagem.
 
-## Instantâneo de Lead/Contato {#lead-contact-snapshot}
+## Instantâneo de Cliente Potencial/Contato {#lead-contact-snapshot}
 
 ![](assets/one.png)
 

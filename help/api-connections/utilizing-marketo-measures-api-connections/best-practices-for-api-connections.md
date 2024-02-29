@@ -1,11 +1,11 @@
 ---
-description: Práticas recomendadas para conexões de API - [!DNL Marketo Measure] - Documentação do produto
+description: Práticas recomendadas para conexões de API - [!DNL Marketo Measure]
 title: Práticas recomendadas para conexões de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '736'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Independentemente da plataforma de publicidade que você estiver conectando, as 
 * Conecte todas as contas de publicidade possíveis para automatizar seus relatórios de gastos o máximo possível
 * Se disponível, sempre implemente um template de rastreamento. O modelo garante que, mesmo se a conta de anúncio se desconectar, [!DNL Marketo Measure] ainda é capaz de obter detalhes de anúncios granulares
 
-Para otimizar cada [!DNL Marketo Measure] API, siga as práticas recomendadas a seguir.
+Para otimizar cada [!DNL Marketo Measure] da API, siga as seguintes práticas recomendadas.
 
 **[!DNL Facebook]**: Conectar com marcação automática
 
@@ -84,12 +84,12 @@ Os motivos para desconexão e reautorização incluem...
 * Essa pessoa não está mais na empresa
 * Atualizações das APIs
 
-Se sua equipe tiver vivenciado qualquer um dos cenários acima, verifique as conexões de API na [!DNL Marketo Measure] para garantir que eles não precisem ser reautorizados.
+Se sua equipe tiver passado por qualquer um dos cenários acima, verifique as conexões de API na [!DNL Marketo Measure] para garantir que eles não precisem ser reautorizados.
 
 >[!MORELIKETHIS]
 >
 >* [Plataformas de publicidade integradas (APIs)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [Como as ferramentas de gerenciamento de lances afetam [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [Como as ferramentas de gerenciamento de ofertas afetam [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
 >* [[!DNL Marketo Measure] Parâmetros de API explicados](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Visão geral da API do facebook](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Visão geral da integração](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)

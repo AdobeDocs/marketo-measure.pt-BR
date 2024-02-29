@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874606
-description: Parâmetros do UTM - [!DNL Marketo Measure] - Documentação do produto
+description: Parâmetros UTM - [!DNL Marketo Measure]
 title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+workflow-type: tm+mt
+source-wordcount: '926'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Marcar URLs é uma maneira simples e eficaz de capturar dados sobre suas iniciativas de marketing digital. É o processo de adicionar parâmetros ao final dos URLs que coletam e registram dados. Os parâmetros mais usados são os Módulos de rastreamento de Urchin (UTMs), compatíveis com o Google. Há cinco parâmetros principais de UTM disponíveis: Meio, Origem, Campanha, Conteúdo e Termo. Eles são discutidos com mais detalhes na próxima seção.
 
-Os parâmetros de UTM podem ser adicionados manualmente aos URLs ou anexados por meio da marcação automática com determinadas plataformas, como o AdWords, por exemplo. A marcação automática automatiza o processo de anexação de parâmetros a URLs. Há também a opção de [Construtores de URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} para acelerar a marcação manual de URLs. Com um construtor de URL, basta especificar os valores a serem usados para cada parâmetro e o construtor formatará o URL para você.
+Os parâmetros UTM podem ser adicionados manualmente aos URLs ou anexados por meio da marcação automática com determinadas plataformas, como AdWords . A marcação automática automatiza o processo de anexação de parâmetros a URLs. Há também a opção de [Construtores de URL](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} para acelerar a marcação manual de URLs. Com um construtor de URL, você simplesmente especifica os valores a serem usados para cada parâmetro e o construtor formata o URL para você.
 
 ## O que são parâmetros de UTM? {#what-are-utm-parameters}
 
@@ -27,7 +27,7 @@ Agora, vamos verificar um URL com UTMs:
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-Como você pode ver, o segundo link contém muito mais texto. Os parâmetros de UTM sempre seguem o domínio de nível superior (.com neste exemplo) e começam com um ponto de interrogação. Depois disso, a ordem dos parâmetros não importa, mas é recomendável seguir uma convenção de nomenclatura consistente. Os e comerciais precisam ser colocados entre cada parâmetro para separar cada UTM. Agora podemos entrar em mais detalhes sobre o que cada parâmetro representa.
+O segundo link contém mais texto. Os parâmetros de UTM sempre seguem o domínio de nível superior (.com neste exemplo) e começam com um ponto de interrogação. Depois disso, a ordem dos parâmetros não importa, mas é recomendável seguir uma convenção de nomenclatura consistente. O &quot;E&quot; comercial deve ser colocado entre cada parâmetro para separar cada UTM. Agora podemos entrar em mais detalhes sobre o que cada parâmetro representa.
 
 Saiba mais sobre [práticas recomendadas para configurar parâmetros de UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
@@ -48,7 +48,7 @@ Saiba mais sobre [práticas recomendadas para configurar parâmetros de UTM](/he
    * Neste exemplo, [!DNL Facebook] é o Valor de origem. Outros exemplos são Twitter e Instagram. Se a mídia de UTM for [!DNL Paid Search], por outro lado, a Origem do UTM pode ser AdWords ou BingAds.
 
 * Esse parâmetro mapeia para o [!DNL Marketo Measure] campo “Origem do touchpoint” no SFDC.
-* _[!DNL Marketo Measure]Prática recomendada:_ esse parâmetro rastreia a origem do seu tráfego, portanto não é adequado usá-lo para indicar o tipo de anúncio, por exemplo, redirecionamento, patrocinado etc. Ele é melhor usado para rastrear o subcanal de nível superior. Lembre-se, você está respondendo a pergunta “de onde vem meu tráfego?” Você está procurando o referenciador. Neste exemplo, a fonte do UTM é o local onde seu anúncio está localizado (não a página da Web propriamente dita, pois é automaticamente rastreada fora das tags). Se você estiver rastreando uma campanha de email de entrega, o email de entrega é a origem.
+* _[!DNL Marketo Measure]Prática recomendada:_ Esse parâmetro rastreia a origem do seu tráfego; portanto, não é adequado usá-lo para indicar o tipo de anúncio, por exemplo, redirecionamento, patrocinado etc. Ele é melhor usado para rastrear o subcanal de nível superior. Lembre-se, você está respondendo a pergunta “de onde vem meu tráfego?” Você está procurando o referenciador. Neste exemplo, a fonte do UTM é o local onde seu anúncio está localizado (não a página da Web propriamente dita, pois é automaticamente rastreada fora das tags). Se você estiver rastreando uma campanha de email de entrega, o email de entrega é a origem.
 
 **utm_campaign**
 
@@ -62,7 +62,7 @@ Saiba mais sobre [práticas recomendadas para configurar parâmetros de UTM](/he
 
 * Use o parâmetro Conteúdo do UTM quando quiser rastrear mais de uma parte de marketing existente em uma única página da Web. Por exemplo, se você tiver um botão “Solicitar uma demonstração” e um botão “Inscrever-se no nosso boletim informativo semanal” e quiser saber qual está gerando mais tráfego, nomeie cada um e use uma tag de Conteúdo de UTM para rastreá-los. O nome de cada parte do “conteúdo” é o valor da tag.
 * Esse parâmetro mapeia para o [!DNL Marketo Measure] campo “Conteúdo do anúncio” no SFDC.
-* _[!DNL Marketo Measure]Prática recomendada_: é um valor opcional, mas o [!DNL Marketo Measure] recomenda usá-lo. Essa tag está associada ao título do anúncio ou da peça de marketing que você deseja rastrear. Se você usar um anúncio em imagem, escreva as dimensões da imagem em seu título.
+* _[!DNL Marketo Measure]Prática recomendada_: é um valor opcional, mas o [!DNL Marketo Measure] recomenda usá-lo. Essa tag está associada ao título do anúncio ou parte de marketing que você deseja rastrear. Se você usar um anúncio em imagem, escreva as dimensões da imagem em seu título.
 
 **utm_term**
 

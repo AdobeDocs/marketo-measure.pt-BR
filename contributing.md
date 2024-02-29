@@ -1,8 +1,8 @@
 ---
-source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 98%
 
 ---
 # Contribuição
@@ -14,7 +14,8 @@ Apresentamos a seguir um conjunto de orientações a serem seguidas durante sua 
 ## Código de conduta
 
 Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar, 
-é necessário respeitar este código. Informe qualquer comportamento inaceitável a [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+é necessário respeitar este código. Relatar comportamento inaceitável para
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Gostaria de fazer alguma pergunta?
 
@@ -32,7 +33,7 @@ pelos confirmadores do projeto. Leia a [documentação de solicitação de envio
 para obter mais informações sobre envio de pull requests.
 
 <!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+Lastly, follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 

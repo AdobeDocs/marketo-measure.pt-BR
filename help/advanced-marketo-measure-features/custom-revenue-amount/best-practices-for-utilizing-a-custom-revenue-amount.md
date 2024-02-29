@@ -1,12 +1,12 @@
 ---
-description: Práticas recomendadas para usar um valor de receita personalizado - [!DNL Marketo Measure] - Documentação do produto
+description: Práticas recomendadas para usar um valor de receita personalizado - [!DNL Marketo Measure]
 title: Práticas recomendadas para utilizar uma quantia de receita personalizada
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -44,13 +44,13 @@ Se você estiver utilizando uma Quantia de Receita Personalizada, verifique a co
 
 Além de uma revisão anual, certas alterações organizacionais podem indicar a necessidade de revisar a configuração da quantia de receita...
 
-* Volume de negócios da sua equipe de marketing
+* Rotatividade de sua equipe de marketing
 * Alterações no campo Receita personalizada
 * Alterações da organização em como a receita é relatada
 
 >[!MORELIKETHIS]
 >
->* [Utilização de um campo de quantia de receita personalizada](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Como usar o carregador de dados para atualizar ocampo de quantia personalizada](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Uso de um Campo de Valor de Receita Personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Utilização do Carregador de dados para atualizar o campo Valor personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Visão Geral da Multimoeda](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Configurações de várias moedas](/help/advanced-marketo-measure-features/multi-currency/settings.md)

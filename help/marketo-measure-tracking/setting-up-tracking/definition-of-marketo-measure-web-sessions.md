@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874564
-description: Definição de Sessões da Web do  [!DNL Marketo Measure]  - [!DNL Marketo Measure] - Documentação do produto
+description: Definição de [!DNL Marketo Measure] Sessões da Web - [!DNL Marketo Measure]
 title: Definição de Sessões da Web do  [!DNL Marketo Measure]
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '579'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 97%
 
 ---
 
@@ -66,4 +66,4 @@ _No entanto_, se a primeira sessão da Web de Haley tiver origem no direto da We
 
 ## Sessões do Google Analytics {#google-analytics-sessions}
 
-Existem algumas semelhanças em como o [!DNL Marketo Measure] e o Google Analytics definem as sessões. Para obter mais informações sobre como o Google Analytics define sessões, visite: [https://support.google.com/analytics/answer/2731565?hl=pt-BR](http://support.google.com/analytics/answer/2731565?hl=pt-BR){target="_blank"}
+Existem algumas semelhanças em como o [!DNL Marketo Measure] e o Google Analytics definem as sessões. Para obter mais informações sobre como o Google Analytics define sessões, visite: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=pt-BR){target="_blank"}

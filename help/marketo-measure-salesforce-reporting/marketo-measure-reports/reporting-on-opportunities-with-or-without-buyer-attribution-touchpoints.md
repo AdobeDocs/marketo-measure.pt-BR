@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874618
-description: Relatórios de oportunidades com ou sem pontos de contato de atribuição do comprador - [!DNL Marketo Measure] - Documentação do produto
+description: Relatórios de oportunidades com ou sem pontos de contato de atribuição do comprador - [!DNL Marketo Measure]
 title: Relatório sobre oportunidades com ou sem Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 9%
+source-wordcount: '174'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; em nossa documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
 Crie um novo Tipo de Relatório para incluir todas as Oportunidades com ou sem Pontos de Contato de Atribuição do Comprador.
 

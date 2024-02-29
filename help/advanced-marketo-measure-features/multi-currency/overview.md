@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656735
-description: Visão geral - [!DNL Marketo Measure] - Documentação do produto
+description: Visão geral - [!DNL Marketo Measure]
 title: Visão geral
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ No Dynamics, o cliente pode definir taxas de câmbio estáticas em suas Configur
 | **Termo** | Descrição |
 |---|---|
 | **Moeda avançada** | O cliente tem o Advanced Currency Management e o Multiple Currencies ativado, o que significa que eles podem ter diferentes taxas de conversão para diferentes períodos. |
-| **Moeda da empresa** | Essas são as várias moedas listadas e declaradas por uma organização no CRM, todas com taxas de conversão. [!DNL Marketo Measure] O importará esses valores e disponibilizará essas moedas aos usuários em nosso produto. |
+| **Moeda Corporativa** | Essas são as várias moedas listadas e declaradas por uma organização no CRM, todas com taxas de conversão. [!DNL Marketo Measure] O importará esses valores e disponibilizará essas moedas aos usuários em nosso produto. |
 | **Localidade da moeda** | A moeda única usada para uma organização, definida na página Informações da empresa. |
 | **Moeda local (ou moeda do usuário)** | A moeda definida para um único usuário no Perfil do Usuário, para que ele possa visualizar qualquer valor em sua própria moeda local. A organização terá que declarar e configurar a moeda para que um usuário possa selecionar sua moeda local. |
 | **Moeda única** | Usado para clientes que não usam Várias Moedas no CRM, mas sua organização é executada em uma moeda diferente, de modo que tenham uma &quot;Localidade da Moeda&quot;. Essa ainda é uma moeda única para a organização, mas sem qualquer conversão. |
