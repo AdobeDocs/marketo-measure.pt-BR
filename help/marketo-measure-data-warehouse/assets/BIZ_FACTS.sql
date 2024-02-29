@@ -22,7 +22,7 @@
 -- copy, and customize the Assets to build further code, metrics, and other reporting capabilities in
 -- such service. Adobe is specifically not responsible for any such customizations you make to the
 -- Assets, including, without limitation, any defects, failures, or latency in the Assets (or any
--- service that leverages the Assets) caused by your customizations. Except to the extent
+-- service that uses the Assets) caused by your customizations. Except to the extent
 -- expressly permitted herein, you agree that as a condition of the license to use the Assets, you
 -- shall not (A) use the Assets in violation of any applicable laws or regulations, or in connection
 -- with unlawful material (such as material that violates any obscenity, defamation, harassment,
