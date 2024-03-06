@@ -4,10 +4,10 @@ description: Configurações para vários tipos de registros de campanha - [!DNL
 title: Configurações para vários tipos de registro de campanha
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Se a organização do SFDC usar vários tipos de registro de campanha, os valore
 
    ![](assets/2.jpg)
 
-1. Aqui você é trazido para a tela com as listas de opções disponíveis para esse tipo de registro. Selecionar **[!UICONTROL Editar]** ao lado do campo &quot;Ativar pontos de contato do comprador&quot;.
+1. Aqui você é trazido para a tela com as listas de seleção disponíveis para esse tipo de registro. Selecionar **[!UICONTROL Editar]** ao lado do campo &quot;Ativar pontos de contato do comprador&quot;.
 
    ![](assets/3.jpg)
 

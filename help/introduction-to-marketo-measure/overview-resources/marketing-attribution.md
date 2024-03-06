@@ -4,10 +4,10 @@ description: Atribuição de marketing - Marketo Measure - Documentação do pro
 title: Atribuição de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 97%
+source-wordcount: '462'
+ht-degree: 76%
 
 ---
 
@@ -19,13 +19,13 @@ O Marketo Measure fornece aos profissionais de marketing informações sobre qua
 
 ## Atribuição de marketing {#marketing-attribution-1}
 
-**Atribuição de marketing** é o processo de atribuir crédito de receita a um touchpoint de marketing. Isso é feito rastreando toda a jornada do cliente de um prospecto, começando pela primeira interação com sua empresa até o momento em que o negócio é fechado. A receita gerada pelo negócio é atribuída de volta aos touchpoints de marketing que geraram a venda. A quantidade de crédito de receita fornecida para um touchpoint depende de quanto esse touchpoint influenciou a decisão de compra do cliente.
+**Atribuição de marketing** é o processo de atribuir crédito de receita a um touchpoint de marketing. Isso é feito controlando toda a jornada do cliente potencial, desde a primeira interação com a empresa até o fechamento do negócio. A receita gerada pelo negócio é atribuída de volta aos touchpoints de marketing que geraram a venda. A quantidade de crédito de receita atribuída a um ponto de contato depende de quanto esse ponto de contato influenciou a decisão de compra do cliente.
 
-**Touchpoints** se referem as interações que um prospecto/lead tem com suas iniciativas de marketing online ou offline. Há quatro **principais pontos de contato** que são considerados na atribuição de marketing. Eles refletem os diferentes estágios na jornada do cliente. Esses touchpoints principais, também conhecidos como **touchpoints de marco**, são: Primeiro contato (FT), Criação de lead (LC), Criação de oportunidade (OC), Venda fechada encerrada (CW).
+**Touchpoints** se referem as interações que um prospecto/lead tem com suas iniciativas de marketing online ou offline. Há quatro **principais pontos de contato** que são considerados na atribuição de marketing. Elas refletem os diferentes estágios na jornada do cliente. Esses touchpoints principais, também conhecidos como **touchpoints de marco**, são: Primeiro contato (FT), Criação de lead (LC), Criação de oportunidade (OC), Venda fechada encerrada (CW).
 
 ![](assets/1.png)
 
-Esses touchpoints de marco são a base dos **modelos de atribuição** do Marketo Measure. O Marketo Measure oferece seis modelos de atribuição. Cada modelo se concentra em diferentes estágios na jornada do cliente e oferece uma estrutura geral para atribuir crédito de receita aos seus touchpoints de marketing. O modelo usado depende de quais estágios da jornada você está mais interessado em medir e na quantidade de dados que deseja relatar. Os modelos de atribuição que o Marketo Measure oferece são:
+Esses touchpoints de marco são a base dos **modelos de atribuição** do Marketo Measure. O Marketo Measure oferece seis modelos de atribuição. Cada modelo se concentra em diferentes estágios na jornada do cliente e oferece uma estrutura geral para atribuir crédito de receita aos seus touchpoints de marketing. O modelo usado depende de quais estágios da jornada você está mais interessado em medir e da quantidade de dados que deseja relatar. Os modelos de atribuição que o Marketo Measure oferece são:
 
 * Primeiro contato
 * Criação de lead
@@ -47,4 +47,4 @@ As equipes de marketing geralmente relatam sobre engajamento, atividade e outras
 * Identificar quais canais de marketing são os mais responsáveis pela conversão de leads em clientes
 * Objetivos de marketing previstos em relação à receita
 
-Além disso, a atribuição de marketing soluciona o desalinhamento entre as equipes de vendas e marketing. Como as equipes de vendas relatam a receita e o pipeline, e as equipes de marketing dependem principalmente de métricas temporárias, os profissionais de marketing não podem determinar quais de suas iniciativas foram os mais influentes na condução de uma venda. Vincular as iniciativas de marketing à receita permite que ambas as equipes falem a mesma língua e permite que os profissionais de marketing demonstrem como suas iniciativas ajudaram a influenciar leads a se tornarem clientes.
+Além disso, a atribuição de marketing aborda o desalinhamento entre as equipes de vendas e de marketing. Como as equipes de vendas relatam a receita e o pipeline, e as equipes de marketing dependem principalmente de métricas temporárias, os profissionais de marketing não podem determinar quais de suas iniciativas foram os mais influentes na condução de uma venda. Vincular as iniciativas de marketing à receita permite que ambas as equipes falem a mesma língua e permite que os profissionais de marketing demonstrem como suas iniciativas ajudaram a influenciar leads a se tornarem clientes.

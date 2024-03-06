@@ -4,9 +4,9 @@ description: Atribuição de atividades do Salesforce - [!DNL Marketo Measure]
 title: Atribuição de atividades do Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ A variável [!DNL Marketo Measure] A integração das Atividades do Salesforce t
 
 ![](assets/1.png)
 
-Para começar, estamos introduzindo um novo conceito chamado [!DNL Marketo Measure] Campanha. Para cada regra definida, você classificará os registros em um [!DNL Marketo Measure] Campanha que você pode nomear. Adicione várias campanhas conforme necessário. Imagine medir a eficácia de uma campanha de vendas de saída ao lado de uma campanha de mídia paga!
+Para começar, estamos introduzindo um novo conceito chamado [!DNL Marketo Measure] Campanha. Para cada regra definida, você criará um bucket dos registros em uma [!DNL Marketo Measure] Campanha que você pode nomear. Adicione várias campanhas conforme necessário. Imagine medir a eficácia de uma campanha de vendas de saída ao lado de uma campanha de mídia paga!
 
 Você vai usar isto [!DNL Marketo Measure] Nome da campanha para informar a qual canal ele deve ser mapeado. Se você ainda estiver pensando em Vendas de saída, talvez todas as campanhas de Vendas de saída devam ficar em um canal de BDR.
 

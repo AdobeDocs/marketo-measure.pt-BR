@@ -4,7 +4,7 @@ description: Plataformas de publicidade integradas - [!DNL Marketo Measure]
 title: Plataformas de anúncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Lembre-se de adicionar modelos de rastreamento na [!UICONTROL Conta], [!UICONTRO
 
    >[!TIP]
    >
-   >Se você receber um erro informando que o modelo de rastreamento é inválido, tente limpar o cache do navegador e tentar novamente. Isso geralmente resolve o problema.
+   >Se você estiver recebendo um erro informando que o modelo de rastreamento é inválido, tente limpar o cache do navegador e tentar novamente. Isso geralmente resolve o problema.
 
 ## Como gerar tags UTM automaticamente para [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
 
@@ -97,7 +97,7 @@ As tags UTM podem parecer difíceis de criar no início, mas há muitas ferramen
 
 **[!DNL Google URL]Construtor**
 
-O Google URL Builder é uma ferramenta padrão para criar URLs formatados corretamente com tags UTM. Basta inserir o URL e o valor desejado de cada parâmetro e clicar em &quot;[!UICONTROL Gerar URL]&quot;. Essa é uma ferramenta ideal para usar se você só tiver alguns URLs para marcar. Acessar a ferramenta [aqui](https://support.google.com/analytics/answer/1033867?hl=pt-BR){target="_blank"}.
+O Google URL Builder é uma ferramenta padrão para criar URLs formatados corretamente com tags UTM. Insira o URL e o valor desejado de cada parâmetro e clique em &quot;[!UICONTROL Gerar URL]&quot;. Essa é uma ferramenta ideal para usar se você só tiver alguns URLs para marcar. Acessar a ferramenta [aqui](https://support.google.com/analytics/answer/1033867?hl=pt-BR){target="_blank"}.
 
 **Planilha do Google gerada pelo EpikOne**
 

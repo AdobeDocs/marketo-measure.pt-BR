@@ -3,9 +3,9 @@ description: Práticas recomendadas para modelo personalizado - [!DNL Marketo Me
 title: Práticas recomendadas para o modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Se você estiver configurando seu Modelo personalizado pela primeira vez ou revi
 * Não incorpore Estágios personalizados ao seu Modelo personalizado que coincidam com uma [!DNL Marketo Measure] Posição do ponto de contato de marco (FT, LC, OC, Won/Perdido fechado)
    * Se você fizer isso, essas posições sempre ocorrerão simultaneamente e poderão causar crédito de atribuição inflado em partes do funil.
 * Trabalhar com sua equipe de vendas Opp
-   * Trazer a equipe que trabalha mais perto com estágios e seu significado garantirá que você esteja usando os estágios corretos e que eles sejam definidos corretamente
+   * Trazer a equipe que trabalha mais perto com estágios e seu significado garante que você esteja usando os estágios corretos e que eles sejam definidos corretamente
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 

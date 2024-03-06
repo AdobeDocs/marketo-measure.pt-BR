@@ -4,9 +4,9 @@ description: Metodologia de mapeamento de atribuição - [!DNL Marketo Measure]
 title: Metodologia de mapeamento de atribuição
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Desvantagens: no entanto, se não houver um processo de função de contato em v
 
 ## Mapeamento da função do contato principal da oportunidade {#opportunity-primary-contact-role-mapping}
 
-Além de simplesmente analisar as funções de contato na oportunidade, [!DNL Marketo Measure] Você pode se concentrar ainda mais em analisar apenas os contatos principais de uma oportunidade. Com essa configuração em mente, [!DNL Marketo Measure] capturará somente o ponto de contato de marketing associado aos contatos principais em uma oportunidade e enviará essas informações para a história de atribuição dessa oportunidade específica. Veja a imagem abaixo.
+Além de simplesmente analisar as funções de contato na oportunidade, [!DNL Marketo Measure] Você pode se concentrar ainda mais em analisar apenas os contatos principais de uma oportunidade. Com essa configuração em mente, [!DNL Marketo Measure] captura somente o ponto de contato de marketing associado aos contatos principais em uma oportunidade e insere essas informações na história de atribuição dessa oportunidade específica. Veja a imagem abaixo.
 
 ![](assets/3.png)
 

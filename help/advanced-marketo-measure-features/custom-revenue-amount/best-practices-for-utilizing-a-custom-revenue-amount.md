@@ -3,9 +3,9 @@ description: Práticas recomendadas para usar um valor de receita personalizado 
 title: Práticas recomendadas para utilizar uma quantia de receita personalizada
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ O que deve ser lembrado:
 * Selecionar o campo de receita que é preciso e utilizado para todas as oportunidades
    * ARR ou Valor Total do Contrato usado recomendado
 * Não usar um campo de fórmula
-* Se estiver usando um Valor de receita personalizado para conversões de moeda, a variável [!UICONTROL Várias Moedas do Marketo Measure] A funcionalidade é o método preferido.
+* Se você estiver usando um Valor de receita personalizado para conversões de moeda, a variável [!UICONTROL Várias Moedas do Marketo Measure] A funcionalidade é o método preferido.
    * A variável [!DNL Marketo Measure] A funcionalidade Várias Moedas faz referência às taxas de conversão estabelecidas no [!DNL Salesforce] para melhor garantir o alinhamento entre as conversões de moeda. Isso permite que você continue utilizando o &#39;Valor&#39; padrão (Padrão SFDC) ou qualquer outro campo de Valor personalizado relacionado ao [!DNL Salesforce] taxas de conversão.
 * Se você atualizar o campo Valor desejado [!DNL Marketo Measure] para fazer referência, use o Carregador de dados para atualizar Oportunidades anteriores para garantir que os dados de receita sejam consistentes e o campo adequado seja preenchido por meio do fluxo de trabalho
 

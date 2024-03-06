@@ -4,9 +4,9 @@ description: OAuth com [!DNL Azure Active Directory] para Dynamics CRM - [!DNL M
 title: OAuth com [!DNL Azure Active Directory] para Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Esta configuração é para novos [!DNL Marketo Measure] clientes que usam o Dyn
 
 ## Configurar Novo Aplicativo {#set-up-new-application}
 
-1. Fazer logon em seu [Portal do Azure](https://portal.azure.com/#home).
+1. Faça logon no [Portal do Azure](https://portal.azure.com/#home).
 
-1. Escolha seu locatário do Azure AD clicando em sua conta no canto superior direito da página, seguido por um clique na navegação do Diretório de alternância e selecionando o locatário apropriado (ignore esta etapa se você tiver apenas um locatário do Azure AD na sua conta ou se já tiver selecionado o locatário apropriado do Azure AD).
+1. Escolha o locatário do Azure AD clicando em sua conta no canto superior direito da página, seguido por um clique na navegação do Diretório de alternância e selecionando o locatário apropriado. Ignore esta etapa se você tiver apenas um locatário do Azure AD na sua conta ou se já tiver selecionado o locatário apropriado do Azure AD.
 
    ![](assets/setup-2.png)
 
@@ -41,10 +41,10 @@ Esta configuração é para novos [!DNL Marketo Measure] clientes que usam o Dyn
 
    ![](assets/setup-5.png)
 
-1. Siga os prompts e crie um novo aplicativo. Não importa se é um aplicativo web ou um aplicativo cliente público (móvel e desktop), mas se você quiser exemplos específicos de aplicativos web ou aplicativos cliente públicos, confira nosso [inicializações rápidas](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
+1. Siga os prompts e crie um aplicativo. Não importa se é um aplicativo web ou um aplicativo cliente público (dispositivos móveis e desktop), mas se você quiser exemplos específicos de aplicativos web ou aplicativos cliente públicos, confira o [inicializações rápidas](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
    a. Nome é o nome do aplicativo e descreve o aplicativo para os usuários finais.\
    b. Em Tipos de conta compatíveis, selecione Contas em qualquer diretório organizacional e contas pessoais da Microsoft.\
-   c. Forneça o URI de redirecionamento. Para Aplicativos Web, este é o URL base do seu aplicativo no qual os usuários podem fazer logon. Por exemplo, `http://localhost:12345`. Para cliente público (dispositivos móveis e desktop), o Azure AD o usa para retornar respostas de token. Insira um valor específico para seu aplicativo. Por exemplo, `http://MyFirstAADApp`.
+   c. Forneça o URI de redirecionamento. Para Aplicativos Web, este é o URL base do seu aplicativo no qual os usuários podem fazer logon. Por exemplo, `http://localhost:12345`. Para clientes públicos (dispositivos móveis e desktop), o Azure AD o usa para retornar respostas de token. Insira um valor específico para seu aplicativo. Por exemplo, `http://MyFirstAADApp`.
 
 1. Depois que você concluir o registro, o Azure AD atribuirá ao seu aplicativo um identificador de cliente exclusivo (a ID do aplicativo). Você precisa desse valor na próxima seção, portanto, copie-o da página do aplicativo.
 
@@ -118,16 +118,16 @@ b. Segredo do cliente é o segredo do aplicativo criado no Portal do Azure para 
 
 c. O URI da ID do aplicativo é o URL da API da Web de destino (recurso seguro). Para localizar a URL da ID do aplicativo, no Portal do Azure, clique em [!DNL Azure Active Directory], clique em Registros do aplicativo, abra a página Configurações do aplicativo e clique em Propriedades. Também pode ser um recurso externo, como `https://graph.microsoft.com`. Normalmente, essa é a URL da instância do Dynamics.
 
-1. Depois de clicar em **[!UICONTROL Enviar]**, será solicitado que você entre com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será conectada como provedor de dados no [!DNL Marketo Measure].
+1. Depois de clicar em **[!UICONTROL Enviar]**, será solicitado que você faça logon com [!DNL Azure Active Directory]. Quando a autenticação é bem-sucedida, sua conta do Dynamics é conectada como provedor de dados no [!DNL Marketo Measure].
 
-## Reautenticação da conta do Dynamics {#re-authenticating-your-dynamics-account}
+## Reautenticar sua conta do Dynamics {#re-authenticating-your-dynamics-account}
 
-1. Quando você estiver no [!DNL Marketo Measure] aplicativo, vá para **[!UICONTROL Minhas configurações]** > **[!UICONTROL Configurações]** > **[!UICONTROL Conexões]**.
+1. Quando você estiver na [!DNL Marketo Measure] aplicativo, vá para **[!UICONTROL Minhas configurações]** > **[!UICONTROL Configurações]** > **[!UICONTROL Conexões]**.
 
 1. Clique no ícone de chave na seção CRM ao lado da conexão do Dynamics.
 
-1. Ao clicar na tecla, uma janela pop-up será exibida e você será solicitado a inserir a ID do cliente, o segredo do cliente e o URI da ID do aplicativo, semelhantes ao fluxo de inscrição.
+1. Quando a tecla for clicada, uma janela pop-up será exibida e você será solicitado a inserir a ID do cliente, o segredo do cliente e o URI da ID do aplicativo, semelhantes ao fluxo de inscrição.
 
    ![](assets/re-authenticating-3.png)
 
-1. Depois de clicar em **[!UICONTROL Enviar]**, será solicitado que você entre com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será reautorizada dentro de [!DNL Marketo Measure].
+1. Depois de clicar em **[!UICONTROL Enviar]**, será solicitado que você faça logon com [!DNL Azure Active Directory]. Quando a autenticação for bem-sucedida, sua conta do Dynamics será reautorizada dentro [!DNL Marketo Measure].

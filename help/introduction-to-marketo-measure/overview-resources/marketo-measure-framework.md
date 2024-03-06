@@ -4,10 +4,10 @@ description: Estrutura do Marketo Measure - Marketo Measure - Documentação do 
 title: Estrutura do Marketo Measure
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 96%
+source-wordcount: '388'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Saiba mais sobre os quatro componentes principais da estrutura do Marketo Measure. O Marketo Measure depende desses aplicativos para rastrear, organizar e armazenar dados, além de fornecer recursos de relatório. Os quatro componentes que compõem a estrutura do Marketo Measure são:
 
-* JavaScript do Marketo Measure
+* JavaScript da Marketo Measure
 * Integrações de CRM
 * Aplicativos/sistemas de terceiros
 * Aplicativo Marketo Measure
@@ -30,7 +30,7 @@ O JavaScript do Marketo Measure rastreia todas as interações de marketing onli
 >
 >Para obter instruções sobre como adicionar o JS do Marketo Measure, [clique aqui](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-O JS do Marketo Measure captura dados de visitas da Web (incluindo visitas anônimas da Web), navegação geral de tráfego/página, downloads de conteúdo e envios de formulário. Esses dados são enviados para o CRM e cada interação de marketing é exibida como um touchpoint.
+O JS da Marketo Measure captura dados de visitas da Web (incluindo visitas anônimas da Web), tráfego geral/navegação de página, downloads de conteúdo e envios de formulários. Esses dados são enviados para o CRM e cada interação de marketing é exibida como um touchpoint.
 
 ## Integrações de CRM {#crm-integrations}
 
@@ -38,7 +38,7 @@ O Marketo Measure integra-se com CRMs para hospedar e organizar todos os dados c
 
 ![](assets/1-2.png)
 
-Ao encontrar os dados do Marketo Measure no seu CRM, você poderá ver as informações granulares relacionadas a cada touchpoint e gerar relatórios para entender o desempenho dos canais.
+Ao encontrar os dados do Marketo Measure no seu CRM, você pode ver as informações granulares relacionadas a cada ponto de contato e gerar relatórios para entender o desempenho de seus canais.
 
 ## Aplicativos de terceiros {#third-party-applications}
 
@@ -54,12 +54,12 @@ O aplicativo Marketo Measure é usado para exibir e relatar seus dados de atribu
 
 **Configuração da conta**
 
-É aqui que você pode atualizar as informações gerais de sua empresa e acessar o Javascript do Marketo Measure.
+É aqui que você pode atualizar as informações gerais da sua empresa e acessar o Javascript do Marketo Measure.
 
 **Configurações**
 
-Este item de menu permite definir suas configurações de atribuição e mapeamento de canal, gerenciar integrações com CRMs e aplicativos de terceiros, exibir/adicionar usuários de conta do Marketo Measure e atualizar informações de faturamento.
+Esse item de menu permite definir as configurações de mapeamento de atribuição e canal, gerenciar integrações com CRMs e aplicativos de terceiros, exibir/adicionar usuários da conta do Marketo Measure e atualizar informações de cobrança.
 
 **Painel de ROI de marketing**
 
-O item de menu Painel de ROI de marketing é o local onde você pode visualizar os dados em termos de desempenho, atividade e custo do canal.
+O item de menu do Painel de ROI de marketing é o local onde você pode visualizar seus dados em termos de desempenho de canal, atividade e custo.

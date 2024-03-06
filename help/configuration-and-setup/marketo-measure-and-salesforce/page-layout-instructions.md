@@ -4,9 +4,9 @@ description: Instruções de layout da página - [!DNL Marketo Measure]
 title: Instruções de layout da página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '833'
 ht-degree: 69%
 
 ---
@@ -89,7 +89,7 @@ Para começar, primeiro navegue até as configurações de definição do [!DNL 
    >
    >A maioria dos clientes não usa os campos que terminam com (FT) ou (LC) porque são campos herdados de antes de o touchpoint do [!DNL Marketo Measure] existir como um objeto.
 
-Se você estiver usando o [!DNL Marketo Measure] Recurso ABM, [clique aqui para obter instruções adicionais sobre o layout da página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Se você estiver usando a variável [!DNL Marketo Measure] Recurso ABM, [clique aqui para obter instruções adicionais sobre o layout da página](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contatos {#contacts}
 

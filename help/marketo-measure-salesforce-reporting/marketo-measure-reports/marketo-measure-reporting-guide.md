@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Guia de relatórios - [!DNL Marketo Measure
 title: "[!DNL Marketo Measure] Guia de relatórios"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6431'
+source-wordcount: '6437'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Antes de criar um [!DNL Marketo Measure] relatório, é mais importante confirma
 
 **Estabelecer metas**: &quot;A primeira pergunta é &#39;por que medimos?&#39; Lori Wizdo de [Forrester Research](https://go.forrester.com/) resumiu bem em um [Webinar do Marketo](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Segundo ela, &quot;medimos para provar ou validar uma decisão ou o valor do marketing ou para melhorar (melhoria do processo)&quot;. Acrescentamos que os insights da boa medição também fornecem informações e orientação sobre o processo de planejamento de marketing.
 
-Então, antes de começar, é essencial ser muito claro sobre seus objetivos, as questões que você está tentando responder, ou os problemas que você está tentando resolver. Que história você quer contar? Que decisões serão tomadas em consequência? Muitas vezes, esses fundamentos são mal pensados, resultando em frustração para todos os envolvidos.&quot;
+Portanto, antes de começar, é essencial ser muito claro sobre seus objetivos, as perguntas que você está tentando responder, ou os problemas que você está tentando resolver. Que história você quer contar? Que decisões serão tomadas em consequência? Muitas vezes, esses fundamentos são mal pensados, resultando em frustração para todos os envolvidos.&quot;
 
 **Design do relatório**: &quot;Em seguida, é necessário projetar o relatório e determinar as dimensões, métricas e conjuntos de dados específicos que ele conterá. Uma experiência comum é fornecer a um usuário empresarial exatamente o que ele solicita, apenas para que ele ainda sinta que suas necessidades não foram atendidas. Isso ocorre porque o insight que um usuário empresarial está realmente procurando nem sempre está contido no relatório solicitado. Um bom analista (ou uma pessoa do MOPS com um analista de chapéu) vai fazer perguntas esclarecedoras, estabelecer definições comuns (&quot;então, o que você realmente quer dizer com lead?&quot;) e até mesmo esboçar um visual do relatório final para garantir que haja alinhamento. Só então você cria o relatório, sabendo que tem um conjunto sólido de requisitos.&quot;
 
@@ -44,7 +44,7 @@ No nível mais alto, há duas categorias de relatório baseadas nos dois objetos
 
 >[!NOTE]
 >
->As MTD são criadas a partir de BT. Basicamente, o rastreamento começa em nível individual por meio dos BTs. Depois que uma Oportunidade é criada em uma Conta, todos os BTs de Contatos na mesma Conta são referenciados e qualificados para criar BATs relacionados à Oportunidade, portanto, você desejará usar um ou outro dependendo das perguntas que estiver tentando responder: perguntas relacionadas às métricas &quot;Pessoas&quot; (relatórios BT) ou perguntas relacionadas às métricas &quot;Oportunidade&quot; (relatórios BAT)
+>As MTD são criadas a partir de BT. Basicamente, o rastreamento começa em nível individual por meio dos BTs. Depois que uma Oportunidade é criada em uma Conta, todos os BTs de Contatos na mesma Conta são referenciados e qualificados para criar BATs relacionados à Oportunidade. Portanto, é desejável usar um ou outro dependendo das perguntas que você está tentando responder: perguntas relacionadas às métricas &quot;Pessoas&quot; (relatórios BT) ou perguntas relacionadas às métricas &quot;Oportunidade&quot; (relatórios BAT)
 
 Artigo de suporte: [Diferença entre Pontos de Contato do Comprador e Pontos de Contato de Atribuição do Comprador](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -165,7 +165,7 @@ Para obter um insight mais granular sobre os dados resumidos no relatório &quot
 
 >[!TIP]
 >
->Obtenha insights ainda mais granulares resumindo o relatório com outros campos disponíveis do objeto Ponto de contato do comprador. Faça isso definindo agrupamentos adicionais (CRM) ou dimensões (Discover). Dependendo do canal (que pode ser representativo da sua função), pode haver detalhes adicionais além do nível da campanha em que você deseja obter insights. Vamos analisar a &quot;Pesquisa paga&quot;, por exemplo, na tabela abaixo...
+>Obtenha insights ainda mais granulares resumindo o relatório com outros campos disponíveis do objeto Ponto de contato do comprador. Faça isso definindo agrupamentos adicionais (CRM) ou dimensões (Discover). Dependendo do canal (que pode ser representativo de sua função), pode haver detalhes adicionais além do nível da campanha em que você deseja obter insights. Vamos analisar a &quot;Pesquisa paga&quot;, por exemplo, na tabela abaixo...
 
 <table> 
  <tbody>
@@ -445,7 +445,7 @@ Esse relatório seria o mesmo que um relatório baseado em &quot;Conteúdo&quot;
 
 >[!TIP]
 >
->Você pode usar esse relatório para obter insights sobre o engajamento total de qualquer dimensão de marketing do objeto Buyer Touchpoint, não apenas downloads de conteúdo, como apresentado no exemplo. O relatório pode ser agrupado ou filtrado em dimensões como &quot;Canal de marketing&quot; ou &quot;Nome da campanha de publicidade&quot; para entender melhor o engajamento total de clientes potenciais e contatos no banco de dados. Basta alterar os filtros ou agrupamentos no relatório para zero em outras dimensões representadas por outros campos do objeto de ponto de contato.
+>Você pode usar esse relatório para obter insights sobre o engajamento total de qualquer dimensão de marketing do objeto Buyer Touchpoint, não apenas downloads de conteúdo, como apresentado no exemplo. O relatório pode ser agrupado ou filtrado em dimensões como &quot;Canal de marketing&quot; ou &quot;Nome da campanha de publicidade&quot; para entender melhor o engajamento total de clientes potenciais e contatos no banco de dados. Altere os filtros ou agrupamentos no relatório para zero em outras dimensões representadas por outros campos do objeto de ponto de contato.
 
 **3.2 [!DNL Marketo Measure] Pessoas que se inscreveram para um evento (somente CRM)**
 
@@ -615,7 +615,7 @@ Resumir os dados de ponto de contato da atribuição do comprador das suas oport
 
 >[!TIP]
 >
->Obtenha insights ainda mais granulares resumindo o relatório com outros campos disponíveis do objeto de ponto de contato de atribuição do comprador. Isso é feito da mesma forma que no nível de liderança com pontos de contato do comprador (1.2). Faça isso adicionando agrupamentos (CRM) ou dimensões (Discover). Dependendo do canal (que pode ser representativo da sua função), pode haver detalhes adicionais além do nível da campanha na qual você deseja obter mais informações. Vamos analisar a &quot;Pesquisa paga&quot; abaixo:
+>Obtenha insights ainda mais granulares resumindo o relatório com outros campos disponíveis do objeto de ponto de contato de atribuição do comprador. Isso é feito da mesma forma que no nível de liderança com pontos de contato do comprador (1.2). Faça isso adicionando agrupamentos (CRM) ou dimensões (Discover). Dependendo do canal (que pode ser representativo de sua função), pode haver detalhes adicionais além do nível da campanha na qual você deseja obter mais informações. Vamos analisar a &quot;Pesquisa paga&quot; abaixo:
 
 <table> 
  <tbody>

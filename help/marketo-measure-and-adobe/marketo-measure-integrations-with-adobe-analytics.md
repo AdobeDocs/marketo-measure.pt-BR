@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL
 title: "[!DNL Marketo Measure] Integração com o [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -30,19 +30,19 @@ A integração de atributos do cliente B2B permite que os usuários mútuos de [
 
 1. Depois que a Fonte de dados de atributos do cliente for criada, continue o processo de configuração navegando até o **[!UICONTROL Integrações]** > **[!UICONTROL Conexões]** na tela [!DNL Marketo Measure] menu de administração.
 
-1. Clique em **[!UICONTROL Configurar nova conexão de atributos do cliente]** e siga as instruções para configurar a integração de Atributos do cliente. A interface solicita a ID de alias e as informações de conexão FTP adquiridas ao criar a Fonte de atributos do cliente no console dos Serviços principais, e selecionar o conjunto de atributos da conta que você deseja sincronizar com a [!DNL Adobe Analytics] conta.
+1. Clique em **[!UICONTROL Configurar nova conexão de atributos do cliente]** e siga as instruções para configurar a integração de Atributos do cliente. A interface solicita a ID de alias e as informações de conexão FTP adquiridas ao criar a Fonte de atributos do cliente no console dos Serviços principais. Selecione o conjunto de atributos da conta que você gostaria de sincronizar com o seu [!DNL Adobe Analytics] conta.
 
-   também será necessário inserir a ID organizacional IMS da Adobe. Esse ID é exibido no canto inferior direito do Admin Console Adobe Experience Cloud. Para obter mais ajuda para encontrar essa ID, consulte a Equipe de conta do Adobe (seu gerente de conta).
+   Insira a ID organizacional IMS da Adobe. Esse ID é exibido no canto inferior direito do Admin Console Adobe Experience Cloud. Para obter mais ajuda para encontrar essa ID, consulte a Equipe de conta do Adobe (seu gerente de conta).
 
-1. Quando terminar de criar a conexão no seu [!DNL Marketo Measure] conta, você deve voltar para o console do Experience Cloud para [validar o esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Você não precisa se preocupar com o upload do arquivo FTP, [!DNL Marketo Measure] O automatizou essa parte para você. Tudo o que você precisa fazer é ir para a tela de esquema &quot;Exibir/Editar&quot; da Fonte de atributos do cliente que você criou na Etapa 1 e informar ao Adobe quais são os tipos de dados para cada um dos atributos que [!DNL Marketo Measure] carregou em seu nome. Você também pode criar novos nomes amigáveis para exibição para os atributos carregados, se desejar.
+1. Depois de criar a conexão no seu [!DNL Marketo Measure] conta, você deve voltar para o console do Experience Cloud para [validar o esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Você não precisa se preocupar com o upload do arquivo FTP, [!DNL Marketo Measure] O automatizou essa parte para você. Acesse a tela de esquema &quot;Exibir/Editar&quot; da Fonte de atributos do cliente que você criou na Etapa 1 e informe ao Adobe quais são os tipos de dados para cada um dos atributos que [!DNL Marketo Measure] carregou em seu nome. Você também pode criar novos nomes amigáveis para exibição para os atributos carregados, se desejar.
 
-   Se você optou por sincronizar atributos do objeto da conta do CRM, é altamente recomendável escolher novos nomes de exibição para eles, como [!DNL Marketo Measure] O preencherá apenas os nomes no nível da API para esses atributos, que normalmente não são amigáveis para relatórios.
+   Se você optou por sincronizar atributos do objeto da conta do CRM, é altamente recomendável escolher novos nomes de exibição para eles, como [!DNL Marketo Measure] O preenche apenas os nomes dos níveis de API desses atributos, que normalmente não são amigáveis para relatórios.
 
-1. A última etapa é configurar as Assinaturas de Atributos para os aplicativos Experience Cloud nos quais você gostaria de usar os atributos. É possível configurar assinaturas para [!DNL Adobe Analytics] ou [!DNL Adobe Target].  Mais informações sobre como fazer isso [pode ser encontrado aqui](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html).
+1. A última etapa é configurar as Assinaturas de Atributos para os aplicativos Experience Cloud nos quais você gostaria de usar os atributos. É possível configurar assinaturas para [!DNL Adobe Analytics] ou [!DNL Adobe Target].  Mais informações sobre como fazer isso [pode ser encontrado aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Descrições de atributo {#attribute-descriptions}
 
-Ao criar uma nova Conexão de atributo do cliente B2B, [!DNL Marketo Measure] O criará automaticamente um conjunto padrão de atributos do cliente B2B para você. Esses atributos estão descritos na tabela abaixo.
+Ao criar uma conexão de atributo do cliente B2B, [!DNL Marketo Measure] O cria automaticamente um conjunto padrão de atributos do cliente B2B para você. Esses atributos estão descritos na tabela abaixo.
 
 Além dos listados abaixo, você também pode carregar todos os atributos anexados ao objeto da conta no seu CRM. Se mais de uma conta estiver vinculada ao usuário especificado, [!DNL Marketo Measure] preenche todos os valores de atributo de conta correspondentes em uma lista delimitada por ponto e vírgula.
 
@@ -79,7 +79,7 @@ Além dos listados abaixo, você também pode carregar todos os atributos anexad
 
 **Uma observação sobre limites de atributo**
 
-Os atributos exibidos por meio dessa integração ainda serão contados em relação aos limites de atributo contratuais no [!DNL Adobe Analytics] e [!DNL Adobe Target]. Somente atributos exibidos por meio de uma Assinatura de atributo (etapa 5 em [Configurar a integração](#configuring-the-integration)) contará em relação ao seu limite para o aplicativo assinado.
+Os atributos exibidos por meio dessa integração contam com os limites de atributo contratuais no [!DNL Adobe Analytics] e [!DNL Adobe Target]. Somente atributos exibidos por meio de uma Assinatura de atributo (etapa 5 em [Configurar a integração](#configuring-the-integration)) contra seu limite para o aplicativo que você assinou.
 
 ## FAQs {#faqs}
 

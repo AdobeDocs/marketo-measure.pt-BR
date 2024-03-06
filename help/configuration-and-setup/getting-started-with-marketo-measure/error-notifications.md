@@ -2,16 +2,16 @@
 description: Notificações de erro - [!DNL Marketo Measure]
 title: Notificações de erro
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '609'
+ht-degree: 83%
 
 ---
 
 # Notificações de erro {#error-notifications}
 
-Veja abaixo uma lista de erros que você pode receber por notificação no aplicativo ou por email. Se você receber alguma dessas notificações, siga as respectivas etapas de solução de problemas. Se essas etapas não resolverem o problema, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
+Veja abaixo uma lista de erros que você pode receber por notificação no aplicativo ou email. Se você receber alguma dessas notificações, siga as respectivas etapas de solução de problemas. Se essas etapas não resolverem o problema, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -25,7 +25,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
       <td>API_DISABLED</td>
       <td>Erro durante a Importação do CRM: API_DISABLED: as chamadas de API foram desabilitadas para este usuário</td>
       <td>A permissão da API foi desativada para o usuário do Marketo Measure.</td>
-      <td>Consulte a seguinte documentação do Salesforce em <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">como habilitar o acesso à API</a>.</td>
+      <td>Consulte a seguinte documentação do Salesforce em <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">como habilitar o acesso à API</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Erro durante a exportação do Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Erro: upload não permitido. Confirme o esquema de fonte de dados antes de fazer upload. ID da Fonte de dados: 1234</td>
+      <td>Erro durante a exportação do Adobe Analytics: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Erro: Upload não permitido. Confirme o esquema de fonte de dados antes de fazer upload. ID da Fonte de dados: 1234</td>
       <td>A integração do Adobe Analytics não está configurada corretamente.</td>
       <td>Consulte os seguintes artigos de ajuda para garantir a configuração correta:
         <ul>
@@ -73,7 +73,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
       <p>
       Erro durante a importação do Anúncio: INVALID_CURRENCY_ISO_CODE : a moeda XXX na conta para 1234 não é compatível com o Marketo Measure.</td>
       <td>Uma moeda incompatível foi encontrada.</td>
-      <td>No sistema de origem indicado na notificação (anúncio, CRM, Marketo), verifique se a moeda associada ao registro é compatível válida. As moedas compatíveis são derivadas dos padrões de moeda ISO.</td>
+      <td>No sistema de origem indicado na notificação (Ad, Crm, Marketo), garante-se que a moeda associada ao registro tenha uma moeda compatível e válida. As moedas compatíveis são derivadas dos padrões de moeda ISO.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
           Erro durante a Importação do CRM: NULL_EMPTY_CURRENCY_ISO_CODE: o código ISO da moeda está NULO ou Vazio quando MultiCurrency está habilitado para RecordId 1234
       </td>
       <td>A moeda deve estar em um código de moeda ISO compatível.</td>
-      <td>No sistema de origem indicado na notificação (anúncio, CRM, Marketo), verifique se a moeda associada ao registro é compatível válida. As moedas compatíveis são derivadas dos padrões de moeda ISO.</td>
+      <td>No sistema de origem indicado na notificação (Ad, Crm, Marketo), garante-se que a moeda associada ao registro tenha uma moeda compatível e válida. As moedas compatíveis são derivadas dos padrões de moeda ISO.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

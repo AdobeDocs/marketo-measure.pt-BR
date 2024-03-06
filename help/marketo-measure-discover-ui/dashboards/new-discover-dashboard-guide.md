@@ -3,10 +3,10 @@ description: Novo Guia do painel do Discover - [!DNL Marketo Measure] - Produto
 title: Novo guia do painel do Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 4%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -427,7 +427,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
         </p>
       </td>
       <td>
-        <p>Essas dimensões são específicas da plataforma e não oferecem uma visualização integral do tráfego da Web. Recomendamos que os usuários explorem dados de canal/subcanal/campanha no Marketo Measure e, em seguida, analisem ferramentas específicas da plataforma para insights de palavra-chave/nível criativo para manter a precisão e o contexto.
+        <p>Essas dimensões são específicas da plataforma e não oferecem uma visualização integral do tráfego da Web. É recomendável que os usuários explorem dados de canal/subcanal/campanha no Marketo Measure e, em seguida, analisem ferramentas específicas da plataforma para insights de palavra-chave/nível criativo para manter a precisão e o contexto.
         </p>
       </td>
     </tr>

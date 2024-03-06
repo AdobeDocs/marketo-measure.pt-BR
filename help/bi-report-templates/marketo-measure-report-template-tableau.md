@@ -3,10 +3,10 @@ description: "[!DNL Marketo Measure] Modelo de relatório - Tableau - [!DNL Mark
 title: "[!DNL Marketo Measure] Modelo de relatório - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '2303'
-ht-degree: 87%
+source-wordcount: '2302'
+ht-degree: 88%
 
 ---
 

@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Objetos do Salesforce - [!DNL Marketo Measu
 title: “Objetos do Salesforce do [!DNL Marketo Measure]”
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 89%
+source-wordcount: '938'
+ht-degree: 86%
 
 ---
 
@@ -65,7 +65,7 @@ Se você estiver executando testes A/B através do [!DNL Optimizely] ou do VWO (
 
 ![](assets/5.png)
 
-O objeto Teste A/B do [!DNL Marketo Measure] é exibido como uma lista relacionada nas páginas [!UICONTROL Leads], [!UICONTROL Contatos] e [!UICONTROL Oportunidade]. A lista exibe todos os experimentos e variações que você está executando no Optimizely ou VWO, e permite ver os experimentos/variações que estão relacionados a leads e contatos específicos.
+O objeto Teste A/B do [!DNL Marketo Measure] é exibido como uma lista relacionada nas páginas [!UICONTROL Leads], [!UICONTROL Contatos] e [!UICONTROL Oportunidade]. A lista exibe todos os experimentos e variações que você está executando Otimizely ou VWO e permite que você veja os experimentos/variações que estão relacionados a leads e contatos específicos.
 
 ## Eventos do [!DNL Marketo Measure] {#marketo-measure-events}
 

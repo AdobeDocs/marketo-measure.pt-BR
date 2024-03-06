@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Exibir por meio das perguntas frequentes so
 title: '"[!DNL Marketo Measure] "Exibir por meio das perguntas frequentes sobre atribuição"'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Historicamente, o redirecionamento ou a publicidade de impressão têm sido dif�
 
 ## O que está envolvido na configuração? {#what-is-involved-in-setting-this-up}
 
-A fim de [!DNL Marketo Measure] para começar a medir as impressões do anúncio, há uma tag de impressão que precisa ser colocada no Doubleclick Campaign Manager. Depois que a tag é implementada, as impressões são armazenadas em nossos logs e cuidamos do resto. Entre em contato com o Gerente de sucesso se estiver interessado em medir a visualização por meio de atribuição.
+A fim de [!DNL Marketo Measure] para começar a medir as impressões do anúncio, há uma tag de impressão que precisa ser colocada no Doubleclick Campaign Manager. Depois que a tag é implementada, as impressões são armazenadas em nossos logs e cuidamos do resto. Entre em contato com o Gerente de sucesso se estiver interessado em medir a exibição por meio da atribuição.
 
 ## Quais plataformas de anúncios são compatíveis? {#which-ad-platforms-are-supported}
 

@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
 title: Cookies do [!DNL Marketo Measure]”
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '393'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
 
 >[!IMPORTANT]
 >
->Devido a preocupações com a privacidade, cookies de terceiros serão desativados. A desativação de cookies de terceiros no terceiro trimestre de 2024 anunciada pelo Google Chrome marca efetivamente o fim dessa forma de rastreamento. Como resultado, a Adobe descontinuará as funções do Marketo Measure que dependem de cookies de terceiros. Especificamente, rastreamento entre domínios e atribuição de visualização, que usam o cookie de impressão Google/DoubleClick. Nenhuma outra função do Marketo Measure será afetada. O uso de cookies próprios também não será afetado. À luz do cronograma do Google, a data esperada de descontinuação das duas funções acima é de 01/06/2024. Os dados relacionados coletados antes dessa data permanecerão disponíveis para os clientes da Adobe.
+>Devido a preocupações com a privacidade, cookies de terceiros serão desativados. A desativação de cookies de terceiros no terceiro trimestre de 2024 anunciada pelo Google Chrome marca efetivamente o fim dessa forma de rastreamento. Como resultado, o Adobe está substituindo as funções do Marketo Measure que dependem de cookies de terceiros; especificamente, Rastreamento entre domínios e Atribuição de view-through, que usam o cookie de impressão Google/DoubleClick. Nenhuma outra função do Marketo Measure será afetada. O uso de cookies próprios também não será afetado. À luz do cronograma do Google, a data esperada de descontinuação das duas funções acima é de 01/06/2024. Os dados relacionados coletados antes dessa data permanecem disponíveis para os clientes do Adobe.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Terceiro, domain=.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>Terceiro, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>ID de usuário universal para identificar um usuário em vários domínios.</td>
     <td>1 ano</td>
     <td>Sim</td>
@@ -116,6 +116,6 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
 </tbody>
 </table>
 
-Se um aviso do Firewall de Aplicativo Web (WAF) for acionado durante a configuração do JavaScript, você pode desativar essa regra do WAF ou incluir os cookies na lista de permissões, como no exemplo abaixo:
+Se um aviso do Web Application Firewall (WAF) for acionado durante a configuração do JavaScript, os usuários poderão desativar essa regra do WAF ou incluir na lista de permissões os cookies, como no exemplo abaixo:
 
 ![](assets/marketo-measure-cookies-1.png)

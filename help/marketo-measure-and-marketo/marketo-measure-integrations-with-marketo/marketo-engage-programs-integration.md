@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Integração de programas - [!DNL Marketo Me
 title: "[!DNL Marketo Engage] Integração de programas"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1261'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ Depois de criar algumas regras, você pode testá-las para verificar se a sua in
 
    ![](assets/nine.png)
 
-   Você pode clicar em Contagem de membros para ver uma lista de IDs de pessoas do Marketo elegíveis dentro do programa.
+   Você pode clicar na Contagem de membros para ver uma lista de IDs de pessoas do Marketo elegíveis dentro do programa.
 
    ![](assets/ten.png)
 
@@ -177,4 +177,4 @@ Por enquanto, devido a limitações técnicas, não podemos oferecer suporte aos
 
 **Como saberei se devo usar Programas ou Atividades?**
 
-A variável [!DNL Marketo Engage] A integração de programas é uma maneira simples de gerar pontos de contato com base no fato de uma pessoa ser ou não membro de um programa. Se estiver interessado em definir uma regra com base no momento em que uma Pessoa muda para um status de Programa específico, a variável [!DNL Marketo Engage] A Integração de atividades será a configuração desejada, especificamente o tipo de atividade &quot;Alterar status na progressão&quot;.
+A variável [!DNL Marketo Engage] A integração de programas é uma maneira simples de gerar pontos de contato com base no fato de uma pessoa ser ou não membro de um programa. Se você estiver interessado em definir uma regra com base no momento em que uma Pessoa muda para um status de Programa específico, a variável [!DNL Marketo Engage] A Integração de atividades será a configuração desejada, especificamente o tipo de atividade &quot;Alterar status na progressão&quot;.

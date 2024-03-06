@@ -4,9 +4,9 @@ description: Datas de sincronização da campanha - [!DNL Marketo Measure]
 title: Datas de sincronização da campanha
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Da mesma forma, se você adicionasse uma Data de início de ponto de contato em 
 
 **Pontos de contato de preenchimento retroativo**
 
-Pode haver momentos em que uma equipe de marketing deixe de adicionar parâmetros utm a um esforço de marketing específico. As Datas de sincronização de campanha permitirão que você (se usar campanhas do SFDC para esforços online) preencha retroativamente alguns dados perdidos. Digamos que você esteja executando uma campanha de email que começou em 1º de maio, mas sua equipe não adicionou parâmetros utm nessa campanha de email até 15 de maio. Se você estiver rastreando conversões de email por meio de uma campanha do SFDC, será possível definir uma data de término do ponto de contato para essa campanha em 15 de maio e habilitar pontos de contato para membros &#39;Respondidos&#39; da campanha. Esta ação indicará [!DNL Marketo Measure] para criar pontos de contato para todas essas respostas até 15 de maio.
+Pode haver momentos em que uma equipe de marketing deixe de adicionar parâmetros utm a um esforço de marketing específico. As Datas de sincronização de campanha permitirão que você (se usar campanhas do SFDC para esforços online) preencha retroativamente alguns dados perdidos. Digamos que você esteja executando uma campanha de email que começou em 1º de maio, mas sua equipe não adicionou parâmetros utm nessa campanha de email até 15 de maio. Se você estiver rastreando conversões de email por meio de uma campanha do SFDC, será possível definir uma data de término do ponto de contato para 15 de maio nessa campanha e habilitar pontos de contato para membros &#39;Respondidos&#39; da campanha. Esta ação indicará [!DNL Marketo Measure] para criar pontos de contato para todas essas respostas até 15 de maio.
 
 **Pontos de contato de associação de campanha retroativa**
 
-Se você é novo [!DNL Marketo Measure] cliente, você pode estar interessado em trazer alguns dos dados de marketing que tem monitorado por meio de campanhas do SFDC. No entanto, se você ativasse pontos de contato para suas campanhas online do SFDC, poderia enfrentar o problema da atribuição de dupla contagem, já que [!DNL Marketo Measure] O cria automaticamente pontos de contato para suas iniciativas de marketing online. Em um esforço para evitar a dupla contagem de dados, você pode usar as Datas de término do ponto de contato do Campaign para definir um limite nas datas do ponto de contato criadas por [!DNL Marketo Measure] na campanha do SFDC. Como exemplo, se você deseja adicionar conversões retroativas para uma campanha social que você tem rastreado no SFDC, mas você entende que adicionou o [!DNL Marketo Measure] JavaScript (que está criando pontos de contato online) em 1º de julho, você pode editar a Campanha do SFDC social para conter uma Data de término do ponto de contato igual a 1º de julho e habilitar os Pontos de contato do comprador para essa campanha.
+Se você é um novo [!DNL Marketo Measure] cliente, você pode estar interessado em trazer alguns dos dados de marketing que tem monitorado por meio de campanhas do SFDC. No entanto, se você ativasse pontos de contato para suas campanhas online do SFDC, poderia enfrentar o problema da atribuição de dupla contagem, já que [!DNL Marketo Measure] O cria automaticamente pontos de contato para suas iniciativas de marketing online. Em um esforço para evitar a dupla contagem de dados, você pode usar as Datas de término do ponto de contato do Campaign para definir um limite nas datas do ponto de contato criadas por [!DNL Marketo Measure] na campanha do SFDC. Como exemplo, se você deseja adicionar conversões retroativas para uma campanha social que você tem rastreado no SFDC, mas você entende que adicionou o [!DNL Marketo Measure] JavaScript (que está criando pontos de contato online) em 1º de julho, você pode editar a Campanha do SFDC social para conter uma Data de término do ponto de contato igual a 1º de julho e habilitar os Pontos de contato do comprador para essa campanha.
 
 Pode haver muitos outros casos de uso para datas de término de ponto de contato. Se precisar de ajuda para descobrir uma situação específica, entre em contato com [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 

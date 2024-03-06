@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Visão geral dos relatórios do 101 - [!DNL
 title: "[!DNL Marketo Measure] 101 Visão geral dos relatórios"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
@@ -55,4 +55,4 @@ As duas variações de relatório a seguir usam o mesmo tipo de relatório, mas 
 
 A pasta &quot;Relatórios do ponto de contato do comprador&quot; foi projetada para ajudar você a começar com seu [!DNL Marketo Measure] relatórios, para relatórios acionáveis, será necessário personalizar esses relatórios para que eles sejam personalizados de acordo com suas necessidades de relatórios. será necessário adicionar os filtros necessários para garantir que os registros no relatório (e seus pontos de contato relacionados) estejam alinhados com sua meta de relatórios.
 
-Quando estiver familiarizado com &quot;_[!DNL Marketo Measure]101._&quot;, você pode recriá-los a partir de tipos de relatórios personalizados para necessidades de relatórios mais personalizadas. Criação do [[!DNL Marketo Measure] Tipos de relatório personalizados](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) O permitirá obter campos personalizados que você geralmente pode usar em outros relatórios do CRM. Isso ajudará você a levá-lo [!DNL Marketo Measure] relatório para o próximo nível!
+Quando estiver familiarizado com o &quot;_[!DNL Marketo Measure]101._&quot;, você pode recriá-los a partir de tipos de relatórios personalizados para necessidades de relatórios mais personalizadas. Criação do [[!DNL Marketo Measure] Tipos de relatório personalizados](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) O permitirá obter campos personalizados que você geralmente pode usar em outros relatórios do CRM. Isso ajudará você a levá-lo [!DNL Marketo Measure] relatório para o próximo nível!

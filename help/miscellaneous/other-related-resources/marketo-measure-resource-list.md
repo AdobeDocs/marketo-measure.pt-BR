@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Lista de recursos - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Lista de recursos"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '304'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,13 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudar você a c
 * [Práticas recomendadas UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
 * [Sincronizando campanhas do SFDC com pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Carregando gasto com marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
-* [Conectar Contas Ad Novamente](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-* [Adicionando [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [Reconectar contas publicitárias](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
+* [Adicionando [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
    * [Excluir Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Relatórios**
 
-* [Criação de tipos de relatórios personalizados com [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (se precisar relatar campos personalizados de cliente em potencial/contato/oportunidade)
+* [Criação de tipos de relatórios personalizados com [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (se você precisar relatar campos personalizados de cliente em potencial/contato/oportunidade)
 * [Glossário de [!DNL Marketo Measure] campos](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Solução de problemas**
@@ -47,14 +47,14 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudar você a c
 
 ## Vídeos {#videos}
 
-Estes são alguns vídeos para ajudá-lo a se atualizar:
+Estes são alguns vídeos para ajudar você a se atualizar:
 
-* [[!DNL Marketo Measure] Treinamento de introdução](https://embed.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4) (22 minutos)
-* [[!DNL Marketo Measure] Relatórios no SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minutos)
+* [[!DNL Marketo Measure] Treinamento de introdução](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
+* [[!DNL Marketo Measure] Relatórios no SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minutos)
 
-**[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minutos)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minutos)**
 
-Esta série de cursos foi projetada como uma introdução geral aos conceitos básicos que você precisará saber para dominar [!DNL Marketo Measure]. Ele fornece uma introdução ao conceito de atribuição, o que [!DNL Marketo Measure] funciona como um instrumento e o quadro geral em que se [!DNL Marketo Measure] funciona.
+Esta série de cursos foi projetada como uma introdução geral aos conceitos básicos que você precisa saber para dominar [!DNL Marketo Measure]. Ele fornece uma introdução ao conceito de atribuição, o que [!DNL Marketo Measure] funciona como um instrumento e o quadro geral em que se [!DNL Marketo Measure] funciona.
 
 Tópicos abordados:
 
@@ -64,9 +64,9 @@ Tópicos abordados:
 * Pontos de contato
 * Modelos de atribuição
 
-**[[!DNL Marketo Measure] Relatórios no SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minutos)**
+**[[!DNL Marketo Measure] Relatórios no SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minutos)**
 
-Esta série de cursos foi criada como uma introdução ao [!DNL Marketo Measure] relatórios de estoque que foram instalados no Salesforce. Esses relatórios atuam como a base para a maioria dos relatórios que você fará [!DNL Marketo Measure] dados.
+Esta série de cursos foi criada como uma introdução ao [!DNL Marketo Measure] relatórios de estoque que foram instalados no Salesforce. Esses relatórios servem como base para a maioria dos relatórios que você cria [!DNL Marketo Measure] dados.
 
 Tópicos abordados:
 
@@ -77,7 +77,7 @@ Tópicos abordados:
 * Relatório de Oportunidades por ID
 * Relatório de Oportunidades por Canal
 
-**[Gerenciamento de canal](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/)**
+**[Gerenciamento de canal](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 Este curso aborda várias maneiras de personalizar o [!DNL Marketo Measure], em termos de rastreamento online e offline. Este curso é mais avançado e pode não ser relevante para todos os usuários.
 
@@ -89,4 +89,4 @@ Tópicos abordados:
 * Campos de membro da campanha e da campanha
 * Gerenciamento de canal offline
 
-Aqui estão todos [Vídeos de e-learning para iniciantes](https://universityonline.marketo.com/#/library/bySubject/new-to-bizible/trails?_k=d1454j).
+Aqui estão todos [Vídeos de e-learning para iniciantes](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).

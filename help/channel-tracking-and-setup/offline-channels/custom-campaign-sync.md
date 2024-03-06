@@ -4,9 +4,9 @@ description: Sincronização de campanha personalizada - [!DNL Marketo Measure]
 title: Sincronização de campanha personalizada
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -79,6 +79,6 @@ Você pode verificar facilmente os registros de Pontos de contato do comprador e
 
    ![](assets/9.png)
 
-1. Você também pode clicar na contagem de Membros para ver uma lista de Clientes potenciais e Contatos e suas Ids que fazem parte da qualificação da regra de campanha. Este é apenas um conjunto de amostras e exibirá até 50 para que você possa ter uma ideia de quais registros se qualificam.
+1. Você também pode clicar na contagem de Membros para ver uma lista de Clientes potenciais e Contatos e suas Ids que fazem parte da qualificação de regra da campanha. Este é apenas um conjunto de amostras e exibirá até 50 para que você possa ter uma ideia de quais registros se qualificam.
 
    ![](assets/10.png)

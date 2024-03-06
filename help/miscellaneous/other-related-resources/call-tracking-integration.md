@@ -4,9 +4,9 @@ description: Integração de rastreamento de chamadas - [!DNL Marketo Measure]
 title: Integração ao rastreamento de chamadas
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Nossa integração com [!DNL CallTrackingMetrics] O é destinado a mesclar uma s
 
 ## Antes e depois {#before-and-after}
 
-Consulte o fluxograma abaixo para ver como [!DNL Marketo Measure] usado para lidar com chamadas telefônicas sem uma integração com CallTrackingMetrics. A chamada telefônica não foi rastreada, portanto, foi vista como uma sessão da Web e nenhum ponto de contato foi criado para ela. Foi somente na próxima visita em que o usuário preencheu o formulário que um ponto de contato foi finalmente preenchido.
+Observe o fluxograma abaixo para ver como [!DNL Marketo Measure] usado para lidar com chamadas telefônicas sem uma integração com CallTrackingMetrics. A chamada telefônica não foi rastreada, portanto, foi vista como uma sessão da Web e nenhum ponto de contato foi criado para ela. Foi somente na próxima visita em que o usuário preencheu o formulário que um ponto de contato foi finalmente preenchido.
 
 Com a integração do, você pode ver que a sessão da Web foi vinculada a uma chamada telefônica. O próximo preenchimento de formulário acaba sendo um toque PostLC e ainda é rastreado como parte da jornada.
 
@@ -31,9 +31,9 @@ Com a integração do, você pode ver que a sessão da Web foi vinculada a uma c
 
 ## Como funciona {#how-it-works}
 
-CallTrackingMetrics precisa fazer um pouco de trabalho de desenvolvimento no seu lado para que isso funcione. Com o javascript que eles colocam em seu site, CallTrackingMetrics pode capturar o _biz_uid do [!DNL Marketo Measure] cookie. Este &quot;[!DNL BizibleId]&quot; é armazenado por CallTrackingMetrics.
+CallTrackingMetrics precisa fazer algum trabalho de desenvolvimento na ponta deles para que isso funcione. Com o JavaScript que eles colocam em seu site, CallTrackingMetrics pode pegar o _biz_uid do [!DNL Marketo Measure] cookie. Este &quot;[!DNL BizibleId]&quot; é armazenado por CallTrackingMetrics.
 
-Quando um visitante acessa seu site e faz uma chamada telefônica, o trabalho do CallTrackingMetrics é enviar esses dados para o [!DNL Salesforce]  Normalmente, uma [!DNL Salesforce Task] que preenche dados como número de telefone, assunto, tipo e agora, o campo [!DNL BizibleId]
+Quando um visitante acessa seu site e faz uma chamada telefônica, o trabalho do CallTrackingMetrics é enviar esses dados para o [!DNL Salesforce].  Normalmente, uma [!DNL Salesforce Task] que preenche dados como número de telefone, assunto, tipo e agora, o campo [!DNL BizibleId]
 
 A variável [!DNL BizibleId] é um campo instalado com a versão 6.7+ do [!DNL Marketo Measure] Pacote de atribuição de marketing.
 
@@ -45,7 +45,7 @@ Quando [!DNL Marketo Measure] encontra um registro de Tarefa com um [!DNL Bizibl
 
 ## O ponto de contato {#the-touchpoint}
 
-Quando [!DNL Marketo Measure] Você pode importar/baixar a tarefa, processamos esses detalhes junto com a sessão da Web. Na maioria dos casos, ele pode ser mesclado com um referenciador ou anúncio. No exemplo abaixo, um visitante encontrou a empresa por meio de um anúncio de Google pago e fez uma chamada telefônica.
+Quando [!DNL Marketo Measure] Você pode importar/baixar a tarefa, processamos esses detalhes junto com a sessão da Web. Normalmente, pode ser mesclado com um referenciador ou anúncio. No exemplo abaixo, um visitante encontrou a empresa por meio de um anúncio de Google pago e fez uma chamada telefônica.
 
 A variável [!UICONTROL Ponto de contato] O tipo &quot;Chamada&quot; é extraído da Tarefa, da captura de tela acima, que também é preenchida por CallTrackingMetrics quando a Tarefa é criada.
 
@@ -53,7 +53,7 @@ A variável [!UICONTROL Ponto de contato] O tipo &quot;Chamada&quot; é extraíd
 
 ## Gerando relatório {#reporting}
 
-Valores de tipo de ponto de contato que [!DNL Marketo Measure] normalmente os envios por push são Visita na Web, Formulário da Web ou Chat pela Web, mas no caso de pontos de contato CallTrackingMetrics, o tipo de ponto de contato será Chamada telefônica. Isso ajuda os profissionais de marketing a ver quais canais recebem a maioria das chamadas telefônicas e a gerar receita para sua organização.
+Valores de tipo de ponto de contato que [!DNL Marketo Measure] normalmente, os envios por push são Visita na Web, Formulário da Web ou Chat pela Web, mas no caso de pontos de contato CallTrackingMetrics, o tipo de ponto de contato é Chamada telefônica. Isso ajuda os profissionais de marketing a ver quais canais recebem a maioria das chamadas telefônicas e a gerar receita para sua organização.
 
 ![](assets/5.png)
 
@@ -65,13 +65,13 @@ O Tipo de ponto de contato é preenchido no campo Task.Type. Se o campo Task.Typ
 
 **Que outros campos o ponto de contato preenche a partir da chamada telefônica?**
 
-Tanto o Tipo de ponto de contato quanto o Médio conterão os dados extraídos do Task.Type. Todos os outros pontos de dados são extraídos do rastreamento web e dos dados javascript.
+O Tipo de ponto de contato e o Médio contêm os dados extraídos do Task.Type. Todos os outros pontos de dados são extraídos do rastreamento web e dos dados javascript.
 
 **Por que esta chamada telefônica não está vinculada a uma sessão da Web?**
 
-Primeiro, verifique a Tarefa para ter certeza de que há uma [!DNL BizibleId] preenchido. Se não houver valor, não criaremos e não poderemos criar um ponto de contato para ele. Isso precisará ser escalonado com CallTrackingMetrics.
+Primeiro, verifique a Tarefa para ter certeza de que há uma [!DNL BizibleId] preenchido. Se não houver valor, não poderemos criar um ponto de contato para ele. Isso precisa ser escalonado com CallTrackingMetrics.
 
-Se houver um valor, observe que consideramos apenas todas as sessões da Web como 30 minutos. Se um anúncio do Google foi clicado às 12h17 (início da sessão no site), mas a chamada telefônica não ocorreu até 13h05, não mesclaremos a sessão da Web e a chamada telefônica. Em vez disso, [!DNL Marketo Measure] criará um [!DNL Salesforce Task] ponto de contato para rastrear a chamada telefônica, mas não terá dados de sessão da web.
+Se houver um valor, observe que consideramos apenas todas as sessões da Web como 30 minutos. Se um anúncio do Google foi clicado às 12h17 (início da sessão no site), mas a chamada telefônica não ocorreu até 13h05, não mesclaremos a sessão da Web e a chamada telefônica. Em vez disso, [!DNL Marketo Measure] cria uma [!DNL Salesforce Task] ponto de contato para rastrear a chamada telefônica, mas não terá dados de sessão da web.
 
 ![](assets/6.png)
 

@@ -4,9 +4,9 @@ description: Sincronização de campanhas offline - [!DNL Marketo Measure]
 title: Sincronização de campanhas offline
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Nesse caso, ele preencheria retroativamente a data de upload por três semanas. 
 
 Em resumo, se você usar a variável [!UICONTROL Atualização em massa da data do ponto de contato] e altere a data do ponto de contato para a data do evento, [!DNL Marketo Measure] gerará Pontos de contato para a data real do evento, não a data do upload.
 
-Você também pode atualizar as datas de todos os membros de uma campanha existente. Ao fazer isso, verifique se a data do Touchpoint é a data da interação do membro. Basta clicar na Atualização em massa da data de ponto de contato do comprador, filtrar a lista de membros da campanha conforme apropriado e na &quot;[!UICONTROL Selecionar data]&quot; acima da lista de membros da campanha, adicione a mesma data que a data em que o evento ocorreu.
+Você também pode atualizar as datas de todos os membros de uma campanha existente. Ao fazer isso, verifique se a data do Touchpoint é a data da interação do membro. Clique em Atualização em massa na Data do ponto de contato do comprador, filtre a lista de membros da campanha conforme apropriado e na &quot;[!UICONTROL Selecionar data]&quot; acima da lista de membros da campanha, adicione a mesma data que a data em que o evento ocorreu.
 
 >[!CAUTION]
 >

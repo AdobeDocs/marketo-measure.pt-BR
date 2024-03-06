@@ -4,9 +4,9 @@ description: Práticas recomendadas para testes - [!DNL Marketo Measure]
 title: Práticas recomendadas para testes
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '182'
 ht-degree: 16%
 
 ---

@@ -3,9 +3,9 @@ description: Gerenciamento de domínio - [!DNL Marketo Measure]
 title: Gerenciamento de domínio
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Depois que um domínio é adicionado ao Admin Console, [!DNL Marketo Measure] O 
 
 ![](assets/domain-management-2.png)
 
-No **[!UICONTROL Integração]** > **[!UICONTROL Domínios]** página, o usuário vê todos os domínios que registrou no Admin Console, juntamente com seu status. Cada domínio pode ser ativado ou desativado. Se um domínio estiver ativado, [!DNL Marketo Measure] O rastreamento do coleta qualquer tráfego que seja visto nesse domínio. Se um domínio estiver desativado, [!DNL Marketo Measure] O ignora qualquer tráfego visto desse domínio e não cria pontos de contato ou outros dados. [!DNL Marketo Measure] confirma a desativação de um domínio e avisa sobre as ramificações:
+No **[!UICONTROL Integração]** > **[!UICONTROL Domínios]** página, o usuário vê todos os domínios que registrou no Admin Console, juntamente com seu status. Cada domínio pode ser ativado ou desativado. Se um domínio estiver ativado, [!DNL Marketo Measure] O rastreamento do coleta qualquer tráfego que seja visto nesse domínio. Se um domínio estiver desativado, [!DNL Marketo Measure] O ignora qualquer tráfego proveniente desse domínio e não cria pontos de contato ou outros dados. [!DNL Marketo Measure] confirma a desativação de um domínio e avisa sobre qualquer ramificação:
 
 ![](assets/domain-management-3.png)
 
@@ -55,7 +55,7 @@ Passar o mouse sobre qualquer item de status individual aciona uma dica de ferra
 
 **O que acontece quando um domínio é removido no Admin Console?**
 
-Quando um domínio é removido no Admin Console, [!DNL Marketo Measure] marca o domínio como excluído. [!DNL Marketo Measure] interromperá imediatamente o rastreamento do tráfego neste domínio, mas não removerá nenhum dado coletado anteriormente.
+Quando um domínio é removido no Admin Console, [!DNL Marketo Measure] marca o domínio como excluído. [!DNL Marketo Measure] O interrompe imediatamente o rastreamento do tráfego neste domínio, mas não remove os dados coletados anteriormente.
 
 **Por que não consigo habilitar um domínio?**
 

@@ -4,9 +4,9 @@ description: Casos de uso comuns - [!DNL Marketo Measure]
 title: Casos de uso comuns
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Ao observar a Receita do pipeline, recomendamos alterar as datas para um interva
 
 ## ROI de pesquisa paga {#paid-search-roi}
 
-Se deseja obter insights sobre o ROI da Campanha e até mesmo sobre o ROI em nível de palavra-chave dos seus esforços de pesquisa paga, acesse o painel de ROI do Ads, em Exibições baseadas em funções no Discover. Esse painel também fornecerá informações sobre Receita, Gastos, Receita do pipeline, Clientes potenciais, Contatos, Oportunidades e Ofertas de anúncios pagos.
+Se você deseja obter insights sobre o ROI do Campaign e até mesmo do nível de palavra-chave dos seus esforços de pesquisa paga, navegue até o painel de ROI do Ads, nas Exibições baseadas em funções no Discover. Esse painel também fornecerá informações sobre Receita, Gastos, Receita do pipeline, Clientes potenciais, Contatos, Oportunidades e Ofertas de anúncios pagos.
 
 Além disso, o painel Mídia paga, nas Exibições baseadas em função, exibirá impressões, cliques, exibições de página e visitas de todos os canais de mídia paga.
 

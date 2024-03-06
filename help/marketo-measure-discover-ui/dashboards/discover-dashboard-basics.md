@@ -1,15 +1,16 @@
 ---
 description: Conheça as noções básicas do painel - [!DNL Marketo Measure] - Produto
-title: Descubra as noções básicas do painel
+title: Noções básicas do painel do Discover
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
-# Descubra as noções básicas do painel {#discover-dashboard-basics}
+# Noções básicas do painel do Discover {#discover-dashboard-basics}
 
 Este artigo o guiará pelos recursos fundamentais da interface reprojetada, garantindo que você possa acessar e interpretar seus dados com facilidade. Analise a dinâmica do painel de filtros e descubra as complexidades de nossas funcionalidades de relatórios aprimoradas, como recursos de drill, filtragem cruzada e dicas de ferramentas.
 
@@ -105,6 +106,6 @@ Selecionar um rótulo de valor ou eixo em uma visualização filtrará outros vi
 
 ### Dicas de ferramentas {#tooltips}
 
-As dicas de ferramentas oferecem detalhes adicionais sobre os dados exibidos. Basta passar o mouse sobre um elemento visual e uma dica de ferramenta contextual será exibida, fornecendo insights ou explicações relacionados a esse ponto de dados específico.
+As dicas de ferramentas oferecem detalhes adicionais sobre os dados exibidos. Passe o mouse sobre um elemento visual e uma dica de ferramenta contextual será exibida, fornecendo insights ou explicações relacionados a esse ponto de dados específico.
 
 ![](assets/discover-dashboard-basics-13.gif)

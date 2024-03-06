@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Último requisito de integridade de dados -
 title: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
 # Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para garantir que os dados sejam suficientes e coerentes para fins de atribuição. O não cumprimento do requisito de integridade de dados fará com que o conjunto de dados seja rejeitado pelo sistema do [!DNL Marketo Measure]. Este documento detalha o requisito de integridade de dados, fornece exemplos de consulta para inspeção de dados e recomenda uma solução para campos obrigatórios com um valor nulo.
+[!DNL Marketo Measure] O valida os conjuntos de dados da AEP recebidos para garantir que os dados sejam suficientes e coerentes para atribuição. O não cumprimento do requisito de integridade de dados faz com que o conjunto de dados seja rejeitado pelo [!DNL Marketo Measure] sistema. Este documento detalha o requisito de integridade de dados, fornece exemplos de consulta para inspeção de dados e recomenda uma solução para campos obrigatórios com um valor nulo.
 
 ## Objeto Entidade {#entity-object}
 
@@ -37,7 +37,7 @@ O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para gara
       <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>Ex: 123@999-abc-888.Marketo</td>
+      <td>Por exemplo - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para gara
       <td>string</td>
       <td></td>
       <td>Sim</td>
-      <td>ex: 333@999-abc-888.Marketo</td>
+      <td>Por exemplo - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para gara
       <td>string</td>
       <td>ID</td>
       <td>Sim</td>
-      <td>ex: 333, dependendo da tabela de fonte de dados, é a ID do lead ou a ID do contato</td>
+      <td>Por exemplo - 333, dependendo da tabela da fonte de dados, este é o ID do cliente potencial ou o ID do contato</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ O [!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para gara
   </tbody>
 </table>
 
-Use o tipo de evento “Momento interessante” para tipos de evento não aceitos na tabela acima. Adicione um campo personalizado para indicar o subtipo “Momento interessante”.
+Use o tipo de evento “Momento interessante” para tipos de evento não aceitos na tabela acima. Adicione um campo personalizado para indicar o subtipo &quot;Momento interessante&quot;.
 
 ## Exemplos de consulta para inspeção de dados {#query-examples-for-data-inspection}
 

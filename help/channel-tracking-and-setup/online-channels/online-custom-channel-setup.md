@@ -4,10 +4,10 @@ description: Configuração de canal personalizado online - [!DNL Marketo Measur
 title: Configuração de canal personalizado online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 71%
+source-wordcount: '1219'
+ht-degree: 69%
 
 ---
 
@@ -82,7 +82,7 @@ Além disso, observe que, se você criar um subcanal para um de seus canais, dev
 
 ## Configuração das regras de canais personalizados {#setting-up-your-custom-channels-rules}
 
-Depois de decidir como organizar e priorizar seus dados, você estará pronto para adicionar suas regras à planilha. Abaixo estão algumas práticas recomendadas:
+Depois de decidir como deseja organizar e priorizar seus dados, você estará pronto para adicionar suas regras à planilha. Abaixo estão algumas práticas recomendadas:
 
 * Mantenha suas regras o mais simples possível desde o início. Você pode criar as regras conforme avança.
 * Não adicione caracteres especiais nos nomes dos canais (por exemplo, $%#&amp;&#42;@)

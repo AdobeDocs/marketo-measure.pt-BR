@@ -2,9 +2,9 @@
 description: Painel de envolvimentos - [!DNL Marketo Measure] - Produto
 title: Painel de engajamento
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Perguntas que o painel responde:
 
 * Quantas pessoas estavam comprometidas? Qual é o número médio de contatos por pessoa envolvida?
 * Como o número de pontos de contato se compara às pessoas tocadas em um canal/subcanal/campanha específico?
-* Quantos pontos de contato havia em um determinado canal ou subcanais? Como isso mudou com o tempo?
+* Quantos pontos de contato havia em um determinado canal ou subcanal? Como isso mudou com o tempo?
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Perguntas que o painel responde:
 ### Blocos de KPI {#kpi-tiles}
 
 * Pontos de contato: o número total de pontos de contato brutos gerados.
-   * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato serão selecionados como BT e MTD.
+   * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e MTD.
 * Pessoas tocadas: o número total de pessoas que têm quaisquer pontos de contato.
 * Pontos de contato por pessoa: número médio de pontos de contato por pessoa que foram tocados.
 

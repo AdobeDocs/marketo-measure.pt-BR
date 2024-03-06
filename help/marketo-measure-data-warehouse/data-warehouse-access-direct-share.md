@@ -3,9 +3,9 @@ description: Acesso à Data Warehouse - Compartilhamento direto - Documentação
 title: Acesso ao Data Warehouse - Compartilhamento direto
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 3%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 ## Requisitos {#requirements}
 
-A fim de [!DNL Marketo Measure] para configurar um compartilhamento direto no data warehouse, você deve atender aos seguintes requisitos.
+Para [!DNL Marketo Measure] para configurar um compartilhamento direto no data warehouse, você deve atender aos seguintes requisitos.
 
 * Você tem sua própria instância Snowflake.
-* Sua instância Snowflake está localizada na região de Snowflake do Azure East US 2.
+* Sua instância de Snowflake está na região de Snowflake do Azure East US 2.
 * Você fornece [!DNL Marketo Measure] com a id da conta Snowflake.
 
 ## Limitações {#limitations}
 
-[!DNL Marketo Measure] O só poderá configurar Compartilhamentos Diretos de Snowflake com contas localizadas no Azure East US 2 devido às limitações atuais de Compartilhamento Direto de Snowflake. Se você precisar que seus dados sejam disponibilizados em outras regiões do Snowflake, recomendamos fazer uma cópia dos dados em uma conta do Snowflake localizada no Azure East US 2 e aproveitar o [Replicação de Banco de Dados Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} recurso para copiar seus dados na região/conta da Snowflake de sua escolha.
+[!DNL Marketo Measure] O só poderá configurar Compartilhamentos Diretos de Snowflake com contas localizadas no Azure East US 2 devido às limitações atuais de Compartilhamento Direto de Snowflake. Se você precisar que seus dados sejam disponibilizados em outras regiões Snowflake, recomendamos fazer uma cópia dos dados em uma conta Snowflake localizada no Azure East US 2 e usar o [Replicação de Banco de Dados Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} recurso para copiar seus dados na região/conta da Snowflake de sua escolha.
 
 ## Digite a ID da conta Snowflake {#enter-snowflake-account-id}
 
@@ -44,7 +44,7 @@ Depois que o compartilhamento for criado para a ID de conta fornecida, você dev
 USE ROLE ACCOUNTADMIN
 ```
 
-* Exibir compartilhamentos disponíveis (mostrará o nome do compartilhamento concedido)
+* Exibir compartilhamentos disponíveis (mostra o nome do compartilhamento concedido)
 
 ```
 SHOW SHARES

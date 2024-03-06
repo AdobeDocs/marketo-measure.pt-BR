@@ -4,9 +4,9 @@ description: Adicionando [!DNL Marketo Measure] para [!DNL Hubspot] - [!DNL Mark
 title: Adicionando [!DNL Marketo Measure] para [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Saiba como adicionar o [!DNL Marketo Measure] JavaScript para rastrear seu [!DNL Hubspot] páginas de aterrissagem e envios de formulários.
 
-O Hubspot é um pouco diferente de outros sistemas de automação de marketing, pois pode hospedar suas páginas/formulários de aterrissagem E seu site. É importante observar que as instruções abaixo são para ter [!DNL Marketo Measure] rastrear atividade em [!DNL Hubspot]Páginas hospedadas pelo. Se você potencializar seu site com um CMS diferente de [!DNL Hubspot] (por exemplo, Wordpress), será necessário adicionar o [!DNL Marketo Measure] JavaScript para esse CMS também.
+O Hubspot é um pouco diferente de outros sistemas de automação de marketing, pois pode hospedar suas páginas/formulários de aterrissagem E seu site. É importante observar que as instruções abaixo são para ter [!DNL Marketo Measure] rastrear atividade em [!DNL Hubspot]Páginas hospedadas pelo. Se você potencializar seu site com um CMS diferente de [!DNL Hubspot] (por exemplo, Wordpress), é necessário adicionar a variável [!DNL Marketo Measure] JavaScript para esse CMS também.
 
 >[!NOTE]
 >

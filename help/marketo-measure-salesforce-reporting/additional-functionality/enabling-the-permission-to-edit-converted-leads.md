@@ -4,9 +4,9 @@ description: Ativação da permissão para editar clientes em potencial converti
 title: Ativação da permissão para editar leads convertidos
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '149'
 ht-degree: 9%
 
 ---

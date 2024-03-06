@@ -4,9 +4,9 @@ description: Configuração de canal personalizado offline - [!DNL Marketo Measu
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Depois de editar e atualizar a planilha com suas regras personalizadas, a próxi
 
 >[!TIP]
 >
->Deseja determinar _quando_ a [!DNL Salesforce] O tipo de campanha é colocado em [!DNL Marketo Measure] mapeamento de canal? Basta ir para **[!UICONTROL Configuração]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. Você pode ver quais valores estão na lista de opções e quais estão inativos. Os inativos não serão exibidos como um tipo selecionável no nosso &quot;[!UICONTROL Canais offline]&quot;. Observe que esse processo pode levar de alguns minutos a 48 horas.
+>Deseja determinar _quando_ a [!DNL Salesforce] O tipo de campanha é colocado em [!DNL Marketo Measure] mapeamento de canal? Ir para **[!UICONTROL Configuração]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. Você pode ver quais valores estão na lista de opções e quais estão inativos. Os inativos não serão exibidos como um tipo selecionável no nosso &quot;[!UICONTROL Canais offline]&quot;. Observe que esse processo pode levar de alguns minutos a 48 horas.
 
 Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] fará upload das alterações e reprocessará os dados.
 

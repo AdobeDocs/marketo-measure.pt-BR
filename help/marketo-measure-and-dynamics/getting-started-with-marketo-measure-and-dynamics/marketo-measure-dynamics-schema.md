@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Esquema do Dynamics - [!DNL Marketo Measure
 title: "[!DNL Marketo Measure] Esquema do Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1070'
 ht-degree: 65%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 65%
 >
 >Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
 
-Abaixo, você encontrará o esquema do Dynamics necessário para começar a usar o [!DNL Marketo Measure]. Todas as entidades e campos são listados, juntamente com o acesso de leitura e/ou gravação necessário.
+Abaixo está o esquema dinâmico necessário para começar a usar o [!DNL Marketo Measure]. Todas as entidades e campos são listados, juntamente com o acesso de leitura e/ou gravação necessário.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
@@ -912,7 +912,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
 
 ## Entidades do Dynamics Standard {#dynamics-standard-entities}
 
-Essa lista fornece as Entidades do Dynamics Standard que [!DNL Marketo Measure] O interage com o, bem como com os campos personalizados que adicionamos a essas entidades.
+Esta lista fornece as Entidades do Dynamics Standard que [!DNL Marketo Measure] O interage com o e os campos personalizados que adicionamos a essas entidades.
 
 **Lead**
 

@@ -4,9 +4,9 @@ description: Concedendo [!DNL Salesforce] Acesso a [!DNL Marketo Measure] Suport
 title: Concedendo [!DNL Salesforce] Acesso ao suporte da Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ A concessão de acesso de login é um pouco diferente dependendo de você estar 
 
 ## Conceder acesso de logon no Salesforce Classic {#granting-login-access-in-salesforce-classic}
 
-Dependendo da sua organização, a variável [!UICONTROL Configuração] botão estará ao lado de seu nome no canto superior direito da página ou listado como uma opção suspensa ao clicar em seu nome.
+Dependendo da sua organização, a variável [!UICONTROL Configuração] estará ao lado de seu nome no canto superior direito da página ou listado como uma opção suspensa ao clicar em seu nome.
 
 1. Para acessar o **Conceder acesso ao logon** página em [!DNL Salesforce Classic] Interface do usuário:
 
@@ -34,7 +34,7 @@ Dependendo da sua organização, a variável [!UICONTROL Configuração] botão 
 
 ## Concedendo acesso de login no [!DNL Salesforce] Relâmpago {#granting-login-access-in-salesforce-lightning}
 
-1. Clique em seu avatar no lado superior direito da tela e selecione **[!UICONTROL Configurações]**.
+1. Clique no avatar no lado superior direito da tela e selecione **[!UICONTROL Configurações]**.
 1. Clique em **[!UICONTROL Conceder acesso de logon à conta]**.
 1. Defina a data de expiração de acesso para &quot;[!UICONTROL Suporte ao Marketo Measure].&quot; Para solução de problemas técnicos, recomendamos conceder [!DNL Marketo Measure] o acesso ao suporte técnico por pelo menos uma semana.
 1. Clique em **[!UICONTROL Salvar]**.

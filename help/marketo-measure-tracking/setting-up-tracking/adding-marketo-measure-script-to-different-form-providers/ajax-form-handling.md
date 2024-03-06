@@ -4,22 +4,22 @@ description: Manuseio de formulário AJAX - [!DNL Marketo Measure]
 title: Manuseio de formulário AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '313'
 ht-degree: 1%
 
 ---
 
 # Manuseio de formulário AJAX {#ajax-form-handling}
 
-Para relatar manualmente conversões de clientes para [!DNL Marketo Measure], fornecemos uma API muito simples que você pode usar. Ambas as APIs do Javascript estão disponíveis automaticamente no seu site, se você tiver o nosso código de rastreamento nela. Não é necessário fazer nada especial para acessá-las.
+Para relatar manualmente conversões de clientes para [!DNL Marketo Measure], há uma API simples que você pode usar. Ambas as APIs do JavaScript estão disponíveis automaticamente no site, se você tiver um código de rastreamento. Não é necessário fazer nada especial para acessá-las.
 
 ## Cenário 1 - Formulário HTML com um envio AJAX {#scenario-html-form-with-an-ajax-submit}
 
 Ao usar formulários contendo AJAX (ou outro mecanismo) para enviar datas de conversão do cliente para nossos servidores, [!DNL Marketo Measure] pode não estar ciente da conversão do cliente por meio de qualquer um dos caminhos padrão que monitoramos. Nesse cenário, podemos usar uma API simples (fornecida abaixo).
 
-Se você manipula seus próprios envios de formulários, pode chamar explicitamente o [!DNL Marketo Measure] do Javascript. [!DNL Marketo Measure] O coletará todas as informações relevantes do formulário e as publicará de forma assíncrona em nossos servidores.
+Se você manipula seus próprios envios de formulários, pode chamar explicitamente o [!DNL Marketo Measure] do JavaScript. [!DNL Marketo Measure] O coleta todas as informações relevantes do formulário e as publica de forma assíncrona em nossos servidores.
 
 **Abaixo está uma amostra de código usando JQuery (supondo que a ID no formulário seja &quot;formId&quot;):**
 
@@ -58,11 +58,11 @@ eMail: 'user@gmail.com' // required
 });  
 ```
 
-Neste código, a variável [!UICONTROL email] campo é obrigatório. [!DNL Marketo Measure] O publicará esses dados de forma assíncrona em nossos servidores.
+Neste código, a variável [!UICONTROL email] campo é obrigatório. [!DNL Marketo Measure] O publica esses dados de forma assíncrona em nossos servidores.
 
 ## Cenário 3 - Relatar informações do usuário a partir da página de agradecimento {#scenario-report-user-information-from-the-thank-you-page}
 
-Em alguns casos, é mais conveniente relatar as informações do lead para [!DNL Marketo Measure] na página de agradecimento, após o envio do formulário. A maneira mais simples de relatar essas informações é adicionar um elemento oculto à página que armazena informações do envio do formulário e [!DNL Bizible.js] O lerá estas informações quando a página de agradecimento for carregada.
+Às vezes, é mais conveniente relatar as informações do lead para [!DNL Marketo Measure] na página de agradecimento, após o envio do formulário. A maneira mais simples de relatar essas informações é adicionar um elemento oculto à página que armazena informações do envio do formulário e [!DNL Bizible.js] O lerá estas informações quando a página &quot;Obrigado&quot; for carregada.
 
 **Por exemplo:**
 

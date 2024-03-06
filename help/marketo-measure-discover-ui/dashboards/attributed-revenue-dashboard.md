@@ -3,9 +3,9 @@ description: Painel de receitas atribuídas - [!DNL Marketo Measure] - Produto
 title: Painel de receita atribuída
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ O Painel de receita atribuída oferece uma perspectiva focada na receita diretam
 
 >[!NOTE]
 >
->Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
+>Este painel está na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado depois que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
 **Perguntas que o painel responde:**
 
@@ -34,7 +34,7 @@ O Painel de receita atribuída oferece uma perspectiva focada na receita diretam
 
 Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada por canal, para cada mês/trimestre/ano.
 
-* use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
+* Use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
 **Perguntas que o gráfico responde:**

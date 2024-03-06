@@ -4,9 +4,9 @@ description: Campos de ponto de contato - [!DNL Marketo Measure]
 title: Campos do Touchpoint
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Historicamente, quando os clientes iniciam com a [!DNL Marketo Measure] e, caso 
 
 ## Ativação do recurso {#enabling-the-feature}
 
-No [!DNL Marketo Measure] Menu de configurações, navegue até a página Campos de ponto de contato. A partir daí, você pode ativar o recurso selecionando **Sim** em **Ativar campos calculados**. Depois que isso for ativado, você estará livre para criar Campos de ponto de contato.
+No [!DNL Marketo Measure] Menu de configurações, navegue até a página Campos de ponto de contato. A partir daí, você pode ativar o recurso selecionando **Sim** em **Ativar campos calculados**. Depois que o recurso for ativado, você poderá criar Campos de ponto de contato.
 
 ![](assets/one.png)
 
@@ -221,7 +221,7 @@ Há trabalho adicional necessário para expor os novos campos no [!DNL Marketo M
 
 **Como posso validar se minha expressão de extração é válida e está extraindo o valor correto?**
 
-Há uma ferramenta online ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão aparecerá em verde se for válida ou em vermelho se for inválida. Além disso, a variável [!UICONTROL explicação] caixa no canto superior direito é útil e informa o que você está extraindo.
+Há uma ferramenta online ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão aparece em verde se for válida ou em vermelho se for inválida. Além disso, a variável [!UICONTROL explicação] no canto superior direito é útil e informa o que você está extraindo.
 
 ![](assets/twelve.png)
 

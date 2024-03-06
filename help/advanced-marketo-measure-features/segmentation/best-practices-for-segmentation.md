@@ -3,10 +3,10 @@ description: Práticas recomendadas para segmentação - [!DNL Marketo Measure]
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '450'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Quando enviado para [!UICONTROL Descobrir], Segmentos serão exibidos como um fi
 
 ## Prática recomendada {#best-practice}
 
-Se você estiver definindo a segmentação pela primeira vez ou apenas revisando a segmentação estabelecida anteriormente, lembre-se das práticas recomendadas a seguir.
+Se você estiver definindo a segmentação pela primeira vez ou apenas revisando a segmentação estabelecida anteriormente, lembre-se das seguintes práticas recomendadas.
 
 * Mantenha simples.
 * Alinhe o nome do segmento à nomenclatura de sua organização, ou seja, a categoria = nome do filtro, segmento = valor do filtro

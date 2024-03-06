@@ -4,9 +4,9 @@ description: Configuração do [!DNL Marketo Measure] Integração do teste A/B 
 title: Configurar a [!DNL Marketo Measure] Integração de teste A/B
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---

@@ -4,10 +4,10 @@ description: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem -
 title: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 89%
+source-wordcount: '1267'
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ Por padrão, o [!DNL Marketo Measure] exporta 200 registros por crédito de API 
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consomem mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver atingindo o tempo limite da CPU ou uma alta carga de CPU no CRM.
+Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consomem mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver enfrentando um tempo limite de CPU ou alta carga de CPU no seu CRM.
 
 ## Objetos e acesso padrão do Salesforce {#salesforce-standard-objects-and-access}
 

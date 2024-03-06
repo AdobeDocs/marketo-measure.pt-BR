@@ -4,9 +4,9 @@ description: Parâmetro de rastreamento de email - [!DNL Marketo Measure]
 title: Parâmetro de rastreamento por email
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ A variável [!DNL Marketo Measure] O parâmetro de rastreamento de email permite
 
 Quando um visitante chega ao seu site, [!DNL Marketo Measure] espera encontrar uma página de aterrissagem com um endereço de email ou [!DNL Salesforce] ID, para que possamos associar essa visita a um &quot;envio de formulário&quot; e gerar um ponto de contato para essa atividade.
 
-Como cliente, você cria um modelo de email normalmente. Depois de adicionar a página de aterrissagem da ação que deseja rastrear, é necessário determinar o token, a tag variável ou a macro que a plataforma de Automação de marketing aceita para exibir dinamicamente o valor de cada indivíduo.
+Como cliente, você cria um modelo de email normalmente. Depois de adicionar o à página de aterrissagem da ação que deseja rastrear, determine o token, a tag variável ou a macro que a plataforma de Automação de marketing aceita para exibir dinamicamente o valor de cada indivíduo.
 
 A Marketo Measure aceita os seguintes valores: Endereço de email, ID de cliente potencial do Salesforce ou ID de contato do Salesforce.
 
@@ -72,6 +72,6 @@ A Marketo Measure aceita os seguintes valores: Endereço de email, ID de cliente
  </tbody> 
 </table>
 
-E finalmente, no prazo de [!DNL Marketo Measure], é necessário especificar o parâmetro de rastreamento para que [!DNL Marketo Measure] é possível localizar o valor do email ou da ID. O padrão é &quot;mailId&quot;, como mostrado nos exemplos acima e na captura de tela abaixo. Insira o valor nas configurações em [!DNL Marketo Measure]e, em seguida, clique em **[!UICONTROL Salvar]**.
+E finalmente, no prazo de [!DNL Marketo Measure], você deve especificar o parâmetro de rastreamento para que [!DNL Marketo Measure] é possível localizar o valor do email ou da ID. O padrão é &quot;mailId&quot;, como mostrado nos exemplos acima e na captura de tela abaixo. Insira o valor nas configurações em [!DNL Marketo Measure]e, em seguida, clique em **[!UICONTROL Salvar]**.
 
 ![](assets/one.png)

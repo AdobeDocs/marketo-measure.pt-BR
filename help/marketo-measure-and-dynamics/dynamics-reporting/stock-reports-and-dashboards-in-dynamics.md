@@ -4,9 +4,9 @@ description: Relatórios e painéis do Stock no Dynamics - [!DNL Marketo Measure
 title: Relatórios e painéis do Stock no Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 A variável [!DNL Marketo Measure] A Managed Solution vem com vários painéis e relatórios de estoque, projetados para atender às suas necessidades básicas durante a visualização [!DNL Marketo Measure] dados no Dynamics. Veja abaixo a lista completa e alguns casos de uso comuns.
 
-## Painéis (9 no total) {#dashboards-total}
+## Painéis (nove no total) {#dashboards-total}
 
 <table> 
  <colgroup> 

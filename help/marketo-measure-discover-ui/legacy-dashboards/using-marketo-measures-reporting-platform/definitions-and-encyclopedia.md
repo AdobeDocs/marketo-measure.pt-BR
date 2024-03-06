@@ -4,9 +4,9 @@ description: Definições e Enciclopédia - [!DNL Marketo Measure]
 title: Definições enciclopédia
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6137'
+source-wordcount: '6136'
 ht-degree: 2%
 
 ---

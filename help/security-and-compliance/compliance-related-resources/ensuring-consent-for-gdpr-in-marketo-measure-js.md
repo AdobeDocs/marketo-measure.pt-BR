@@ -4,9 +4,9 @@ description: Garantia do consentimento para o GDPR no Marketo Measure Js - Marke
 title: Garantia do consentimento para o GDPR no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ O Regulamento Geral sobre a Proteção de Dados (GDPR) é uma legislação da Un
 
 O objetivo do GDPR é reforçar os direitos dos titulares de dados na União Europeia (UE) e no Espaço Econômico Europeu (EEE) no que diz respeito à forma como os seus dados pessoais são utilizados e protegidos. &quot;Dados pessoais&quot; refere-se a qualquer informação que diga respeito a uma pessoa singular identificada ou identificável. O RGPD aplica-se a qualquer organização dentro ou fora da UE que comercialize bens ou serviços para titulares de dados na UE e no EEE e/ou que acompanhe os seus comportamentos. Se você faz negócios com titulares de dados na Europa que envolvem o processamento de seus dados pessoais, esta legislação se aplica a você. As penalidades por não conformidade são significativas, com multas elevadas para aqueles que violam o regulamento; a multa máxima por uma única violação é de 20 milhões de euros ou 4% do volume de negócios mundial anual, o que for maior.
 
-Por padrão, [!DNL bizible.js] O coleta dados do analytics dos usuários, a menos que estejam configurados especificamente para aguardar por consentimento. Quando [!DNL bizible.js] O está configurado para aguardar o consentimento do usuário. Ele não criará cookies ou enviará dados do Analytics até que o consentimento seja atingido.
+Por padrão, [!DNL bizible.js] O coleta dados do analytics dos usuários, a menos que esteja configurado para aguardar por consentimento. Quando [!DNL bizible.js] O está configurado para aguardar o consentimento do usuário. Ele não criará cookies ou enviará dados do Analytics até que o consentimento seja atingido.
 
 ## Como aguardar por consentimento {#how-to-wait-for-consent}
 
@@ -36,9 +36,9 @@ Opção 1 - Substituir o padrão [!DNL bizible.js] tag de script com:
 
 >[!NOTE]
 >
->Nesse caso, [!DNL bizible.js] anexará um evento ao clicar no elemento HTML com a ID &quot;ConsentButtonId&quot;.
+>Nesse caso, [!DNL bizible.js] anexa um evento ao clicar no elemento HTML com a ID &quot;ConsentButtonId&quot;.
 
-Quando este elemento HTML for clicado, [!DNL bizible.js] O criará um cookie para lembrar que o consentimento do usuário foi recebido e começará a coletar dados de análise como de costume.
+Quando este elemento HTML for clicado, [!DNL bizible.js] O cria um cookie para lembrar que o consentimento do usuário foi recebido e começar a coletar dados de análise como de costume.
 
 **-ou-**
 
@@ -50,7 +50,7 @@ Isso informa o [!DNL bizible.js] para não rastrear até que o consentimento sej
 
 *janela[&#39;Bizible&#39;] = janela[&#39;Bizible&#39;] || { _fila: [], Push: função (o, p) { this._queue.push({ type: o, data: p }); } };*
 
-*Bizible.Push(&#39;Consentimento&#39;, true);*
+*Bizible. Push(&#39;Consentimento&#39;, true);*
 
 **Se você usar [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
 
@@ -67,4 +67,4 @@ Por outro lado, os clientes também podem usar essa API para retirar o consentim
 
 `Bizible.Push('Consent', false);`
 
-Quando esse código for executado, ele excluirá todos os cookies que [!DNL bizible.js] criado anteriormente e retomará a coleta de dados do analytics somente se o usuário consentir novamente.
+Quando esse código é executado, ele exclui todos os cookies que [!DNL bizible.js] criado anteriormente e retoma a coleta de dados do analytics somente se o usuário reconsentir.

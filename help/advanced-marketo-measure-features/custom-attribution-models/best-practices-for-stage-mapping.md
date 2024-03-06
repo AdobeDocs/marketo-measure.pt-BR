@@ -3,10 +3,10 @@ description: Práticas recomendadas para mapeamento de preparo - [!DNL Marketo M
 title: Práticas recomendadas para o mapeamento de estágio
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 10%
+source-wordcount: '479'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Um recurso adicional gerenciado nesta seção são Estágios de funil, que ofere
 
 ## Práticas recomendadas {#best-practices}
 
-Quer você esteja avaliando seu Mapeamento de estágios pela primeira vez ou apenas revisando sua ordem de funil, é importante manter as seguintes práticas recomendadas em mente.
+Independentemente de você estar avaliando o Mapeamento do estágio pela primeira vez ou apenas revisando a ordem do funil, é importante manter as seguintes práticas recomendadas em mente.
 
 * A ordem é tudo!
    * Considerando [!DNL Marketo Measure] obtém estágios ativos e inativos do seu CRM, confirma que qualquer estágio que possa ser usado em um cliente potencial/contato ou oportunidade é agrupado e ordenado adequadamente
@@ -31,7 +31,7 @@ Quer você esteja avaliando seu Mapeamento de estágios pela primeira vez ou ape
    * Um campo booleano é a recomendação de prática recomendada
 * Observe que a seção de estágio de Cliente Potencial ou Contato é dividida em Perdido, Aberto e Convertido; valide se os estágios estão na seção de estágio apropriada
    * Ter um estágio na seção de estágio incorreta pode resultar em altamente incorreto [!DNL Marketo Measure] dados
-   * Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos específicos abaixo para Lead ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Observe que a seção Estágio da oportunidade é dividida em Perdido, Aberto e Ganho; valide se os estágios estão na seção apropriada do estágio

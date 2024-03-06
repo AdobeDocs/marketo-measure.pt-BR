@@ -4,10 +4,10 @@ description: Segmentação personalizada - [!DNL Marketo Measure]
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 4%
+source-wordcount: '740'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,9 @@ Etapa 4 - Adicionar regras de filtro.
 
 Se as regras não forem configuradas para Clientes potenciais/Contatos e Oportunidades, você verá apenas uma parte de seus dados. Para elaborar, se você não configurar as regras de Oportunidades, verá apenas os dados de Cliente Potencial/Contato sem as Oportunidades associadas a eles. O mesmo é verdadeiro se você não configurar regras para Clientes Potenciais/Contatos—você só verá Oportunidades sem os Clientes Potenciais/Contatos associados.
 
-Quando terminar, clique em [!UICONTROL Salvar] primeiro, verifique tudo novamente e clique em [!UICONTROL Salvar e processar]. Lembre-se de que você não poderá editar suas configurações por sete dias ao salvar e processar, conforme [!DNL Marketo Measure] O está reformatando seus dados durante esse período.
+Quando terminar, clique em [!UICONTROL Salvar] primeiro, verifique tudo novamente e clique em [!UICONTROL Salvar e processar]. Lembre-se de que você não pode editar as configurações por sete dias após salvar e processar o, pois [!DNL Marketo Measure] O está reformatando seus dados durante esse período.
 
-Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos específicos abaixo para Lead ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

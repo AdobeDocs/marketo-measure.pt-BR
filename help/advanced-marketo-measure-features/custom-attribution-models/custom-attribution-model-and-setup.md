@@ -4,7 +4,7 @@ description: Modelo e configuração de atribuição personalizados - [!DNL Mark
 title: Modelo e configuração de atribuição personalizada
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Se um campo personalizado for usado em seu modelo personalizado, o rastreamento 
 
    Vá para a **[!UICONTROL Configurações de atribuição]** in [!DNL Marketo Measure] Os estágios personalizados aparecerão aqui na tabela de atribuição. A tabela de atribuição exibe todas as [!DNL Marketo Measure] atribuição e a ponderação de atribuição de cada modelo. As porcentagens de atribuição dos primeiros cinco modelos são fixas e não podem ser alteradas.
 
-   Na coluna à direita denominada &quot;**[!UICONTROL Personalizado]**&quot;, você pode definir a ponderação percentual para cada estágio no modelo de atribuição personalizado. Basta inserir os valores de cada estágio na coluna Personalizado. Depois **[!UICONTROL Salvar e reprocessar]** após a conclusão.
+   Na coluna à direita denominada &quot;**[!UICONTROL Personalizado]**&quot;, você pode definir a ponderação percentual para cada estágio no modelo de atribuição personalizado. Insira os valores de cada estágio na coluna Personalizado e clique em **[!UICONTROL Salvar e reprocessar]** quando concluído.
 
    À esquerda do _Personalizado_ coluna é a **[!DNL Marketo Measure]Modelo de aprendizado de máquina**. O modelo de aprendizado de máquina calcula a ponderação de atribuição com base na importância relativa de ganhar um negócio, dependendo do que aconteceu em cada estágio personalizado. Para obter mais informações sobre o modelo de aprendizado de máquina, consulte [Perguntas frequentes sobre o modelo de aprendizado de máquina](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

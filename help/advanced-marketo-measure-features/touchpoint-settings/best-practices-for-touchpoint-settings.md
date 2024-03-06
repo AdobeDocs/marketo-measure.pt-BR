@@ -3,9 +3,9 @@ description: Práticas recomendadas para configurações de Touchpoint - [!DNL M
 title: Práticas recomendadas para configurações de touchpoint
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 6%
 
 ---
