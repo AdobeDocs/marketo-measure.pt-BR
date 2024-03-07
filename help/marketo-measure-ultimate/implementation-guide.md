@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Guia de implementação do Ultimate - [!DNL Marketo Measure]'
 title: “Guia de implementação do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 64%
 
 ---
@@ -131,12 +131,13 @@ Antes de começar, vá para a seção “Experience Platform > Mapeamento de san
 
 >[!NOTE]
 >
+>* É recomendável incluir apenas um conjunto de dados por fluxo de dados.
 >* Os dados de uma determinada entidade (por exemplo, Conta) de uma determinada fonte só podem entrar em um conjunto de dados. Cada conjunto de dados pode ser incluído somente em um fluxo de dados. As violações interrompem o fluxo de dados no tempo de execução.
 >* Exclua todo o destino na AEP para excluir dados no Measure. A desativação interrompe as novas exportações de dados e mantém os dados antigos.
 >* A configuração do Measure terá a mesma aparência, mas algumas partes, como o Mapeamento de estágio, terão uma aparência diferente.
 >* Leva algumas horas para que um novo fluxo de dados gere uma execução de fluxo e, em seguida, eles ocorrem em intervalos regulares de hora em hora.
 
-Em Medida, a moeda padrão deve ser definida na seção &quot;Moeda&quot;
+Em Medida, a moeda padrão deve ser definida na seção &quot;Moeda&quot;.
 
 * Se você usar várias moedas, o esquema de taxa de conversão de moeda deverá ser preenchido na AEP para que possamos ler e usar nas conversões.
 
