@@ -6,7 +6,7 @@ feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 2%
+ht-degree: 91%
 
 ---
 
@@ -14,73 +14,73 @@ ht-degree: 2%
 
 ## Visão geral {#overview}
 
-[!DNL Marketo Measure] oferece conexões de API com o [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads]e LinkedIn. Essas conexões de API ativam [!DNL Marketo Measure] para obter uma variedade de dados de suas plataformas de anúncios que podem ser relatados nos dados do ponto de contato do comprador. Um recurso importante dessas conexões de API é a capacidade de obter dados de gastos automaticamente, economizando tempo e esforço da sua equipe em fazer upload manual de dados para relatórios de ROI. A configuração dessas conexões de API não é obrigatória para [!DNL Marketo Measure] para rastrear esses canais, mas fornecem detalhes granulares valiosos que aprimoram seus relatórios.
+O [!DNL Marketo Measure] oferece conexões de API com o [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads] e LinkedIn. Essas conexões de API permitem que o [!DNL Marketo Measure] obtenha uma variedade de dados de suas plataformas de anúncios, os quais podem ser relatados nos dados do Buyer Touchpoint. Um recurso importante dessas conexões de API é a capacidade de obter dados de despesas automaticamente, economizando o tempo e esforço que você e sua equipe dedicam ao upload manual de dados para relatórios de ROI. Configurar essas conexões de API não é obrigatório para o [!DNL Marketo Measure] rastrear esses canais, mas elas fornecem informações valiosas que aprimoram os relatórios.
 
-A variável [!DNL Marketo Measure] As conexões de API são um aspecto inestimável de sua conta, e nossas práticas recomendadas ajudarão você e sua equipe a utilizar nossas conexões o máximo possível.
+As conexões de API do [!DNL Marketo Measure] são um aspecto inestimável de sua conta e nossas práticas recomendadas ajudarão você e sua equipe a aproveitá-las ao máximo.
 
 ## Prática recomendada {#best-practice}
 
 Independentemente da plataforma de anúncios que você estiver conectando, as seguintes diretrizes são importantes para ter em mente!
 
-* Usar um administrador para se conectar
-* É possível conectar várias contas de anúncios para uma plataforma
-* Conecte todas as contas de publicidade possíveis para automatizar seus relatórios de gastos o máximo possível
-* Se disponível, sempre implemente um template de rastreamento. O modelo garante que, mesmo se a conta de anúncio se desconectar, [!DNL Marketo Measure] ainda é capaz de obter detalhes de anúncios granulares
+* Usar uma conta de admin para se conectar
+* É possível conectar várias contas de anúncios em uma plataforma
+* Conecte todas as contas de anúncios possíveis para automatizar ao máximo os relatórios de despesas
+* Se disponível, sempre implemente um modelo de rastreamento. O modelo garante que, mesmo que a conta de anúncios seja desconectada, o [!DNL Marketo Measure] ainda possa obter detalhes de anúncios importantes
 
 Para otimizar cada [!DNL Marketo Measure] da API, siga as seguintes práticas recomendadas.
 
-**[!DNL Facebook]**: Conectar com marcação automática
+**[!DNL Facebook]**: conectar com o recurso de marcação automática
 
-Antes de ativar a marcação automática, exporte o histórico de anúncios para um csv. Ativar a marcação automática redefinirá o histórico de conversão e a prova social de todos os anúncios marcados por [!DNL Marketo Measure].
+Antes de habilitar a marcação automática, exporte o histórico de anúncios para um CSV. Habilitar a marcação automática redefinirá o histórico de conversão e a prova social de todos os anúncios marcados pelo [!DNL Marketo Measure].
 
-Ao seguir nossa recomendação de práticas recomendadas, a variável [!DNL Marketo Measure] [!DNL Facebook] A API poderá:
+Por seguir nossas práticas recomendadas, a API do [!DNL Facebook] para [!DNL Marketo Measure] poderá:
 
-* Marcar tudo automaticamente [!DNL Facebook] Anúncios com os anúncios necessários [!DNL Marketo Measure] parâmetro `_bf ={creative}`
-* Baixar informações de custo de anúncio em todos os ativos [!DNL Facebook] anúncios
+* Marcar automaticamente todos os anúncios do [!DNL Facebook] com o parâmetro `_bf ={creative}`, necessário para o [!DNL Marketo Measure] 
+* Baixar informações de custo de anúncio de todos os anúncios ativos do [!DNL Facebook] 
 
 >[!NOTE]
 >
->Não há modelo de rastreamento para [!DNL Facebook], a API depende do parâmetro com tag automática (_bf) para coletar os detalhes do anúncio.
+>Não há modelo de rastreamento para o [!DNL Facebook], a API depende do parâmetro de marcação automática (_bf) para coletar os detalhes do anúncio.
 
-**AdWord**: implemente um modelo de rastreamento no nível da conta e ative a marcação automática
+**AdWords**: implemente um modelo de rastreamento no nível da conta e habilite a marcação automática
 
-[!DNL Marketo Measure] A recomenda o uso de um modelo de Rastreamento no nível da conta, do nível da campanha ou do nível do grupo de anúncios, pois ele permite a adição e a subtração de parâmetros para todos os anúncios, sem o risco de interrupções ou exclusão do Histórico de anúncios.
+O [!DNL Marketo Measure] recomenda o uso de um modelo de rastreamento de nível de conta, de campanha ou de grupo de anúncios, pois isso permite adicionar ou remover parâmetros de todos os anúncios sem o risco de interromper ou excluir o histórico de anúncios.
 
-Ao seguir nossa recomendação de práticas recomendadas, a variável [!DNL Marketo Measure] A API do AdWords poderá:
+Por seguir nossas práticas recomendadas, a API AdWords do [!DNL Marketo Measure] poderá:
 
-* Marcar automaticamente todos os anúncios do AdWords com o [!DNL Marketo Measure] parâmetros de `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}`
+* Marcar automaticamente todos os anúncios do AdWords com os parâmetros `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}` do [!DNL Marketo Measure]
 * Baixar informações sobre custos de anúncios em todos os anúncios ativos do AdWords
 
-**Bing**: implemente um modelo de rastreamento no nível da conta e ative a marcação automática
+**Bing**: implemente um modelo de rastreamento no nível da conta e habilite a marcação automática
 
-Não há risco de perder o histórico do anúncio ao configurar seu [!DNL Bing] Conexão de API, diferente de algumas de nossas outras conexões de API.
+Diferentemente do que pode acontecer ao configurar outras conexões de API, não há risco de perder o histórico de anúncios ao configurar a conexão de API do [!DNL Bing].
 
-Ao seguir nossa recomendação de práticas recomendadas, a variável [!DNL Marketo Measure] A API do Bing poderá:
-* Marcar automaticamente todos os Bing Ads com os seguintes parâmetros de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
+Por seguir nossas práticas recomendadas, a API Bing do [!DNL Marketo Measure] poderá:
+* Marcar automaticamente todos os anúncios do Bing com os seguintes parâmetros de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
 * Baixar informações de custo de anúncio em todos os anúncios ativos do Bing
 
-**LinkedIn**: Conectar com marcação automática
+**LinkedIn**: conecte com o recurso de marcação automática
 
-A ativação da marcação automática recria um compartilhamento e o coloca em uma nova Creative, a Creative antiga é arquivada.
+Habilitar a marcação automática recria um compartilhamento e o insere em um novo campo de criação, enquanto o campo antigo é arquivado.
 
-Ao seguir nossa recomendação de práticas recomendadas, a variável [!DNL Marketo Measure] A API do linkedIn poderá:
+Por seguir nossas práticas recomendadas, a API LinkedIn do [!DNL Marketo Measure] poderá:
 
-* Marque automaticamente todos os anúncios do LinkedIn que são do tipo de anúncio Conteúdo patrocinado com o necessário [!DNL Marketo Measure] parameter _bl={creativeId}. Esse parâmetro é extraído da ID criativa, permitindo [!DNL Marketo Measure] para resolver a campanha e as informações criativas.
-* Baixar informações sobre custos de anúncios em todas as versões ativas e compatíveis [!DNL LinkedIn] anúncios
+* Marcar automaticamente todos os anúncios de conteúdo patrocinado do LinkedIn com o parâmetro necessário do [!DNL Marketo Measure]: _bl={creativeId}. Esse parâmetro extrai a ID de criação, permitindo que o [!DNL Marketo Measure] resolva a campanha e as informações de criação.
+* Baixar informações sobre custos de anúncio de todos os anúncios ativos e compatíveis do [!DNL LinkedIn]
 
 >[!NOTE]
 >
->Não há modelo de rastreamento para [!DNL LinkedIn], a API depende do parâmetro de marcação automática (_bl) para coletar todos os detalhes de anúncios possíveis.
+>Não há modelo de rastreamento para o [!DNL LinkedIn], a API depende do parâmetro de marcação automática (_bl) para coletar todos os detalhes de anúncios possíveis.
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
-Embora seguir nossas práticas recomendadas proteja você de perder dados se desconectado, ainda recomendamos que você analise sua conexão regularmente, mensalmente, se possível. Esta é uma verificação visual simples do [!UICONTROL Conexões] seção no seu [!DNL Marketo Measure] aplicativo para certificar-se de que não há ícones de chave vermelha presentes, sinalizando uma conta desconectada.
+Embora seguir nossas práticas recomendadas proteja contra a perda de dados em caso de perda de conexão, ainda recomendamos que você analise sua conexão regularmente (mensalmente, se possível).  Para isso, basta realizar uma verificação visual simples da seção [!UICONTROL Conexões] no aplicativo do [!DNL Marketo Measure] para garantir que não haja um ícone de “chave vermelha” nessa seção, o que seria o sinal de uma conta desconectada.
 
-Quando uma conta conectada à API é desconectada, [!DNL Marketo Measure] O não pode obter dados de gastos no ou marcar novos anúncios. É por isso que sempre recomendamos a implementação de um template de rastreamento, se possível. O modelo garante que, mesmo se a conta de anúncio se desconectar, [!DNL Marketo Measure] O ainda pode marcar os anúncios e obter detalhes granulares dos anúncios. Depois de reconectados, os dados gastos serão preenchidos novamente e a interrupção dos relatórios de Canal pago será mínima.
+Ao desconectar uma conta da API, o [!DNL Marketo Measure] não pode obter dados de despesas ou marcar novos anúncios. É por isso que sempre recomendamos a implementação de um modelo de rastreamento, se possível. O modelo garante que, mesmo que a conta de anúncios seja desconectada, o [!DNL Marketo Measure] ainda possa marcar os anúncios e obter detalhes importantes. Depois de reconectada, os dados de despesas serão preenchidos novamente e a interrupção dos relatórios dos canais pagos será mínima.
 
-Os motivos para desconexão e reautorização incluem...
+Alguns motivos pelos quais a conta pode ser desconectada e necessitar de reautorização são:
 
-* Alteração na senha da conta de pessoa que está conectada
+* Alteração da senha da conta pessoal conectada
 * Essa pessoa não está mais na empresa
 * Atualizações das APIs
 
@@ -88,10 +88,10 @@ Se sua equipe tiver passado por qualquer um dos cenários acima, verifique as co
 
 >[!MORELIKETHIS]
 >
->* [Plataformas de publicidade integradas (APIs)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [Como as ferramentas de gerenciamento de ofertas afetam [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
->* [[!DNL Marketo Measure] Parâmetros de API explicados](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
->* [Visão geral da API do facebook](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
+>* [Plataformas de anúncios integradas (APIs)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+>* [Como as ferramentas de gerenciamento de lances afetam o  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] Explicação sobre parâmetros de API](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
+>* [Visão geral da API do Facebook](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Visão geral da integração](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
 >* [Visão geral da integração do AdWords](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
->* [Reautorizar contas da API conectadas](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
+>* [Reautorizar contas de API conectadas](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)

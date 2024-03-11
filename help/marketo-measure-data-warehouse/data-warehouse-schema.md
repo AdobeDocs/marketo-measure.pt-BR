@@ -7,7 +7,7 @@ feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -3045,7 +3045,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Dados gerados a partir da integração do Attribution AI. Esses campos só são preenchidos para clientes do Marketo Measure Ultimate.
+Dados gerados a partir da integração da IA de atribuição. Esses campos só são preenchidos para clientes do Marketo Measure Ultimate.
 
 <table>
 <thead>
@@ -3059,88 +3059,88 @@ Dados gerados a partir da integração do Attribution AI. Esses campos só são 
 <tbody>
   <tr>
     <td>CONVERSION_DATE</td>
-    <td>Carimbo de data/hora_ntz</td>
+    <td>Timestamp_ntz</td>
     <td>data da conversão</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>CONVERSION_NAME</td>
     <td>varchar</td>
-    <td>nome do evento de conversão (conforme especificado pelo cliente na configuração da interface)</td>
+    <td>nome do evento de conversão (conforme especificado pelo(a) cliente na configuração da interface)</td>
     <td> </td>
   </tr>
   <tr>
     <td>CONVERSION_ID</td>
     <td>varchar</td>
-    <td>id do evento de conversão (esse é o valor da id exclusiva original enviado com o registro de dados do evento no conjunto de dados de origem)</td>
+    <td>ID do evento de conversão (esse é o valor da ID exclusiva original enviado com o registro de dados do evento no conjunto de dados de origem)</td>
     <td>0013100001b44aGAAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>id de evento MM original para o evento de conversão 
-    <br>mapeia para um ponto de contato do usuário ou uma transição de estágio</td>
+    <td>ID de evento original do MM para o evento de conversão 
+    <br>É mapeada para um ponto de contato de usuário ou uma transição de estágio</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
     <td>CONVERSION_ACCOUNT_ID</td>
     <td>varchar</td>
-    <td>id da conta MM original para o evento de conversão</td>
+    <td>ID original da conta do MM para o evento de conversão</td>
     <td>0013100001kpAZxAAM</td>
   </tr>
   <tr>
     <td>CONVERSION_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>id de oportunidade MM original para o evento de conversão</td>
+    <td>ID original de oportunidade do MM para o evento de conversão</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>id do lead MM original para o evento de conversão <br>provavelmente será nulo a maior parte do tempo</td>
+    <td>ID original do lead do MM para o evento de conversão <br>provavelmente será nula na maioria das vezes</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>id de contato do MM original para o evento de conversão
-    <br>provavelmente será nulo a maior parte do tempo</td>
+    <td>ID original do contato do MM para o evento de conversão
+    <br>provavelmente será nula na maioria das vezes</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_TYPE</td>
     <td>varchar</td>
-    <td>tipo de evento de conversão (b2b = conversão de cliente potencial, b2c = conversão de oportunidade)</td>
-    <td>b2b</td>
+    <td>tipo de evento de conversão (B2B = conversão de lead, B2C = conversão de oportunidade)</td>
+    <td>B2B</td>
   </tr>
   <tr>
     <td>SCORE_DATE</td>
-    <td>Carimbo de data/hora_ntz</td>
-    <td>data em que os pontos de contato foram pontuados pela última vez</td>
+    <td>Timestamp_ntz</td>
+    <td>data em que os pontos de contato foram marcados pela última vez</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
-    <td>PERCENTUAL_INFLUENCIADO</td>
+    <td>INFLUENCED_PERCENT</td>
     <td>number(38,35)</td>
     <td>a fração da conversão pela qual cada ponto de contato é responsável</td>
     <td>0,10</td>
   </tr>
   <tr>
-    <td>PERCENTUAL_INCREMENTAL</td>
+    <td>INCREMENTAL_PERCENT</td>
     <td>number(38,35)</td>
-    <td>a quantidade de impacto marginal diretamente causada por um ponto de contato</td>
+    <td>a quantidade de impacto marginal causado diretamente por um ponto de contato</td>
     <td>0,25</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_DATE</td>
-    <td>Carimbo de data/hora_ntz</td>
-    <td>a data de transição do ponto de contato ou do estágio</td>
+    <td>Timestamp_ntz</td>
+    <td>o ponto de contato ou a data de transição de estágio</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
     <td>varchar</td>
-    <td>id do evento que gerou o ponto de contato</td>
+    <td>ID do evento que gerou o ponto de contato</td>
     <td>00U3100000VLUnEEAX</td>
   </tr>
   <tr>
@@ -3158,7 +3158,7 @@ Dados gerados a partir da integração do Attribution AI. Esses campos só são 
   <tr>
     <td>TOUCHPOINT_LEAD_ID</td>
     <td>varchar</td>
-    <td>id do lead associado ao ponto de contato</td>
+    <td>ID do lead associado ao ponto de contato</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
@@ -3176,24 +3176,24 @@ Dados gerados a partir da integração do Attribution AI. Esses campos só são 
   <tr>
     <td>AAI_SOURCE_ID</td>
     <td>varchar</td>
-    <td>chave estrangeira para a tabela de fontes de ia de atribuição</td>
+    <td>chave estrangeira para a tabela de fontes da IA de atribuição</td>
     <td> </td>
   </tr>
   <tr>
     <td>_CREATED_DATE</td>
-    <td>Carimbo de data/hora_ntz</td>
+    <td>Timestamp_ntz</td>
     <td>data em que o registro foi criado no Snowflake</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_MODIFIED_DATE</td>
-    <td>Carimbo de data/hora_ntz</td>
+    <td>Timestamp_ntz</td>
     <td>data em que o registro foi modificado pela última vez no Snowflake</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
-    <td>Carimbo de data/hora_ntz</td>
+    <td>Timestamp_ntz</td>
     <td>data em que o registro foi excluído no Snowflake</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
@@ -7065,8 +7065,8 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
         <p>ISP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Esperava-se que fosse nulo, pois o campo é obsoleto.</td>
-      <td>NULL</td>
+      <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
+      <td>NULO</td>
     </tr>
     <tr>
       <td>
@@ -10432,9 +10432,9 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>ISP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Esperava-se que fosse nulo, pois o campo é obsoleto.</td>
+      <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
       <td>
-        <p>NULL</p>
+        <p>NULO</p>
       </td>
     </tr>
     <tr>
