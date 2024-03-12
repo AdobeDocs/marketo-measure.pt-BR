@@ -3,10 +3,10 @@ description: Painel do Passport - [!DNL Marketo Measure] - Produto
 title: Painel de passaporte
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 3%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -51,7 +51,6 @@ O painel Passport oferece aos profissionais de marketing uma visualização din�
 Esse painel é equipado com as seguintes configurações e filtros:
 
 * Data (com base na Data de transição)
-* Modelo de atribuição
 * Canal, Subcanal
 * Campanha
 * Segmentos
@@ -60,4 +59,3 @@ Esse painel é equipado com as seguintes configurações e filtros:
 >
 >* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
-
