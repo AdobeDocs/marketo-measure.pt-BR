@@ -4,7 +4,7 @@ description: Campanhas e membros da campanha - [!DNL Marketo Measure]
 title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Depois que a data e a hora estiverem definidas, clique no link **[!UICONTROL Atu
 
 ## Custos de campanha {#campaign-costs}
 
-Saiba tudo sobre os custos de campanha [neste artigo](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+Saiba tudo sobre os custos de campanha [neste artigo](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
 
 ## Remoção de membro da campanha {#campaign-member-removal}
 
@@ -126,6 +126,6 @@ Para contornar esse problema, [!DNL Marketo Measure] criou um [!DNL Marketo Meas
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universidade: campos de objeto de campanha](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials: Campos de objeto da campanha](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Universidade: Mapeamento de Canais Offline](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials: Mapeamento de canais offline](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

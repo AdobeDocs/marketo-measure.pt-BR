@@ -4,9 +4,9 @@ description: Datas de sincronização da campanha - [!DNL Marketo Measure]
 title: Datas de sincronização da campanha
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,3 @@ Pode haver momentos em que uma equipe de marketing deixe de adicionar parâmetro
 Se você é um novo [!DNL Marketo Measure] cliente, você pode estar interessado em trazer alguns dos dados de marketing que tem monitorado por meio de campanhas do SFDC. No entanto, se você ativasse pontos de contato para suas campanhas online do SFDC, poderia enfrentar o problema da atribuição de dupla contagem, já que [!DNL Marketo Measure] O cria automaticamente pontos de contato para suas iniciativas de marketing online. Em um esforço para evitar a dupla contagem de dados, você pode usar as Datas de término do ponto de contato do Campaign para definir um limite nas datas do ponto de contato criadas por [!DNL Marketo Measure] na campanha do SFDC. Como exemplo, se você deseja adicionar conversões retroativas para uma campanha social que você tem rastreado no SFDC, mas você entende que adicionou o [!DNL Marketo Measure] JavaScript (que está criando pontos de contato online) em 1º de julho, você pode editar a Campanha do SFDC social para conter uma Data de término do ponto de contato igual a 1º de julho e habilitar os Pontos de contato do comprador para essa campanha.
 
 Pode haver muitos outros casos de uso para datas de término de ponto de contato. Se precisar de ajuda para descobrir uma situação específica, entre em contato com [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
-
->[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] Universidade: campos de membro de campanha e campanha](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)

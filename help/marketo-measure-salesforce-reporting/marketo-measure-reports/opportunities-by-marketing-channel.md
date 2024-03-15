@@ -4,7 +4,7 @@ description: Oportunidades por canal de marketing - [!DNL Marketo Measure]
 title: Oportunidades por canal de marketing
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 4%
@@ -35,4 +35,4 @@ Este relatório mostra o número de oportunidades geradas pelos seus Canais de m
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universidade: estoque de relatórios SFDC](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Tutorials: Relatórios do SFDC do Stock](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

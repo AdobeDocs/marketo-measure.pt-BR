@@ -4,7 +4,7 @@ description: Configuração de canal personalizado offline - [!DNL Marketo Measu
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 1%
@@ -83,8 +83,8 @@ Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] fará
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] Universidade: Mapeamento de Canais Offline](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>* [[!DNL Marketo Measure] Tutorials: Mapeamento de canais offline](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Universidade: sincronizando campanhas offline](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
+>* [[!DNL Marketo Measure] Tutorials: Sincronização de campanhas offline](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Integração de programas do Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Integração de programas do Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
