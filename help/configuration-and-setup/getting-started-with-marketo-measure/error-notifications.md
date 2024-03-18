@@ -3,9 +3,9 @@ description: Notificações de erro - [!DNL Marketo Measure]
 title: Notificações de erro
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 9efdafadd8714237f27dfd722df533c5411f5fe0
+source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 30%
 
 ---
@@ -143,7 +143,7 @@ Documentação do Salesforce sobre acionadores de fluxo <a href="https://admin.s
       <td>INATIVE_OWNER_OR_USER</td>
       <td>Erro durante a Exportação do Crm: INATIVE_OWNER_OR_USER : Tipo de entidade 'Contato': Código de Erro do CRM: INATIVE_OWNER_OR_USER, Mensagem de Erro do CRM: operação executada com o usuário inativo [1234] como proprietário do contato, RecordId: 0123456</td>
       <td>A Marketo Measure não tem a permissão "Atualizar registros com proprietários inativos".</td>
-      <td>Conceda à Marketo Measure o "<a href="/">Atualizar registros com proprietários inativos</a>permissão ".</td>
+      <td>Conceda à Marketo Measure o "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Atualizar registros com proprietários inativos</a>permissão ".</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
