@@ -3,9 +3,9 @@ description: Notificações de erro - [!DNL Marketo Measure]
 title: Notificações de erro
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
+source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1692'
 ht-degree: 30%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 30%
 # Notificações de erro {#error-notifications}
 
 Veja abaixo uma lista de erros que você pode receber por notificação no aplicativo ou email. Se você receber alguma dessas notificações, siga as respectivas etapas de solução de problemas. Se essas etapas não resolverem o problema, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
+
+Para ver a mensagem de notificação completa em [!DNL Marketo Measure], clique em **Exibir todos** na parte inferior da guia Notificações.
+
+![](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -49,7 +53,7 @@ Veja abaixo uma lista de erros que você pode receber por notificação no aplic
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -87,27 +91,17 @@ Documentação do Salesforce sobre acionadores de fluxo <a href="https://admin.s
       <td>DUPLICATES_DETECTED</td>
       <td>Erro durante a Exportação do Crm: DUPLICATES_DETECTED : Tipo de entidade 'Contato': Código de Erro do CRM: DUPLICATES_DETECTED, Mensagem de Erro do CRM: Você está criando um registro duplicado. Recomendamos que você use um registro existente., RecordId: 0123456</td>
       <td>O registro que está sendo importado para a organização do Salesforce já existe.</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Desative a configuração "Regra duplicada"</a> para permitir duplicatas.
-          </li>
-          <li>Excluir o usuário dedicado do Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">regras de validação personalizadas</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Desative a configuração "Regra duplicada"</a> para permitir duplicatas.
+          <p>
+          Excluir o usuário dedicado do Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">regras de validação personalizadas</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Erro durante a Exportação do Crm: DUPLICATE_VALUE : Tipo de entidade 'Lead': Código de Erro do CRM: DUPLICATE_VALUE, Mensagem de Erro do CRM: valor duplicado encontrado: Email_Unique__c duplica o valor no registro com id: 123, RecordId: 456</td>
       <td>O campo que está sendo importado para a organização do Salesforce não permite valores duplicados.</td>
-      <td>
-        <ul>
-          <li>Desmarque a opção <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Caixa de seleção exclusiva"</a> no Salesforce.
-          </li>
-          <li>Excluir o usuário dedicado do Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">regras de validação personalizadas</a>.
-          </li>
-        </ul>
-      </td>
+      <td>Desmarque a opção <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Caixa de seleção exclusiva"</a> no Salesforce.
+          <p>
+          Excluir o usuário dedicado do Marketo Measure de <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">regras de validação personalizadas</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
