@@ -3,9 +3,9 @@ description: Conheça as noções básicas do painel - [!DNL Marketo Measure] - 
 title: Noções básicas do painel do Discover
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 2%
 # Noções básicas do painel do Discover {#discover-dashboard-basics}
 
 Este artigo o guiará pelos recursos fundamentais da interface reprojetada, garantindo que você possa acessar e interpretar seus dados com facilidade. Analise a dinâmica do painel de filtros e descubra as complexidades de nossas funcionalidades de relatórios aprimoradas, como recursos de drill, filtragem cruzada e dicas de ferramentas.
-
->[!NOTE]
->
->Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
 ## Painel de Filtro {#filter-pane}
 

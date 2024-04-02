@@ -3,20 +3,16 @@ description: Painel do Passport - [!DNL Marketo Measure] - Produto
 title: Painel de passaporte
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
 # Painel de passaporte {#passport-dashboard}
 
 O painel Passport oferece aos profissionais de marketing uma visualização dinâmica de clientes potenciais, contatos e oportunidades à medida que transitam por vários estágios em um período especificado. Ao filtrar por uma data específica, os usuários também podem obter um instantâneo dos registros desse dia.
-
->[!NOTE]
->
->Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
 **Perguntas que o painel responde:**
 

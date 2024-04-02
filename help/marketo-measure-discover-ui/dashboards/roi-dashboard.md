@@ -3,9 +3,9 @@ description: Painel de ROI - [!DNL Marketo Measure] - Produto
 title: Painel de ROI
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 3%
 # Painel de ROI {#roi-dashboard}
 
 O painel de ROI fornece aos profissionais de marketing uma visão detalhada do retorno sobre o investimento em canais, subcanais e campanhas. Ele detalha meticulosamente os padrões de custo e receita, além de destacar métricas como custo por lead, negociação e oportunidade, garantindo uma compreensão abrangente da atribuição de marketing.
-
->[!NOTE]
->
->Este painel está atualmente na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado assim que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
 **Perguntas que o painel responde**
 
