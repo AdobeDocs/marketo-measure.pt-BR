@@ -3,10 +3,10 @@ description: Notas de versão atuais - [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -41,3 +41,7 @@ Visibilidade imediata: a introdução de notificações de pulso permite uma res
 _Apoiando sua transição_
 
 Para ajudá-lo a se adaptar a essa mudança, [criamos a documentação](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} com descrições claras dos erros e etapas abrangentes de solução de problemas.
+
+**Ação necessária para a integração do LinkedIn**
+
+A linkedIn lançou recentemente uma versão atualizada da API de sincronização de leads. Autentique novamente a conexão do LinkedIn na instância do Marketo Measure até 20 de maio para evitar interrupções.
