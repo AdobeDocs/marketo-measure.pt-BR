@@ -1,12 +1,12 @@
 ---
-description: Práticas recomendadas para segmentação - [!DNL Marketo Measure]
+description: Práticas recomendadas para segmentação -  [!DNL Marketo Measure]
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ A segmentação é essencial para a utilização da sua conta do [!DNL Marketo M
 
 Quando enviado para [!DNL Salesforce], os valores de segmento são gravados no campo “Segmento” e estão em qualquer tipo de relatório do Buyer touchpoint. Isso permite relatórios uniformes em ambas as plataformas. O segmento também pode ser encontrado nos “Detalhes do touchpoint” de qualquer touchpoint.
 
-Quando enviado para [!UICONTROL Descobrir], Segmentos serão exibidos como um filtro disponível no menu suspenso de filtro localizado em todos os quadros.
+Quando enviados para o [!UICONTROL Discover], os segmentos aparecerão como um filtro no menu suspenso de filtros localizado em todos os quadros.
 
 ## Prática recomendada {#best-practice}
 
-Se você estiver definindo a segmentação pela primeira vez ou apenas revisando a segmentação estabelecida anteriormente, lembre-se das seguintes práticas recomendadas.
+Se você estiver definindo a segmentação pela primeira vez ou apenas revisando a segmentação estabelecida anteriormente, lembre-se das práticas recomendadas a seguir.
 
 * Mantenha simples.
 * Alinhe o nome do segmento à nomenclatura de sua organização, ou seja, a categoria = nome do filtro, segmento = valor do filtro
 * Não use campos de fórmula em suas regras
 * Sempre que possível, crie a segmentação no cliente potencial/contato e na oportunidade para usá-la em todo o funil
-   * Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Se você for cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo que são específicos para leads ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * Nem todas as categorias de segmentos se alinharão em todo o funil

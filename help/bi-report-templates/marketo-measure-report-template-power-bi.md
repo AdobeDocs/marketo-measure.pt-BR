@@ -1,12 +1,12 @@
 ---
-description: "[!DNL Marketo Measure] Modelo de relatório - Power BI - [!DNL Marketo Measure]"
+description: “Modelo de relatório do [!DNL Marketo Measure] - Power BI -  [!DNL Marketo Measure]”
 title: “Modelo de relatório do [!DNL Marketo Measure] - Power BI”
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2540'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ Abra o arquivo do Power BI do modelo de relatório do [!DNL Marketo Measure].
 
 Você pode encontrar suas informações específicas de servidor, warehouse e esquema na interface do [!DNL Marketo Measure] na página de informações do [!DNL Data Warehouse]. As instruções para localizar esta página estão detalhadas [aqui](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-Os parâmetros QueryFilterStartDate e QueryFilterEndDate são usados para limitar a quantidade de dados importados. Esses parâmetros devem estar no formato SQL, pois são usados nas consultas enviadas para o [!DNL Snowflake]. Por exemplo, se você quiser limitar os dados aos últimos dois anos, a QueryFilterStartDate será `dateadd` (year,-2,current_date()). Esses parâmetros são comparados com os tipos de dados datetime, portanto, é recomendável usar `dateadd` (day,1,current_date()) para QueryFilterEndDate para retornar todos os dados para a hora atual.
+Os parâmetros QueryFilterStartDate e QueryFilterEndDate são usados para limitar a quantidade de dados importados. Esses parâmetros devem estar no formato SQL, pois são usados nas consultas enviadas para o [!DNL Snowflake]. Por exemplo, se você quiser limitar os dados aos últimos dois anos, defina QueryFilterStartDate como `dateadd` (year,-2,current_date()).  Esses parâmetros são comparados com os tipos de dados de data e hora, portanto, é recomendável usar `dateadd` (day,1,current_date()) no QueryFilterEndDate para retornar todos os dados para a hora atual.
 
 ## Conexão de dados {#data-connection}
 
-Os parâmetros inseridos ao abrir o arquivo são usados para estruturar consultas nativas que importam tabelas do Data Warehouse. Você ainda precisa configurar uma conexão de dados com o seu [!DNL Snowflake] instância. Para isso, você precisa dos mesmos nomes de Servidor e Depósito junto com seu Nome de usuário e Senha. Detalhes de onde encontrar seu nome de usuário e redefinir sua senha, se necessário, estão documentados [aqui](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Os parâmetros inseridos ao abrir o arquivo são usados para estruturar consultas nativas que importam tabelas do Data Warehouse. Você ainda precisará configurar uma conexão de dados com a instância do [!DNL Snowflake]. Para isso, é necessário os mesmos nomes de servidor e warehouse, juntamente com seu nome de usuário e senha. Detalhes de onde encontrar seu nome de usuário e redefinir sua senha, se necessário, estão documentados [aqui](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Importação de dados {#data-import}
 
-Para melhorar o desempenho do relatório e aproveitar os recursos de transformação no Power Query, configure este template usando o método de armazenamento de importação.
+Para melhorar o desempenho de relatórios e aproveitar os recursos de transformação do Power Query, configure esse modelo usando o método de armazenamento de importação.
 
 ### Parâmetros de consulta {#query-parameters}
 
-Para limitar os dados importados para o modelo, cada tabela é configurada usando uma consulta nativa como origem. As consultas nativas exigem aprovação para serem executadas, é necessário clicar em executar para cada consulta. Essa etapa só será necessária na primeira vez que as consultas forem executadas ou se os parâmetros forem alterados.
+Para limitar os dados importados para o modelo, cada tabela é configurada usando uma consulta nativa como origem. As consultas nativas precisam de aprovação prévia, portanto, clique em Executar em cada consulta. Essa etapa só é necessária na primeira execução das consultas ou se houver alteração nos parâmetros.
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
@@ -42,7 +42,7 @@ Todas as consultas filtram as linhas excluídas e as tabelas de [!UICONTROL fato
 
 >[!NOTE]
 >
->Como os filtros de data são aplicados à data modificada de uma linha, tenha cuidado ao emitir relatórios sobre datas que estão fora do intervalo de datas restrito. Por exemplo, o intervalo de datas modificado é limitado aos últimos dois anos. Isso pode incluir um evento com uma data de três anos atrás que foi modificado recentemente. No entanto, os relatórios de eventos de três anos atrás retornam resultados incompletos, pois nem todas as linhas foram modificadas no período de dois anos.
+>Como os filtros de data são aplicados à data modificada de uma linha, tenha cuidado ao emitir relatórios sobre datas que estão fora do intervalo de datas restrito. Por exemplo, o intervalo de datas modificado é limitado aos últimos dois anos. Isso pode incluir um evento com uma data de três anos atrás que foi modificado recentemente. No entanto, emitir relatórios de eventos de três anos atrás retorna resultados incompletos, pois nem todas as linhas são modificadas em um intervalo de dois anos.
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
@@ -68,7 +68,7 @@ As tabelas a seguir são tratadas como tabelas dimensão. Nenhum limite de data 
 * Contato
 * Taxa de conversões
 * Oportunidade
-* Cliente potencial
+* Lead
 * Estágio
 * Canal
 
@@ -80,11 +80,11 @@ Algumas transformações foram aplicadas aos dados no Power Query. Para exibir a
 
 ### Colunas removidas {#removed-columns}
 
-Para simplificar o modelo de dados e remover dados redundantes e desnecessários, reduzimos o número de colunas importadas no Power BI em relação à tabela original do [!DNL Snowflake]. As colunas removidas incluem chaves estrangeiras desnecessárias, dados dimensionais desnormalizados mais bem aplicados por meio de relacionamentos com outras tabelas no modelo, colunas de auditoria e campos usados para internos [!DNL Marketo Measure] processando. É possível adicionar ou remover colunas conforme necessário para suas necessidades empresariais. Navegue até a etapa “Outras colunas removidas” após a etapa “Origem” em qualquer tabela, clique no ícone de engrenagem e atualize as colunas selecionadas na lista fornecida.
+Para simplificar o modelo de dados e remover dados redundantes e desnecessários, reduzimos o número de colunas importadas no Power BI em relação à tabela original do [!DNL Snowflake]. As colunas removidas incluem chaves estrangeiras desnecessárias, dados dimensionais não normalizados que são melhor aplicados por meio de relacionamentos com outras tabelas no modelo, colunas de auditoria e campos usados para processamento interno no [!DNL Marketo Measure]. É possível adicionar ou remover colunas conforme necessário para suas necessidades empresariais. Navegue até a etapa “Outras colunas removidas” após a etapa “Origem” em qualquer tabela, clique no ícone de engrenagem e atualize as colunas selecionadas na lista fornecida.
 
 >[!NOTE]
 >
->* Tenha cuidado ao adicionar valores adicionais de chave estrangeira. O Power BI geralmente é definido para detectar automaticamente relações no modelo e a adição de valores de chave estrangeira pode resultar em links indesejáveis entre tabelas e/ou desabilitar relações existentes.
+>* Tenha cuidado ao adicionar valores adicionais de chave estrangeira. O Power BI é geralmente definido para detectar automaticamente as relações no modelo e a adição de valores de chave estrangeira pode resultar em links indesejados entre as tabelas e/ou na desativação de relações existentes.
 >
 >* A maioria das tabelas no data warehouse do [!DNL Marketo Measure] contém dados dimensionais não normalizados. Trabalhamos para normalizar e limpar o modelo no Power BI o máximo possível para melhorar o desempenho e a precisão dos dados. Tenha cuidado ao incluir campos não normalizados adicionais em tabelas de fatos, pois isso pode quebrar a filtragem dimensional nas tabelas e também resultar em relatórios imprecisos.
 
@@ -93,7 +93,7 @@ Para simplificar o modelo de dados e remover dados redundantes e desnecessários
 
 ### Colunas renomeadas {#renamed-columns}
 
-Tabelas e colunas foram renomeadas para torná-las mais fáceis de usar e para padronizar convenções de nomenclatura. Para exibir as alterações no nome da coluna, navegue até a etapa “Colunas renomeadas” após a etapa “Outras colunas removidas” em qualquer tabela.
+Renomeamos as tabelas e colunas para facilitar o uso e padronizar convenções de nomeação. Para exibir as alterações no nome da coluna, navegue até a etapa “Colunas renomeadas” após a etapa “Outras colunas removidas” em qualquer tabela.
 
 ![](assets/marketo-measure-report-template-power-bi-6.png)
 
@@ -105,8 +105,8 @@ Como os nomes de segmentos são personalizáveis, eles têm nomes de coluna gen�
 
 ### Conversão de ID com diferenciação de maiúsculas e minúsculas {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] Os dados do têm algumas tabelas em que os valores da chave primária (ID) fazem distinção entre maiúsculas e minúsculas, a saber, Pontos de contato e Campanha. O mecanismo de dados que orienta a camada de modelagem do Power BI não diferencia maiúsculas de minúsculas, resultando assim em valores de ID “duplicados”. Para preservar a diferenciação entre maiúsculas e minúsculas desses valores-chave, implementamos etapas de transformação que anexam caracteres invisíveis a caracteres em minúsculas, preservando a exclusividade do ID quando avaliado na camada do mecanismo de dados. Mais detalhes sobre o problema e as etapas detalhadas sobre o método que empregamos podem ser encontrados [aqui]
-(https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas e minúsculas são rotulados como &quot;IDs de junção&quot; e usados como chaves de junção na camada de relacionamento. Ocultamos as IDs de associação da camada de relatórios, mantendo os valores de ID originais visíveis para uso nos relatórios, já que os caracteres invisíveis podem interferir nas funções de cortar
+Os dados do [!DNL Marketo Measure] têm algumas tabelas em que os valores da chave principal (ID) fazem distinção entre maiúsculas e minúsculas, estes são: Ponto de contato e Campanha. O mecanismo de dados que orienta a camada de modelagem do Power BI não diferencia maiúsculas de minúsculas, resultando assim em valores de ID “duplicados”. Para preservar a diferenciação entre maiúsculas e minúsculas desses valores-chave, implementamos etapas de transformação que anexam caracteres invisíveis a caracteres em minúsculas, preservando a exclusividade do ID quando avaliado na camada do mecanismo de dados. Mais detalhes sobre o problema e as etapas detalhadas sobre o método que empregamos podem ser encontrados [aqui]
+(https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas de minúsculas são rotulados como “IDs de associação” e usados como chaves de associação na camada de relação. Ocultamos as IDs de associação da camada de relatórios, mantendo os valores de ID originais visíveis para uso nos relatórios, já que os caracteres invisíveis podem interferir nas funções de cortar
 /colar e na filtragem.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
@@ -119,7 +119,7 @@ Para adicionar recursos de conversão de moeda aos cálculos no modelo, adiciona
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-A tabela Taxa de conversão armazenada no [!DNL Snowflake] contém um intervalo de datas para cada conversão. O Power BI não permite critérios de junção em um cálculo (ou seja, entre um intervalo de datas). Para associar-se a uma data, adicionamos etapas à tabela Taxa de conversão para expandir as linhas até que haja uma linha para cada data no intervalo de datas de conversão.
+A tabela Taxa de conversão armazenada no [!DNL Snowflake] contém um intervalo de datas para cada conversão. O Power BI não permite critérios de associação em um cálculo (ou seja, entre um intervalo de datas). Para associar-se a uma data, adicionamos etapas à tabela Taxa de conversão para expandir as linhas até que haja uma linha para cada data no intervalo de datas de conversão.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -166,7 +166,7 @@ As taxas na tabela Taxa de conversão representam o valor necessário para conve
 
 Como as taxas de conversão não precisam ser estáticas e podem ser alteradas por intervalos de datas especificados, todos os cálculos de conversão de moeda devem ser executados no nível da linha. Novamente, como as taxas de conversão pertencem a um intervalo de datas específico, o cálculo de pesquisa deve ser executado dentro do DAX da medida, para que a relação possa ser definida no código da moeda e na data.
 
-As medidas de conversão de moeda nesse modelo substituem um valor de 1,0 para a taxa se nenhuma taxa de conversão puder ser identificada. Medidas separadas foram criadas para exibir o valor da moeda da medida e alertar se um cálculo inclui mais de um valor de moeda (ou seja, um valor não pôde ser convertido na moeda selecionada).
+As medidas de conversão de moeda nesse modelo substituem um valor de 1,0 para a taxa se nenhuma taxa de conversão puder ser identificada. Criamos medidas separadas para exibir o valor da moeda da medida e alertar se um cálculo inclui mais de um valor de moeda (isto é, quando um valor não pode ser convertido para a moeda selecionada).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -180,7 +180,7 @@ Foram adicionadas definições ao modelo do Power BI para tabelas, colunas perso
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Para exibir definições de colunas provenientes diretamente de [!DNL Snowflake], consulte o [documentação do data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
+Para exibir definições de colunas provenientes diretamente do [!DNL Snowflake], consulte a [documentação do data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Discrepâncias entre modelos e o Discover {#discrepancies-between-templates-and-discover}
 
@@ -190,7 +190,7 @@ Os pontos de contato de cliente potencial e de atribuição herdam dados dimensi
 
 ### Custo {#cost}
 
-Os relatórios de custos nos modelos só estão disponíveis no nível da campanha e do canal. No entanto, o Discover oferece relatórios em níveis mais baixos de granularidade para alguns provedores de anúncios (ou seja, criativo, palavra-chave, grupos de anúncios e assim por diante). Para obter mais detalhes sobre como os dados de custo são modelados nos modelos, consulte a seção Modelo de dados desta documentação. Se o filtro de dimensão no [!UICONTROL Discover] for definido como canal ou campanha, os custos nos níveis de canal, subcanal e campanha deverão estar alinhados entre o Discover e os modelos de relatório.
+O relatório de custos dos modelos só está disponível no nível da campanha e do canal. No entanto, o Discover oferece relatórios com níveis mais baixos de granularidade para alguns provedores de anúncios (ou seja, criativo, palavra-chave, grupos de anúncios e assim por diante). Para obter mais detalhes sobre como os dados de custo são modelados, consulte a seção Modelo de dados desta documentação. Se o filtro de dimensão no [!UICONTROL Discover] for definido como canal ou campanha, os custos nos níveis de canal, subcanal e campanha deverão estar alinhados entre o Discover e os modelos de relatório.
 
 ### ROI {#roi}
 
@@ -202,13 +202,13 @@ Essas métricas, conforme mostrado nos modelos de relatórios, não são espelha
 
 ### Tráfego na Web {#web-traffic}
 
-O modelo de dados do modelo de relatório normaliza os dados dimensionais do canal, do subcanal e da campanha por meio da relação entre Sessão e Ponto de contato. Isso é diferente do modelo de dados do Discover, que desnormaliza essas dimensões para a Sessão. Devido a essa distinção, as contagens gerais de visitas e visitantes devem coincidir no Discover e no modelo de relatório. No entanto, uma vez exibidos ou filtrados por dimensão, não é esperado que esses números se alinhem. Isso ocorre porque os dados dimensionais no modelo só estão disponíveis para eventos da web que resultaram em um ponto de contato (ou seja, eventos não anônimos). Para obter mais detalhes, consulte [Modelo de dados](#data-model) seção desta documentação.
+O modelo de dados do modelo de relatório normaliza os dados dimensionais do canal, do subcanal e da campanha por meio da relação entre Sessão e Ponto de contato. Isso é diferente do modelo de dados do Discover, que desnormaliza essas dimensões para a Sessão. Devido a essa distinção, as contagens gerais de visitas e visitantes devem coincidir no Discover e no modelo de relatório. No entanto, uma vez exibidos ou filtrados por dimensão, não é esperado que esses números se alinhem. Isso ocorre porque os dados dimensionais no modelo só estão disponíveis para eventos da web que resultaram em um ponto de contato (ou seja, eventos não anônimos). Para obter mais detalhes, consulte a seção [Modelo de dados](#data-model) desta documentação.
 
 Pode haver pequenas discrepâncias entre o [!DNL Discover] e o modelo nas contagens totais de formulários do site. Isso ocorre porque o modelo de dados no modelo do relatório obtém dados dimensionais para o formulário do site por meio de uma relação com a Sessão e, em seguida, com o Ponto de contato. Há algumas instâncias em que os dados do formulário do site não têm uma sessão correlacionada.
 
 ### Clientes potenciais e contas {#leads-and-accounts}
 
-Os relatórios dimensionais para contas em contato podem divergir ligeiramente entre o Discover e o modelo, isso se deve novamente à modelagem dimensional proveniente da relação entre o Ponto de contato e o Ponto de contato de cliente potencial ou Ponto de contato de atribuição. Consulte os detalhes descritos na seção Receita atribuída para obter mais detalhes.
+Os relatórios dimensionais para contas em contato podem divergir ligeiramente entre o Discover e o modelo, isso se deve novamente à modelagem dimensional proveniente da relação entre o Ponto de contato e o Ponto de contato de cliente potencial ou Ponto de contato de atribuição. Consulte a seção Receita atribuída para obter mais detalhes.
 
 Todas as contagens de clientes potenciais no Discover são contagens de clientes potenciais atribuídas e, no modelo de relatório, a métrica é de clientes potenciais em contato. Portanto, não é possível uma comparação direta entre os dois relatórios no que diz respeito a esta medida.
 

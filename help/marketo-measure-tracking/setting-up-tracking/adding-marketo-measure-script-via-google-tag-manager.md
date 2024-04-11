@@ -1,25 +1,25 @@
 ---
 unique-page-id: 18874797
-description: Adicionando [!DNL Marketo Measure] Script via [!DNL Google Tag Manager] - [!DNL Marketo Measure]
+description: Adição de script do  [!DNL Marketo Measure]  via  [!DNL Google Tag Manager]  -  [!DNL Marketo Measure]
 title: Adição de script do  [!DNL Marketo Measure]  via  [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # Adição de script do [!DNL Marketo Measure] via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-Ao instalar o [!DNL Marketo Measure] JavaScript, é recomendável que você [codificação rígida do script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} diretamente no site. Se isso não for possível, você também poderá usar [!DNL Google Tag Manager] (GTM) para carregar a [!DNL Marketo Measure] JS Observe que [!DNL Marketo Measure] O JS carregado por meio do GTM é susceptível à latência. A latência causa um atraso nos tempos de carregamento do script, que pode resultar em perda de cerca de 3 a 5% de todos os envios de formulários.
+Ao instalar o JavaScript do [!DNL Marketo Measure], é recomendável [codificar o script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} diretamente no site. Se isso não for possível, use o [!DNL Google Tag Manager] (GTM) para carregar o JS do [!DNL Marketo Measure].  Observe que o JS do [!DNL Marketo Measure] carregado por meio do GTM está sujeito à latência. A latência causa um atraso nos tempos de carregamento do script, que pode resultar em perda de cerca de 3 a 5% de todos os envios de formulários.
 
-Se decidir adicionar nosso script via GTM, defina a [!DNL Marketo Measure] script para a prioridade mais alta em sua ordem de acionamento e verifique se não há scripts síncronos na frente do [!DNL Marketo Measure] para reduzir quaisquer efeitos da latência do GTM.
+Se decidir adicionar o script via GTM, defina o script do [!DNL Marketo Measure] com a prioridade mais alta em sua ordem de acionamento e certifique-se de que não haja scripts síncronos na frente da tag do [!DNL Marketo Measure], para reduzir quaisquer efeitos de latência do GTM.
 
 >[!NOTE]
 >
->Usar este [artigo de suporte do Google](https://support.google.com/tagmanager/answer/2772421?hl=pt-BR){target="_blank"} para saber mais.
+>Leia este [artigo de suporte do Google](https://support.google.com/tagmanager/answer/2772421?hl=pt-BR){target="_blank"} para saber mais.
 
 ## Como adicionar JS do [!DNL Marketo Measure] via [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

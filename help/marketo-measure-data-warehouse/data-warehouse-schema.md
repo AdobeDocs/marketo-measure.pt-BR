@@ -5,9 +5,9 @@ title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ O Data Warehouse permite rastrear o quanto você desejar, relatar os dados de at
 
 ## Diagramas de relação de entidade {#entity-relationship-diagrams}
 
-O _Modelo de dados do Data Warehouse_ ERD mostra como os dados no data warehouse devem fluir e ser vinculados. Esse diagrama não inclui todas as tabelas disponíveis no data warehouse porque algumas delas representam tabelas de mapeamento, exibições de outras tabelas já presentes ou tabelas obsoletas que não recomendamos mais usar. Consulte as descrições detalhadas de tabelas e colunas presentes no data warehouse abaixo. Muitas dessas tabelas contêm campos desnormalizados, no entanto, esse diagrama é o modelo de dados recomendado, aproveitando dados de tabelas dimensionais.
+O _Modelo de dados do Data Warehouse_ ERD mostra como os dados no data warehouse devem fluir e ser vinculados. Esse diagrama não inclui todas as tabelas disponíveis no data warehouse porque algumas delas representam tabelas de mapeamento, exibições de outras tabelas já presentes ou tabelas obsoletas que não recomendamos mais usar. Consulte as descrições detalhadas das tabelas e colunas presentes no data warehouse abaixo. Muitas dessas tabelas contêm campos desnormalizados, no entanto, esse diagrama é o modelo de dados recomendado, aproveitando dados de tabelas dimensionais.
 
 O _Modelo de dados dimensionais de anúncios_ ERD apresenta uma exibição de como tabelas para dimensões específicas de anúncios podem ser melhor vinculadas às tabelas no modelo de dados principal. Embora as dimensões de anúncios também sejam desnormalizadas em outras tabelas, isso representa o modelo recomendado para unir essas dimensões.
 
@@ -5802,7 +5802,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
 
 >[!IMPORTANT]
 >
->O Marketo Measure descontinuará esta tabela em meados de 2024. Se quiser criá-lo, execute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>O Marketo Measure descontinuará esta tabela em meados de 2024. Se quiser criá-lo do seu lado, execute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>

@@ -1,70 +1,70 @@
 ---
 unique-page-id: 35586069
-description: Garantia do consentimento para o GDPR no Marketo Measure Js - Marketo Measure - Documentação do produto
-title: Garantia do consentimento para o GDPR no Marketo Measure Js
+description: Garantia de consentimento com o GDPR no Marketo Measure Js - Marketo Measure - Documentação do produto
+title: Garantia de consentimento com o GDPR no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Garantia do consentimento para o GDPR no Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
+# Garantia de consentimento com o GDPR no Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 O Regulamento Geral sobre a Proteção de Dados (GDPR) é uma legislação da União Europeia que entrou em vigor em 25 de maio de 2018.
 
 ## Visão geral {#overview}
 
-O objetivo do GDPR é reforçar os direitos dos titulares de dados na União Europeia (UE) e no Espaço Econômico Europeu (EEE) no que diz respeito à forma como os seus dados pessoais são utilizados e protegidos. &quot;Dados pessoais&quot; refere-se a qualquer informação que diga respeito a uma pessoa singular identificada ou identificável. O RGPD aplica-se a qualquer organização dentro ou fora da UE que comercialize bens ou serviços para titulares de dados na UE e no EEE e/ou que acompanhe os seus comportamentos. Se você faz negócios com titulares de dados na Europa que envolvem o processamento de seus dados pessoais, esta legislação se aplica a você. As penalidades por não conformidade são significativas, com multas elevadas para aqueles que violam o regulamento; a multa máxima por uma única violação é de 20 milhões de euros ou 4% do volume de negócios mundial anual, o que for maior.
+O objetivo do GDPR é reforçar os direitos de titulares de dados na União Europeia (UE) e no Espaço Econômico Europeu (EEE) no que diz respeito à forma como dados pessoais são utilizados e protegidos. O termo “Dados pessoais” se refere a qualquer informação que diz respeito a uma pessoa singular identificada ou identificável. O GDPR aplica-se a qualquer organização dentro ou fora da UE que comercialize bens ou serviços para titulares de dados na UE e no EEE e/ou que acompanhe os seus comportamentos. Se você faz negócios com titulares de dados na Europa que envolvem o processamento de dados pessoais, esta legislação se aplica a você. As penalidades por não conformidade são significativas, com multas elevadas para quem viola o regulamento; a multa máxima por uma única violação é de 20 milhões de euros ou 4% do volume de negócios mundial anual, o que for maior.
 
-Por padrão, [!DNL bizible.js] O coleta dados do analytics dos usuários, a menos que esteja configurado para aguardar por consentimento. Quando [!DNL bizible.js] O está configurado para aguardar o consentimento do usuário. Ele não criará cookies ou enviará dados do Analytics até que o consentimento seja atingido.
+Por padrão, o [!DNL bizible.js] coleta dados de análise dos usuários, a menos que esteja configurado para aguardar o consentimento. Quando o [!DNL bizible.js] está configurado para aguardar o consentimento do usuário, ele não cria cookies ou envia dados de análise até a confirmação do consentimento.
 
-## Como aguardar por consentimento {#how-to-wait-for-consent}
+## Como aguardar o consentimento {#how-to-wait-for-consent}
 
-Há duas maneiras de definir [!DNL bizible.js] para aguardar por consentimento.
+Há duas maneiras de definir o [!DNL bizible.js] para aguardar o consentimento.
 
-Opção 1 - Substituir o padrão [!DNL bizible.js] tag de script com:
+Opção 1 - Substituir a tag de script padrão do [!DNL bizible.js] por:
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-consent-button-id="ConsentButtonId"></script>`
 
-**Se você usar [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
+**Se você usar o [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
 
 `<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
 >
->Nesse caso, [!DNL bizible.js] anexa um evento ao clicar no elemento HTML com a ID &quot;ConsentButtonId&quot;.
+>Nesse caso, o [!DNL bizible.js] anexa um evento ao clicar no elemento HTML com a ID “ConsentButtonId”.
 
-Quando este elemento HTML for clicado, [!DNL bizible.js] O cria um cookie para lembrar que o consentimento do usuário foi recebido e começar a coletar dados de análise como de costume.
+Ao clicar neste elemento HTML, o [!DNL bizible.js] cria um cookie para lembrar o recebimento do consentimento do usuário e começar a coletar dados de análise como de costume.
 
 **-ou-**
 
-Opção 2 - Substituir o padrão [!DNL bizible.js] tag de script com:
+Opção 2 - Substituir a tag de script padrão do [!DNL bizible.js] por:
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-requires-user-consent="true"></script>`
 
-Isso informa o [!DNL bizible.js] para não rastrear até que o consentimento seja atingido, o que pode ser feito com a seguinte API JS:
+Essa opção orienta o [!DNL bizible.js] a não rastrear até a confirmação do consentimento, o que pode ser feito com a seguinte API JS:
 
-*janela[&#39;Bizible&#39;] = janela[&#39;Bizible&#39;] || { _fila: [], Push: função (o, p) { this._queue.push({ type: o, data: p }); } };*
+*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
 
-*Bizible. Push(&#39;Consentimento&#39;, true);*
+*Bizible.  Push(&#39;Consent&#39;, true);*
 
-**Se você usar [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
+**Se você usar o [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
 
 `<span id="bizible-settings" data-requires-user-consent="true"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
 >
->bizible.js criará um cookie para lembrar que o consentimento do usuário foi recebido e começará a coletar dados de análise como de costume somente depois que a API JS for chamada.
+>O bizible.js cria um cookie para lembrar a confirmação do consentimento do usuário e começa a coletar dados de análise como de costume somente depois de chamar a API JS.
 
-Por outro lado, os clientes também podem usar essa API para retirar o consentimento do usuário:
+Por outro lado, clientes também podem usar essa API para retirar o consentimento do usuário:
 
 `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };`
 
 `Bizible.Push('Consent', false);`
 
-Quando esse código é executado, ele exclui todos os cookies que [!DNL bizible.js] criado anteriormente e retoma a coleta de dados do analytics somente se o usuário reconsentir.
+A execução desse código exclui todos os cookies que o [!DNL bizible.js] criou anteriormente e retoma a coleta de dados de análise somente se o usuário consentir novamente.

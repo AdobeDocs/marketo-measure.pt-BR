@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874682
-description: Canais e subcanais de marketing - [!DNL Marketo Measure]
+description: Canais e subcanais de marketing -  [!DNL Marketo Measure]
 title: Canais e subcanais de marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

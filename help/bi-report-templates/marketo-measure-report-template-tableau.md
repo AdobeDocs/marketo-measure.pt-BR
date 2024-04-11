@@ -1,12 +1,12 @@
 ---
-description: "[!DNL Marketo Measure] Modelo de relatório - Tableau - [!DNL Marketo Measure]"
+description: “[!DNL Marketo Measure] Modelo de relatório - Tableau - [!DNL Marketo Measure]”
 title: "[!DNL Marketo Measure] Modelo de relatório - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2302'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Você pode acessar o modelo de relatório do [!DNL Tableau] [aqui](https://githu
 
 Abra o arquivo da Apostila do Tableau de Modelos de Relatório do [!DNL Adobe Marketo Measure].
 
-Você precisa atualizar os dados de conexão existentes para as suas informações de conexão Snowflake específicas. Clique no botão [!UICONTROL Editar conexão] e siga as etapas descritas na seção [[!UICONTROL Conexão de dados]](#data-connection) desta documentação.
+É necessário atualizar os dados de conexão existentes para as informações de conexão específicas do Snowflake. Clique no botão [!UICONTROL Editar conexão] e siga as etapas descritas na seção [[!UICONTROL Conexão de dados]](#data-connection) desta documentação.
 
 ![](assets/marketo-measure-report-template-tableau-1.png)
 
 ## Conexão de dados {#data-connection}
 
-É necessário configurar uma conexão de dados com sua instância do Snowflake. Para isso, você precisa do nome do servidor junto com seu nome de usuário e senha. Detalhes sobre onde encontrar essas informações e redefinir sua senha, caso necessário, estão documentados [aqui](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Você precisará configurar uma conexão de dados com sua instância do Snowflake. Para isso, será necessário o nome do servidor, além do seu nome de usuário e senha. Detalhes sobre onde encontrar essas informações e redefinir sua senha, caso necessário, estão documentados [aqui](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -47,7 +47,7 @@ Como o [!DNL Tableau] aplica filtros de fonte de dados à consulta geral e não 
     and sn._deleted_date is null
 ```
 
-No entanto, isso está incorreto, pois se uma sessão foi excluída, mas o ponto de contado correspondente não, os dados do ponto de contado são removidos do conjunto de dados. Queremos que os dados de ponto de contato estejam presentes no conjunto de dados, pois o ponto de contato não foi excluído. A adição de SQL personalizado garante que os critérios de filtro sejam aplicados no nível da tabela, resultando na seguinte query.
+No entanto, isso está incorreto, pois se uma sessão foi excluída, mas o ponto de contado correspondente não, os dados do ponto de contado são removidos do conjunto de dados. Queremos que os dados de ponto de contato estejam presentes no conjunto de dados, pois o ponto de contato não foi excluído. A adição de SQL personalizado garante que os critérios de filtro sejam aplicados no nível da tabela, resultando na seguinte consulta.
 
 **Filtros aplicados via SQL personalizado**
 
@@ -62,7 +62,7 @@ No entanto, isso está incorreto, pois se uma sessão foi excluída, mas o ponto
 
 ## Transformações de dados {#data-transformations}
 
-Algumas transformações foram aplicadas aos dados no [!DNL Tableau] em relação ao seu estado original no Snowflake. A maioria dessas transformações é aplicada nas consultas SQL personalizadas que geram as tabelas no modelo do [!DNL Tableau]. Para exibir o SQL personalizado usado para gerar uma tabela, clique com o botão direito do mouse no nome da tabela e selecione &quot;Editar consulta SQL personalizada&quot;. Algumas das transformações específicas são descritas abaixo.
+Algumas transformações foram aplicadas aos dados no [!DNL Tableau] em relação ao seu estado original no Snowflake. A maioria dessas transformações é aplicada nas consultas SQL personalizadas que geram as tabelas no modelo do [!DNL Tableau]. Para exibir o SQL personalizado usado para gerar uma tabela, clique com o botão direito do mouse no nome da tabela e selecione “Editar consulta SQL personalizada”. Algumas das transformações específicas são descritas abaixo.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 
@@ -70,7 +70,7 @@ Algumas transformações foram aplicadas aos dados no [!DNL Tableau] em relaçã
 
 ### Colunas removidas {#removed-columns}
 
-Para simplificar o modelo de dados e remover dados redundantes e desnecessários, reduzimos o número de colunas importadas para o Tableau a partir da tabela original do Snowflake. As colunas removidas incluem chaves estrangeiras desnecessárias, dados dimensionais desnormalizados mais bem usados por meio de relacionamentos com outras tabelas no modelo, colunas de auditoria e campos usados para internos [!DNL Marketo Measure] processando. É possível adicionar ou remover colunas conforme necessário para suas necessidades comerciais editando a lista de colunas importadas na seção Selecionar do SQL personalizado.
+Para simplificar o modelo de dados e remover dados redundantes e desnecessários, reduzimos o número de colunas importadas para o Tableau a partir da tabela original do Snowflake. As colunas removidas incluem chaves estrangeiras desnecessárias, dados dimensionais não normalizados melhor aproveitados por meio de relacionamentos com outras tabelas no modelo, colunas de auditoria e campos usados para processamento interno no [!DNL Marketo Measure]. É possível adicionar ou remover colunas conforme necessário para suas necessidades comerciais editando a lista de colunas importadas na seção Selecionar do SQL personalizado.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Para simplificar o modelo de dados e remover dados redundantes e desnecessários
 
 ### Colunas renomeadas {#renamed-columns}
 
-Tabelas e colunas foram renomeadas para torná-las mais fáceis de usar e para padronizar convenções de nomenclatura. Para exibir as alterações no nome da coluna, consulte as instruções SQL personalizadas que criam as tabelas.
+Renomeamos as tabelas e colunas para facilitar o uso e padronizar convenções de nomeação. Para exibir as alterações no nome da coluna, consulte as instruções SQL personalizadas que criam as tabelas.
 
 ### Linhas adicionadas {#rows-added}
 
@@ -120,7 +120,7 @@ Os Pontos de contato de cliente potencial e de Atribuição são combinados em u
 
 As transições de estágio de oportunidade e as transições de estágio de cliente potencial são combinadas em uma tabela neste modelo, com um link para a tabela Pontos de contato de [!UICONTROL Cliente potencial e de atribuição]. A coluna “Tipo de transição” foi adicionada para designar se uma linha é uma transição de estágio de oportunidade ou de cliente potencial.
 
-Os dados de Custo e Pontos de contato compartilham as dimensões Canal e Campanha. No entanto, o Tableau é limitado em sua capacidade de modelar dimensões compartilhadas entre tabelas de fatos. Como estamos limitados a apenas uma tabela de dimensão compartilhada, os dados de Canal e Campanha foram combinados em uma tabela. Eles são combinados usando uma associação cruzada das duas dimensões em uma tabela no Tableau: Canal e Campanha. O identificador exclusivo é criado pela concatenação das IDs de canal e de campanha. Esse mesmo valor de ID é adicionado às tabelas Ponto de contato e Custo para criar uma relação com essa tabela de dimensão combinada.
+Os dados de Custo e Pontos de contato compartilham as dimensões Canal e Campanha. No entanto, o Tableau é limitado em sua capacidade de modelar dimensões compartilhadas entre tabelas de fatos. Como estamos limitados a apenas uma tabela de dimensão compartilhada, os dados de Canal e Campanha foram combinados em uma única tabela. Eles são combinados usando uma associação cruzada das duas dimensões em uma tabela no Tableau: Canal e Campanha. O identificador exclusivo é criado pela concatenação das IDs de canal e de campanha. Esse mesmo valor de ID é adicionado às tabelas Ponto de contato e Custo para criar uma relação com essa tabela de dimensão combinada.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -143,7 +143,7 @@ As taxas na tabela Taxa de conversão representam o valor necessário para conve
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-As medidas de conversão de moeda nesse modelo substituem um valor de 1,0 para a taxa se nenhuma taxa de conversão puder ser identificada. Medidas separadas foram criadas para exibir o valor da moeda da medida e alertar se um cálculo inclui mais de um valor de moeda (ou seja, um valor não pôde ser convertido na moeda selecionada). Essas medidas, Moeda de custo e Moeda de receita, são incluídas como dicas de ferramentas em qualquer tela que exiba dados de Custo ou Receita.
+As medidas de conversão de moeda nesse modelo substituem um valor de 1,0 para a taxa se nenhuma taxa de conversão puder ser identificada. Criamos medidas separadas para exibir o valor da moeda da medida e alertar se um cálculo inclui mais de um valor de moeda (isto é, quando um valor não pode ser convertido para a moeda selecionada). Essas medidas, Moeda de custo e Moeda de receita, são incluídas como dicas de ferramentas em qualquer tela que exiba dados de Custo ou Receita.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -153,7 +153,7 @@ Definições foram adicionadas ao [!DNL Tableau model] para parâmetros, colunas
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Para exibir definições de colunas provenientes diretamente de [!DNL Snowflake], consulte o [documentação do data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+Para exibir definições de colunas provenientes diretamente do [!DNL Snowflake], consulte a [documentação do data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Discrepâncias entre modelos e o Discover {#discrepancies-between-templates-and-discover}
 
@@ -167,7 +167,7 @@ Os pontos de contato de cliente potencial e de atribuição herdam dados dimensi
 
 ### Custo {#cost}
 
-O relatório de custos nos modelos só está disponível no nível da campanha e do canal. No entanto, o Discover oferece relatórios em níveis mais baixos de granularidade para alguns provedores de anúncios (ou seja, criativo, palavra-chave, grupos de anúncios, etc.). Para obter mais detalhes sobre como os dados de custo são modelados nos modelos, consulte a [!UICONTROL Modelo de dados] seção desta documentação. Se o filtro de dimensão no [!UICONTROL Discover] for definido como canal ou campanha, os custos nos níveis de canal, subcanal e campanha deverão estar alinhados entre o Discover e os modelos de relatório.
+O relatório de custos nos modelos só está disponível no nível da campanha e do canal. No entanto, o Discover oferece relatórios em níveis mais baixos de granularidade para alguns provedores de anúncios (ou seja, criativo, palavra-chave, grupos de anúncios, etc.). Para obter mais detalhes sobre como os dados de custo são modelados, consulte a seção [!UICONTROL Modelo de dados] desta documentação. Se o filtro de dimensão no [!UICONTROL Discover] for definido como canal ou campanha, os custos nos níveis de canal, subcanal e campanha deverão estar alinhados entre o Discover e os modelos de relatório.
 
 ### ROI {#roi}
 
@@ -179,13 +179,13 @@ Essas métricas, conforme mostrado nos modelos de relatórios, não são espelha
 
 ### Tráfego na Web {#web-traffic}
 
-O modelo de dados do modelo de relatório normaliza os dados dimensionais do canal, do subcanal e da campanha por meio da relação entre Sessão e Ponto de contato. Isso é diferente do modelo de dados do Discover, que desnormaliza essas dimensões para a Sessão. Devido a essa distinção, as contagens gerais de visitas e visitantes devem coincidir no Discover e no modelo de relatório. No entanto, uma vez exibidos ou filtrados por dimensão, não é esperado que esses números se alinhem. Isso ocorre porque os dados dimensionais no modelo só estão disponíveis para eventos da Web que resultaram em um ponto de contato (ou seja, eventos não anônimos). Para obter mais detalhes, consulte [Modelo de dados](#data-model) seção desta documentação.
+O modelo de dados do modelo de relatório normaliza os dados dimensionais do canal, do subcanal e da campanha por meio da relação entre Sessão e Ponto de contato. Isso é diferente do modelo de dados do Discover, que desnormaliza essas dimensões para a Sessão. Devido a essa distinção, as contagens gerais de visitas e visitantes devem coincidir no Discover e no modelo de relatório. No entanto, uma vez exibidos ou filtrados por dimensão, não é esperado que esses números se alinhem. Isso ocorre porque os dados dimensionais no modelo só estão disponíveis para eventos da web que resultaram em um ponto de contato (ou seja, eventos não anônimos). Para obter mais detalhes, consulte a seção [Modelo de dados](#data-model) desta documentação.
 
 Pode haver pequenas discrepâncias entre o [!DNL Discover] e o modelo nas contagens totais de formulários do site. Isso ocorre porque o modelo de dados no modelo do relatório obtém dados dimensionais para o formulário do site por meio de uma relação com a Sessão e, em seguida, com o Ponto de contato. Há algumas instâncias em que os dados do formulário do site não têm uma sessão correlacionada.
 
 ### Clientes potenciais e contas {#leads-and-accounts}
 
-Os relatórios dimensionais para contas em contato podem divergir ligeiramente entre o [!DNL Discover] e o modelo, isso se deve novamente à modelagem dimensional proveniente da relação entre o Ponto de contato e o Ponto de contato de cliente potencial ou Ponto de contato de atribuição. Consulte os detalhes descritos na seção Receita atribuída para obter mais detalhes.
+Os relatórios dimensionais para contas em contato podem divergir ligeiramente entre o [!DNL Discover] e o modelo, isso se deve novamente à modelagem dimensional proveniente da relação entre o Ponto de contato e o Ponto de contato de cliente potencial ou Ponto de contato de atribuição. Consulte a seção Receita atribuída para obter mais detalhes.
 
 Todas as contagens de clientes potenciais no [!UICONTROL Discover] são contagens de clientes potenciais atribuídos e, no modelo de relatório, a métrica é [!UICONTROL clientes potenciais] em contato. Portanto, não é possível uma comparação direta entre os dois relatórios no que diz respeito a esta medida.
 

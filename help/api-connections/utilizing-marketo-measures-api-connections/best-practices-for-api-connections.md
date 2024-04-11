@@ -1,12 +1,12 @@
 ---
-description: Práticas recomendadas para conexões de API - [!DNL Marketo Measure]
+description: Práticas recomendadas para conexões de API -  [!DNL Marketo Measure]
 title: Práticas recomendadas para conexões de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ As conexões de API do [!DNL Marketo Measure] são um aspecto inestimável de su
 
 ## Prática recomendada {#best-practice}
 
-Independentemente da plataforma de anúncios que você estiver conectando, as seguintes diretrizes são importantes para ter em mente!
+Independentemente da plataforma de anúncios utilizada, é importante considerar as diretrizes a seguir.
 
 * Usar uma conta de admin para se conectar
 * É possível conectar várias contas de anúncios em uma plataforma
 * Conecte todas as contas de anúncios possíveis para automatizar ao máximo os relatórios de despesas
 * Se disponível, sempre implemente um modelo de rastreamento. O modelo garante que, mesmo que a conta de anúncios seja desconectada, o [!DNL Marketo Measure] ainda possa obter detalhes de anúncios importantes
 
-Para otimizar cada [!DNL Marketo Measure] da API, siga as seguintes práticas recomendadas.
+Para otimizar cada API do [!DNL Marketo Measure], siga as práticas recomendadas a seguir.
 
 **[!DNL Facebook]**: conectar com o recurso de marcação automática
 
@@ -84,7 +84,7 @@ Alguns motivos pelos quais a conta pode ser desconectada e necessitar de reautor
 * Essa pessoa não está mais na empresa
 * Atualizações das APIs
 
-Se sua equipe tiver passado por qualquer um dos cenários acima, verifique as conexões de API na [!DNL Marketo Measure] para garantir que eles não precisem ser reautorizados.
+Se a equipe se deparar com algum dos cenários acima, verifique as conexões de API no aplicativo do [!DNL Marketo Measure] para garantir que elas não precisem ser autorizadas novamente.
 
 >[!MORELIKETHIS]
 >

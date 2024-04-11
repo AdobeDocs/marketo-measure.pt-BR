@@ -1,12 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Visão geral final - [!DNL Marketo Measure]'
+description: “Visão geral do [!DNL Marketo Measure] Ultimate -  [!DNL Marketo Measure]”
 title: “Visão geral do [!DNL Marketo Measure] Ultimate”
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ O [!DNL Marketo Measure] (anteriormente Bizible) fornece aos profissionais de ma
 
 O [!DNL Marketo Measure Ultimate] contém os recursos adicionais:
 
-* Assimile de praticamente qualquer fonte de dados e várias fontes de dados do mesmo tipo para trazer todos os seus dados para atribuição.
+* Assimilação a partir de quase qualquer fonte de dados, bem como de várias fontes de dados do mesmo tipo para trazer todos os seus dados para atribuição.
    * Use com quase qualquer CRM, não apenas o Salesforce e o Dynamics.
    * Conecte várias instâncias do CRM e/ou do MAP à instância do [!DNL Marketo Measure].
    * Traga dados de registro e participação em webinários de terceiros.
@@ -39,13 +39,13 @@ O [!DNL Marketo Measure Ultimate] contém os recursos adicionais:
 
 **Importação de dados B2B por meio da AEP**
 
-Espera-se que os profissionais de marketing tragam seus dados B2B (por exemplo, Conta, Oportunidade, Contato, Cliente potencial, Campanha, Membro da campanha, Atividade) por meio da AEP. As conexões diretas do CRM e do Marketo Engage não estão mais disponíveis para o Ultimate. Os profissionais de marketing continuam trazendo dados da Plataforma de publicidade por meio de conexões diretas e rastreando atividades da Web por meio de [!DNL Marketo Measure] javascript.
+Espera-se que profissionais de marketing tragam seus dados B2B (por exemplo, conta, oportunidade, contato, leads, campanha, membro da campanha e atividade) por meio da AEP. As conexões diretas do CRM e do Marketo Engage não estão mais disponíveis para o Ultimate. Profissionais de marketing continuarão trazendo dados da plataforma de anúncios por meio de conexões diretas e rastreando atividades da web pelo Javascript do [!DNL Marketo Measure].
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **Configuração de moeda padrão**
 
-[!DNL Marketo Measure Ultimate] define a moeda padrão como USD até que o usuário a altere. A configuração de uma nova moeda padrão atualiza os dados sem reprocessamento. Desde que a moeda selecionada esteja presente como um código ISO de destino, não é necessário enviar taxas de conversão.
+O [!DNL Marketo Measure Ultimate] define a moeda padrão como USD até o usuário alterar essa configuração. A definição de uma nova moeda padrão atualizará os dados sem reprocessamento. Desde que a moeda selecionada esteja presente como um código ISO de destino, não é necessário enviar taxas de conversão.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,11 +55,11 @@ A instância do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma san
 
 >[!NOTE]
 >
->A [!DNL Marketo Measure Ultimate] a instância de produção deve ser mapeada para uma sandbox de produção da AEP, uma [!DNL Marketo Measure Ultimate] A instância do desenvolvedor deve ser mapeada para uma sandbox de desenvolvedor da AEP.
+>Uma instância de produção do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox de produção da AEP. Uma instância de desenvolvedor do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox de desenvolvedor da AEP.
 
-Depois que a seleção de mapeamento da sandbox é salva, não é possível alterá-la no aplicativo. Para alterá-lo, entre em contato com [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Após salvar a seleção de mapeamento da sandbox, não é possível alterá-la no aplicativo. Para alterá-la, entre em contato com o [Suporte do Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Os dados de uma determinada entidade (por exemplo, Conta) de uma determinada fonte de dados só podem entrar em um conjunto de dados. Cada conjunto de dados pode ser incluído somente em um fluxo de dados. As violações interrompem o fluxo de dados no tempo de execução.
+Os dados de uma determinada entidade (por exemplo, conta) em uma determinada fonte de dados só podem ser enviados para um conjunto de dados. Cada conjunto de dados pode ser incluído somente em um fluxo de dados. As violações interrompem o fluxo de dados no tempo de execução.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -106,8 +106,8 @@ Os serviços de ML do ABM (correspondência entre lead e conta e pontuação pre
 
 ## Limitações {#limitations}
 
-* Campos limitados estão disponíveis para regras de transformação de dados.
-* Não há um caminho de migração para usuários(as) de nível 1/2/3 já existentes. Requer nova implementação, mas ajudamos a migrar os dados de atividade da Web rastreados da instância existente.
+* Há campos limitados disponíveis para regras de transformação de dados.
+* Não há um caminho de migração para usuários(as) de nível 1/2/3 já existentes. Isso necessita de uma nova implementação, mas ajudaremos você a migrar os dados de atividade da web rastreados da instância já existente.
 
 >[!MORELIKETHIS]
 >
