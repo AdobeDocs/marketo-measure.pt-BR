@@ -2,9 +2,10 @@
 description: Painel da velocidade do lead - [!DNL Marketo Measure] - Produto
 title: Painel da velocidade do lead
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+source-git-commit: de7239abaedaf1a59b3760f12736a225d71027a1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -20,14 +21,16 @@ Perguntas que esse painel responde:
 
 ## Componentes do painel {#dashboard-components}
 
+A exibição de &quot;Cliente em potencial&quot; ou &quot;Contato&quot; é determinada pela preferência definida em: Configurações > Configurações de atribuição > Objeto de painel padrão.
+
 ### Velocidade do lead/contato por estágio {#lead-contact-velocity-by-stage}
 
 O gráfico de barras exibe a duração média, em dias, dos leads/contatos em cada estágio de vendas durante um período específico.
 
 Perguntas que o gráfico responde:
 
-Qual estágio de vendas normalmente tem a duração mais longa para leads/contatos?
-Como o tempo gasto no estágio &quot;Primeiro contato&quot; se compara ao estágio &quot;MQL&quot;?
+* Qual estágio de vendas normalmente tem a duração mais longa para leads/contatos?
+* Como o tempo gasto no estágio &quot;Primeiro contato&quot; se compara ao estágio &quot;MQL&quot;?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
@@ -35,7 +38,7 @@ Como o tempo gasto no estágio &quot;Primeiro contato&quot; se compara ao estág
 
 O gráfico de linha de série de tempo exibe o tempo médio, em dias, que os clientes potenciais/contatos gastam em cada estágio de vendas no período especificado.
 
-* use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
+* Use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre uma linha para revelar informações detalhadas.
 
 Perguntas que o gráfico responde:
