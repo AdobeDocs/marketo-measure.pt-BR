@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Exibir por meio das perguntas frequentes so
 title: '"[!DNL Marketo Measure] "Exibir por meio das perguntas frequentes sobre atribuição"'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 6%
+source-wordcount: '492'
+ht-degree: 25%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 6%
 ## O que é Visualizar por meio de atribuição? {#what-is-view-through-attribution}
 
 A variável [!DNL Marketo Measure] [!UICONTROL Visualizar por meio da atribuição] O recurso inclui a capacidade de incluir impressões de anúncios no modelo de atribuição.
+
+>[!IMPORTANT]
+>
+>Devido a preocupações com a privacidade, cookies de terceiros serão desativados. A desativação de cookies de terceiros no terceiro trimestre de 2024 anunciada pelo Google Chrome marca efetivamente o fim dessa forma de rastreamento. Como resultado, a Adobe descontinuará as funções do Marketo Measure que dependem de cookies de terceiros, mais especificamente, o rastreamento entre domínios e a atribuição de visualização, que usam o cookie de impressão Google/DoubleClick. Nenhuma outra função do Marketo Measure será afetada. O uso de cookies próprios também não será afetado. À luz do cronograma do Google, a data esperada de descontinuação das duas funções acima é de 01/06/2024. Os dados relacionados coletados antes dessa data permanecerão disponíveis aos clientes da Adobe.
 
 ## Por que [!UICONTROL Visualizar por meio da atribuição] Importante? {#why-is-view-through-attribution-important}
 
