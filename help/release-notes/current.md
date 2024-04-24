@@ -3,9 +3,9 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
+source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '457'
 ht-degree: 2%
 
 ---
@@ -27,10 +27,10 @@ Em resposta às crescentes preocupações com a privacidade, os cookies de terce
 
 **Implantação em fases de nosso tratamento de erros aprimorado**
 
-Estamos introduzindo uma implantação em fases do tratamento aprimorado de erros para trabalhos de exportação, começando com notificações imediatas de pulso no aplicativo para erros de permissão e fazendo a transição em 25 de abril para uma nova abordagem em que os trabalhos de exportação serão pausados no ponto de erro. Essa alteração tem como objetivo melhorar a integridade e a visibilidade dos dados, garantindo processos de gerenciamento de dados mais simples e confiáveis para nossos usuários. Para garantir uma transição tranquila e o mínimo de interrupção em suas operações, estamos implementando essas alterações em duas fases:
+Estamos introduzindo uma implantação em fases do tratamento aprimorado de erros para trabalhos de exportação, começando com notificações imediatas de pulso no aplicativo para erros de permissão e fazendo a transição para uma nova abordagem em que os trabalhos de exportação serão pausados no ponto de erro. Essa alteração tem como objetivo melhorar a integridade e a visibilidade dos dados, garantindo processos de gerenciamento de dados mais simples e confiáveis para nossos usuários. Para garantir uma transição tranquila e o mínimo de interrupção em suas operações, estamos implementando essas alterações em duas fases:
 
 * Disponibilidade imediata de notificações de pulso: você receberá notificações de pulso no aplicativo para erros de permissão durante os trabalhos de exportação. Isso não interromperá suas exportações, mas ajudará você a saber mais sobre os erros sem afetar suas tarefas atuais.
-* Implementação de pausa de trabalho em 25 de abril: a partir de 25 de abril, se o sistema encontrar um erro de permissão durante um trabalho de exportação, ele pausará o trabalho para garantir que nenhum dado seja ignorado. Você será notificado de qualquer problema e, uma vez corrigidas as permissões, o trabalho de exportação será retomado sem problemas de onde parou.
+* Implementação de Pausa de tarefa em 25 de abril: **ADIADO** - Depois de considerar o feedback dos usuários do Marketo Measure, decidimos adiar a implementação da pausa dos trabalhos de exportação no ponto de erro, originalmente programado para 25 de abril. Reconhecemos que a interrupção do emprego pode não ser a abordagem mais eficaz. Estamos empenhados em encontrar uma solução melhor que mantenha a integridade dos dados e minimize as interrupções. Vamos esperar para fazer quaisquer alterações em nosso sistema atual até que possamos garantir uma solução que se alinhe mais às necessidades de nossos usuários.
 
 _Por que isso é importante_
 
