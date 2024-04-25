@@ -2,16 +2,25 @@
 description: Painel de envolvimentos - [!DNL Marketo Measure] - Produto
 title: Painel de engajamento
 feature: Reporting
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
+source-git-commit: db71635a77d6e2555c442fb45371fd5a93e3c502
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 1%
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
 # Painel de engajamento {#engagement-dashboard}
 
 O Painel de engajamento rastreia meticulosamente as métricas de engajamento do usuário. Ele mostra pontos de contato, o número de pessoas envolvidas e a média de pontos de contato por pessoa. Utilize o gráfico de barras de série temporal para uma exibição mensal, trimestral ou anual e o gráfico de barras para obter insights detalhados do Canal, Subcanal e Campanha. Essa ferramenta é essencial para entender os padrões de envolvimento e ajustar as estratégias de envolvimento.
+
+Rastreamos cada interação com o cliente como pontos de contato do usuário (UTs), os pontos de dados coletados &quot;brutos&quot;, que servem como base para as métricas de engajamento em nosso painel. Nem todas as UTs evoluem para Pontos de Contato do Comprador (BTs) ou Pontos de Contato de Atribuição do Comprador (BATs), pois esses são resultados selecionados para atribuir interações específicas do cliente a atividades relacionadas à receita. É importante observar que as regras de supressão não afetam as UTs ou o painel de engajamento.
+
+* **Pontos de contato do usuário**: pontos de contato criados a partir de todos os envolvimentos.
+* **Pontos de contato do comprador**: Pontos de contato selecionados para atribuição de lead e contato. Os BTs não estão vinculados a Oportunidades e não têm receita associada.
+* **Pontos de contato da atribuição do comprador**: Pontos de contato selecionados para atribuição de Oportunidade. As MTD têm implicações em termos de receitas, uma vez que estão associadas a oportunidades.
+
+Usar apenas BTs ou MTDs para medir o engajamento subestimaria a verdadeira extensão das interações do cliente, já que o engajamento é mais amplo do que apenas a atribuição.
 
 Perguntas que o painel responde:
 
