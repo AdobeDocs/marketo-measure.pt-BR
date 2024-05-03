@@ -3,7 +3,7 @@ description: Painel de receitas atribuídas - [!DNL Marketo Measure] - Produto
 title: Painel de receita atribuída
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
@@ -18,7 +18,7 @@ O Painel de receita atribuída oferece uma perspectiva focada na receita diretam
 >
 >Este painel está na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado depois que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
-**Perguntas que o painel responde:**
+**Perguntas que o painel responde**:
 
 * Quais canais, subcanais ou campanhas têm a classificação mais alta em termos de receita atribuída?
 * Qual é a quantia total de nossa receita atribuída e a contagem de nossas negociações fechadas atribuídas?
@@ -37,7 +37,7 @@ Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada po
 * Use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
-**Perguntas que o gráfico responde:**
+**Perguntas que o gráfico responde**:
 
 * Quais canais geraram mais receita atribuída a cada trimestre?
 * Qual foi o detalhamento da receita atribuída por canal no mês passado?
@@ -48,7 +48,7 @@ Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada po
 
 A receita total atribuída segmentada por canal, subcanal e campanha, apresentada nos formatos Tabular e Árvore. Clique no botão no canto superior direito para alternar entre exibições.
 
-**Perguntas que o painel responde:**
+**Perguntas que o painel responde**:
 
 * Como a distribuição da receita atribuída varia entre diferentes subcanais em um canal?
 * Quais campanhas em um determinado subcanal estão gerando a receita mais atribuída?
