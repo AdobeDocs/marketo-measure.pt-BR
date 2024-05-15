@@ -4,9 +4,9 @@ description: Segmentação personalizada - [!DNL Marketo Measure]
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e1ad563aac12ceb6bea6c28621ebd1cb7ec0a923
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ A Segmentação personalizada permite filtrar Pontos de contato por categorias (
 A Segmentação personalizada pode ser usada para ver dados de um tipo de registro específico. Depois de mapear a lógica do filtro, você poderá ver no [!DNL Marketo Measure] Exibição em cascata por demanda do painel — os mesmos dados que você veria no seu CRM.
 
 **Como configurá-la?**
+
+>[!NOTE]
+>
+>A atualização de regras de segmento reprocessará os dados históricos.
 
 Etapa 1 - Determinar quais informações você deseja ver.
 
