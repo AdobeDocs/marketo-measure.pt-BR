@@ -1,18 +1,16 @@
 ---
 description: Painel de oportunidades atribuídas - [!DNL Marketo Measure] - Produto
-title: Painel de Oportunidade Atribuída
-hide: true
-hidefromtoc: true
+title: Painel de oportunidades atribuídas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
+source-git-commit: 40c9a92582d0177474bd6390be58726844e1714a
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Painel de Oportunidade Atribuída {#attributed-opportunity-dashboard}
+# Painel de oportunidades atribuídas {#attributed-opportunity-dashboard}
 
 O Painel de oportunidades atribuídas fornece uma visão abrangente de como os esforços de marketing contribuem para oportunidades de pipeline emergentes e maduras. Analise detalhadamente cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio de oportunidade, destacando o escopo completo da influência do marketing além das ofertas fechadas.
 
