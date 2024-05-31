@@ -3,9 +3,9 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 57%
 
 ---
@@ -38,9 +38,9 @@ A Sincronização de cookies do Marketo Engage agora está disponível para o Ma
 1. Na página Esquemas AEP, edite o esquema Pessoa B2B e adicione o grupo de campos &quot;Detalhes da pessoa Marketo Engage&quot;.
 1. Ao assimilar os dados na MMU, mapeie o campo ID do cookie do grupo de campos para o campo Cookies do Marketo Engage.
 
-**Estágios de bumerangue habilitados para clientes de nível 2 e 3**
+**Estágios de bumerangue habilitados para clientes de nível 2**
 
-O recurso Estágio do bumerangue estará disponível para todos os clientes de Nível 2 e 3 a partir de 7 de junho de 2024. Para obter informações mais detalhadas sobre esse recurso, consulte a documentação abaixo.
+Anteriormente disponível apenas para clientes de nível 3, o recurso Estágio de bumerangue também estará disponível para todos os clientes de nível 2 a partir de 7 de junho de 2024. Para obter informações mais detalhadas sobre esse recurso, consulte a documentação abaixo.
 
 * [Estágios e pontos de contato do bumerangue](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Configuração de estágios de bumerangue](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}

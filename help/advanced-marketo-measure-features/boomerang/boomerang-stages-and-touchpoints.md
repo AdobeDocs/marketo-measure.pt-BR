@@ -4,9 +4,9 @@ description: Estágios e pontos de contato do bumerangue - [!DNL Marketo Measure
 title: Estágios de bumerangue e touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '723'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->O recurso Boomerang é ativado somente para clientes de Nível 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
+>O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
 
 [!DNL Marketo Measure] lançou o recurso Boomerang Stage! O recurso Boomerang Stage foi criado para oferecer mais visibilidade sobre a jornada do cliente para o [!DNL Marketo Measure] clientes com longos ciclos de vendas. Esse recurso permite que os profissionais de marketing criem pontos de contato para todas as transições de estágio que ocorrem na jornada de oportunidade, como quando um MQLs de contato é movido para SAL e, em seguida, reverte para o estágio MQL. Quando os contatos &quot;reentram no estágio MQL&quot; ou &quot;re-MQL&quot;, o MQL é considerado um estágio de bumerangue. O recurso Estágio Boomerang funciona junto com o [!DNL Marketo Measure] Estágios Personalizados.
 

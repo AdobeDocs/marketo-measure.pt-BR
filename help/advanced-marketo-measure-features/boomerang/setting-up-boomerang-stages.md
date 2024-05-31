@@ -4,9 +4,9 @@ description: Configuração de estágios de bumerangue - [!DNL Marketo Measure]
 title: Configurando estágios de bumerangue
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->O recurso Boomerang é ativado somente para clientes de Nível 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
+>O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
 
 Para habilitar [!UICONTROL Bumerangue] Estágios da sua conta. Você deve ser um Administrador da conta. Ou pode ser ativado ao acessar [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Depois que o recurso for ativado, siga estas instruções para configurá-los.
 

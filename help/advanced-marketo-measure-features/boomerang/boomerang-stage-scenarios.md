@@ -4,9 +4,9 @@ description: Cenários de estágio de bumerangue - [!DNL Marketo Measure]
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->O recurso Boomerang é ativado somente para clientes de Nível 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
+>O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
 
 Abaixo estão alguns exemplos de cenários de Estágio Boomerang para fornecer uma compreensão de como [!DNL Marketo Measure] O cria pontos de contato em cada situação.
 
