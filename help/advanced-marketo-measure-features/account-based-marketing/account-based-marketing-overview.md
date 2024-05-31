@@ -7,7 +7,7 @@ feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -38,16 +38,16 @@ O mapeamento de lead para conta é uma parte essencial de uma abordagem de ABM e
 * Domínio de email do lead para o domínio do site da conta
 * Nome da empresa do lead para o nome da conta
 * Empresa do lead para o domínio do site da conta
-* Site Potencial para Domínio de Email de Contatos de Conta
-* Domínio de email do cliente potencial para o domínio de email dos contatos da conta
-* Site Potencial para Domínio de Email de Clientes Potenciais da Conta
-* Domínio de email do lead para o domínio de email do lead da conta
+* Do site dos leads para o domínio de email dos contatos da conta
+* Do domínio de email dos leads para o domínio de email dos contatos da conta
+* Do site dos leads para o domínio de email dos leads da conta
+* Do domínio de email dos leads para o domínio de email dos leads da conta
 
-Os clientes em potencial/Contatos das contas são validados por seus domínios de email/site e correspondem ao domínio ou subdomínio do email/site principal. A Account com mais correspondências é usada.
+Os leads/contatos das contas são validados por seus domínios de email/site e associados ao domínio ou subdomínio de email/site dele. A conta com mais correspondências é usada.
 
 >[!NOTE]
 >
->Cada lead tenta se corresponder a uma conta na ordem preferencial dos métodos acima. Depois que uma correspondência é feita, a AccountId é definida imediatamente no cliente potencial e não será correspondida usando outro método.
+>Cada lead tenta se corresponder a uma conta na ordem preferencial dos métodos acima. Uma vez que a correspondência é feita, a AccountId é definida imediatamente no lead e este não terá outra correspondência feita por outro método. 
 
 ## Pontuação preditiva de engajamento {#predictive-engagement-score}
 
