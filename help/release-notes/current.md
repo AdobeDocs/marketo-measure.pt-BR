@@ -3,10 +3,10 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 61%
+source-wordcount: '788'
+ht-degree: 57%
 
 ---
 
@@ -20,7 +20,7 @@ Abaixo, você encontrará todos os recursos novos e atualizados das versões de 
 
 **Lembrete: Substituições de campo do Salesforce - 14 de junho**
 
-Conforme anunciado no ano passado, eliminaremos gradualmente nossos trabalhos de exportação para objetos de cliente potencial/contato a fim de simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos Touchpoint seguindo as etapas [documentado aqui](/help/release-notes/previous-releases/2023.md#deprecations). Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto Cliente potencial/Contato. A desativação entrará em vigor em 14 de junho de 2024.
+Conforme anunciado no ano passado, eliminaremos gradualmente nossos trabalhos de exportação para objetos de cliente potencial/contato a fim de simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos Touchpoint seguindo as etapas [documentado aqui](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto Cliente potencial/Contato. A desativação entrará em vigor em 14 de junho de 2024.
 
 Essa alteração trará dois benefícios principais:
 
@@ -29,7 +29,7 @@ Essa alteração trará dois benefícios principais:
 
 **Painel de Oportunidade Atribuída**
 
-Estamos animados em apresentar o novo [Painel de Oportunidade Atribuída](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), criado para fornecer uma visão abrangente de como seus esforços de marketing contribuem para oportunidades de pipeline nascentes e maduras. Esse painel permite que você se aprofunde nos detalhes de cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio da oportunidade. Ele fornece insights sobre quais canais, subcanais ou campanhas estão na classificação mais alta em termos de quantidade de oportunidade atribuída e exibe a quantidade total de oportunidade atribuída, juntamente com a contagem de oportunidades abertas e fechadas atribuídas.
+Estamos animados em apresentar o novo [Painel de Oportunidade Atribuída](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, criado para fornecer uma visão abrangente de como seus esforços de marketing contribuem para oportunidades de pipeline nascentes e maduras. Esse painel permite que você se aprofunde nos detalhes de cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio da oportunidade. Ele fornece insights sobre quais canais, subcanais ou campanhas estão na classificação mais alta em termos de quantidade de oportunidade atribuída e exibe a quantidade total de oportunidade atribuída, juntamente com a contagem de oportunidades abertas e fechadas atribuídas.
 
 **Sincronização de cookies do Marketo Engage para Marketo Measure Ultimate**
 
@@ -37,6 +37,14 @@ A Sincronização de cookies do Marketo Engage agora está disponível para o Ma
 
 1. Na página Esquemas AEP, edite o esquema Pessoa B2B e adicione o grupo de campos &quot;Detalhes da pessoa Marketo Engage&quot;.
 1. Ao assimilar os dados na MMU, mapeie o campo ID do cookie do grupo de campos para o campo Cookies do Marketo Engage.
+
+**Estágios de bumerangue habilitados para clientes de nível 2 e 3**
+
+O recurso Estágio do bumerangue estará disponível para todos os clientes de Nível 2 e 3 a partir de 7 de junho de 2024. Para obter informações mais detalhadas sobre esse recurso, consulte a documentação abaixo.
+
+* [Estágios e pontos de contato do bumerangue](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Configuração de estágios de bumerangue](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Cenários de estágio de bumerangue](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
