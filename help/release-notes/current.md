@@ -3,16 +3,42 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 61%
 
 ---
 
 # Notas de versão: 2024 {#release-notes-2024}
 
 Abaixo, você encontrará todos os recursos novos e atualizados das versões de 2024.
+
+## Versão do terceiro trimestre {#q3-release}
+
+<p>
+
+**Lembrete: Substituições de campo do Salesforce - 14 de junho**
+
+Conforme anunciado no ano passado, eliminaremos gradualmente nossos trabalhos de exportação para objetos de cliente potencial/contato a fim de simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos Touchpoint seguindo as etapas [documentado aqui](/help/release-notes/previous-releases/2023.md#deprecations). Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto Cliente potencial/Contato. A desativação entrará em vigor em 14 de junho de 2024.
+
+Essa alteração trará dois benefícios principais:
+
+* **Custos reduzidos de API do Salesforce**: os clientes podem esperar uma redução de cerca de 10% nos custos da API do Salesforce.
+* **Integração simplificada**: o maior número de erros em nossos trabalhos de exportação está relacionado a esses processos. Removê-los simplificará significativamente nossa integração.
+
+**Painel de Oportunidade Atribuída**
+
+Estamos animados em apresentar o novo [Painel de Oportunidade Atribuída](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), criado para fornecer uma visão abrangente de como seus esforços de marketing contribuem para oportunidades de pipeline nascentes e maduras. Esse painel permite que você se aprofunde nos detalhes de cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio da oportunidade. Ele fornece insights sobre quais canais, subcanais ou campanhas estão na classificação mais alta em termos de quantidade de oportunidade atribuída e exibe a quantidade total de oportunidade atribuída, juntamente com a contagem de oportunidades abertas e fechadas atribuídas.
+
+**Sincronização de cookies do Marketo Engage para Marketo Measure Ultimate**
+
+A Sincronização de cookies do Marketo Engage agora está disponível para o Marketo Measure Ultimate. Para usar este recurso:
+
+1. Na página Esquemas AEP, edite o esquema Pessoa B2B e adicione o grupo de campos &quot;Detalhes da pessoa Marketo Engage&quot;.
+1. Ao assimilar os dados na MMU, mapeie o campo ID do cookie do grupo de campos para o campo Cookies do Marketo Engage.
+
+<p>
 
 ## Versão do segundo trimestre {#q2-release}
 
