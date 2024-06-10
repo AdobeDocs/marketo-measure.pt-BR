@@ -5,9 +5,9 @@ title: Visão geral do marketing baseado em conta
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '822'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Para que nosso modelo de Account-Based Marketing comece a preencher o seu CRM, o
 
 ## Mapeamento de lead para conta {#lead-to-account-mapping}
 
-O mapeamento de lead para conta é uma parte essencial de uma abordagem de ABM eficaz. Com o mapeamento de lead para conta, os prospectos, ou leads, são agrupados na mesma conta da empresa à medida que se engajam com sua marca. Isso permite direcionar e vender para indivíduos da mesma empresa de maneira consistente. Não é necessária nenhuma configuração adicional do [!DNL Salesforce] para começar a se beneficiar desse recurso. A variável [!DNL Marketo Measure] Conduzir a Mapeamento de conta com diferentes métodos correspondentes:
+O mapeamento de lead para conta é uma parte essencial de uma abordagem de ABM eficaz. Com o mapeamento de lead para conta, os prospectos, ou leads, são agrupados na mesma conta da empresa à medida que se engajam com sua marca. Isso permite direcionar e vender para indivíduos da mesma empresa de maneira consistente. Não é necessária nenhuma configuração adicional do [!DNL Salesforce] para começar a se beneficiar desse recurso. Os diferentes métodos de correspondência do mapeamento de leads para contas do [!DNL Marketo Measure]:
 
 * Site do lead para o site da conta
 * Domínio de email do lead para o domínio do site da conta
