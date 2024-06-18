@@ -3,10 +3,10 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Abaixo, você encontrará todos os recursos novos e atualizados das versões de 
 
 **Lembrete: descontinuações de campos do Salesforce – 14 de junho**
 
-Como anunciado ano passado, vamos eliminar gradualmente nossos processos de exportação para objetos lead/contato a fim de simplificar a integração e eliminar a necessidade de exportação para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos touchpoint seguindo as etapas [documentadas aqui](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto lead/contato. A descontinuação entrará em vigor em 14 de junho de 2024.
+Como anunciado no ano passado, seremos [eliminar gradualmente nossos trabalhos de exportação para objetos de Cliente Potencial/Contato](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos touchpoint seguindo as etapas [documentadas aqui](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto lead/contato. A descontinuação entrará em vigor em 14 de junho de 2024.
 
 Essa alteração trará dois benefícios principais:
 

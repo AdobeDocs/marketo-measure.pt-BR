@@ -4,9 +4,9 @@ description: Perguntas frequentes (várias moedas) - [!DNL Marketo Measure]
 title: Perguntas frequentes (várias moedas)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Lembre-se de que há dois bits de recursos diferentes para esse recurso. Ambos estão localizados no [!UICONTROL Geral] guia da seção CRM em Configurações: Várias Moedas e Moedas Avançadas. Várias Moedas devem ser ativadas se o cliente utilizar mais de uma moeda única, enquanto o bit de recurso adicional Moedas avançadas pode ser ativado se o cliente utilizar [!DNL Salesforce]O recurso &quot;Gerenciamento avançado de moeda&quot; do, no qual o usuário pode definir um intervalo com base no tempo para taxas de conversão.
 
-Infelizmente, não sabemos quando um cliente alterna entre Simples ou Avançado, se o Avançado já estiver ativado. Por causa disso, o cliente precisa manter a configuração Advanced Currencies alinhada manualmente à configuração do CRM. Isso deve estar claro para o cliente se as conversões estiverem incorretas, o que significa que não sabíamos qual nível de conversão aplicar.
+O Marketo Measure extrai automaticamente a configuração de moeda do CRM do cliente. A configuração manual no Marketo Measure para corresponder ao CRM não é mais necessária. A configuração de moeda pode ser encontrada na página &quot;Geral&quot; em &quot;CRM&quot;.
 
 **Por que minha conta de anúncios está me dando uma mensagem de aviso?**
 
