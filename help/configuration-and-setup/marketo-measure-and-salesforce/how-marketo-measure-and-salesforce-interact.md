@@ -5,7 +5,7 @@ title: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
 ht-degree: 100%
 
