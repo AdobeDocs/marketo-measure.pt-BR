@@ -3,10 +3,10 @@ description: “Instalação e configuração do pacote [!DNL Marketo Measure] S
 title: “[!DNL Marketo Measure] [!DNL Salesforce] Instalação e configuração do pacote”
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 99%
 
 ---
 
@@ -91,4 +91,6 @@ Etapa 4: fazer logon na conta do [!DNL Marketo Measure] e reautorizar a conexão
 
 >[!MORELIKETHIS]
 >
->[Configuração do Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>* [Visão geral das permissões de integração](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Configuração do Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

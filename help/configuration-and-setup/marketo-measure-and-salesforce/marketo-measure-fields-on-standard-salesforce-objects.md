@@ -4,10 +4,10 @@ description: “Campos do [!DNL Marketo Measure] em objetos padrão do  [!DNL Sa
 title: “Campos do [!DNL Marketo Measure] em objetos padrão do  [!DNL Salesforce] ”
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '1292'
-ht-degree: 100%
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 97%
 
 ---
 
@@ -22,30 +22,6 @@ Saiba mais sobre a adição de vários campos do [!DNL Marketo Measure] aos obje
 ## Conta {#account}
 
 Pontuação preditiva de engajamento: esse campo é usado com o recurso de ABM para fornecer uma pontuação relacionada ao grau de engajamento da conta e leva em consideração vários fatores, como a recenticidade das exibições de página, quantos contatos estão associados à conta, se há uma oportunidade fechada etc.
-
-## Caso {#case}
-
-Adicionamos campos ao objeto Caso relacionado aos marcos de contato “Primeiro contato” e “Geração de leads”. Essa opção é para clientes que usam o objeto Caso no lugar de Lead ou Contato, e também proporciona outra maneira de visualizar os dados caso o(a) cliente opte por não criar registros de ponto de contato.
-
-Origem do ponto de contato (FT): esta é a origem da interação do primeiro contato.
-
-Origem do ponto de contato (LC): esta é a origem da interação do contato de geração de leads.
-
-Canal de marketing (FT): é o canal de marketing da interação de primeiro contato.
-
-Canal de marketing (LC): este é o canal de marketing da interação de contato de geração de leads.
-
-Nome da campanha publicitária (FT): é a campanha de UTM, a campanha publicitária das redes de publicidade ou a campanha do [!DNL Salesforce] da interação de primeiro contato.
-
-Nome da campanha publicitária (LC): é a campanha de UTM, a campanha publicitária das redes de publicidade ou a campanha do [!DNL Salesforce] da interação do contato de [!UICONTROL geração de leads].
-
-Página de destino (FT): esta é a página de destino da interação de primeiro contato.
-
-Página de destino (LC): é a página de destino da interação de contato de [!UICONTROL geração de leads].
-
-Data do ponto de contato (FT): esta é a data da interação de primeiro contato.
-
-Data do ponto de contato (LC): esta é a data da interação do contato de geração de leads.
 
 ## Campanha {#campaign}
 
@@ -79,59 +55,9 @@ Data do Buyer Touchpoint: está relacionada ao botão [!UICONTROL Atualizar em m
 
 OnCampaignMemberDelete: por padrão, o [!DNL Salesforce] não aparece quando há a exclusão de membros da campanha, o que pode causar problemas em relatórios de atribuição precisos. Quando ocorre a exclusão de membros da campanha, essa opção é acionada e orienta o [!DNL Marketo Measure] a remover pontos de contato relacionados a tais membros de campanha não existentes.
 
-## Contato {#contact}
-
-Adicionamos campos ao objeto Contato relacionado aos marcos de contato de “Primeiro contato” e “Geração de leads”. Isso é destinado a clientes que preferem relatar a atribuição diretamente nos campos em vez de criar registros de ponto de contato. A maioria de nossos clientes segue a rota de registro de touchpoint, mas também usa esses campos em sua plataforma de automação.
-
-Origem do ponto de contato (FT): esta é a origem da interação do primeiro contato.
-
-
-Origem do ponto de contato (LC): esta é a origem da interação do contato de geração de leads.
-
-Canal de marketing (FT): é o canal de marketing da interação de primeiro contato.
-
-Canal de marketing (LC): este é o canal de marketing da interação de contato de geração de leads.
-
-Nome da campanha publicitária (FT): é a campanha UTM, a campanha publicitária das redes de publicidade ou a campanha da interação de primeiro contato do [!DNL Salesforce].
-
-Nome da campanha publicitária (LC): é a campanha UTM, a campanha publicitária das redes de publicidade ou a campanha de [!UICONTROL geração de leads] da interação de contato do [!DNL Salesforce].
-
-Página de destino (FT): esta é a página de destino da interação de primeiro contato.
-
-Página de destino (LC): esta é a página de destino da interação de contato de [!UICONTROL geração de leads].
-
-Data do ponto de contato (FT): esta é a data da interação de primeiro contato.
-
-Data do ponto de contato (LC): esta é a data da interação do contato de geração de leads.
-
-BizibleID: usada em relação às atribuições de atividades e à integração de métricas de rastreamento de chamada para associação do contato ao ponto de contato.
-
 ## Lead {#lead}
 
-Adicionamos campos ao objeto Lead relacionado aos marcos de contato “Primeiro contato” e “Geração de leads”. Isso é destinado a clientes que preferem relatar a atribuição diretamente nos campos em vez de criar registros de ponto de contato. A maioria de nossos clientes segue a rota de registro de touchpoint, mas também usa esses campos em sua plataforma de automação.
-
-Origem do ponto de contato (FT): esta é a origem da interação do primeiro contato.
-
-
-Origem do ponto de contato (LC): esta é a origem da interação do contato de geração de leads.
-
-Canal de marketing (FT): é o canal de marketing da interação de primeiro contato.
-
-Canal de marketing (LC): este é o canal de marketing da interação de contato de geração de leads.
-
-Nome da campanha publicitária (FT): esta é a campanha UTM, a campanha publicitária das redes de publicidade ou a campanha da interação de primeiro contato do [!DNL Salesforce].
-
-Nome da campanha publicitária (LC): esta é a campanha UTM, a campanha publicitária das redes de publicidade ou a campanha da interação de contato de geração de leads do [!DNL Salesforce].
-
-Página de destino (FT): esta é a página de destino da interação de primeiro contato.
-
-Página de destino (LC): esta é a página de destino da interação de contato de geração de leads.
-
-Data do ponto de contato (FT): esta é a data da interação de primeiro contato.
-
-Data do ponto de contato (LC): esta é a data da interação do contato de geração de leads.
-
-BizibleID: usada em relação às atribuições de atividades e à integração de métricas de rastreamento de chamada para associação do lead ao ponto de contato.
+O campo Conta da Bizible é usado para o mapeamento de Lead to Account para o recurso ABM. Preencha esse campo para criar a relação de pesquisa entre os dois objetos.
 
 ## Conta {#account-1}
 
