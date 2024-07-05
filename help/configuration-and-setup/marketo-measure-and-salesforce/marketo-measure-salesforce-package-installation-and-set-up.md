@@ -4,9 +4,9 @@ title: “[!DNL Marketo Measure] [!DNL Salesforce] Instalação e configuração
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

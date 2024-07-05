@@ -5,9 +5,9 @@ title: “Campos do [!DNL Marketo Measure] em objetos padrão do  [!DNL Salesfor
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ OnCampaignMemberDelete: por padrão, o [!DNL Salesforce] não aparece quando há
 
 ## Lead {#lead}
 
-O campo Conta da Bizible é usado para o mapeamento de Lead to Account para o recurso ABM. Preencha esse campo para criar a relação de pesquisa entre os dois objetos.
+O campo da conta Bizible é usado para o mapeamento de leads para conta no recurso ABM. Preencha esse campo para criar a relação de pesquisa entre os dois objetos.
 
 ## Conta {#account-1}
 
