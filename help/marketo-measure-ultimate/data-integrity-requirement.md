@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Requisito de Integridade de Dados Ultimate 
 title: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1611'
 ht-degree: 86%
 
 ---
@@ -886,6 +886,8 @@ ht-degree: 86%
     </tr>
   </tbody>
 </table>
+
+## Requisitos de dados de conversão de moeda {#currency-conversion-data-requirements}
 
 **Moeda Padrão**: no Marketo Measure, todas as receitas e custos são convertidos em uma moeda padrão no momento do relatório. Deve haver um registro com a mesma cobertura de data para a própria moeda de destino (por exemplo, USD para USD) com uma taxa de conversão de 1.
 
