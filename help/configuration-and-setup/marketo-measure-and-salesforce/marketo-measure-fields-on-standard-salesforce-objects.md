@@ -5,7 +5,7 @@ title: “Campos do [!DNL Marketo Measure] em objetos padrão do  [!DNL Salesfor
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 

@@ -13,11 +13,11 @@ ht-degree: 16%
 
 # Práticas recomendadas para testes {#best-practices-for-testing}
 
-Você deve testar todos os diferentes tipos de formulários para garantir a [!DNL Marketo Measure] O JavaScript está funcionando corretamente.
+Você deve testar todos os diferentes tipos de formulários para garantir que o JavaScript [!DNL Marketo Measure] esteja funcionando corretamente.
 
 ## Processo de teste recomendado {#recommended-test-process}
 
-1. Usar um navegador incógnito ou limpar os cookies entre cada teste de envio de formulário _e_ usar um endereço de email diferente a cada vez.
+1. Use um navegador incógnito ou limpe os cookies entre cada teste de envio de formulário _e_. Use um endereço de email diferente a cada vez.
 
    >[!TIP]
    >
@@ -33,4 +33,4 @@ Você deve testar todos os diferentes tipos de formulários para garantir a [!DN
 
 >[!NOTE]
 >
->Você pode usar um [!DNL Marketo Measure] relatório de estoque, como Clientes potenciais com [!DNL Marketo Measure] Pontos de contato ou verifique o layout da página Cliente potencial/Contato se optar por atualizar os layouts de página com [!DNL Marketo Measure] detalhes. Isso pode levar algum tempo para que os dados sejam processados.
+>Você pode usar um relatório de ações de [!DNL Marketo Measure], como Clientes potenciais, com [!DNL Marketo Measure] pontos de contato, ou examinar o layout da página Cliente potencial/Contato se optar por atualizar seus layouts de página com [!DNL Marketo Measure] detalhes. Isso pode levar algum tempo para que os dados sejam processados.

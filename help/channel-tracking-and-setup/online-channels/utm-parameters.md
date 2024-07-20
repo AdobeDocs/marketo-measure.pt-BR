@@ -5,7 +5,7 @@ title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
 source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
 

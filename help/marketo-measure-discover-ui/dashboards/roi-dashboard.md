@@ -14,7 +14,7 @@ ht-degree: 3%
 
 O painel de ROI fornece aos profissionais de marketing uma visão detalhada do retorno sobre o investimento em canais, subcanais e campanhas. Ele detalha meticulosamente os padrões de custo e receita, além de destacar métricas como custo por lead, negociação e oportunidade, garantindo uma compreensão abrangente da atribuição de marketing.
 
-**Perguntas que o painel responde**
+**Perguntas e respostas do painel**
 
 * Quais eram os valores de ROI para cada canal, subcanal e campanha?
 * Como os custos e as receitas foram distribuídos em cada canal, subcanal e campanha?
@@ -24,16 +24,16 @@ O painel de ROI fornece aos profissionais de marketing uma visão detalhada do r
 
 ### Blocos de KPI {#kpi-tiles}
 
-* **Custo**: Custos totais de fontes de dados conectadas e custos carregados manualmente.
-* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado.
-* **Receita atribuída realizada**: a contribuição da receita total, com base no modelo de atribuição escolhido, das Oportunidades com pontos de contato dentro do período de data filtrado, independentemente de quando foram fechadas.
+* **Custo**: custos totais de fontes de dados conectadas e custos carregados manualmente.
+* **Receita atribuída**: a contribuição de receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado.
+* **Receita atribuída realizada**: a contribuição de receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato dentro do período de data filtrado, independentemente de quando elas foram fechadas.
 * **Total de Novos Clientes Potenciais**: Número total de novos Clientes Potenciais gerados, incluindo Clientes Potenciais tocados e não tocados.
-* **Custo por Novo Cliente Potencial**: o custo médio por novo lead, derivado do custo total dividido pelo número total de novos leads.
-* **Total de novas oportunidades**: Número total de novas Oportunidades geradas, incluindo Oportunidades tocadas e não tocadas.
+* **Custo por Novo Cliente Potencial**: o custo médio por novo Cliente Potencial, derivado do custo total dividido pelo número total de novos Clientes Potenciais.
+* **Total de Novas Oportunidades**: Número total de novas Oportunidades geradas, incluindo Oportunidades tocadas e não tocadas.
 * **Custo por nova oportunidade**: o custo médio por nova oportunidade, derivado do custo total dividido pelo número total de novas oportunidades.
-* **Total de ofertas**: o número de Oportunidades &quot;Ganhadas fechadas&quot;, incluindo Oportunidades sem pontos de contato.
-* **ROI simples**: a receita atribuída dividida pelos custos no período de data filtrado.
-* **ROI realizado**: Receita atribuída realizada dividida pelos custos no período de data filtrado.
+* **Total de Contratos**: o número de Oportunidades &quot;Ganhadas Fechadas&quot;, incluindo Oportunidades sem pontos de contato.
+* **ROI Simples**: a receita atribuída é dividida pelos custos no período de data filtrado.
+* **ROI realizado**: a receita atribuída realizada foi dividida pelos custos no período de data filtrado.
 
 ![](assets/roi-dashboard-1.png)
 
@@ -44,7 +44,7 @@ Gráfico de barras que ilustra o custo e a receita, projetado para oferecer uma 
 * use as funcionalidades de detalhamento e aumento para categorizar os dados por Subcanal e Campaign.
 * Passe o mouse sobre cada barra para visualizar os ROIs simples e realizados.
 
-**Perguntas que o gráfico responde**
+**Perguntas sobre as respostas do gráfico**
 
 * Quais eram os valores de ROI para cada canal, subcanal e campanha?
 * Existem canais ou subcanais com custos excepcionalmente altos ou baixos em relação à receita?
@@ -57,7 +57,7 @@ Gráfico de linhas de série temporal exibindo a comparação entre ROI Realizad
 
 * Passe o mouse sobre uma seção do gráfico para visualizar os ROIs simples e realizados.
 
-**Perguntas que o gráfico responde**
+**Perguntas sobre as respostas do gráfico**
 
 * Como o ROI realizado se compara ao ROI simples em períodos específicos?
 * Como a tendência do ROI realizado está relacionada a eventos de marketing significativos durante o mesmo período?
@@ -71,7 +71,7 @@ Gráfico de barras empilhadas exibindo os Custos totais, segmentados por Canais 
 * use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
-**Perguntas que o gráfico responde**
+**Perguntas sobre as respostas do gráfico**
 
 * Como o custo combinado de todos os canais se compara de um trimestre/mês ao próximo?
 * Como os custos de um canal específico evoluíram com o tempo?
@@ -84,7 +84,7 @@ Gráfico de barras que exibe os gastos com marketing segmentados por canal/subca
 
 * use as funcionalidades de detalhamento e aumento para categorizar os dados por Canal/Subcanal/Campanha.
 
-**Perguntas que o gráfico responde**
+**Perguntas sobre as respostas do gráfico**
 
 * Quais subcanais ou campanhas em um canal principal têm a alocação mais alta?
 * Quais canais de marketing (canal, subcanal ou campanha) parecem ter menos recursos em comparação a outros?

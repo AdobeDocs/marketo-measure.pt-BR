@@ -13,18 +13,18 @@ ht-degree: 1%
 
 # [!DNL Marketo Measure] Configuração de Insights {#marketo-measure-insights-configuration}
 
-A variável [!DNL Marketo Measure] O aplicativo Insights Canvas deve ser adicionado ao Layout da página de cliente potencial, mas requer configuração adicional na seção Aplicativos conectados do [!DNL Salesforce] Configuração. Siga estas instruções para garantir que o aplicativo Canvas tenha as permissões apropriadas.
+O Aplicativo de Tela do Insights do [!DNL Marketo Measure] deve ser adicionado ao Layout de Página de Cliente Potencial, mas requer configuração adicional na seção Aplicativos Conectados da sua Configuração do [!DNL Salesforce]. Siga estas instruções para garantir que o aplicativo Canvas tenha as permissões apropriadas.
 
-1. Navegue até [!DNL Salesforce] Configure e clique em **[!UICONTROL Aplicativos conectados]** no [!UICONTROL Gerenciar aplicativos] guia.
+1. Navegue até Configuração do [!DNL Salesforce] e clique em **[!UICONTROL Aplicativos conectados]** na guia [!UICONTROL Gerenciar aplicativos].
 
 1. Selecione o [!DNL Marketo Measure Insights] na lista que é preenchida.
 
-1. No [!UICONTROL OAuth] , altere a configuração Usuários permitidos para &quot;Usuários aprovados pelo administrador são pré-autorizados&quot;. Um pop-up é exibido, clique em **[!UICONTROL OK]** e depois **[!UICONTROL Salvar]**.
+1. Na seção de políticas [!UICONTROL OAuth], altere a configuração Usuários permitidos para &quot;Usuários aprovados pelo administrador são pré-autorizados.&quot; Um pop-up é exibido. Clique em **[!UICONTROL OK]** e depois em **[!UICONTROL Salvar]**.
 
    ![](assets/1-1.png)
 
-1. Depois que a página for salva, é possível clicar no link **[!UICONTROL Gerenciar perfis]** botão.
+1. Depois que a página for salva, você poderá clicar no botão **[!UICONTROL Gerenciar Perfis]**.
 
    ![](assets/2-1.png)
 
-1. Selecione todos os perfis que devem ter acesso ao [!DNL Marketo Measure] Insights e clique **[!UICONTROL Salvar]**.
+1. Selecione todos os perfis que devem ter acesso ao [!DNL Marketo Measure] Insights e clique em **[!UICONTROL Salvar]**.

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874775
-description: Perguntas frequentes sobre o modelo de aprendizado de máquina - [!DNL Marketo Measure]
+description: Perguntas Frequentes sobre o Modelo de Aprendizado de Máquina - [!DNL Marketo Measure]
 title: Perguntas frequentes de modelo de aprendizado de máquina
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Perguntas frequentes de modelo de aprendizado de máquina {#machine-learning-model-faq}
 
-A variável [!DNL Marketo Measure] O modelo de aprendizado de máquina usa seus dados de ponto de contato para calcular quanta ponderação de atribuição deve ser atribuída a cada estágio. Isso é determinado pela importância de cada estágio na condução de negócios para fechar.
+O modelo de Aprendizado de Máquina do [!DNL Marketo Measure] usa seus dados de ponto de contato para calcular quanta ponderação de atribuição deve ser atribuída a cada estágio. Isso é determinado pela importância de cada estágio na condução de negócios para fechar.
 
 O que as porcentagens de atribuição do Modelo de aprendizado de máquina me dizem sobre cada estágio?
 
@@ -21,7 +21,7 @@ As porcentagens de atribuição de cada estágio refletem o impacto potencial de
 
 Como é calculado o Modelo de Aprendizado de Máquina?
 
-[!DNL Marketo Measure] O calcula a importância de cada estágio personalizado usando os dados do ponto de contato de sua conta. Os critérios usados para determinar a importância de cada estágio são:
+[!DNL Marketo Measure] calcula a importância de cada estágio personalizado usando os dados do ponto de contato de sua conta. Os critérios usados para determinar a importância de cada estágio são:
 
 * Precisão do modelo: se criarmos um modelo preditivo com os dados do ponto de contato para prever se ganharemos um acordo no futuro, qual será a precisão do modelo? Maior precisão preditiva significa que os detalhes desse estágio se correlacionam mais com o fechamento ou não de uma transação
 * Índice de conversão: se clientes em potencial ou oportunidades nesse estágio forem convertidos para o próximo estágio em uma taxa alta, isso sugere que as atividades de marketing que ocorreram nesse estágio não foram muito importantes. Por outro lado, se um determinado estágio converte para o próximo estágio em uma taxa baixa, isso pode sugerir que as atividades de marketing que ocorreram nesse estágio foram influentes na condução da conversão.
@@ -47,7 +47,7 @@ Atribuir 10% de crédito de atribuição a Contatos intermediários é uma confi
 
 Quando devo alterar minha distribuição de atribuição?
 
-Entre em contato com o gerente de conta para discutir as implicações da alteração das porcentagens de atribuição e quais estágios incluir no modelo personalizado. Each [!DNL Salesforce] e o processo de vendas é exclusivo, e queremos garantir que seu modelo personalizado seja modelado com precisão.
+Entre em contato com o gerente de conta para discutir as implicações da alteração das porcentagens de atribuição e quais estágios incluir no modelo personalizado. Cada [!DNL Salesforce] e processo de vendas é exclusivo, e queremos garantir que seu modelo personalizado seja modelado com precisão.
 
 Dito isso, identificamos algumas tendências gerais em nossos clientes:
 

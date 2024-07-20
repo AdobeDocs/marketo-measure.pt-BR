@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874781
-description: Configuração Da Visualização Do Gerenciador De Campanhas Doubleclick Por Meio Da Atribuição - [!DNL Marketo Measure]
+description: Configurando A Visualização Do Gerenciador De Campanhas Doubleclick Por Meio Da Atribuição - [!DNL Marketo Measure]
 title: Configuração da atribuição de visualização do Doubleclick Campaign Manager
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
@@ -21,13 +21,13 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->Se você estiver usando a variável [!DNL Marketo Measure] e [!DNL DoubleClick Campaign Manager] integração, exigimos uma [Conexão de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que possamos baixar os detalhes das campanhas e criações para resolver os anúncios.
+>Se você estiver usando a integração do [!DNL Marketo Measure] e do [!DNL DoubleClick Campaign Manager], precisamos de uma [conexão de API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) para que possamos baixar os detalhes das campanhas e criações para resolver os anúncios.
 
-Para começar a obter insights mais granulares da visualização por meio do rastreamento com [!DNL Doubleclick Campaign Manager], nosso pixel de rastreamento precisa ser configurado.
+Para começar a obter insights mais granulares da visualização por meio do rastreamento com o [!DNL Doubleclick Campaign Manager], nosso pixel de rastreamento precisa ser configurado.
 
-Para obter mais informações sobre o [!DNL Marketo Measure] Visualizar por meio da funcionalidade de atribuição, consulte [Perguntas frequentes sobre a visualização do Marketo Measure por meio da atribuição](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
+Para obter mais informações sobre a funcionalidade de atribuição do Modo de Exibição Através do [!DNL Marketo Measure], consulte as [Perguntas frequentes sobre o Modo de Exibição Através do Attribution do Marketo Measure](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
-[!DNL Marketo Measure] é considerada uma tag piggyback porque é uma chamada de terceiros por meio da tag de publicidade do DCM. As tags Piggyback não funcionam com tags de imagem, somente tags iframe ou javascript. De acordo com o Suporte do DCM, isso não mudou recentemente e sempre foi o caso. As tags padrão foram descontinuadas em 2 de outubro de 2017, mas não afetam a capacidade de [!DNL Marketo Measure] para rastrear as impressões.
+[!DNL Marketo Measure] é considerado uma marca de retrocesso porque é uma chamada de terceiros por meio da marca de anúncio DCM. As tags Piggyback não funcionam com tags de imagem, somente tags iframe ou javascript. De acordo com o Suporte do DCM, isso não mudou recentemente e sempre foi o caso. As tags padrão foram descontinuadas em 2 de outubro de 2017, mas não afetam a capacidade de [!DNL Marketo Measure] de rastrear as impressões.
 
 Caso use uma hierarquia Pai e Filho no DCM, precisaremos que nossa tag seja aplicada a todos os níveis para rastreamento de impressões.
 
@@ -41,7 +41,7 @@ Adicione a tag ao Doubleclick sob a configuração Anunciante e crie uma tag de 
 
 1. Depois de adicionado, confirme se os delimitadores são mapeados da seguinte maneira. Isso deve ser automático depois que a tag for aplicada:
 
-   v = %eadv! [!DNL Expand] Id Do Anunciante\
+   v = %eadv! [!DNL Expand] ID do anunciante\
    a = %eaid! Expandir ID do anúncio\
    c = %ecid! Expandir ID de criação\
    s = %esid! Expandir ID do site\
@@ -53,11 +53,11 @@ Adicione a tag ao Doubleclick sob a configuração Anunciante e crie uma tag de 
 
 ## Perguntas frequentes {#faq}
 
-**P: A tag de imagem é segura?**
+**P: A marca de imagem é segura?**
 
-R: Sim. Não é uma tag JavaScript, é uma tag de imagem.
+R: Sim. Não é uma tag do JavaScript, é uma tag de imagem.
 
-**P: Quais permissões são necessárias para o usuário conectado?**
+**P: Quais permissões o usuário conectado precisa?**
 
 A: dfatrafficking, dfareporting, userinfo.email
 

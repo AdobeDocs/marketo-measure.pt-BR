@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874632
-description: Oportunidades perdidas fechadas por canal de marketing - [!DNL Marketo Measure]
+description: Oportunidades Perdidas Fechadas por Canal de Marketing - [!DNL Marketo Measure]
 title: Oportunidades perdidas encerradas pelo canal de marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
@@ -15,15 +15,15 @@ ht-degree: 4%
 
 Embora este relatório possa depender dos estágios de oportunidade, ele revelará quais canais de marketing contribuíram para oportunidades que não foram fechadas.
 
-1. Clique no **[!UICONTROL Relatórios]** no Salesforce e selecione **[!UICONTROL Novo Relatório]**.
+1. Clique na guia **[!UICONTROL Relatórios]** no Salesforce e selecione **[!UICONTROL Novo relatório]**.
 
    ![](assets/1-3.jpg)
 
-1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione a **[!UICONTROL Ponto de contato de atribuição da Bizible com oportunidade]** tipo de relatório e, em seguida, selecione **[!UICONTROL Criar]**.
+1. Na localização rápida, digite &quot;Atribuição de Bizible&quot;, selecione o **[!UICONTROL Ponto de Contato de Atribuição de Bizible com o tipo de relatório Oportunidade]** e selecione **[!UICONTROL Criar]**.
 
    ![](assets/2-3.jpg)
 
-1. A partir da parte superior do relatório, mostrar &quot;[!UICONTROL Todos os pontos de contato de atribuição da Bizible]&quot; e ajuste o campo de data de acordo com o período que você deseja relatar. No nosso exemplo, estamos olhando para Todos os Tempos. Além disso, altere o formato do relatório de Tabular para Resumo.
+1. A partir da parte superior do relatório, mostre &quot;[!UICONTROL Todos os pontos de contato de atribuição da Bizible]&quot; e ajuste o campo de data de acordo com o período no qual você deseja criar o relatório. No nosso exemplo, estamos olhando para Todos os Tempos. Além disso, altere o formato do relatório de Tabular para Resumo.
 
    ![](assets/3-3.jpg)
 
@@ -47,4 +47,4 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials: relatórios adicionais do SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutorials: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

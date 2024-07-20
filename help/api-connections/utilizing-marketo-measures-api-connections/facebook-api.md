@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874680
 description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
-title: "[!DNL Facebook] API"
+title: API [!DNL Facebook]
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
 source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
@@ -11,30 +11,30 @@ ht-degree: 3%
 
 ---
 
-# [!DNL Facebook] API {#facebook-api}
+# API [!DNL Facebook] {#facebook-api}
 
 ## Introdução {#introduction}
 
-Semelhante ao nosso AdWords e [!DNL Bing Ads] integrações, nossas [!DNL Facebook] A integração do faz duas ações fundamentais:
+Semelhante às nossas integrações AdWords e [!DNL Bing Ads], nossa integração [!DNL Facebook] faz duas ações fundamentais:
 
-* Marcar tudo automaticamente [!DNL Facebook] Anúncios com um [!DNL Marketo Measure] parâmetro (_bf)
+* Marcar automaticamente todos os anúncios de [!DNL Facebook] com um parâmetro [!DNL Marketo Measure] (_bf)
 * Baixar informações sobre custos de anúncios em todos os anúncios ativos do Facebook
 
-## Como configurar o [!DNL Facebook] Integração {#how-to-configure-the-facebook-integration}
+## Como configurar a integração do [!DNL Facebook] {#how-to-configure-the-facebook-integration}
 
-Quanto à configuração, há sete etapas a serem concluídas no [!DNL Marketo Measure] aplicativo.
+Quanto à instalação, há sete etapas a serem concluídas no aplicativo [!DNL Marketo Measure].
 
 1. Navegue até [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} e faça logon.
 1. Em Minha conta, selecione **[!UICONTROL Configurações]**.
 1. Em Integrações, selecione **[!UICONTROL Conexões]**.
-1. Selecionar **[!UICONTROL Configurar nova conexão com anúncios]** e uma janela pop-up será exibida. Selecionar **[!UICONTROL Facebook]** e faça logon usando suas credenciais da Facebook.
+1. Selecione **[!UICONTROL Configurar nova conexão com anúncios]** e uma janela pop-up será exibida. Selecione **[!UICONTROL Facebook]** e faça logon usando suas credenciais da Facebook.
 
    >[!NOTE]
    >
-   >A pessoa que conecta o [!DNL Facebook Ads] a conta precisa ser um administrador dentro do [!DNL Facebook Ads] conta.
+   >A pessoa conectando a conta [!DNL Facebook Ads] precisa ser um administrador dentro da conta [!DNL Facebook Ads].
 
-1. Uma vez [!DNL Marketo Measure] estiver conectado à sua conta do Facebook, clique no ícone de lápis ao lado da conta.
-1. Nesta exibição, mover a opção &quot;Marcação automática?&quot; alternar para &#39;Sim&#39;. Em seguida, marque a caixa de seleção localizada na [!UICONTROL Saiba mais] para concordar com os termos e condições. Verifique se [!UICONTROL Marcação automática] a opção de alternar ainda está definida como &#39;[!UICONTROL Sim]&#39;.
+1. Depois que o [!DNL Marketo Measure] estiver conectado à sua conta do Facebook, clique no ícone de lápis ao lado da conta.
+1. Nesta exibição, mover a opção &quot;Marcação automática?&quot; alternar para &#39;Sim&#39;. Em seguida, marque a caixa de seleção localizada na seção [!UICONTROL Saiba mais] para concordar com os termos e as condições. Verifique se a opção [!UICONTROL Marcação automática] ainda está definida como &#39;[!UICONTROL Sim]&#39;.
 
 ## Conexão com a conta {#connecting-the-account}
 
@@ -44,13 +44,13 @@ Quanto à configuração, há sete etapas a serem concluídas no [!DNL Marketo M
 
 >[!NOTE]
 >
->Se você ativar a marcação automática, redefiniremos o histórico de conversão e a prova social de todos os anúncios marcados. Recomendamos [exportar estes dados como um CSV](https://www.facebook.com/business/help/205067636197240) antes de ativar a marcação automática.
+>Se você ativar a marcação automática, redefiniremos o histórico de conversão e a prova social de todos os anúncios marcados. É altamente recomendável [exportar estes dados como um CSV](https://www.facebook.com/business/help/205067636197240) antes de habilitar a marcação automática.
 
 ![](assets/2-2.png)
 
-Depois de habilitar a integração, [!DNL Marketo Measure] começará a baixar o custo do nível de anúncio na [!DNL Marketo Measure Marketing ROI] Painel.
+Após habilitar a integração, o [!DNL Marketo Measure] começará a baixar o custo do nível de anúncio no Painel [!DNL Marketo Measure Marketing ROI].
 
-Para que a integração funcione corretamente, é necessário habilitar a marcação automática no [!DNL Facebook] conta. Isso permitirá que nosso sistema adicione um parâmetro _bf em todos os links de anúncios. Esse processo adicionará o novo parâmetro sobre qualquer outro parâmetro de rastreamento que você já tenha adicionado ao seu [!DNL Facebook] anúncios.
+Para que a integração funcione corretamente, é necessário habilitar a marcação automática na conta do [!DNL Facebook]. Isso permitirá que nosso sistema adicione um parâmetro _bf em todos os links de anúncios. Este processo adicionará o novo parâmetro além de qualquer outro parâmetro de rastreamento que você já tenha adicionado aos seus anúncios [!DNL Facebook].
 
 ![](assets/3.gif)
 
@@ -76,15 +76,15 @@ Para que a integração funcione corretamente, é necessário habilitar a marca�
   </tr> 
   <tr> 
    <td><p>ID do grupo de anúncios</p></td> 
-   <td><p>[[!DNL Facebook] ID do conjunto de anúncios]</p></td> 
+   <td><p>[[!DNL Facebook] Id Do Conjunto De Anúncios]</p></td> 
   </tr> 
   <tr> 
    <td><p>Nome do grupo de anúncios</p></td> 
-   <td><p>[[!DNL Facebook] Ad Set Name]</p></td> 
+   <td><p>[[!DNL Facebook] Nome do Conjunto de Anúncios]</p></td> 
   </tr> 
   <tr> 
    <td><p>Origem do touchpoint</p></td> 
-   <td><p>"[!DNL Facebook]", ou [utm_source] se fornecido</p></td> 
+   <td><p>"[!DNL Facebook]" ou [utm_source], se fornecido</p></td> 
   </tr> 
   <tr> 
    <td><p>Meio</p></td> 
@@ -104,7 +104,7 @@ Para que a integração funcione corretamente, é necessário habilitar a marca�
   </tr> 
   <tr> 
    <td><p>Ad_Unique_Id (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] ID do anúncio]</p></td> 
+   <td><p>[[!DNL Facebook] Id Do Anúncio]</p></td> 
   </tr> 
   <tr> 
    <td><p>Ad_Name (Data Warehouse)</p></td> 
@@ -116,22 +116,22 @@ Para que a integração funcione corretamente, é necessário habilitar a marca�
   </tr> 
   <tr> 
    <td><p>Ad_Provider (Data Warehouse)</p></td> 
-   <td><p>"[!DNL Facebook]"</p></td> 
+   <td><p>[!DNL Facebook]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Conta #]</p></td> 
+   <td><p>[[!DNL Facebook] Número da conta]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Nome da conta]</p></td> 
+   <td><p>[[!DNL Facebook] Nome da Conta]</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Perguntas frequentes {#faq}
 
-**P: O que [!DNL Facebook] Os anúncios são suportados pelo [!DNL Marketo Measure]?**
+**P: Quais [!DNL Facebook] anúncios são aceitos pelo [!DNL Marketo Measure]?**
 
 R: Carrossel, Imagem única. Não há vídeo, apresentação de slides ou coleção no momento.
 
@@ -139,13 +139,13 @@ R: Carrossel, Imagem única. Não há vídeo, apresentação de slides ou coleç
 
 R: Prova social é o envolvimento visível, como curtidas, cliques, comentários e compartilhamentos.
 
-**P: O que acontece quando [!DNL Marketo Measure] marcar o Anúncio?**
+**P: O que acontece quando [!DNL Marketo Measure] marca o Anúncio?**
 
-R: [!DNL Facebook] não permite que os anúncios sejam editados dessa forma [!DNL Marketo Measure] precisa excluir o criativo, que contém o URL de destino e, em seguida, recriar o anúncio com os novos parâmetros.
+R: [!DNL Facebook] não permite que anúncios sejam editados, portanto [!DNL Marketo Measure] precisa excluir o criativo, que contém o URL de Destino, e em seguida recriar o anúncio com os novos parâmetros.
 
-**P: Por que [!DNL Marketo Measure] atualizar tudo [!DNL Facebook] Anúncios?**
+**P: Por que o [!DNL Marketo Measure] atualiza todos os [!DNL Facebook] anúncios?**
 
-A: A [!DNL Marketo Measure] processo é marcar todos os anúncios caso sejam reativados.
+R: O processo [!DNL Marketo Measure] é marcar todos os anúncios caso eles sejam reativados.
 
 **P: Qual permissão é necessária para o usuário conectado?**
 

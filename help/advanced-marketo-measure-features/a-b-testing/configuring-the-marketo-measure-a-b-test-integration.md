@@ -1,22 +1,22 @@
 ---
 unique-page-id: 18874726
-description: Configuração do [!DNL Marketo Measure] Integração do teste A/B - [!DNL Marketo Measure]
+description: Configurando a  [!DNL Marketo Measure] Integração de Teste A/B - [!DNL Marketo Measure]
 title: Configurar a [!DNL Marketo Measure] Integração de teste A/B
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 6%
+source-wordcount: '118'
+ht-degree: 27%
 
 ---
 
-# Configuração do [!DNL Marketo Measure] Integração do teste A/B {#configuring-the-marketo-measure-a-b-test-integration}
+# Configurando a integração do teste A/B [!DNL Marketo Measure] {#configuring-the-marketo-measure-a-b-test-integration}
 
-Adicione o [!DNL Marketo Measure] Seções de teste A/B sobre lead, contato, caso e oportunidade. [!DNL Marketo Measure] A integração do Teste A/B permite rastrear o impacto da receita de seu [Otimizado](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} experimentos no local.
+Adicione as seções de teste A/B do [!DNL Marketo Measure] nas páginas Lead, Contato, Caso e Oportunidade. A integração do Teste A/B [!DNL Marketo Measure] permite rastrear o impacto da receita dos experimentos do site [Otimizely](https://www.optimizely.com/){target="_blank"} e [VWO](https://vwo.com/){target="_blank"}.
 
 1. Verifique se você está usando o pacote [[!DNL Marketo Measure] v3.9 ou posterior](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
-1. Adicione o &quot;[!DNL Marketo Measure] ABTests&quot; Lista relacionada aos seus Layouts de página, em seguida, clique no botão **Configurações** Botão (chave inglesa).
-1. Remova o campo &quot;Id&quot; do estoque da lista de Campos selecionados. Adicionar [!UICONTROL Experimento], [!UICONTROL Variação], e [!UICONTROL Data do relatório] e altere &quot;Classificar por&quot; para &quot;Data informada&quot;. Clique em **[!UICONTROL Decrescente]** botão.
+1. Adicione a lista relacionada &quot;[!DNL Marketo Measure] ABTests&quot; aos Layouts de página e clique no botão **Configurações** (chave inglesa).
+1. Remova o campo “ID” do estoque da lista de campos selecionados. Adicione os campos [!UICONTROL Experimento], [!UICONTROL Variação] e [!UICONTROL DataRelatada] e altere &quot;Classificar por&quot; para &quot;Data Relatada&quot;. Clique no botão **[!UICONTROL Decrescente]**.
 1. Em &quot;[!UICONTROL Botões]&quot;, desmarque **[!UICONTROL Novo]**.
-1. Entre em contato com seu representante de conta ou [Suporte ao Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para ativar o recurso.
+1. Entre em contato com seu representante de conta ou com o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para habilitar o recurso.

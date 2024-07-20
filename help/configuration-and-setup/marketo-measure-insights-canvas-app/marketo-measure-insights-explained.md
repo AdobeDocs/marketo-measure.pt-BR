@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874676
-description: "[!DNL Marketo Measure] Insights explicados - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Insights explicados"
+description: "[!DNL Marketo Measure] Insights Explicados - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Insights Explicados"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure] Insights explicados {#marketo-measure-insights-explained}
 
-Saiba mais sobre o [!DNL Marketo Measure] Exibição de insights no [!DNL Salesforce], incluindo o que os diferentes ícones representam e como usar o recurso. Este recurso é muito útil para ver as primeiras 20 sessões de um cliente potencial, contato ou conta.
+Saiba mais sobre o modo de exibição Insights do [!DNL Marketo Measure] em [!DNL Salesforce], incluindo o que os diferentes ícones representam e como usar o recurso. Este recurso é muito útil para ver as primeiras 20 sessões de um cliente potencial, contato ou conta.
 
-Quando alguém for rastreado pelo [!DNL Marketo Measure] JavaScript e preenche um formulário no seu site, a pessoa se torna um líder no seu sistema e os dados de marketing digital são enviados para a organização do Salesforce (SFDC). Quando isso ocorrer, você verá os dados do ponto de contato preenchidos dentro do [!DNL Marketo Measure] Seção de Insights do cliente potencial (um aplicativo do Canvas) sobre os objetos de cliente potencial/contato/oportunidade/conta.
+Depois que alguém é rastreado pelo JavaScript [!DNL Marketo Measure] e preenche um formulário no seu site, a pessoa se torna um líder no seu sistema e seus dados de marketing digital são enviados para a sua organização do Salesforce (SFDC). Quando isso ocorrer, você verá os dados do ponto de contato preenchidos na seção Insights do cliente potencial [!DNL Marketo Measure] (um aplicativo da Tela) nos Objetos de cliente potencial/contato/oportunidade/conta.
 
 Primeiro, você vê, na parte intermediária de seus insights, o número de sessões que a pessoa teve em seu site. Você pode rolar por essas sessões e navegar como desejar.
 
@@ -37,8 +37,8 @@ Se você clicar em qualquer sessão específica (pode fazer isso clicando na dat
 
 ![](assets/4.png)
 
-No lado direito de cada sessão, é possível ver mais dos dados de marketing granulares que estão enviando o [!DNL Marketo Measure] campos no SFDC. Neste exemplo, você pode ver Grupo de anúncios, Conteúdo de anúncios, Campanha, Palavra-chave, Médio. Você também pode rolar para baixo para ver mais das [!DNL Marketo Measure] dados que fornecemos.
+No lado direito de cada sessão, você pode ver mais dados de marketing granulares que estão enviando os campos [!DNL Marketo Measure] no SFDC. Neste exemplo, você pode ver Grupo de anúncios, Conteúdo de anúncios, Campanha, Palavra-chave, Medium. Você também pode rolar a tela para baixo para ver mais dos [!DNL Marketo Measure] dados que fornecemos.
 
-Por fim, uma vez que alguém tenha uma miríade de sessões, você pode usar alguns filtros dentro do [!UICONTROL Insights] para procurar partes específicas do envolvimento no site. Você pode filtrar por [!UICONTROL Posição do ponto de contato] por exemplo.
+Por fim, uma vez que alguém tenha uma miríade de sessões, você poderá usar alguns filtros em [!UICONTROL Insights] para procurar partes específicas do envolvimento no site. Você pode filtrar por [!UICONTROL Posição do ponto de contato], por exemplo.
 
 Você também pode pesquisar por Exibições de página, Testes AB ou Forms.

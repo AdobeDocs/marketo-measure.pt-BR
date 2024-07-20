@@ -5,7 +5,7 @@ title: Adição de script do  [!DNL Marketo Measure]  via  [!DNL Google Tag Mana
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 

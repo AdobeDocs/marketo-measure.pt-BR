@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874614
-description: Relatório de clientes potenciais com pontos de contato do comprador - [!DNL Marketo Measure]
+description: Cliente Potencial com Relatório de Pontos de Contato do Comprador - [!DNL Marketo Measure]
 title: Cliente Potencial com Relatório de Pontos de Contato do Comprador
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
@@ -15,23 +15,23 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda consulte &quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda pode ver &quot;[!DNL Bizible]&quot; no seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
 Pronto para uso, você tem muitos recursos de relatórios na ponta dos dedos quando se trata de [!DNL Marketo Measure], mas há alguns tipos de relatórios adicionais que recomendamos criar. Saiba mais sobre como criar um tipo de relatório de clientes potenciais inclusivo com pontos de contato do comprador abaixo.
 
-1. Navegue até a opção Configuração em [!DNL Salesforce]. Expanda o agrupamento &quot;Criar&quot; e selecione **[!UICONTROL Tipos de relatório]**.
+1. Navegue até sua opção de Instalação em [!DNL Salesforce]. Expanda o agrupamento &quot;Criar&quot; e selecione **[!UICONTROL Tipos de Relatório]**.
 
    ![](assets/1.jpg)
 
-1. Selecionar **[!UICONTROL Novo tipo de relatório personalizado]**.
+1. Selecione **[!UICONTROL Novo Tipo de Relatório Personalizado]**.
 
    ![](assets/2.jpg)
 
-1. Defina o objeto principal como &quot;Clientes potenciais&quot; e, na entrada &quot;Rótulo de tipo de relatório&quot;, &quot;Clientes potenciais com pontos de contato do comprador - Inclusivo&quot;. Armazenar o relatório na categoria &quot;Clientes potenciais&quot; e alterar o status de implantação para **[!UICONTROL Implantado]**. Em seguida, selecione **[!UICONTROL Próxima]**.
+1. Defina o objeto principal como &quot;Clientes potenciais&quot; e, na entrada &quot;Rótulo de tipo de relatório&quot;, &quot;Clientes potenciais com pontos de contato do comprador - Inclusivo&quot;. Armazene o relatório na categoria &quot;Clientes potenciais&quot; e altere o status da implantação para **[!UICONTROL Implantado]**. Em seguida, selecione **[!UICONTROL Próximo]**.
 
    ![](assets/3.jpg)
 
-1. Para os relacionamentos entre objetos, selecione o **[!DNL Marketo Measure]Pessoas** objeto como o objeto secundário. Selecione o relacionamento A para B como, &quot;Cada registro &#39;A&#39; deve ter pelo menos um registro &#39;B&#39; relacionado.&quot; A partir daí, você relacionará o objeto &quot;Ponto de contato do comprador&quot; e selecionará o mesmo relacionamento entre os objetos B e C.
+1. Para as relações de objeto, selecione o objeto **[!DNL Marketo Measure]Pessoas** como o objeto secundário. Selecione o relacionamento A para B como, &quot;Cada registro &#39;A&#39; deve ter pelo menos um registro &#39;B&#39; relacionado.&quot; Lá, você relacionará o objeto &quot;Buyer Touchpoint&quot; e selecionará o mesmo relacionamento entre os objetos B e C.
 
    ![](assets/4.jpg)
 

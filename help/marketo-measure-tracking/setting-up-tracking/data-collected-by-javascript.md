@@ -1,8 +1,9 @@
 ---
-description: Dados coletados pelo JavaScript - [!DNL Marketo Measure]
+description: Dados Coletados pela JavaScript - [!DNL Marketo Measure]
 title: Dados coletados por JavaScript
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 98%

@@ -1,8 +1,9 @@
 ---
-description: Painel da velocidade da oportunidade - [!DNL Marketo Measure] - Produto
+description: Painel da Velocidade da Oportunidade - [!DNL Marketo Measure] - Produto
 title: Painel de velocidade da oportunidade
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -22,7 +23,7 @@ Perguntas que esse painel responde:
 
 ### Mosaico de KPI {#kpi-tile}
 
-* **Velocidade de Negociação Fechada**: O número médio de dias para Oportunidades &quot;Ganhadas Fechadas&quot; do primeiro estágio para o fechamento.
+* **Velocidade da transação fechada**: o número médio de dias para Oportunidades &quot;Ganhadas fechadas&quot; desde o primeiro estágio até o fechamento.
 
 ### Velocidade da oportunidade por estágio {#opportunity-velocity-by-stage}
 

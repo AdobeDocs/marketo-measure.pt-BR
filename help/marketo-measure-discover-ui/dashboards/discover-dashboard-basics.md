@@ -1,5 +1,5 @@
 ---
-description: Conheça as noções básicas do painel - [!DNL Marketo Measure] - Produto
+description: Conheça as Noções Básicas do Painel - [!DNL Marketo Measure] - Produto
 title: Noções básicas do painel do Discover
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545

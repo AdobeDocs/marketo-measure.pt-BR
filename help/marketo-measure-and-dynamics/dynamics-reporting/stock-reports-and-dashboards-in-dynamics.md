@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874612
-description: Relatórios e painéis do Stock no Dynamics - [!DNL Marketo Measure]
+description: Relatórios de Ações e Painéis no Dynamics - [!DNL Marketo Measure]
 title: Relatórios e painéis do Stock no Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Você pode ver instruções especificando &quot;[!DNL Marketo Measure]&quot; na documentação, mas ainda veja &quot;Bizible&quot; em seu CRM. Estamos trabalhando para atualizar isso e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” em seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
-A variável [!DNL Marketo Measure] A Managed Solution vem com vários painéis e relatórios de estoque, projetados para atender às suas necessidades básicas durante a visualização [!DNL Marketo Measure] dados no Dynamics. Veja abaixo a lista completa e alguns casos de uso comuns.
+A Solução Gerenciada do [!DNL Marketo Measure] vem com vários Painéis e Relatórios de ações, criados para atender às suas necessidades básicas ao visualizar dados do [!DNL Marketo Measure] no Dynamics. Veja abaixo a lista completa e alguns casos de uso comuns.
 
 ## Painéis (nove no total) {#dashboards-total}
 
@@ -97,12 +97,12 @@ A variável [!DNL Marketo Measure] A Managed Solution vem com vários painéis e
   </tr> 
   <tr> 
    <td>Contas por pontuação de engajamento</td> 
-   <td>Agrupe todas as contas com seus graus A, B, C, D, N/A a partir do [!DNL Marketo Measure] Pontuação preditiva de engajamento.</td> 
+   <td>Agrupe todas as contas com seus graus A, B, C, D, N/A da Pontuação de engajamento preditivo [!DNL Marketo Measure].</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
    <td>Contas com clientes em potencial e contatos</td> 
-   <td>Exibir todos os clientes em potencial e contatos lado a lado agrupados por sua conta, usando o [!DNL Marketo Measure] Conduzir à Correspondência de conta.</td> 
+   <td>Exibir todos os clientes em potencial e contatos lado a lado agrupados pela conta, usando a correspondência de [!DNL Marketo Measure] Cliente Potencial para Conta.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ A variável [!DNL Marketo Measure] A Managed Solution vem com vários painéis e
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>[!DNL Marketo Measure] Atribuição por fonte social</td> 
+   <td>[!DNL Marketo Measure] Atribuição por Source social</td> 
    <td>Examine a atribuição de receita por seus canais sociais e meça sua eficácia.</td> 
    <td>Todos</td> 
   </tr> 
@@ -161,12 +161,12 @@ A variável [!DNL Marketo Measure] A Managed Solution vem com vários painéis e
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Clientes Potenciais por [!DNL Marketo Measure] Canal de marketing (FT)</td> 
+   <td>Clientes potenciais por [!DNL Marketo Measure] canal de marketing (FT)</td> 
    <td>Meça quantos leads tiveram um primeiro contato de cada canal de marketing.</td> 
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Clientes Potenciais por [!DNL Marketo Measure] Canal de marketing (LC)</td> 
+   <td>Clientes potenciais por [!DNL Marketo Measure] canal de marketing (LC)</td> 
    <td>Meça quantos leads foram gerados com um toque de criação de leads a partir de cada canal de marketing.</td> 
    <td>Todos</td> 
   </tr> 
@@ -191,12 +191,12 @@ A variável [!DNL Marketo Measure] A Managed Solution vem com vários painéis e
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Clientes potenciais por fonte social (FT)</td> 
+   <td>Clientes potenciais por Source social (FT)</td> 
    <td>Meça quantos leads tiveram um primeiro contato do canal social.</td> 
    <td>Todos</td> 
   </tr> 
   <tr> 
-   <td>Clientes potenciais por fonte social (LC)</td> 
+   <td>Clientes potenciais por Source social (LC)</td> 
    <td>Meça quantos leads foram gerados com um toque de criação de lead do canal social.</td> 
    <td>Todos</td> 
   </tr> 

@@ -4,7 +4,7 @@ description: Logon único -  [!DNL Marketo Measure]
 title: Logon único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 100%
 

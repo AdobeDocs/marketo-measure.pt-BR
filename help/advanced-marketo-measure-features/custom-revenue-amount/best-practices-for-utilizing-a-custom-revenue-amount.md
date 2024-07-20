@@ -1,5 +1,5 @@
 ---
-description: Práticas recomendadas para usar um valor de receita personalizado - [!DNL Marketo Measure]
+description: Práticas recomendadas para utilizar um valor de receita personalizado - [!DNL Marketo Measure]
 title: Práticas recomendadas para utilizar uma quantia de receita personalizada
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
@@ -14,22 +14,22 @@ ht-degree: 7%
 
 ## Visão geral {#overview}
 
-A funcionalidade principal do [!DNL Marketo Measure] é a capacidade de atribuir crédito de receita a pontos de contato de marketing durante toda a jornada do comprador. A chave para a atribuição precisa de receita é a capacidade de [!DNL Marketo Measure] para fazer referência ao valor de receita correto em uma Oportunidade, que, por sua vez, é distribuída entre os pontos de contato de marketing por meio dos vários modelos de atribuição.
+A funcionalidade principal do [!DNL Marketo Measure] é a capacidade de atribuir crédito de receita a pontos de contato de marketing durante toda a jornada do comprador. A chave para uma atribuição de receita precisa é a capacidade de [!DNL Marketo Measure] fazer referência ao valor de receita correto em uma Oportunidade, que por sua vez é distribuída entre os pontos de contato de marketing através dos vários modelos de atribuição.
 
-A menos que especificado de outra forma durante a implementação, seu [!DNL Marketo Measure] será definida para fazer referência ao Valor de oportunidade padrão (Padrão SFDC) para atribuição de receita. No entanto, para muitos [!DNL Marketo Measure] contas, esse campo não reflete o valor de receita preciso para Oportunidades. Nesses casos, [!DNL Marketo Measure] oferece a capacidade de configurar um Valor de receita personalizado para [!DNL Marketo Measure] para fazer referência e distribuir pelos Pontos de contato de atribuição (BATs).
+A menos que seja especificado de outra forma durante a implementação, sua instância [!DNL Marketo Measure] será definida para fazer referência ao Valor de Oportunidade padrão (Padrão SFDC) para atribuição de receita. No entanto, para muitas contas do [!DNL Marketo Measure], esse campo não reflete o valor de receita preciso para Oportunidades. Nesses casos, o [!DNL Marketo Measure] oferece a capacidade de configurar um Valor de Receita Personalizado para [!DNL Marketo Measure] para fazer referência e distribuir pelos Pontos de Contato de Atribuição (BAT).
 
 ## Prática recomendada {#best-practice}
 
-Ao configurar um Valor de receita personalizado, lembre-se das seguintes práticas recomendadas para garantir que [!DNL Marketo Measure] os dados de atribuição são precisos e consistentes!
+Ao configurar um Valor de receita personalizado, lembre-se das seguintes práticas recomendadas para garantir que os dados de atribuição do [!DNL Marketo Measure] sejam precisos e consistentes.
 
 O que deve ser lembrado:
 
 * Selecionar o campo de receita que é preciso e utilizado para todas as oportunidades
    * ARR ou Valor Total do Contrato usado recomendado
 * Não usar um campo de fórmula
-* Se você estiver usando um Valor de receita personalizado para conversões de moeda, a variável [!UICONTROL Várias Moedas do Marketo Measure] A funcionalidade é o método preferido.
-   * A variável [!DNL Marketo Measure] A funcionalidade Várias Moedas faz referência às taxas de conversão estabelecidas no [!DNL Salesforce] para melhor garantir o alinhamento entre as conversões de moeda. Isso permite que você continue utilizando o &#39;Valor&#39; padrão (Padrão SFDC) ou qualquer outro campo de Valor personalizado relacionado ao [!DNL Salesforce] taxas de conversão.
-* Se você atualizar o campo Valor desejado [!DNL Marketo Measure] para fazer referência, use o Carregador de dados para atualizar Oportunidades anteriores para garantir que os dados de receita sejam consistentes e o campo adequado seja preenchido por meio do fluxo de trabalho
+* Se você estiver usando um Valor de receita personalizado para conversões de moeda, a funcionalidade [!UICONTROL Várias Moedas do Marketo Measure] é o método preferido.
+   * A funcionalidade [!DNL Marketo Measure] Várias Moedas faz referência às taxas de conversão estabelecidas em [!DNL Salesforce] para melhor garantir o alinhamento entre as conversões de moeda. Isso permite que você continue utilizando o &#39;Valor&#39; padrão (Padrão SFDC) ou qualquer outro campo de Valor personalizado relacionado às taxas de conversão [!DNL Salesforce].
+* Se você atualizar o campo Valor que gostaria que [!DNL Marketo Measure] referenciasse, use o Carregador de Dados para atualizar Oportunidades passadas para garantir que os dados de receita sejam consistentes e que o campo apropriado seja preenchido por meio do fluxo de trabalho
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
@@ -37,10 +37,10 @@ Analisar a configuração do valor de receita anualmente garantirá que seus dad
 
 Se você estiver utilizando uma Quantia de Receita Personalizada, verifique a configuração da receita da seguinte maneira.
 
-* No seu [!DNL Marketo Measure] conta, acesse o link &#39;[!UICONTROL Oportunidades]seção &quot; no CRM
-* Identificar o [!UICONTROL Valor de oportunidade personalizado] Campo, aqui o seu [!UICONTROL API de valor de receita personalizada] o campo deve ser listado
+* Na sua conta [!DNL Marketo Measure], vá para a seção &#39;[!UICONTROL Oportunidades]&#39; no CRM
+* Identifique o campo [!UICONTROL Valor personalizado da oportunidade]. Aqui, o campo [!UICONTROL API de valor personalizado da receita] deve ser listado
 * Confirme se esse ainda é o campo correto
-* Tenha também o seu [!DNL Salesforce] O administrador confirma se o fluxo de trabalho de Valor de receita personalizada no [!DNL Salesforce] ainda está em execução
+* Peça também que o administrador [!DNL Salesforce] confirme se o fluxo de trabalho de Valor de receita personalizado em [!DNL Salesforce] ainda está em execução
 
 Além de uma revisão anual, certas alterações organizacionais podem indicar a necessidade de revisar a configuração da quantia de receita...
 
@@ -50,7 +50,7 @@ Além de uma revisão anual, certas alterações organizacionais podem indicar a
 
 >[!MORELIKETHIS]
 >
->* [Uso de um Campo de Valor de Receita Personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Utilização do Carregador de dados para atualizar o campo Valor personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Usando um Campo de Valor de Receita Personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Usando o Carregador de Dados para Atualizar o Campo de Valor Personalizado](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Visão Geral da Multimoeda](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Configurações de várias moedas](/help/advanced-marketo-measure-features/multi-currency/settings.md)

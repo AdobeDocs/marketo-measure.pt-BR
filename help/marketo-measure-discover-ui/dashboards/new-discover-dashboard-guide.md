@@ -1,5 +1,5 @@
 ---
-description: Novo Guia do painel do Discover - [!DNL Marketo Measure] - Produto
+description: Novo Guia do Painel do Discover - [!DNL Marketo Measure] - Produto
 title: Novo guia do painel do Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
@@ -29,36 +29,36 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
       <td><ul><li><strong>Receita</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li><strong>Visão geral</strong>:<ul>              <li>Painel de receitas atribuídas: gráfico de receitas atribuídas por canal ao longo do tempo</li>
             <li>Painel de ROI: Gráfico do custo ao longo do tempo</li></ul></li><li><strong>Gastos</strong>: Painel de ROI</li>
-          <li><strong>Transações</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
+          <li><strong>Contratos</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
             <strong>Custo por oferta: </strong>Painel de ROI</li>
           <li>
-            <strong>Resumo de canal/subcanal/campanha:</strong>Painel de ROI</li>
+            <strong>Resumo de Canal/Subcanal/Campanha:</strong>Painel de ROI</li>
           <li>
-            <strong>Resumo do ROI e ROI:</strong>Painel de ROI</li>
+            <strong>Resumo de ROI e ROI:</strong>Painel de ROI</li>
           <li>
             <strong>Receita do pipeline:</strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Tamanho médio do negócio: </strong>Obsoleto (veja abaixo)</li></ul>
+            <strong>Tamanho Médio do Contrato: </strong>Obsoleto (veja abaixo)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Crescimento</td>
       <td><ul>
           <li>
-            <strong>Receita e receita ao longo do tempo</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
+            <strong>Receita e Receita ao Longo do Tempo</strong>: Receita Atribuída, Visão Geral da Receita, Painéis de ROI</li>
           <li>
-            <strong>Transações</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
+            <strong>Contratos</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
             <strong>Clientes potenciais</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
             <strong>Oportunidades</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
-            <strong>Visitas e visitas ao longo do tempo</strong>: Painel de tráfego da Web</li>
+            <strong>Visitas e Visitas ao Longo do Tempo</strong>: Painel de Tráfego da Web</li>
           <li>
-            <strong>Visitas únicas e visitas únicas ao longo do tempo</strong>: Painel de tráfego da Web</li>
+            <strong>Visitas únicas e visitas únicas ao longo do tempo</strong>: painel de tráfego da Web</li>
           <li>
-            <strong>Site Forms e Site Forms ao longo do tempo</strong>: Painel de tráfego da Web</li>
+            <strong>Site Forms e Site Forms ao longo do tempo</strong>: Painel de Tráfego da Web</li>
           <li>
             <strong>Transações ao Longo do Tempo</strong>
             <strong>: </strong>Obsoleto (veja abaixo)</li>
@@ -69,10 +69,10 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
             <strong>Receita do pipeline ao longo do tempo</strong>
             <strong>: </strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Clientes Potenciais ao Longo do Tempo</strong>
+            <strong>Lead ao Longo do Tempo</strong>
             <strong>: </strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Contatos e contatos ao longo do tempo</strong>
+            <strong>Contatos e Contatos ao Longo do Tempo</strong>
             <strong>: </strong>Obsoleto (veja abaixo)</li>
           <li>
             <strong>Oportunidades ao Longo do Tempo</strong>
@@ -85,7 +85,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
       <td>
         <ul>
           <li>
-            <strong>Resumo do ROI do canal/subcanal/campanha:</strong> Painel de ROI</li>
+            <strong>Resumo do ROI do Canal/Subcanal/Campanha:</strong> Painel de ROI</li>
           <li>
             <strong>Resumo do ROI de palavras-chave e criação:</strong>Obsoleto (veja abaixo)</li>
         </ul>
@@ -98,23 +98,23 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
           <li>
             <strong>Receita</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
-            <strong>Clientes Potenciais Correspondentes</strong>: Painel de ROI</li>
+            <strong>Clientes potenciais correspondidos</strong>: painel de ROI</li>
           <li>
             <strong>Contagem de pontos de contato:</strong>Painel de ROI</li>
           <li>
             <strong>Contas envolvidas:</strong>Painel de envolvimentos</li>
           <li>
-            <strong>Oportunidades envolvidas</strong>
-            <strong>:</strong>Painel de envolvimentos</li>
+            <strong>Oportunidades Envolvidas</strong>
+            <strong>:</strong>Painel de Envolvimento</li>
           <li>
-            <strong>Indivíduos envolvidos</strong>
-            <strong>:</strong>Painel de envolvimentos</li>
+            <strong>Pessoas envolvidas</strong>
+            <strong>:</strong>Painel de Envolvimento</li>
           <li>
-            <strong>Número médio de contatos por conta: </strong>Painel de envolvimentos</li>
+            <strong>Número Médio de Toques por Conta: </strong>Painel de Envolvimento</li>
           <li>
-            <strong>Pontos de contato ao longo do tempo:</strong>Painel de envolvimentos</li>
+            <strong>Pontos de contato ao longo do tempo:</strong>Painel de Envolvimento</li>
           <li>
-            <strong>Contas por Contagem de Pontos de Contato: </strong>Painel de envolvimentos</li>
+            <strong>Contas por Contagem de Pontos de Contato: </strong>Painel de Envolvimento</li>
           <li>
             <strong>Receita do pipeline:</strong>Obsoleto (veja abaixo)</li>
         </ul>
@@ -140,25 +140,25 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
       <td>
         <ul>
           <li>
-            <strong>Visitas únicas:</strong>Painel de tráfego da Web</li>
+            <strong>Visitas Exclusivas:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Visitas:</strong>Painel de tráfego da Web</li>
+            <strong>Visitas:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Exibições de página:</strong>Painel de tráfego da Web</li>
+            <strong>Exibições da Página:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Forms do site:</strong>Painel de tráfego da Web</li>
+            <strong>Forms do Site:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Visão geral:</strong>Painel de tráfego da Web</li>
+            <strong>Visão Geral:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Resumo de tráfego na Web:</strong>Painel de tráfego da Web</li>
+            <strong>Resumo do Tráfego da Web:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Resumo do referenciador:</strong>Painel de tráfego da Web</li>
+            <strong>Resumo do Referenciador:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Visitas únicas por origem:</strong>Painel de tráfego da Web</li>
+            <strong>Visitas únicas por Source:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Visitas por origem:</strong>Painel de tráfego da Web</li>
+            <strong>Visitas por Source:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Clientes potenciais por URL do formulário:</strong>Painel de tráfego da Web</li>
+            <strong>Clientes Potenciais por URL do Formulário:</strong>Painel de Tráfego da Web</li>
           <li>
             <strong>Custo por visita única</strong>
           </li>
@@ -172,7 +172,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
             <strong>Receita por visita</strong>
           </li>
           <li>
-            <strong>Clientes potenciais por página inicial</strong>
+            <strong>Cliente em potencial por Página de Aterrissagem</strong>
           </li>
         </ul>
       </td>
@@ -192,67 +192,67 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
           <li>
             <strong>Gastos</strong>: Painel de ROI</li>
           <li>
-            <strong>Transações</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
+            <strong>Contratos</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
             <strong>Custo por oferta: </strong>Painel de ROI</li>
           <li>
-            <strong>Resumo de canal/subcanal/campanha:</strong>Painel de ROI</li>
+            <strong>Resumo de Canal/Subcanal/Campanha:</strong>Painel de ROI</li>
           <li>
             <strong>Receita do pipeline:</strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Tamanho médio do negócio: </strong>Obsoleto (veja abaixo)</li>
+            <strong>Tamanho Médio do Contrato: </strong>Obsoleto (veja abaixo)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Mídia paga</td>
-      <td>Os usuários podem aplicar filtros para canais de Mídia paga no <strong>Painel de tráfego da Web</strong>.</td>
+      <td>Os usuários podem aplicar filtros para canais de Mídia paga no <strong>Painel de Tráfego da Web</strong>.</td>
     </tr>
     <tr>
       <td>Marketing de conteúdo</td>
       <td>
         <ul>
           <li>
-            <strong>Visão geral:</strong>Painel de tráfego da Web</li>
+            <strong>Visão Geral:</strong>Painel de Tráfego da Web</li>
           <li>
-            <strong>Forms do site:</strong>
+            <strong>Forms do Site:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
             <strong>Visitas únicas:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
-            <strong>Principais páginas de aterrissagem por visitas únicas:</strong>
+            <strong>Principais Páginas de Aterrissagem por Visitas Exclusivas:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
-            <strong>Principais páginas iniciais por visitas:</strong>
+            <strong>Principais Páginas de Aterrissagem por Visitas:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
-            <strong>Páginas de aterrissagem por contagem de leads:</strong>
+            <strong>Contagem de Páginas de Aterrissagem por Cliente Potencial:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
-            <strong>Clientes potenciais:</strong>
+            <strong>Clientes em Potencial:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
             <strong>Oportunidades</strong>: receita atribuída, visão geral da receita, painéis de ROI</li>
           <li>
-            <strong>Resumo de tráfego na Web:</strong>
+            <strong>Resumo do Tráfego da Web:</strong>
             <strong></strong>Painel de tráfego da Web</li>
           <li>
-            <strong>URLs de formulário por canal</strong>
+            <strong>URLs de Formulário por Canal</strong>
             <strong>:</strong>
-            <strong></strong>Painel de tráfego da Web (filtre o bloco Forms do site por canal)</li>
+            <strong></strong>Painel de Tráfego da Web (filtrar bloco do Forms do Site por Canal)</li>
           <li>
-            <strong>Páginas de destino por receita: </strong>Obsoleto (veja abaixo)</li>
+            <strong>Páginas de Aterrissagem por Receita: </strong>Obsoleto (veja abaixo)</li>
           <li>
             <strong>Receita do pipeline: </strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Páginas de aterrissagem por receita do pipeline:</strong>Obsoleto (veja abaixo)</li>
+            <strong>Receita das Páginas de Aterrissagem por Pipeline:</strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Páginas de aterrissagem por contagem de oportunidade:</strong>Obsoleto (veja abaixo)</li>
+            <strong>Contagem de Páginas de Aterrissagem por Oportunidade:</strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Resumo do pipeline principal: </strong>Em revisão</li>
+            <strong>Resumo do pipeline de cliente potencial: </strong>Em revisão</li>
           <li>
-            <strong>Resumo do pipeline da oportunidade: </strong>Em revisão</li>
+            <strong>Resumo do pipeline de oportunidade: </strong>Em revisão</li>
         </ul>
       </td>
     </tr>
@@ -267,26 +267,26 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
       <td>
         <ul>
           <li>
-            <strong>Velocidade (Dias):</strong> Painel do Velocity</li>
+            <strong>Velocidade (Dias):</strong> Painel de Velocidade</li>
           <li>
             <strong>Velocidade do contrato por canal: </strong>Painel do Velocity</li>
           <li>
             <strong>Velocidade do lead por canal: </strong>Painel do Velocity</li>
           <li>
-            <strong>Velocidade média da transação: </strong>Painel do Velocity</li>
+            <strong>Velocidade média do contrato: </strong>Painel da Velocidade</li>
           <li>
-            <strong>Velocidade média do lead: </strong>Painel do Velocity</li>
+            <strong>Velocidade média do lead: </strong>Painel da Velocidade</li>
           <li>
-            <strong>Velocidade da oportunidade ao longo do tempo: </strong>Painel do Velocity</li>
+            <strong>Velocidade da Oportunidade ao Longo do Tempo: </strong>Painel do Velocity</li>
           <li>
-            <strong>Velocidade do lead ao longo do tempo: </strong>Painel do Velocity</li>
+            <strong>Velocidade do lead ao longo do tempo: </strong>Painel da Velocidade</li>
           <li>
-            <strong>BT/MTD ao longo do tempo:</strong>Painel de envolvimentos</li>
+            <strong>BAT/BT ao Longo do Tempo:</strong>Painel de Envolvimento</li>
           <li>
-            <strong>Oportunidades em Aberto:</strong>
+            <strong>Oportunidades Abertas:</strong>
             <strong> </strong>Obsoleto (veja abaixo)</li>
           <li>
-            <strong>Tamanho médio do negócio:</strong>
+            <strong>Tamanho Médio do Contrato:</strong>
             <strong></strong>Obsoleto (veja abaixo)</li>
           <li>
             <strong>Taxa de Ganhos:</strong>
@@ -296,7 +296,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     </tr>
     <tr>
       <td>Instantâneo</td>
-      <td>Os usuários podem obter um instantâneo dos registros filtrando por uma data específica na <strong>Painel do Passport.</strong>
+      <td>Os usuários podem obter um instantâneo dos registros filtrando uma data específica no <strong>Painel do Passport.</strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
       <td>
         <ul>
           <li>
-            <strong>Oportunidades e clientes em potencial/contatos: </strong>Painel do Passport</li>
+            <strong>Oportunidades e Clientes Potenciais/Contatos: </strong>Painel do Passport</li>
         </ul>
       </td>
     </tr>
@@ -374,7 +374,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Tamanho Médio do Negócio</strong>
+          <strong>Tamanho Médio do Contrato</strong>
         </p>
       </td>
       <td rowspan="3">Optamos por não duplicar esses pontos de dados do CRM em nossos painéis para enfatizar os insights de atribuição.</td>
@@ -382,7 +382,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Oportunidades em Aberto</strong>
+          <strong>Oportunidades Abertas</strong>
           <strong>
             <br/>
           </strong>
@@ -407,7 +407,7 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     </tr>
     <tr>
       <td>
-        <strong>Contatos ao longo do tempo</strong>
+        <strong>Contatos ao Longo do Tempo</strong>
       </td>
     </tr>
     <tr>
@@ -417,13 +417,13 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     </tr>
     <tr>
       <td>
-        <strong>Clientes Potenciais ao Longo do Tempo</strong>
+        <strong>Lead ao Longo do Tempo</strong>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Resumo do ROI de palavras-chave e criação</strong>
+          <strong>Resumo do ROI criativo e de palavras-chave</strong>
         </p>
       </td>
       <td>
@@ -459,21 +459,21 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
     <tr>
       <td>
         <p>
-          <strong>Clientes potenciais por página inicial</strong>
+          <strong>Cliente em potencial por Página de Aterrissagem</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Páginas de aterrissagem por receita</strong>
+          <strong>Páginas de Aterrissagem por Receita</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Páginas de aterrissagem por contagem de oportunidade</strong>
+          <strong>Contagem de Páginas de Aterrissagem por Oportunidade</strong>
         </p>
       </td>
     </tr>
@@ -488,15 +488,15 @@ Temos o prazer de apresentar o novo design do painel do Discover. Nossa principa
 
 ## Recursos que eliminamos {#features-weve-phased-out}
 
-**Filtrar atualizações**: para simplificar sua experiência, ajustamos nossas seleções de filtro conforme abaixo.
+**Atualizações de filtro**: para simplificar sua experiência, ajustamos nossas seleções de filtro conforme abaixo.
 
 * **Tipo de data, Métrica, Dimension, Agrupar por**: essas configurações agora são predefinidas para cada painel para otimizar a entrega de insights. Especificações detalhadas podem ser acessadas por meio de dicas de ferramentas e da documentação que as acompanha.
-* **Origem da campanha**
-* **ID e nome da conta**: Em revisão.
+* **Source da campanha**
+* **ID e Nome da Conta**: em revisão.
 
 ## Novas adições e melhorias {#new-additions-and-improvements}
 
-Novos recursos podem ser encontrados na [Descubra as noções básicas do painel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} artigo.
+Novos recursos podem ser encontrados no artigo [Noções básicas sobre o painel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}.
 
 ## Feedback {#feedback}
 

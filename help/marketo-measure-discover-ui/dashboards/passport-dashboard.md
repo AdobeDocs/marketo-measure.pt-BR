@@ -14,11 +14,11 @@ ht-degree: 3%
 
 O painel Passport oferece aos profissionais de marketing uma visualização dinâmica de clientes potenciais, contatos e oportunidades à medida que transitam por vários estágios em um período especificado. Ao filtrar por uma data específica, os usuários também podem obter um instantâneo dos registros desse dia.
 
-**Perguntas que o painel responde:**
+**Perguntas sobre as respostas do painel:**
 
 * Quantos leads, contatos ou oportunidades existiam em cada estágio não terminal em um dia escolhido?
 * Durante um período especificado, quantos Clientes Potenciais ou Contatos distintos avançaram em cada estágio transitório?
-   * _Exemplo_: Se o lead A estivesse na fase 1 em 1/1/2023 e avançasse para a fase 5 até 31/3/2023, a análise do passaporte do primeiro trimestre de 2023 contaria o lead A nas fases de 1 a 5.
+   * _Exemplo_: se o Líder A estivesse no estágio 1 em 1/1/2023 e avançasse para o estágio 5 em 31/3/2023, a análise do Passport do primeiro trimestre de 2023 contaria o Líder A nos estágios 1 a 5.
 * Quantas oportunidades únicas passaram por cada estágio transitório durante um determinado período?
 
 ## Componentes do painel {#dashboard-components}

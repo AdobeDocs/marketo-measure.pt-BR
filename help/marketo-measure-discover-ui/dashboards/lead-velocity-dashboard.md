@@ -1,5 +1,5 @@
 ---
-description: Painel da velocidade do lead - [!DNL Marketo Measure] - Produto
+description: Painel de Velocidade do Cliente Potencial - [!DNL Marketo Measure] - Produto
 title: Painel da velocidade do lead
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d

@@ -4,7 +4,7 @@ title: Configuração do Adobe Admin Console
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 

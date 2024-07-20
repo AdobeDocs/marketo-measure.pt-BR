@@ -1,5 +1,5 @@
 ---
-description: Painel de receitas atribuídas - [!DNL Marketo Measure] - Produto
+description: Painel de Receita Atribuída - [!DNL Marketo Measure] - Produto
 title: Painel de receita atribuída
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
@@ -16,9 +16,9 @@ O Painel de receita atribuída oferece uma perspectiva focada na receita diretam
 
 >[!NOTE]
 >
->Este painel está na versão beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado depois que fizermos a transição completa e garantirmos a funcionalidade ideal.
+>Este painel está no Beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado depois que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
-**Perguntas que o painel responde**:
+**Perguntas e respostas do painel**:
 
 * Quais canais, subcanais ou campanhas têm a classificação mais alta em termos de receita atribuída?
 * Qual é a quantia total de nossa receita atribuída e a contagem de nossas negociações fechadas atribuídas?
@@ -27,8 +27,8 @@ O Painel de receita atribuída oferece uma perspectiva focada na receita diretam
 
 ### Blocos de KPI {#kpi-tiles}
 
-* **Receita Atribuída**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato.
-* **Ofertas atribuídas**: o número de Oportunidades &quot;Ganhadas fechadas&quot; que têm pontos de contato.
+* **Receita atribuída**: a contribuição de receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato.
+* **Contratos Atribuídos**: o número de Oportunidades &quot;Ganhadas Fechadas&quot; que têm pontos de contato.
 
 ### Gráfico de Receita Atribuída por Canal ao Longo do Tempo {#attributed-revenue-by-channel-over-time-chart}
 
@@ -37,7 +37,7 @@ Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada po
 * Use as funcionalidades de drill-down e drill-up para categorizar os dados por Mês, Trimestre ou Ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
-**Perguntas que o gráfico responde**:
+**Perguntas sobre as respostas do gráfico**:
 
 * Quais canais geraram mais receita atribuída a cada trimestre?
 * Qual foi o detalhamento da receita atribuída por canal no mês passado?
@@ -48,7 +48,7 @@ Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada po
 
 A receita total atribuída segmentada por canal, subcanal e campanha, apresentada nos formatos Tabular e Árvore. Clique no botão no canto superior direito para alternar entre exibições.
 
-**Perguntas que o painel responde**:
+**Perguntas e respostas do painel**:
 
 * Como a distribuição da receita atribuída varia entre diferentes subcanais em um canal?
 * Quais campanhas em um determinado subcanal estão gerando a receita mais atribuída?
@@ -60,7 +60,7 @@ A receita total atribuída segmentada por canal, subcanal e campanha, apresentad
 
 ![](assets/attributed-revenue-dashboard-2.png)
 
-**Visualização em árvore**
+**Modo de Exibição de Árvore**
 
 * A visualização em árvore permite uma exploração de dados mais interativa e granular, permitindo que os profissionais de marketing identifiquem tendências, anomalias ou artistas de destaque em suas iniciativas de marketing.
 * Clique em uma ramificação para se aprofundar na camada de hierarquia subsequente.

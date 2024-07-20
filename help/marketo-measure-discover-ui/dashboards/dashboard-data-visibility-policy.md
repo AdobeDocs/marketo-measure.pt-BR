@@ -1,15 +1,16 @@
 ---
-description: Política de visibilidade de dados do painel - [!DNL Marketo Measure] - Produto
-title: Política de Visibilidade de Dados do Painel
+description: Política de Visibilidade de Dados do Painel - [!DNL Marketo Measure] - Produto
+title: Política de visibilidade de dados do painel
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
+source-git-commit: 2bfa2923119f8ece18ec68408f8098bfa6778ccf
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 11%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
-# Política de Visibilidade de Dados do Painel {#dashboard-data-visibility-policy}
+# Política de visibilidade de dados do painel {#dashboard-data-visibility-policy}
 
 Para fornecer uma melhor experiência em nossos painéis, estabelecemos políticas de visibilidade de dados para objetos dos quais relatamos. É importante observar que, à medida que você se familiariza com nossos novos painéis do Discover, você pode notar números mais baixos em comparação aos painéis antigos. Isso se deve a uma mudança em nossa metodologia de representação de dados, na qual os novos painéis agora têm diretrizes específicas de visibilidade. Ao contrário dos painéis antigos do Discover, que mostram todos os dados disponíveis, a nova versão mostra apenas os dados de acordo com a política de visibilidade. Este artigo tem como objetivo esclarecer como são as políticas de visibilidade para diferentes objetos de dados e garantir a transparência e a interpretação precisa dos dados dos relatórios.
 
@@ -30,7 +31,7 @@ Para fornecer uma melhor experiência em nossos painéis, estabelecemos polític
     <td>Para sempre</td>
   </tr>
   <tr>
-    <td>Cliente potencial</td>
+    <td>Lead</td>
     <td>Para sempre</td>
   </tr>
   <tr>

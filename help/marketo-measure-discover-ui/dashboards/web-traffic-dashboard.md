@@ -1,5 +1,5 @@
 ---
-description: Painel de tráfego da Web - [!DNL Marketo Measure] - Produto
+description: Painel de Tráfego da Web - [!DNL Marketo Measure] - Produto
 title: Painel de tráfego na web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
@@ -22,7 +22,7 @@ Perguntas que esse painel responde:
 
 ## Componentes do painel {#dashboard-components}
 
-**Blocos de KPI**
+**Blocos KPI**
 
 <table>
 <thead>

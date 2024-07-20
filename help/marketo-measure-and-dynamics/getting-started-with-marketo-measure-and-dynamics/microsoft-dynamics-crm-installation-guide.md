@@ -5,7 +5,7 @@ title: “Guia de instalação do [!DNL Microsoft Dynamics] CRM”
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 100%
 

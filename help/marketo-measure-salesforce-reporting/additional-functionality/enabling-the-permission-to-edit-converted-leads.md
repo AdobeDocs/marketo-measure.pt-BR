@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874700
-description: Ativação da permissão para editar clientes em potencial convertidos - [!DNL Marketo Measure]
+description: Habilitando a Permissão para Editar Clientes Potenciais Convertidos - [!DNL Marketo Measure]
 title: Ativação da permissão para editar leads convertidos
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
@@ -13,9 +13,9 @@ ht-degree: 9%
 
 # Ativação da permissão para editar leads convertidos {#enabling-the-permission-to-edit-converted-leads}
 
-Saiba como habilitar a permissão para editar registros de lead convertidos no [!DNL Salesforce]. [!DNL Marketo Measure] O tem a capacidade de enviar dados para seus vários objetos no Salesforce. Ao enviar para clientes em potencial, descobrimos que em alguns cenários pode ser necessário reenviar para um registro de cliente potencial que já foi convertido. Para enviarmos dados para esses registros, o usuário ao qual estamos conectados deve ter permissão para exibir e editar clientes em potencial convertidos no nível do perfil.
+Saiba como habilitar a permissão para editar registros de clientes potenciais convertidos em [!DNL Salesforce]. O [!DNL Marketo Measure] pode enviar dados para seus vários objetos no Salesforce. Ao enviar para clientes em potencial, descobrimos que em alguns cenários pode ser necessário reenviar para um registro de cliente potencial que já foi convertido. Para enviarmos dados para esses registros, o usuário ao qual estamos conectados deve ter permissão para exibir e editar clientes em potencial convertidos no nível do perfil.
 
-1. Ir para [!UICONTROL Configuração] e expanda a variável [!UICONTROL Gerenciar usuários] Agrupamento para selecionar perfis.
+1. Vá para [!UICONTROL Configuração] e expanda o agrupamento [!UICONTROL Gerenciar Usuários] para selecionar Perfis.
 
    ![](assets/1-2.png)
 

@@ -5,7 +5,7 @@ title: Garantia de consentimento com o GDPR no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 

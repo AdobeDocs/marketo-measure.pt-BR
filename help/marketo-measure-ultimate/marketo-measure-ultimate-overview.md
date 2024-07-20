@@ -4,7 +4,7 @@ title: “Visão geral do [!DNL Marketo Measure] Ultimate”
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
 

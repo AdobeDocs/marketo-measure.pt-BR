@@ -1,5 +1,5 @@
 ---
-description: Painel de envolvimentos - [!DNL Marketo Measure] - Produto
+description: Painel de Envolvimento - [!DNL Marketo Measure] - Produto
 title: Painel de engajamento
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 O Painel de engajamento rastreia meticulosamente as métricas de engajamento do usuário. Ele mostra pontos de contato, o número de pessoas envolvidas e a média de pontos de contato por pessoa. Utilize o gráfico de barras de série temporal para uma exibição mensal, trimestral ou anual e o gráfico de barras para obter insights detalhados do Canal, Subcanal e Campanha. Essa ferramenta é essencial para entender os padrões de envolvimento e ajustar as estratégias de envolvimento.
 
-Rastreamos cada interação com o cliente como pontos de contato do usuário (UTs), os pontos de dados coletados &quot;brutos&quot;, que servem como base para as métricas de engajamento em nosso painel. Nem todas as UTs evoluem para Pontos de Contato do Comprador (BTs) ou Pontos de Contato de Atribuição do Comprador (BATs), pois esses são resultados selecionados para atribuir interações específicas do cliente a atividades relacionadas à receita. É importante observar que as regras de supressão não afetam as UTs ou o painel de engajamento.
+Rastreamos cada interação com o cliente como pontos de contato do usuário (UTs), os pontos de dados coletados &quot;brutos&quot;, que servem como base para as métricas de engajamento em nosso painel. Nem todas as UTs evoluem para Pontos de contato do comprador (BT) ou Pontos de contato de atribuição do comprador (BAT), pois esses são resultados selecionados para atribuir interações específicas do cliente a atividades relacionadas à receita. É importante observar que as regras de supressão não afetam as UTs ou o painel de engajamento.
 
-* **Pontos de contato do usuário**: pontos de contato criados a partir de todos os envolvimentos.
-* **Pontos de contato do comprador**: Pontos de contato selecionados para atribuição de lead e contato. Os BTs não estão vinculados a Oportunidades e não têm receita associada.
-* **Pontos de contato da atribuição do comprador**: Pontos de contato selecionados para atribuição de Oportunidade. As MTD têm implicações em termos de receitas, uma vez que estão associadas a oportunidades.
+* **Pontos de Contato do Usuário**: pontos de contato criados a partir de todos os compromissos.
+* **Pontos de Contato do Comprador**: Pontos de contato selecionados para atribuição de Cliente Potencial e Contato. O BT não está vinculado a Oportunidades e não tem receita associada.
+* **Pontos de contato de atribuição do comprador**: pontos de contato selecionados para atribuição de oportunidade. O BAT tem implicações de receita, pois está vinculado a Oportunidades.
 
-Usar apenas BTs ou MTDs para medir o engajamento subestimaria a verdadeira extensão das interações do cliente, já que o engajamento é mais amplo do que apenas a atribuição.
+Usar somente BAT ou BT para medir o engajamento subestimaria a verdadeira extensão das interações do cliente, já que o engajamento é mais amplo do que apenas a atribuição.
 
 Perguntas que o painel responde:
 
@@ -37,7 +37,7 @@ Perguntas que o painel responde:
 ### Blocos de KPI {#kpi-tiles}
 
 * Pontos de contato: o número total de pontos de contato brutos gerados.
-   * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e MTD.
+   * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e BAT.
 * Pessoas tocadas: o número total de pessoas que têm quaisquer pontos de contato.
 * Pontos de contato por pessoa: número médio de pontos de contato por pessoa que foram tocados.
 

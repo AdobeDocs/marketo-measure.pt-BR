@@ -5,7 +5,7 @@ title: Glossário de campos do Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 100%
 

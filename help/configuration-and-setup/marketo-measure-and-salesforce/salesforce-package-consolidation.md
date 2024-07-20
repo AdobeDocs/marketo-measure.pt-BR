@@ -1,6 +1,6 @@
 ---
-description: '[!DNL Salesforce] Consolidação de pacotes - [!DNL Marketo Measure]'
-title: '[!DNL Salesforce] Consolidação de pacote'
+description: '[!DNL Salesforce] Consolidação de Pacote - [!DNL Marketo Measure]'
+title: '[!DNL Salesforce] Consolidação de Pacote'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
@@ -29,7 +29,7 @@ Há dois novos campos para aprimorar seus recursos de relatórios:
 
 ## Suporte e transição {#support-and-transition}
 
-A variável [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} O está disponível para responder a qualquer pergunta e ajudar a garantir uma transição suave para o novo pacote consolidado.
+A [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponível para responder a qualquer pergunta e ajudar a garantir uma transição suave para o novo pacote consolidado.
 
 ## Ações necessárias {#retired-actions}
 
@@ -55,14 +55,14 @@ A variável [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Suppo
 
 Não é necessário desinstalar o pacote antes de instalar o pacote consolidado. Não haverá conflitos nos campos, pois eles estão em um namespace diferente.
 
-**Como posso preencher retroativamente os dados dos meus pacotes atuais?**
+**Como posso preencher retroativamente os dados de meus pacotes atuais?**
 
-Você pode arquivar um tíquete [com suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para preenchimento retroativo e reprocessamento de dados BT/BAT para preencher os campos ID do ponto de contato e ID do formulário.
+Você pode registrar um tíquete [com Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para preenchimento retroativo e reprocessamento de dados BT/BAT para preencher os campos ID do ponto de contato e ID do formulário.
 
 **Os campos nos pacotes V1 e V2_EXT estarão disponíveis no pacote consolidado?**
 
 Sim. O pacote consolidado contém os mesmos campos em V1, com detalhamentos adicionais por objetos e campos V2_EXT por meio de campos Touchpoint.
 
-**Os relatórios que usam os campos V2_EXT podem ser recriados no pacote consolidado?**
+**Relatórios que usam campos V2_EXT podem ser recriados no pacote consolidado?**
 
-Sim. Siga as etapas na guia [Ações necessárias](#retired-actions) seção.
+Sim. Siga as etapas na seção [Ações necessárias](#retired-actions).

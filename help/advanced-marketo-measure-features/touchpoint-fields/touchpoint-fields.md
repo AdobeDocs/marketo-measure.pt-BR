@@ -1,19 +1,19 @@
 ---
 unique-page-id: 37355835
-description: Campos de ponto de contato - [!DNL Marketo Measure]
+description: Campos de Pontos de Contato - [!DNL Marketo Measure]
 title: Campos do Touchpoint
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
 
 # Campos do Touchpoint {#touchpoint-fields}
 
-Historicamente, quando os clientes iniciam com a [!DNL Marketo Measure] e, caso não tenhamos uma integração de marcação direta, nossa equipe de Sucesso do cliente ensina nossos clientes a marcar adequadamente suas páginas de aterrissagem para que eles utilizem o formato UTM correto e possamos resolver seus anúncios. Alguns desses clientes não usam UTMs, mas usam seus próprios parâmetros de marcação, o que significa que pode ser muito demorado editar todas as páginas de aterrissagem em todas as redes de anúncios com uma nova estrutura de marcação que [!DNL Marketo Measure] aplica. Para se adaptar à estrutura de marcação, agora aceitamos parâmetros personalizados que podem ser mapeados com nossas definições de regras. O objetivo é adaptar ao uso dos parâmetros de rastreamento personalizados pelos clientes para que não seja necessário exigir que eles alterem a estrutura do URL.
+Historicamente, quando os clientes embarcaram com o [!DNL Marketo Measure] e, no caso de não termos uma integração direta de marcação, nossa equipe de Sucesso do cliente instrui nossos clientes sobre como marcar adequadamente suas páginas de aterrissagem para que eles utilizem o formato UTM correto e possamos resolver seus anúncios. Alguns desses clientes não usam UTMs, mas usam seus próprios parâmetros de marcação, o que significa que pode ser muito demorado editar todas as páginas de aterrissagem em todas as redes de anúncios com uma nova estrutura de marcação imposta pelo [!DNL Marketo Measure]. Para se adaptar à estrutura de marcação, agora aceitamos parâmetros personalizados que podem ser mapeados com nossas definições de regras. O objetivo é adaptar ao uso dos parâmetros de rastreamento personalizados pelos clientes para que não seja necessário exigir que eles alterem a estrutura do URL.
 
 >[!AVAILABILITY]
 >
@@ -25,7 +25,7 @@ Historicamente, quando os clientes iniciam com a [!DNL Marketo Measure] e, caso 
 
 ## Ativação do recurso {#enabling-the-feature}
 
-No [!DNL Marketo Measure] Menu de configurações, navegue até a página Campos de ponto de contato. A partir daí, você pode ativar o recurso selecionando **Sim** em **Ativar campos calculados**. Depois que o recurso for ativado, você poderá criar Campos de ponto de contato.
+No menu Configurações de [!DNL Marketo Measure], navegue até a página Campos de ponto de contato. A partir daí, você pode habilitar o recurso selecionando **Sim** em **Habilitar Campos Calculados**. Depois que o recurso for ativado, você poderá criar Campos de ponto de contato.
 
 ![](assets/one.png)
 
@@ -35,22 +35,22 @@ Para criar um campo calculado, lembre-se de que há três ações diferentes que
 
 Extrações
 
-A variável [!UICONTROL extratos] O operador extrai o valor de um campo de outro local, como: um campo Campanha, campo Lead ou em um caso de uso mais avançado, [extrair parâmetros personalizados da página inicial](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+O operador [!UICONTROL extrai] o valor de um campo de outro local, como: um campo de Campanha, campo de cliente potencial ou, em um caso de uso mais avançado, [extrair parâmetros personalizados da página de aterrissagem](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Em seguida, ele o coloca em um Campo de Touchpoint (Consulte [Mapeia Para Exemplo](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Exemplo #1**
 
-Há um campo personalizado no Contato, campaign_source_c, que o cliente deseja colocar no Ponto de contato para fins de relatório. Você pode definir uma regra para criar um Campo calculado chamado &quot;Origem da campanha&quot; e soltar o valor nesse campo.
+Há um campo personalizado no Contato, campaign_source_c, que o cliente deseja colocar no Ponto de contato para fins de relatório. Você pode definir uma regra para criar um Campo calculado chamado &quot;Source de campanha&quot; e soltar o valor nesse campo.
 
 Meta: use o valor de um campo personalizado e coloque-o no objeto Touchpoint para facilitar a geração de relatórios.
 
-* Crie um campo calculado e rotule-o como &quot;Origem da campanha&quot;
+* Crie um campo calculado e rotule-o como &quot;Campaign Source&quot;
 * Defina a regra começando pela pesquisa do campo Contact.Campaign_Source_c
 * Use o operador &quot;extracts&quot; já que precisamos obter o valor do parâmetro
 * Para extrair a cadeia de caracteres completa do campo, usaremos a expressão &quot;(.&#42;)&quot;
 
    * **(** marca o início da extração
    * **)** marca o fim da extração
-   * **.&#42;** informa que estamos extraindo a cadeia de caracteres inteira
+   * **.&#42;** nos diz que estamos extraindo a sequência de caracteres inteira
 
 ![](assets/two.png)
 
@@ -59,7 +59,7 @@ Meta: use o valor de um campo personalizado e coloque-o no objeto Touchpoint par
 Um caso de uso comum que esse recurso permite é obter valores de parâmetros personalizados de uma string de URL. Isso é útil se você usar parâmetros diferentes de UTMs, mas quiser analisar os valores em campos de ponto de contato.
 
 **Link:** `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=5OFF` ou `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=25OFF`.\
-**Meta:** Crie um campo personalizado chamado &quot;Código de desconto&quot; e solte o valor &quot;5OFF&quot; ou &quot;25OFF&quot;, qualquer valor que for transmitido.
+**Meta:** crie um campo personalizado chamado &quot;Código de Desconto&quot; e solte o valor &quot;5OFF&quot; ou &quot;25OFF&quot;, qualquer valor que for transmitido.
 
 * Crie um campo calculado e rotule-o como &quot;Código de desconto&quot;
 * Defina a regra começando pela pesquisa do campo Touchpoint.Session.LandingPage
@@ -78,7 +78,7 @@ Um caso de uso comum que esse recurso permite é obter valores de parâmetros pe
 
 Vamos tentar um exemplo semelhante em que extraímos um código de rastreamento como: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?cid=123456`.
 
-**Meta:** Crie um Campo calculado e rotule-o como &quot;Adobe Campaign Id&quot; com o valor do parâmetro cid.
+**Meta:** Crie um Campo Calculado e rotule-o como &quot;Adobe Campaign Id&quot; com o valor do parâmetro cid.
 
 * Crie um campo calculado e rotule-o como &quot;Adobe Campaign Id&quot;
 * Defina a regra começando pela pesquisa do campo Touchpoint.Session.LandingPage
@@ -97,7 +97,7 @@ Vamos tentar um exemplo semelhante em que extraímos um código de rastreamento 
 À medida que as páginas de aterrissagem se tornam mais complicadas e você tem vários parâmetros de rastreamento, pode ser necessário criar vários campos de ponto de contato e extrair valores várias vezes, como:
 `https://www.adobe.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.
 
-**Meta:** Crie vários campos calculados para &quot;País de destino&quot; e &quot;ID de campanha personalizada&quot; com os respectivos valores dos parâmetros.
+**Meta:** criar vários Campos Calculados para &quot;País de Destino&quot; e &quot;ID de Campanha Personalizada&quot; com os respectivos valores dos parâmetros.
 
 * Crie um campo calculado e rotule-o como &quot;País de destino&quot;
 * Defina a regra começando pela pesquisa do campo Touchpoint.Session.LandingPage
@@ -106,7 +106,7 @@ Vamos tentar um exemplo semelhante em que extraímos um código de rastreamento 
 
    * **(** marca o início da extração
    * **)** marca o fim da extração
-   * **\w** informa que estamos extraindo uma palavra
+   * **\w** informa que estamos extraindo uma &quot;palavra&quot;
    * **{2}** é o número de caracteres que estamos extraindo
 
 * Crie um campo calculado e rotule-o como &quot;ID de campanha personalizada&quot;
@@ -123,7 +123,7 @@ Vamos tentar um exemplo semelhante em que extraímos um código de rastreamento 
 
 **Mapeia para**
 
-A variável [!UICONTROL mapeia para] operador cria uma tabela de valores que precisam ser traduzidos ou classificados em outro valor. Normalmente, isso assume a forma de um valor principal, em que um código representa um nome amigável e precisa ser mapeado para esse nome amigável.
+O operador [!UICONTROL maps to] cria uma tabela de valores que precisam ser traduzidos ou classificados em outro valor. Normalmente, isso assume a forma de um valor principal, em que um código representa um nome amigável e precisa ser mapeado para esse nome amigável.
 
 **Exemplo #1**
 
@@ -135,11 +135,11 @@ Há campanhas criadas para uma &quot;Promoção de fim de verão&quot; e &quot;P
 
 Agora que aprendemos a extrair e mapear para campos, vamos combinar essas ações para primeiro extrair um valor de um parâmetro e, em seguida, mapeá-lo para um nome amigável que faça um pouco mais de sentido. Vamos começar com esta landing page: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.
 
-**Meta:** Crie vários Campos calculados, onde o primeiro número é mapeado para uma Região, o segundo é mapeado para um Produto, o terceiro é mapeado para uma Iniciativa, o quarto é mapeado para uma Pessoa e o quinto é mapeado para uma Plataforma de mídia. Em seguida, mapeie o valor numérico para um &quot;nome amigável&quot;.
+**Meta:** criar vários Campos Calculados, em que o primeiro número é mapeado para uma Região, o segundo é mapeado para um Produto, o terceiro é mapeado para uma Iniciativa, o quarto é mapeado para uma Pessoa e o quinto é mapeado para uma Plataforma de Mídia. Em seguida, mapeie o valor numérico para um &quot;nome amigável&quot;.
 
 * Crie um campo calculado e rotule-o como &quot;Região&quot;
 * Defina a regra começando pela pesquisa do campo Touchpoint.Session.LandingPage
-* Usar o operador &quot;[!UICONTROL extratos]&quot; já que precisamos extrair o valor do parâmetro
+* Use o operador &quot;[!UICONTROL extracts]&quot; já que precisamos extrair o valor do parâmetro
 * Para extrair o valor &quot;04&quot;, definiremos o valor como &quot;BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}&quot;
 
    * **(** marca o início da extração
@@ -156,8 +156,8 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
 * Clique em [!UICONTROL Salvar]. Você deve salvar seu novo campo antes que ele possa estar disponível para uso na próxima regra!
 * Em seguida, devemos mapear todos os valores possíveis para os primeiros dígitos para seus nomes amigáveis
 * Crie um campo calculado e rotule-o como &quot;Region_Name&quot;
-* Defina a regra começando pela pesquisa do campo extraído. Nesse caso, [!DNL Touchpoint.Region]
-* Usar o operador &quot;[!UICONTROL mapeia para]&quot;, pois queremos criar um mapeamento para cada número para seu valor
+* Defina a regra começando pela pesquisa do campo extraído. Neste caso, [!DNL Touchpoint.Region]
+* Use o operador &quot;[!UICONTROL maps to]&quot;, pois queremos criar um mapeamento para cada número para seu valor
 * Uma tabela é exibida para listar cada mapeamento. No final, será algo assim:
 * Com base no mapeamento e no URL acima, o &quot;Region_Value&quot; para um ponto de contato com essa página inicial seria &quot;EMEA&quot;
 * Repetir a extração e o mapeamento dos 4 conjuntos de dígitos restantes
@@ -171,7 +171,7 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
 
 **Concatenadas**
 
-A variável [!UICONTROL concatenados] O operador combina valores de vários campos em um único campo. Isso é útil para criar um valor personalizado que puxa os dados em vários campos para fazer
+O operador [!UICONTROL concatenates] combina valores de vários campos em um único campo. Isso é útil para criar um valor personalizado que puxa os dados em vários campos para fazer
 
 **Exemplo #1**
 
@@ -199,11 +199,11 @@ A regra faz referência ao mesmo Campo de ponto de contato e pesquisa valores qu
 
 ## Perguntas frequentes {#faq}
 
-**Há um número máximo de campos de Touchpoint que podemos criar?**
+**Há um número máximo de Campos de Pontos de Contato que podemos criar?**
 
 Há um limite de 100 campos.
 
-**Não vejo meu novo Campo de Touchpoint que acabei de criar na lista de opções. Onde ele está?**
+**Não vejo meu novo Campo de Ponto de Contato que acabei de criar na lista de opções. Onde ele está?**
 
 Não se esqueça de salvar suas regras depois de criá-las. Se você não visualizar o novo campo, verifique se salvou. Você deve salvar o novo campo antes que ele possa estar disponível para uso na próxima regra.
 
@@ -211,17 +211,17 @@ Não se esqueça de salvar suas regras depois de criá-las. Se você não visual
 >
 >Devido ao nível de complexidade, um Campo de ponto de contato que usa o operador &quot;mapeia para&quot; não está disponível para ser usado em outro Campo de ponto de contato.
 
-**Qual expressão devo usar para extrair vários parâmetros de uma única página de aterrissagem?**
+**Que expressão devo usar para extrair vários parâmetros de uma única página de aterrissagem?**
 
 Como no Exemplo de Extração #4, é necessário criar vários campos para extrair cada um dos parâmetros. Portanto, se você tiver cinco valores diferentes, criará cinco Campos de ponto de contato para extrair cada um deles.
 
-**Por que não vejo meus novos campos na [!DNL Marketo Measure] esquema?**
+**Por que não vejo meus novos campos no esquema [!DNL Marketo Measure]?**
 
-Há trabalho adicional necessário para expor os novos campos no [!DNL Marketo Measure] Data Warehouse esquema. No momento, os campos são expostos por meio de configurações para que você possa usar os Campos de ponto de contato na criação de Segmentos ou na criação de regras de Exclusão de ponto de contato.
+Há trabalho adicional necessário para expor os novos campos no esquema de Data Warehouse [!DNL Marketo Measure]. No momento, os campos são expostos por meio de configurações para que você possa usar os Campos de ponto de contato na criação de Segmentos ou na criação de regras de Exclusão de ponto de contato.
 
-**Como posso validar se minha expressão de extração é válida e está extraindo o valor correto?**
+**Como posso validar se minha expressão de extração é válida e está obtendo o valor correto?**
 
-Há uma ferramenta online ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão aparece em verde se for válida ou em vermelho se for inválida. Além disso, a variável [!UICONTROL explicação] no canto superior direito é útil e informa o que você está extraindo.
+Há uma ferramenta online ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) que você pode executar e testar a expressão. A expressão aparece em verde se for válida ou em vermelho se for inválida. Além disso, a caixa [!UICONTROL explicação] na parte superior direita é útil e informa o que você está extraindo.
 
 ![](assets/twelve.png)
 

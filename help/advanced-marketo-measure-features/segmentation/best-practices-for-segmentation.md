@@ -4,7 +4,7 @@ title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
 

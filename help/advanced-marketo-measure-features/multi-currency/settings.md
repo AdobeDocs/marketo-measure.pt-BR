@@ -13,12 +13,12 @@ ht-degree: 1%
 
 # Configurações {#settings}
 
-Há dois bits de recursos separados vinculados a esse recurso, localizados no CRM [!UICONTROL Configurações gerais] guia: Várias Moedas e Moedas Avançadas.
+Há dois bits de recurso separados vinculados a esse recurso, localizados na guia [!UICONTROL Configurações Gerais] do CRM: Várias Moedas e Moedas Avançadas.
 
-**Várias Moedas**: ativado se o cliente utilizar mais de uma moeda única.
+**Várias Moedas**: habilitado se o cliente utilizar mais de uma moeda.
 
-**Moedas Avançadas**: um bit adicional que precisa ser ativado se o cliente usar o recurso &quot;Gerenciamento avançado de moeda&quot; do Salesforce, no qual o usuário pode definir um intervalo com base no tempo para taxas de conversão.
+**Moedas avançadas**: um bit adicional que precisa ser habilitado se o cliente usar o recurso &quot;Gerenciamento avançado de moeda&quot; do Salesforce, no qual o usuário pode definir um intervalo com base no tempo para taxas de conversão.
 
-Em seu [!UICONTROL Configurações do usuário] no [!DNL Marketo Measure] Aplicativo, exibiremos a Moeda Corporativa e qualquer Moeda Suportada obtida do CRM. Como todos esses valores são obtidos do CRM, esses campos são somente leitura e não podem ser alterados. A Moeda do painel é a moeda padrão sempre que um painel é carregado. Você pode voltar e alterar a moeda conforme necessário.
+Em suas [!UICONTROL Configurações de Usuário] no aplicativo [!DNL Marketo Measure], exibiremos a Moeda Corporativa e todas as Moedas com Suporte obtidas do CRM. Como todos esses valores são obtidos do CRM, esses campos são somente leitura e não podem ser alterados. A Moeda do painel é a moeda padrão sempre que um painel é carregado. Você pode voltar e alterar a moeda conforme necessário.
 
 ![](assets/one-1.png)

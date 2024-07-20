@@ -1,11 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Guia de implementação do Ultimate - [!DNL Marketo Measure]'
+description: Guia de Implementação do '[!DNL Marketo Measure] Ultimate - [!DNL Marketo Measure]'
 title: “Guia de implementação do [!DNL Marketo Measure] Ultimate”
 feature: Integration, Tracking, Attribution
-source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -15,7 +16,7 @@ Este artigo serve como um guia de implementação do Marketo Measure Ultimate, f
 
 ## Principais diferenças ao usar o Ultimate em relação aos níveis Padrão {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importar dados B2B por meio da AEP: espera-se que os profissionais de marketing tragam seus dados B2B (por exemplo, Conta, Oportunidade, Contato, Cliente potencial, Campanha, Membro da campanha, Atividade) por meio da AEP. Assimile de praticamente qualquer fonte de dados e várias fontes de dados do mesmo tipo para trazer todos os seus dados para atribuição.
+Importar dados B2B por meio da AEP: espera-se que os profissionais de marketing tragam seus dados B2B (por exemplo, Conta, Oportunidade, Contato, Cliente potencial, Campanha, Membro da campanha, Atividade) por meio da AEP. Assimilação a partir de quase qualquer fonte de dados, bem como de várias fontes de dados do mesmo tipo para trazer todos os seus dados para atribuição.
 
 * Use com quase qualquer CRM, não apenas o Salesforce e o Dynamics.
 * Conecte várias instâncias do CRM e/ou instâncias de MAP a uma instância do Marketo Measure.
@@ -151,7 +152,7 @@ Não importamos estágios automaticamente dos dados do usuário, portanto todas 
 
 Se os estágios não forem mapeados, o sistema não funcionará porque os dados não terão para onde ir.
 
-Se você for um cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo específicos para Cliente potencial ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Se você for cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo que são específicos para leads ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

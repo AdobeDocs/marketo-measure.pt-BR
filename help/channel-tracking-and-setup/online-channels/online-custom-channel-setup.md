@@ -5,7 +5,7 @@ title: Configuração de canal personalizado online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 

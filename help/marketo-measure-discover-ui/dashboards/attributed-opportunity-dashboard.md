@@ -1,5 +1,5 @@
 ---
-description: Painel de oportunidades atribuídas - [!DNL Marketo Measure] - Produto
+description: Painel de Oportunidades Atribuído - [!DNL Marketo Measure] - Produto
 title: Painel de oportunidades atribuídas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 O Painel de oportunidades atribuídas fornece uma visão abrangente de como os esforços de marketing contribuem para oportunidades de pipeline emergentes e maduras. Analise detalhadamente cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio de oportunidade, destacando o escopo completo da influência do marketing além das ofertas fechadas.
 
-**Perguntas que o painel responde**:
+**Perguntas sobre as respostas do painel**:
 
 * Quais canais, subcanais ou campanhas têm a classificação mais alta em termos de valor de oportunidade atribuído?
 * Qual é a quantia total de oportunidades atribuídas e a contagem de nossas oportunidades abertas e fechadas atribuídas?
@@ -23,8 +23,8 @@ O Painel de oportunidades atribuídas fornece uma visão abrangente de como os e
 
 ### Blocos de KPI {#kpi-tiles}
 
-* **Valor de oportunidade atribuído**: a contribuição da receita total, com base no modelo de atribuição escolhido, de Oportunidades fechadas e abertas com pontos de contato que foram criados no período de data filtrado.
-* **Oportunidades atribuídas**: o número de Oportunidades fechadas e abertas que têm pontos de contato.
+* **Valor de oportunidade atribuído**: a contribuição de receita total, com base no modelo de atribuição escolhido, de Oportunidades fechadas e abertas com pontos de contato que foram criados dentro do período de data filtrado.
+* **Oportunidades Atribuídas**: o número de Oportunidades Fechadas e Abertas que têm pontos de contato.
 
 ### Gráfico de Quantia de Oportunidade Atribuída por Canal ao Longo do Tempo {#attributed-opportunity-amount-by-channel-over-time-chart}
 
@@ -33,7 +33,7 @@ Gráfico de barras empilhadas exibindo o Total de oportunidades atribuídas, seg
 * Aproveite as funcionalidades de detalhamento e aumento para categorizar os dados por mês, trimestre ou ano.
 * Passe o mouse sobre um segmento de barra ou sobre o espaço entre barras para revelar informações detalhadas.
 
-**Perguntas que o gráfico responde**:
+**Perguntas sobre as respostas do gráfico**:
 
 * Quais canais geraram o valor de oportunidade mais atribuído a cada trimestre?
 * Qual foi o detalhamento do valor de oportunidade atribuído por canal no mês passado?
@@ -44,7 +44,7 @@ Gráfico de barras empilhadas exibindo o Total de oportunidades atribuídas, seg
 
 Valor total da oportunidade atribuída segmentado por canal, subcanal e campanha, apresentado nos formatos Tabular e Árvore. Clique no botão no canto superior direito para alternar entre exibições.
 
-**Perguntas que o painel responde**:
+**Perguntas e respostas do painel**:
 
 * Como a distribuição da quantidade de oportunidade atribuída varia entre diferentes subcanais em um canal?
 * Quais campanhas em um determinado subcanal estão gerando a quantidade de oportunidades mais atribuída?
@@ -53,7 +53,7 @@ Valor total da oportunidade atribuída segmentado por canal, subcanal e campanha
 
 A exibição em tabelas oferece insights claros e organizados da distribuição do valor de oportunidade atribuído. Os usuários podem discernir rapidamente os padrões de desempenho e apontar estratégias de marketing de alto impacto categorizando dados em canais, subcanais e campanhas.
 
-Clique em **+** ícone ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
+Clique no ícone **+** ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
 
 ![](assets/attributed-opportunity-dashboard-2.png)
 
