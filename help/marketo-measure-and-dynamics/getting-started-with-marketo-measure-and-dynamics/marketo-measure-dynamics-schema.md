@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Esquema Dinâmico - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Esquema do Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 67%
+source-wordcount: '1084'
+ht-degree: 66%
 
 ---
 
@@ -1177,6 +1177,8 @@ Esta lista fornece as Entidades do Dynamics Standard com as quais [!DNL Marketo 
 </table>
 
 **Campanha**
+
+As permissões de &quot;Criação&quot; do Campaign também são necessárias, além das permissões de leitura/gravação abaixo.
 
 <table> 
  <tbody> 
