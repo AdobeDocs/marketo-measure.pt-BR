@@ -5,9 +5,9 @@ title: “Guia de instalação do [!DNL Microsoft Dynamics] CRM”
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
 source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ As funções de segurança estão localizadas em **[!UICONTROL Configurações]*
 
 Para entidades personalizadas do [!DNL Marketo Measure], precisamos de permissão total em todas as entidades.
 
-As permissões de &quot;Criação&quot; do Campaign também são necessárias, além das permissões de leitura/gravação para entidades padrão.
+As permissões de “Criação” do Campaign também são necessárias, além das permissões de leitura/gravação para entidades padrão.
 
 >[!NOTE]
 >
