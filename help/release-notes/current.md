@@ -3,16 +3,47 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 67%
 
 ---
 
 # Notas de versão: 2024 {#release-notes-2024}
 
 Abaixo, você encontrará todos os recursos novos e atualizados das versões de 2024.
+
+## Versão do 4º trimestre {#q4-release}
+
+### Regras de segmento aprimoradas
+
+Agora é possível criar segmentos usando os campos Campanha e Membro da campanha, além dos campos Ponto de contato e Contato. Esse aprimoramento permite analisar e dissecar seus dados com mais eficiência no Discover.
+
+![Regras de segmento para membros](assets/campaign-member.png)
+
+### Atualização: Configuração de Tratamento de Erros para Exportações de CRM
+
+Ouvimos seus comentários sobre a abordagem de interrupção de trabalho e estamos introduzindo um novo recurso na interface do usuário do. A partir de hoje, você pode escolher se os trabalhos de exportação devem ser pausados quando ocorrerem erros. Use o novo alternador em **Minha Conta** > **Configurações** → **CRM** → **Geral**. Essa opção é ativada por padrão para melhorar a integridade e a visibilidade dos dados. No entanto, se preferir não usar esse recurso, desative-o na interface do usuário e os trabalhos de exportação serão retomados. Essa atualização foi projetada para aprimorar a confiabilidade dos processos de gerenciamento de dados e, ao mesmo tempo, oferecer maior controle.
+
+#### Principais datas e implementação em fases
+
+Disponibilidade de alternância imediata: a alternância agora está ativa na interface do usuário e é ativada por padrão para impedir que os dados sejam ignorados durante trabalhos de exportação. Se preferir que os trabalhos de exportação continuem em execução apesar de encontrar erros, desative o botão de alternância.
+
+Ativação de pausa de trabalho em 1º de outubro: a partir de 1º de outubro de 2024, se o botão estiver ativo e um erro de nível de registro for encontrado durante um trabalho de exportação, o trabalho será pausado para garantir que nenhum dado seja perdido. Esses erros geralmente ocorrem devido a permissões ausentes, regras de validação personalizadas aplicadas incorretamente ou problemas em workflows/acionadores. Você receberá notificações sobre o problema e, uma vez corrigido, o trabalho de exportação será retomado a partir do ponto de interrupção. Se você recusar a pausa do trabalho, ainda receberá notificações de problemas e, quando forem corrigidos, os registros ignorados serão automaticamente reexportados.
+
+#### Por que isso é importante
+
+**Integridade de Dados Aprimorada e Integração Futura:** Ao pausar o trabalho no primeiro sinal de um problema, evitamos a perda de dados e garantimos a precisão. Isso permite uma resolução rápida de erros, resultando em melhor qualidade de exportação de dados e confiabilidade geral do sistema.
+
+**Visibilidade imediata:** através de notificações de pulso, você receberá alertas oportunos sobre erros de permissão, permitindo respostas imediatas e minimizando possíveis impactos em suas operações.
+
+#### Apoiando sua transição
+
+Para ajudá-lo a se adaptar a essa alteração, criamos uma documentação sobre o novo recurso e descrições claras dos erros, com etapas abrangentes de solução de problemas.
+
+* NOVO DOC: configuração de tratamento de erros para exportações do CRM
+* [Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Versão do terceiro trimestre {#q3-release}
 
