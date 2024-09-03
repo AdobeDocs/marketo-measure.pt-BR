@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 67%
+ht-degree: 99%
 
 ---
 
@@ -22,25 +22,25 @@ Agora é possível criar segmentos usando os campos Campanha e Membro da campanh
 
 ![Regras de segmento para membros](assets/campaign-member.png)
 
-### Atualização: Configuração de Tratamento de Erros para Exportações de CRM
+### Atualização: configuração do tratamento de erros para exportações CRM
 
-Ouvimos seus comentários sobre a abordagem de interrupção de trabalho e estamos introduzindo um novo recurso na interface do usuário do. A partir de hoje, você pode escolher se os trabalhos de exportação devem ser pausados quando ocorrerem erros. Use o novo alternador em **Minha Conta** > **Configurações** → **CRM** → **Geral**. Essa opção é ativada por padrão para melhorar a integridade e a visibilidade dos dados. No entanto, se preferir não usar esse recurso, desative-o na interface do usuário e os trabalhos de exportação serão retomados. Essa atualização foi projetada para aprimorar a confiabilidade dos processos de gerenciamento de dados e, ao mesmo tempo, oferecer maior controle.
+Ouvimos seu feedback sobre a abordagem de interrupção de tarefa e estamos introduzindo um novo recurso na interface. A partir de hoje, você poderá determinar se as tarefas de exportação devem ser pausadas quando ocorrerem erros. Use o novo botão em **Minha Conta** > **Configurações** → **CRM** → **Geral**. Este botão fica ativado por padrão para aprimorar a integridade e a visibilidade dos dados. No entanto, se preferir não usar esse recurso, desative-o na interface e as tarefas de exportação serão retomadas. Essa atualização foi projetada para aprimorar a confiabilidade dos processos de gerenciamento de dados enquanto dá a você um maior controle.
 
-#### Principais datas e implementação em fases
+#### Principais datas e implantação em fases
 
-Disponibilidade de alternância imediata: a alternância agora está ativa na interface do usuário e é ativada por padrão para impedir que os dados sejam ignorados durante trabalhos de exportação. Se preferir que os trabalhos de exportação continuem em execução apesar de encontrar erros, desative o botão de alternância.
+Disponibilidade do botão de alternância imediata: o botão de alternância agora está ativo na interface e fica habilitado por padrão para impedir que dados sejam ignorados durante tarefas de exportação. Se preferir que as tarefas de exportação continuem em execução apesar de encontrar erros, desative o botão.
 
-Ativação de pausa de trabalho em 1º de outubro: a partir de 1º de outubro de 2024, se o botão estiver ativo e um erro de nível de registro for encontrado durante um trabalho de exportação, o trabalho será pausado para garantir que nenhum dado seja perdido. Esses erros geralmente ocorrem devido a permissões ausentes, regras de validação personalizadas aplicadas incorretamente ou problemas em workflows/acionadores. Você receberá notificações sobre o problema e, uma vez corrigido, o trabalho de exportação será retomado a partir do ponto de interrupção. Se você recusar a pausa do trabalho, ainda receberá notificações de problemas e, quando forem corrigidos, os registros ignorados serão automaticamente reexportados.
+Ativação da pausa de tarefas em 1º de outubro: a partir de 1º de outubro de 2024, se o botão de alternância estiver ativo e um erro de nível de registro for encontrado durante uma tarefa de exportação, a tarefa será pausada para garantir que nenhum dado seja perdido. Esses erros geralmente ocorrem devido à ausência de permissões, regras de validação personalizadas aplicadas incorretamente ou problemas em fluxos de trabalho/acionadores. Você receberá notificações sobre o problema e, uma vez corrigido, a tarefa de exportação será retomada a partir do ponto de interrupção. Se você recusar a pausa de tarefas, ainda receberá notificações de problemas e, quando forem corrigidos, os registros ignorados serão automaticamente reexportados.
 
 #### Por que isso é importante
 
-**Integridade de Dados Aprimorada e Integração Futura:** Ao pausar o trabalho no primeiro sinal de um problema, evitamos a perda de dados e garantimos a precisão. Isso permite uma resolução rápida de erros, resultando em melhor qualidade de exportação de dados e confiabilidade geral do sistema.
+**Integridade de dados aprimorada e integração pronta para o futuro:** ao pausar a tarefa no primeiro sinal de um problema, evitamos a perda de dados e garantimos a precisão. Isso permite uma resolução rápida de erros, aprimorando a qualidade da exportação de dados e a confiabilidade geral do sistema.
 
-**Visibilidade imediata:** através de notificações de pulso, você receberá alertas oportunos sobre erros de permissão, permitindo respostas imediatas e minimizando possíveis impactos em suas operações.
+**Visibilidade imediata:** através das notificações de pulso, você receberá alertas oportunos sobre erros de permissão, permitindo respostas imediatas e minimizando possíveis impactos em suas operações.
 
-#### Apoiando sua transição
+#### Apoio à sua transição
 
-Para ajudá-lo a se adaptar a essa alteração, criamos uma documentação sobre o novo recurso e descrições claras dos erros, com etapas abrangentes de solução de problemas.
+Para ajudar na adaptação para essa mudança, criamos uma documentação sobre o novo recurso com descrições claras de erros e etapas abrangentes de resolução de problemas.
 
 * Nova documentação: [Configuração de Tratamento de Erros para Exportações de CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
