@@ -2,10 +2,10 @@
 description: Saiba como lidar com erros em exportações do CRM
 title: Tratamento de erros para exportações do CRM
 feature: Salesforce
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 8%
 
 ---
 
@@ -15,13 +15,17 @@ O recurso Pausar em Erros de Exportação permite controlar se os trabalhos de e
 
 A configuração pode ser encontrada em **Minha Conta** > **Configurações** > **CRM** > **Geral**.
 
+![Pausar em Erros de Exportação](assets/stop-progress.png)
+
 >[!NOTE]
 >
 >Esse recurso só será visível se o recurso &quot;Exportar para CRM&quot; estiver habilitado.
 
-Quando esse recurso é ativado, o trabalho de exportação para de progredir e permanece no registro em que o erro ocorreu, até que o problema seja resolvido. Esses erros geralmente ocorrem devido a permissões ausentes, regras de validação personalizadas aplicadas incorretamente ou problemas em workflows/acionadores. A tarefa continuará a ser executada conforme agendado e tentará automaticamente exportar o registro com falha novamente até que seja bem-sucedida.
+Quando esse recurso é ativado, o trabalho de exportação para de progredir e permanece no registro em que o erro ocorreu, até que o problema seja resolvido. Esses erros geralmente ocorrem devido à ausência de permissões, regras de validação personalizadas aplicadas incorretamente ou problemas em fluxos de trabalho/acionadores. A tarefa continuará a ser executada conforme agendado e tentará automaticamente exportar o registro com falha novamente até que seja bem-sucedida.
 
 Se você optar por desativar esse recurso, um pop-up de aviso será exibido, informando que isso pode levar a inconsistências de dados. Será sua responsabilidade tratar de qualquer problema que possa surgir a partir dessas inconsistências.
+
+![Aviso de inconsistência de dados](assets/data-inconsistency.png)
 
 Em ambos os casos, se o recurso for ativado ou desativado, todos os erros de nível de registro encontrados serão registrados na tabela `ExportErrors`, e o trabalho `CRMExport_ExportError` tentará automaticamente reexportar esses registros diariamente. Isso elimina a necessidade de uma solicitação de suporte para iniciar uma reexportação, pois ela ocorrerá automaticamente sem qualquer intervenção do desenvolvedor.
 
