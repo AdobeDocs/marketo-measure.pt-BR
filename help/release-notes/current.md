@@ -3,10 +3,10 @@ description: Notas da versão atual -  [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -28,15 +28,15 @@ Ouvimos seu feedback sobre a abordagem de interrupção de tarefa e estamos intr
 
 #### Principais datas e implantação em fases
 
-Disponibilidade do botão de alternância imediata: o botão de alternância agora está ativo na interface e fica habilitado por padrão para impedir que dados sejam ignorados durante tarefas de exportação. Se preferir que as tarefas de exportação continuem em execução apesar de encontrar erros, desative o botão.
+1. **Disponibilidade de alternância imediata:** a alternância agora está ativa na interface do usuário e é habilitada por padrão para evitar que os dados sejam ignorados durante os trabalhos de exportação. Se preferir que as tarefas de exportação continuem em execução apesar de encontrar erros, desative o botão.
 
-Ativação da pausa de tarefas em 1º de outubro: a partir de 1º de outubro de 2024, se o botão de alternância estiver ativo e um erro de nível de registro for encontrado durante uma tarefa de exportação, a tarefa será pausada para garantir que nenhum dado seja perdido. Esses erros geralmente ocorrem devido à ausência de permissões, regras de validação personalizadas aplicadas incorretamente ou problemas em fluxos de trabalho/acionadores. Você receberá notificações sobre o problema e, uma vez corrigido, a tarefa de exportação será retomada a partir do ponto de interrupção. Se você recusar a pausa de tarefas, ainda receberá notificações de problemas e, quando forem corrigidos, os registros ignorados serão automaticamente reexportados.
+1. **Ativação de Pausa de Trabalho em 1º de outubro:** A partir de 1º de outubro de 2024, se o botão estiver ativo e um erro de nível de registro for encontrado durante um trabalho de exportação, o trabalho será pausado para garantir que nenhum dado seja perdido. Esses erros geralmente ocorrem devido à ausência de permissões, regras de validação personalizadas aplicadas incorretamente ou problemas em fluxos de trabalho/acionadores. Você receberá notificações sobre o problema e, uma vez corrigido, a tarefa de exportação será retomada a partir do ponto de interrupção. Se você recusar a pausa de tarefas, ainda receberá notificações de problemas e, quando forem corrigidos, os registros ignorados serão automaticamente reexportados.
 
 #### Por que isso é importante
 
-**Integridade de dados aprimorada e integração pronta para o futuro:** ao pausar a tarefa no primeiro sinal de um problema, evitamos a perda de dados e garantimos a precisão. Isso permite uma resolução rápida de erros, aprimorando a qualidade da exportação de dados e a confiabilidade geral do sistema.
+* **Integridade de dados aprimorada e integração pronta para o futuro:** ao pausar a tarefa no primeiro sinal de um problema, evitamos a perda de dados e garantimos a precisão. Isso permite uma resolução rápida de erros, aprimorando a qualidade da exportação de dados e a confiabilidade geral do sistema.
 
-**Visibilidade imediata:** através das notificações de pulso, você receberá alertas oportunos sobre erros de permissão, permitindo respostas imediatas e minimizando possíveis impactos em suas operações.
+* **Visibilidade imediata:** através das notificações de pulso, você receberá alertas oportunos sobre erros de permissão, permitindo respostas imediatas e minimizando possíveis impactos em suas operações.
 
 #### Apoio à sua transição
 
