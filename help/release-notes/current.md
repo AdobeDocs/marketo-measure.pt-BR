@@ -5,8 +5,8 @@ exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ Ouvimos seu feedback sobre a abordagem de interrupção de tarefa e estamos intr
 
 Para ajudar na adaptação para essa mudança, criamos uma documentação sobre o novo recurso com descrições claras de erros e etapas abrangentes de resolução de problemas.
 
-* Nova documentação: [Configuração de Tratamento de Erros para Exportações de CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
+* Nova documentação: [Configuração do tratamento de erros para exportações do CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Versão do terceiro trimestre {#q3-release}
