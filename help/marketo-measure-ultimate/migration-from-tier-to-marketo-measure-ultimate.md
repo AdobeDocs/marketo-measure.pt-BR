@@ -1,19 +1,17 @@
 ---
 description: Saiba mais sobre o processo de migração ao mudar da  [!DNL Marketo Measure] Assinatura em camadas para o [!DNL Marketo Measure] Ultimate.
-hide: true
-hidefromtoc: true
 title: Migração da Camada para o  [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
 # Migração do nível 1-2 para o [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
-Este artigo descreve o processo de migração para usuários que mudam da assinatura de Nível 1 ou 2 para o Marketo Measure Ultimate.
+Este artigo descreve o processo de migração para usuários que estão mudando da assinatura de Nível 1 ou 2 para o [!DNL Marketo Measure] Ultimate.
 
 >[!IMPORTANT]
 >
