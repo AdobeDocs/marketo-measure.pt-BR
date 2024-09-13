@@ -4,9 +4,9 @@ description: Usando um Campo de Valor de Receita Personalizado - [!DNL Marketo M
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Por padrão, os Pontos de Contato da Atribuição do Comprador extrairão a Quantia da Oportunidade de um dos dois campos:
 
-* Valor (padrão SFDC)
+* Valor (padrão do SFDC)
 * [!DNL Marketo Measure] Valor da oportunidade (personalizado)
 
 Se você estiver usando um campo Valor personalizado em suas Oportunidades, precisaremos configurar um fluxo de trabalho para calcular a Receita da Buyer Touchpoint. Isso requer mais conhecimento sobre o [!DNL Salesforce] e pode exigir a assistência do administrador do SFDC.
@@ -62,7 +62,7 @@ As etapas a seguir são para usuários do Salesforce Lightning. Se você ainda u
    * Insira um rótulo — o nome da API será gerado automaticamente
    * Em &quot;Como localizar registros para atualizar e definir seus valores&quot;, selecione **[!UICONTROL Usar o registro de oportunidade que acionou o fluxo]**.
    * Na seção &quot;[!UICONTROL Definir Condições de Filtro]&quot;, selecione **[!UICONTROL Sempre Atualizar Registro]** como um Requisito de Condição para Atualizar Registro.
-   * Em &quot;[!UICONTROL Definir valores de campo para o registro da campanha],&quot; no campo de, selecione o valor de oportunidade da Marketo Measure e o valor de. Em seguida, selecione o campo Valor personalizado.
+   * No campo &quot;[!UICONTROL Definir Valores de Campo para o Registro de Campanha]&quot;, selecione o Valor de Oportunidade da Marketo Measure (**bizible2_Bizible_Opportunity_Amount__c**) e o Valor de. Em seguida, selecione o campo Valor personalizado.
    * Clique em **[!UICONTROL Concluído]**.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -104,6 +104,6 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você alternou 
 
    Após concluir essas etapas, as oportunidades precisarão ser atualizadas para acionar o fluxo de trabalho para ter o novo valor do campo [!UICONTROL oportunidade personalizada].
 
-   Isso pode ser feito abrindo oportunidades por meio do Data Loader no SFDC. Encontre detalhes sobre como usar o Carregador de Dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Isso pode ser feito abrindo oportunidades por meio do Carregador de dados na SFDC. Encontre detalhes sobre como usar o Carregador de Dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 Em caso de dúvidas durante o processo, entre em contato com a Equipe de Contas do Adobe (seu Gerente de Contas) ou com o [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
