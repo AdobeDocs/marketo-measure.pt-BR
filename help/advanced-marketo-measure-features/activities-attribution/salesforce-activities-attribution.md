@@ -4,9 +4,9 @@ description: Atribuição de atividades do Salesforce - [!DNL Marketo Measure]
 title: Atribuição de atividades do Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 A integração das Atividades do Salesforce [!DNL Marketo Measure] traz registros específicos de Tarefas e Eventos para seu modelo de atribuição. Comece a rastrear itens como emails de vendas ou telefonemas de vendas que não estavam recebendo o crédito devido. Para configurar a regra de atividades, vá para [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. A partir daí, vá para a guia **[!UICONTROL Configurações]** e clique na guia **[!UICONTROL Atividades]**.
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>Esse recurso é habilitado somente para clientes de Nível 2. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
 
 Para começar, estamos introduzindo um novo conceito chamado Campanha [!DNL Marketo Measure]. Para cada regra que você definir, você vai agrupar os registros em uma Campanha [!DNL Marketo Measure] que pode nomear. Adicione várias campanhas conforme necessário. Imagine medir a eficácia de uma campanha de vendas de saída ao lado de uma campanha de mídia paga!
 
@@ -77,7 +81,7 @@ Nenhum curinga significa basicamente &quot;é igual a&quot;, portanto, certifiqu
 | **Operador** | **Caso de uso** |
 |---|---|
 | É Igual a | Valor único - correspondência exata |
-| contém | Valor único - contém valor |
+| Contains | Valor único - contém valor |
 | Corresponde a qualquer | Vários valores - Correspondência exata |
 | Corresponde a Qualquer (Contém) | Vários valores - &#42;valor&#42;, &#42;valor, &#42;valor&#42; |
 
