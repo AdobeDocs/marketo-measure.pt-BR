@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: “Guia do[!DNL Marketo Measure]”
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais iniciativas de marketing são mais eficientes na geração de receita para sua empresa.
 source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -220,7 +220,7 @@ ht-degree: 99%
    + [[!DNL Marketo Measure] Visão geral do Ultimate](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [Requisito de integridade de dados](marketo-measure-ultimate/data-integrity-requirement.md)
    + [Guia de implementação](marketo-measure-ultimate/implementation-guide.md)
-   + [Migração do nível 1-2 para o  [!DNL Marketo Measure] Ultimate](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
+   + [Migração do nível 1 – 2 para o  [!DNL Marketo Measure]  Ultimate](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
 + Diversos {#miscellaneous}
    + Outros recursos relacionados {#other-related-resources}
       + [[!DNL Marketo Measure] Manutenção](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
