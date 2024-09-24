@@ -4,10 +4,10 @@ description: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem -
 title: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+workflow-type: tm+mt
+source-wordcount: '1317'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,10 @@ Ao modificar essa configuração, lembre-se de que tamanhos de lote menores cons
 **Exibir e editar o conjunto de permissões de leads convertidos**: permite que o Marketo Measure decore leads depois que eles forem convertidos em contatos.
 
 **Caixa de seleção do usuário de marketing do Salesforce**: permite que usuários criem campanhas e usem os assistentes de importação do Campaign.
-* Permissões adicionais para “Criar” do Campaign são necessárias.
+
+* Precisamos de permissões adicionais para &quot;Criar&quot; e &quot;Atualizar&quot; o Campaign em seus CRMs.
+
+* Quando um ponto de contato é criado de uma atividade da Web, precisamos vinculá-lo a uma campanha. Como as atividades da Web não têm campanhas CRM correspondentes, precisamos criar uma para estabelecer esse link. Isso se aplica aos pontos de contato de lead e de oportunidade. A permissão de atualização é necessária porque a chamada que usamos é &quot;upsert&quot; - se o registro existe, nós o atualizamos; caso contrário, nós o criamos. Isso se aplica somente às campanhas que criamos.
 
 **Usuário padrão do Marketo Measure**: oferece ao usuário a capacidade de ler registros de objetos do Marketo Measure.
 
