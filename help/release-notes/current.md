@@ -4,9 +4,9 @@ title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ Abaixo, você encontrará todos os recursos novos e atualizados das versões de 
 
 ## Versão do 4º trimestre {#q4-release}
 
-### Comportamento de Transferência de Canal da Nova Sessão
+### Comportamento de transferência de canal para a nova sessão
 
 O canal da sessão anterior agora será transferido se uma nova sessão começar dentro de sete dias após 30 minutos de inatividade, aplicando-se apenas às visitas diretas (sem referenciador ou referenciadores internos). Após sete dias de inatividade, a sessão assumirá Direto/Outro como padrão. Os canais não diretos não serão substituídos pelos dados da sessão anterior.
 
-Além disso, as sessões que usam o logon social (Google, Microsoft ou Apple) agora são mescladas em uma sessão contínua, garantindo uma experiência mais suave. Sem essa alternância de transferência, os logons sociais poderiam criar sessões separadas devido a diferenças externas do referenciador.
+Além disso, as sessões que usam o logon a partir de redes sociais (Google, Microsoft ou Apple) agora são mescladas em uma única sessão contínua, garantindo uma experiência mais suave. Sem essa transferência, os logons a partir de redes sociais poderiam criar sessões separadas devido a diferenças externas do referenciador.
 
-Para novos clientes, a transferência de canal de sessão agora é o comportamento padrão. Os clientes existentes podem habilitar isso ativando o botão de transferência de canal de sessão em Configurações → Atribuição de todos os contatos. Após ativada, essa configuração não pode ser desfeita.
+Para novos clientes, a transferência de canal de sessão agora é o comportamento padrão. Os clientes já existentes podem habilitar essa opção ativando o botão Transferência de canal de sessão em Configurações → Atribuição de todos os contatos. Após ativada, essa configuração não poderá ser desfeita.
 
-Documentação: [Definição de sessões da Web do Marketo Measure](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Documentação: [Definição de sessões da Web do Marketo Measure](https://experienceleague.adobe.com/pt-br/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Painel de ROI da palavra-chave
 
-O novo Painel de ROI de palavra-chave oferece insights detalhados sobre o desempenho das campanhas de Pesquisa paga, fornecendo uma visão abrangente dos custos em nível de palavra-chave, da receita atribuída e dos leads e oportunidades geradas. Esse painel ajuda a avaliar o ROI de cada palavra-chave no Google Adwords, LinkedIn, Bing Ads etc.
+O novo Painel de ROI da palavra-chave oferece insights detalhados sobre o desempenho das campanhas de Pesquisa paga, fornecendo uma exibição abrangente dos custos em nível de palavra-chave, da receita atribuída e dos leads e oportunidades geradas. Esse painel ajuda a avaliar o ROI de cada palavra-chave no Google Adwords, LinkedIn, Bing Ads etc.
 
-Documentação: [Painel de ROI da palavra-chave](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Documentação: [Painel de ROI da palavra-chave](https://experienceleague.adobe.com/pt-br/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Regras de segmento aprimoradas
 
