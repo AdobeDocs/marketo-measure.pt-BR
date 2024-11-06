@@ -4,9 +4,9 @@ description: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem -
 title: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
-workflow-type: ht
-source-wordcount: '1317'
+source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+workflow-type: tm+mt
+source-wordcount: '1284'
 ht-degree: 100%
 
 ---
@@ -188,49 +188,6 @@ Essa é uma lista dos objetos padrão do [!DNL Salesforce] com os quais o [!DNL 
    <td>x</td> 
    <td> </td> 
   </tr>
- </tbody> 
-</table>
-
-**Caso**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>Campos</th> 
-   <th>Padrão/Personalizado</th> 
-   <th>Ler</th> 
-   <th>Gravar</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SuppliedEmail</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
  </tbody> 
 </table>
 
@@ -466,30 +423,6 @@ Essa é uma lista dos objetos padrão do [!DNL Salesforce] com os quais o [!DNL 
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Padrão</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>Padrão</td> 
    <td>x</td> 
    <td> </td> 
