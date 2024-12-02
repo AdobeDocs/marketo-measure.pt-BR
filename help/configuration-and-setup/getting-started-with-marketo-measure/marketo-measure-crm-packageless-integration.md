@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356027
-description: "[!DNL Marketo Measure] Integração sem Pacotes do CRM - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Integração sem Pacotes do CRM"
+description: '[!DNL Marketo Measure] Integração sem Pacotes do CRM - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Integração sem pacotes do CRM'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,4 +39,4 @@ Após concluir essas etapas, a integração deve estar operacional. Se tiver alg
 
 >[!NOTE]
 >
->Se você começar com a integração sem pacotes do [!DNL Marketo Measure] CRM, poderá instalar o pacote Salesforce ou a Solução Gerenciada do Microsoft Dynamics mais tarde.
+>Se você começar com a integração sem pacotes do [!DNL Marketo Measure] CRM, poderá instalar o pacote do Salesforce ou a Solução Gerenciada da Microsoft Dynamics mais tarde.

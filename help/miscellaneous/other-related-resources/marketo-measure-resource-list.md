@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] Lista de Recursos - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Lista de Recursos"
+description: Lista de Recursos de [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: '[!DNL Marketo Measure] Lista de recursos'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a come
 * [Configuração de canal offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [O que são parâmetros de UTM?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Práticas recomendadas UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Sincronizando campanhas do SFDC com pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+* [Sincronização das campanhas do SFDC com os pontos de contato do comprador](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Carregando gasto com marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Reconectar contas publicitárias](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Adicionando [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -42,7 +42,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a come
 
 **Solução de problemas**
 
-* [Concedendo  [!DNL Marketo Measure] Acesso de Suporte ao SFDC](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
+* [Concedendo [!DNL Marketo Measure] Acesso de Suporte ao SFDC](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
 * Contato: [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## Vídeos {#videos}
@@ -50,7 +50,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a come
 Veja alguns vídeos    ajudar você a se atualizar:
 
 * [[!DNL Marketo Measure] Treinamento de Introdução](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
-* [[!DNL Marketo Measure] Relatórios no SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45min)
+* [[!DNL Marketo Measure] Relatórios no SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45mins)
 
 **[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minutos)**
 
@@ -66,7 +66,7 @@ Tópicos abordados:
 
 **[[!DNL Marketo Measure] Relatórios no SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minutos)**
 
-Esta série de cursos foi criada como uma introdução aos relatórios de estoque do [!DNL Marketo Measure] que foram instalados no Salesforce. Esses relatórios servem como base para a maioria dos relatórios que você faz com os dados do [!DNL Marketo Measure].
+Esta série de cursos foi criada como uma introdução aos [!DNL Marketo Measure] relatórios de estoque que foram instalados no Salesforce. Esses relatórios servem como base para a maioria dos relatórios que você faz com os dados do [!DNL Marketo Measure].
 
 Tópicos abordados:
 

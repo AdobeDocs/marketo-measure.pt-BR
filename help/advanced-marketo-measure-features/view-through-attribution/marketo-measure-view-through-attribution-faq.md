@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] Perguntas Frequentes sobre Visualização por Meio de Atribuição - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Perguntas Frequentes sobre Visualização por Meio de Atribuição"
+description: '[!DNL Marketo Measure] Perguntas frequentes sobre Visualização Através de Atribuição - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
 source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 

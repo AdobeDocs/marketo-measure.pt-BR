@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874574
-description: “Campos do [!DNL Marketo Measure] em objetos padrão do  [!DNL Salesforce]  -  [!DNL Marketo Measure]”
-title: “Campos do [!DNL Marketo Measure] em objetos padrão do  [!DNL Salesforce] ”
+description: '[!DNL Marketo Measure] Campos em  [!DNL Salesforce] Objetos Padrão - [!DNL Marketo Measure]'
+title: 'Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] '
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

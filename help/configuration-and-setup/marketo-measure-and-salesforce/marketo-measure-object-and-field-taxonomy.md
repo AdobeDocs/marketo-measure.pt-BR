@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Taxonomia de Objetos e Campos - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Taxonomia de Objetos e Campos"
+description: '[!DNL Marketo Measure] Taxonomia de Objetos e Campos - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Taxonomia de objeto e campo'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 

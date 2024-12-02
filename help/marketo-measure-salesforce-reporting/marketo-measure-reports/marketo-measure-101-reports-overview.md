@@ -1,12 +1,12 @@
 ---
-description: "[!DNL Marketo Measure] 101 Visão Geral de Relatórios - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] 101 Visão Geral de Relatórios"
+description: '[!DNL Marketo Measure] 101 Visão Geral de Relatórios - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Visão geral de relatórios 101'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >
 >Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” em seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
-Todos os [!DNL Marketo Measure] clientes que usam [!DNL Marketo Measure] e [!DNL Salesforce] têm acesso à pasta &#39;Relatórios de Pontos de Contato do Comprador&#39; em suas instâncias do SFDC. Esta pasta contém vários relatórios pré-criados que podem ajudar você a começar a criar relatórios com dados do Buyer Touchpoint.
+Todos os clientes do [!DNL Marketo Measure] que usam o [!DNL Marketo Measure] e o [!DNL Salesforce] têm acesso à pasta &#39;Relatórios de Pontos de Contato do Comprador&#39; em suas instâncias do SFDC. Esta pasta contém vários relatórios pré-criados que podem ajudar você a começar a criar relatórios com dados do Buyer Touchpoint.
 
 ![](assets/bizible-101-reports-overview-1.png)
 
@@ -43,7 +43,7 @@ O objeto Pessoa do [!DNL Marketo Measure] se relaciona aos objetos Lead e Contat
 
 As duas variações de relatório a seguir usam o mesmo tipo de relatório, mas são agrupadas por métricas diferentes, ID de pessoa (email) vs. Canal de marketing. Esses são os principais relatórios de funil/meio de funil que são ótimos ao procurar explorar como seus clientes em potencial e contatos estão se envolvendo com seus esforços de marketing. Antes de qualquer personalização, os dois relatórios abaixo exibem o seguinte:
 
-**[!DNL Marketo Measure]101: Cliente Potencial/Contatos por Canal** | Uma exibição de alto nível de como seus Canais de marketing estão influenciando a criação de Clientes potenciais ou Contatos e seus envolvimentos adicionais. Este relatório é ideal para entender o engajamento total em seus Canais de marketing e quais Canais de marketing estão direcionando novos nomes na sua instância do Salesforce.
+**[!DNL Marketo Measure]101: Cliente Potencial/Contatos por Canal** | Uma exibição de alto nível de como seus Canais de marketing estão influenciando a criação de Clientes potenciais ou Contatos e seus envolvimentos adicionais. Este relatório é ideal para entender o engajamento total nos Canais de marketing e quais Canais de marketing estão direcionando novos nomes na sua instância do Salesforce.
 **[!DNL Marketo Measure]101: Cliente Potencial/Contatos por ID** | Ele exibe a história de cada pessoa [!DNL Marketo Measure] e é um relatório muito mais granular, mostrando cada indivíduo e seus pontos de contato do comprador, independentemente de o ponto de contato ter ocorrido quando ele era um cliente potencial ou um contato.
 
 **Oportunidades com pontos de contato de atribuição do comprador** | Os dois últimos relatórios &quot;_[!DNL Marketo Measure]101..._&quot; estão na parte inferior dos relatórios de funil que exibem os dados do Buyer Attribution Touchpoint relacionados a Oportunidades. O principal diferencial desses relatórios é que eles são criados a partir de _Pontos de contato de atribuição do comprador_, que estão relacionados aos dados de nível de oportunidade e oportunidade, como receita. Sempre que você deseja relatar Oportunidades ou receita atribuída, este tipo de relatório deve ser usado. Os dois relatórios abaixo usam o mesmo tipo de relatório. No entanto, são agrupados por métricas diferentes, ID da oportunidade vs Canal de marketing. Antes de qualquer personalização, os dois relatórios abaixo exibem o seguinte:

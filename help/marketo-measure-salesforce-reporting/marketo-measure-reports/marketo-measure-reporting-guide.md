@@ -1,6 +1,6 @@
 ---
-description: "[!DNL Marketo Measure] Guia de Relatórios - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Guia de Relatórios"
+description: Guia de Relatórios de [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: '[!DNL Marketo Measure] Guia de relatórios'
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 source-git-commit: 3119b1754bba49139c1a6756851ada580e09c1ef

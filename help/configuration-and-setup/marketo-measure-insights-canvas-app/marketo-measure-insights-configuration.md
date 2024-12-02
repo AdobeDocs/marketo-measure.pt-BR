@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Configuração do Insights - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Configuração do Insights"
+description: '[!DNL Marketo Measure] Configuração do Insights - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Configuração de Insights'
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 

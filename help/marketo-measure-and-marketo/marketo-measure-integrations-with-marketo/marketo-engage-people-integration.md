@@ -1,7 +1,7 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Integração de Pessoas - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Integração de Pessoas"
+description: '[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Measure]'
+title: Integração de pessoas do [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce

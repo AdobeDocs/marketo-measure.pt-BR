@@ -1,7 +1,7 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Fluxos de Trabalho de Receita para Dinâmica - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Fluxos de Trabalho de Receita para Dinâmica"
+description: Fluxos de Trabalho de Receita de [!DNL Marketo Measure] para Dynamics - [!DNL Marketo Measure]
+title: '[!DNL Marketo Measure] Fluxos de trabalho de receita para o Dynamics'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce

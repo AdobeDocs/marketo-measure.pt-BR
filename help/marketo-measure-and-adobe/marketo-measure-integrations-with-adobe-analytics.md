@@ -1,6 +1,6 @@
 ---
-description: "[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Integrações com  [!DNL Adobe Analytics]"
+description: '[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Integrações com  [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
@@ -81,7 +81,7 @@ Além dos listados abaixo, você também pode carregar todos os atributos anexad
 
 Os atributos exibidos por meio dessa integração contam com os limites de atributos contratuais em [!DNL Adobe Analytics] e [!DNL Adobe Target]. Somente atributos exibidos por meio de uma Assinatura de Atributo (etapa 5 em [Configurando a Integração](#configuring-the-integration)) são contados em relação ao limite do aplicativo assinado.
 
-## FAQs {#faqs}
+## Perguntas frequentes {#faqs}
 
 **Como altero o conjunto de atributos que desejo compartilhar por meio desta integração?**
 

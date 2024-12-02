@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Esquema Dinâmico - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Esquema do Dynamics"
+description: '[!DNL Marketo Measure] Esquema do Dynamics - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Esquema do Dynamics'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
 source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba

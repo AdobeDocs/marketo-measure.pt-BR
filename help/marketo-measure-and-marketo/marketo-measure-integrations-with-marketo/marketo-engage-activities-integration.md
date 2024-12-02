@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Integração de Atividades - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Integração de atividades"
+description: Integração de [!DNL Marketo Engage] Atividades - [!DNL Marketo Measure]
+title: Integração de atividades do [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '1660'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -93,7 +93,7 @@ Como parte da Integração geral do [!DNL Marketo Measure] e do [!DNL Marketo En
    >
    >Campos de anúncios como Conteúdo do anúncio ou Palavra-chave não estão disponíveis nesta lista, pois são reservados para nossas integrações da plataforma de anúncios.
 
-## Tipos de atividade {#activity-types}
+## Tipos de atividades {#activity-types}
 
 Alguns tipos de atividades nos fornecem a ID do programa e o Nome do programa, portanto, é fácil mapeá-los para a ID da campanha e o Nome da campanha na Buyer Touchpoint. Para outros, não há associação de programa, portanto, parte da definição de regras requer que você crie um Nome de Campanha [!DNL Marketo Measure]. Abaixo estão as listas de cada categoria:
 
@@ -120,11 +120,11 @@ Alterar cadência de criação (115)
 
 Clique em Link (3)\
 Novo lead (12)\
-Cliente Potencial de Sincronização com SFDC (19)\
+Cliente Potencial de Sincronização com o SFDC (19)\
 Converter lead (21)\
 Alterar proprietário (23)\
 Remover da lista (25)\
-Atividade da SFDC (26)\
+Atividade do SFDC (26)\
 Email Devolvido Temporariamente (27)\
 Excluir cliente em potencial do SFDC (29)\
 Mesclar clientes em potencial (32)\
@@ -136,9 +136,9 @@ Enviar alerta (38)\
 Enviar email de vendas (39)\
 Email de vendas em aberto (40)\
 Clique em E-mail de vendas (41)\
-Adicionar à campanha SFDC (42)\
-Remover da campanha SFDC (43)\
-Alterar status na campanha do SFDC (44)\
+Adicionar ao SFDC Campaign (42)\
+Remover do SFDC Campaign (43)\
+Alterar status no SFDC Campaign (44)\
 Receber email de vendas (45)\
 Campanha de solicitação (47)\
 Email de vendas rejeitado (48)\

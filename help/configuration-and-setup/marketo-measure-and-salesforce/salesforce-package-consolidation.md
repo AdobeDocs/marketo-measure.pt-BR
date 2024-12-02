@@ -1,12 +1,12 @@
 ---
-description: '[!DNL Salesforce] Consolidação de Pacote - [!DNL Marketo Measure]'
-title: '[!DNL Salesforce] Consolidação de Pacote'
+description: '[!DNL Salesforce] Consolidação de Pacotes - [!DNL Marketo Measure]'
+title: Consolidação de pacotes do [!DNL Salesforce]
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 

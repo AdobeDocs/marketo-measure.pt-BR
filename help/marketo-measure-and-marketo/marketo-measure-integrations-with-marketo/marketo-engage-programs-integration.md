@@ -1,7 +1,7 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Integração de Programas - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Integração de Programas"
+description: Integração de Programas do [!DNL Marketo Engage] - [!DNL Marketo Measure]
+title: Integração de programas do [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
@@ -22,7 +22,7 @@ Todos os níveis.
 ## Requisitos {#requirements}
 
 * Instância do Marketo de produção
-* Produção Salesforce ou instância do Microsoft Dynamics
+* Instância de produção do Salesforce ou Microsoft Dynamics
 * Qualquer assinatura paga de [!DNL Marketo Measure]
 * Sincronização de Pessoas da Marketo Habilitada ([!DNL Marketo Measure] Configurações)
 * Programas Marketo Habilitados ([!DNL Marketo Measure] Configurações)

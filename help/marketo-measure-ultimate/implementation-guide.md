@@ -1,6 +1,6 @@
 ---
-description: Guia de Implementação do '[!DNL Marketo Measure] Ultimate - [!DNL Marketo Measure]'
-title: “Guia de implementação do [!DNL Marketo Measure] Ultimate”
+description: '[!DNL Marketo Measure] Guia de Implementação Ultimate - [!DNL Marketo Measure]'
+title: Guia de implementação do [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
 source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37

@@ -1,6 +1,6 @@
 ---
-description: "[!UICONTROL Download de Dados da Descoberta] Controle de Acesso - Marketo Measure - Documentação do Produto"
-title: "[!UICONTROL Download de Dados da Descoberta] Controle de Acesso"
+description: '[!UICONTROL Controle de Acesso ao Download de Dados da Descoberta] - Marketo Measure - Documentação do Produto'
+title: Controle de Acesso do [!UICONTROL Download de Dados da Descoberta]
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
@@ -32,7 +32,7 @@ O controle [!UICONTROL Download de Dados da Descoberta] habilita [!DNL Marketo M
      <td>Somente usuários administradores podem baixar dados, incluindo os formatos PDF e CSV.</td>
     </tr>
     <tr>
-     <td><strong>Nenhum</strong></td>
+     <td><strong>None</strong></td>
      <td>Ninguém pode baixar dados, incluindo os formatos PDF e CSV.</td>
     </tr>
    </table>

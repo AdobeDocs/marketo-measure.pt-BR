@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874789
-description: "[!DNL Marketo Measure] Conjuntos de Permissões - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Conjuntos de Permissões"
+description: '[!DNL Marketo Measure] Conjuntos de permissões - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Conjuntos de permissões'
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # [!DNL Marketo Measure] Conjuntos de permissões {#marketo-measure-permission-sets}
 
-Saiba como acessar e atribuir [!DNL Marketo Measure] Conjuntos de permissões no Salesforce.
+Saiba como acessar e atribuir Conjuntos de permissões do [!DNL Marketo Measure] no Salesforce.
 
 ## [!DNL Marketo Measure] Conjuntos de permissões {#marketo-measure-permission-sets-1}
 
@@ -35,7 +35,7 @@ Para acessar e atribuir conjuntos de permissões no Salesforce:
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administrador</strong></span></td> 
-   <td><span>Oferece ao administrador do SFDC a capacidade de criar, ler, gravar e excluir registros de [!DNL Marketo Measure] objetos. A licença sob a qual [!DNL Marketo Measure] envia dados para o SFDC deve ter esse conjunto de permissões habilitado. Além disso, é recomendável que esta licença tenha a capacidade de editar clientes em potencial convertidos nos cenários em que o cliente em potencial é convertido antes de [!DNL Marketo Measure] aplicar os dados ao registro. Isso garante a precisão nos relatórios entre o Salesforce e [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Leia mais aqui</a>.</span></td> 
+   <td><span>Oferece ao administrador do SFDC a capacidade de criar, ler, gravar e excluir registros de [!DNL Marketo Measure] objetos. A licença sob a qual [!DNL Marketo Measure] envia dados para o SFDC deve ter esse conjunto de permissões habilitado. Além disso, é recomendável que esta licença tenha a capacidade de editar clientes em potencial convertidos nos cenários em que o cliente em potencial é convertido antes de [!DNL Marketo Measure] aplicar os dados ao registro. Isso garante a precisão nos relatórios entre o Salesforce e o [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Leia mais aqui</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Usuário de campanha de marketing</strong></span></td> 

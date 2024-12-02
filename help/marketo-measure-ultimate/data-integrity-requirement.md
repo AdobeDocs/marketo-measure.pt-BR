@@ -1,6 +1,6 @@
 ---
 description: '[!DNL Marketo Measure] Requisito de Integridade de Dados Ultimate - [!DNL Marketo Measure]'
-title: “Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate”
+title: Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
