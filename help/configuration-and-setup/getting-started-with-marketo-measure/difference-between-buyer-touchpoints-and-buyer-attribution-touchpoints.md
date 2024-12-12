@@ -4,7 +4,7 @@ description: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints 
 title: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -66,10 +66,10 @@ Normalmente, os clientes usam os dados do Buyer Touchpoint para entender o engaj
 
 Aqui está uma imagem de um BT no [!DNL Salesforce]:
 
-![](assets/1.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
 
 **Como é um Buyer Attribution Touchpoint no Salesforce?**
 
 Aqui está uma imagem de um BAT no [!DNL Salesforce]:
 
-![](assets/2.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
