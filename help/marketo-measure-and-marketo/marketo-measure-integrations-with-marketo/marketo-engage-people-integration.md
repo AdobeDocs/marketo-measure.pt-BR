@@ -4,7 +4,7 @@ description: '[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Meas
 title: Integração de pessoas do [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 2%
@@ -20,7 +20,7 @@ A integração de pessoas do Marketo permite que [!DNL Marketo Measure] comece a
 * Instância do Marketo de produção
 * Instância de produção [!DNL Salesforce] ou [!DNL Microsoft Dynamics]
 * Qualquer assinatura paga de [!DNL Marketo Measure]
-* SOLR habilitada (contate o [Suporte da Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) para habilitar)
+* SOLR habilitada (contate o [Suporte da Marketo](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} para habilitar)
 
 ## Como funciona {#how-it-works}
 

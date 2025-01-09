@@ -4,7 +4,7 @@ description: Integração de [!DNL Marketo Engage] Atividades - [!DNL Marketo Me
 title: Integração de atividades do [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 1%
@@ -160,9 +160,9 @@ Atividade personalizada (xxx)
 
 ## Mapeamento de canal {#channel-mapping}
 
-Para qualquer uma das regras de um Tipo de atividade com uma ID de programa, o Canal de programa do Marketo é determinado a partir do programa. Usamos o Canal do Programa para mapear para seus Canais Offline personalizados, portanto, você precisa verificar se seus canais estão configurados corretamente [conforme instruído aqui](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Para qualquer uma das regras de um Tipo de atividade com uma ID de programa, o Canal de programa do Marketo é determinado a partir do programa. Usamos o Canal do Programa para mapear para seus Canais Offline personalizados, portanto, você precisa verificar se seus canais estão configurados corretamente [conforme instruído aqui](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}.
 
-E para qualquer uma das regras de um Tipo de atividade sem uma ID de programa, seu primeiro passo foi criar um Nome de campanha. Use este Nome de Campanha para configurar seus Canais Online personalizados [dispostos aqui](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+E para qualquer uma das regras de um Tipo de atividade sem uma ID de programa, seu primeiro passo foi criar um Nome de campanha. Use este Nome de Campanha para configurar seus Canais Online personalizados [dispostos aqui](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
 
 Se os Canais das suas Atividades do Marketo não estiverem configurados corretamente, é provável que seus novos pontos de contato estejam no canal &quot;Outros&quot;.
 
