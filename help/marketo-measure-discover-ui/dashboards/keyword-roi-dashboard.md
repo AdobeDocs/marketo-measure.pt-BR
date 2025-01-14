@@ -2,9 +2,10 @@
 description: Painel de ROI de Palavra-chave - [!DNL Marketo Measure] - Produto
 title: Painel de ROI da palavra-chave
 feature: Reporting
-source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
+exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+source-git-commit: f1adf53a9bf3adbc77d52c12dbafb09a28e51178
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
@@ -31,10 +32,10 @@ Detalhe palavras-chave específicas para visualizar as oportunidades influenciad
 
 * **Palavra-chave**
 * **Campanha**
-* **ID da conta de anúncio** (em breve)
-* **Nome da Conta do Anúncio** (Em breve)
-* **ID do Grupo de Anúncios** (Em breve)
-* **Nome do Grupo de Anúncios** (Em breve)
+* **ID da Conta do Anúncio**
+* **Nome da Conta do Anúncio**
+* **ID do Grupo de Anúncios**
+* **Nome do Grupo de Anúncios**
 * **Custo**: custos totais de fontes de dados conectadas.
 * **Receita atribuída**: a contribuição de receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato que foram fechados dentro do período de data filtrado
 * **Receita atribuída realizada**: a contribuição de receita total, com base no modelo de atribuição escolhido, de Oportunidades com pontos de contato dentro do período de data filtrado, independentemente de quando elas foram fechadas.
@@ -52,10 +53,10 @@ Detalhe palavras-chave específicas para visualizar as oportunidades influenciad
 
 * **Palavra-chave**
 * **Campanha**
-* **ID da conta de anúncio** (em breve)
-* **Nome da Conta do Anúncio** (Em breve)
-* **ID do Grupo de Anúncios** (Em breve)
-* **Nome do Grupo de Anúncios** (Em breve)
+* **ID da Conta do Anúncio**
+* **Nome da Conta do Anúncio**
+* **ID do Grupo de Anúncios**
+* **Nome do Grupo de Anúncios**
 * **Custo**
 * **Novos clientes em potencial**: Número total de novos clientes em potencial gerados, incluindo clientes em potencial tocados e não tocados.
 * **Custo por Novo Cliente Potencial**: o custo médio por novo Cliente Potencial, derivado do custo total dividido pelo número total de novos Clientes Potenciais.
