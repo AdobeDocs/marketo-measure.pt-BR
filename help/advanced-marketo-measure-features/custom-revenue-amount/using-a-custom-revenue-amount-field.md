@@ -4,7 +4,7 @@ description: Usando um Campo de Valor de Receita Personalizado - [!DNL Marketo M
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 2%
@@ -104,6 +104,6 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você alternou 
 
    Após concluir essas etapas, as oportunidades precisarão ser atualizadas para acionar o fluxo de trabalho para ter o novo valor do campo [!UICONTROL oportunidade personalizada].
 
-   Isso pode ser feito abrindo oportunidades por meio do Carregador de dados na SFDC. Encontre detalhes sobre como usar o Carregador de Dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Isso pode ser feito abrindo oportunidades por meio do Carregador de dados na SFDC. Encontre detalhes sobre como usar o Carregador de Dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
 Em caso de dúvidas durante o processo, entre em contato com a Equipe de Contas do Adobe (seu Gerente de Contas) ou com o [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
