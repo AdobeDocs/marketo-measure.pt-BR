@@ -1,9 +1,9 @@
 ---
-description: '[!DNL Marketo Measure] Requisito de Integridade de Dados Ultimate - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Requisito de Integridade de Dados do Ultimate - [!DNL Marketo Measure]'
 title: Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
+source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valida os conjuntos de dados da AEP recebidos para garantir que os dados sejam suficientes e coerentes para atribuição. O não cumprimento do requisito de integridade de dados faz com que o conjunto de dados seja rejeitado pelo sistema [!DNL Marketo Measure]. Este artigo detalha o requisito de integridade de dados, fornece exemplos de consulta para inspeção de dados e recomenda uma solução para campos obrigatórios com um valor nulo.
+[!DNL Marketo Measure] valida os conjuntos de dados de entrada do AEP para garantir que os dados sejam suficientes e coerentes para atribuição. O não cumprimento do requisito de integridade de dados faz com que o conjunto de dados seja rejeitado pelo sistema [!DNL Marketo Measure]. Este artigo detalha o requisito de integridade de dados, fornece exemplos de consulta para inspeção de dados e recomenda uma solução para campos obrigatórios com um valor nulo.
 
 ## Objeto Entidade {#entity-object}
 
@@ -1322,13 +1322,13 @@ select 'addToCampaign campaign instance id', count(*) from marketo_activity wher
 union all
 select 'addToCampaign campaign key', count(*) from marketo_activity where eventType = 'leadOperation.addToCampaign' and leadOperation.addToCampaign.campaignKey.sourceKey is null
 union all
-select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceId is null
+select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceType is null
+select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceType is null
 union all
-select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
+select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
+select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
 ```
