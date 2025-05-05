@@ -72,11 +72,11 @@ Você provavelmente colocará esses novos pontos de contato em seu [Canal de mar
 >
 >começa com ( Saída&#42; )
 >
-contém ( &#42;Saída&#42; )
+>contém ( &#42;Saída&#42; )
 >
-termina com ( &#42;Saída )
+>termina com ( &#42;Saída )
 >
-Nenhum curinga significa basicamente &quot;é igual a&quot;, portanto, certifique-se de usá-los conforme necessário.
+>Nenhum curinga significa basicamente &quot;é igual a&quot;, portanto, certifique-se de usá-los conforme necessário.
 
 | **Operador** | **Caso de uso** |
 |---|---|
@@ -93,4 +93,4 @@ E por último, mas não menos importante, você tem a opção de inserir custos 
 
 >[!MORELIKETHIS]
 >
-[Perguntas frequentes sobre atribuição de atividade](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[Perguntas frequentes sobre atribuição de atividade](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

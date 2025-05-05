@@ -89,7 +89,7 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você alternou 
 
    ![](assets/using-a-custom-revenue-amount-field-12.png)
 
-1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL  como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
+1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL &#x200B; como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
 
    ![](assets/using-a-custom-revenue-amount-field-13.png)
 
