@@ -22,11 +22,11 @@ Quando instalada e configurada no Adobe Launch, a extensão [!DNL Marketo Measur
 >
 >Confira os links a seguir para saber mais sobre o Adobe Launch e suas extensões:
 >
->* [[!DNL Marketo Measure] Extensão](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Visão Geral Da Inicialização Do Adobe](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
->* [Visão Geral Da Extensão Do Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure] Extensão](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=pt-BR#catalog){target="_blank"}
+>* [Visão Geral Da Inicialização Do Adobe](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=pt-BR){target="_blank"}
+>* [Visão Geral Da Extensão Do Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=pt-BR){target="_blank"}
 
-1. Crie uma propriedade seguindo as etapas [neste artigo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Crie uma propriedade seguindo as etapas [neste artigo](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=pt-BR#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Clique na propriedade que você criou.
 

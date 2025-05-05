@@ -16,10 +16,10 @@ Este documento fornece uma visão geral do gerenciamento de solicitações indiv
 
 Você pode enviar solicitações individuais para acessar e excluir dados do consumidor de [!DNL Marketo Measure] de duas maneiras:
 
-* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Por meio da API **[!DNL Privacy Service]**. Consulte a documentação [aqui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} e a referência da API [aqui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=pt-BR){target="_blank"}.
+* Por meio da API **[!DNL Privacy Service]**. Consulte a documentação [aqui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR){target="_blank"} e a referência da API [aqui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-O [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} dá suporte a dois tipos de solicitações: acesso e exclusão de dados.
+O [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"} dá suporte a dois tipos de solicitações: acesso e exclusão de dados.
 
 Saiba como criar solicitações de Acesso e Exclusão.
 
