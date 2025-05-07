@@ -4,9 +4,9 @@ description: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem -
 title: Como o  [!DNL Marketo Measure]  e o  [!DNL Salesforce]  interagem
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Vamos analisar em alto nível a relação entre o [!DNL Marketo Measure] e o Salesforce.
 
-## Salesforce e [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce e [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 Após a criação da conta do [!DNL Marketo Measure] e a conexão com o [!DNL Salesforce], o [!DNL Marketo Measure] começa a enviar dados de marketing para a instância do CRM desde que o pacote gerenciado do [!DNL Marketo Measure] esteja instalado e o usuário do Salesforce no [!DNL Marketo Measure] tenha permissões de edição.
 
@@ -449,7 +449,19 @@ Essa é uma lista dos objetos padrão do [!DNL Salesforce] com os quais o [!DNL 
    <td>Tipo</td> 
    <td>Padrão</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>StartDate</td> 
+   <td>Padrão</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>Padrão</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>Nome</td> 
@@ -583,7 +595,7 @@ Essa é uma lista dos objetos padrão do [!DNL Salesforce] com os quais o [!DNL 
 >* Tarefa
 
 
-## Objetos personalizados do [!DNL Marketo Measure] no [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## Objetos personalizados do [!DNL Marketo Measure] no [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
 Além de criar campos personalizados nos objetos padrão do SFDC, uma vez que o pacote do [!DNL Marketo Measure] estiver instalado, ele criará alguns objetos personalizados. Abaixo está uma lista desses objetos personalizados, juntamente com uma tabela que indica os campos em que o [!DNL Marketo Measure] gravará.
 
