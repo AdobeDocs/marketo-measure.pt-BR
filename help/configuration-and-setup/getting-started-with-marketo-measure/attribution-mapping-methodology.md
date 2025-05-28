@@ -4,10 +4,10 @@ description: Metodologia de Mapeamento de Atribuição - [!DNL Marketo Measure]
 title: Metodologia de mapeamento de atribuição
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,10 @@ Vantagens: esse método de atribuição é altamente eficaz para a maioria das e
 Desvantagens: se houver SLAs sólidos de Marketing e Vendas que definem quem deveria receber crédito por quê, esse método pode ser problemático. Além disso, se as pessoas não usarem hierarquias de Conta para definir unidades de negócios específicas em uma conta maior (por exemplo: IBM), as interações de marketing específicas de uma unidade de negócios poderão se distribuir por outras oportunidades de unidade de negócios.
 
 ## Mapeamento da função do contato da oportunidade {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>Os métodos de mapeamento de função de contato só estão disponíveis para quem usa o Salesforce como seu CRM. Não está disponível para usuários do Microsoft Dynamics, devido à falta de um objeto de Função de contato nesse CRM.
 
 Embora a maioria dos clientes use o mapeamento de ID de conta, o [!DNL Marketo Measure] pode consultar as funções de contato (contatos associados à Oportunidade) em uma Oportunidade para detalhar o processo de atribuição. Isso significa que [!DNL Marketo Measure] somente enviará interações de marketing associadas às funções de contato na Oportunidade como Pontos de Contato de Atribuição do Comprador. Veja abaixo uma representação desse processo.
 
