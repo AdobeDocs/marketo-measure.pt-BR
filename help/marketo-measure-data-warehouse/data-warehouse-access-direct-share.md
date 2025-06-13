@@ -3,9 +3,9 @@ description: Acesso à Data Warehouse - Compartilhamento direto - Documentação
 title: Acesso ao Data Warehouse - Compartilhamento direto
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: bff10626589aba8c3dfe995dabde6eac1fc7809f
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 4%
 
 Para que [!DNL Marketo Measure] configure um compartilhamento direto para o data warehouse, você deve atender aos seguintes requisitos.
 
-* Você tem sua própria instância Snowflake.
-* Sua instância de Snowflake está na região de Snowflake do Azure East US 2.
-* Você fornece a [!DNL Marketo Measure] sua ID de conta Snowflake.
+* Você tem sua própria instância do Snowflake.
+* Sua instância do Snowflake está na região do Snowflake do Azure East US 2.
+* Você fornece a [!DNL Marketo Measure] sua ID de conta da Snowflake.
 
 ## Limitações {#limitations}
 
-O [!DNL Marketo Measure] só poderá configurar Compartilhamentos Diretos de Snowflake com contas localizadas no Azure East US 2 devido às limitações atuais de Compartilhamento Direto de Snowflake. Se você precisar que seus dados sejam disponibilizados em outras regiões Snowflake, recomendamos fazer uma cópia dos dados em uma conta Snowflake localizada no Azure East US 2 e usar o recurso [Replicação de Banco de Dados Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar seus dados na região/conta Snowflake de sua escolha.
+O [!DNL Marketo Measure] só poderá configurar Compartilhamentos Diretos da Snowflake com contas localizadas no Azure East US 2 (essa é uma limitação no Marketo Measure, não no Snowflake). Se você precisar que seus dados sejam disponibilizados em outras regiões do Snowflake, recomendamos fazer uma cópia dos dados em uma conta do Snowflake localizada no Azure East US 2 e usar o recurso [Replicação de Banco de Dados do Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} para copiar seus dados na região/conta do Snowflake de sua escolha.
 
-## Digite a ID da conta Snowflake {#enter-snowflake-account-id}
+## Inserir ID da conta da Snowflake {#enter-snowflake-account-id}
 
-Abra a seção **Configurações** no aplicativo Marketo Measure e navegue até a página **Data Warehouse**. Na seção **Compartilhamento Direto**, digite sua [ID de conta do Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} na caixa fornecida e clique em **Conectar**.
+Abra a seção **Configurações** no aplicativo Marketo Measure e navegue até a página **Data Warehouse**. Na seção **Compartilhamento Direto**, digite sua [ID da conta da Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} na caixa fornecida e clique em **Conectar**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
@@ -36,7 +36,7 @@ Depois que o compartilhamento for criado para a ID de conta fornecida, você dev
 
 >[!NOTE]
 >
->Você pode escolher qualquer nome de banco de dados desejado. Você pode designar os privilégios a qualquer atribuição escolhida, desde que ela exista na instância do Snowflake.
+>Você pode escolher qualquer nome de banco de dados desejado. Você pode designar os privilégios a qualquer atribuição escolhida, desde que ela exista na sua instância do Snowflake.
 
 * Usar a função de administrador da conta
 
@@ -63,4 +63,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-Para obter instruções mais detalhadas e as etapas para realizar essas etapas da interface do usuário do Snowflake, consulte [documentação do Snowflake diretamente](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
+Para obter instruções mais detalhadas e as etapas para realizar essas etapas na interface do usuário do Snowflake, consulte a [documentação da Snowflake diretamente](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
