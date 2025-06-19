@@ -4,9 +4,9 @@ description: Cenários de Estágio de Bumerangue - [!DNL Marketo Measure]
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta do Adobe (seu gerente de conta).
+>O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta da Adobe (seu gerente de conta).
 
 Abaixo estão alguns exemplos de cenários de Estágio de Bumerangue para fornecer um entendimento de como [!DNL Marketo Measure] cria pontos de contato em cada situação.
 
@@ -79,23 +79,7 @@ FT, LC e MQL, SQL, pontos de contato SAL (laranja) do lead 3 ocorreram após o p
 
 Quando os clientes em potencial 2 e 3 forem convertidos em Contatos, [!DNL Marketo Measure] não criará outro ponto de contato do OC porque só pode haver um estágio de criação de oportunidade.
 
-**Cenário 2 - [!UICONTROL Três clientes em potencial com Oportunidade]**
-
-Neste cenário, um cliente optou por rastrear os estágios de **MQL**, **SQL** e **SAL** com pontos de contato de bumerangue.
-
-Todos os pontos de contato do lead 1 estão incluídos na oportunidade, de FT a SAL-01 (Last). O ponto de contato LC do lead 2 será incluído como um ponto de contato de formulário entre os pontos de contato LC e MQL-01 na oportunidade.
-
-![](assets/5.png)
-
-O MQL-01 (Último) do Lead 2 acaba sendo o ponto de contato MQL-04 (Último) na Oportunidade. Como esse cenário aborda várias jornadas de clientes potenciais em uma oportunidade, o posicionamento e a numeração dos pontos de contato dos clientes potenciais podem mudar quando forem traduzidos como pontos de contato na oportunidade. Da mesma forma, o SQL-01 (Último) do Lead 2 torna-se o SQL-04 (Último) no Opp. O SAL-01 (Último) do lead 2 também se torna o SAL-02 (Último) da Oportunidade.
-
-Há apenas 2 pontos de contato SAL incluídos na oportunidade. [!DNL Marketo Measure] não tentará forçar/criar pontos de contato para transições de estágio se eles não tiverem ocorrido.
-
-A jornada do ponto de contato do lead 3 começa pouco antes do toque do OC ocorrer, mas muito depois do toque do Lead 1 e do Lead 2 em FT e LC. Nesse caso, o FT e o LC do lead 3 aparecem como um ponto de contato de formulário na oportunidade. O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC.
-
-Os toques de MQL, SQL e SAL do lead 3 ocorrem ao mesmo tempo, após o toque de OC. Como ocorreram após o ponto de contato do OC, esse ponto de contato aparecerá como um Formulário/Meio de Contato na Oportunidade em vez de uma transição de estágio de Bumerangue.
-
-**Cenário 2a - Pontos de Contato do Boomerang de Visitas à Web**
+**Cenário 2 - Pontos de Contato do Bumerangue de Visitas na Web**
 
 Neste cenário, um cliente optou por rastrear os estágios de **MQL**, **SQL** e **SAL** com pontos de contato de bumerangue. Esse cenário é quase idêntico ao acima, com algumas exceções.
 
