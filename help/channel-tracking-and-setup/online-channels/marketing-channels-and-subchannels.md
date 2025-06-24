@@ -4,9 +4,9 @@ description: Canais e subcanais de marketing -  [!DNL Marketo Measure]
 title: Canais e subcanais de marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Os subcanais são a segunda peça do quebra-cabeça ao compartimentar seus leads
 
 O diagrama abaixo ilustra um exemplo de canal de marketing, subcanal e conteúdo com base em uma página da Web com o seguinte URL:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
 Nesse caso, o conteúdo que a pessoa está tentando acessar é o Guia de introdução à atribuição de marketing B2B. O [!DNL Marketo Measure] analisará o URL que leva a esse conteúdo usando as Regras de canal configuradas nesta organização e as usará para “compartimentar” esse lead no canal de marketing “Social pago” e no subcanal “LinkedIn”.
 
