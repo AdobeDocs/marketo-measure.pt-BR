@@ -4,9 +4,9 @@ description: Cenários de Estágio de Bumerangue - [!DNL Marketo Measure]
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
+source-git-commit: 855ae5abe6f8782ed1883f85be545c11bf86e7ce
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,9 @@ Os pontos de contato FT e LC na oportunidade vêm do lead 1 (azul), porque ocorr
 
 O MQL-01 (Último) do Lead 2 se tornará o primeiro MQL na oportunidade. O MQL-01 do lead 1 não aparecerá como um ponto de contato na oportunidade porque o MQL do lead 2 ocorreu primeiro. No entanto, o MQL-02 e o MQL-03 do lead 1 aparecerão na oportunidade.
 
-O estágio SQL está sendo rastreado com estágios personalizados, e não estágios de bumerangue. Mesmo que haja três ocorrências do estágio SQL entre o Lead 1 e o Lead 2, somente a última ocorrência SQL será incluída como um ponto de contato na Oportunidade.
+O estágio SQL está sendo rastreado com estágios personalizados, e não estágios bumerangue. Mesmo que haja três ocorrências do estágio SQL entre o Lead 1 e o Lead 2, somente a última ocorrência SQL será incluída como um ponto de contato na Oportunidade.
 
-O ponto de contato SAL-01 (Último) do lead 1 é transportado como um ponto de contato na oportunidade. O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC. O (último) ponto de contato SAL-01 do lead 2 será criado como um ponto de contato porque esta transição de estágio ocorreu _após_ o toque de OC.
+O ponto de contato SAL-01 (Último) do lead 1 é transportado como um ponto de contato na oportunidade. O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC. O (último) ponto de contato SAL-01 do lead 2 não será criado como um ponto de contato porque esta transição de estágio ocorreu _após_ o toque de OC.
 
 FT, LC e MQL, SQL, pontos de contato SAL (laranja) do lead 3 ocorreram após o ponto de contato OC na oportunidade. Esses pontos de contato são incluídos na Oportunidade, mas são considerados &quot;contatos intermediários&quot;.
 
