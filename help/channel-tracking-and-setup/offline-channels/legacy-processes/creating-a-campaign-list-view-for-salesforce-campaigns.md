@@ -44,4 +44,4 @@ A exibição de lista do Campaign que pode ser criada permite que você tenha um
 
 >[!MORELIKETHIS]
 >
->[Resolvendo problemas comuns com a Edição Embutida do Modo de Exibição de Lista](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Resolvendo problemas comuns com a Edição Embutida do Modo de Exibição de Lista](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

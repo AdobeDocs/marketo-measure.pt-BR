@@ -64,7 +64,7 @@ Não se esqueça de definir regras diferentes para Tarefas ou Eventos. Você dev
 
 ![](assets/5.png)
 
-Você provavelmente colocará esses novos pontos de contato em seu [Canal de marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Canais){target="_blank"} apropriado. Faça isso definindo o Canal com o novo mapeamento de campanha que acabou de ser criado.
+Você provavelmente colocará esses novos pontos de contato em seu [Canal de marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Canais){target="_blank"} apropriado. Faça isso definindo o Canal com o novo mapeamento de campanha que acabou de ser criado.
 
 >[!TIP]
 >
@@ -87,7 +87,7 @@ Você provavelmente colocará esses novos pontos de contato em seu [Canal de mar
 
 ![](assets/6.png)
 
-E por último, mas não menos importante, você tem a opção de inserir custos para seus novos canais. O [carregamento de Gastos com marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Gastos){target="_blank"} permite inserir seu gasto no nível do canal, do Subcanal ou da Campanha. Com suas novas Campanhas [!DNL Marketo Measure], você pode adicionar esses custos relacionados por mês e, em seguida, ver o ROI de cada Campanha!
+E por último, mas não menos importante, você tem a opção de inserir custos para seus novos canais. O [carregamento de Gastos com marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Gastos){target="_blank"} permite inserir seu gasto no nível do canal, do Subcanal ou da Campanha. Com suas novas Campanhas [!DNL Marketo Measure], você pode adicionar esses custos relacionados por mês e, em seguida, ver o ROI de cada Campanha!
 
 ![](assets/7.png)
 

@@ -101,7 +101,7 @@ O Google URL Builder é uma ferramenta padrão para criar URLs formatados corret
 
 **Planilha do Google gerada por EpikOne**
 
-Esta planilha tem uma fórmula que gerará automaticamente URLs de destino marcados. Essa é uma ótima ferramenta para ser usada se um grande número de links precisar ser marcado. Acesse a planilha [aqui](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
+Esta planilha tem uma fórmula que gerará automaticamente URLs de destino marcados. Essa é uma ótima ferramenta para ser usada se um grande número de links precisar ser marcado. Acesse a planilha [aqui](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
 
 **Ferramenta De Marcação De Link Rafflecopter**
 

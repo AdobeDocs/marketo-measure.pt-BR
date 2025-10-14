@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Ao mesclar clientes em potencial no [!DNL Salesforce], é sempre melhor ter cuidado para garantir que nenhum dado seja perdido.
 
-Para sua referência, aqui está um detalhamento de [como mesclar clientes em potencial](https://help.salesforce.com/s/articleView?id=leads_merge.htm&amp;language=en_US&amp;type=5) do Suporte [!DNL Salesforce].
+Para sua referência, aqui está um detalhamento de [como mesclar clientes em potencial](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) do Suporte [!DNL Salesforce].
 
 A localização na qual [!DNL Marketo Measure] entra é quando é hora de selecionar campos que são preenchidos no registro mesclado. Após selecionar o Registro Mestre, valide se os campos [!DNL Marketo Measure] estão selecionados para serem transferidos para o novo registro.
 

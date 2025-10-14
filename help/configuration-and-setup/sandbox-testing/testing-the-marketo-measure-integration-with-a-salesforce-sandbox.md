@@ -19,7 +19,7 @@ ht-degree: 10%
 
 Uma das funcionalidades principais do [!DNL Marketo Measure] é a capacidade de acompanhar seus esforços de marketing digital por meio de ações em seu site e, em seguida, enviar esses dados para sua produção [!DNL Salesforce org] por meio de clientes potenciais e contatos. No entanto, normalmente não há leads de entrada criados em seu site em uma integração de sandbox, portanto, o foco nos dados será de uma perspectiva puramente offline.
 
-Estas são as duas fontes referenciadas para as duas fases do teste. [Etapas 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&amp;language=en_US&amp;type=5) e [Etapas 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). É recomendável revisar esses documentos, pois eles fornecem mais detalhes em algumas áreas.
+Estas são as duas fontes referenciadas para as duas fases do teste. [Etapas 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) e [Etapas 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). É recomendável revisar esses documentos, pois eles fornecem mais detalhes em algumas áreas.
 
 1. Você precisa criar alguns clientes em potencial em um CSV para carregá-los em uma campanha. A maneira de fazer isso é exportar alguns clientes em potencial por meio de um relatório na Salesforce de produção. Caso contrário, você pode criar manualmente os clientes em potencial em um arquivo do Excel e salvá-lo como um CSV para importação. Você só precisa de cerca de 20 registros. O arquivo deve ter as seguintes colunas:
 

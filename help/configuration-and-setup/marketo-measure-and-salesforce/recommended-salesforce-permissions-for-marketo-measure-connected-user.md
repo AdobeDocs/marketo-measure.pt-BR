@@ -27,7 +27,7 @@ O conjunto de permissões gerenciadas oferece a um administrador do SFDC a capac
 
 * Exibir e editar conjuntos de permissões de clientes em potencial convertidos
 
-Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver ativado, poderá haver lacunas significativas no rastreamento de dados. Você pode encontrar mais informações na [[!DNL Salesforce Trailblazer] comunidade](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
+Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver ativado, poderá haver lacunas significativas no rastreamento de dados. Você pode encontrar mais informações na [[!DNL Salesforce Trailblazer] comunidade](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * Caixa de seleção de usuário de marketing [!DNL Salesforce]
 

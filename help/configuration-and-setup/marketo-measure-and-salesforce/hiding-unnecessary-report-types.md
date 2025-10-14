@@ -29,4 +29,4 @@ Após concluir a instalação e começar a usar relatórios, nem todos os relat�
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Ocultar Tipos de Relatórios Não Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)
+>[Salesforce - Ocultar Tipos de Relatórios Não Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
