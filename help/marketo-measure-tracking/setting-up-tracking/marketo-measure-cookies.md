@@ -97,7 +97,7 @@ Saiba mais sobre os vários Cookies do [!DNL Marketo Measure] carregados no site
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Terceiro, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>Terceiro, domain=.<a href="https://business.adobe.com/br/products/marketo/bizible.html">bizible.com</a></td>
     <td>ID de usuário universal para identificar um usuário em vários domínios.</td>
     <td>1 ano</td>
     <td>Sim</td>
