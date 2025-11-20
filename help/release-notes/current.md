@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
 workflow-type: tm+mt
 source-wordcount: '1375'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Documentação: [Definição de sessões da Web do Marketo Measure](https://expe
 
 O novo Painel de ROI da palavra-chave oferece insights detalhados sobre o desempenho das campanhas de Pesquisa paga, fornecendo uma exibição abrangente dos custos em nível de palavra-chave, da receita atribuída e dos leads e oportunidades geradas. Esse painel ajuda a avaliar o ROI de cada palavra-chave no Google Adwords, LinkedIn, Bing Ads etc.
 
-Documentação: [Painel de ROI da palavra-chave](https://experienceleague.adobe.com/pt-br/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Documentação: [Painel de ROI da palavra-chave](https://experienceleague.adobe.com/pt-br/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Regras de segmento aprimoradas
 
@@ -44,7 +44,7 @@ Ouvimos seu feedback sobre a abordagem de interrupção de tarefa e estamos intr
 
 #### Principais datas e implantação em fases
 
-1. **Disponibilidade do botão de alternância imediata:** o botão de alternância agora está disponível na interface e fica habilitado por padrão para impedir que dados sejam ignorados durante tarefas de exportação. Se preferir que as tarefas de exportação continuem em execução apesar de encontrar erros, desative o botão.
+1. **Disponibilidade do botão de alternância imediata:** o botão de alternância agora está disponível na interface e fica habilitado por padrão para impedir que dados sejam ignorados durante tarefas de exportação. Se preferir que as tarefas de exportação continuem em execução apesar de encontrar erros, desative o botão de alternância.
 
 1. **Ativação da pausa de tarefas em 1º de outubro:** a partir de 1º de outubro de 2024, se o botão de alternância estiver ativo e um erro de nível de registro for encontrado durante uma tarefa de exportação, a tarefa será pausada para garantir que nenhum dado seja perdido. Esses erros geralmente ocorrem devido à ausência de permissões, regras de validação personalizadas aplicadas incorretamente ou problemas em fluxos de trabalho/acionadores. Você receberá notificações sobre o problema e, uma vez corrigido, a tarefa de exportação será retomada a partir do ponto de interrupção. Se você recusar a pausa de tarefas, ainda receberá notificações de problemas e, quando forem corrigidos, os registros ignorados serão automaticamente reexportados.
 
@@ -67,7 +67,7 @@ Para ajudar na adaptação para essa mudança, criamos uma documentação sobre 
 
 ### Lembrete: descontinuação do campo Salesforce - 14 de junho
 
-Conforme anunciado no ano passado, [eliminaremos gradualmente nossas tarefas de exportação para objetos Lead/Contato](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} a fim de simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos touchpoint seguindo as etapas [documentadas aqui](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto lead/contato. A descontinuação entrará em vigor em 14 de junho de 2024.
+Conforme anunciado no ano passado, vamos [eliminar gradualmente nossos trabalhos de exportação para objetos de Cliente Potencial/Contato](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} para simplificar nossa integração e eliminar a necessidade de exportar para objetos padrão do Salesforce. Você pode obter os mesmos dados de seus objetos touchpoint seguindo as etapas [documentadas aqui](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Também compartilharemos a documentação sobre como criar fluxos de trabalho para adicionar esses dados ao objeto lead/contato. A descontinuação entrará em vigor em 14 de junho de 2024.
 
 Essa alteração trará dois benefícios principais:
 
@@ -78,7 +78,7 @@ Essa alteração trará dois benefícios principais:
 
 Estamos animados em apresentar o novo [Painel de oportunidades atribuídas](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, criado para fornecer uma visão abrangente de como seus esforços de marketing contribuem para oportunidades de pipeline nascentes e maduras.  Esse painel permite um aprofundamento nos detalhes de cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio da oportunidade. Ele fornece insights sobre quais canais, subcanais ou campanhas estão na classificação mais alta em termos de quantidade de oportunidades atribuídas, e exibe a quantidade total de oportunidades atribuídas, juntamente com a contagem de oportunidades atribuídas abertas e fechadas.
 
-### Sincronização de cookies do Marketo Engage para Marketo Measure Ultimate
+### Sincronização de cookies do Marketo Engage para o Marketo Measure Ultimate
 
 A Sincronização de cookies do Marketo Engage agora está disponível para o Marketo Measure Ultimate. Para usar este recurso:
 
@@ -103,7 +103,7 @@ Anteriormente disponível apenas para clientes de nível 3, o recurso “Estági
 
 Em resposta aos crescentes receios em relação à privacidade, os cookies de terceiros estão sendo descontinuados gradualmente, sendo que o prazo final no terceiro trimestre de 2024 do Google Chrome sinalizará seu fim. O Marketo Measure descontinuará certos recursos que dependem de cookies de terceiros, mais especificamente, o rastreamento entre domínios e a atribuição de viewthrough, que dependem do cookie de impressão do Google/DoubleClick. Essa alteração não afetará outras funcionalidades do Marketo Measure nem o uso de cookies próprios. Seguindo o cronograma do Google, espera-se que essas funcionalidades sejam descontinuadas até 1º de junho, mas os dados coletados antes dessa data continuarão acessíveis para os clientes.
 
-* [Adaptação à descontinuação de cookies de terceiros no Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
+* [Adaptando-se à descontinuação de cookies de terceiros no Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Cookies do Marketo Measure](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Implantação em fases de nosso tratamento de erros aprimorado
@@ -125,6 +125,6 @@ Para ajudar na adaptação para essa mudança, [criamos uma documentação](/hel
 
 <br>
 
-### Ação necessária para a integração do LinkedIn
+### Ação necessária para a integração com o LinkedIn
 
 O LinkedIn lançou recentemente uma versão atualizada de sua API Lead Sync. Autentique novamente a conexão com o LinkedIn na sua instância do Marketo Measure até 20 de maio para evitar interrupções.
