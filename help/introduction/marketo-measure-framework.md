@@ -35,7 +35,7 @@ O JS do Marketo Measure captura dados de visitas da web (incluindo visitas anôn
 
 O Marketo Measure integra-se com CRMs para hospedar e organizar todos os dados capturados pelo JS do Marketo Measure. Atualmente, o Marketo Measure tem integrações de API com dois CRMs:
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 Ao encontrar os dados do Marketo Measure no seu CRM, você poderá ver informações detalhadas sobre cada ponto de contato e gerar relatórios para entender o desempenho dos canais.
 
@@ -43,7 +43,7 @@ Ao encontrar os dados do Marketo Measure no seu CRM, você poderá ver informaç
 
 A maioria dos profissionais de marketing depende de alguns aplicativos diferentes para colocar suas iniciativas de marketing em prática. Além do Salesforce e do MS Dynamics, o Marketo Measure é integrado a 13 aplicativos de terceiros (listados abaixo).
 
-![ 1](assets/2-1.png)
+![&#x200B; 1](assets/2-1.png)
 
 Se você estiver executando iniciativas de marketing usando os aplicativos acima, poderá vincular essas contas à sua conta do Marketo Measure. Isso facilita o rastreamento e a transferência de dados para a conta do Marketo Measure.
 

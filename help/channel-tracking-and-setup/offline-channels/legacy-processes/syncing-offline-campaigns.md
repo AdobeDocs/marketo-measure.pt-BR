@@ -36,7 +36,7 @@ Por que isso é importante? Imagine por um momento que sua empresa patrocinou um
 
 A data de upload será três semanas depois da data da conferência. Para corrigir essa diferença, o botão [!UICONTROL Atualização em Massa da Data do Ponto de Contato] pode ser usado para definir a data apropriada. O botão é mostrado na imagem abaixo.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 Nesse caso, ele preencheria retroativamente a data de upload por três semanas. Esta etapa deve ser realizada antes da configuração do campo &quot;[!UICONTROL Habilitar Pontos de Contato do Comprador]&quot;.
 
@@ -47,17 +47,17 @@ Você também pode atualizar as datas de todos os membros de uma campanha existe
 >[!CAUTION]
 >Atualize a data do ponto de contato _antes_ de habilitar os pontos de contato para todos os membros da campanha.
 
-![ 3](assets/2-3.png)
+![&#x200B; 3](assets/2-3.png)
 
 ## Como criar uma campanha e sincronizar pontos de contato do comprador {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Para criar uma Campanha em [!DNL Salesforce], navegue até a guia [!UICONTROL Campanhas] e selecione &#39;[!UICONTROL Novo]&#39; conforme mostrado na imagem abaixo. Dependendo da configuração do [!DNL Salesforce], talvez seja necessário adicionar Campanhas à barra superior clicando no ícone de adição (+).
 
-![ 3](assets/3-3.png)
+![&#x200B; 3](assets/3-3.png)
 
 Ao criar esta campanha, clique no campo &quot;[!UICONTROL Habilitar pontos de contato do comprador]&quot; e selecione uma das seguintes opções na lista de opções:
 
-![ 3](assets/4-3.png)
+![&#x200B; 3](assets/4-3.png)
 
 * **Incluir todos os membros da campanha**
    * Esta opção permite que [!DNL Marketo Measure] atribua um Touchpoint a cada membro da campanha.

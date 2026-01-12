@@ -17,16 +17,16 @@ Saiba como habilitar a permissão para editar registros de clientes potenciais c
 
 1. Vá para [!UICONTROL Configuração] e expanda o agrupamento [!UICONTROL Gerenciar Usuários] para selecionar Perfis.
 
-   ![ 2](assets/1-2.png)
+   ![&#x200B; 2](assets/1-2.png)
 
 1. Selecione o Perfil do usuário ao qual estamos conectados.
 
 1. Procurar permissão para Exibir e Editar Clientes Potenciais Convertidos.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Marque a caixa para ativar a permissão para exibir e editar leads convertidos.
 
-   ![ 1](assets/3-1.png)
+   ![&#x200B; 1](assets/3-1.png)
 
 E pronto!

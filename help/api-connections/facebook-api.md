@@ -44,7 +44,7 @@ Quanto à instalação, há sete etapas a serem concluídas no aplicativo [!DNL 
 >[!NOTE]
 >Se você ativar a marcação automática, redefiniremos o histórico de conversão e a prova social de todos os anúncios marcados. É altamente recomendável [exportar estes dados como um CSV](https://www.facebook.com/business/help/205067636197240) antes de habilitar a marcação automática.
 
-![ 2](assets/2-2.png)
+![&#x200B; 2](assets/2-2.png)
 
 Após habilitar a integração, o [!DNL Marketo Measure] começará a baixar o custo do nível de anúncio no Painel [!DNL Marketo Measure Marketing ROI].
 

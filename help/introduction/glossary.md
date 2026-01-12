@@ -305,7 +305,7 @@ Este campo mostra o grupo geral de atividades de marketing ou canal de marketing
 
 Este campo mostra o canal de marketing e o subcanal ao qual um touchpoint pertence. No exemplo abaixo, Canal de marketing - Caminho é Social.LinkedIn, onde o canal de marketing é Social, e o subcanal é LinkedIn.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 **Meio** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

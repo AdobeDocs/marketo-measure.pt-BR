@@ -43,7 +43,7 @@ Todos os níveis.
 
 1. Adicione outra instrução na mesma caixa para configurar um critério &quot;and&quot; na regra ou clique no ícone + fora da caixa para configurar uma instrução &quot;or&quot;.
 
-   ![Construtor de regras mostrando várias condições com opções de lógica e/ou ](assets/four.png)
+   ![Construtor de regras mostrando várias condições com opções de lógica e/ou &#x200B;](assets/four.png)
 
 1. Escolha qual campo de data ou data/hora deve ser usado para mapear para a Data do ponto de contato. Para ver a lista de valores disponíveis no Marketo, insira uma chave `{` e exibiremos os campos disponíveis.
 

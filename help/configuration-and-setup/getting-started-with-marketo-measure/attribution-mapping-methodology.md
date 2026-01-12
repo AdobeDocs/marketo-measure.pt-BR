@@ -19,7 +19,7 @@ A Metodologia de mapeamento de atribuição é o processo de pesquisar determina
 
 Pronto para uso, [!DNL Marketo Measure] fornece o mapeamento da ID da conta. Isso significa que [!DNL Marketo Measure] verifica a Conta e suas informações de marketing de Contatos para criar pontos de contato de atribuição associados à oportunidade. Veja abaixo uma representação simples desse processo.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 Lembre-se de que **nem todos** os pontos de contato de seus contatos são encaminhados para a Oportunidade como pontos de contato de atribuição. A linha do tempo da Oportunidade (sua data de primeiro contato - data de fechamento) determina se um ponto de contato conta como um influenciador na Oportunidade. Portanto, se um ponto de contato no Contato A ocorrer depois que a Oportunidade for Ganhada/Perdida Fechada, [!DNL Marketo Measure] não enviará esse ponto de contato para a Oportunidade. Esse procedimento de linha do tempo é seguido em todos os outros mapeamentos de objetos de atribuição.
 
@@ -35,7 +35,7 @@ Desvantagens: se houver SLAs sólidos de Marketing e Vendas que definem quem dev
 
 Embora a maioria dos clientes use o mapeamento de ID de conta, o [!DNL Marketo Measure] pode consultar as funções de contato (contatos associados à Oportunidade) em uma Oportunidade para detalhar o processo de atribuição. Isso significa que [!DNL Marketo Measure] somente enviará interações de marketing associadas às funções de contato na Oportunidade como Pontos de Contato de Atribuição do Comprador. Veja abaixo uma representação desse processo.
 
-![ 1](assets/2-1.png)
+![&#x200B; 1](assets/2-1.png)
 
 Vantagens: se sua equipe tiver um processo de funções de contato bem definido, esse tipo de mapeamento de atribuição poderá ser ideal para você. Ajuda a alinhar as vendas e o marketing um pouco mais, pois todos entenderiam totalmente como a atribuição é dividida. Esse processo também é útil quando as organizações estão direcionando várias unidades de negócios em uma grande empresa e quando estão vendendo produtos diferentes ao mesmo tempo.
 

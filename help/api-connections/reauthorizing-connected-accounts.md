@@ -19,7 +19,7 @@ Se a plataforma de anúncios for desconectada, o [!DNL Marketo Measure] não pod
 
 Se a plataforma do CRM for desconectada, o [!DNL Marketo Measure] não poderá atualizar os dados do [!DNL Marketo Measure] nem enviar novos pontos de contato para a sua organização. Depois que a conexão do CRM for restabelecida, o [!DNL Marketo Measure] enviará por push todos os dados que foram perdidos enquanto a conta estava desconectada.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 ## Reautorização de contas desconectadas {#re-authorizing-disconnected-accounts}
 

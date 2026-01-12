@@ -37,7 +37,7 @@ Clique no cartão do produto do [!DNL Marketo Measure] para mostrar todas as ins
 
 Nenhuma ação é necessária para criar um novo perfil nas instâncias de produto do [!DNL Marketo Measure].
 
-Para começar a adicionar usuários com acesso ao [!DNL Marketo Measure], consulte a seção [Adição de admins do  [!DNL Marketo Measure]  e usuários do  [!DNL Marketo Measure] ](#adding-marketo-measure-admins-and-marketo-measure-users) abaixo.
+Para começar a adicionar usuários com acesso ao [!DNL Marketo Measure], consulte a seção [Adição de admins do  [!DNL Marketo Measure]  e usuários do  [!DNL Marketo Measure] &#x200B;](#adding-marketo-measure-admins-and-marketo-measure-users) abaixo.
 
 ## Adição de administradores do [!DNL Marketo Measure] e usuários do [!DNL Marketo Measure] {#adding-marketo-measure-admins-and-marketo-measure-users}
 

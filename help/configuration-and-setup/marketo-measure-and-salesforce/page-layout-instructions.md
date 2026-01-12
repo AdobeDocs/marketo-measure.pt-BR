@@ -78,7 +78,7 @@ Para começar, primeiro navegue até as configurações de definição do [!DNL 
 1. Arraste o aplicativo de tela do [!DNL Marketo Measure Insights] para a seção recém-criada. Clique em **Salvar**. Às vezes, é necessário salvar o layout da página primeiro antes de soltar no aplicativo de tela, pois o Salesforce não o reconhece instantaneamente. Portanto, depois de criar a seção, salve o layout da página e edite-o novamente para arrastar o aplicativo de tela para essa seção. Isso se aplica a todos os objetos.
 
    >[!NOTE]
-   >Para o aplicativo de tela do [!DNL Marketo Measure Insights] funcionar de maneira adequada, é preciso configurar corretamente as permissões do [](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >Para o aplicativo de tela do [!DNL Marketo Measure Insights] funcionar de maneira adequada, é preciso configurar corretamente as permissões do [&#128279;](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >A maioria dos(as) clientes não usa os campos que terminam com “FT” ou “LC”, pois estes são campos herdados que eram utilizados antes do ponto de contato do [!DNL Marketo Measure] existir como um objeto.

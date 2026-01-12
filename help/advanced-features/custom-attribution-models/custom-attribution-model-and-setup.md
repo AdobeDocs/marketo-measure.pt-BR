@@ -32,7 +32,7 @@ O modelo de Atribuição personalizada [!DNL Marketo Measure] permite que os usu
    >[!NOTE]
    >Você tem permissão para até seis estágios personalizados (sem incluir os padrões: FT, LC, OC, Fechado).
 
-   ![ 1](assets/1-1.png)
+   ![&#x200B; 1](assets/1-1.png)
 
    >[!NOTE]
    >_Todos_ os estágios de Clientes Potenciais/Contatos e Oportunidade aparecerão aqui, mesmo que o estágio esteja inativo ou não seja mais usado em [!DNL Salesforce]. Se quiser que esses estágios sejam removidos, será necessário excluí-los permanentemente em [!DNL Salesforce].
@@ -43,7 +43,7 @@ O modelo de Atribuição personalizada [!DNL Marketo Measure] permite que os usu
 
    No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um campo de data. A regra simplesmente declara que, se o campo Data MQL não estiver vazio, ele deverá ser considerado um MQL e deverá ser incluído no modelo personalizado. Também é importante classificar os estágios personalizados depois de criados, para que sigam a progressão do ciclo de vendas.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
    >[!CAUTION]
    >Não se esqueça de ativar o rastreamento de histórico para campos personalizados.

@@ -20,11 +20,11 @@ Crie um novo Tipo de Relatório para incluir todas as Oportunidades com ou sem P
 
 1. Vá para **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Tipos de Relatório]**.
 
-   ![ 1](assets/1-1.jpg)
+   ![&#x200B; 1](assets/1-1.jpg)
 
 1. Selecione **[!UICONTROL Novo Tipo de Relatório Personalizado]**.
 
-   ![ 1](assets/2-1.jpg)
+   ![&#x200B; 1](assets/2-1.jpg)
 
 1. Defina o Objeto Principal como &quot;[!UICONTROL Oportunidades].&quot;
 
@@ -32,11 +32,11 @@ Crie um novo Tipo de Relatório para incluir todas as Oportunidades com ou sem P
    * Use o mesmo nome para o Nome do tipo de relatório. Na entrada da descrição, &quot;Oportunidades com ou sem Pontos de contato de atribuição do comprador&quot;.
    * Salve o relatório em &quot;[!UICONTROL Outros]&quot; e defina o relatório como &quot;[!UICONTROL Implantado]&quot;.&quot;
 
-   ![ 1](assets/3-1.jpg)
+   ![&#x200B; 1](assets/3-1.jpg)
 
 1. A partir daí, você vinculará o Objeto de oportunidades ao Objeto de pontos de contato de atribuição do comprador. Escolha o botão &quot;Registros &#39;A&#39; podem ou não ter registros &#39;B&#39; relacionados.&quot; Clique em **[!UICONTROL Salvar]** quando terminar.
 
-   ![ 1](assets/4-1.jpg)
+   ![&#x200B; 1](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
 >[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

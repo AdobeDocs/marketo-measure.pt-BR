@@ -69,5 +69,5 @@ Outros motivos para isso podem acionar uma revisão do Modelo personalizado incl
 
 >[!MORELIKETHIS]
 > [Configuração e modelo de atribuição personalizados](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Habilitar O Rastreamento Do Histórico De Campos Para O Modelo Personalizado ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+> [Habilitar O Rastreamento Do Histórico De Campos Para O Modelo Personalizado &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 > [Modelo de Aprendizado de Máquina](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

@@ -21,10 +21,10 @@ O Aplicativo de Tela do Insights do [!DNL Marketo Measure] deve ser adicionado a
 
 1. Na seção de políticas [!UICONTROL OAuth], altere a configuração Usuários permitidos para &quot;Usuários aprovados pelo administrador são pré-autorizados.&quot; Um pop-up é exibido. Clique em **[!UICONTROL OK]** e depois em **[!UICONTROL Salvar]**.
 
-   ![ 1](assets/1-1.png)
+   ![&#x200B; 1](assets/1-1.png)
 
 1. Depois que a página for salva, você poderá clicar no botão **[!UICONTROL Gerenciar Perfis]**.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Selecione todos os perfis que devem ter acesso ao [!DNL Marketo Measure] Insights e clique em **[!UICONTROL Salvar]**.

@@ -25,7 +25,7 @@ Após concluir a instalação e começar a usar relatórios, nem todos os relat�
 
 1. Clique nos relatórios marcados abaixo com um X laranja para que sua lista de relatórios tenha a mesma aparência da imagem abaixo.
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >[Salesforce - Ocultar Tipos de Relatório Não Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

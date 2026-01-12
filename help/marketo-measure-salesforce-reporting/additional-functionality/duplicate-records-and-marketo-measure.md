@@ -22,7 +22,7 @@ Como isso se parece nos Relatórios de [!DNL Marketo Measure]?
 
 _Exemplo de relatório: [!DNL Marketo Measure] Pessoas com Pontos de Contato do Comprador._
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 Você pode ver para a ID de pessoa [!DNL Marketo Measure] de kelsey@adobe.com que há um cliente potencial e um contato que existem com esse endereço de email. Nesse relatório, são relatados 2 primeiros toques, dois toques de criação de leads e duas interações PostLC. Esses registros duplicados compartilham informações de data e ponto de contato, o que pode levar à conclusão de que são duas pessoas diferentes, apesar de serem a mesma pessoa.
 

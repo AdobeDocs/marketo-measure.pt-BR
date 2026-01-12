@@ -15,11 +15,11 @@ ht-degree: 5%
 
 Abaixo está um fluxograma que representa como [!DNL Marketo Measure] Objetos Personalizados estão relacionados a [!DNL Salesforce] Objetos Padrão.
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 Para a imagem em tamanho real, [clique aqui](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [ podem ser encontradas aqui](/help/glossary.md).
+As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [&#x200B; podem ser encontradas aqui](/help/glossary.md).
 
 ## Perguntas frequentes {#faq}
 
