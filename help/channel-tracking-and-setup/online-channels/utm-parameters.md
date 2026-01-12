@@ -1,21 +1,21 @@
 ---
-unique-page-id: 18874606
 description: Parâmetros de UTM -  [!DNL Marketo Measure]
 title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '928'
+ht-degree: 92%
 
 ---
+
 
 # Parâmetros do UTM {#utm-parameters}
 
 Marcar URLs é uma maneira simples e eficaz de capturar dados sobre suas iniciativas de marketing digital. É o processo de adicionar parâmetros ao final dos URLs que coletam e registram dados. Os parâmetros mais usados são os Módulos de rastreamento de Urchin (UTMs), compatíveis com o Google. Há cinco parâmetros principais de UTM disponíveis: Meio, Origem, Campanha, Conteúdo e Termo. Eles são discutidos com mais detalhes na próxima seção.
 
-Você pode adicionar parâmetros de UTM manualmente aos URLs ou anexá-los por meio do recurso de marcação automática de determinadas plataformas, como o AdWords. A marcação automática automatiza o processo de anexação de parâmetros a URLs. Há também a opção de [Construtores de URL](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} para acelerar a marcação manual de URLs. Com um construtor de URL, basta especificar os valores que deseja usar para cada parâmetro e o construtor formatará o URL.
+Você pode adicionar parâmetros de UTM manualmente aos URLs ou anexá-los por meio do recurso de marcação automática de determinadas plataformas, como o AdWords. A marcação automática automatiza o processo de anexação de parâmetros a URLs. Também há a opção de [construtores de URL](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} para acelerar a marcação manual de URLs. Com um construtor de URL, basta especificar os valores que deseja usar para cada parâmetro e o construtor formatará o URL.
 
 ## O que são parâmetros de UTM? {#what-are-utm-parameters}
 
@@ -38,7 +38,7 @@ Saiba mais sobre [práticas recomendadas para configurar parâmetros de UTM](/he
 * Ele indica o canal de nível mais alto.
 * Redes sociais, email, pesquisa orgânica e pesquisa paga são exemplos de valores médios em potencial.
 * Esse parâmetro mapeia dados para o [!DNL Marketo Measure] Campo “Meio”.
-* _[!DNL Marketo Measure]Prática recomendada:_ não use esse campo para chamar um subcanal; caso contrário, poderá ocorrer dificuldades ao gerar relatórios no canal real. Use-o para identificar seu veículo ou canal de marketing. Por exemplo, se você deseja usar emails para comercializar seu produto, o meio é email.
+* _[!DNL Marketo Measure] Prática recomendada :_Não use este campo para chamar um subcanal, caso contrário, poderá ter dificuldades para gerar relatórios no canal real. Use-o para identificar seu veículo ou canal de marketing. Por exemplo, se você deseja usar emails para comercializar seu produto, o meio é email.
 
 **utm_source**
 
@@ -48,7 +48,7 @@ Saiba mais sobre [práticas recomendadas para configurar parâmetros de UTM](/he
    * Neste exemplo, [!DNL Facebook] é o Valor de origem. Outros exemplos são Twitter e Instagram. Se a mídia de UTM for [!DNL Paid Search], por outro lado, a Origem do UTM pode ser AdWords ou BingAds.
 
 * Esse parâmetro mapeia para o [!DNL Marketo Measure] campo “Origem do touchpoint” no SFDC.
-* Prática recomendada do _[!DNL Marketo Measure]:_ esse parâmetro rastreia a origem do tráfego, portanto não é adequado usá-lo para indicar o tipo de anúncio, por exemplo: redirecionamento, patrocinado etc. É melhor usá-lo para rastrear o subcanal de nível superior. Lembre-se, você está respondendo a pergunta “de onde vem meu tráfego?” Você está procurando o referenciador. Neste exemplo, a fonte do UTM é o local onde seu anúncio está localizado (não a página da Web propriamente dita, pois é automaticamente rastreada fora das tags). Se você estiver rastreando uma campanha de email de entrega, o email de entrega é a origem.
+* _[!DNL Marketo Measure] Prática recomendada :_Esse parâmetro rastreia a origem do seu tráfego, portanto, não é adequado usá-lo para indicar o tipo de anúncio, por exemplo, redirecionamento, patrocinado e assim por diante. É melhor usá-lo para rastrear o subcanal de nível superior. Lembre-se, você está respondendo a pergunta “de onde vem meu tráfego?” Você está procurando o referenciador. Neste exemplo, a fonte do UTM é o local onde seu anúncio está localizado (não a página da Web propriamente dita, pois é automaticamente rastreada fora das tags). Se você estiver rastreando uma campanha de email de entrega, o email de entrega é a origem.
 
 **utm_campaign**
 
@@ -74,7 +74,7 @@ Cada parâmetro reúne informações relevantes para o valor atribuído. O valor
 
 Aqui está um gráfico dos parâmetros do UTM [!DNL Marketo Measure] As análises e o campo do touchpoint correspondente ao qual estão vinculadas:
 
-| **Parâmetro do UTM** | **Campo [!DNL Marketo Measure] correspondente** |
+| Parâmetro UTM | Campo [!DNL Marketo Measure] correspondente |
 |---|---|
 | utm_medium | Meio |
 | utm_source | Origem do touchpoint |

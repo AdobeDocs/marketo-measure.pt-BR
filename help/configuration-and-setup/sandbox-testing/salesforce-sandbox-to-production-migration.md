@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874694
 description: 'Migração da sandbox para a produção no Salesforce:  [!DNL Marketo Measure]'
 title: Migração da sandbox para a produção no Salesforce
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
+
 
 # Migração da sandbox para a produção no Salesforce {#salesforce-sandbox-to-production-migration}
 
@@ -19,7 +19,7 @@ Se você optou por testar o [!DNL Marketo Measure] em um ambiente de sandbox do 
 
 * Instale o pacote do [!DNL Marketo Measure] na produção com a configuração “[!UICONTROL Todos os usuários]”
 
-   * [Pacote básico](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Pacote Base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * Para obter mais informações sobre a relação do [!DNL Marketo Measure] com o [!DNL Salesforce], consulte [este artigo](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * É necessário configurar alguns detalhes no [!DNL Salesforce]. Os itens de ação específicos são descritos na [etapa 4 abaixo](#salesforce-configuration)
@@ -31,7 +31,7 @@ Se você optou por testar o [!DNL Marketo Measure] em um ambiente de sandbox do 
 * Clique no ícone de lixeira ao lado da conexão SFDC para excluir
 * Será solicitado que você confirme a exclusão. Certifique-se de ler o aviso cuidadosamente para entender as consequências da exclusão
 
-  ![](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![Página de conexões do Marketo Measure confirmando a exclusão de uma sandbox do Salesforce](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * Digite o nome da empresa conforme solicitado no modelo de confirmação e clique em “Eu entendo as consequências e desejo excluir esta conexão”
 * Isso aciona o processo de exclusão que leva algum tempo para ser concluído
@@ -51,8 +51,8 @@ Se você optou por testar o [!DNL Marketo Measure] em um ambiente de sandbox do 
 
 [Conjuntos de permissões](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Compartilhamento de relatórios](https://help.salesforce.com/s/articleView?language=pt_BR&amp;id=analytics_share_folder.htm&amp;type=0){target="_blank"}
+[Compartilhando relatórios](https://help.salesforce.com/s/articleView?language=pt_BR&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Ocultar tipos de relatório desnecessários](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
-[Fluxo de trabalho personalizado, se aplicável](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[Fluxo de trabalho personalizado, se aplicável](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

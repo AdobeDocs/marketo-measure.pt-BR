@@ -3,12 +3,13 @@ description: '[!DNL Salesforce] Consolidação de Pacotes - [!DNL Marketo Measur
 title: Consolidação de pacotes do [!DNL Salesforce]
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '449'
 ht-degree: 6%
 
 ---
+
 
 # Consolidação de pacotes do [!DNL Salesforce] {#salesforce-package-consolidation}
 
@@ -29,7 +30,7 @@ Há dois novos campos para aprimorar seus recursos de relatórios:
 
 ## Suporte e transição {#support-and-transition}
 
-A [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponível para responder a qualquer pergunta e ajudar a garantir uma transição suave para o novo pacote consolidado.
+A [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} está disponível para responder a todas as perguntas e ajudar a garantir uma transição suave para o novo pacote consolidado.
 
 ## Ações necessárias {#retired-actions}
 
@@ -41,13 +42,13 @@ A [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target
       * Consulta V2_EXT:
          * bizible2_ext_Ad_Content_FT_c contém Outreach
 
-![](assets/package-consolidation-1.png)
+![Exemplo de filtro de relatório usando o campo FT de Conteúdo de Anúncio V2_EXT](assets/package-consolidation-1.png)
 
 * Query correspondente no pacote consolidado:
    * bizible2_Touchpoint_Position_c contém FT E
    * bizible2_Ad_Content_c contém Outreach
 
-![](assets/salesforce-package-consolidation-2.png)
+![Filtro de relatório equivalente usando campos de ponto de contato consolidados](assets/salesforce-package-consolidation-2.png)
 
 ## Perguntas frequentes {#faq}
 
@@ -57,7 +58,7 @@ Não é necessário desinstalar o pacote antes de instalar o pacote consolidado.
 
 **Como posso preencher retroativamente os dados de meus pacotes atuais?**
 
-Você pode registrar um tíquete [com Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para preenchimento retroativo e reprocessamento de dados BT/BAT para preencher os campos ID do ponto de contato e ID do formulário.
+Você pode registrar um tíquete [com Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para preenchimento retroativo e reprocessamento de dados do BT/BAT para preencher os campos ID de ponto de contato e ID de formulário.
 
 **Os campos nos pacotes V1 e V2_EXT estarão disponíveis no pacote consolidado?**
 

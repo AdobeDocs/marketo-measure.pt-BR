@@ -3,12 +3,13 @@ description: Práticas recomendadas para canais online -  [!DNL Marketo Measure]
 title: Práticas recomendadas para Canais online
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
+
 
 # Práticas recomendadas para Canais online {#best-practices-for-online-channels}
 
@@ -54,8 +55,7 @@ Outros itens que podem acionar sua equipe para executar a manutenção do canal 
 Se a sua equipe passou por alguma das situações acima recentemente, o [!DNL Marketo Measure] recomenda a revisão das regras dos canais online para que se faça as alterações apropriadas.
 
 >[!MORELIKETHIS]
->
->* [Configuração do canal online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Parâmetros UTM](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [Canal e subcanal de marketing](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
->* [Práticas recomendadas do UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+> [Configuração do canal online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [Parâmetros UTM](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+> [Canal e Subcanal de Marketing](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+> [Práticas recomendadas UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

@@ -1,27 +1,25 @@
 ---
-unique-page-id: 35586140
-description: Esquema de Data Warehouse - Marketo Measure - Documentação do produto
+description: Esquema de Data Warehouse
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: '21106'
 ht-degree: 99%
 
 ---
+
 
 # Esquema de Data Warehouse {#data-warehouse-schema}
 
 O Data Warehouse permite rastrear o quanto você desejar, relatar os dados de atribuição onde quiser e conectá-los a outros conjuntos de dados.
 
 >[!IMPORTANT]
->
->* As linhas com um valor para _DELETED_DATE serão mantidas por 7 dias e, em seguida, removidas do Snowflake.
->* Os fusos horários usados no Snowflake seguem o Tempo Universal Coordenado (UTC).
+> As linhas com um valor para _DELETED_DATE serão mantidas por 7 dias e, em seguida, removidas do Snowflake.
+> Os fusos horários usados no Snowflake seguem o Tempo Universal Coordenado (UTC).
 
 >[!NOTE]
->
 >[Clique aqui](#sample-queries) para ver consultas de amostra na parte inferior deste artigo.
 
 ## Diagramas de relação de entidade {#entity-relationship-diagrams}
@@ -40,9 +38,9 @@ _Clique em uma imagem para obter sua versão em tamanho real_
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
-  </tr> 
- </tbody> 
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
+  </tr>
+ </tbody>
 </table>
 
 ## Exibições {#views}
@@ -471,7 +469,7 @@ Anúncios importados de qualquer conta de anúncio conectada.
     <tr>
       <td>URL_CURRENT</td>
       <td>varchar</td>
-      <td>O URL da landing page.
+      <td>O URL da página de destino.
         <p>(Campo de diagnóstico, para processamento interno.)
       </td>
       <td></td>
@@ -1025,7 +1023,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>O modelo de rastreamento foi adicionado no nível da Conta de anúncio para AdWords ou Bing para marcação de landing pages.</p>
+        <p>O modelo de rastreamento foi adicionado no nível da Conta de anúncio para AdWords ou Bing para marcação de páginas de destino.</p>
       </td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1341,7 +1339,7 @@ Campanhas importadas de contas de anúncios conectadas, sistemas de origem, utm 
       </td>
       <td>varchar</td>
       <td>
-        <p>O modelo de rastreamento adicionado no nível da Campanha para AdWords ou Bing para marcação de landing pages.</p>
+        <p>O modelo de rastreamento adicionado no nível da Campanha para AdWords ou Bing para marcação de páginas de destino.</p>
       </td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1651,7 +1649,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Esperado que seja nulo, pois não há um Grupo de anúncios na hierarquia de anúncios duplicados.</p>
+        <p>Espera-se que seja nulo, pois não há um Grupo de anúncios na hierarquia de anúncios de clique duplo.</p>
       </td>
       <td>
         <p>nulo</p>
@@ -1663,7 +1661,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Esperado que seja nulo, pois não há um Grupo de anúncios na hierarquia de anúncios duplicados.</p>
+        <p>Espera-se que seja nulo, pois não há um Grupo de anúncios na hierarquia de anúncios de clique duplo.</p>
       </td>
       <td>
         <p>nulo</p>
@@ -1868,7 +1866,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>O modelo de rastreamento foi adicionado no nível da Conta de anúncio para AdWords ou Bing para marcação de landing pages.</p>
+        <p>O modelo de rastreamento foi adicionado no nível da Conta de anúncio para AdWords ou Bing para marcação de páginas de destino.</p>
       </td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -2292,7 +2290,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>A primeira landing page da sessão que resultou em um touchpoint. Referenciado no CRM como “Landing page”.</p>
+        <p>A primeira página de destino da sessão que resultou em um touchpoint. Referenciado no CRM como “Página de destino”.</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover- truth-behind-cost-per-lead</p>
@@ -2304,7 +2302,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>A primeira landing page da sessão que resultou em um touchpoint. Uma landing page bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Landing Page - Bruta”.</p>
+        <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover-truth -behind-cost-per-lead?utm_content=27322869&amp;utm_ medium=social&amp;utm_source=linkedin</p>
@@ -2316,7 +2314,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -2328,7 +2326,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -2676,7 +2674,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>A landing page que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
+        <p>A página de destino que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
       </td>
       <td>
         <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution</p>
@@ -3068,8 +3066,8 @@ Dados gerados a partir da integração da IA de atribuição. Esses campos só s
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>ID de evento original do MM para o evento de conversão 
-    <br>É mapeada para um ponto de contato de usuário ou uma transição de estágio</td>
+    <td>id de evento MM original para o evento de conversão
+    <br>mapeia para um ponto de contato de usuário ou uma transição de estágio</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3634,7 +3632,7 @@ Contatos importados do sistema de origem.
       </td>
       <td>varchar</td>
       <td>
-        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: ativar o Rastreamento de chamada: verdadeiro</p>
+        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: habilitar o Rastreamento de chamada: verdadeiro</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -3745,13 +3743,13 @@ Taxas de conversão de moeda importadas do sistema de origem.
     <tr>
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Data de início da Taxa de conversão.</td>
+      <td>Data inicial da Taxa de conversão.</td>
       <td>2018-11-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Próxima data de início da Taxa de conversão. (A data final da Taxa de conversão é end_date menos 1 dia.)</td>
+      <td>Próxima data inicial da Taxa de conversão. (A data final da Taxa de conversão é end_date menos 1 dia.)</td>
       <td>2018-09-01 00:00:00.000</td>
     </tr>
     <tr>
@@ -4851,7 +4849,7 @@ Eventos importados do sistema de origem. Essa tabela estará vazia se a Sincroni
       </td>
       <td>varchar</td>
       <td>
-        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: ativar o Rastreamento de chamada: verdadeiro</p>
+        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: habilitar o Rastreamento de chamada: verdadeiro</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4875,7 +4873,7 @@ Eventos importados do sistema de origem. Essa tabela estará vazia se a Sincroni
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>Data de início do evento, uma das opções usadas para determinar a data do touchpoint.</p>
+        <p>Data inicial do evento, uma das opções usadas para determinar a data do touchpoint.</p>
       </td>
       <td>
         <p>2016-12-16 19:30:00.000</p>
@@ -4934,7 +4932,7 @@ Eventos importados do sistema de origem. Essa tabela estará vazia se a Sincroni
 
 ### BIZ_CRM_TASKS {#biz-crm-tasks}
 
-Tarefas importadas do sistema de origem. Essa tabela será preenchida se a Sincronização de atividades ou o Rastreamento de chamadas estiverem ativados.
+Tarefas importadas do sistema de origem. Essa tabela será preenchida se a Sincronização de atividades ou o Rastreamento de chamadas estiverem habilitados.
 
 <table>
   <tbody>
@@ -5026,7 +5024,7 @@ Tarefas importadas do sistema de origem. Essa tabela será preenchida se a Sincr
       </td>
       <td>varchar</td>
       <td>
-        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: ativar o Rastreamento de chamada: verdadeiro</p>
+        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: habilitar o Rastreamento de chamada: verdadeiro</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5130,7 +5128,7 @@ Tabela de todas as moedas ISO.
     <tr>
       <td>IS_ENABLED</td>
       <td>boolean</td>
-      <td>Determina se a Moeda está ativada no sistema de origem.</td>
+      <td>Determina se a Moeda está habilitada no sistema de origem.</td>
       <td>false</td>
     </tr>
     <tr>
@@ -5198,7 +5196,7 @@ Tabela de todas as moedas ISO.
 
 ### BIZ_CUSTOMER_AB_TESTS {#biz-customer-ab-tests}
 
-Testes A/B registrados. Essa tabela estará vazia se os Testes A/B não estiverem ativados.
+Testes A/B registrados. Essa tabela estará vazia se os Testes A/B não estiverem habilitados.
 
 <table>
   <tbody>
@@ -5337,7 +5335,7 @@ Testes A/B registrados. Essa tabela estará vazia se os Testes A/B não estivere
 
 ### BIZ_CUSTOMER_EVENTS {#biz-customer-events}
 
-Eventos da Web que foram registrados usando eventos personalizados no Javascript. Esta tabela ficará vazia se [!DNL Marketo Measure] Eventos não estiverem ativados.
+Eventos da Web que foram registrados usando eventos personalizados no Javascript. Esta tabela ficará vazia se [!DNL Marketo Measure] Eventos não estiverem habilitados.
 
 <table>
   <tbody>
@@ -5448,7 +5446,7 @@ Eventos da Web que foram registrados usando eventos personalizados no Javascript
 
 ### BIZ_CUSTOM_LANDING_PAGES {#biz-custom-landing-pages}
 
-Landing pages baixadas de qualquer conta de anúncio conectada.
+Páginas de destino baixadas de qualquer conta de anúncio conectada.
 
 <table>
   <tbody>
@@ -5479,7 +5477,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
       <td>varchar</td>
-      <td>Id da Conta de anúncio da qual a landing page foi importada.</td>
+      <td>Id da Conta de anúncio da qual a página de destino foi importada.</td>
       <td></td>
     </tr>
     <tr>
@@ -5487,7 +5485,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
         <p>AD_ACCOUNT_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Nome da conta de anúncio da qual a landing page foi importada</td>
+      <td>Nome da conta de anúncio da qual a página de destino foi importada</td>
       <td></td>
     </tr>
     <tr>
@@ -5496,7 +5494,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id do Anunciante da landing page, especificamente para Doubleclick.</p>
+        <p>Id do Anunciante da página de destino, especificamente para Doubleclick.</p>
       </td>
       <td>300181641</td>
     </tr>
@@ -5506,7 +5504,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Nome do anunciante da landing page, especificamente para Doubleclick.</p>
+        <p>Nome do anunciante da página de destino, especificamente para Doubleclick.</p>
       </td>
       <td>
         <p>Marketing Analytics</p>
@@ -5517,7 +5515,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
       <td>varchar</td>
-      <td>Id do Grupo de anúncios da landing page</td>
+      <td>Id do Grupo de anúncios da página de destino</td>
       <td></td>
     </tr>
     <tr>
@@ -5526,7 +5524,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Nome do Grupo de anúncios da landing page.</p>
+        <p>Nome do Grupo de anúncios da página de destino.</p>
       </td>
       <td></td>
     </tr>
@@ -5536,7 +5534,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id da Campanha da landing page.</p>
+        <p>Id da Campanha da página de destino.</p>
       </td>
       <td></td>
     </tr>
@@ -5546,7 +5544,7 @@ Landing pages baixadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Nome da campanha da landing page.</p>
+        <p>Nome da campanha da página de destino.</p>
       </td>
       <td></td>
     </tr>
@@ -5791,8 +5789,7 @@ Tabela de mapeamento para endereços de email e IDs de visitante.
 Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário, Touchpoints do usuário, Touchpoint (BT), Touchpoints de atribuição (BAT) e Dados de custo. Usado internamente para oferecer suporte a relatórios do [!DNL Marketo Measure].
 
 >[!IMPORTANT]
->
->O Marketo Measure descontinuará esta tabela em meados de 2024. Se quiser criá-lo do seu lado, execute [esta consulta SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>O Marketo Measure descontinuará esta tabela em meados de 2024. Se quiser criá-lo do seu lado, execute [esta consulta SQL](/help/data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -6664,7 +6661,7 @@ Envio de formulário capturado.
         <p>URL onde o formulário foi enviado, incluindo quaisquer parâmetros de consulta.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6918,7 +6915,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       <td>
         <p>URL onde a impressão foi veiculada, incluindo qualquer parâmetro de consulta.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -7000,7 +6997,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -7010,7 +7007,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -7710,7 +7707,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>O URL da landing page.</p>
+        <p>O URL da página de destino.</p>
         <p>(Campo de diagnóstico, para processamento interno.)</p>
       </td>
       <td></td>
@@ -7730,7 +7727,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
       <td>URL_REQUESTED</td>
       <td>varchar</td>
       <td>
-        <p>O URL da landing page com parâmetros do [!DNL Marketo Measure].</p>
+        <p>O URL da página de destino com parâmetros do [!DNL Marketo Measure].</p>
         <p>(Campo de diagnóstico, para processamento interno.)</p>
       </td>
       <td></td>
@@ -7838,7 +7835,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
 
 ### BIZ_LANDING_PAGES {#biz-landing-pages}
 
-Landing pages importadas de qualquer conta de anúncio conectada.
+Páginas de destino importadas de qualquer conta de anúncio conectada.
 
 <table>
   <tbody>
@@ -7852,7 +7849,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Uma ID exclusiva da landing page.</p>
+        <p>Uma ID exclusiva da página de destino.</p>
       </td>
       <td></td>
     </tr>
@@ -7869,7 +7866,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
       <td>varchar</td>
-      <td>Id da Conta de anúncio da qual a landing page foi importada.</td>
+      <td>Id da Conta de anúncio da qual a página de destino foi importada.</td>
       <td></td>
     </tr>
     <tr>
@@ -7877,7 +7874,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
         <p>AD_ACCOUNT_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Nome da conta de anúncio da qual a landing page foi importada.</td>
+      <td>Nome da conta de anúncio da qual a página de destino foi importada.</td>
       <td></td>
     </tr>
     <tr>
@@ -7886,7 +7883,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id do Anunciante da landing page, especificamente para Doubleclick.</p>
+        <p>Id do Anunciante da página de destino, especificamente para Doubleclick.</p>
       </td>
       <td>300181641</td>
     </tr>
@@ -7896,7 +7893,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>Nome do anunciante da landing page, especificamente para Doubleclick.</p>
+        <p>Nome do anunciante da página de destino, especificamente para Doubleclick.</p>
       </td>
       <td>Marketing Analytics</td>
     </tr>
@@ -7905,7 +7902,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
       <td>varchar</td>
-      <td>Id do Grupo de anúncios da landing page</td>
+      <td>Id do Grupo de anúncios da página de destino</td>
       <td></td>
     </tr>
     <tr>
@@ -7913,7 +7910,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
         <p>AD_GROUP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Nome do Grupo de anúncios da landing page.</td>
+      <td>Nome do Grupo de anúncios da página de destino.</td>
       <td></td>
     </tr>
     <tr>
@@ -7921,7 +7918,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
       <td>varchar</td>
-      <td>Id da Campanha da landing page.</td>
+      <td>Id da Campanha da página de destino.</td>
       <td></td>
     </tr>
     <tr>
@@ -7929,7 +7926,7 @@ Landing pages importadas de qualquer conta de anúncio conectada.
         <p>AD_CAMPAIGN_NAME</p>
       </td>
       <td>varchar</td>
-      <td>Nome da campanha da landing page.</td>
+      <td>Nome da campanha da página de destino.</td>
       <td></td>
     </tr>
     <tr>
@@ -8197,7 +8194,7 @@ Leads importados do sistema de origem.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id da conta mapeada. Requisitos: ativar ABM</p>
+        <p>Id da conta mapeada. Requisitos: habilitar ABM</p>
       </td>
       <td>
         <p>0010Z0000236F9GQAU</p>
@@ -8271,7 +8268,7 @@ Leads importados do sistema de origem.
       </td>
       <td>varchar</td>
       <td>
-        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: ativar o Rastreamento de chamada: verdadeiro</p>
+        <p>A Id de cookie do [!DNL Marketo Measure] usada para preencher de um parceiro de integração para mapear um evento offline para uma sessão da Web. Requisito: habilitar o Rastreamento de chamada: verdadeiro</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -8871,7 +8868,7 @@ Oportunidades importadas do sistema de origem.
       <td><b>∗</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
       <td>Tipo de oportunidade, como novo negócio, renovação etc.</td>
-      <td>Renovação, cliente em potencial</td>
+      <td>Renovação, cliente potencial</td>
     </tr>
   </tbody>
 </table>
@@ -9333,7 +9330,7 @@ Exibições de página coletadas das visitas da Web. Várias exibições de pág
         <p>URL de onde a exibição de página se originou, incluindo qualquer parâmetro de consulta.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9912,7 +9909,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>O URL da primeira exibição de página da sessão, incluindo quaisquer parâmetros de consulta.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10273,7 +10270,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
       </td>
       <td>varchar</td>
       <td>
-        <p>A landing page que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
+        <p>A página de destino que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
       </td>
       <td>
         <p>http://www.adobe.com/salesforce-google-analytics</p>
@@ -11034,7 +11031,7 @@ Links de sites de qualquer conta de anúncios conectada.
       </td>
       <td>varchar</td>
       <td>
-        <p>O URL da landing page.</p>
+        <p>O URL da página de destino.</p>
         <p>(Campo de diagnóstico, para processamento interno.)</p>
       </td>
       <td>
@@ -11598,7 +11595,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
       </td>
       <td>varchar</td>
       <td>
-        <p>A primeira landing page da sessão que resultou em um touchpoint. Referenciado no CRM como “Landing page”.</p>
+        <p>A primeira página de destino da sessão que resultou em um touchpoint. Referenciado no CRM como “Página de destino”.</p>
       </td>
       <td>
         <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing</p>
@@ -11610,10 +11607,10 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
       </td>
       <td>varchar</td>
       <td>
-        <p>A primeira landing page da sessão que resultou em um touchpoint. Uma landing page bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Landing Page - Bruta”.</p>
+        <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -11622,7 +11619,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -11632,7 +11629,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
       </td>
       <td>
         <p>https://www.linkedin.com/feed</p>
@@ -11966,7 +11963,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
       </td>
       <td>varchar</td>
       <td>
-        <p>A landing page que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
+        <p>A página de destino que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
       </td>
       <td>
         <p>https://image-store.slidesharecdn.com/d29165c0-1e0b-4ffc-a494-d2c77e7cd4a6-large.jpeg</p>
@@ -12330,7 +12327,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
 
 ### BIZ_URLS {#biz-urls}
 
-Agregação de URLs de landing pages, páginas de referência e exibições de página.
+Agregação de URLs de páginas de destino, páginas de referência e exibições de página.
 
 <table>
   <tbody>
@@ -12613,7 +12610,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
       </td>
       <td>varchar</td>
       <td>
-        <p>A primeira landing page da sessão que resultou em um touchpoint. Referenciado no CRM como “Landing page”.</p>
+        <p>A primeira página de destino da sessão que resultou em um touchpoint. Referenciado no CRM como “Página de destino”.</p>
       </td>
       <td>
         <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing</p>
@@ -12625,10 +12622,10 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
       </td>
       <td>varchar</td>
       <td>
-        <p>A primeira landing page da sessão que resultou em um touchpoint. Uma landing page bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Landing Page - Bruta”.</p>
+        <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12637,7 +12634,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Referenciado no CRM como “Página de referenciador”.</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -12649,7 +12646,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
       </td>
       <td>varchar</td>
       <td>
-        <p>Normalmente, é a landing page externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
+        <p>Normalmente, é a página de destino externa imediatamente antes do usuário chegar ao site. Uma página de referenciador bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “Página de referenciador - bruta”.</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -12676,7 +12673,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>O primeiro formulário gravado em uma sessão que resultou em um touchpoint. Os envios de formulário subsequentes não serão exibidos na tabela Attribution_Touchpoints, mas na tabela Form_Submits. Uma página de formulário bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “URL do formulário - bruto”.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -12993,7 +12990,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
       </td>
       <td>varchar</td>
       <td>
-        <p>A landing page que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
+        <p>A página de destino que clica no anúncio de pesquisa, extraída da conta de anúncios da qual o anúncio foi resolvido. Aplica-se ao Google AdWords e ao Bing Ads (pesquisa).</p>
       </td>
       <td>
         <p>http://info.adobe.com/demo</p>
@@ -13265,7 +13262,7 @@ Tabela de mapeamento para mapear a Id de sessão do [!DNL Marketo Measure] para 
       <td>varchar</td>
       <td>URL de exibição de página, incluindo qualquer parâmetro de consulta.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13361,7 +13358,7 @@ Tabela de mapeamento para mapear a Id de sessão do [!DNL Marketo Measure] para 
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13383,7 +13380,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13450,7 +13447,6 @@ order by 1
 **Mostrar todos os Buyer Attribution Touchpoints (BATs) e sua receita atribuída para uma única oportunidade.**
 
 >[!NOTE]
->
 >Esta consulta retorna a receita atribuída para o modelo em forma de W. Altere o modelo atualizando o campo no cálculo da receita atribuída.
 
 ```

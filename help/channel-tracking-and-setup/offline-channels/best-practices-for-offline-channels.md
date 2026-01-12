@@ -3,12 +3,13 @@ description: Práticas Recomendadas para Canais Offline - [!DNL Marketo Measure]
 title: Práticas recomendadas para canais offline
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 4%
 
 ---
+
 
 # Práticas recomendadas para canais offline {#best-practices-for-offline-channels}
 
@@ -69,12 +70,11 @@ As alterações que podem fazer com que sua equipe atualize a configuração Can
 Se sua equipe tiver tido alguma das situações acima, o [!DNL Marketo Measure] recomenda que você revise o mapeamento de Canais offline e as Campanhas offline para fazer as alterações apropriadas e garantir que elas sejam sincronizadas corretamente.
 
 >[!MORELIKETHIS]
->
->* [Configuração de Canal Offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [Sincronização de Campanha Personalizada - Sincronização de Aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Sincronizando Campanhas Offline - Sincronização do CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [Membros da Campanha e do Campaign Offline - Sincronização do CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
->* [Datas de Sincronização da Campanha - Sincronização do CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
->* [Configurações para vários tipos de registros de campanha](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Criando uma Exibição da Lista de Campanhas](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Sincronizando Dados Históricos](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+> [Configuração de Canal Offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+> [Sincronização de Campanha Personalizada - Sincronização de Aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+> [Sincronizando Campanhas Offline - Sincronização do CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [Membros da Campanha e do Campaign Offline - Sincronização do CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+> [Datas de Sincronização da Campanha - Sincronização do CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+> [Configurações para Vários Tipos de Registros de Campanha](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)
+> [Criando uma Exibição da Lista de Campanhas](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+> [Sincronizando Dados Históricos](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

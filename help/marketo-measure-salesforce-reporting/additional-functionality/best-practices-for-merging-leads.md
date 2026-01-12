@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874734
 description: Práticas recomendadas para mesclar clientes em potencial - [!DNL Marketo Measure]
 title: Práticas recomendadas para mesclar leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 5%
 
 ---
+
 
 # Práticas recomendadas para mesclar leads {#best-practices-for-merging-leads}
 
@@ -23,6 +23,6 @@ Se houver vários registros com dados [!DNL Marketo Measure], verifique se o Reg
 
 A partir daí, você pode mesclar os clientes em potencial, e os dados de [!DNL Marketo Measure] serão transferidos para o novo registro.
 
-Em caso de dúvidas, entre em contato com a Equipe de contas do Adobe (seu Gerente de contas) ou com o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Em caso de dúvidas, entre em contato com a Equipe de contas da Adobe (seu Gerente de conta) ou com o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-![](assets/1.jpg)
+![Caixa de diálogo Mesclar Clientes Potenciais do Salesforce com campos do Marketo Measure retidos](assets/1.jpg)

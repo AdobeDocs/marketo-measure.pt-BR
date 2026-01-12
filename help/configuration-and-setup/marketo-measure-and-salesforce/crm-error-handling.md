@@ -2,12 +2,14 @@
 description: Saiba como lidar com erros em exportações do CRM
 title: Tratamento de erros para exportações do CRM
 feature: Salesforce
-source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
+exl-id: 7452bff0-4bf1-474b-a705-446c29882230
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 8%
 
 ---
+
 
 # Tratamento de erros para exportações do CRM
 
@@ -18,7 +20,6 @@ A configuração pode ser encontrada em **Minha Conta** > **Configurações** > 
 ![Pausar em Erros de Exportação](assets/stop-progress.png)
 
 >[!NOTE]
->
 >Esse recurso só será visível se o recurso &quot;Exportar para CRM&quot; estiver habilitado.
 
 Quando esse recurso é ativado, o trabalho de exportação para de progredir e permanece no registro em que o erro ocorreu, até que o problema seja resolvido. Esses erros geralmente ocorrem devido à ausência de permissões, regras de validação personalizadas aplicadas incorretamente ou problemas em fluxos de trabalho/acionadores. A tarefa continuará a ser executada conforme agendado e tentará automaticamente exportar o registro com falha novamente até que seja bem-sucedida.

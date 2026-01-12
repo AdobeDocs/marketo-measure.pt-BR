@@ -3,12 +3,13 @@ description: '[!DNL Marketo Measure] Requisito de Integridade de Dados do Ultima
 title: Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 86%
+source-wordcount: '1610'
+ht-degree: 84%
 
 ---
+
 
 # Requisito de integridade de dados do [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
@@ -894,10 +895,9 @@ ht-degree: 86%
 **Taxas de conversão**: cada par (moeda de origem, moeda de destino) pode ter várias taxas de conversão para diferentes períodos de data. As taxas devem cobrir todo o período de 0001-01-01 a 9999-12-31, de acordo com o objeto Salesforce DatedConversionRate.
 
 **Intervalo de datas**:
+
 * Nenhum intervalo de datas sobreposto em uma taxa (moeda de origem, moeda de destino) definida (por exemplo, 2023-01-01 a 2023-02-01 e 2023-01-01 a 2024-01-01).
 * Não há lacunas entre os intervalos de datas. A data de início é inclusiva e a data de término é exclusiva.
-
-<p>
 
 ## ExperienceEvent {#experienceevent}
 
@@ -1133,7 +1133,7 @@ Chaves estrangeiras de conta não existem para registros de pessoa de “Lead”
 
 ### Conta empresarial XDM {#xdm-business-account}
 
-```
+```sql
 select 'account source id', count(*) from salesforce_account where accountKey.sourceId is null
 union all
 select 'account source type', count(*) from salesforce_account where accountKey.sourceType is null
@@ -1151,7 +1151,7 @@ select 'last updated date', count(*) from salesforce_account where extSourceSyst
 
 ### Campanha empresarial XDM {#xdm-business-campaign}
 
-```
+```sql
 select 'campaign source id', count(*) from salesforce_campaign where campaignKey.sourceId is null
 union all
 select 'campaign source type', count(*) from salesforce_campaign where campaignKey.sourceType is null
@@ -1169,7 +1169,7 @@ select 'last updated date', count(*) from salesforce_campaign where extSourceSys
 
 ### Membro da campanha empresarial XDM {#xdm-business-campaign-member}
 
-```
+```sql
 select 'campaign member source id', count(*) from salesforce_campaign_member where campaignMemberKey.sourceId is null
 union all
 select 'campaign member source type', count(*) from salesforce_campaign_member where campaignMemberKey.sourceType is null
@@ -1207,7 +1207,7 @@ select 'last updated date', count(*) from salesforce_campaign_member where extSo
 
 ### Pessoa de negócios XDM {#xdm-business-person}
 
-```
+```sql
 select 'person source id', count(*) from marketo_person where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from marketo_person where b2b.personKey.sourceType is null
@@ -1229,7 +1229,7 @@ union all
 select 'last updated date', count(*) from marketo_person where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-```
+```sql
 select 'person source id', count(*) from salesforce_contact where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from salesforce_contact where b2b.personKey.sourceType is null
@@ -1261,7 +1261,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 
 ### Oportunidade de negócios XDM {#xdm-business-opportunity}
 
-```
+```sql
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
 union all
 select 'opportunity source type', count(*) from salesforce_opportunity where opportunityKey.sourceType is null
@@ -1299,7 +1299,7 @@ select 'last updated date', count(*) from salesforce_opportunity where extSource
 
 ### ExperienceEvent XDM {#xdm-experienceevent}
 
-```
+```sql
 select 'id', count(*) from marketo_activity where _id is null
 union all
 select 'event type', count(*) from marketo_activity where eventType is null
@@ -1331,7 +1331,7 @@ union all
 select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
-```
+```sql
 select 'id', count(*) from salesforce_task where _id is null
 union all
 select 'event type', count(*) from salesforce_task where eventType is null
@@ -1349,7 +1349,7 @@ select 'person source key', count(*) from salesforce_task where personKey.source
 
 ### Conversão {#conversion}
 
-```
+```sql
 select 'conversion rate', count(*) from currency_conversion_rate where conversionRate is null
 union all
 select 'end date', count(*) from currency_conversion_rate where endDate is null
@@ -1377,8 +1377,8 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 
 É recomendável usar um campo calculado no mapeamento de campos para padronizar o campo com um valor não NULO. Veja a seguir dois exemplos:
 
-* Se opportunityName de alguns registros de oportunidade for nulo, crie e use o seguinte campo calculado no mapeamento de campos
+* Se `opportunityName` de alguns registros de oportunidade forem nulos, crie e use o seguinte campo calculado no mapeamento de campos
    * `iif(name != null && trim(name) != "", name, "Unknown")`
 
-* Se leadOperation.campaignProgression.campaignID de alguns registros experienceevent for nulo, crie e use o seguinte campo calculado no mapeamento de campos
+* Se `leadOperation.campaignProgression.campaignID` de alguns registros de evento de experiência for nulo, crie e use o seguinte campo calculado no mapeamento de campos
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

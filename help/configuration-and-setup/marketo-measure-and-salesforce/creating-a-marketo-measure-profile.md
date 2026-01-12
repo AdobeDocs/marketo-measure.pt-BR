@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874698
 description: Criando um  [!DNL Marketo Measure] Perfil - [!DNL Marketo Measure]
 title: Criação de um [!DNL Marketo Measure] perfil
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 3%
 
 ---
+
 
 # Criando um perfil [!DNL Marketo Measure] {#creating-a-marketo-measure-profile}
 
@@ -21,7 +21,6 @@ Saiba como criar um perfil do [!DNL Marketo Measure]. A criação de um perfil [
    * Ativar a permissão para Exibir e Editar Clientes Potenciais Convertidos
 
    >[!NOTE]
-   >
    >Este perfil pode ser um clone de um perfil [!DNL System Admin]
 
 1. Criou um usuário [!DNL Marketo Measure] dedicado:
@@ -39,4 +38,4 @@ Saiba como criar um perfil do [!DNL Marketo Measure]. A criação de um perfil [
 
    Pronto!
 
-   Em caso de dúvidas sobre a criação de um perfil dedicado [!DNL Marketo Measure], entre em contato com a Equipe de Conta do Adobe (seu Gerente de Conta) ou com o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Em caso de dúvidas sobre a criação de um perfil dedicado [!DNL Marketo Measure], entre em contato com a Equipe de Conta da Adobe (seu Gerente de Conta) ou com o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

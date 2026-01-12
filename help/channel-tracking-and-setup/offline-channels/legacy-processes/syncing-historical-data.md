@@ -1,22 +1,21 @@
 ---
-unique-page-id: 42762310
 description: Sincronizando Dados Históricos - [!DNL Marketo Measure]
 title: Sincronização de dados históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1528'
 ht-degree: 3%
 
 ---
+
 
 # Sincronização de dados históricos {#syncing-historical-data}
 
 O [!DNL Marketo Measure] é uma solução que fornece os dados mais granulares e acionáveis. Entendemos, no entanto, que você pode ter dados existentes para os quais gostaria de ter atribuição. É possível gerar pontos de contato para dados históricos, mas é importante levar alguns fatores em consideração antes de prosseguir com esse processo.
 
 >[!NOTE]
->
 >Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado do aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Fatores a serem considerados {#factors-to-consider}
@@ -49,15 +48,14 @@ A [!DNL Marketo Measure] recomenda não ultrapassar o ano anterior.
 
 **Online:**
 
-Para sincronizar dados online históricos, os dados devem ser organizados em Campanhas do Salesforce que você sincronizaria com [!DNL Marketo Measure] por meio de [!DNL Salesforce] regras de sincronização de campanha no aplicativo [!DNL Marketo Measure]. É importante garantir que os pontos de contato não sejam gerados a partir de nenhuma dessas campanhas após a data de ativação do JavaScript. O motivo para isso é evitar pontos de contato duplicados. Após a ativação da JavaScript, os esforços online são acompanhados automaticamente, portanto, não queremos rastreá-los também por meio de uma campanha do SFDC. Para evitar esse problema, adicione uma noção de tempo à regra. Talvez algo como &quot;a data de criação do membro da campanha seja anterior à [data de publicação do JavaScript]&quot;.
+Para sincronizar dados online históricos, os dados devem ser organizados em Campanhas do Salesforce que você sincronizaria com [!DNL Marketo Measure] por meio de [!DNL Salesforce] regras de sincronização de campanha no aplicativo [!DNL Marketo Measure]. É importante garantir que os pontos de contato não sejam gerados a partir de nenhuma dessas campanhas após a data de ativação do JavaScript. O motivo para isso é evitar pontos de contato duplicados. Após a ativação da JavaScript, os esforços online são rastreados automaticamente, para que não queiramos rastreá-los por meio de uma campanha do SFDC. Para evitar esse problema, adicione uma noção de tempo à regra. Talvez algo como &quot;a data de criação do membro da campanha seja anterior à [data de publicação do JavaScript]&quot;.
 
-![](assets/syncing-historical-data-1.png)
+![Exemplo de regra de sincronização de campanha do Salesforce para dados históricos](assets/syncing-historical-data-1.png)
 
 O componente de mapeamento de canal para dados online históricos pode ser um pouco complicado. Queremos que ele corresponda às suas regras de canal online atuais (da folha de regras online) o mais próximo possível para relatórios limpos. Veja abaixo um exemplo de mapeamento de canal ideal.
 
 >[!NOTE]
->
->Este mapeamento de canal é feito na seção [!UICONTROL Canais Offline] do aplicativo [!DNL Marketo Measure], pois estamos usando campanhas SFDC.
+>Este mapeamento de canal é feito na seção [!UICONTROL Canais Offline] do aplicativo [!DNL Marketo Measure], pois estamos usando campanhas do SFDC.
 
 | Tipo de campanha do Salesforce | Canal | Subcanal |
 |---|---|---|
@@ -67,15 +65,15 @@ O componente de mapeamento de canal para dados online históricos pode ser um po
 
 Os dados online adicionados desta forma serão inerentemente menos granulares que os dados online [!DNL Marketo Measure] que são rastreados via JavaScript. Por exemplo, campos como URL do formulário, Página de aterrissagem, Página do referenciador etc. não serão preenchidos. Portanto, é recomendável dividir as campanhas em cada fonte, se possível. Como visto no exemplo acima, seria necessário ter vários Tipos de campanha para cada fonte para ter granularidade nos relatórios.
 
-Talvez não seja possível ou razoável ter o número de tipos de campanha do SFDC para oferecer suporte ao mapeamento granular de canais, portanto, você pode recorrer apenas ao mapeamento para o nível do canal e ignorar os subcanais. Se o nível do Canal também não for conhecido, você pode configurar um canal proxy como &quot;Histórico digital&quot; para pelo menos saber que foi um toque online.
+Talvez não seja possível ou razoável ter o número de Tipos de campanha do SFDC para oferecer suporte ao mapeamento de canal granular, portanto, você pode recorrer apenas ao mapeamento para o nível do canal e ignorar os subcanais. Se o nível do Canal também não for conhecido, você pode configurar um canal proxy como &quot;Histórico digital&quot; para pelo menos saber que foi um toque online.
 
 Se você precisar editar em massa a data do ponto de contato que será enviada para esses esforços online históricos, use o botão [!DNL Marketo Measure] personalizado &quot;[!UICONTROL Atualização em massa da data do ponto de contato]&quot; (disponível como um campo personalizado no Objeto de campanha no SFDC). Se a Campanha tiver um período curto, talvez valha a pena editar em massa a data do ponto de contato em um intervalo de dia a dia, enquanto pode fazer sentido atualizar em massa semanalmente se a Campanha tiver um período mais longo. Se você usar a funcionalidade Atualização em massa da data do ponto de contato, atualize a Regra de sincronização do Campaign para usar a Data do Buyer Touchpoint no campo de data. Observe que isso pode exigir ser criativo com suas regras de sincronização do Campaign se isso se aplicar somente a uma ou duas Campanhas, e não a todas.
 
 **Offline:**
 
-Os dados históricos das iniciativas de marketing offline (que não podem ser rastreadas pelo JavaScript) também precisarão ser organizados em campanhas do SFDC. As campanhas do SFDC são a forma como [!DNL Marketo Measure] rastreia as iniciativas offline, independentemente de a atividade ser &quot;histórica&quot; ou &quot;atual/pós[!DNL Marketo Measure] implementação&quot;. Portanto, siga o mesmo mapeamento de canal decidido no treinamento original de Configuração de Canal Offline.
+Os dados históricos de esforços de marketing offline (aqueles que não podem ser rastreados por meio do JavaScript) também precisarão ser organizados em campanhas do SFDC. As campanhas do SFDC são a forma como [!DNL Marketo Measure] rastreia os esforços offline, independentemente de a atividade ser &quot;histórica&quot; ou &quot;implementação atual/pós[!DNL Marketo Measure]&quot;. Portanto, siga o mesmo mapeamento de canal decidido no treinamento original de Configuração de Canal Offline.
 
-Se necessário, use o botão &quot;Atualizar data do ponto de contato em massa&quot; para editar em massa a data do ponto de contato dos membros da campanha. Por exemplo, se você estiver criando campanhas SFDC após a ocorrência do evento, convém fazer uma edição em massa para a data correta. Se você usar a funcionalidade Atualização em massa da data do ponto de contato, atualize a Regra de sincronização do Campaign para usar a Data do Buyer Touchpoint no campo de data. Observe que isso pode exigir ser criativo com suas regras de sincronização do Campaign se isso se aplicar somente a uma ou duas Campanhas, e não a todas.
+Se necessário, use o botão &quot;Atualizar data do ponto de contato em massa&quot; para editar em massa a data do ponto de contato dos membros da campanha. Por exemplo, se você estiver criando campanhas do SFDC após a ocorrência do evento, convém fazer uma edição em massa para a data correta. Se você usar a funcionalidade Atualização em massa da data do ponto de contato, atualize a Regra de sincronização do Campaign para usar a Data do Buyer Touchpoint no campo de data. Observe que isso pode exigir ser criativo com suas regras de sincronização do Campaign se isso se aplicar somente a uma ou duas Campanhas, e não a todas.
 
 ## Sincronizando Campanhas Históricas em [!DNL Dynamics] {#syncing-historic-campaigns-in-dynamics}
 
@@ -91,14 +89,13 @@ Os dados digitais históricos precisam ser organizados em [!DNL Dynamics] campan
 
 Se os dados forem alojados em outro lugar (como ainda vivendo na Automação de Marketing), eles precisarão ser enviados para [!DNL Dynamics] e organizados nas campanhas apropriadas. Em seguida, será necessário considerar a Data do ponto de contato como deseja que ela reflita a data do passado, não a data em que ela foi enviada para [!DNL Dynamics]. Para substituir essa data, é possível usar o campo personalizado &quot;Data do Buyer Touchpoint&quot; para alterar a data. Será necessário adicioná-lo ao Formulário da Lista de marketing.
 
-![](assets/syncing-historical-data-2.png)
+![Configuração da lista de marketing do Dynamics com o campo de data do Buyer Touchpoint](assets/syncing-historical-data-2.png)
 
 Como resultado, é possível definir em massa a data de todos na Lista de marketing que será usada para a Data do ponto de contato. Para ter datas históricas mais precisas, crie várias Listas de marketing para a mesma campanha, cada uma com sua própria Data de ponto de contato. Se a Campanha tiver um curto período de tempo, talvez valha a pena criar uma Lista de marketing para cada dia. Se a Campanha tiver um período de tempo mais longo, pode fazer sentido criar uma Lista de marketing semanalmente.
 
 Mais informações sobre como sincronizar Listas de Marketing podem ser encontradas aqui: [[!DNL Dynamics] Campanhas e Listas de Marketing](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
->
 >Se, por qualquer motivo, você tiver uma atividade de rastreamento online de campanha que esteja ativa após a data de ativação do JavaScript, certifique-se de definir o campo &quot;[!UICONTROL Data de término do ponto de contato]&quot; para a data em que o JS foi ativado. Isso evita pontos de contato duplicados para a mesma interação.
 
 Considerações: dados online adicionados desta maneira serão inerentemente menos granulares que os dados online [!DNL Marketo Measure] que são rastreados pela JavaScript. Por exemplo, campos como: URL do formulário, Página de aterrissagem, Página do referenciador etc. não serão preenchidos. Portanto, é recomendável dividir as campanhas em cada fonte, se possível. Veja abaixo um exemplo de mapeamento ideal.
@@ -120,7 +117,7 @@ Para ter pontos de contato para esforços de marketing offline do passado, os da
 | Eventos - Conferências Patrocinadas | Eventos | Conferências Patrocinadas |
 | Eventos - Eventos para parceiros | Eventos | Eventos para parceiros |
 | Eventos - Eventos hospedados | Eventos | Eventos hospedados |
-| Webinário - Webinário de parceiros | Webinar | Webinário do parceiro |
+| Webinário - Webinário de parceiros | Webinário | Webinário do parceiro |
 
 Se esses dados ainda não estiverem organizados em Campanhas com as datas corretas definidas, você poderá usar o campo &quot;Data do Buyer Touchpoint&quot; para refletir a data precisa da atividade offline no passado.
 
