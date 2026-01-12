@@ -34,4 +34,4 @@ Este relatório mostra o número de oportunidades geradas pelos seus Canais de m
    Este é um relatório de Oportunidades resumido pelo Canal de marketing. Este relatório foca em todas as Ops, mas sinta-se à vontade para filtrar com base no estágio/tipo de oportunidade. Além disso, fique à vontade para adicionar campos sobre os quais deseja criar relatórios.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutoriais: Relatórios do Stock SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriais: Relatórios do Stock SFDC](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
