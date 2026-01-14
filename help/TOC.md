@@ -17,14 +17,14 @@ ht-degree: 74%
 + [Visão geral](/help/home.md)
 + Introdução ao [!DNL Marketo Measure] {#introduction-to-marketo-measure}
    + Visão geral dos recursos {#overview-resources}
-      + [Modelos de atribuição do [!DNL Marketo Measure] ](/help/introduction/attribution-models.md)
+      + [Modelos de atribuição do [!DNL Marketo Measure] &#x200B;](/help/introduction/attribution-models.md)
       + [Estrutura do [!DNL Marketo Measure]](/help/introduction/marketo-measure-framework.md)
       + [Atribuições de marketing](/help/introduction/marketing-attribution.md)
-      + [Glossário de campos do  [!DNL Marketo Measure] ](/help/introduction/glossary.md)
+      + [Glossário de campos do  [!DNL Marketo Measure] &#x200B;](/help/introduction/glossary.md)
 + Acompanhamento de [!DNL Marketo Measure] {#marketo-measure-tracking}
    + Configuração do rastreamento {#setting-up-tracking}
       + [Adição do  [!DNL Marketo Measure]  Script](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
-      + [Práticas recomendadas para implementação do JavaScript do  [!DNL Marketo Measure] ](/help/marketo-measure-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
+      + [Práticas recomendadas para implementação do JavaScript do  [!DNL Marketo Measure] &#x200B;](/help/marketo-measure-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Adição de [!DNL Marketo Measure] script via Gerenciador de tags do Google](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
       + [Dados coletados por JavaScript](/help/marketo-measure-tracking/data-collected-by-javascript.md)
       + Adicionando o script [!DNL Marketo Measure] a diferentes provedores de formulários {#adding-marketo-measure-script-to-different-form-providers}
@@ -57,7 +57,7 @@ ht-degree: 74%
       + [Tratamento de erros para exportações do CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [Como [!DNL Marketo Measure] e [!DNL Salesforce] interagir](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] Taxonomia de objeto e campo](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
-      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
+      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [Instruções de layout da página](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
       + [Ocultar tipos de relatório desnecessários](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
       + [Instalação do pacote Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
@@ -85,7 +85,7 @@ ht-degree: 74%
       + Processos herdados {#legacy-processes}
          + [[!UICONTROL Campanhas e membros da campanha]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
          + [Datas de sincronização da campanha](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-         + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
          + [Campanhas do Dynamics e listas de marketing](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
          + [Sincronização de dados históricos](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [Sincronização de campanhas offline](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)

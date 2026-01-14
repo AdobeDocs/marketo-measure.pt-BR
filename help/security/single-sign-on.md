@@ -15,7 +15,7 @@ A SAML (linguagem de marcação de declaração de segurança) para SSO (logon �
 
 >[!CAUTION]
 >
->Este artigo descreve o processo de logon único (SSO) e gerenciamento avançado de usuários do CRM. Se sua conta foi provisionada **após 10/9/2020**, ignore este artigo, pois o SSO e o gerenciamento de identidade da sua integração do  [!DNL Marketo Measure] ](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md) serão configurados no [Adobe Admin Console.
+>Este artigo descreve o processo de logon único (SSO) e gerenciamento avançado de usuários do CRM. Se sua conta foi provisionada **após 10/9/2020**, ignore este artigo, pois o SSO e o gerenciamento de identidade da sua integração do  [!DNL Marketo Measure] [&#128279;](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md) serão configurados no Adobe Admin Console.
 
 >[!NOTE]
 >
