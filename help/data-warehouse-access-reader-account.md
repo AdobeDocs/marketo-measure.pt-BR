@@ -18,7 +18,7 @@ Para acessar o data warehouse da Snowflake, navegue até o URL específico da su
 
 1. Em [!DNL Marketo Measure], na parte superior da página, clique em **[!UICONTROL Minha Conta]** > **[!UICONTROL Configurações]**.
 
-   ![1. No Marketo Measure, na parte superior da página, clique em ](assets/data-account-7.png)
+   ![1. No Marketo Measure, na parte superior da página, clique em &#x200B;](assets/data-account-7.png)
 
 1. No menu do lado esquerdo, em Segurança, clique em **[!UICONTROL Data Warehouse]**.
 
@@ -38,11 +38,11 @@ Para acessar o data warehouse da Snowflake, navegue até o URL específico da su
 
 1. Depois de fazer logon, clique em **[!UICONTROL Planilhas]** na parte superior da página.
 
-   ![1. Depois de fazer logon, clique em Planilhas na parte superior do ](assets/data-account-6.png)
+   ![1. Depois de fazer logon, clique em Planilhas na parte superior do &#x200B;](assets/data-account-6.png)
 
 1. Os objetos do banco de dados BIZIBLE_ROI_V3 estão no lado esquerdo da tela. Informe o Depósito, o Banco de Dados e o Esquema nas opções suspensas na parte superior da janela de consulta. Deve haver apenas uma opção para cada um. Agora você está pronto para executar consultas no editor de consultas do Snowflake.
 
-   ![1. Os objetos de banco de dados BIZIBLEROIV3 estão no lado esquerdo de ](assets/data-account-4.png)
+   ![1. Os objetos de banco de dados BIZIBLEROIV3 estão no lado esquerdo de &#x200B;](assets/data-account-4.png)
 
 ## Redefina sua senha {#reset-your-password}
 

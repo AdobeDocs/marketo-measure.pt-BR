@@ -50,7 +50,7 @@ Etapa 4 - Adicionar regras de filtro.
 * Clique no sinal de mais para adicionar um segmento
 * Informe um nome de Segmento. Por exemplo, você pode ter um segmento para novos negócios, parceiros, renovação ou venda adicional
 
-![Insira um nome de segmento. Por exemplo, você pode ter um segmento para ](assets/custom-segmentation-2.png)
+![Insira um nome de segmento. Por exemplo, você pode ter um segmento para &#x200B;](assets/custom-segmentation-2.png)
 
 * Clique no ícone de adição para revelar os campos de entrada da regra. As opções na lista de opções Campo extrai campos diretamente do seu CRM
 

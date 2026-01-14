@@ -48,7 +48,7 @@ Quando [!DNL Marketo Measure] pode importar/baixar a tarefa, processamos esses d
 
 A &quot;Chamada&quot; do Tipo [!UICONTROL Touchpoint] é retirada da Tarefa, da captura de tela acima, que também é preenchida por CallTrackingMetrics quando a Tarefa é criada.
 
-![A &quot;Chamada&quot; do Tipo de Ponto de Contato é retirada da Tarefa, do ](assets/marketo-engage-activities-01.png)
+![A &quot;Chamada&quot; do Tipo de Ponto de Contato é retirada da Tarefa, do &#x200B;](assets/marketo-engage-activities-01.png)
 
 ## Relatórios {#reporting}
 

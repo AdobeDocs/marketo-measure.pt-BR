@@ -84,7 +84,7 @@ Renomeamos as tabelas e colunas para facilitar o uso e padronizar convenções d
 
 Para adicionar um recurso de conversão de moeda aos cálculos no modelo, adicionamos uma taxa de conversão corporativa e uma coluna de taxa de conversão de destino às tabelas de Oportunidade e Custo. O valor nessas colunas é adicionado no nível da linha e é avaliado associando-se à tabela Taxa de conversão na data e no ID da moeda. Como o Tableau não permite que as tabelas de fatos compartilhem mais de uma tabela de dimensão, as taxas de conversão foram adicionadas diretamente às tabelas que as utilizam. Para obter mais detalhes sobre como a conversão de moeda funciona neste modelo, consulte a seção [Conversão de moeda](#currency-conversion) nesta documentação.
 
-![Para adicionar recursos de conversão de moeda aos cálculos no modelo, ](assets/marketo-tableau-4.png)
+![Para adicionar recursos de conversão de moeda aos cálculos no modelo, &#x200B;](assets/marketo-tableau-4.png)
 
 Há alguns lugares onde duas tabelas do [!DNL Snowflake] foram combinadas com uma união para criar uma tabela no modelo de dados do [!DNL Tableau]. Nesses casos, uma coluna “Tipo” foi adicionada para indicar de qual tabela do [!DNL Snowflake] ela vem e designa qual entidade a linha representa. Para obter mais detalhes sobre as tabelas que foram combinadas, consulte a seção Relação e fluxo de dados nesta documentação.
 
@@ -104,7 +104,7 @@ Os nomes podem ser atualizados de duas maneiras. A primeira opção é atualizar
 
 A outra opção é renomear as colunas diretamente na tabela do [!DNL Tableau].
 
-![A outra opção é renomear as colunas diretamente em ](assets/marketo-tableau-9.png)
+![A outra opção é renomear as colunas diretamente em &#x200B;](assets/marketo-tableau-9.png)
 
 ## Modelo de dados {#data-model}
 

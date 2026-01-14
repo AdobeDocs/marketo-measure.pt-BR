@@ -32,9 +32,9 @@ Todos os níveis.
 
 1. Para começar a configurar regras em Programas do Marketo, navegue até **[!UICONTROL Minha Conta]** > **[!UICONTROL Configurações]** > **[!UICONTROL Programas]**. Clique no ícone **+** para começar a criar sua primeira regra.
 
-   ![1. Para começar a configurar regras em Programas do Marketo, navegue até ](assets/marketo-engage-programs-01.png)
+   ![1. Para começar a configurar regras em Programas do Marketo, navegue até &#x200B;](assets/marketo-engage-programs-01.png)
 
-   ![1. Para começar a configurar regras em Programas do Marketo, navegue até ](assets/marketo-engage-programs-06.png)
+   ![1. Para começar a configurar regras em Programas do Marketo, navegue até &#x200B;](assets/marketo-engage-programs-06.png)
 
 1. Você pode, opcionalmente, definir um nome para a regra se isso ajudar a rastreá-los. primeiro, selecione o campo para definir a regra na lista dos campos Program e Program Membership (Programa). Continue criando a regra selecionando o operador e o valor esperado a serem verificados.
 
@@ -42,7 +42,7 @@ Todos os níveis.
 
 1. Adicione outra instrução na mesma caixa para configurar um critério &quot;and&quot; na regra ou clique no ícone + fora da caixa para configurar uma instrução &quot;or&quot;.
 
-   ![1. Adicionar outra instrução na mesma caixa para configurar um ](assets/bizible-discover-1.png)
+   ![1. Adicionar outra instrução na mesma caixa para configurar um &#x200B;](assets/bizible-discover-1.png)
 
 1. Escolha qual campo de data ou data/hora deve ser usado para mapear para a Data do ponto de contato. Para ver a lista de valores disponíveis no Marketo, insira uma chave `{` e exibiremos os campos disponíveis.
 
@@ -88,7 +88,7 @@ Na lista de Canais de programa do Marketo, será possível mapear os valores par
 
 1. Primeiro, selecione o Canal que deve ser mapeado para o valor e, como opção, selecione o Subcanal. Quando terminar, clique em **[!UICONTROL Salvar]** na parte inferior.
 
-   ![1. Selecione primeiro o Canal que deve ser mapeado para o valor e depois ](assets/marketo-engage-programs-08.png)
+   ![1. Selecione primeiro o Canal que deve ser mapeado para o valor e depois &#x200B;](assets/marketo-engage-programs-08.png)
 
 ## Custos do programa {#program-costs}
 

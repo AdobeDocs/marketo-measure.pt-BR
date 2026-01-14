@@ -101,7 +101,7 @@ Renomeamos as tabelas e colunas para facilitar o uso e padronizar convenções d
 
 Como os nomes de segmentos são personalizáveis, eles têm nomes de coluna genéricos no data warehouse do Snowflake. [!DNL BIZ_SEGMENT_NAMES] é uma tabela de mapeamento que lista o nome de segmento genérico e seu nome de segmento personalizado mapeado, definido na seção segmento na interface do [!DNL Marketo Measure]. A tabela Nome do segmento é usada para renomear as colunas de segmento nas tabelas Ponto de contato de cliente potencial e de atribuição. Se não houver nenhum segmento personalizado, o nome do segmento genérico permanecerá.
 
-![Como os nomes de segmentos são personalizáveis, eles têm nomes de colunas genéricos no ](assets/marketo-bi-4.png)
+![Como os nomes de segmentos são personalizáveis, eles têm nomes de colunas genéricos no &#x200B;](assets/marketo-bi-4.png)
 
 ### Conversão de ID com diferenciação de maiúsculas e minúsculas {#case-sensitive-id-conversion}
 
@@ -109,15 +109,15 @@ Os dados do [!DNL Marketo Measure] têm algumas tabelas em que os valores da cha
 (https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas de minúsculas são rotulados como “IDs de associação” e usados como chaves de associação na camada de relação. Ocultamos as IDs de associação da camada de relatórios, mantendo os valores de ID originais visíveis para uso nos relatórios, já que os caracteres invisíveis podem interferir nas funções de cortar
 /colar e na filtragem.
 
-![ funções/colagem e filtragem.](assets/marketo-bi-8.png)
+![&#x200B; funções/colagem e filtragem.](assets/marketo-bi-8.png)
 
-![ funções/colagem e filtragem.](assets/marketo-bi-11.png)
+![&#x200B; funções/colagem e filtragem.](assets/marketo-bi-11.png)
 
 ### Linhas adicionadas {#rows-added}
 
 Para adicionar recursos de conversão de moeda aos cálculos no modelo, adicionamos uma coluna de taxa de conversão corporativa às tabelas Oportunidade e Custo. O valor nessa coluna é adicionado no nível da linha e é avaliado associando-se à tabela Taxa de conversão na data e na ID da moeda. Para obter mais detalhes sobre como a conversão de moeda funciona neste modelo, consulte a seção [Conversão de moeda](#currency-conversion) nesta documentação.
 
-![Para adicionar recursos de conversão de moeda aos cálculos no modelo, ](assets/marketo-bi-10.png)
+![Para adicionar recursos de conversão de moeda aos cálculos no modelo, &#x200B;](assets/marketo-bi-10.png)
 
 A tabela Taxa de conversão armazenada no [!DNL Snowflake] contém um intervalo de datas para cada conversão. O Power BI não permite critérios de associação em um cálculo (ou seja, entre um intervalo de datas). Para associar-se a uma data, adicionamos etapas à tabela Taxa de conversão para expandir as linhas até que haja uma linha para cada data no intervalo de datas de conversão.
 

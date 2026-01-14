@@ -34,7 +34,7 @@ Para acessar e atribuir conjuntos de permissões no Salesforce:
  <tbody>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] Administrador</strong></span></td>
-   <td><span>Oferece ao administrador do SFDC a capacidade de criar, ler, gravar e excluir registros de [!DNL Marketo Measure] objetos. A licença sob a qual [!DNL Marketo Measure] envia dados para o SFDC deve ter esse conjunto de permissões habilitado. Além disso, é recomendável que esta licença tenha a capacidade de editar clientes em potencial convertidos nos cenários em que o cliente em potencial é convertido antes de [!DNL Marketo Measure] aplicar os dados ao registro. Isso garante a precisão nos relatórios entre o Salesforce e o [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Leia mais aqui</a>.</span></td>
+   <td><span>Oferece ao administrador do SFDC a capacidade de criar, ler, gravar e excluir registros de [!DNL Marketo Measure] objetos. A licença sob a qual [!DNL Marketo Measure] envia dados para o SFDC deve ter esse conjunto de permissões habilitado. Além disso, é recomendável que esta licença tenha a capacidade de editar clientes em potencial convertidos nos cenários em que o cliente em potencial é convertido antes de [!DNL Marketo Measure] aplicar os dados ao registro. Isso garante a precisão nos relatórios entre o Salesforce e o [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">Leia mais aqui</a>.</span></td>
   </tr>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] Usuário de campanha de marketing</strong></span></td>

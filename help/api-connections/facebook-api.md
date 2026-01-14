@@ -52,7 +52,7 @@ Após habilitar a integração, o [!DNL Marketo Measure] começará a baixar o c
 
 Para que a integração funcione corretamente, é necessário habilitar a marcação automática na conta do [!DNL Facebook]. Isso permitirá que nosso sistema adicione um parâmetro _bf em todos os links de anúncios. Este processo adicionará o novo parâmetro além de qualquer outro parâmetro de rastreamento que você já tenha adicionado aos seus anúncios [!DNL Facebook].
 
-![Para que a integração funcione corretamente, habilite a marcação automática no ](../assets/marketo-engage-activities-05.png)
+![Para que a integração funcione corretamente, habilite a marcação automática no &#x200B;](../assets/marketo-engage-activities-05.png)
 
 ## Mapeamento de campos {#field-mapping}
 

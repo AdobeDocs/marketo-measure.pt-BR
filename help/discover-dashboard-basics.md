@@ -21,10 +21,10 @@ Cada painel tem uma variedade de filtros, acompanhados pelos seguintes controles
 
 | Nome | Descrição |
 | --- | --- |
-| Botão de alternância do filtro | Alterne o painel de filtro aberto ou fechado. ![| — | — |](assets/discover-basics-9.png) |
-| Barra de pesquisa | Use a pesquisa na parte superior do painel de filtros para procurar um filtro específico. Cada filtro também tem sua própria barra de pesquisa. ![| — | — |](assets/discover-basics-10.png) |
-| Botão Limpar Filtro | Para limpar um filtro, clique no ícone de borracha localizado no canto superior direito de cada filtro. ![| — | — |](assets/discover-basics-11.png) |
-| Botão Aplicar | Clique em para confirmar e implementar as alterações no filtro no painel. ![| — | — |](assets/discover-3a-1.png) |
+| Botão de alternância do filtro | Alterne o painel de filtro aberto ou fechado. |||||||||||||||||||||||||![ — | — |] (apng) |
+| Barra de pesquisa | Use a pesquisa na parte superior do painel de filtros para procurar um filtro específico. Cada filtro também tem sua própria barra de pesquisa. ||||||||||||||||||||||||||![ — | — |] (apng) |
+| Botão Limpar Filtro | Para limpar um filtro, clique no ícone de borracha localizado no canto superior direito de cada filtro. ||||||||||||||||||||||||||![ — | — |] (apng) |
+| Botão Aplicar | Clique em para confirmar e implementar as alterações no filtro no painel. |||||||||||||||||||||![ — | — |] (apng) |
 
 ## Filtros no visual {#filters-on-visual}
 
@@ -38,7 +38,7 @@ Passe o mouse sobre o canto superior direito de um visual para ver uma lista som
 
 * Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; a presença de opções de controle de drill na barra de ação indica isso.
 
-![Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; o ](assets/discover-basics-7.png)
+![Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; o &#x200B;](assets/discover-basics-7.png)
 
 * Ative o drill-down clicando na seta para baixo única, realçada por um plano de fundo cinza. Para reverter, use o ícone de drill-up.
 
@@ -71,7 +71,7 @@ Para exportar os dados subjacentes de um visual, passe o mouse sobre o canto sup
 
 Para aplicar mais zoom a um visual ou bloco gráfico específico, passe o mouse sobre o canto superior direito e selecione o botão &quot;foco&quot;.
 
-![Para aplicar mais zoom a um visual ou bloco específico, passe o mouse sobre ](assets/discover-basics-5.gif)
+![Para aplicar mais zoom a um visual ou bloco específico, passe o mouse sobre &#x200B;](assets/discover-basics-5.gif)
 
 ### Filtragem cruzada {#cross-filtering}
 

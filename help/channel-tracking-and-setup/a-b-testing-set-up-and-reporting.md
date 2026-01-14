@@ -25,7 +25,7 @@ Adicione as seções de teste A/B do [!DNL Marketo Measure] nas páginas Lead, C
 
 1. Clique no botão de [!UICONTROL chave inglesa]. Remova o campo “ID” do estoque da lista de campos selecionados. Adicione os campos **[!UICONTROL Experimento]**, **[!UICONTROL Variação]**, e **[!UICONTROL Data do relatório]**. Altere “[!UICONTROL Classificar por]” para **[!UICONTROL Data do relatório]** e selecione **[!UICONTROL Decrescente]** no menu suspenso.
 
-   ![1. Clique na chave inglesa. Remover o campo &quot;Id&quot; do estoque de ](assets/advanced-features-3.png)
+   ![1. Clique na chave inglesa. Remover o campo &quot;Id&quot; do estoque de &#x200B;](assets/advanced-features-3.png)
 
 1. Em [!UICONTROL Botões], desmarque **[!UICONTROL Novo]**.
 

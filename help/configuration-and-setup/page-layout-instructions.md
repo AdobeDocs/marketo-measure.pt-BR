@@ -64,7 +64,7 @@ Para começar, primeiro navegue até as configurações de definição do [!DNL 
 
 1. Arraste a página do VisualForce **[!UICONTROL Lista relacionada ao lead do Marketo Measure]** para a seção de layout da página.
 
-   ![1. Arraste a página VisualForce da Lista Relacionada ao Cliente Potencial do Marketo Measure para ](assets/connect-salesforce-1.png)
+   ![1. Arraste a página VisualForce da Lista Relacionada ao Cliente Potencial do Marketo Measure para &#x200B;](assets/connect-salesforce-1.png)
 
 1. Clique no ícone de chave inglesa na página [!DNL VisualForce], modifique a altura para 100 e habilite as barras de rolagem.
 
@@ -74,7 +74,7 @@ Para começar, primeiro navegue até as configurações de definição do [!DNL 
 
    >[!NOTE]
    >
-   >Para o aplicativo de tela do [!DNL Marketo Measure Insights] funcionar de maneira adequada, é preciso configurar corretamente as permissões do [](/help/configuration-and-setup/marketo-measure-insights-configuration.md).
+   >Para o aplicativo de tela do [!DNL Marketo Measure Insights] funcionar de maneira adequada, é preciso configurar corretamente as permissões do [&#128279;](/help/configuration-and-setup/marketo-measure-insights-configuration.md).
 
 Se estiver usando o recurso de ABM do [!DNL Marketo Measure], [clique aqui para obter instruções adicionais sobre o layout de página](/help/channel-tracking-and-setup/account-based-marketing-overview.md).
 

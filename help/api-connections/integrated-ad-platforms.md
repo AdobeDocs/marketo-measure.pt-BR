@@ -64,7 +64,7 @@ Depois que você tiver um modelo de rastreamento em vigor, siga as instruções 
 
 1. No canto superior direito, alterne a **[!UICONTROL Marcação automática]** para **[!UICONTROL Sim]**. Na parte inferior da página, clique em **[!UICONTROL Saiba mais]** para expandir a caixa de texto e clique em **[!UICONTROL Salvar]**. A configuração de marcação automática foi concluída.
 
-   ![1. No canto superior direito, alterne a marcação automática para ](assets/utilizing-connections-10.png)
+   ![1. No canto superior direito, alterne a marcação automática para &#x200B;](assets/utilizing-connections-10.png)
 
 ## Como configurar um modelo de rastreamento no AdWords com [!DNL Marketo Measure] parâmetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 

@@ -54,7 +54,7 @@ Para habilitar Estágios do [!UICONTROL Bumerangue] para sua conta, você deve s
 
 1. Defina a porcentagem de atribuição que deseja alocar para os Estágios do bumerangue incluídos no modelo personalizado. Garanta que a atribuição total para todos os estágios agregue até 100%. Clique em **[!UICONTROL Salvar e processar]**.
 
-   ![1. Defina a porcentagem de atribuição que você deseja alocar para o ](assets/boomerang-stages-24.png)
+   ![1. Defina a porcentagem de atribuição que você deseja alocar para o &#x200B;](assets/boomerang-stages-24.png)
 
    >[!NOTE]
    >

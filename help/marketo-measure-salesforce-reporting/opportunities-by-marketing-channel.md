@@ -18,7 +18,7 @@ Este relatório mostra o número de oportunidades geradas pelos seus Canais de m
 
 1. Na localização rápida, digite &quot;Atribuição de Bizible&quot;, selecione o **[!UICONTROL Ponto de Contato de Atribuição de Bizible com o tipo de relatório Oportunidade]** e selecione **[!UICONTROL Criar]**.
 
-   ![1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione o ](assets/bizible-guide-1.png)
+   ![1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione o &#x200B;](assets/bizible-guide-1.png)
 
 1. A partir da parte superior do relatório, mostre **[!UICONTROL Todos os pontos de contato de atribuição da Bizible]** e ajuste o campo de data de acordo com o período no qual você deseja criar o relatório. No nosso exemplo, estamos olhando para Todos os Tempos. Além disso, altere o formato do relatório de [!UICONTROL Tabular] para **[!UICONTROL Resumo]**.
 
@@ -26,7 +26,7 @@ Este relatório mostra o número de oportunidades geradas pelos seus Canais de m
 
 1. Agora, adicionaremos campos ao relatório. Na localização rápida à esquerda, digite &quot;Canal de marketing&quot; e adicione-o ao agrupamento de resumo no relatório.
 
-   ![1. Agora, adicionaremos campos ao relatório. No ](assets/marketo-reports-10.jpg)
+   ![1. Agora, adicionaremos campos ao relatório. No &#x200B;](assets/marketo-reports-10.jpg)
 
 1. Agora, execute o relatório e analise.
 

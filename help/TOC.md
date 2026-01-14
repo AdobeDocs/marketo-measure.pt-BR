@@ -19,7 +19,7 @@ ht-degree: 74%
    + [Modelos de atribuição](/help/attribution-models.md)
    + [Estrutura do [!DNL Marketo Measure]](/help/marketo-measure-framework.md)
    + [Atribuições de marketing](/help/marketing-attribution.md)
-   + [Glossário de campos do  [!DNL Marketo Measure] ](/help/glossary.md)
+   + [Glossário de campos do  [!DNL Marketo Measure] &#x200B;](/help/glossary.md)
 + Acompanhamento de [!DNL Marketo Measure] {#marketo-measure-tracking}
    + [Adição do script de rastreamento](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
    + [Práticas recomendadas para a implementação do JavaScript](/help/marketo-measure-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
@@ -54,7 +54,7 @@ ht-degree: 74%
       + [Tratamento de erros para exportações do CRM](/help/configuration-and-setup/crm-error-handling.md)
       + [Como [!DNL Marketo Measure] e [!DNL Salesforce] interagir](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] Taxonomia de objeto e campo](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)
-      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] ](/help/configuration-and-setup/marketo-measure-fields-on-standard-salesforce-objects.md)
+      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] &#x200B;](/help/configuration-and-setup/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [Instruções de layout da página](/help/configuration-and-setup/page-layout-instructions.md)
       + [Ocultar tipos de relatório desnecessários](/help/configuration-and-setup/hiding-unnecessary-report-types.md)
       + [Instalação do pacote Salesforce](/help/configuration-and-setup/install-set-up.md)
@@ -82,7 +82,7 @@ ht-degree: 74%
    + Processos herdados {#legacy-processes}
       + [[!UICONTROL Campanhas e membros da campanha]](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
       + [Datas de sincronização da campanha](/help/channel-tracking-and-setup/campaign-sync-dates.md)
-      + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] ](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+      + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] &#x200B;](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
       + [Campanhas do Dynamics e listas de marketing](/help/channel-tracking-and-setup/dynamics-campaigns-and-marketing-lists.md)
       + [Sincronização de dados históricos](/help/channel-tracking-and-setup/syncing-historical-data.md)
       + [Sincronização de campanhas offline](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
