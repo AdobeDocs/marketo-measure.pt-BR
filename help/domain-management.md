@@ -21,7 +21,7 @@ Os usuários do IMS com acesso à Adobe Admin Console podem adicionar e validar 
 
 ![Usuários do IMS com acesso à Adobe Admin Console podem adicionar e](assets/domain-management-4.png)
 
-As instruções para adicionar domínios podem ser encontradas na [documentação do Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Após adicionar um domínio, ele deve ser [vinculado a um diretório](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+As instruções para adicionar domínios podem ser encontradas na [documentação do Admin Console](https://helpx.adobe.com/br/enterprise/using/add-domains-directories.html). Após adicionar um domínio, ele deve ser [vinculado a um diretório](https://helpx.adobe.com/br/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Gerenciando Domínios em [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 

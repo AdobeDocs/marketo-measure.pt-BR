@@ -48,7 +48,7 @@ Saiba mais sobre o [Marketo Measure Ultimate](/help/migration-from-tier-to-marke
 
 ![&42; Um esquema compreende uma classe e zero ou mais campos de esquema](assets/marketo-guide-1.png)
 
-[Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: todos os dados assimilados com êxito na AEP são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, geralmente uma tabela, que contém um esquema (colunas) e campos (linhas).
+[Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: todos os dados assimilados com êxito na AEP são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, geralmente uma tabela, que contém um esquema (colunas) e campos (linhas).
 
 ## Criação de um esquema {#creating-a-schema}
 
