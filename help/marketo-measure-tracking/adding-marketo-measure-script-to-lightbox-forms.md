@@ -3,9 +3,9 @@ description: Adicionando  [!DNL Marketo Measure] script às orientações do Lig
 title: Adição de [!DNL Marketo Measure] script para formulários do Lightbox
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ Como um formulário em um lightbox é basicamente um formulário em um iFrame, o
 
 Primeiro, localize o iFrame em que reside o formulário [!UICONTROL lightbox].
 
-![](assets/adding-providers-8.png)
+![Primeiro, localize o iFrame em que o formulário lightbox reside.](assets/adding-providers-8.png)
 
 Em seguida, coloque o JavaScript [!DNL Marketo Measure] no iFrame.
 
-![](assets/adding-providers-5.png)
+![Em seguida, coloque o Marketo Measure JavaScript no iFrame.](assets/adding-providers-5.png)
 
 Por fim, quando a JavaScript é adicionada, os envios de formulários de validação são rastreados seguindo estas orientações:
 

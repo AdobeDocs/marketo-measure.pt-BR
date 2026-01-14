@@ -3,9 +3,9 @@ description: Orientação de integração do LinkedIn para usuários do Marketo 
 title: Integração com o LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2703'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Os tipos de formatos de anúncio de Conteúdo Patrocinado com suporte do [!DNL M
 
 [!DNL Marketo Measure] não oferece suporte a mensagens patrocinadas, anúncios de texto ou anúncios dinâmicos.
 
-![](assets/bizible-guide-1.png)
+![O Marketo Measure não oferece suporte a mensagens patrocinadas, anúncios de texto ou dinâmicos](assets/bizible-guide-1.png)
 
 >[!TIP]
 >
@@ -106,7 +106,7 @@ Creative B : Compartilhamento 234\
 Creative C : Share 234\
 Creative D : Share 234
 
-![](assets/five-five-1.png)
+![ID do Creative: compartilhamento 234](../assets/marketo-engage-activities-05.png)
 
 `1)` [!DNL Marketo Measure] primeiro verificará todas as Campanhas, Ações e Compartilhamentos com status &quot;Ativo&quot;. [!DNL Marketo Measure] não marcará anúncios pausados, arquivados ou cancelados. Se um anúncio foi pausado e configurado como [!UICONTROL ativo], ele será marcado quando estiver ativo novamente. Se encontrarmos um Compartilhamento exclusivo, o que significa que ele não é usado em várias Criações ou Campanhas (por exemplo, Creative A : Share 123), o [!DNL Marketo Measure] adicionará nosso parâmetro personalizado `>> ?_bl={creativeId}` à URL de compartilhamento.
 
@@ -122,7 +122,7 @@ O `4)` [!DNL Marketo Measure] também criará três novos compartilhamentos, Sha
 >
 >A implementação disso significará que nossos clientes perderão o histórico de anúncios do Creative B: Share 234, Creative C: Share 234 e Creative D: Share 234 porque agora ele é recriado com o Creative E: Share 345, Share F: Share 456 e Creative G: Share 567, respectivamente.
 
-![](assets/four-four-1.png)
+![A implementação dessa configuração significará que nossos clientes perderão o histórico de anúncios](assets/api-connections-01.png)
 
 ## Como funciona: líder da geração Forms {#how-it-works-lead-gen-forms}
 
@@ -155,101 +155,101 @@ Antes de a Integração do Forms com a Geração líder do LinkedIn existir, era
 
 Depois que [!DNL Marketo Measure] marcar com êxito sua página de aterrissagem no criativo do LinkedIn, você poderá exibir os dados dos anúncios resolvidos no ponto de contato. Este é o mapeamento de valores de dados que você deve esperar:
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
-  <tr> 
-   <th style="width:30%">Campo do ponto de contato</th> 
-   <th>Valor da amostra</th> 
-  </tr> 
-  <tr> 
+<table>
+ <colgroup>
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <th style="width:30%">Campo do ponto de contato</th>
+   <th>Valor da amostra</th>
+  </tr>
+  <tr>
    <td>ID do anúncio</td>
    <td>84186224</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>Conteúdo do anúncio</td>
    <td>copy-1-image-2-man 95% dos profissionais de marketing da #B2B consideram a estratégia de criação de demanda bem-sucedida. Saiba mais: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>ID do grupo de anúncios</td>
    <td>(em branco)</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>Nome do grupo de anúncios</td>
    <td>(em branco)</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>ID da campanha publicitária</td>
    <td>138949954</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>Nome da campanha publicitária</td>
    <td>SU - Contas COM - Habilidades por demanda</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>URL de Destino do Anúncio <b>*</b></td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
-  </tr> 
-  <tr> 
-   <td>URL do formulário</td> 
-   <td>info.bizible.com/demo</td> 
-  </tr> 
-  <tr> 
-   <td>URL do formulário - Bruto</td> 
-   <td>info.bizible.com/demo</td> 
-  </tr> 
-  <tr> 
-   <td>ID da palavra-chave</td> 
-   <td>(em branco)</td> 
-  </tr> 
-  <tr> 
-   <td>Tipo de Correspondência de Palavra-chave</td> 
-   <td>(em branco)</td> 
-  </tr> 
-  <tr> 
-   <td>Página de destino</td> 
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
-  </tr> 
-  <tr> 
-   <td>Página de aterrissagem - bruta</td> 
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
-  </tr> 
-  <tr> 
-   <td>Canal de marketing</td> 
-   <td>Social pago</td> 
-  </tr> 
-  <tr> 
-   <td>Canal de marketing - Caminho</td> 
-   <td>Social.LinkedIn pago</td> 
-  </tr> 
-  <tr> 
-   <td>Meio</td> 
-   <td>"cpc" ou "Formulário de geração de leads"</td> 
-  </tr> 
-  <tr> 
-   <td>Página de indicação</td> 
-   <td>www.linkedin.com/</td> 
-  </tr> 
-  <tr> 
-   <td>Página do referenciador - Bruta</td> 
-   <td>www.linkedin.com/</td> 
-  </tr> 
-  <tr> 
-   <td>Frase de pesquisa</td> 
-   <td>(em branco)</td> 
-  </tr> 
-  <tr> 
-   <td>Tipo de touchpoint</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
+  </tr>
+  <tr>
+   <td>URL do formulário</td>
+   <td>info.bizible.com/demo</td>
+  </tr>
+  <tr>
+   <td>URL do formulário - Bruto</td>
+   <td>info.bizible.com/demo</td>
+  </tr>
+  <tr>
+   <td>ID da palavra-chave</td>
+   <td>(em branco)</td>
+  </tr>
+  <tr>
+   <td>Tipo de Correspondência de Palavra-chave</td>
+   <td>(em branco)</td>
+  </tr>
+  <tr>
+   <td>Página de destino</td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td>
+  </tr>
+  <tr>
+   <td>Página de aterrissagem - bruta</td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
+  </tr>
+  <tr>
+   <td>Canal de marketing</td>
+   <td>Social pago</td>
+  </tr>
+  <tr>
+   <td>Canal de marketing - Caminho</td>
+   <td>Social.LinkedIn pago</td>
+  </tr>
+  <tr>
+   <td>Meio</td>
+   <td>"cpc" ou "Formulário de geração de leads"</td>
+  </tr>
+  <tr>
+   <td>Página de indicação</td>
+   <td>www.linkedin.com/</td>
+  </tr>
+  <tr>
+   <td>Página do referenciador - Bruta</td>
+   <td>www.linkedin.com/</td>
+  </tr>
+  <tr>
+   <td>Frase de pesquisa</td>
+   <td>(em branco)</td>
+  </tr>
+  <tr>
+   <td>Tipo de touchpoint</td>
    <td>Formulário da Web</td>
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>Origem do touchpoint</td>
    <td>LinkedIn</td>
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 **&#42;** _O campo &quot;URL de destino do anúncio&quot; só é preenchido para Conteúdo Patrocinado. Ele não está populado para o Forms da Geração de Clientes Potenciais._
@@ -262,7 +262,7 @@ Como o [!DNL Marketo Measure] tem integração direta com o [!DNL LinkedIn], bai
 
 Assim como em outras integrações de anúncios, o [!DNL Marketo Measure] definiu uma regra de canal de marketing para colocar todas as [!DNL LinkedIn] campanhas, criações e custos. Para usar a regra, o cliente desejará inserir uma nova linha para seus esforços de [!DNL LinkedIn] Pagos. Ele pode ser um canal novo ou existente. Na coluna Referenciador, use a definição &quot;[[!DNL LinkedIn] Pago]&quot; que [!DNL Marketo Measure] definiu como qualquer ponto de contato com uma marca [!DNL Marketo Measure].
 
-![](assets/one-one-1.png)
+![Assim como em outras integrações de anúncios, a Marketo Measure definiu um perfil de marketing](../assets/marketo-engage-activities-01.png)
 
 ## [!DNL Marketo Measure] Descobrir {#marketo-measure-discover}
 
@@ -314,7 +314,7 @@ O LinkedIn exige que todos os anúncios criados ou modificados passem pelo proce
 
 Ambos. A integração do [!DNL Marketo Measure] permite marcar a URL de destino a partir da imagem de click-through no anúncio, mas também atualiza automaticamente a URL reduzida na descrição do anúncio.
 
-![](assets/select-type-1.png)
+![Ambos. A integração do Marketo Measure permite marcar o destino](assets/select-type-1.png)
 
 **Conectei minha conta [!DNL LinkedIn ads]. Por que o [!DNL Marketo Measure] não está marcando meus links?**
 
@@ -324,7 +324,7 @@ O usuário conectado [!DNL LinkedIn] precisa ter acesso de edição adequado, o 
 
 A ID de compartilhamento não é fornecida em um relatório do [!DNL LinkedIn], portanto, não há uma maneira clara e óbvia de verificar os mapeamentos da criação para o compartilhamento. Se você suspeitar que um criativo seja uma cópia, verifique manualmente abrindo o anúncio no seu gerente de campanha do [!DNL LinkedIn]. Isso abrirá o anúncio em uma nova guia e você poderá encontrar a ID do compartilhamento no URL.
 
-![](assets/six-six-1.png)
+![A ID de compartilhamento não é fornecida em um relatório do LinkedIn, portanto](assets/linkedin-integration-02.png)
 
 ## Perguntas frequentes sobre a geração líder de Forms {#lead-gen-forms-faq}
 

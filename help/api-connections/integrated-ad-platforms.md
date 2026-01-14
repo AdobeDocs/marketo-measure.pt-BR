@@ -4,10 +4,10 @@ title: Plataformas de anúncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
 hidefromtoc: true
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,11 @@ Antes de entrar em detalhes específicos de cada plataforma, veremos como conect
 
 Como mostrado na imagem abaixo, você verá um botão para configurar novas conexões de anúncios.
 
-![](assets/bizible-guide-1.png)
+![Conforme mostrado na imagem abaixo, você verá um botão para](assets/bizible-guide-1.png)
 
 Depois de clicar no botão [!UICONTROL Configurar nova conexão com anúncios], uma janela (mostrada abaixo) será exibida com quatro tipos de ícone de anúncio [!UICONTROL conectar]. Clique em conectar e outra janela será exibida solicitando credenciais. Insira as credenciais e clique em [!UICONTROL autorizar] para conectar a conta a [!DNL Marketo Measure].
 
-![](assets/five-five-1.png)
+![Depois de clicar no botão Configurar nova conexão com anúncios, um](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -56,15 +56,15 @@ Depois que você tiver um modelo de rastreamento em vigor, siga as instruções 
 
 1. Vá para [!UICONTROL Minha Conta] > [!UICONTROL Configurações] > [!UICONTROL Integrações] > [!UICONTROL Conexões].
 
-   ![](assets/utilizing-connections-8.png)
+   ![1. Ir para Conexões de Integrações das Configurações da Minha Conta.](assets/utilizing-connections-8.png)
 
 1. Clique no ícone de Lápis ao lado da conta do AdWords que terá a marcação automática [!DNL Marketo Measure] habilitada.
 
-   ![](assets/utilizing-connections-9.png)
+   ![1. Clique no ícone de Lápis ao lado da Conta do AdWords que](assets/utilizing-connections-9.png)
 
 1. No canto superior direito, alterne a **[!UICONTROL Marcação automática]** para **[!UICONTROL Sim]**. Na parte inferior da página, clique em **[!UICONTROL Saiba mais]** para expandir a caixa de texto e clique em **[!UICONTROL Salvar]**. A configuração de marcação automática foi concluída.
 
-   ![](assets/utilizing-connections-10.png)
+   ![1. No canto superior direito, alterne a marcação automática para ](assets/utilizing-connections-10.png)
 
 ## Como configurar um modelo de rastreamento no AdWords com [!DNL Marketo Measure] parâmetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 

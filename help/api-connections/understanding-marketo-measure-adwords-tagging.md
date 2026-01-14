@@ -3,9 +3,9 @@ description: Compreendendo as  [!DNL Marketo Measure] diretrizes de Marcação d
 title: Noções básicas de [!DNL Marketo Measure] Marcação do AdWords
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '657'
 ht-degree: 6%
 
 ---
@@ -60,11 +60,11 @@ Há dois modelos de rastreamento que [!DNL Marketo Measure] recomenda usar. Use 
 
 1. Clique em **[!UICONTROL Todas as campanhas]** e depois em **[!UICONTROL Configurações]** na janela de expansão.
 
-   ![](assets/utilizing-connections-13.png)
+   ![1. Clique em Todas as campanhas e em Configurações na extensão ](assets/utilizing-connections-13.png)
 
 1. Clique em **[!UICONTROL Configurações da conta]** na parte superior e depois em **[!UICONTROL Modelo de rastreamento]**. Insira o Modelo de Rastreamento [!DNL Marketo Measure].
 
-   ![](assets/bizible-guide-1.png)
+   ![1. Clique em Configurações da conta na parte superior e em Rastreamento](assets/bizible-guide-1.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -72,11 +72,11 @@ Há dois modelos de rastreamento que [!DNL Marketo Measure] recomenda usar. Use 
 
 1. Clique em **[!UICONTROL Todas as campanhas]** e depois em **[!UICONTROL Campanhas]** na janela de expansão.
 
-   ![](assets/utilizing-connections-12.png)
+   ![1. Clique em Todas as campanhas e, em seguida, em Campanhas na extensão](assets/utilizing-connections-12.png)
 
 1. Selecione todas as campanhas aplicáveis ou **[!UICONTROL Selecionar tudo]**, clique em **[!UICONTROL Editar]** e em **[!UICONTROL Alterar modelos de rastreamento]**.
 
-   ![](assets/five-five-1.png)
+   ![1. Selecione todas as campanhas aplicáveis ou Selecionar Tudo, clique em Editar,](../assets/marketo-engage-activities-05.png)
 
 1. Insira o Modelo de rastreamento [!DNL Marketo Measure] e clique em **[!UICONTROL Aplicar]**.
 
@@ -84,13 +84,13 @@ Há dois modelos de rastreamento que [!DNL Marketo Measure] recomenda usar. Use 
 
 1. Clique em **[!UICONTROL Todas as campanhas]** e depois em **[!UICONTROL Grupos de anúncios]** na janela de expansão.
 
-   ![](assets/four-four-1.png)
+   ![1. Clique em Todas as campanhas e, em seguida, em Grupos de anúncios no ](assets/api-connections-01.png)
 
 1. Selecione todos os grupos de anúncios aplicáveis ou Selecionar tudo, clique em **[!UICONTROL Editar]** e em **[!UICONTROL Alterar modelos de rastreamento]**.
 
 1. Insira o Modelo de rastreamento [!DNL Marketo Measure] e clique em **[!UICONTROL Aplicar]**.
 
-   ![](assets/one-one-1.png)
+   ![1. Insira o Modelo de Acompanhamento do Marketo Measure e clique em Aplicar.](../assets/marketo-engage-activities-01.png)
 
 ## Perguntas frequentes {#faq}
 

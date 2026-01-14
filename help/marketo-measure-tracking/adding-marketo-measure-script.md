@@ -4,9 +4,9 @@ title: Adição do  [!DNL Marketo Measure]  Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
 hidefromtoc: true
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1298'
 ht-degree: 57%
 
 ---
@@ -17,7 +17,7 @@ O JavaScript do [!DNL Marketo Measure] que você gostaria de acompanhar pelo [!D
 
 >[!NOTE]
 >
->Verifique se você [reivindicou todos os domínios apropriados no  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}, além de implantar o JavaScript do [!DNL Marketo Measure].
+>Verifique se você [reivindicou todos os domínios apropriados no  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"}, além de implantar o JavaScript do [!DNL Marketo Measure].
 
 Ao começar com o [!DNL Marketo Measure], há duas maneiras de adicionar o JavaScript do [!DNL Marketo Measure] para o seu site:
 
@@ -66,7 +66,7 @@ Converse com a sua equipe da web para informá-los de que o JavaScript do [!DNL 
 
 Se um aviso [!DNL Web Application Firewall (WAF)] for acionado durante a instalação do JavaScript, os usuários poderão desabilitar essa regra do WAF ou incluir na lista de permissões os cookies, como no exemplo abaixo:
 
-![](assets/adding-script-1.png)
+![Se um aviso do WAF (Firewall de Aplicativo Web) for disparado durante o ](assets/adding-script-1.png)
 
 ## Formulários que precisam de uma atenção maior {#forms-to-pay-extra-attention-to}
 

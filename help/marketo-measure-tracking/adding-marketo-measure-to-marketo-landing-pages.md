@@ -3,9 +3,9 @@ description: Adicionando [!DNL Marketo Measure] à orientação das Páginas de 
 title: Adição de [!DNL Marketo Measure] para páginas de destino do Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Exemplo na captura de tela abaixo
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/adding-pages-1.png)
+   ![1. Clique em Salvar.](assets/adding-pages-1.png)
 
 ## Observações adicionais {#additional-notes}
 
@@ -41,4 +41,4 @@ Exemplo na captura de tela abaixo
 
 * É provável que você tenha vários modelos de página de aterrissagem em uso. Certifique-se de adicionar o código a todos os modelos que contêm formulários.
 
-* Às vezes, ao editar o template para landing pages, você deve reaprovar as páginas usadas pela landing page. Este artigo explica [como aprovar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=pt-BR){target="_blank"} em massa.
+* Às vezes, ao editar o template para landing pages, você deve reaprovar as páginas usadas pela landing page. Este artigo explica [como aprovar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"} em massa.
