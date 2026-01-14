@@ -1,15 +1,14 @@
 ---
-description: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot] - [!DNL Marketo Measure]
+description: Adicionando o  [!DNL Marketo Measure] JavaScript [!DNL Pardot] orientação para usuários do Marketo Measure
 title: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # Adicionando o JavaScript [!DNL Marketo Measure] a [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
@@ -25,11 +24,11 @@ Depois de fazer logon na conta do [!DNL Pardot], siga as etapas abaixo.
 
 1. Selecione **[!UICONTROL Modelo de layout]**.
 
-   ![&#x200B; 3](assets/1-3.png)
+   ![](assets/adding-providers-4.png)
 
 1. Determine o Modelo de layout apropriado e clique em **[!UICONTROL Editar]** à direita.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/adding-pages-1.png)
 
 1. Copie e cole o código JavaScript [!DNL Marketo Measure] logo antes da marca de fechamento de cabeçalho na página do HTML.
 

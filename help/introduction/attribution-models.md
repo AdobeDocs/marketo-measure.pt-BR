@@ -3,7 +3,7 @@ description: Modelos de atribuição do Marketo Measure
 title: Modelos de atribuição do Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 89%
@@ -29,7 +29,7 @@ Esses modelos variam em complexidade. “Primeiro contato” e “Geração de l
 * Criação de oportunidades (CO)
 * Venda fechada encerrada (CW)
 
-![Linha do tempo de jornada do cliente mostrando quatro pontos de contato de marcos: Primeiro contato, Criação de oportunidade, Criação de oportunidade e Conquistado fechado](assets/1-1.png)
+![Linha do tempo de jornada do cliente mostrando quatro pontos de contato de marcos: Primeiro contato, Criação de oportunidade, Criação de oportunidade e Conquistado fechado](assets/overview-resources-8.png)
 
 Nos **modelos de contato único**, o crédito de atribuição é atribuído apenas a um touchpoint de marco, daí o nome “contato único”.
 Nos **modelos multicontato**, a maior parte do crédito de atribuição é atribuída a dois ou mais touchpoints de marco. O crédito restante é atribuído a touchpoints que ocorrem entre os touchpoints de marco.
@@ -44,7 +44,7 @@ O modelo de Primeiro contato se concentra somente na primeira interação que um
 
 Digamos que Kate acesse o `www.adobe.com` pela primeira vez por meio de um anúncio do Google AdWords e visualize um white paper. O canal do Adwords receberia 100% do crédito de atribuição dessa Oportunidade.
 
-![Diagrama do modelo de Primeiro contato mostrando 100% de crédito de atribuição para o canal do Adwords](assets/2.png)
+![Diagrama do modelo de Primeiro contato mostrando 100% de crédito de atribuição para o canal do Adwords](assets/overview-resources-9.png)
 
 **Modelo de criação de leads**
 
@@ -52,7 +52,7 @@ O modelo Criação de leads atribui 100% do crédito de atribuição ao touchpoi
 
 Continuando com o exemplo anterior, após a primeira visita de Kate ao `www.adobe.com` por meio do Google AdWords, Austin acessa o site por meio de uma postagem no Linkedin. Austin preenche um formulário e se torna um lead. Nesse modelo, o LinkedIn receberia 100% do crédito de atribuição.
 
-![Diagrama de modelo de Criação de clientes potenciais mostrando 100% de crédito de atribuição para o canal do LinkedIn](assets/3.png)
+![Diagrama de modelo de Criação de clientes potenciais mostrando 100% de crédito de atribuição para o canal do LinkedIn](assets/overview-resources-10.png)
 
 ## Modelos multicontato {#multi-touch-models}
 
@@ -64,7 +64,7 @@ O modelo em Forma de U se concentra nos touchpoints FT e LC. Neste modelo, os po
 
 O primeiro acesso de Kate a `www.adobe.com` por meio de um anúncio do Google AdWords receberia 50% do crédito de atribuição. Os 50% restantes seriam atribuídos à publicação do LinkedIn que fez com que Austin preenchesse um formulário e se tornar um lead.
 
-![Diagrama de modelo em forma de U mostrando 50% de crédito para o Adwords e 50% para o LinkedIn](assets/4.png)
+![Diagrama de modelo em forma de U mostrando 50% de crédito para o Adwords e 50% para o LinkedIn](assets/overview-resources-11.png)
 
 **Modelo em Forma de W**
 
@@ -74,7 +74,7 @@ Kate e Austin mencionam o Marketo Measure ao seu colega de trabalho, Hillary. El
 
 Hillary recebe um email com um link para a página de preços e acessa a página. Em seguida, uma Oportunidade é criada para sua conta. A visita à Web de Hillary à página de preços recebe crédito pela Criação de oportunidades porque foi a interação de marketing mais próxima da Data de criação de oportunidades. Cada um dos touchpoints de marco recebe 30% do crédito de atribuição e os touchpoints intermediários recebem os 10% restantes.
 
-![Diagrama de modelo em forma de W mostrando 30% de crédito cada para pontos de contato FT, LC e OC com 10% para pontos de contato intermediários](assets/5.png)
+![Diagrama de modelo em forma de W mostrando 30% de crédito cada para pontos de contato FT, LC e OC com 10% para pontos de contato intermediários](assets/overview-resources-12.png)
 
 **Modelo de caminho completo**
 
@@ -82,7 +82,7 @@ O modelo de caminho completo inclui todos os quatro touchpoints de marco. FT, LC
 
 Após a criação da oportunidade, Kate, Austin e Hillary decidem lançar o Marketo Measure ao OCM, Elizabeth. Elizabeth participa de uma conferência onde o Marketo Measure está hospedando um evento. Kate vê uma postagem no LinkedIn sobre um estudo de caso e preenche um formulário para baixar o conteúdo. Elizabeth participa de um jantar de vendas hospedado pelo Marketo Measure. Após o jantar, ela decide comprar o Marketo Measure e se tornar um cliente. Nesse cenário, o jantar de venda seria atribuído a 22,5% do crédito de receita da venda fechada. Os touchpoints FT, LC e OC também recebem 22,5% do crédito. Os touchpoints intermediários recebem igualmente os 10% restantes do crédito de receita.
 
-![Diagrama do modelo de Caminho Completo mostrando 22,5% de crédito cada para pontos de contato FT, LC, OC e CW com 10% para pontos de contato intermediários](assets/6.png)
+![Diagrama do modelo de Caminho Completo mostrando 22,5% de crédito cada para pontos de contato FT, LC, OC e CW com 10% para pontos de contato intermediários](assets/overview-resources-13.png)
 
 **Modelo de atribuição personalizada**
 

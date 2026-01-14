@@ -1,21 +1,25 @@
 ---
-description: Logon único -  [!DNL Marketo Measure]
+description: Orientação de logon único para usuários do Marketo Measure
 title: Logon único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 93%
+source-wordcount: '1281'
+ht-degree: 99%
 
 ---
-
 
 # Logon único {#single-sign-on}
 
 A SAML (linguagem de marcação de declaração de segurança) para SSO (logon único) permite que usuários se autentiquem por meio do provedor de identidade de uma empresa ao fazer logon no aplicativo [!DNL Marketo Measure]. O SSO permite que usuários se autentiquem uma vez, sem precisar se autenticar em aplicativos separados. A SAML é uma necessidade para clientes corporativos porque nem todos os usuários têm uma conta do [!DNL Salesforce] ou [!DNL Google] em sua organização. Pensando nisso, o [!DNL Marketo Measure] desenvolveu uma solução de SAML para oferecer suporte a provedores de identidade de empresas.
 
+>[!CAUTION]
+>
+>Este artigo descreve o processo de logon único (SSO) e gerenciamento avançado de usuários do CRM. Se sua conta foi provisionada **após 10/9/2020**, ignore este artigo, pois o SSO e o gerenciamento de identidade da sua integração do  [!DNL Marketo Measure] ](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md) serão configurados no [Adobe Admin Console.
+
 >[!NOTE]
->É provável que as empresas usem diferentes Provedores de identidade (por exemplo, Identidade de ping, Okta). Os termos usados nas instruções de configuração a seguir e na interface podem não ser os mesmos utilizados pelo seu provedor de identidade.
+>
+>É provável que as empresas usem diferentes provedores de identidade (por exemplo, identidade de ping e Okta). Os termos usados nas instruções de configuração a seguir e na interface podem não ser os mesmos utilizados pelo seu provedor de identidade.
 
 ## Requisitos {#requirements}
 
@@ -26,7 +30,7 @@ A SAML (linguagem de marcação de declaração de segurança) para SSO (logon �
 
 Para começar, no aplicativo do [!DNL Marketo Measure], navegue até a página Configurações > Segurança > Autenticação. Em seguida, altere o tipo de logon para SSO personalizado para ver as opções de configuração. As alterações não entrarão em vigor até que você teste a autenticação e clique em **[!UICONTROL Salvar]** na parte inferior da página.
 
-![Página de configurações de autenticação com opção de tipo de logon SSO personalizado](assets/single-sign-on-1.png)
+![](assets/compliance-resources-1.png)
 
 ## Processar {#process}
 
@@ -68,7 +72,7 @@ Defina e mapeie suas configurações de Atributo do usuário para o respectivo n
     
     b. Dica: se você testar a configuração SAML agora, analisaremos os atributos de email, nome e sobrenome que você pode usar nesta seção.
 
-![Formulário de configuração SAML com campos de mapeamento de atributo de usuário](assets/single-sign-on-2.png)
+![](assets/discover-control-1.png)
 
 Defina e mapeie suas configurações de função de usuário para as respectivas funções ou grupos classificados pelo seu IdP.
 
@@ -82,7 +86,7 @@ Defina e mapeie suas configurações de função de usuário para as respectivas
     
     c. Se for necessário mapear várias funções ou grupos para uma função, insira cada valor separado por uma vírgula.
 
-![Configuração de mapeamento de função de usuário com as opções Usuário Padrão e Administrador](assets/single-sign-on-3.png)
+![](assets/discover-control-2.png)
 
 Testar a configuração de logon único
 
@@ -90,13 +94,13 @@ Testar a configuração de logon único
     
     b. Se observar um erro do tipo “falha”, siga a mensagem e tente novamente.
 
-![Botão Testar Autenticação SAML e mensagem de status de validação](assets/single-sign-on-4.png)
+![](assets/discover-control-3.png)
 
 Salve as configurações e oriente os(as) colegas a utilizar o [!UICONTROL logon único] com o novo URL de logon personalizado.
 
     a. Importante: depois de salvar as novas configurações de autenticação, é possível que a sessão termine ao navegar para uma nova página, pois você desabilitou o logon de usuários do CRM e habilitou o SSO personalizado.
 
-![Botão Salvar para configurações de autenticação e mensagem de confirmação](assets/single-sign-on-5.png)
+![](assets/discover-control-3.png)
 
 Experimente.
 
@@ -106,9 +110,10 @@ Experimente.
     
     c. Parabéns. Você configurou com sucesso o logon único no aplicativo  [!DNL Marketo Measure]  para sua conta.
 
-![Tela de confirmação de logon com SSO](assets/single-sign-on-6.png) bem-sucedida
+![](assets/discover-control-3.png)
 
 >[!NOTE]
+>
 >Após configurar o SSO, não é mais necessário adicionar usuários no aplicativo [!DNL Marketo Measure]. O provisionamento de usuários é feito diretamente no provedor de identidade.
 
 ## Usuários do CRM (configuração avançada) {#crm-users-advanced-setup}
@@ -126,21 +131,21 @@ Se for necessário mapear várias funções ou grupos para uma função, insira 
 
 Para as funções do [!DNL Salesforce], use o nome de cada função. Para encontrar todas as funções, acesse o menu [!UICONTROL Configuração] >[!UICONTROL Gerenciar usuários] > [!UICONTROL Funções].
 
-![Menu de Instalação do Salesforce mostrando Funções em Gerenciar Usuários](assets/6.png)
+![](assets/discover-control-3.png)
 
 **Funções do Dynamics**
 
 Para as funções do [!DNL Dynamics], use o nome de cada função de segurança. Para encontrar todas as funções de segurança, acesse o menu [!UICONTROL Configurações] > [!UICONTROL Segurança] > [!UICONTROL Funções de segurança].
 
-![Navegação do menu Configurações do Dynamics para Funções de Segurança](assets/7.png)
+![](assets/discover-control-3.png)
 
-![Lista de Funções de Segurança do Dynamics mostrando as opções de função disponíveis](assets/8.png)
+![](assets/discover-control-3.png)
 
 **Usuários do Google**
 
 Depois de configurar o SSO personalizado, a página [!UICONTROL Usuários] é atualizada para mostrar apenas usuários externos que foram adicionados com logons do Google. Como todos os usuários com acesso são definidos por meio da configuração de SSO, os usuários externos adicionais são listados aqui.
 
-![Página Usuários mostrando usuários externos de logon do Google](assets/9.png)
+![](assets/discover-control-3.png)
 
 Somente contas do [!DNL Google] válidas podem ser adicionadas e devem ter uma função de usuário definida.
 

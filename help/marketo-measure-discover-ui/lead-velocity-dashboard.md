@@ -1,15 +1,14 @@
 ---
-description: Painel de Velocidade do Cliente Potencial - [!DNL Marketo Measure] - Produto
+description: Use o painel Velocidade de lead para medir o tempo em cada estágio do funnel e comparar o ritmo por canal ao longo do tempo
 title: Painel da velocidade do lead
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
-
 
 # Painel da velocidade do lead {#lead-velocity-dashboard}
 
@@ -33,7 +32,7 @@ Perguntas que o gráfico responde:
 * Qual estágio de vendas normalmente tem a duração mais longa para leads/contatos?
 * Como o tempo gasto no estágio &quot;Primeiro contato&quot; se compara ao estágio &quot;MQL&quot;?
 
-![Gráfico de barras de clientes em potencial ou de contato por estágio de vendas](assets/lead-velocity-dashboard-1.png)
+![](assets/lead-dashboard-1.png)
 
 ### Velocidade do lead/contato ao longo do tempo {#lead-contact-velocity-over-time}
 
@@ -47,7 +46,7 @@ Perguntas que o gráfico responde:
 * Quais são as tendências do tempo gasto em cada estágio para leads/contatos durante os meses observados?
 * Em qual mês os clientes potenciais/contatos obtiveram a progressão mais rápida nos estágios de vendas?
 
-![Gráfico de tendências da velocidade do lead ao longo da linha do tempo](assets/lead-velocity-dashboard-2.png)
+![](assets/lead-dashboard-2.png)
 
 ### Velocidade do lead/contato por canal {#lead-contact-velocity-by-channel}
 
@@ -60,7 +59,7 @@ Perguntas que o gráfico responde:
 * Qual canal mostra a progressão de lead mais rápida pelos estágios do funnel?
 * Como a velocidade do lead no estágio &quot;MQL&quot; varia entre diferentes canais?
 
-![Gráfico de comparação de velocidade de lead por canal](assets/lead-velocity-dashboard-3.png)
+![](assets/lead-dashboard-3.png)
 
 ## Painel de Filtro {#filter-pane}
 

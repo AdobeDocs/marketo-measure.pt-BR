@@ -1,11 +1,11 @@
 ---
-description: Explicação das Posições do Ponto de Contato e Geração entre BTs e BATs - [!DNL Marketo Measure]
+description: Explicação das Posições e Geração de Pontos de Contato entre BTs e [!DNL BATs] orientação para usuários do Marketo Measure
 title: Explicação das posições de touchpoint e da geração entre BTs e [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '768'
 ht-degree: 3%
 
 ---

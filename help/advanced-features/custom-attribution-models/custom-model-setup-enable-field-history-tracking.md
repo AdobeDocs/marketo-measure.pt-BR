@@ -1,15 +1,15 @@
 ---
-description: 'Configuração de modelo personalizado: habilitar o rastreamento do histórico de campos -  [!DNL Marketo Measure]'
+description: Configuração do modelo personalizado - Habilitar a orientação de Rastreamento do histórico do campo para usuários do Marketo Measure
 title: 'Configuração de modelo personalizado: habilitar o rastreamento do histórico de campos'
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '317'
 ht-degree: 96%
 
 ---
-
 
 # Configuração de modelo personalizado: habilitar o rastreamento do histórico de campos {#custom-model-setup-enable-field-history-tracking}
 
@@ -24,14 +24,15 @@ Para habilitar o rastreamento do histórico de campos, siga as instruções abai
 ## Habilitar o rastreamento do histórico de campos {#enable-field-history-tracking}
 
 >[!NOTE]
+>
 >Você precisa ser um(a) admin de sistema para fazer essas alterações nos campos dos objetos de lead, contato ou oportunidade.
 
 1. Acesse o objeto que contém o campo personalizado e clique em **[!UICONTROL Definir rastreamento de histórico]**.
 
-   ![Definir o botão de rastreamento do histórico nos campos de objeto](assets/1.png)
+   ![](assets/custom-models-1.png)
 
 1. Selecione os campos nos quais deseja acompanhar as alterações.
 
-   ![Selecionando campos para habilitar o rastreamento de histórico](assets/2.png)
+   ![](assets/custom-models-10.png)
 
 O [!DNL Marketo Measure] só poderá reimportar um registro se perceber que ele foi modificado recentemente. Alterar os campos de fórmula tecnicamente não conta como uma alteração de registro, pois o cálculo é feito em segundo plano. Já observamos problemas em que uma regra foi ignorada porque o [!DNL Marketo Measure] não notou a alteração do registro; por isso é aconselhável **não usar campos de fórmula em definições de regra**. A solução é criar um campo de texto e usar um fluxo de trabalho para preencher esse campo com o valor ou cálculo adequado sempre que o registro for editado ou atender aos critérios. Isso exige que todos os registros sejam editados para que o fluxo de trabalho funcione retroativamente com registros antigos.

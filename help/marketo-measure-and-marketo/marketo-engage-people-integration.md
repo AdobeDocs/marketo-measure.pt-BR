@@ -3,13 +3,12 @@ description: '[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Meas
 title: Integração de pessoas do [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '868'
 ht-degree: 2%
 
 ---
-
 
 # Integração de pessoas do [!DNL Marketo Engage] {#marketo-engage-people-integration}
 
@@ -20,7 +19,7 @@ A integração de pessoas do Marketo permite que [!DNL Marketo Measure] comece a
 * Instância do Marketo de produção
 * Instância de produção [!DNL Salesforce] ou [!DNL Microsoft Dynamics]
 * Qualquer assinatura paga de [!DNL Marketo Measure]
-* SOLR habilitada (contate o [Suporte da Marketo](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} para habilitar)
+* SOLR habilitada (contate o [Suporte da Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) para habilitar)
 
 ## Como funciona {#how-it-works}
 
@@ -32,9 +31,9 @@ Quando o [!DNL Marketo Measure] mapeia com êxito a pessoa do Marketo para uma s
 
 Para que possamos detectar essas duplicatas, verifique se a sincronização do [!DNL Marketo-Salesforce] ou do [!DNL Marketo-Dynamics] está preenchendo as Ids de Cliente Potencial e de Contato na Pessoa do Marketo. Se a ID estiver sincronizando corretamente, você poderá ver a ID do CRM no registro de Pessoa, desta forma:
 
-![a](assets/5a.png)
+![](assets/5a-5a-1.png)
 
-![b](assets/5b.png)
+![](assets/5b-5b-1.png)
 
 Os clientes têm a opção de relatar o conjunto completo de pessoas do Marketo e do CRM dentro do [!DNL Marketo Measure] Discover. Se você estiver interessado em relatórios somente sobre pessoas do CRM, recomendamos criar um Segmento para filtrá-las.
 
@@ -42,63 +41,63 @@ Os clientes têm a opção de relatar o conjunto completo de pessoas do Marketo 
 
 Ao relatar clientes potenciais (pessoas) em [!DNL Marketo Measure Discover], você verá o total de seus clientes potenciais do Marketo e do CRM. Para criar relatórios somente sobre pessoas do Marketo ou somente clientes potenciais do CRM, será necessário criar uma Categoria do segmento para sua origem e, em seguida, criar Regras de segmento para o Marketo e o CRM usando o campo &quot;Sistema Source&quot; para definir a regra. Depois que os segmentos forem criados, você verá a categoria do Source disponível para filtrar pelos painéis do [!DNL Marketo Measure Discover].
 
-![Painel do Marketo Measure Discover mostrando os totais de clientes em potencial do Marketo vs CRM](assets/bizible-discover-1.png)
+![](assets/bizible-discover-1.png)
 
-![Descobrir filtros que realçam os segmentos do sistema do Source](assets/bizible-discover-2.png)
+![](assets/bizible-discover-2.png)
 
 ## Mapeamento de campos {#field-mappings}
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p><strong>biz_leads</strong></p></th>
-   <th><p><strong>Marketo</strong></p></th>
-  </tr>
-  <tr>
-   <td><p>ID</p></td>
-   <td><p>ID</p></td>
-  </tr>
-  <tr>
-   <td><p>MODIFIED_DATE</p></td>
-   <td><p>updatedAt<strong></strong></p></td>
-  </tr>
-  <tr>
-   <td><p>CREATED_DATE</p></td>
-   <td><p>createdAt</p></td>
-  </tr>
-  <tr>
-   <td><p>EMAIL</p></td>
-   <td><p>email</p></td>
-  </tr>
-  <tr>
-   <td><p>WEB_SITE</p></td>
-   <td><p>site</p></td>
-  </tr>
-  <tr>
-   <td><p>COMPANY</p></td>
-   <td><p>empresa</p></td>
-  </tr>
-  <tr>
-   <td><p>IS_CONVERTED</p></td>
-   <td><p>n/d</p></td>
-  </tr>
-  <tr>
-   <td><p>ACCOUNT_ID</p></td>
-   <td><p>ID da conta (L2A)</p></td>
-  </tr>
-  <tr>
-   <td><p>BIZIBLE_STAGE</p></td>
-   <td><p>Status</p></td>
-  </tr>
-  <tr>
-   <td><p>IS_DELETED</p></td>
-   <td><p>verdadeiro/falso</p></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th><p><strong>biz_leads</strong></p></th> 
+   <th><p><strong>Marketo</strong></p></th> 
+  </tr> 
+  <tr> 
+   <td><p>ID</p></td> 
+   <td><p>ID</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>MODIFIED_DATE</p></td> 
+   <td><p>updatedAt<strong>*</strong></p></td> 
+  </tr> 
+  <tr> 
+   <td><p>CREATED_DATE</p></td> 
+   <td><p>createdAt</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>EMAIL</p></td> 
+   <td><p>email</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>WEB_SITE</p></td> 
+   <td><p>site</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>COMPANY</p></td> 
+   <td><p>empresa</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>IS_CONVERTED</p></td> 
+   <td><p>n/d</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>ACCOUNT_ID</p></td> 
+   <td><p>ID da conta (L2A)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>BIZIBLE_STAGE</p></td> 
+   <td><p>Status</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>IS_DELETED</p></td> 
+   <td><p>verdadeiro/falso</p></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 *Há um problema de comportamento conhecido em que os campos da entidade Empresa da Marketo não afetam o valor updatedAt da Pessoa. Portanto, se campos relevantes, como Site ou Empresa, forem atualizados, [!DNL Marketo Measure] não saberá que esses valores são modificados porque o valor date/time updatedAt não é atualizado. Isso afeta o recurso ABM, no qual não teríamos dados novos para resolver a Conta do lead. Não há solução alternativa no momento, mas há planos para abordar isso no futuro.

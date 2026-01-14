@@ -1,15 +1,14 @@
 ---
-description: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints - [!DNL Marketo Measure]
+description: Diferença entre Pontos de contato do comprador e orientação de Pontos de contato da atribuição do comprador para usuários do Marketo Measure
 title: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 96%
 
 ---
-
 
 # Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +20,31 @@ Embora o objeto do Buyer Attribution Touchpoint esteja relacionado aos objetos C
 
 Diferença entre BT e BAT:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td>Buyer Touchpoint (BT)</td>
-   <td>Buyer Attribution Touchpoint (BAT)</td>
-  </tr>
-  <tr>
-   <td>
-    <ul>
-     <li>Relaciona-se com objetos Lead, Contato e Caso</li>
-     <li>Não está relacionado ao objeto Oportunidade</li>
-     <li>A receita não está associada a um Buyer Touchpoint</li>
-    </ul></td>
-   <td>
-    <ul>
-     <li>Relaciona-se aos objetos Contato, Conta e Oportunidade</li>
-     <li>Não está relacionado ao objeto Lead</li>
-     <li>Como um Buyer Attribution Touchpoint está associado a uma Oportunidade, todos os BATs têm receitas associadas a elas</li>
-    </ul></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td>Buyer Touchpoint (BT)</td> 
+   <td>Buyer Attribution Touchpoint (BAT)</td> 
+  </tr> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Relaciona-se com objetos Lead, Contato e Caso</li> 
+     <li>Não está relacionado ao objeto Oportunidade</li> 
+     <li>A receita não está associada a um Buyer Touchpoint</li> 
+    </ul></td> 
+   <td> 
+    <ul> 
+     <li>Relaciona-se aos objetos Contato, Conta e Oportunidade</li> 
+     <li>Não está relacionado ao objeto Lead</li> 
+     <li>Como um Buyer Attribution Touchpoint está associado a uma Oportunidade, todos os BATs têm receitas associadas a elas</li> 
+    </ul></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## Perguntas frequentes {#faq}
@@ -66,10 +65,10 @@ Normalmente, os clientes usam os dados do Buyer Touchpoint para entender o engaj
 
 Aqui está uma imagem de um BT no [!DNL Salesforce]:
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-1.png)
 
 **Como é um Buyer Attribution Touchpoint no Salesforce?**
 
 Aqui está uma imagem de um BAT no [!DNL Salesforce]:
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-2.png)

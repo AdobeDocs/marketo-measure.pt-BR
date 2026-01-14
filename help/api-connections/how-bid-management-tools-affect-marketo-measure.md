@@ -1,15 +1,14 @@
 ---
-description: Como as ferramentas de gerenciamento de ofertas afetam  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Como as ferramentas de gerenciamento de ofertas afetam [!DNL Marketo Measure] a orientação dos usuários do Marketo Measure
 title: Como as ferramentas de gerenciamento de lances afetam [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
-
 
 # Como as ferramentas de gerenciamento de ofertas afetam o [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Configure um template de rastreamento da seguinte maneira:
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * Se NENHUM dos URLs de anúncios tiver um &quot;?&quot; nelas, use este URL:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## Para Contas [!DNL Bing Ads] {#for-bing-ads-accounts}
 

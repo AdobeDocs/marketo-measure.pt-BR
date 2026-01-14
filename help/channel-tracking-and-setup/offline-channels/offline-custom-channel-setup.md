@@ -1,15 +1,15 @@
 ---
-description: Configuração de Canal Personalizado Offline - [!DNL Marketo Measure]
+description: Orientação de configuração de canal personalizado offline para usuários do Marketo Measure
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
-
 
 # Configuração de canal personalizado offline {#offline-custom-channel-setup}
 
@@ -19,7 +19,7 @@ Em comparação com a forma como [!DNL Marketo Measure] lida com regras de canal
 
 A planilha tem três colunas:
 
-![Modelo de planilha mostrando três colunas para o Tipo de Campanha, Canal e Subcanal do Salesforce](assets/1-2.png)
+![](assets/offline-channels-1.png)
 
 **[!UICONTROL Salesforce] Tipo de campanha** - adicione os Tipos de campanha identificados em [!DNL Salesforce] aqui
 
@@ -35,11 +35,11 @@ A lógica do canal offline [!DNL Marketo Measure] é determinada pelo objeto Cam
 
 Os tipos de campanha do SFDC aparecerão na guia Canal offline, listada em [!DNL Salesforce] Tipo de campanha. Observe que [!DNL Marketo Measure] só pode importar Tipos de Campanha do SFDC para campanhas que tenham pontos de contato de Comprador associados a elas.
 
-![Guia Canais offline mostrando a lista de Tipos de Campanha do Salesforce](assets/2-2.png)
+![](assets/offline-channels-10.jpg)
 
 É aqui que você pode criar o mapeamento de Canal/Subcanal no aplicativo [!DNL Marketo Measure]. Isso provavelmente envolverá a criação de novos Canais e Subcanais no aplicativo [!DNL Marketo Measure], o que é feito na seção Criar Canais do aplicativo—mostrado na imagem abaixo. É necessário criar novos Canais e Subcanais para [!DNL Marketo Measure] para entender para onde enviar Pontos de Contato. Você pode decidir como deseja que os tipos de campanha sejam mapeados.
 
-![Seção Criar Canais mostrando a interface para criar novos Canais e Subcanais](assets/3-2.png)
+![](assets/offline-channels-11.png)
 
 ## Exemplo de mapeamento de canal {#channel-mapping-example}
 
@@ -49,11 +49,11 @@ Agora você quer fazer o mesmo para a conferência de junho. Como essa conferên
 
 Abaixo está um exemplo de lógica que [!DNL Marketo Measure] não conseguiria ler:
 
-![Mapeamento de canal incorreto mostrando o mesmo Tipo de Campanha mapeado para subcanais diferentes](assets/4-2.png)
+![](assets/offline-channels-12.png)
 
 No cenário acima, você desejará criar um Tipo de campanha exclusivo, pois não é possível mapear o mesmo Tipo de campanha para dois subcanais diferentes. Em vez disso, você deve configurar tipos exclusivos como os seguintes:
 
-![Corrija o mapeamento de canal mostrando Tipos de Campanha exclusivos para diferentes subcanais](assets/5-2.png)
+![](assets/offline-channels-13.png)
 
 Quaisquer tipos de campanha existentes devem ser incluídos no mapa do canal e &quot;NULL&quot; deve ser adicionado como canal.
 
@@ -67,20 +67,24 @@ Saiba mais sobre [sincronização offline [!DNL Salesforce] Campanhas com [!DNL 
 
 Outra dica para manipular campanhas para atividades online é mapear o Tipo de Campanha [!DNL Salesforce] como NULL. Para fazer isso, primeiro crie um canal no aplicativo [!DNL Marketo Measure] chamado NULL, conforme demonstrado na imagem abaixo. Isso é encontrado no aplicativo [!DNL Marketo Measure], na seção **Criar Canais**. Isso será útil caso uma campanha que não deve ser sincronizada seja sincronizada acidentalmente. É fácil encontrar a campanha e corrigir o status de sincronização verificando tudo o que está classificado em NULL.
 
-![Seção Criar Canais mostrando a criação de canal NULL para campanhas online](assets/6-2.png)
+![](assets/offline-channels-14.png)
 
 ## Inserção de suas regras de canal offline no aplicativo {#entering-your-offline-channel-rules-to-the-app}
 
 Depois de editar e atualizar a planilha com suas regras personalizadas, a próxima etapa é recriar esse mapeamento de canal no aplicativo [!DNL Marketo Measure]. Na verdade, você não carregará uma planilha para canais offline. Em vez disso, você inserirá as informações nas caixas de seleção conforme exibido na imagem abaixo. Isto é encontrado ao clicar em **[!UICONTROL Canais offline]** na seção **[!UICONTROL Canais]**.
 
-![Interface de Canais offline com caixas de lista de seleção para inserir regras de mapeamento de canal](assets/7-2.png)
+![](assets/offline-channels-20.png)
 
 >[!TIP]
+>
 >Deseja determinar _quando_ um Tipo de Campanha [!DNL Salesforce] é descarregado no mapeamento de canal [!DNL Marketo Measure]? Vá para **[!UICONTROL Configuração]** > **[!UICONTROL Campanhas]** > **[!UICONTROL Campos]** > **[!UICONTROL Tipo]**. Você pode ver quais valores estão na lista de opções e quais estão inativos. Os inativos não serão exibidos como um tipo selecionável na seção &quot;[!UICONTROL Canais offline]&quot;. Observe que esse processo pode levar de alguns minutos a 48 horas.
 
 Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] carregará as alterações e reprocessará os dados.
 
 >[!MORELIKETHIS]
-> [[!DNL Marketo Measure] Tutoriais: Mapeando Canais Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
-> [[!DNL Marketo Measure] Tutoriais: Sincronizando Campanhas Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
-> [Integração de Programas Marketo Engage](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+>
+>* [[!DNL Marketo Measure] Tutoriais: Mapeando Canais Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>
+>* [[!DNL Marketo Measure] Tutoriais: Sincronizando Campanhas Offline](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>
+>* [Integração de Programas da Marketo Engage](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

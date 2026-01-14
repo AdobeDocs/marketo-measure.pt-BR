@@ -3,7 +3,7 @@ description: Glossário de campos do Marketo Measure
 title: Glossário de campos do Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 99%
@@ -305,7 +305,7 @@ Este campo mostra o grupo geral de atividades de marketing ou canal de marketing
 
 Este campo mostra o canal de marketing e o subcanal ao qual um touchpoint pertence. No exemplo abaixo, Canal de marketing - Caminho é Social.LinkedIn, onde o canal de marketing é Social, e o subcanal é LinkedIn.
 
-![&#x200B; 3](assets/1-3.png)
+![ 3](assets/overview-resources-16.png)
 
 **Meio** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

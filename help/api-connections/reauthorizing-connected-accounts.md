@@ -1,15 +1,15 @@
 ---
-description: Reautorizar Contas Conectadas - [!DNL Marketo Measure]
+description: Reautorizar a orientação de Contas conectadas para usuários do Marketo Measure
 title: Reautorizar contas conectadas
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '190'
 ht-degree: 3%
 
 ---
-
 
 # Reautorizar contas conectadas {#reauthorizing-connected-accounts}
 
@@ -19,7 +19,7 @@ Se a plataforma de anúncios for desconectada, o [!DNL Marketo Measure] não pod
 
 Se a plataforma do CRM for desconectada, o [!DNL Marketo Measure] não poderá atualizar os dados do [!DNL Marketo Measure] nem enviar novos pontos de contato para a sua organização. Depois que a conexão do CRM for restabelecida, o [!DNL Marketo Measure] enviará por push todos os dados que foram perdidos enquanto a conta estava desconectada.
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/utilizing-connections-7.png)
 
 ## Reautorização de contas desconectadas {#re-authorizing-disconnected-accounts}
 

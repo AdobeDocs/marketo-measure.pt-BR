@@ -1,15 +1,15 @@
 ---
-description: Configuração de canal personalizado online - [!DNL Marketo Measure]
+description: Orientação de configuração de canal personalizada online para usuários do Marketo Measure
 title: Configuração de canal personalizado online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 93%
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
-
 
 # Configuração de canal personalizado online {#online-custom-channel-setup}
 
@@ -32,11 +32,11 @@ O que deve ser lembrado:
 
 O primeiro passo é baixar a planilha de canal personalizada do aplicativo [!DNL Marketo Measure]. Navegue até **Configurações** na guia **Minha conta** e selecione **Online**. Você pode selecionar **Baixar modelo original** ou **Baixar as regras atuais**.
 
-![Página Configurações mostrando a configuração de canal online com as opções Baixar Modelo Original e Baixar Regras Atuais](assets/1.png)
+![](assets/online-channels-1.png)
 
 A planilha tem sete colunas:
 
-![Planilha de canal personalizada mostrando sete colunas: Canal, Subcanal, Campanha, Medium, Source, Página de Aterrissagem e Site de Referência](assets/2.png)
+![](assets/online-channels-2.png)
 
 * **Canal:** adicione seus vários canais de marketing aqui
 * **Subcanal:** adicione os subcanais correspondentes aqui
@@ -50,11 +50,11 @@ A oitava coluna indica quais regras você não pode excluir da planilha com “N
 
 As linhas representam as regras e a ordem em que o [!DNL Marketo Measure] prioriza os dados. A primeira linha tem prioridade sobre a segunda linha, a segunda tem prioridade sobre a terceira linha e assim por diante. Ao determinar em qual canal e subcanal de marketing devem ser incluídos touchpoints, o [!DNL Marketo Measure] lê de cima para baixo, da esquerda para a direita, até encontrar uma linha que atenda aos critérios do touchpoint. (Se um touchpoint tiver um `utm_source=Facebook`, o touchpoint será inserido no canal Social.Facebook devido à regra 15 na captura de tela).
 
-![Planilha de regras de canal mostrando a ordem de prioridade de cima para baixo com o exemplo de regra do Social.Facebook destacado](assets/3.png)
+![](assets/online-channels-3.png)
 
 O [!DNL Marketo Measure] vem com 12 canais padrão para uso. Esses canais estão relacionados às plataformas com as quais o [!DNL Marketo Measure] está totalmente integrado. Não os remova, mesmo se não utilizá-los. Se você usar uma dessas plataformas, o Bing Ads, por exemplo, mas preferir usar uma convenção de nomenclatura diferente para o canal ou subcanal, será possível atualizar o nome. Um exemplo é mostrado na imagem abaixo.
 
-![Regras de canal padrão mostrando 12 plataformas integradas com nomes de canal e subcanal personalizáveis](assets/4.png)
+![](assets/online-channels-4.png)
 
 A estrutura das regras também é importante. As regras podem parecer informações repetidas e dados ausentes, mas essa estrutura é intencional. Para uma classificação precisa de dados, é necessário mapear cada origem individual para o canal apropriado separadamente, inclusive as origens que compartilham subcanais e canais. Quanto mais detalhadas e granulares forem as regras, mais perceptíveis serão os resultados. Basicamente, é uma prática recomendada escrever uma regra detalhada para cada esforço de marketing que você deseja rastrear.
 
@@ -62,13 +62,13 @@ Considere a seguinte situação: você tem outros anúncios que não deseja rast
 
 Cada parâmetro ou componente da regra é mapeado separadamente para o canal. Por exemplo, quando o [!DNL Marketo Measure] tem dados [!DNL Facebook] para classificar, ele procura regras relacionadas ao [!DNL Facebook]. Ele faz a varredura de cima para baixo. No exemplo mostrado abaixo, o [!DNL Marketo Measure] entenderia isso para o primeiro subcanal [!DNL Facebook], tudo o que ele precisa ler é o parâmetro de origem para soltar dados no intervalo dessa regra.
 
-![Exemplo de regras de canal do Facebook mostrando várias linhas com diferentes parâmetros mapeados para subcanais](assets/5.png)
+![](assets/online-channels-5.png)
 
 A próxima regra solicita apenas o parâmetro médio, portanto, todos os dados com esse parâmetro são agrupados neste canal. Por fim, no caso do [!DNL Facebook], todos os dados provenientes do URL do Facebook são colocados no último intervalo do Facebook.
 
 O canal padrão “Outro” existe para capturar dados que não atendem a nenhum critério de regra. Observe que alguns dos intervalos no canal Outro contêm asteriscos (&#42;). Esses asteriscos representam curingas que agem como algo abrangente.
 
-![Outras regras de canal que mostram asteriscos curingas como compartimentos &quot;pega tudo&quot; para dados sem correspondência](assets/6.png)
+![](assets/online-channels-6.jpg)
 
 Visto que a lógica do [!DNL Marketo Measure] funciona de cima para baixo, você deve colocar a regra curinga, indicada com um asterisco (&#42;), no final da folha de regras. Todos os dados que não forem capturados ou classificados pelas outras regras serão automaticamente adicionados a este intervalo curinga.
 

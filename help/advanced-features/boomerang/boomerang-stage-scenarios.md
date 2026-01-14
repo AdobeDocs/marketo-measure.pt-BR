@@ -1,19 +1,19 @@
 ---
-description: Cenários de Estágio de Bumerangue - [!DNL Marketo Measure]
+description: Orientação de cenários do estágio Boomerang para usuários do Marketo Measure
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
 
-
 # Cenários de estágio de bumerangue {#boomerang-stage-scenarios}
 
 >[!AVAILABILITY]
+>
 >O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta da Adobe (seu gerente de conta).
 
 Abaixo estão alguns exemplos de cenários de Estágio de Bumerangue para fornecer um entendimento de como [!DNL Marketo Measure] cria pontos de contato em cada situação.
@@ -28,13 +28,13 @@ Neste cenário, um cliente optou por ter seus estágios de **MQL** e **SQL** ras
 
 O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC.
 
-![Diagrama de jornada principal mostrando pontos de contato MQL e SQL bumerang com progressão cronológica para a Oportunidade](assets/1-1.png)
+![](assets/boomerang-boomerang-18.png)
 
 **Cenário 2: pontos de contato de bumerangue E estágios personalizados para um cliente potencial**
 
 Neste cenário, um cliente optou por rastrear apenas o **estágio SQL** com pontos de contato de bumerangue. Os estágios MQL e SAL ainda estão sendo rastreados, mas com o recurso Estágio Personalizado [!DNL Marketo Measure].
 
-![jornada de cliente potencial mostrando pontos de contato de bumerangue SQL com MQL e SAL rastreados como estágios personalizados](assets/2-1.png)
+![](assets/boomerang-boomerang-19.png)
 
 Observe que a posição do ponto de contato MQL não é rotulada com um número. Isso ocorre porque ele não foi selecionado para ser rastreado com pontos de contato do Boomerang. Ao criar pontos de contato para estágios incluídos no modelo personalizado, mas que não são rastreados com o Boomerang, [!DNL Marketo Measure] leva a última ocorrência desse estágio.
 
@@ -48,7 +48,7 @@ O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que �
 
 Esse cenário usa os mesmos critérios do cenário 2. Um cliente optou por rastrear apenas o estágio SQL com pontos de contato de bumerangue. O MQL e o SAL ainda estão sendo rastreados, mas com o recurso Estágio personalizado [!DNL Marketo Measure].
 
-![jornada de cliente potencial mostrando estágio de SAL ignorado com posições de SAL e OC combinadas no mesmo ponto de contato](assets/3.png)
+![](assets/boomerang-boomerang-20.png)
 
 Nesse cenário, o lead nunca faz a transição para o estágio SAL. Ele se converte em um Contato antes de atingir o estágio SAL, essencialmente &quot;ignorando&quot; o estágio SAL. Nessa situação, [!DNL Marketo Measure] presume que o SAL ocorre com o ponto de contato do OC, e ambas as posições do SAL e do OC aparecerão no mesmo ponto de contato.
 
@@ -64,15 +64,15 @@ A linha superior (rotulada Lead 1, em azul) representa a jornada individual dos 
 
 Neste cenário, um cliente optou por rastrear os **estágios MQL** e **SAL** com pontos de contato de bumerangue. O estágio SQL está sendo rastreado pelos estágios personalizados padrão.
 
-![Diagrama de jornada de três clientes potenciais mostrando pontos de contato de bumerangue MQL e SAL convertendo em Oportunidade](assets/4.png)
+![](assets/boomerang-boomerang-21.png)
 
 Os pontos de contato FT e LC na oportunidade vêm do lead 1 (azul), porque ocorreram antes do FT e LC do lead 2 (rosa). O ponto de contato da LC para o lead 2 aparecerá como um ponto de contato de &quot;Formulário&quot; na oportunidade.
 
 O MQL-01 (Último) do Lead 2 se tornará o primeiro MQL na oportunidade. O MQL-01 do lead 1 não aparecerá como um ponto de contato na oportunidade porque o MQL do lead 2 ocorreu primeiro. No entanto, o MQL-02 e o MQL-03 do lead 1 aparecerão na oportunidade.
 
-O estágio SQL está sendo rastreado com estágios personalizados, e não estágios bumerangue. Mesmo que haja três ocorrências do estágio SQL entre o Lead 1 e o Lead 2, somente a última ocorrência SQL será incluída como um ponto de contato na Oportunidade.
+O estágio SQL está sendo rastreado com estágios personalizados, e não estágios de bumerangue. Mesmo que haja três ocorrências do estágio SQL entre o Lead 1 e o Lead 2, somente a última ocorrência SQL será incluída como um ponto de contato na Oportunidade.
 
-O ponto de contato SAL-01 (Último) do lead 1 é transportado como um ponto de contato na oportunidade. O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC. O (último) ponto de contato SAL-01 do lead 2 não será criado como um ponto de contato porque esta transição de estágio ocorreu _após_ o toque de OC.
+O ponto de contato SAL-01 (Último) do lead 1 é transportado como um ponto de contato na oportunidade. O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC. O (último) ponto de contato SAL-01 do lead 2 será criado como um ponto de contato porque esta transição de estágio ocorreu _após_ o toque de OC.
 
 FT, LC e MQL, SQL, pontos de contato SAL (laranja) do lead 3 ocorreram após o ponto de contato OC na oportunidade. Esses pontos de contato são incluídos na Oportunidade, mas são considerados &quot;contatos intermediários&quot;.
 
@@ -84,7 +84,7 @@ Neste cenário, um cliente optou por rastrear os estágios de **MQL**, **SQL** e
 
 Todos os pontos de contato do lead 1 estão incluídos na oportunidade, de FT a SAL-01 (Last). O ponto de contato LC do lead 2 será incluído como um ponto de contato de formulário entre os pontos de contato LC e MQL-01 na oportunidade.
 
-![Três jornadas de clientes em potencial mostrando pontos de contato de bumerangue MQL, SQL e SAL com numeração de posição na Oportunidade](assets/5.png)
+![](assets/boomerang-boomerang-22.png)
 
 O MQL-01 (Último) do Lead 2 acaba sendo o ponto de contato MQL-04 (Último) na Oportunidade. Como esse cenário aborda várias jornadas de clientes potenciais em uma oportunidade, o posicionamento e a numeração dos pontos de contato dos clientes potenciais podem mudar quando forem traduzidos como pontos de contato na oportunidade. Da mesma forma, o SQL-01 (Último) do Lead 2 torna-se o SQL-04 (Último) no Opp. O SAL-01 (Último) do lead 2 também se torna o SAL-02 (Último) da Oportunidade.
 
@@ -98,7 +98,7 @@ Os toques de MQL, SQL e SAL do lead 3 ocorrem ao mesmo tempo, após o toque de O
 
 Neste cenário, um cliente optou por rastrear os estágios de **MQL**, **SQL** e **SAL** com pontos de contato de bumerangue. Esse cenário é quase idêntico ao acima, com algumas exceções.
 
-![jornada de três clientes em potencial mostrando pontos de contato de bumerangue de visitas da Web excluídos da Oportunidade quando ocorram após o estágio SQL](assets/6.png)
+![](assets/boomerang-boomerang-23.png)
 
 Todos os pontos de contato do lead 1 serão incluídos na oportunidade, de FT a SAL-01 (Last). O ponto de contato LC do lead 2 será incluído como um ponto de contato de formulário entre os pontos de contato LC e MQL-01 na oportunidade.
 
@@ -114,7 +114,7 @@ Os toques de MQL, SQL, SAL do lead 3 são incluídos como um ponto de contato po
 
 Neste cenário, um cliente optou por rastrear os estágios de **MQL**, **SQL** e **SAL** com pontos de contato de bumerangue.
 
-![Três jornadas de cliente potencial mostrando ponderação de atribuição de bumerangue com várias transições de estágio](assets/7.png)
+![](assets/boomerang-boomerang-25.png)
 
 Os pontos de contato FT e LC na oportunidade vêm do lead 1 (azul), porque ocorreram antes do FT e LC do lead 2 (rosa). O ponto de contato LC do lead 2 aparece como um ponto de contato de &quot;Formulário&quot; na oportunidade.
 
@@ -136,7 +136,7 @@ O (último) ponto de contato SQL-01 do lead 2 não será incluído como um ponto
 
 Neste cenário, um cliente optou por rastrear as **transições dos estágios de Demonstração e Negociação** no **Contato**. Cada estágio de bumerangue pode receber até dois pontos de contato. A diferença entre as transições de estágio em um Contato e as transições de estágio em um Cliente Potencial é que as transições de estágio do Contato podem aparecer como pontos de contato do Boomerang na Oportunidade _após_ o ponto de contato do OC. Isso não é verdadeiro para transições de estágio que ocorrem no lead, pois elas aparecem como um ponto de contato de Formulário.
 
-![jornada de contato que mostra pontos de contato de bumerangue de Demonstração e Negociação que aparecem após o ponto de contato do OC na Oportunidade](assets/8.png)
+![](assets/boomerang-boomerang-25.png)
 
 Neste exemplo, as transições de Estágio de Demonstração e Negociação do Contato 1 são incluídas como pontos de contato de Demonstração-01 e Negociação-01 na Oportunidade. A transição de estágio de Demonstração do Contato 2 ocorre _depois_ do Contato 1 e aparece como o ponto de contato Demo-02 (Último) na Oportunidade.
 

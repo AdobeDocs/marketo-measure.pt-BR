@@ -1,21 +1,22 @@
 ---
-description: Painel de Receita Atribuída - [!DNL Marketo Measure] - Produto
+description: Descreve o painel Receita atribuída, que detalha a receita atribuída e as ofertas por subcanal de canal e campanha ao longo do tempo
 title: Painel de receita atribuída
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '399'
 ht-degree: 3%
 
 ---
-
 
 # Painel de receita atribuída {#attributed-revenue-dashboard}
 
 O Painel de receita atribuída oferece uma perspectiva focada na receita diretamente vinculada às suas iniciativas de marketing. Explore como suas estratégias de marketing foram fundamentais para selar ofertas.
 
 >[!NOTE]
+>
 >Este painel está no Beta. Durante essa fase de transição, os painéis atuais e novos estarão acessíveis. O painel atual será descontinuado depois que fizermos a transição completa e garantirmos a funcionalidade ideal.
 
 **Perguntas e respostas do painel**:
@@ -42,7 +43,7 @@ Gráfico de barras empilhadas exibindo a Receita total atribuída, segmentada po
 * Quais canais geraram mais receita atribuída a cada trimestre?
 * Qual foi o detalhamento da receita atribuída por canal no mês passado?
 
-![Receita atribuída por canal ao longo do gráfico de tempo](assets/attributed-revenue-dashboard-1.png)
+![](assets/attributed-dashboard-4.png)
 
 ### Tabela de Receitas Atribuídas {#attributed-revenue-table}
 
@@ -58,14 +59,14 @@ A receita total atribuída segmentada por canal, subcanal e campanha, apresentad
 * A exibição em tabelas oferece insights claros e organizados da distribuição das receitas atribuídas. Os usuários podem discernir rapidamente os padrões de desempenho e apontar estratégias de marketing de alto impacto categorizando dados em canais, subcanais e campanhas.
 * Clique no ícone &quot;+&quot; ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
 
-![Exibição tabular da receita atribuída por canal, subcanal e campanha](assets/attributed-revenue-dashboard-2.png)
+![](assets/attributed-dashboard-5.png)
 
 **Modo de Exibição de Árvore**
 
 * A visualização em árvore permite uma exploração de dados mais interativa e granular, permitindo que os profissionais de marketing identifiquem tendências, anomalias ou artistas de destaque em suas iniciativas de marketing.
 * Clique em uma ramificação para se aprofundar na camada de hierarquia subsequente.
 
-![Exibição da árvore de receita atribuída para exploração hierárquica](assets/attributed-revenue-dashboard-3.png)
+![](assets/attributed-dashboard-6.png)
 
 ## Painel de Filtro {#filter-pane}
 
@@ -78,6 +79,7 @@ Esse painel é equipado com as seguintes configurações e filtros:
 * Segmentos
 
 >[!MORELIKETHIS]
-> [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

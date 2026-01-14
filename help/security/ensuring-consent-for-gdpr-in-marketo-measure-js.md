@@ -1,15 +1,14 @@
 ---
-description: Garantia de consentimento com o RGPD no Marketo Measure Js
+description: Mostra como configurar o bizible.js para aguardar o consentimento do usuário para o GDPR antes de definir cookies ou enviar dados
 title: Garantia de consentimento com o RGPD no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 95%
 
 ---
-
 
 # Garantia de consentimento com o RGPD no Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
@@ -31,12 +30,11 @@ Opção 1 - Substituir a tag de script padrão do [!DNL bizible.js] por:
 
 **Se você usar o [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
 
-```html
-<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>
-<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async></script>
-```
+`<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
+>
 >Nesse caso, o [!DNL bizible.js] anexa um evento ao clicar no elemento HTML com a ID “ConsentButtonId”.
 
 Ao clicar neste elemento HTML, o [!DNL bizible.js] cria um cookie para lembrar o recebimento do consentimento do usuário e começar a coletar dados de análise como de costume.
@@ -55,12 +53,11 @@ Essa opção orienta o [!DNL bizible.js] a não rastrear até a confirmação do
 
 **Se você usar o [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
 
-```html
-<span id="bizible-settings" data-requires-user-consent="true"></span>
-<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async></script>
-```
+`<span id="bizible-settings" data-requires-user-consent="true"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
+>
 >O bizible.js cria um cookie para lembrar a confirmação do consentimento do usuário e começa a coletar dados de análise como de costume somente depois de chamar a API JS.
 
 Por outro lado, clientes também podem usar essa API para retirar o consentimento do usuário:

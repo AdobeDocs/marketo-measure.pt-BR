@@ -1,11 +1,10 @@
 ---
-description: Perguntas Frequentes sobre o Modelo de Aprendizado de Máquina - [!DNL Marketo Measure]
+description: Orientação de perguntas frequentes sobre o modelo de aprendizado de máquina para usuários do Marketo Measure
 title: Perguntas frequentes de modelo de aprendizado de máquina
-exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -29,7 +28,7 @@ Como é calculado o Modelo de Aprendizado de Máquina?
 
 O peso final de um estágio personalizado é calculado como:
 
-**_Porcentagem de Modelo = Precisão do Modelo x Taxa de Conversão x Peso de Exclusividade do Ponto de Contato_**
+`Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weight`
 
 No final, todos os pesos do estágio personalizado são normalizados e convertidos em % conforme mostrado abaixo.
 

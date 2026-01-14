@@ -1,23 +1,18 @@
 ---
-description: Perguntas Frequentes sobre Atribuição de Atividades - [!DNL Marketo Measure]
+description: Orientação de perguntas frequentes de atribuição de atividades para usuários do Marketo Measure
 title: Perguntas frequentes sobre atribuição de atividades
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 2%
+source-wordcount: '752'
+ht-degree: 3%
 
 ---
-
 
 # Perguntas frequentes sobre atribuição de atividades {#activities-attribution-faq}
 
 [!DNL Marketo Measure] As atividades importam todos os seus registros de Atividade e geram pontos de contato para eles, permitindo que essas Atividades recebam crédito de atribuição. O caso de uso mais comum é rastrear atividades da equipe de vendas, pois geralmente criam um registro de chamadas telefônicas ou emails enviados a clientes potenciais. Outros itens exclusivos que podem ser rastreados são as interações de conteúdo, como downloads de ativos ou visualizações de vídeo.
-
->[!AVAILABILITY]
->
->Esse recurso é habilitado somente para clientes de Nível 2. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta da Adobe (seu gerente de conta).
 
 **Qual a diferença em relação às Campanhas Offline?**
 
@@ -41,7 +36,7 @@ Como essas atividades resultam em um ponto de contato, [!DNL Marketo Measure] de
 
 **Que outros campos de Touchpoint estão preenchidos?**
 
-| Campo do ponto de contato | Valor |
+| **Campo do ponto de contato** | **Valor** |
 |---|---|
 | Cliente Potencial/Contato | Todas as atividades estão relacionadas a um cliente potencial ou contato |
 | Campanha | Canal.Subcanal [[!DNL Marketo Measure]] |

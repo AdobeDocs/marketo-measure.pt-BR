@@ -1,15 +1,14 @@
 ---
-description: Por Que Você Nunca Deve Excluir Pontos De Contato - [!DNL Marketo Measure]
+description: Por que você nunca deve excluir as orientações dos pontos de contato para usuários do Marketo Measure
 title: Por que você nunca deve excluir touchpoints
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 5%
 
 ---
-
 
 # Por que você nunca deve excluir touchpoints {#why-you-should-never-delete-touchpoints}
 
@@ -19,6 +18,6 @@ O sistema de processamento [!DNL Marketo Measure] não registrará que um ponto 
 
 Quando um ponto de contato é excluído, ele cria um buraco nos dados de atribuição. Normalmente, isso se manifestará nos pontos de contato de atribuição em uma Oportunidade. Na imagem abaixo, o ponto de contato que teria recebido o toque de Criação da oportunidade foi excluído. Como resultado, essa oportunidade não tem o ponto de contato do OC e a porcentagem de atribuição para essa Opp não somará 100%.
 
-![Ponto de contato de Criação de Oportunidade ausente após a exclusão](assets/1.png)
+![](assets/touchpoint-settings-10.png)
 
 Se os pontos de contato tiverem sido excluídos da SFDC, entre em contato com o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} para solicitar uma reimportação dos dados.

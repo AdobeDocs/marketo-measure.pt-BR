@@ -1,21 +1,21 @@
 ---
-description: Datas de Sincronização de Campanha - [!DNL Marketo Measure]
+description: Orientação de datas de sincronização do Campaign para usuários do Marketo Measure
 title: Datas de sincronização da campanha
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '491'
 ht-degree: 5%
 
 ---
-
 
 # Datas de sincronização da campanha {#campaign-sync-dates}
 
 Saiba o que o recurso Datas de sincronização do Campaign faz, bem como ofereça alguns casos de uso para esse recurso.
 
 >[!NOTE]
+>
 >Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado do aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 **[!DNL Marketo Measure]Pacote Necessário: 6.9 ou superior**
@@ -27,7 +27,7 @@ Este recurso consiste em dois campos de data simples no [!DNL Salesforce] Objeto
 
 Quando os Pontos de contato do comprador estiverem ativados em uma campanha específica, as Datas de sincronização da campanha permitirão definir os parâmetros de Data do ponto de contato na campanha individual. Portanto, se você adicionasse uma Data de Término do Ponto de Contato em 1º de março de 2017, o [!DNL Marketo Measure] criaria apenas Pontos de Contato em Membros da Campanha que foram adicionados à Campanha antes dessa data. [!DNL Marketo Measure] não criará pontos de contato para membros da campanha que foram adicionados após 1º de março de 2017.
 
-![Campanha do Salesforce mostrando os campos Data de Início e Data de Término do Ponto de Contato](assets/1.gif)
+![](assets/legacy-processes-3.gif)
 
 Da mesma forma, se você adicionasse uma Data de Início do Ponto de Contato em uma Campanha (digamos, 1º de janeiro de 2017), o [!DNL Marketo Measure] não criaria Pontos de Contato em Membros da Campanha que foram adicionados à Campanha antes de 1º de janeiro de 2017. Não é necessário adicionar uma Data inicial do ponto de contato se você adicionar uma Data final do ponto de contato e vice-versa.
 

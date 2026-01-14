@@ -1,15 +1,14 @@
 ---
-description: Definição de sessões da web do  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
+description: Definição de  [!DNL Marketo Measure] Orientação de sessões da Web para usuários do Marketo Measure
 title: 'Definição de Sessões da Web do  [!DNL Marketo Measure] '
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
-
 
 # Definição de Sessões da Web do [!DNL Marketo Measure] {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ Há algumas coisas que determinam quando uma sessão termina e quando uma nova s
 
 ## Expiração baseada em tempo {#time-based-expiration}
 
-### Comportamento legado {#legacy-behavior}
-
 **Quanto tempo dura uma sessão?**
 
-As sessões do [!UICONTROL Marketo Measure] serão encerradas após 30 minutos de inatividade no site. Por exemplo:
+As sessões do [!DNL Marketo Measure] serão encerradas após 30 minutos de inatividade no site. Por exemplo:
 
-Quando Haley visita adobe.com, uma sessão é iniciada. Ela explora o site por alguns minutos e depois se afasta de seu computador, mas deixando o site aberto. Após 30 minutos de inatividade, a sessão será encerrada.
+Quando Haley visita adobe.com, uma sessão é iniciada. Ela explora o site por alguns minutos e depois se afasta de seu computador, mas deixando o site aberto. Após 30 minutos de inatividade, a sessão é encerrada.
 
-Atualmente, o [!UICONTROL Marketo Measure] considera apenas a navegação de páginas e os envios de formulários como atividade. Rolar pela página da Web ou passar o mouse sobre um elemento na página não é considerada uma atividade. Então, se Haley visitar adobe.com para ler uma publicação do blog, e ela levar uma hora para ler, sua sessão na web ainda vai terminar após 30 minutos, mesmo se ela estiver rolando pelo conteúdo na página.
-
-### Novo comportamento {#new-behavior}
-
-Para novos usuários, esse será o comportamento padrão.
-
-Os usuários existentes podem adotar o novo comportamento ativando o botão de alternância em **Configurações** > **Atribuição de todos os contatos** > **Transferência de canal de sessão**. Após ativada, essa configuração não poderá ser revertida.
-
-Quando uma nova sessão é criada após 30 minutos de inatividade, o canal da sessão anterior será transferido se a nova sessão começar dentro de sete dias. Essa transferência se aplica somente às visitas diretas (sem referenciador ou referenciadores internos). Se a inatividade exceder sete dias, o canal da nova sessão assumirá Direto/Outro como padrão. Por exemplo, se Haley visitar landingpage.com no Google, ficar inativa por mais de 30 minutos e retornar em sete dias, a nova sessão manterá o canal do Google. No entanto, se o mesmo usuário revisitar a página por um canal diferente, o canal não direto não será substituído pelo canal anterior do Google.
-
-Somente o canal será transferido, excluindo detalhes da campanha ou do referenciador. Isso ocorre porque a classificação de canal é tratada pelo Marketo Measure, enquanto outros pontos de dados são coletados separadamente.
-
-**Logon a partir de redes sociais**
-
-Quando um visitante usa um logon a partir de redes sociais por meio do Google, Microsoft ou Apple, a sessão é mesclada em uma sessão contínua. Por exemplo, se um visitante acessar uma página do LinkedIn, concluir um logon a partir da rede social do Google e acessar uma página de agradecimento, tudo contará como uma única sessão. Sem a Transferência do canal de sessão, o logon a partir de redes sociais criaria sessões separadas devido ao referenciador externo.
+Atualmente, o [!DNL Marketo Measure] considera somente a navegação de página e os envios de formulário como atividade. Rolar pela página da Web ou passar o mouse sobre um elemento na página não é considerada uma atividade. Então, se Haley visitar adobe.com para ler uma publicação do blog, e ela levar uma hora para ler, sua sessão na web ainda vai terminar após 30 minutos, mesmo se ela estiver rolando pelo conteúdo na página.
 
 ## Expiração baseada em canal {#channel-based-expiration}
 

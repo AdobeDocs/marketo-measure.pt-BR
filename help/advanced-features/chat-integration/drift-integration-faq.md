@@ -1,15 +1,14 @@
 ---
-description: Perguntas Frequentes sobre Integração de Deriva - [!DNL Marketo Measure]
+description: Orientação para perguntas frequentes sobre a Integração direta para usuários do Marketo Measure
 title: Perguntas frequentes sobre integração de desvio
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
-
 
 # Perguntas frequentes sobre integração de desvio {#drift-integration-faq}
 
@@ -41,4 +40,4 @@ Se houver campanhas de CRM em vigor para criar pontos de contato para interaçõ
 
 Se houver regras de atividade em vigor para criar pontos de contato para interações de bate-papo de deriva, uma parte adicional da lógica deverá ser adicionada às regras. Adicione lógica usando o campo Data de criação da tarefa para impedir que a duplicação de pontos de contato seja criada (IE CrmTask.CreatedDate é Menor que a data em que o bit de recurso foi habilitado). Consulte a captura de tela abaixo para obter um exemplo.
 
-![Exemplo de regra de atividade do CRM configurada para pontos de contato de chat do Drift](assets/activity-rule-drift.png)
+![](assets/chat-integration-1.png)

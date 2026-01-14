@@ -1,15 +1,14 @@
 ---
-description: 'Migração da sandbox para a produção no Salesforce:  [!DNL Marketo Measure]'
+description: Orientação de migração de sandbox para produção do Salesforce para usuários do Marketo Measure
 title: Migração da sandbox para a produção no Salesforce
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 95%
 
 ---
-
 
 # Migração da sandbox para a produção no Salesforce {#salesforce-sandbox-to-production-migration}
 
@@ -31,7 +30,7 @@ Se você optou por testar o [!DNL Marketo Measure] em um ambiente de sandbox do 
 * Clique no ícone de lixeira ao lado da conexão SFDC para excluir
 * Será solicitado que você confirme a exclusão. Certifique-se de ler o aviso cuidadosamente para entender as consequências da exclusão
 
-  ![Página de conexões do Marketo Measure confirmando a exclusão de uma sandbox do Salesforce](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![](assets/salesforce-migration-1.png)
 
    * Digite o nome da empresa conforme solicitado no modelo de confirmação e clique em “Eu entendo as consequências e desejo excluir esta conexão”
 * Isso aciona o processo de exclusão que leva algum tempo para ser concluído

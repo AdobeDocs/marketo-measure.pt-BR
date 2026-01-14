@@ -1,15 +1,14 @@
 ---
-description: Parâmetro de Acompanhamento de Email - [!DNL Marketo Measure]
+description: Orientação do parâmetro de rastreamento de email para usuários do Marketo Measure
 title: Parâmetro de rastreamento por email
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
-
 
 # Parâmetro de rastreamento por email {#email-tracking-parameter}
 
@@ -31,47 +30,13 @@ A Marketo Measure aceita os seguintes valores: Endereço de email, ID de cliente
 
 ## Exemplos de tag {#tag-examples}
 
-<table>
- <colgroup>
-  <col>
-  <col>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p>Automatização de marketing</p></th>
-   <th><p>Token/Tag/Macro </p></th>
-   <th><p>Exemplo</p></th>
-   <th><p>Material de suporte</p></th>
-  </tr>
-  <tr>
-   <td><p>Marketo</p></td>
-   <td><p>{{lead.Email Address}} </p></td>
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td>
-   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=pt-BR</p></td>
-  </tr>
-  <tr>
-   <td><p>Pardot</p></td>
-   <td><p>%%email%% </p><p>ou</p><p>%%user_crm_id%%</p></td>
-   <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td>
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td>
-  </tr>
-  <tr>
-   <td><p>Hubspot</p></td>
-   <td><p>(inserido pelo Editor)</p></td>
-   <td><p>n/d</p></td>
-   <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td>
-  </tr>
-  <tr>
-   <td><p>Act-On</p></td>
-   <td><p>(inserido pelo Message Composer)</p></td>
-   <td><p>n/d</p></td>
-   <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td>
-  </tr>
- </tbody>
-</table>
+| Automatização de marketing | Token/Tag/Macro | Exemplo | Material de suporte |
+| --- | --- | --- | --- |
+| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [Visão geral dos tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
+| Pardot | %%email%% ou %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Referência das marcas da variável Pardot](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
+| Hubspot | (inserido pelo Editor) | n/d | [Personalizar conteúdo do HubSpot](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
+| Act-On | (inserido pelo Message Composer) | n/d | [Personalizar conteúdo de email através de ação](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
 
 Por fim, em [!DNL Marketo Measure], você deve especificar o parâmetro de rastreamento para que [!DNL Marketo Measure] possa localizar o valor do email ou da ID. O padrão é &quot;mailId&quot;, como mostrado nos exemplos acima e na captura de tela abaixo. Insira o valor em suas Configurações em [!DNL Marketo Measure] e clique em **[!UICONTROL Salvar]**.
 
-![Opção de Acompanhamento de Email](assets/one.png)
+![](assets/one-one-1.png)

@@ -1,15 +1,14 @@
 ---
-description: Manuseio de Formulários AJAX - [!DNL Marketo Measure]
+description: Diretrizes de manuseio do AJAX Form para usuários do Marketo Measure
 title: Manuseio de formulário AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
-
 
 # Manuseio de formulário AJAX {#ajax-form-handling}
 
@@ -23,22 +22,22 @@ Se você manipula seus próprios envios de formulários, pode chamar explicitame
 
 **Abaixo está uma amostra de código usando JQuery (supondo que a ID no formulário seja &quot;formId&quot;):**
 
-```jquery
+```javascript
 ///////////////////////////////////////////////////////////////////////  
 // Preamble for all API usage.  
 window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-
+  
 // Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.  
 Bizible.Push('Form',$('#*formId*'));
 ```
 
 **Abaixo está uma amostra de código que não usa JQuery (supondo que a ID no formulário seja &quot;formId&quot;):**
 
-```jquery
+```javascript
 ///////////////////////////////////////////////////////////////////////  
 // Preamble for all API usage.  
 window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-
+  
 // Give Marketo Measure the Form ID and we'll collect the data automatically.
 Bizible.Push('Form','MyFormID');
 ```
@@ -47,11 +46,11 @@ Bizible.Push('Form','MyFormID');
 
 Se as informações de um cliente potencial convertido forem coletadas usando campos de texto simples ou JavaScript sem formulário html, essa solução funcionará para você. A API a ser usada neste cenário é compartilhada abaixo:
 
-```jquery
+```javascript
 ///////////////////////////////////////////////////////////////////////  
 // Preamble for all API usage.  
 window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-
+  
 // If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.  
 Bizible.Push('User', {
 eMail: 'user@gmail.com' // required  

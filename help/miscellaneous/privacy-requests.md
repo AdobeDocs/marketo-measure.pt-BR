@@ -1,12 +1,12 @@
 ---
-description: Solicitações de Privacidade - [!DNL Marketo Measure]
+description: Diretrizes de solicitações de privacidade para usuários do Marketo Measure
 title: Solicitações de privacidade
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 25%
+source-wordcount: '260'
+ht-degree: 24%
 
 ---
 
@@ -17,8 +17,8 @@ Este documento fornece uma visão geral do gerenciamento de solicitações indiv
 
 Você pode enviar solicitações individuais para acessar e excluir dados do consumidor de [!DNL Marketo Measure] de duas maneiras:
 
-* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=pt-BR){target="_blank"}.
-* Por meio da API **[!DNL Privacy Service]**. Consulte a documentação [aqui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR){target="_blank"} e a referência da API [aqui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Por meio da API **[!DNL Privacy Service]**. Consulte a documentação [aqui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} e a referência da API [aqui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 O [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"} oferece suporte a dois tipos de solicitações: acesso e exclusão de dados.
 
@@ -65,7 +65,7 @@ Para fazer solicitações de Acesso e Exclusão de dados para [!DNL Marketo Meas
 
 Solicitação JSON
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -96,7 +96,7 @@ Solicitação JSON
 
 Resposta JSON
 
-```text
+```json
 {
   "requestId": "16331241037112570RX-245",
   "totalRecords": 1,
@@ -128,7 +128,7 @@ Resposta JSON
 
 Solicitação JSON
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -159,7 +159,7 @@ Solicitação JSON
 
 Resposta JSON
 
-```text
+```json
 {
   "requestId": "16329573462631890RX-207",
   "totalRecords": 1,

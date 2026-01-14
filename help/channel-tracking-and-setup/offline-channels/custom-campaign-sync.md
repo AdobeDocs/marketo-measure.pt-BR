@@ -1,15 +1,14 @@
 ---
-description: Sincronização de Campanha Personalizada - [!DNL Marketo Measure]
+description: Orientação de sincronização de campanha personalizada para usuários do Marketo Measure
 title: Sincronização de campanha personalizada
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
-
 
 # Sincronização de campanha personalizada {#custom-campaign-sync}
 
@@ -25,32 +24,36 @@ Hoje, com o pacote [!DNL Marketo Measure] instalado, você pode indicar quais Ca
 1. Com permissões de AccountAdmin, você pode navegar até **[!UICONTROL Configurações]** > **[!UICONTROL Campanhas]** e ver a interface de regras Sincronizar Membros da Campanha.
 1. Clique no ícone **+** para começar a criar uma regra.
 
-   ![Página de configurações de sincronização da campanha com o botão adicionar regra](assets/1-1.png)
+   ![](assets/offline-channels-1.png)
 
 1. Você tem a opção de criar uma regra dos campos [!UICONTROL Campanha] ou [!UICONTROL Membro da campanha]. Preencha o restante da regra com o Operator e o Value que se espera validar. No exemplo abaixo, estamos procurando uma Campanha específica pelo seu nome.
 
-   ![Construtor de regras com seleção de campo de campanha e opções de operador](assets/2-1.png)
+   ![](assets/offline-channels-10.jpg)
 
    >[!NOTE]
+   >
    >Os campos de fórmula não podem ser usados em suas regras e não aparecerão na lista de opções. Como as fórmulas são calculadas em segundo plano e não modificam um registro, o [!DNL Marketo Measure] não pode detectar se um registro se encaixa ou não em uma regra.
 
 1. Escolha a Data do ponto de contato. A lista de datas possíveis será exibida depois que você inserir uma chave `{` - em seguida, será possível selecionar a data que deseja aplicar a todos os Pontos de contato criados a partir da regra.
 
-   ![Campo de data do ponto de contato com lista suspensa de preenchimento automático mostrando os campos de data disponíveis](assets/3-1.png)
+   ![](assets/offline-channels-11.png)
 
    >[!NOTE]
+   >
    >Se você estiver usando as regras de Sincronização de Campanha Personalizadas, o [!DNL Marketo Measure] não lerá nenhuma atualização feita usando o botão Atualização em Massa da Data do Ponto de Contato.
 
 1. Clique na marca de seleção e, em seguida, adicione regras adicionais para campanhas adicionais, conforme necessário.
 
-   ![Regra concluída com marca de seleção e opção para adicionar mais regras](assets/4-1.png)
+   ![](assets/offline-channels-12.png)
 
    >[!NOTE]
+   >
    >Agora que as regras são definidas junto com a Sincronização do CRM, as regras declaradas naturalmente começarão a entrar em conflito. Se você optar por continuar usando o Campaign Sync _e_ personalizado do Tipo de sincronização do CRM, é importante criar regras para que seus Tipos de sincronização do CRM não sejam ignorados.
 
-   ![Várias regras de sincronização de campanha mostrando as configurações do Tipo de Sincronização do CRM](assets/5-1.png)
+   ![](assets/offline-channels-13.png)
 
    >[!NOTE]
+   >
    >Se você estiver pensando em parar o usuário do [!UICONTROL Tipo de Sincronização do CRM], é ideal criar regras que não façam referência ao &quot;Tipo de Sincronização&quot;, mas _ainda_ mantenha os pontos de contato atuais do CRM. Dessa forma, as regras ainda funcionam se/quando essa alteração for feita.
 
 Este é um exemplo do que isso pareceria, para que nenhum ponto de contato existente do CRM seja perdido:
@@ -59,22 +62,22 @@ Este é um exemplo do que isso pareceria, para que nenhum ponto de contato exist
 
 Você pode verificar facilmente os pontos de contato do comprador e os registros de Buyer Attribution Touchpoint no Campaign para garantir que as regras estejam funcionando corretamente. Esta é uma BAT que [!DNL Marketo Measure] criou com a Data do ponto de contato dinâmico apropriada, extraída da Campanha. O campo Data de criação está na imagem abaixo dele.
 
-![Registro do Buyer Attribution Touchpoint mostrando o campo de data do ponto de contato dinâmico](assets/6-1.png)
+![](assets/offline-channels-14.png)
 
 ## Testando {#testing}
 
 1. O recurso de sincronização do Campaign vem com um recurso de teste para que você possa verificar se as regras criadas realmente se encaixam nos critérios do Campaign. Comece clicando no botão [!UICONTROL Testar]. As regras devem ser salvas primeiro antes de você poder iniciar o teste.
 
-   ![Botão de teste na interface de regras de sincronização de campanha](assets/7-1.png)
+   ![](assets/offline-channels-15.jpg)
 
    Um pop-up será exibido, onde você poderá inserir uma ID do Campaign (15 ou 18 caracteres do CRM) para testar. O objetivo é inserir a ID da campanha do CRM que você estava tentando sincronizar para garantir que corresponda à regra criada.
 
-   ![Testar caixa de diálogo modal com campo de entrada de ID de campanha](assets/8-1.png)
+   ![](assets/offline-channels-16.png)
 
 1. Depois de clicar em [!UICONTROL Testar], você verá o nome da Campanha e o número de Membros da Campanha qualificados para pontos de contato. Abaixo, uma tabela mostrará todas as regras que correspondem à ID da campanha. Somente as correspondências serão exibidas.
 
-   ![Resultados de teste mostrando o nome da campanha e a contagem de membros qualificados](assets/9.png)
+   ![](assets/offline-channels-17.png)
 
 1. Você também pode clicar na contagem de Membros para ver uma lista de Clientes potenciais e Contatos e suas Ids que fazem parte da qualificação de regra da campanha. Este é apenas um conjunto de amostras e exibirá até 50 para que você possa ter uma ideia de quais registros se qualificam.
 
-   ![Lista de membros da campanha qualificados com IDs de Cliente Potencial e Contato](assets/10.png)
+   ![](assets/offline-channels-18.jpg)

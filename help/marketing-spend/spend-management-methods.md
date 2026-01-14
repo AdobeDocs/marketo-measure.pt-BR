@@ -1,15 +1,14 @@
 ---
-description: Métodos de Gerenciamento de Gastos - [!DNL Marketo Measure]
+description: Orientação de Métodos de gerenciamento de gastos para usuários do Marketo Measure
 title: Métodos de gerenciamento de gastos
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
-
 
 # Métodos de gerenciamento de gastos {#spend-management-methods}
 
@@ -25,7 +24,7 @@ Qualquer conta publicitária que você tenha conectado a [!DNL Marketo Measure] 
 
 Toda conta [!DNL Marketo Measure] tem acesso a um recurso chamado [Sincronizar Custos de Campanha do CRM](/help/marketing-spend/crm-campaign-costs.md#availability). Por padrão, esse bit de recurso está definido como &quot;Não&quot;, mas pode ser ativado a qualquer momento.
 
-![Página de configurações de conexões mostrando a opção de sincronização de custo do CRM Campaign](assets/spend-management-methods-1.png)
+![](assets/spend-management-1.png)
 
 Quando ativado, esse recurso extrai automaticamente os gastos de qualquer campanha/programa de CRM que atenda aos seguintes critérios:
 

@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] Visão geral do Ultimate - [!DNL Marketo Measure]'
+description: “Visão geral do [!DNL Marketo Measure] Ultimate -  [!DNL Marketo Measure]”
 title: Visão geral do [!DNL Marketo Measure] Ultimate
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 88%
+source-wordcount: '683'
+ht-degree: 97%
 
 ---
-
 
 # Visão geral do [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-overview}
 
@@ -30,11 +29,11 @@ O [!DNL Marketo Measure Ultimate] contém os recursos adicionais:
 
 **[!DNL Marketo Measure]Níveis 1 a 3**
 
-![Diagrama de arquitetura mostrando o fluxo de dados e as conexões das Camadas 1 a 3 do Marketo Measure](assets/marketo-measure-ultimate-overview-1.png)
+![](assets/marketo-overview-1.png)
 
 **[!DNL Marketo Measure Ultimate]**
 
-![Diagrama de arquitetura mostrando o Marketo Measure Ultimate com integração com o AEP](assets/marketo-measure-ultimate-overview-2.png)
+![](assets/marketo-overview-3.png)
 
 ## Novidades do [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
@@ -42,26 +41,27 @@ O [!DNL Marketo Measure Ultimate] contém os recursos adicionais:
 
 Espera-se que profissionais de marketing tragam seus dados B2B (por exemplo, conta, oportunidade, contato, leads, campanha, membro da campanha e atividade) por meio da AEP. As conexões diretas do CRM e do Marketo Engage não estão mais disponíveis para o Ultimate. Profissionais de marketing continuarão trazendo dados da plataforma de anúncios por meio de conexões diretas e rastreando atividades da web pelo Javascript do [!DNL Marketo Measure].
 
-![Diagrama de fluxo de dados mostrando a importação de dados B2B pela plataforma AEP](assets/marketo-measure-ultimate-overview-3.png)
+![](assets/marketo-overview-2.png)
 
 **Configuração de moeda padrão**
 
 O [!DNL Marketo Measure Ultimate] define a moeda padrão como USD até o usuário alterar essa configuração. A definição de uma nova moeda padrão atualizará os dados sem reprocessamento. Desde que a moeda selecionada esteja presente como um código ISO de destino, não é necessário enviar taxas de conversão.
 
-![Interface de configurações de moeda padrão com a opção de moeda USD](assets/marketo-measure-ultimate-overview-4.png)
+![](assets/marketo-overview-7.png)
 
 Sandbox do **[!DNL Marketo Measure Ultimate]**
 
 A instância do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox da AEP antes de criar os fluxos de dados de destino do [!DNL Marketo Measure] na AEP.
 
 >[!NOTE]
+>
 >Uma instância de produção do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox de produção da AEP. Uma instância de desenvolvedor do [!DNL Marketo Measure Ultimate] precisa ser mapeada para uma sandbox de desenvolvedor da AEP.
 
 Após salvar a seleção de mapeamento da sandbox, não é possível alterá-la no aplicativo. Para alterá-lo, contate o [Suporte da Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Os dados de uma determinada entidade (por exemplo, conta) em uma determinada fonte de dados só podem ser enviados para um conjunto de dados. Cada conjunto de dados pode ser incluído somente em um fluxo de dados. As violações interrompem o fluxo de dados no tempo de execução.
 
-![Configuração de mapeamento de sandbox mostrando relações de conjunto de dados e fluxo de dados](assets/marketo-measure-ultimate-overview-5.png)
+![](assets/marketo-overview-6.png)
 
 **Mapeamento de estágios**
 
@@ -92,13 +92,13 @@ As condições das regras são específicas do conjunto de dados. As regras de M
 
 Nenhuma seleção para funil vs bumerangue vs modelo personalizado. Todos os estágios estão selecionados para funil, bumerangue e modelo personalizado. Oferecemos suporte a um número limitado de estágios: 6 estágios integrados mais 15 personalizados.
 
-![Interface de mapeamento de preparo mostrando configurações de preparo integradas e personalizadas](assets/marketo-measure-ultimate-overview-6.png)
+![](assets/marketo-overview-4.png)
 
 As regras de ponto de contato do membro da campanha e as regras de ponto de contato da atividade são específicas para o conjunto de dados.
 
-![Configuração das regras de ponto de contato do membro da campanha por conjunto de dados](assets/marketo-measure-ultimate-overview-7.png)
+![](assets/marketo-overview-5.png)
 
-![Configuração de regras de ponto de contato de atividade por conjunto de dados](assets/marketo-measure-ultimate-overview-8.png)
+![](assets/marketo-overview-8.png)
 
 Os pontos de contato de atribuição não são gravados no CRM porque o Ultimate não tem uma conexão direta com o CRM.
 
@@ -110,5 +110,7 @@ Os serviços de ML do ABM (correspondência entre lead e conta e pontuação pre
 * Não há um caminho de migração para usuários(as) de nível 1/2/3 já existentes. Isso necessita de uma nova implementação, mas ajudaremos você a migrar os dados de atividade da web rastreados da instância já existente.
 
 >[!MORELIKETHIS]
-> [Destino do Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=pt-BR){target="_blank"}
-> [VÍDEO: Visão geral do Marketo Measure Ultimate](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>
+>* [Destino do Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=pt-BR){target="_blank"}
+>
+>* [VÍDEO: Visão geral do Marketo Measure Ultimate](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

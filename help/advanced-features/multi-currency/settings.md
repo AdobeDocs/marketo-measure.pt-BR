@@ -1,15 +1,14 @@
 ---
-description: Configurações - [!DNL Marketo Measure]
+description: Diretrizes de configurações para usuários do Marketo Measure
 title: Configurações
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
-
 
 # Configurações {#settings}
 
@@ -21,4 +20,4 @@ Há dois bits de recurso separados vinculados a esse recurso, localizados na gui
 
 Em suas [!UICONTROL Configurações de Usuário] no aplicativo [!DNL Marketo Measure], exibiremos a Moeda Corporativa e todas as Moedas com Suporte obtidas do CRM. Como todos esses valores são obtidos do CRM, esses campos são somente leitura e não podem ser alterados. A Moeda do painel é a moeda padrão sempre que um painel é carregado. Você pode voltar e alterar a moeda conforme necessário.
 
-![Moedas](assets/one-1.png)
+![](assets/multi-currency-1.png)

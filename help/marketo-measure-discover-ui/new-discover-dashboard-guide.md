@@ -1,17 +1,17 @@
 ---
-description: Novo Guia do Painel do Discover - [!DNL Marketo Measure] - Produto
-title: Novo guia do painel do Discover
+description: Mapeia painéis do Discover herdados para as versões reprojetadas e destaca as principais alterações na navegação e nas métricas
+title: Conheça o Guia do Painel
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 4%
+source-wordcount: '1085'
+ht-degree: 3%
 
 ---
 
-
-# Novo guia do painel do Discover {#new-discover-dashboard-guide}
+# Conheça o Guia do Painel {#new-discover-dashboard-guide}
 
 Temos o prazer de apresentar o novo design do painel do Discover. Nossa principal meta é oferecer a você uma experiência mais simplificada e intuitiva. Com visuais mais limpos e navegação mais simples, essa renovação não apenas retém a maioria das métricas existentes, como também introduz novos insights. Conheça e descubra a maior clareza e valor agregado.
 
@@ -504,6 +504,7 @@ Novos recursos podem ser encontrados no artigo [Noções básicas sobre o painel
 Como nos esforçamos continuamente para aprimorar sua experiência, gostaríamos muito de receber seus comentários sobre esta última atualização. Seus pensamentos influenciarão diretamente os refinamentos futuros, garantindo que nossa plataforma sempre se alinhe às suas necessidades. Fique atento a um formulário de feedback no Marketo Measure.
 
 >[!MORELIKETHIS]
->[Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

@@ -1,11 +1,11 @@
 ---
-description: Painel de Envolvimento - [!DNL Marketo Measure] - Produto
+description: Descubra o painel Engajamento para rastrear pontos de contato com as pessoas e engajamento por canal ao longo do tempo
 title: Painel de engajamento
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---

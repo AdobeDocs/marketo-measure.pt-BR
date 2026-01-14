@@ -1,15 +1,15 @@
 ---
-description: Práticas recomendadas para configurar parâmetros de UTM -  [!DNL Marketo Measure]
+description: Práticas recomendadas para configurar a orientação de Parâmetros UTM para usuários do Marketo Measure
 title: Práticas recomendadas para configurar parâmetros do UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 86%
+source-wordcount: '442'
+ht-degree: 84%
 
 ---
-
 
 # Práticas recomendadas para configurar parâmetros do UTM {#best-practices-for-setting-up-utm-parameters}
 

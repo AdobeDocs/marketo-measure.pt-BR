@@ -1,15 +1,14 @@
 ---
-description: Perguntas Frequentes (Multimoedas) - [!DNL Marketo Measure]
+description: Orientação de perguntas frequentes (várias moedas) para usuários do Marketo Measure
 title: Perguntas frequentes (várias moedas)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
-
 
 # Perguntas frequentes (várias moedas) {#faq-multi-currency}
 
@@ -60,4 +59,5 @@ Para o leitor interessado, veja por que funciona assim. Nossos pontos de contato
 Como nossa oferta agora lidará com as conversões para o cliente, recomendamos que removam os workflows e o campo personalizado e permitam importar seu valor bruto de Quantidade.
 
 >[!MORELIKETHIS]
+>
 >[Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

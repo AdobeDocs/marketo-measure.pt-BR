@@ -1,15 +1,14 @@
 ---
-description: Integração com LinkedIn - [!DNL Marketo Measure]
+description: Orientação de integração do LinkedIn para usuários do Marketo Measure
 title: Integração com o LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2643'
 ht-degree: 1%
 
 ---
-
 
 # Integração com o LinkedIn {#linkedin-integration}
 
@@ -27,7 +26,7 @@ Disponível para todos os usuários.
 
 ## Requisitos {#requirements}
 
-**Funções do Gerente de Campanha**
+### Funções do gerente de campanha
 
 Para que [!DNL Marketo Measure] possa baixar dados de custo de Anúncios e Dados de Anúncios, você deve ter uma das seguintes funções no Gerenciador de Campanhas:
 
@@ -37,7 +36,7 @@ Para que [!DNL Marketo Measure] possa baixar dados de custo de Anúncios e Dados
 
 Saiba mais: [Funções e funções de usuário no Gerenciador de Campanha](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
-**Funções de administrador de mídia paga**
+### Funções de administrador de mídia paga
 
 Para que [!DNL Marketo Measure] possa Criar/Atualizar Criativos Patrocinados, você deve ter uma das seguintes funções de Administrador de Mídia Paga:
 
@@ -48,7 +47,7 @@ Saiba mais: [Funções de administrador da página do LinkedIn](https://www.link
 
 Existem outras funções do [!DNL LinkedIn] que **não** exigem para a nossa integração. Geralmente, essas funções são confundidas com as funções necessárias. Portanto, observe que há uma diferença!
 
-**Funções de administrador da página**
+### Funções do administrador da página
 
 Para que [!DNL Marketo Measure] possa baixar/integrar clientes potenciais de formulários de geração de clientes potenciais, você deve ter a seguinte função de Administrador de Página:
 
@@ -60,29 +59,31 @@ Saiba mais: [Funções de administrador da página do LinkedIn](https://www.link
 
 [!DNL Marketo Measure] oferecerá suporte a:
 
-**Conteúdo Patrocinado:** O Conteúdo Patrocinado permite que você forneça conteúdo ao feed [!DNL LinkedIn] de membros, além daqueles que estão seguindo sua empresa. O Conteúdo Patrocinado pode ser direcionado para um público-alvo específico e pode ajudar os anunciantes a alcançar membros do [!DNL LinkedIn] sempre que e onde estiverem envolvidos na plataforma [!DNL LinkedIn] em computadores desktop, dispositivos móveis e tablets. O conteúdo patrocinado com o Forms da geração de clientes potenciais é compatível.
+O Conteúdo Patrocinado permite que você forneça conteúdo ao feed [!DNL LinkedIn] de membros, além daqueles que estão acompanhando sua empresa. O Conteúdo Patrocinado pode ser direcionado para um público-alvo específico e pode ajudar os anunciantes a alcançar membros do [!DNL LinkedIn] sempre que e onde estiverem envolvidos na plataforma [!DNL LinkedIn] em computadores desktop, dispositivos móveis e tablets. O conteúdo patrocinado com o Forms da geração de clientes potenciais é compatível.
 
 Os tipos de formatos de anúncio de Conteúdo Patrocinado com suporte do [!DNL Marketo Measure] são Anúncios de Imagem Única e Anúncios de Vídeo (por meio do Lead Gen Forms). Devido à complexidade do esquema, não oferecemos suporte aos anúncios do Carrossel.
 
 [!DNL Marketo Measure] não oferece suporte a mensagens patrocinadas, anúncios de texto ou anúncios dinâmicos.
 
-![Tipos de formato de anúncio do LinkedIn mostrando as opções de Anúncios de imagem única, Anúncios de vídeo e Carrossel com o suporte do Lead Gen Forms](assets/one.png)
+![](assets/bizible-guide-1.png)
 
 >[!TIP]
+>
 >Para qualquer uma de suas Campanhas/Gastos originados de uma fonte de Conteúdo não Patrocinada (como Tipo de Campanha de &quot;Anúncio de Texto&quot; ou &quot;InMail Patrocinado&quot;), [!DNL Marketo Measure] _não_ suporta inerentemente o rastreamento desses Tipos de Campanha. Se você quiser rastrear os gastos com campanhas como essas junto com seus gastos com &quot;conteúdo patrocinado&quot;, certifique-se de usar nosso CSV de gastos de marketing para registrar manualmente esse gasto.
 
 ## Como funciona: conteúdo patrocinado {#how-it-works-sponsored-content}
 
 >[!NOTE]
+>
 >Antes da primeira utilização, esta configuração de recurso deve ser habilitada navegando até [!DNL Marketo Measure] [!UICONTROL Configurações] > [!UICONTROL Integrações] > [!UICONTROL Anúncios] > [!UICONTROL Habilitar o Forms de Geração de Cliente Potencial do LinkedIn].
 
-**[!DNL LinkedIn's]Requisitos exclusivos de marcação automática**
+### [!DNL LinkedIn's] Requisitos exclusivos de marcação automática
 
 O [!DNL Marketo Measure] pode ajudar a monitorar o desempenho da campanha [!DNL LinkedIn] marcando automaticamente suas páginas de aterrissagem.
 
 [!DNL Marketo Measure] pesquisará por criações com um compartilhamento LinkedIn exclusivo e adicionará um parâmetro `?_bl={creativeId}` ao final dele.
 
-**Copiando compartilhamentos**
+### Copiando compartilhamentos
 
 Com essa integração do [!DNL Marketo Measure/LinkedIn], pedimos que os clientes não copiem/clonem/dupliquem criações existentes. Se compartilhamentos forem encontrados e detectados para serem usados apenas em uma Creative, o [!DNL Marketo Measure] poderá marcar o compartilhamento como está sem precisar recriar Criações ou Compartilhamentos, e todo o histórico de anúncios (impressões, cliques, compartilhamentos) permanecerá.
 
@@ -90,13 +91,13 @@ Assim que for detectado que um Compartilhamento está compartilhado em várias c
 
 A partir de agora, o [!DNL Marketo Measure] recomenda que você não duplique nenhum compartilhamento [!DNL LinkedIn] e mantenha todos os compartilhamentos e criações o mais exclusivos possível para que possamos simplesmente adicionar nosso rastreamento sem ter que apagar o Histórico de Anúncios.
 
-**URLs encurtadas**
+### URLs encurtados
 
 O motivo da etapa extra é porque o LinkedIn permite que as URLs de destino sejam uma URL mais curta (bit.ly, goog.le etc.), o que significa que [!DNL Marketo Measure] não vê a URL longa e resolvida e [!DNL Marketo Measure] precisa adicionar parâmetros de rastreamento a uma URL resolvida. Para contornar esse problema, o [!DNL Marketo Measure] procura URLs encurtadas antes de recriar um anúncio, expande a URL e, em seguida, cria o novo anúncio com a URL resolvida e todos os seus parâmetros, permitindo que o [!DNL Marketo Measure] adicione marcas. A criação de um novo anúncio apagará o histórico de anúncios (impressões, cliques, compartilhamentos), daí a necessidade de permissão para marcar URLs encurtados.
 
 Se você usar URLs encurtados intensamente, isso poderá afetar seriamente suas criações. Recomendamos que você não use mais URLs encurtadas para que [!DNL Marketo Measure] possa marcar as páginas de aterrissagem sem ter que criar novos anúncios e apagar o Histórico de Anúncios.
 
-**O Processo**
+### O processo
 
 Vamos começar com alguns exemplos. Digamos que temos...
 
@@ -105,7 +106,7 @@ Creative B : Compartilhamento 234\
 Creative C : Share 234\
 Creative D : Share 234
 
-![Diagrama mostrando quatro criações com seus compartilhamentos associados antes do processo de marcação automática](assets/two.png)
+![](assets/five-five-1.png)
 
 `1)` [!DNL Marketo Measure] primeiro verificará todas as Campanhas, Ações e Compartilhamentos com status &quot;Ativo&quot;. [!DNL Marketo Measure] não marcará anúncios pausados, arquivados ou cancelados. Se um anúncio foi pausado e configurado como [!UICONTROL ativo], ele será marcado quando estiver ativo novamente. Se encontrarmos um Compartilhamento exclusivo, o que significa que ele não é usado em várias Criações ou Campanhas (por exemplo, Creative A : Share 123), o [!DNL Marketo Measure] adicionará nosso parâmetro personalizado `>> ?_bl={creativeId}` à URL de compartilhamento.
 
@@ -118,19 +119,16 @@ O `4)` [!DNL Marketo Measure] também criará três novos compartilhamentos, Sha
 `5)` [!DNL Marketo Measure] terá que verificar regularmente se os compartilhamentos não são compartilhados e, se forem compartilhados, reiniciaremos o processo na etapa 2 acima.
 
 >[!NOTE]
+>
 >A implementação disso significará que nossos clientes perderão o histórico de anúncios do Creative B: Share 234, Creative C: Share 234 e Creative D: Share 234 porque agora ele é recriado com o Creative E: Share 345, Share F: Share 456 e Creative G: Share 567, respectivamente.
 
-![Diagrama mostrando novas criações com compartilhamentos exclusivos criados após o processo de marcação automática e arquivamento](assets/three.png)
+![](assets/four-four-1.png)
 
 ## Como funciona: líder da geração Forms {#how-it-works-lead-gen-forms}
-
-**[!DNL LinkedIn's]Requisitos exclusivos de marcação automática**
 
 O [!DNL Marketo Measure] pode ajudar a monitorar o desempenho da campanha [!DNL LinkedIn] marcando automaticamente suas páginas de aterrissagem.
 
 [!DNL Marketo Measure] pesquisará por criações com um compartilhamento LinkedIn exclusivo e adicionará um parâmetro `?_bl={creativeId}` ao final dele.
-
-**O Processo**
 
 Por meio da API de formulário de anúncio [!DNL LinkedIn's] e da API de resposta de formulário de anúncio, podemos coletar dados de envio de formulário para uma conta de anúncio e associar o endereço de email a um cliente potencial do CRM ou Marketo.
 
@@ -139,9 +137,9 @@ Os formulários do LinkedIn podem conter vários endereços de email. Quando bai
 Independentemente do status do Campaign ou do Creative, todas as respostas do formulário resultarão em um ponto de contato. [!DNL Marketo Measure] tem uma restrição de lookback de 90 dias, portanto, [!DNL Marketo Measure] não pode acessar respostas de formulário com mais de 90 dias, mas quanto mais tempo a integração [!DNL Marketo Measure] e [!DNL LinkedIn] estiver habilitada, mais pontos de contato do Formulário de Geração de Cliente Potencial estarão visíveis até [!DNL Marketo Measure].
 
 >[!NOTE]
+>
 >Os custos do LinkedIn ainda são baixados como parte das Campanhas de conteúdo patrocinadas.
 
-**Rastreamento do Forms de Geração de Cliente Potencial no CRM ou no Marketo**
 
 Antes de a Integração do Forms com a Geração líder do LinkedIn existir, era prática comum que os clientes enviassem seus envios de formulários para um Programa da Marketo e/ou Campanha de CRM para rastrear os formulários e receber atribuição nessas atividades. [!DNL Marketo Measure] Depois que a configuração Lead Gen Forms estiver ativada, queremos garantir que esses envios de formulários não sejam contados duas vezes. Verifique o seguinte:
 
@@ -150,107 +148,108 @@ Antes de a Integração do Forms com a Geração líder do LinkedIn existir, era
 * Atualizar todas as regras de Campanha do CRM relacionadas
 
 >[!NOTE]
+>
 >A API do LinkedIn tem uma limitação de lookback de 90 dias; portanto, se você estiver usando regras do Marketo ou do CRM, é recomendável definir a data de término da regra como 90 dias antes da data em que você habilitou a integração no [!DNL Marketo Measure].
 
 ## Detalhes do Touchpoint {#touchpoint-details}
 
 Depois que [!DNL Marketo Measure] marcar com êxito sua página de aterrissagem no criativo do LinkedIn, você poderá exibir os dados dos anúncios resolvidos no ponto de contato. Este é o mapeamento de valores de dados que você deve esperar:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th style="width:30%">Campo do ponto de contato</th>
-   <th>Valor da amostra</th>
-  </tr>
-  <tr>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th style="width:30%">Campo do ponto de contato</th> 
+   <th>Valor da amostra</th> 
+  </tr> 
+  <tr> 
    <td>ID do anúncio</td>
    <td>84186224</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Conteúdo do anúncio</td>
    <td>copy-1-image-2-man 95% dos profissionais de marketing da #B2B consideram a estratégia de criação de demanda bem-sucedida. Saiba mais: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>ID do grupo de anúncios</td>
    <td>(em branco)</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Nome do grupo de anúncios</td>
    <td>(em branco)</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>ID da campanha publicitária</td>
    <td>138949954</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Nome da campanha publicitária</td>
    <td>SU - Contas COM - Habilidades por demanda</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>URL de Destino do Anúncio <b>*</b></td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
-  </tr>
-  <tr>
-   <td>URL do formulário</td>
-   <td>info.bizible.com/demo</td>
-  </tr>
-  <tr>
-   <td>URL do formulário - Bruto</td>
-   <td>info.bizible.com/demo</td>
-  </tr>
-  <tr>
-   <td>ID da palavra-chave</td>
-   <td>(em branco)</td>
-  </tr>
-  <tr>
-   <td>Tipo de Correspondência de Palavra-chave</td>
-   <td>(em branco)</td>
-  </tr>
-  <tr>
-   <td>Página de destino</td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td>
-  </tr>
-  <tr>
-   <td>Página de aterrissagem - bruta</td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
-  </tr>
-  <tr>
-   <td>Canal de marketing</td>
-   <td>Social pago</td>
-  </tr>
-  <tr>
-   <td>Canal de marketing - Caminho</td>
-   <td>Social.LinkedIn pago</td>
-  </tr>
-  <tr>
-   <td>Meio</td>
-   <td>"cpc" ou "Formulário de geração de leads"</td>
-  </tr>
-  <tr>
-   <td>Página de indicação</td>
-   <td>www.linkedin.com/</td>
-  </tr>
-  <tr>
-   <td>Página do referenciador - Bruta</td>
-   <td>www.linkedin.com/</td>
-  </tr>
-  <tr>
-   <td>Frase de pesquisa</td>
-   <td>(em branco)</td>
-  </tr>
-  <tr>
-   <td>Tipo de touchpoint</td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
+  </tr> 
+  <tr> 
+   <td>URL do formulário</td> 
+   <td>info.bizible.com/demo</td> 
+  </tr> 
+  <tr> 
+   <td>URL do formulário - Bruto</td> 
+   <td>info.bizible.com/demo</td> 
+  </tr> 
+  <tr> 
+   <td>ID da palavra-chave</td> 
+   <td>(em branco)</td> 
+  </tr> 
+  <tr> 
+   <td>Tipo de Correspondência de Palavra-chave</td> 
+   <td>(em branco)</td> 
+  </tr> 
+  <tr> 
+   <td>Página de destino</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
+  </tr> 
+  <tr> 
+   <td>Página de aterrissagem - bruta</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
+  </tr> 
+  <tr> 
+   <td>Canal de marketing</td> 
+   <td>Social pago</td> 
+  </tr> 
+  <tr> 
+   <td>Canal de marketing - Caminho</td> 
+   <td>Social.LinkedIn pago</td> 
+  </tr> 
+  <tr> 
+   <td>Meio</td> 
+   <td>"cpc" ou "Formulário de geração de leads"</td> 
+  </tr> 
+  <tr> 
+   <td>Página de indicação</td> 
+   <td>www.linkedin.com/</td> 
+  </tr> 
+  <tr> 
+   <td>Página do referenciador - Bruta</td> 
+   <td>www.linkedin.com/</td> 
+  </tr> 
+  <tr> 
+   <td>Frase de pesquisa</td> 
+   <td>(em branco)</td> 
+  </tr> 
+  <tr> 
+   <td>Tipo de touchpoint</td> 
    <td>Formulário da Web</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Origem do touchpoint</td>
    <td>LinkedIn</td>
-  </tr>
- </tbody>
+  </tr> 
+ </tbody> 
 </table>
 
 **&#42;** _O campo &quot;URL de destino do anúncio&quot; só é preenchido para Conteúdo Patrocinado. Ele não está populado para o Forms da Geração de Clientes Potenciais._
@@ -263,7 +262,7 @@ Como o [!DNL Marketo Measure] tem integração direta com o [!DNL LinkedIn], bai
 
 Assim como em outras integrações de anúncios, o [!DNL Marketo Measure] definiu uma regra de canal de marketing para colocar todas as [!DNL LinkedIn] campanhas, criações e custos. Para usar a regra, o cliente desejará inserir uma nova linha para seus esforços de [!DNL LinkedIn] Pagos. Ele pode ser um canal novo ou existente. Na coluna Referenciador, use a definição &quot;[[!DNL LinkedIn] Pago]&quot; que [!DNL Marketo Measure] definiu como qualquer ponto de contato com uma marca [!DNL Marketo Measure].
 
-![Configuração da regra de canal de marketing mostrando a definição de canal paga do LinkedIn com a coluna de referenciador](assets/four.png)
+![](assets/one-one-1.png)
 
 ## [!DNL Marketo Measure] Descobrir {#marketo-measure-discover}
 
@@ -315,7 +314,7 @@ O LinkedIn exige que todos os anúncios criados ou modificados passem pelo proce
 
 Ambos. A integração do [!DNL Marketo Measure] permite marcar a URL de destino a partir da imagem de click-through no anúncio, mas também atualiza automaticamente a URL reduzida na descrição do anúncio.
 
-![Anúncio do LinkedIn mostrando a URL de destino e a URL reduzida na descrição que foi marcada](assets/five.png)
+![](assets/select-type-1.png)
 
 **Conectei minha conta [!DNL LinkedIn ads]. Por que o [!DNL Marketo Measure] não está marcando meus links?**
 
@@ -325,7 +324,7 @@ O usuário conectado [!DNL LinkedIn] precisa ter acesso de edição adequado, o 
 
 A ID de compartilhamento não é fornecida em um relatório do [!DNL LinkedIn], portanto, não há uma maneira clara e óbvia de verificar os mapeamentos da criação para o compartilhamento. Se você suspeitar que um criativo seja uma cópia, verifique manualmente abrindo o anúncio no seu gerente de campanha do [!DNL LinkedIn]. Isso abrirá o anúncio em uma nova guia e você poderá encontrar a ID do compartilhamento no URL.
 
-![Gerenciador de campanhas do LinkedIn mostrando o anúncio aberto em nova guia com a ID de compartilhamento visível na URL](assets/six.png)
+![](assets/six-six-1.png)
 
 ## Perguntas frequentes sobre a geração líder de Forms {#lead-gen-forms-faq}
 

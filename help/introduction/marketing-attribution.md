@@ -3,7 +3,8 @@ description: Atribuição de marketing
 title: Atribuição de marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 97%
@@ -23,7 +24,7 @@ O Marketo Measure fornece aos profissionais de marketing informações sobre qua
 
 **Touchpoints** se referem as interações que um cliente potencial/lead tem com suas iniciativas de marketing online ou offline. Há quatro **touchpoints principais** que são considerados na atribuição de marketing. Eles refletem os diferentes estágios na jornada do cliente. Esses touchpoints principais, também conhecidos como **touchpoints de marco**, são: Primeiro contato (FT), Criação de lead (LC), Criação de oportunidade (OC), Venda fechada encerrada (CW).
 
-![Diagrama dos pontos de contato de marco, desde o primeiro contato até o won fechado](assets/1.png)
+![Diagrama dos pontos de contato de marco, desde o primeiro contato até o won fechado](assets/overview-resources-8.png)
 
 Esses touchpoints de marco são a base dos **modelos de atribuição** do Marketo Measure. O Marketo Measure oferece seis modelos de atribuição. Cada modelo se concentra em diferentes estágios na jornada do cliente e oferece uma estrutura geral para atribuir crédito de receita aos seus touchpoints de marketing. O modelo usado depende dos estágios da jornada que você tem interesse em medir e da quantidade de dados que deseja relatar. Os modelos de atribuição que o Marketo Measure oferece são:
 
@@ -35,7 +36,7 @@ Esses touchpoints de marco são a base dos **modelos de atribuição** do Market
 * Modelo personalizado
 
 >[!NOTE]
->[Saiba mais sobre cada modelo de atribuição](/help/attribution-models.md).
+>[Saiba mais sobre cada modelo de atribuição](/help/introduction/attribution-models.md).
 
 ## Por que a atribuição é importante {#why-attribution-is-important}
 

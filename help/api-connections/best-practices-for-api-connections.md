@@ -1,15 +1,14 @@
 ---
-description: Práticas recomendadas para conexões de API -  [!DNL Marketo Measure]
+description: Práticas recomendadas para orientação de Conexões de API para usuários do Marketo Measure
 title: Práticas recomendadas para conexões de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 96%
 
 ---
-
 
 # Práticas recomendadas para conexões de API {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ Por seguir nossas práticas recomendadas, a API do [!DNL Facebook] para [!DNL Ma
 * Baixar informações de custo de anúncio de todos os anúncios ativos do [!DNL Facebook] 
 
 >[!NOTE]
+>
 >Não há modelo de rastreamento para o [!DNL Facebook], a API depende do parâmetro de marcação automática (_bf) para coletar os detalhes do anúncio.
 
 **AdWords**: implemente um modelo de rastreamento no nível da conta e habilite a marcação automática
@@ -56,7 +56,6 @@ Por seguir nossas práticas recomendadas, a API AdWords do [!DNL Marketo Measure
 Diferentemente do que pode acontecer ao configurar outras conexões de API, não há risco de perder o histórico de anúncios ao configurar a conexão de API do [!DNL Bing].
 
 Por seguir nossas práticas recomendadas, a API Bing do [!DNL Marketo Measure] poderá:
-
 * Marcar automaticamente todos os anúncios do Bing com os seguintes parâmetros de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
 * Baixar informações de custo de anúncio em todos os anúncios ativos do Bing
 
@@ -70,6 +69,7 @@ Por seguir nossas práticas recomendadas, a API LinkedIn do [!DNL Marketo Measur
 * Baixar informações sobre custos de anúncio de todos os anúncios ativos e compatíveis do [!DNL LinkedIn]
 
 >[!NOTE]
+>
 >Não há modelo de rastreamento para o [!DNL LinkedIn], a API depende do parâmetro de marcação automática (_bl) para coletar todos os detalhes de anúncios possíveis.
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ Alguns motivos pelos quais a conta pode ser desconectada e necessitar de reautor
 Se a equipe se deparar com algum dos cenários acima, verifique as conexões de API no aplicativo do [!DNL Marketo Measure] para garantir que elas não precisem ser autorizadas novamente.
 
 >[!MORELIKETHIS]
-> [Plataformas de anúncios integradas (APIs)](/help/api-connections/integrated-ad-platforms.md)
-> [Como as ferramentas de gerenciamento de lances afetam [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] Parâmetros de API Explicados](/help/api-connections/marketo-measure-parameters.md)
-> [Visão Geral da API do Facebook](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Visão geral da integração](/help/api-connections/linkedin-integration.md)
-> [Visão geral da integração do AdWords](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Reautorizando Contas da API Conectada](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [Plataformas de anúncios integradas (APIs)](/help/api-connections/integrated-ad-platforms.md)
+>* [Como as ferramentas de gerenciamento de lances afetam o  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] Explicação sobre parâmetros de API](/help/api-connections/marketo-measure-parameters.md)
+>* [Visão geral da API do Facebook](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn] Visão geral da integração](/help/api-connections/linkedin-integration.md)
+>* [Visão geral da integração do AdWords](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Reautorizar contas de API conectadas](/help/api-connections/reauthorizing-connected-accounts.md)

@@ -1,15 +1,15 @@
 ---
-description: Plataformas de publicidade integradas - [!DNL Marketo Measure]
+description: Orientação de plataformas de anúncios integradas para usuários do Marketo Measure
 title: Plataformas de anúncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
-
 
 # Plataformas de anúncios integradas {#integrated-ad-platforms}
 
@@ -21,11 +21,11 @@ Antes de entrar em detalhes específicos de cada plataforma, veremos como conect
 
 Como mostrado na imagem abaixo, você verá um botão para configurar novas conexões de anúncios.
 
-![Página Conexões com o botão Configurar nova conexão de anúncios](assets/2.png)
+![](assets/bizible-guide-1.png)
 
 Depois de clicar no botão [!UICONTROL Configurar nova conexão com anúncios], uma janela (mostrada abaixo) será exibida com quatro tipos de ícone de anúncio [!UICONTROL conectar]. Clique em conectar e outra janela será exibida solicitando credenciais. Insira as credenciais e clique em [!UICONTROL autorizar] para conectar a conta a [!DNL Marketo Measure].
 
-![O Marketo Measure adiciona o modal de conexão com os tipos de conta disponíveis](assets/select-account-type.png)
+![](assets/five-five-1.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -56,15 +56,15 @@ Depois que você tiver um modelo de rastreamento em vigor, siga as instruções 
 
 1. Vá para [!UICONTROL Minha Conta] > [!UICONTROL Configurações] > [!UICONTROL Integrações] > [!UICONTROL Conexões].
 
-   ![Lista de conexões com contas de anúncios existentes](assets/4.png)
+   ![](assets/utilizing-connections-8.png)
 
 1. Clique no ícone de Lápis ao lado da conta do AdWords que terá a marcação automática [!DNL Marketo Measure] habilitada.
 
-   ![Painel de configurações da conta de anúncio com alternância automática](assets/5.png)
+   ![](assets/utilizing-connections-9.png)
 
 1. No canto superior direito, alterne a **[!UICONTROL Marcação automática]** para **[!UICONTROL Sim]**. Na parte inferior da página, clique em **[!UICONTROL Saiba mais]** para expandir a caixa de texto e clique em **[!UICONTROL Salvar]**. A configuração de marcação automática foi concluída.
 
-   ![Modal de confirmação da marcação automática no Marketo Measure](assets/6.png)
+   ![](assets/utilizing-connections-10.png)
 
 ## Como configurar um modelo de rastreamento no AdWords com [!DNL Marketo Measure] parâmetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -88,6 +88,7 @@ Lembre-se de que você deve adicionar modelos de rastreamento no nível da [!UIC
    Para evitar que erros ocorram ao marcar manualmente os URLs, geralmente é recomendável gerar os parâmetros de UTM automaticamente. Isso não precisa significar marcação automática com AdWords ou parâmetros [!DNL Marketo Measure]. Há várias ferramentas que simplificam o processo gerando automaticamente os parâmetros para a URL com base nas informações fornecidas.
 
    >[!TIP]
+   >
    >Se você estiver recebendo um erro informando que o modelo de rastreamento é inválido, tente limpar o cache do navegador e tentar novamente. Isso geralmente resolve o problema.
 
 ## Como gerar tags UTM automaticamente para [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -121,6 +122,7 @@ Nossa integração é compatível com os tipos de anúncios abaixo:
 * Anúncio de texto
 * Anúncio móvel
 * Anúncio de texto expandido
+
 
 O recurso de marcação automática do Bing Ads adiciona os seguintes parâmetros UTM:
 

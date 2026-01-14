@@ -1,21 +1,21 @@
 ---
-description: Sincronizando Campanhas Offline - [!DNL Marketo Measure]
+description: Diretrizes de sincronização de campanhas offline para usuários do Marketo Measure
 title: Sincronização de campanhas offline
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 5%
 
 ---
-
 
 # Sincronização de campanhas offline {#syncing-offline-campaigns}
 
 Pode ser difícil rastrear com precisão as campanhas offline e entender como elas se comparam aos seus esforços de marketing digital. O [!DNL Marketo Measure] permite que você rastreie e atribua Pontos de Contato às suas campanhas offline no [!DNL Salesforce], mesmo em situações em que a campanha [!DNL Salesforce] não é criada até algumas semanas após o evento.
 
 >[!NOTE]
+>
 >Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado do aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Antes de sincronizar {#before-you-sync}
@@ -36,7 +36,7 @@ Por que isso é importante? Imagine por um momento que sua empresa patrocinou um
 
 A data de upload será três semanas depois da data da conferência. Para corrigir essa diferença, o botão [!UICONTROL Atualização em Massa da Data do Ponto de Contato] pode ser usado para definir a data apropriada. O botão é mostrado na imagem abaixo.
 
-![&#x200B; 3](assets/1-3.png)
+![](assets/dynamics-lists-1.png)
 
 Nesse caso, ele preencheria retroativamente a data de upload por três semanas. Esta etapa deve ser realizada antes da configuração do campo &quot;[!UICONTROL Habilitar Pontos de Contato do Comprador]&quot;.
 
@@ -45,19 +45,20 @@ Em resumo, se você usar o botão [!UICONTROL Atualizar data do ponto de contato
 Você também pode atualizar as datas de todos os membros de uma campanha existente. Ao fazer isso, verifique se a data do Touchpoint é a data da interação do membro. Clique na Data de Atualização em Massa do Buyer Touchpoint, filtre a lista de membros da campanha conforme apropriado e, na opção &quot;[!UICONTROL Selecionar Data]&quot; acima da lista de membros da campanha, adicione a mesma data que a data em que o evento ocorreu.
 
 >[!CAUTION]
+>
 >Atualize a data do ponto de contato _antes_ de habilitar os pontos de contato para todos os membros da campanha.
 
-![&#x200B; 3](assets/2-3.png)
+![](assets/dynamics-lists-10.png)
 
 ## Como criar uma campanha e sincronizar pontos de contato do comprador {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Para criar uma Campanha em [!DNL Salesforce], navegue até a guia [!UICONTROL Campanhas] e selecione &#39;[!UICONTROL Novo]&#39; conforme mostrado na imagem abaixo. Dependendo da configuração do [!DNL Salesforce], talvez seja necessário adicionar Campanhas à barra superior clicando no ícone de adição (+).
 
-![&#x200B; 3](assets/3-3.png)
+![](assets/dynamics-lists-2.png)
 
 Ao criar esta campanha, clique no campo &quot;[!UICONTROL Habilitar pontos de contato do comprador]&quot; e selecione uma das seguintes opções na lista de opções:
 
-![&#x200B; 3](assets/4-3.png)
+![](assets/dynamics-lists-3.png)
 
 * **Incluir todos os membros da campanha**
    * Esta opção permite que [!DNL Marketo Measure] atribua um Touchpoint a cada membro da campanha.
@@ -71,5 +72,7 @@ Ao criar esta campanha, clique no campo &quot;[!UICONTROL Habilitar pontos de co
 Depois que uma dessas seleções for escolhida, [!DNL Marketo Measure] atribuirá a cada membro da campanha um ponto de contato, se aplicável. O Cliente Potencial ou Contato adicionado à campanha _deve_ ter um endereço de email associado ao seu registro para que [!DNL Marketo Measure] crie um ponto de contato. Sem um endereço de email, o [!DNL Marketo Measure] não atribuirá um ponto de contato ao membro da campanha.
 
 >[!MORELIKETHIS]
+>
 >[[!DNL Marketo Measure] Tutoriais: Mapeando Canais Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>
 >[[!DNL Marketo Measure] Tutoriais: Campos de Objeto de Campanha](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

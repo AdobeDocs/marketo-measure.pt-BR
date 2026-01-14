@@ -1,19 +1,19 @@
 ---
-description: Estágios e Pontos de Contato de Bumerangue - [!DNL Marketo Measure]
+description: Orientação sobre estágios e pontos de contato do Boomerang para usuários do Marketo Measure
 title: Estágios de bumerangue e touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '728'
 ht-degree: 1%
 
 ---
 
-
 # Estágios de bumerangue e touchpoints {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
+>
 >O recurso Boomerang é ativado somente para clientes de Nível 2 e 3. Para solicitar uma camada de conta mais alta, entre em contato com a Equipe de conta da Adobe (seu gerente de conta).
 
 [!DNL Marketo Measure] lançou o recurso Estágio de Bumerangue! O recurso Estágio Boomerang foi criado para oferecer maior visibilidade da jornada do cliente para [!DNL Marketo Measure] clientes com longos ciclos de vendas. Esse recurso permite que os profissionais de marketing criem pontos de contato para todas as transições de estágio que ocorrem na jornada de oportunidade, como quando um MQLs de contato é movido para SAL e, em seguida, reverte para o estágio MQL. Quando os contatos &quot;reentram no estágio MQL&quot; ou &quot;re-MQL&quot;, o MQL é considerado um estágio de bumerangue. O recurso Estágio de Bumerangue funciona com os Estágios Personalizados [!DNL Marketo Measure].
@@ -26,13 +26,14 @@ ht-degree: 1%
 * Se você for um usuário de Modelo personalizado, poderá determinar a ponderação de atribuição e o crédito em porcentagem que gostaria de alocar para cada um desses estágios (por exemplo, designar peso de atribuição para a primeira ou última ocorrência de MQL ou distribuir peso de atribuição uniformemente entre todas as ocorrências)
 
 >[!NOTE]
+>
 >[Instruções sobre como configurar Estágios de Bumerangue](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
 
 ## Como são os estágios e pontos de contato do bumerangue no seu CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
 Sem os estágios de Bumerangue (o &quot;antes&quot;), você verá apenas o MQL mais recente ou o ponto de contato SQL mais recente associado a um registro de lead/contato.
 
-![Registro de oportunidade mostrando apenas os pontos de contato de estágio mais recentes sem bumerangue](assets/1.png)
+![](assets/boomerang-boomerang-18.png)
 
 Com Estágios de bumerangue e pontos de contato, você vê pontos de contato que ocorrem para cada transição de estágio. A convenção de nomenclatura para esses pontos de contato de bumerangue é:
 
@@ -40,7 +41,7 @@ Com Estágios de bumerangue e pontos de contato, você vê pontos de contato que
 
 Usando o exemplo abaixo, essa conta [!DNL Marketo Measure] incluiu MQL e SQL em seus estágios de bumerangue e optou por exibir 2 pontos de contato de bumerangue por estágio.
 
-![Pontos de contato do bumerangue listados para várias transições de estágio MQL e SQL](assets/2.png)
+![](assets/boomerang-boomerang-19.png)
 
 **MQL-01** é a primeira transição de estágio MQL.
 

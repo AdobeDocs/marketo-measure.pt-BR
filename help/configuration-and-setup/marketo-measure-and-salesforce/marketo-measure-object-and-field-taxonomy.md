@@ -3,23 +3,22 @@ description: '[!DNL Marketo Measure] Taxonomia de Objetos e Campos - [!DNL Marke
 title: '[!DNL Marketo Measure] Taxonomia de objeto e campo'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
-
 
 # [!DNL Marketo Measure] Taxonomia de objeto e campo {#marketo-measure-object-and-field-taxonomy}
 
 Abaixo está um fluxograma que representa como [!DNL Marketo Measure] Objetos Personalizados estão relacionados a [!DNL Salesforce] Objetos Padrão.
 
-![&#x200B; 2](assets/1-2.png)
+![](assets/bizible-full-1.png)
 
-Para a imagem em tamanho real, [clique aqui](assets/bizible-object-and-field-taxonomy-graph-full.png).
+Para a imagem em tamanho real, [clique aqui](assets/bizible-full-1.png).
 
-As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [&#x200B; podem ser encontradas aqui](/help/glossary.md).
+As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [ podem ser encontradas aqui](/help/introduction/glossary.md).
 
 ## Perguntas frequentes {#faq}
 

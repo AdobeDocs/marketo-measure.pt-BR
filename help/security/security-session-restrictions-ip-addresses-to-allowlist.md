@@ -1,15 +1,14 @@
 ---
-description: Restrições de Sessão de Segurança - Endereços IP a Serem Incluídos na lista de permissões
+description: Lista os intervalos IP do Salesforce a serem incluídos na lista de permissões para que o Marketo Measure possa se conectar quando restrições de sessão forem impostas
 title: Restrições de Sessão de Segurança - Endereços IP a Serem Incluídos na lista de permissões
 exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 8%
 
 ---
-
 
 # Restrições de sessão de segurança: Endereços IP para incluir na lista de permissões {#security-session-restrictions-ip-addresses-to-allowlist}
 
@@ -21,4 +20,4 @@ Incluir na lista de permissões Se houver [Configurações de Segurança de Sess
 
 Para adicionar IPs [!DNL Marketo Measure] aos Intervalos IP Confiáveis na Salesforce, clique em **[!UICONTROL Instalação]** > **[!UICONTROL Instalação da Administração]** > **[!UICONTROL Controles de Segurança]** > **[!UICONTROL Acesso à Rede]** > **[!UICONTROL Novo]**.
 
-![Página do Salesforce Network Access para adicionar intervalos IP confiáveis](assets/1.png)
+![](assets/compliance-resources-1.png)

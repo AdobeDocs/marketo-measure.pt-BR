@@ -1,21 +1,22 @@
 ---
-description: Adicionando [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
+description: Adicionando  [!DNL Marketo Measure] orientação de script para usuários do Marketo Measure
 title: Adição do  [!DNL Marketo Measure]  Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1287'
 ht-degree: 57%
 
 ---
-
 
 # Adição do [!DNL Marketo Measure] Script {#adding-marketo-measure-script}
 
 O JavaScript do [!DNL Marketo Measure] que você gostaria de acompanhar pelo [!DNL Marketo Measure] deve ser adicionado a todas as propriedades da web assim que possível. Depois que o JavaScript for implantado, o [!DNL Marketo Measure] começará a coletar seus dados digitais. Este artigo descreve os métodos de implantação do JavaScript [!DNL Marketo Measure] e considerações adicionais.
 
 >[!NOTE]
+>
 >Verifique se você [reivindicou todos os domínios apropriados no  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}, além de implantar o JavaScript do [!DNL Marketo Measure].
 
 Ao começar com o [!DNL Marketo Measure], há duas maneiras de adicionar o JavaScript do [!DNL Marketo Measure] para o seu site:
@@ -32,7 +33,8 @@ Como prática recomendada, sugerimos a codificação rígida do JavaScript do [!
 Codificar o JavaScript no `<head>` de suas páginas garante que o script [!DNL Marketo Measure] seja carregado primeiro e que as informações de referência não sejam perdidas. O JavaScript do [!DNL Marketo Measure] é carregado de forma assíncrona. Se estiver usando codificação rígida, o JavaScript deve ser adicionado manualmente à Automação de marketing.
 
 >[!TIP]
->Saiba como verificar se seu script é [compatível com o GDPR](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
+>
+>Saiba como verificar se seu script é compatível com o GDPR.
 
 ## Sistemas de gerenciamento de Tags {#tag-management-systems}
 
@@ -64,7 +66,7 @@ Converse com a sua equipe da web para informá-los de que o JavaScript do [!DNL 
 
 Se um aviso [!DNL Web Application Firewall (WAF)] for acionado durante a instalação do JavaScript, os usuários poderão desabilitar essa regra do WAF ou incluir na lista de permissões os cookies, como no exemplo abaixo:
 
-![Exemplo de prompt de aviso do WAF para o script do Marketo Measure](assets/adding-marketo-measure-script-1.png)
+![](assets/adding-script-1.png)
 
 ## Formulários que precisam de uma atenção maior {#forms-to-pay-extra-attention-to}
 
@@ -79,6 +81,7 @@ Se um aviso [!DNL Web Application Firewall (WAF)] for acionado durante a instala
 * Solução: adicione o código de exclusão ao formulário de logon da conta/cliente/parceiro.
 
 >[!NOTE]
+>
 >Recomendamos criar um ponto de contato para a criação de uma conta ou avaliação.
 
 **Download de ativo**

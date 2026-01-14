@@ -1,15 +1,15 @@
 ---
-description: Painel de Visão Geral da Receita - [!DNL Marketo Measure] - Produto
+description: Resume o painel Visão geral da receita, mostrando a receita total e atribuída e as contagens de negócios ao longo do tempo
 title: Painel de visão geral da receita
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 2%
+source-wordcount: '294'
+ht-degree: 3%
 
 ---
-
 
 # Painel de visão geral da receita {#revenue-overview-dashboard}
 
@@ -41,7 +41,7 @@ Este gráfico de barras lado a lado da série temporal contrasta a Receita total
 * Qual % de nossa receita de agosto de 2022 pode ser atribuída às nossas iniciativas de marketing?
 * Como a receita atribuída no terceiro trimestre do ano passado se compara ao quarto trimestre?
 
-![Gráfico de visão geral da receita comparando a receita total e a atribuída ao longo do tempo](assets/revenue-overview-dashboard-1.png)
+![](assets/revenue-dashboard-1.png)
 
 ### Gráfico de cobertura de atribuição {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ Este gráfico de pizza visualiza distintamente a cobertura de atribuição, segm
 
 * Qual foi a % de cobertura de receita atribuída aos nossos esforços de marketing no ano passado?
 
-![Divisão do gráfico de pizza de cobertura de atribuição versus receita não atribuída](assets/revenue-overview-dashboard-2.png)
+![](assets/revenue-dashboard-2.png)
 
 ## Painel de Filtro {#filter-pane}
 
@@ -60,5 +60,6 @@ Esse painel é equipado com as seguintes configurações e filtros:
 * Data (com base na data de fechamento)
 
 >[!MORELIKETHIS]
-> [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

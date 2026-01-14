@@ -1,15 +1,15 @@
 ---
-description: Painel de Tráfego da Web - [!DNL Marketo Measure] - Produto
+description: Descreve o painel Tráfego da Web para visitas visitantes exibições de página formulários e desempenho do canal ao longo do tempo
 title: Painel de tráfego na web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '456'
 ht-degree: 6%
 
 ---
-
 
 # Painel de tráfego na web {#web-traffic-dashboard}
 
@@ -25,36 +25,14 @@ Perguntas que esse painel responde:
 
 **Blocos KPI**
 
-<table>
-<thead>
-  <tr>
-    <td>Visitas</td>
-    <td>O total de visitas (sessões) do site iniciadas a partir de páginas externas que abrangem usuários conhecidos e anônimos.</td>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Visitantes</td>
-    <td>O número total de visitantes únicos.</td>
-  </tr>
-  <tr>
-    <td>Page Views</td>
-    <td>O número total de visualizações nas páginas do site.</td>
-  </tr>
-  <tr>
-    <td>Formulários</td>
-    <td>O número total de envios de formulários, incluindo o Forms de Geração de Lead Gen do LinkedIn.</td>
-  </tr>
-  <tr>
-    <td>Emails exclusivos do Forms</td>
-    <td>Número total de emails exclusivos de envios de formulário.</td>
-  </tr>
-  <tr>
-    <td>Clientes potenciais criados no Forms</td>
-    <td>Número total de novos clientes potenciais criados a partir de envios de formulários.</td>
-  </tr>
-</tbody>
-</table>
+| KPI | Definição |
+| --- | --- |
+| Visitas | O total de visitas (sessões) do site iniciadas a partir de páginas externas que abrangem usuários conhecidos e anônimos. |
+| Visitantes | O número total de visitantes únicos. |
+| Page Views | O número total de visualizações nas páginas do site. |
+| Formulários | O número total de envios de formulários, incluindo o Forms de Geração de Lead Gen do LinkedIn. |
+| Emails exclusivos do Forms | Número total de emails exclusivos de envios de formulário. |
+| Clientes potenciais criados no Forms | Número total de novos clientes potenciais criados a partir de envios de formulários. |
 
 ## Tráfego da Web ao longo do tempo {#web-traffic-over-time}
 
@@ -68,7 +46,7 @@ Perguntas que o gráfico responde:
 * Como as tendências no Total de visitas se comparam com Visitantes únicos e Envios de formulário ao longo do período exibido?
 * Em qual período o site viu o número mais alto de Visitantes únicos em comparação ao Total de visitas e envios de formulário?
 
-![Gráfico de tráfego da Web ao longo do tempo para visitas, visitantes e envios de formulários](assets/web-traffic-dashboard-1.png)
+![](assets/web-dashboard-1.png)
 
 ## Tabela de resumo do tráfego na Web {#web-traffic-summary-table}
 
@@ -85,7 +63,7 @@ Tabela que exibe Exibições de página, Visitas, Visitantes, Forms, Emails excl
 * Emails exclusivos de formulários
 * Criação de clientes potenciais a partir de formulários
 
-![Tabela de resumo do tráfego da Web por título de página e URL](assets/web-traffic-dashboard-2.png)
+![](assets/web-dashboard-2.png)
 
 ## Tabela Referenciador {#referrer-table}
 
@@ -97,7 +75,7 @@ Tabela que exibe o total de visitas e visitantes únicos por referenciadores.
 * Visitas
 * Visitantes únicos
 
-![Tabela de referenciadores mostrando visitas e visitantes únicos](assets/web-traffic-dashboard-3.png)
+![](assets/web-dashboard-3.png)
 
 ## Visitas/Visitantes por canal {#visits-visitors-by-channel}
 
@@ -111,7 +89,7 @@ Perguntas que o gráfico responde:
 * Qual canal/subcanal/campanha atrai o maior número de visitas ou visitantes únicos?
 * Como o número de visitantes únicos se compara ao total de visitas em um Canal/Subcanal/Campanha específico?
 
-![Gráfico de Visitas e Visitantes únicos por barra de canal](assets/web-traffic-dashboard-4.png)
+![](assets/web-dashboard-4.png)
 
 ## Painel de Filtro {#filter-pane}
 

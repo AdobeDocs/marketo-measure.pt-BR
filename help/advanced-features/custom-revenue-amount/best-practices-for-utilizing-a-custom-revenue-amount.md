@@ -1,15 +1,14 @@
 ---
-description: Práticas recomendadas para utilizar um valor de receita personalizado - [!DNL Marketo Measure]
+description: Práticas recomendadas para usar uma orientação de valor de receita personalizado para usuários do Marketo Measure
 title: Práticas recomendadas para utilizar uma quantia de receita personalizada
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '436'
 ht-degree: 7%
 
 ---
-
 
 # Práticas recomendadas para utilizar uma quantia de receita personalizada {#best-practices-for-utilizing-a-custom-revenue-amount}
 
@@ -50,7 +49,8 @@ Além de uma revisão anual, certas alterações organizacionais podem indicar a
 * Alterações da organização em como a receita é relatada
 
 >[!MORELIKETHIS]
-> [Usando um Campo de Valor de Receita Personalizado](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Usando o Carregador de Dados para Atualizar o Campo de Valor Personalizado](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-> [Visão Geral de Multimoedas](/help/advanced-features/multi-currency/overview.md)
-> [Configurações de Várias Moedas](/help/advanced-features/multi-currency/settings.md)
+>
+>* [Usando um Campo de Valor de Receita Personalizado](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Usando o Carregador de Dados para Atualizar o Campo de Valor Personalizado](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Visão Geral da Multimoeda](/help/advanced-features/multi-currency/overview.md)
+>* [Configurações de várias moedas](/help/advanced-features/multi-currency/settings.md)

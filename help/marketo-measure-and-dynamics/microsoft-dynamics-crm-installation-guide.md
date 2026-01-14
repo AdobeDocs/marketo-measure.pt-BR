@@ -1,19 +1,20 @@
 ---
-description: Guia de instalação do [!DNL Microsoft Dynamics] CRM
+description: Guia passo a passo para instalar e configurar o pacote do Marketo Measure no Microsoft Dynamics CRM
 title: Guia de instalação do [!DNL Microsoft Dynamics] CRM
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 86%
+source-wordcount: '979'
+ht-degree: 98%
 
 ---
-
 
 # Guia de instalação do [!DNL Microsoft Dynamics] CRM {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
+>
 >Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” no CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
 ## Versões compatíveis {#supported-versions}
@@ -34,14 +35,15 @@ Para conexão e autenticação, o [!DNL Marketo Measure] oferece suporte às seg
 
 **[!UICONTROL Configurações]** > **[!UICONTROL Personalizações]** > **[!UICONTROL Soluções]** > **[!UICONTROL Importar]** (botão) > **[!UICONTROL Escolher arquivo]**.
 
-![Tela de importação das Soluções do Dynamics CRM com o botão Importar](assets/1.png)
+![](assets/getting-dynamics-11.png)
 
 >[!NOTE]
+>
 >As duas capturas de tela a seguir podem variar um pouco na sua instância, pois foram feitas durante uma atualização da solução.
 
-![Assistente de importação de solução mostrando a seleção de pacote](assets/2.png)
+![](assets/getting-dynamics-9.png)
 
-![Tela de confirmação de importação da solução](assets/3.png)
+![](assets/getting-dynamics-10.png)
 
 ## Criação de um usuário do [!DNL Marketo Measure] {#creating-a-marketo-measure-user}
 
@@ -58,9 +60,10 @@ Para entidades personalizadas do [!DNL Marketo Measure], precisamos de permissã
 As permissões de “Criação” do Campaign também são necessárias, além das permissões de leitura/gravação para entidades padrão.
 
 >[!NOTE]
+>
 >Os usuários que fecham oportunidades também precisam de permissão total.
 
-![Tela de configuração de Funções de Segurança do Dynamics mostrando permissões](assets/4.png)
+![](assets/bizible-taxonomy-1.png)
 
 Para entidades padrão do Dynamics, consulte o documento de esquema do [!DNL Marketo Measure] Dynamics. No contexto geral, o [!DNL Marketo Measure] analisa determinadas entidades para coletar os dados apropriados e os grava em campos personalizados instalados com a solução gerenciada. Os registros padrão não são criados e os campos padrão não são atualizados.
 
@@ -72,20 +75,20 @@ Para entidades padrão do Dynamics, consulte o documento de esquema do [!DNL Mar
 
    * Para configurar campanhas, você deve ativar a opção “Sincronização de campanha” em **[!UICONTROL CRM]** > **[!UICONTROL Campanhas]**.
 
-   ![Alternância de Sincronização de Campanha nas configurações do Marketo Measure](assets/5.png)
+   ![](assets/creating-2e-1.png)
 
 1. Layouts de página: primeiro, adicione um bloco “[!UICONTROL Uma coluna]” na seção em que deseja manter os pontos de contato. Nessa nova coluna, precisamos adicionar uma subgrade em cada formulário nas entidades Conta, Oportunidade, Contato e Lead.
 
-   ![Editor de formulário mostrando o layout de seção Uma Coluna](assets/6.png)
+   ![](assets/getting-dynamics-8.png)
 
-   ![Componente de subgrade sendo adicionado ao layout de formulário](assets/7.png)
+   ![](assets/getting-dynamics-7.png)
 
 1. Selecione o objeto (Buyer Attribution Touchpoints ou Buyer Touchpoints) a ser renderizado na subgrade, que depende do relacionamento do objeto. Opcionalmente, altere as colunas exibidas clicando em Editar. O layout padrão é definido pela solução gerenciada.
 
-   Subgrade do Buyer Attribution Touchpoint - Contas, Oportunidades e Contato
-Subgrade do Buyer Touchpoint - Clientes potenciais e contatos
+   Subgrade Buyer Attribution Touchpoint - Contas, oportunidades e contato\
+   Subgrade Buyer Touchpoint - Leads e contatos
 
-   ![Caixa de diálogo de propriedades de subgrade mostrando opções de seleção de objeto](assets/8.png)
+   ![](assets/getting-dynamics-1.png)
 
 1. Quando terminar de atualizar o formulário, publique e salve as alterações.
 
@@ -107,25 +110,26 @@ Depois de fazer logon no aplicativo [!DNL Marketo Measure] e configurar seu usu�
 
 1. Na conta do [!DNL Marketo Measure], clique no menu suspenso **[!UICONTROL Minha conta]** e selecione **[!UICONTROL Configurações]**.
 
-   ![menu suspenso Minha Conta da Marketo Measure com a opção Configurações realçada](assets/microsoft-dynamics-crm-installation-guide-16.png)
+   ![](assets/getting-dynamics-10.png)
 
 1. Em [!UICONTROL Integrações] na navegação à esquerda, clique em **[!UICONTROL Conexões]**.
 
-   ![Página de configurações com a opção Conexões na navegação à esquerda](assets/microsoft-dynamics-crm-installation-guide-17.png)
+   ![](assets/getting-dynamics-11.png)
 
 1. Clique em **[!UICONTROL Configurar nova conexão do CRM]**.
 
-   ![Página Conexões com o botão Configurar Nova Conexão do CRM](assets/microsoft-dynamics-crm-installation-guide-18.png)
+   ![](assets/getting-dynamics-2.png)
 
 1. Ao lado de [!UICONTROL Microsoft Dynamics CRM], clique em **[!UICONTROL Conectar]**.
 
-   ![Opções de conexão do CRM mostrando o Microsoft Dynamics CRM com o botão Conectar](assets/microsoft-dynamics-crm-installation-guide-19.png)
+   ![](assets/getting-dynamics-3.png)
 
 1. Selecione [!UICONTROL Credenciais] ou [!UICONTROL OAuth].
 
-   ![Tela de seleção do método de autenticação do Microsoft Dynamics CRM](assets/microsoft-dynamics-crm-installation-guide-20.png)
+   ![](assets/microsoft-guide-8.png)
 
    >[!NOTE]
+   >
    >Para obter mais informações sobre OAuth, consulte [este artigo](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Em caso de dúvidas sobre o processo, entre em contato com o(a) representante de conta do [!DNL Marketo Measure].
 
 1. Neste exemplo, escolhemos a opção Credenciais. Insira suas credenciais e clique em **[!UICONTROL Próximo]**.
@@ -140,11 +144,11 @@ Para conectar suas contas de anúncios com o [!DNL Marketo Measure], comece aces
 
 1. Clique em **[!UICONTROL Configurar nova conexão do CRM]**.
 
-   ![Página Conexões mostrando o botão Configurar Nova Conexão do CRM](assets/microsoft-dynamics-crm-installation-guide-21.png)
+   ![](assets/microsoft-guide-9.png)
 
 1. Selecione a plataforma desejada.
 
-   ![Tela de seleção de plataforma de conta de anúncio com várias opções de plataforma de anúncio](assets/microsoft-dynamics-crm-installation-guide-22.png)
+   ![](assets/getting-dynamics-4.png)
 
 Javascript do **[!DNL Marketo Measure]**
 
@@ -152,23 +156,28 @@ Para que o [!DNL Marketo Measure] rastreie suas atividades da web, há várias e
 
 1. Clique no menu suspenso **[!UICONTROL Minha conta]** e selecione **[!UICONTROL Configuração da conta]**.
 
-   ![Lista suspensa Minha Conta com a opção Configuração de Conta](assets/microsoft-dynamics-crm-installation-guide-23.png)
+   ![](assets/getting-dynamics-5.png)
 
 1. Insira um número de telefone. No campo de site, insira o domínio raiz principal que o [!DNL Marketo Measure] usa para rastrear no seu site. Clique em **[!UICONTROL Salvar]** quando terminar.
 
-   ![Página de Configuração de Conta com campos de número de telefone e site](assets/microsoft-dynamics-crm-installation-guide-24.png)
+   ![](assets/getting-dynamics-6.png)
 
    >[!NOTE]
+   >
    >Para adicionar vários domínios raiz, entre em contato com o(a) representante de conta do [!DNL Marketo Measure].
 
 1. Insira o [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/adding-marketo-measure-script.md) em todo o site e nas páginas de destino. Recomendamos codificar o script no cabeçalho das páginas de destino ou adicionar por meio de um sistema de gerenciamento de tags, como o [Google Tag Manager](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
+   >
    >Por padrão, o [!DNL Marketo Measure] exporta 200 registros por crédito de API sempre que um processo envia dados para seu CRM. Para a maioria dos clientes, isso fornece o equilíbrio ideal entre os créditos de API consumidos pelo [!DNL Marketo Measure] e os requisitos de recursos da CPU no CRM. No entanto, para clientes com configurações complexas de CRM, como fluxos de trabalho e acionadores, um tamanho de lote menor pode ser útil para melhorar o desempenho do CRM. Para isso, o [!DNL Marketo Measure] permite que os clientes configurem o tamanho do lote de exportação do CRM. Essa configuração está disponível na página Configurações > CRM > Geral no aplicativo web do [!DNL Marketo Measure] e permite que clientes escolham entre tamanhos de lote de 200 (padrão), 100, 50 ou 25.
+   >
    >Ao modificar essa configuração, lembre-se de que tamanhos de lote menores consumirão mais créditos de API do seu CRM. É aconselhável reduzir o tamanho do lote somente se você estiver atingindo o tempo-limite da CPU ou gerando uma alta carga de CPU no CRM.
 
    >[!NOTE]
+   >
    >Desabilitar a exportação de dados do Marketo Measure para o Dynamics não remove nenhum dado existente. Para obter ajuda sobre como remover dados existentes, entre em contato com o Suporte do Dynamics.
 
    >[!MORELIKETHIS]
+   >
    >[Notificações de erro](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

@@ -1,15 +1,15 @@
 ---
-description: Parâmetros de UTM -  [!DNL Marketo Measure]
+description: Orientação de parâmetros UTM para usuários do Marketo Measure
 title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 91%
 
 ---
-
 
 # Parâmetros do UTM {#utm-parameters}
 
@@ -74,7 +74,7 @@ Cada parâmetro reúne informações relevantes para o valor atribuído. O valor
 
 Aqui está um gráfico dos parâmetros do UTM [!DNL Marketo Measure] As análises e o campo do touchpoint correspondente ao qual estão vinculadas:
 
-| Parâmetro UTM | Campo [!DNL Marketo Measure] correspondente |
+| **Parâmetro do UTM** | **Campo [!DNL Marketo Measure] correspondente** |
 |---|---|
 | utm_medium | Meio |
 | utm_source | Origem do touchpoint |

@@ -1,15 +1,14 @@
 ---
-description: Modelo e Configuração de Atribuição Personalizados - [!DNL Marketo Measure]
+description: Modelo de atribuição personalizado e orientação de configuração para usuários do Marketo Measure
 title: Modelo e configuração de atribuição personalizada
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
-
 
 # Modelo e configuração de atribuição personalizada {#custom-attribution-model-and-setup}
 
@@ -30,11 +29,13 @@ O modelo de Atribuição personalizada [!DNL Marketo Measure] permite que os usu
    Em seguida, escolha os estágios de Clientes Potenciais/Contatos e Oportunidade a serem incluídos, marcando a caixa **[!UICONTROL Incluir no Modelo]**.
 
    >[!NOTE]
+   >
    >Você tem permissão para até seis estágios personalizados (sem incluir os padrões: FT, LC, OC, Fechado).
 
-   ![&#x200B; 1](assets/1-1.png)
+   ![](assets/custom-models-1.png)
 
    >[!NOTE]
+   >
    >_Todos_ os estágios de Clientes Potenciais/Contatos e Oportunidade aparecerão aqui, mesmo que o estágio esteja inativo ou não seja mais usado em [!DNL Salesforce]. Se quiser que esses estágios sejam removidos, será necessário excluí-los permanentemente em [!DNL Salesforce].
 
    Após selecionar seus estágios, clique no botão **[!UICONTROL Salvar e Processar]**, na parte inferior da página. Os estágios aparecerão na guia **[!UICONTROL Configurações de atribuição]** e você poderá atribuir porcentagens de atribuição a cada estágio. Os estágios personalizados também serão exibidos no Marketing Performance Suite como um estágio de Lead ou Oportunidade dentro do Demand Waterfall.
@@ -43,9 +44,10 @@ O modelo de Atribuição personalizada [!DNL Marketo Measure] permite que os usu
 
    No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um campo de data. A regra simplesmente declara que, se o campo Data MQL não estiver vazio, ele deverá ser considerado um MQL e deverá ser incluído no modelo personalizado. Também é importante classificar os estágios personalizados depois de criados, para que sigam a progressão do ciclo de vendas.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/custom-models-10.png)
 
    >[!CAUTION]
+   >
    >Não se esqueça de ativar o rastreamento de histórico para campos personalizados.
 
 Se um campo personalizado for usado em seu modelo personalizado, o rastreamento do Histórico de campos DEVERÁ ser habilitado no CRM. Para obter instruções para habilitar o rastreamento do histórico do campo, consulte [Configuração do Modelo Personalizado: Habilitar o Rastreamento do Histórico do Campo](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
@@ -58,13 +60,13 @@ Se um campo personalizado for usado em seu modelo personalizado, o rastreamento 
 
    À esquerda da coluna _Personalizado_ está o **[!DNL Marketo Measure]modelo de Aprendizado de Máquina**. O modelo de aprendizado de máquina calcula a ponderação de atribuição com base na importância relativa de ganhar um negócio, dependendo do que aconteceu em cada estágio personalizado. Para obter mais informações sobre o modelo de Aprendizado de Máquina, consulte [Perguntas frequentes sobre o Modelo de Aprendizado de Máquina](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md).
 
-   ![Tabela de configurações de atribuição mostrando a ponderação de modelo personalizada](assets/3.png)
+   ![](assets/custom-models-2.png)
 
 ## Posições do ponto de contato {#touchpoint-positions}
 
 Depois que as porcentagens de atribuição forem salvas e processadas, os pontos de contato serão atualizados e receberão seus novos estágios e posições. O ponto de contato que ocorreu mais recentemente, antes de uma transição de estágio, receberá crédito por esse estágio (como mostrado abaixo). A ponderação e a receita personalizadas também são redistribuídas.
 
-![Posições de ponto de contato com estágios personalizados aplicados](assets/4.png)
+![](assets/custom-models-3.png)
 
 ## A diferença entre os estágios do Funnel e os estágios de modelo personalizado {#the-difference-between-funnel-stages-and-custom-model-stages}
 
@@ -74,7 +76,8 @@ Os Estágios do funnel ainda serão rastreados como Pontos de contato e ainda se
 
 Como você pode ver abaixo, incluímos o estágio de diligência como uma parte dos nossos estágios do Funnel. Isso significa que teremos Pontos de contato onde a posição contém diligência, mas esses Pontos de contato só receberão crédito de atribuição de Contato intermediário se o Modelo personalizado não estiver habilitado (no máximo 10%).
 
-![Marketing funnel incluindo pontos de contato de estágio personalizados do Diligence](assets/5.png)
+![](assets/custom-models-7.png)
 
 >[!NOTE]
+>
 >O comportamento dos modelos personalizados do BAT é dividir a porcentagem de toque médio do modelo personalizado uniformemente em outros estágios, desde que não haja toque médio.

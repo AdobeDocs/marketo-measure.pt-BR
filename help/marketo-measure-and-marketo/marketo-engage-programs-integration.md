@@ -3,13 +3,12 @@ description: Integração de Programas do [!DNL Marketo Engage] - [!DNL Marketo 
 title: Integração de programas do [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1261'
 ht-degree: 1%
 
 ---
-
 
 # Integração de programas do [!DNL Marketo Engage] {#marketo-engage-programs-integration}
 
@@ -33,26 +32,27 @@ Todos os níveis.
 
 1. Para começar a configurar regras em Programas do Marketo, navegue até **[!UICONTROL Minha Conta]** > **[!UICONTROL Configurações]** > **[!UICONTROL Programas]**. Clique no ícone **+** para começar a criar sua primeira regra.
 
-   ![Página de configurações de programas na conta do Marketo Measure](assets/one.png)
+   ![](assets/one-one-2.png)
 
-   ![Caixa de diálogo Criar nova regra com o botão Adicionar](assets/two.png)
+   ![](assets/5a-5a-1.png)
 
 1. Você pode, opcionalmente, definir um nome para a regra se isso ajudar a rastreá-los. primeiro, selecione o campo para definir a regra na lista dos campos Program e Program Membership (Programa). Continue criando a regra selecionando o operador e o valor esperado a serem verificados.
 
-   ![Construtor de regras com lista suspensa de seleção de campo e opções de operador](assets/three.png)
+   ![](assets/5b-5b-1.png)
 
 1. Adicione outra instrução na mesma caixa para configurar um critério &quot;and&quot; na regra ou clique no ícone + fora da caixa para configurar uma instrução &quot;or&quot;.
 
-   ![Construtor de regras mostrando várias condições com opções de lógica e/ou &#x200B;](assets/four.png)
+   ![](assets/bizible-discover-1.png)
 
 1. Escolha qual campo de data ou data/hora deve ser usado para mapear para a Data do ponto de contato. Para ver a lista de valores disponíveis no Marketo, insira uma chave `{` e exibiremos os campos disponíveis.
 
-   ![Mapeamento de campo de data com lista suspensa de preenchimento automático mostrando os campos disponíveis](assets/five.png)
+   ![](assets/five-five-2.png)
 
    >[!NOTE]
+   >
    >Se a regra desejar capturar a Data da atividade ou a data em que um membro do programa atingiu um status específico, você deverá utilizar a Integração de atividades do [!DNL Marketo Engage] e configurar uma regra para o tipo de atividade &quot;Alterar status na progressão&quot;.
 
-   ![Configuração de regra concluída mostrando condições e mapeamentos de campo](assets/six.png)
+   ![](assets/bizible-discover-2.png)
 
 A regra concluída deve ser semelhante a:
 
@@ -62,21 +62,21 @@ Depois de criar algumas regras, você pode testá-las para verificar se a sua in
 
 1. Para executar um teste, clique no botão **[!UICONTROL TESTE]**, conforme mostrado abaixo.
 
-   ![Botão de teste na interface de regras do programa](assets/seven.png)
+   ![](assets/seven-seven-2.png)
 
 1. Um modal será exibido onde você pode inserir a ID do programa no Marketo.
 
-   ![Testar caixa de diálogo modal com campo de entrada de ID do Programa](assets/eight.png)
+   ![](assets/eight-eight-1.png)
 
    Depois de inserir a ID e clicar no botão [!UICONTROL Testar], nosso mecanismo de regras passará por cada regra e determinará se o Programa se encaixa ou não em qualquer uma das regras. No exemplo abaixo, você pode ver que o Programa 1002, chamado Ebook [!DNL Marketo Measure], tem 5 Membros de Programa e está qualificado devido à regra exibida.
 
    As regras são executadas em um tamanho de amostra de 5000 membros. Se o seu programa contiver mais de 5000 membros, é possível que não verifiquemos a compatibilidade de todos os membros. Essa ferramenta simplesmente serve como uma maneira de verificar se as regras são construídas corretamente.
 
-   ![Resultados de teste mostrando programa correspondente com contagem de membros](assets/nine.png)
+   ![](assets/nine-nine-2.png)
 
    Você pode clicar na Contagem de membros para ver uma lista de IDs de pessoas do Marketo elegíveis dentro do programa.
 
-   ![Lista de IDs de Pessoas da Marketo qualificados dos resultados do teste](assets/ten.png)
+   ![](assets/eight-eight-2.png)
 
 ## Mapeamento de canal {#channel-mapping}
 
@@ -88,43 +88,39 @@ Na lista de Canais de programa do Marketo, será possível mapear os valores par
 
 1. Primeiro, selecione o Canal que deve ser mapeado para o valor e, como opção, selecione o Subcanal. Quando terminar, clique em **[!UICONTROL Salvar]** na parte inferior.
 
-   ![Configurações de Canais offline mostrando opções de mapeamento de Canal do Programa Marketo](assets/eleven.png)
+   ![](assets/eleven-eleven-1.png)
 
 ## Custos do programa {#program-costs}
 
 Por meio da importação de dados dos Programas do Marketo, os custos são baixados automaticamente a partir dos Custos do período e o custo relatado no Marketo é distribuído ao longo do mês atribuído. Por exemplo, se US$ 1000 forem relatados para janeiro de 2021, US$ 1000 serão divididos em 31 dias. Os custos podem ser encontrados em [!DNL Marketo Measure Discover].
 
->[!NOTE]
->
->O Marketo Measure suporta apenas uma entrada de Custo do Período por mês. Para garantir que todos os custos sejam importados, agregue o custo mensal total em uma única entrada. Não há suporte para entradas de Custo de Vários Períodos para o mesmo mês.
-
 ## Como funciona {#how-it-works}
 
 **Mapeamentos de campos**
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th>biz_ad_campaigns</th>
-   <th>Marketo</th>
-  </tr>
-  <tr>
-   <td>ID</td>
-   <td>ID</td>
-  </tr>
-  <tr>
-   <td>IS_DELETED</td>
-   <td>(verifique se o programa ainda existe por meio da API)</td>
-  </tr>
-  <tr>
-   <td><p>NAME</p></td>
-   <td>name</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th>biz_ad_campaigns</th> 
+   <th>Marketo</th> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td>IS_DELETED</td> 
+   <td>(verifique se o programa ainda existe por meio da API)</td> 
+  </tr> 
+  <tr> 
+   <td><p>NAME</p></td> 
+   <td>name</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 | biz_campaign_member | Marketo |
@@ -157,6 +153,7 @@ A implementação de hoje criaria um único ponto de contato FT e LC para `mark@
 Com esse aprimoramento no mapeamento de cookies, a FT voltaria e seria creditada no anúncio [!DNL Facebook] e a LC seria creditada no Email.
 
 >[!NOTE]
+>
 >Com o comportamento de mapeamento de cookies, você pode encontrar alguns pontos de contato LC que vêm de uma visita à Web. É possível que um cliente potencial tenha aparecido no Marketo sem nenhuma atividade associada e, em seguida, [!DNL Marketo Measure] tenha baixado o cliente potencial, correspondido aos cookies associados e rastreado até a sessão da Web mais recente, mesmo que não haja atividade de formulário que tenha criado o cliente potencial.
 
 ## Perguntas frequentes {#faq}

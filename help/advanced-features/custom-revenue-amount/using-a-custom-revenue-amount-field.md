@@ -1,15 +1,14 @@
 ---
-description: Usando um Campo de Valor de Receita Personalizado - [!DNL Marketo Measure]
+description: Uso de uma orientação de Campo Valor de receita personalizado para usuários do Marketo Measure
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
-
 
 # Utilização de um campo de quantia de receita personalizada {#using-a-custom-revenue-amount-field}
 
@@ -32,48 +31,48 @@ As etapas a seguir são para usuários do Salesforce Lightning. Se você ainda u
 
 1. Na Instalação, digite &quot;Fluxos&quot; na Caixa Localização Rápida e selecione **[!UICONTROL Fluxos]** para iniciar o Construtor de Fluxos. No painel direito, clique no botão **[!UICONTROL Novo Fluxo]**.
 
-   ![Construtor de Fluxo do Salesforce com o botão Novo Fluxo](assets/using-a-custom-revenue-amount-field-1.png)
+   ![](assets/custom-amount-1.png)
 
 1. Selecione **[!UICONTROL Fluxo acionado por Registro]** e clique em **[!UICONTROL Criar]** na parte inferior direita.
 
-   ![Seleção de tipo de fluxo com opção de Fluxo Disparado por Registro](assets/using-a-custom-revenue-amount-field-2.png)
+   ![](assets/custom-amount-10.png)
 
 1. Na janela Configurar início, selecione o objeto Oportunidade. Na seção [!UICONTROL Configurar Acionador], selecione **[!UICONTROL Um registro foi criado ou atualizado]**.
 
-   ![Configurar a janela Iniciar com o objeto de oportunidade selecionado](assets/using-a-custom-revenue-amount-field-3.png)
+   ![](assets/custom-amount-11.png)
 
 1. Na seção Definir Condições de Entrada, em [!UICONTROL Requisitos da Condição], selecione **[!UICONTROL Lógica de Condição Personalizada Atendida]**.
    * No campo de pesquisa, selecione o campo Valor personalizado.
    * Defina o operador como **Is Null**, e o valor como **[!UICONTROL False]**.
    * Defina os critérios de avaliação como **[!UICONTROL Toda vez que um registro for atualizado e atender aos requisitos de condição]**.
 
-   ![Configuração de condições de entrada com lógica de condição personalizada](assets/using-a-custom-revenue-amount-field-4.png)
+   ![](assets/custom-amount-12.png)
 
 1. Na seção &quot;Otimizar o fluxo para&quot;, selecione **[!UICONTROL Atualizações rápidas de campo]**. Clique em **[!UICONTROL Concluído]** na parte inferior direita.
 
-   ![Otimizar configurações de Fluxo com as Atualizações Rápidas de Campo selecionadas](assets/using-a-custom-revenue-amount-field-5.png)
+   ![](assets/custom-amount-13.png)
 
 1. Para adicionar o elemento, clique no ícone de adição (+) e selecione **[!UICONTROL Atualizar Registro de Disparo]**.
 
-   ![Menu de elemento de fluxo com a opção Atualizar Registro de Disparo](assets/using-a-custom-revenue-amount-field-6.png)
+   ![](assets/custom-amount-14.png)
 
 1. Na janela Novos Registros de Atualização, informe o seguinte:
 
    * Insira um rótulo — o nome da API será gerado automaticamente
    * Em &quot;Como localizar registros para atualizar e definir seus valores&quot;, selecione **[!UICONTROL Usar o registro de oportunidade que acionou o fluxo]**.
    * Na seção &quot;[!UICONTROL Definir Condições de Filtro]&quot;, selecione **[!UICONTROL Sempre Atualizar Registro]** como um Requisito de Condição para Atualizar Registro.
-   * No campo &quot;[!UICONTROL Definir Valores de Campo para o Registro de Campanha]&quot;, selecione o Valor de Oportunidade da Marketo Measure (**bizible2_Bizible_Opportunity_Amount__c**) e o Valor de. Em seguida, selecione o campo Valor personalizado.
+   * Em &quot;[!UICONTROL Definir valores de campo para o registro da campanha],&quot; no campo de, selecione o valor de oportunidade da Marketo Measure e o valor de. Em seguida, selecione o campo Valor personalizado.
    * Clique em **[!UICONTROL Concluído]**.
 
-   ![Atualizar configuração de registros com mapeamentos de valores de campo](assets/using-a-custom-revenue-amount-field-7.png)
+   ![](assets/custom-amount-15.png)
 
 1. Clique em **[!UICONTROL Salvar]**. Um pop-up será exibido. Digite &quot;Rótulo de fluxo&quot; na janela Salvar o fluxo (o Nome da API de fluxo será gerado automaticamente). Clique em **[!UICONTROL Salvar]** novamente.
 
-   ![Salvar a caixa de diálogo de Fluxo com o campo de rótulo](assets/using-a-custom-revenue-amount-field-8.png)
+   ![](assets/custom-amount-2.png)
 
 1. Clique no botão **[!UICONTROL Ativar]** para ativar o fluxo.
 
-   ![Página de resumo do fluxo com botão Ativar](assets/using-a-custom-revenue-amount-field-9.png)
+   ![](assets/custom-amount-3.png)
 
 ## Criar o fluxo de trabalho no Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
@@ -81,29 +80,29 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você alternou 
 
 1. Navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Criar]** > **[!UICONTROL Fluxo de Trabalho e Aprovações]** > **[!UICONTROL Regras de Fluxo de Trabalho]**.
 
-   ![Menu de navegação do Salesforce Classic mostrando Regras de Fluxo de Trabalho](assets/using-a-custom-revenue-amount-field-10.png)
+   ![](assets/custom-amount-4.png)
 
 1. Selecione **[!UICONTROL Nova regra]**, defina o objeto como &quot;Oportunidade&quot; e clique em **[!UICONTROL Avançar]**.
 
-   ![Página Regras de Fluxo de Trabalho com o botão Nova Regra](assets/using-a-custom-revenue-amount-field-11.png)
+   ![](assets/custom-amount-5.png)
 
-   ![Seleção de objeto para regra de fluxo de trabalho definida como Oportunidade](assets/using-a-custom-revenue-amount-field-12.png)
+   ![](assets/custom-amount-6.png)
 
-1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL &#x200B; como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
+1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL  como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
 
-   ![Configuração do fluxo de trabalho com critérios de regra e configurações de avaliação](assets/using-a-custom-revenue-amount-field-13.png)
+   ![](assets/custom-amount-7.png)
 
 1. Adicione uma ação de workflow. Defina esta lista de opções como &quot;[!UICONTROL Nova Atualização de Campo]&quot;.
-   ![Caixa de diálogo Adicionar Ação de Fluxo de Trabalho com a opção Nova Atualização de Campo](assets/using-a-custom-revenue-amount-field-14.png)
+   ![](assets/custom-amount-8.png)
 
 1. Aqui você preencherá as informações do campo. No campo &quot;Nome&quot;, recomendamos usar este nome: &quot;[!DNL Marketo Measure] Valor de Opp.&quot; O &quot;Nome exclusivo&quot; será preenchido automaticamente com base no campo &quot;Nome&quot;. Na lista de opções &quot;Campo a ser atualizado&quot;, selecione &quot;[!DNL Marketo Measure] Valor da oportunidade&quot;. Depois de selecionar o campo, marque a caixa &quot;Reavaliar Regras de Workflow após Alteração do Campo&quot;. Em &quot;Especificar novo valor do campo&quot;, selecione &quot;Usar uma fórmula para definir o novo valor&quot;. Na caixa vazia, solte o nome da API do campo Valor personalizado. Clique em **[!UICONTROL Salvar]**.
 
-   ![Configuração de atualização de campo mostrando configurações de nome, mapeamento de campo e fórmula](assets/using-a-custom-revenue-amount-field-15.png)
+   ![](assets/custom-amount-9.png)
 
 1. você será redirecionado a uma página de rollup do seu fluxo de trabalho, certifique-se de &quot;Ativar&quot; e poderá continuar. Para ativar, clique em **[!UICONTROL Editar]** ao lado do novo fluxo de trabalho e em **[!UICONTROL Ativar]**.
 
    Após concluir essas etapas, as oportunidades precisarão ser atualizadas para acionar o fluxo de trabalho para ter o novo valor do campo [!UICONTROL oportunidade personalizada].
 
-   Isso pode ser feito abrindo oportunidades por meio do Carregador de dados na SFDC. Encontre detalhes sobre como usar o Carregador de Dados em [este artigo](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
+   Isso pode ser feito abrindo oportunidades por meio do Carregador de dados na SFDC. Encontre detalhes sobre como usar o Carregador de Dados em [este artigo](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 Se houver dúvidas ao longo do caminho, entre em contato com a Equipe de Conta da Adobe (seu Gerente de Conta) ou com o [[!DNL Marketo] Suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

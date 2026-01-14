@@ -1,21 +1,21 @@
 ---
-description: Adicionando [!DNL Marketo Measure] a [!DNL Marketo] Landing Pages - [!DNL Marketo Measure]
+description: Adicionando [!DNL Marketo Measure] à orientação das Páginas de Aterrissagem do Marketo para usuários do Marketo Measure
 title: Adição de [!DNL Marketo Measure] para páginas de destino do Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
-
 
 # Adicionar [!DNL Marketo Measure] às páginas de aterrissagem do Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Saiba como adicionar rastreamento às Páginas de Aterrissagem do [!DNL Marketo Engage], pois elas exigem manuseio adicional. O JavaScript [!DNL Marketo Measure] deve estar em vigor tanto na Página de Aterrissagem quanto no próprio formulário [!DNL Marketo Engage]. Para fazer isso, você precisa carregar o JavaScript [!DNL Marketo Measure] no [!DNL Marketo Engage] conforme explicado nas instruções a seguir.
 
 >[!NOTE]
+>
 >Se estiver implantando a JavaScript por meio de um provedor de gerenciamento de tags, como o [!DNL Google Tag Manager], não será necessário adicionar manualmente o JS [!DNL Marketo Measure] ao [!DNL Marketo Engage].
 
 ## Como adicionar o script [!DNL Marketo Measure] às páginas de aterrissagem [!DNL Marketo Engage] {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
@@ -31,7 +31,7 @@ Exemplo na captura de tela abaixo
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![Editor de página de aterrissagem do Marketo com script do Bizible adicionado ao cabeçalho](assets/adding-bizible-to-marketo-landing-pages-1.png)
+   ![](assets/adding-pages-1.png)
 
 ## Observações adicionais {#additional-notes}
 
@@ -41,4 +41,4 @@ Exemplo na captura de tela abaixo
 
 * É provável que você tenha vários modelos de página de aterrissagem em uso. Certifique-se de adicionar o código a todos os modelos que contêm formulários.
 
-* Às vezes, ao editar o template para landing pages, você deve reaprovar as páginas usadas pela landing page. Este artigo explica [como aprovar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=pt-BR){target="_blank"} em massa.
+* Às vezes, ao editar o template para landing pages, você deve reaprovar as páginas usadas pela landing page. Este artigo explica [como aprovar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"} em massa.

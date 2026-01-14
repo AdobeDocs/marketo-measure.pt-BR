@@ -3,13 +3,12 @@ description: Saiba mais sobre a Atribuição baseada em conta e como o Adobe Mar
 title: Atribuição baseada em conta
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '279'
 ht-degree: 12%
 
 ---
-
 
 # Atribuição baseada em conta {#account-based-attribution}
 
@@ -21,7 +20,7 @@ Quando há várias oportunidades em uma conta, as diferentes oportunidades compa
 
 Por exemplo, a conta abaixo tem duas oportunidades. Para a primeira oportunidade, há apenas um ponto de contato. Esse ponto de contato engloba o FT, a LC e o ponto de contato de Criação de oportunidades (OC). A segunda oportunidade tem a mesma FT e LC que a primeira oportunidade, mas o ponto de contato OC é diferente. Além disso, a segunda oportunidade tem pontos de contato adicionais que não estão associados à primeira oportunidade, pois ocorrem após a data de fechamento da primeira oportunidade.
 
-![Conta com duas oportunidades compartilhando pontos de contato FT e LC](assets/1.jpg)
+![](assets/account-marketing-4.jpg)
 
 ## Como isso ajuda? {#how-does-this-help}
 

@@ -3,13 +3,13 @@ description: API [!DNL Facebook] - [!DNL Marketo Measure]
 title: API [!DNL Facebook]
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '480'
 ht-degree: 3%
 
 ---
-
 
 # API [!DNL Facebook] {#facebook-api}
 
@@ -30,6 +30,7 @@ Quanto à instalação, há sete etapas a serem concluídas no aplicativo [!DNL 
 1. Selecione **[!UICONTROL Configurar nova conexão com anúncios]** e uma janela pop-up será exibida. Selecione **[!UICONTROL Facebook]** e faça logon usando suas credenciais do Facebook.
 
    >[!NOTE]
+   >
    >A pessoa conectando a conta [!DNL Facebook Ads] precisa ser um administrador dentro da conta [!DNL Facebook Ads].
 
 1. Depois que [!DNL Marketo Measure] estiver conectado à sua conta do Facebook, clique no ícone de lápis ao lado da conta.
@@ -37,94 +38,95 @@ Quanto à instalação, há sete etapas a serem concluídas no aplicativo [!DNL 
 
 ## Conexão com a conta {#connecting-the-account}
 
-![Configurando uma nova conexão de anúncios do Facebook no Marketo Measure](assets/1.gif)
+![](assets/utilizing-connections-2.gif)
 
 ## Habilitando a marcação automática {#enabling-autotagging}
 
 >[!NOTE]
+>
 >Se você ativar a marcação automática, redefiniremos o histórico de conversão e a prova social de todos os anúncios marcados. É altamente recomendável [exportar estes dados como um CSV](https://www.facebook.com/business/help/205067636197240) antes de habilitar a marcação automática.
 
-![&#x200B; 2](assets/2-2.png)
+![](assets/bizible-guide-1.png)
 
 Após habilitar a integração, o [!DNL Marketo Measure] começará a baixar o custo do nível de anúncio no Painel [!DNL Marketo Measure Marketing ROI].
 
 Para que a integração funcione corretamente, é necessário habilitar a marcação automática na conta do [!DNL Facebook]. Isso permitirá que nosso sistema adicione um parâmetro _bf em todos os links de anúncios. Este processo adicionará o novo parâmetro além de qualquer outro parâmetro de rastreamento que você já tenha adicionado aos seus anúncios [!DNL Facebook].
 
-![Habilitando a marcação automática nas configurações de conexão do Facebook](assets/3.gif)
+![](assets/five-five-1.png)
 
 ## Mapeamento de campos {#field-mapping}
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p><strong>Campo do ponto de contato</strong></p></th>
-   <th><p><strong>Valor</strong></p></th>
-  </tr>
-  <tr>
-   <td><p>ID da campanha publicitária</p></td>
-   <td><p>[[!DNL Facebook] ID da campanha]</p></td>
-  </tr>
-  <tr>
-   <td><p>Nome da campanha publicitária </p></td>
-   <td><p>[[!DNL Facebook] Nome da campanha] ou [utm_campaign], se fornecido</p></td>
-  </tr>
-  <tr>
-   <td><p>ID do grupo de anúncios</p></td>
-   <td><p>[[!DNL Facebook] Id Do Conjunto De Anúncios]</p></td>
-  </tr>
-  <tr>
-   <td><p>Nome do grupo de anúncios</p></td>
-   <td><p>[[!DNL Facebook] Nome do Conjunto de Anúncios]</p></td>
-  </tr>
-  <tr>
-   <td><p>Origem do touchpoint</p></td>
-   <td><p>"[!DNL Facebook]" ou [utm_source], se fornecido</p></td>
-  </tr>
-  <tr>
-   <td><p>Meio</p></td>
-   <td><p>"Social" ou [utm_medium] se fornecido</p></td>
-  </tr>
-  <tr>
-   <td><p>Id do anúncio ou Creative_Unique_Id (Data Warehouse)</p></td>
-   <td><p>[ID personalizada gerada de utm_content]</p></td>
-  </tr>
-  <tr>
-   <td><p>Conteúdo do anúncio ou Creative_Name (Data Warehouse)</p></td>
-   <td><p>[utm_content] se fornecido</p></td>
-  </tr>
-  <tr>
-   <td><p>Texto da palavra-chave ou Nome da palavra-chave (Data Warehouse)</p></td>
-   <td><p>[utm_term] se fornecido</p></td>
-  </tr>
-  <tr>
-   <td><p>Ad_Unique_Id (Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] Id Do Anúncio]</p></td>
-  </tr>
-  <tr>
-   <td><p>Ad_Name (Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] Ad Name]</p></td>
-  </tr>
-  <tr>
-   <td><p>Palavra-Chave_Unique_Id (Data Warehouse)</p></td>
-   <td><p>[ID personalizada gerada a partir de utm_term]</p></td>
-  </tr>
-  <tr>
-   <td><p>Ad_Provider (Data Warehouse)</p></td>
-   <td><p>[!DNL Facebook]</p></td>
-  </tr>
-  <tr>
-   <td><p>Account_Unique_ID (Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] Número da conta]</p></td>
-  </tr>
-  <tr>
-   <td><p>Account_Name (Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] Nome da Conta]</p></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th><p><strong>Campo do ponto de contato</strong></p></th> 
+   <th><p><strong>Valor</strong></p></th> 
+  </tr> 
+  <tr> 
+   <td><p>ID da campanha publicitária</p></td> 
+   <td><p>[[!DNL Facebook] ID da campanha]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Nome da campanha publicitária </p></td> 
+   <td><p>[[!DNL Facebook] Nome da campanha] ou [utm_campaign], se fornecido</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>ID do grupo de anúncios</p></td> 
+   <td><p>[[!DNL Facebook] Id Do Conjunto De Anúncios]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Nome do grupo de anúncios</p></td> 
+   <td><p>[[!DNL Facebook] Nome do Conjunto de Anúncios]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Origem do touchpoint</p></td> 
+   <td><p>"[!DNL Facebook]" ou [utm_source], se fornecido</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Meio</p></td> 
+   <td><p>"Social" ou [utm_medium] se fornecido</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Id do anúncio ou Creative_Unique_Id (Data Warehouse)</p></td> 
+   <td><p>[ID personalizada gerada de utm_content]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Conteúdo do anúncio ou Creative_Name (Data Warehouse)</p></td> 
+   <td><p>[utm_content] se fornecido</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Texto da palavra-chave ou Nome da palavra-chave (Data Warehouse)</p></td> 
+   <td><p>[utm_term] se fornecido</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Ad_Unique_Id (Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] Id Do Anúncio]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Ad_Name (Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] Ad Name]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Palavra-Chave_Unique_Id (Data Warehouse)</p></td> 
+   <td><p>[ID personalizada gerada a partir de utm_term]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Ad_Provider (Data Warehouse)</p></td> 
+   <td><p>[!DNL Facebook]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] Número da conta]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Account_Name (Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] Nome da Conta]</p></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## Perguntas frequentes {#faq}

@@ -3,13 +3,12 @@ description: Saiba mais sobre Account-Based Marketing (ABM) e como o Adobe Marke
 title: Visão geral do marketing baseado em conta
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 96%
+source-wordcount: '822'
+ht-degree: 98%
 
 ---
-
 
 # Visão geral do marketing baseado em conta {#account-based-marketing-overview}
 
@@ -27,6 +26,7 @@ Para que nosso modelo de Account-Based Marketing comece a preencher o seu CRM, o
 * Por outro lado, o seu CRM precisa de pelo menos 25 contas sem oportunidades fechadas ganhas (todas as oportunidades devem estar na categoria de estágio “Aberta” ou “Fechada perdida”). Isso nos ajuda a medir o que categoriza uma conta de nível inferior na sua organização.
 
 >[!NOTE]
+>
 >As contas “ruins” citadas acima precisam estar abertas por pelo menos 12 meses sem acumular uma oportunidade fechada ganha. Essa é a diretriz básica para saber se uma oportunidade se tornou obsoleta ou não para os fins do modelo.
 
 ## Mapeamento de lead para conta {#lead-to-account-mapping}
@@ -45,6 +45,7 @@ O mapeamento de lead para conta é uma parte essencial de uma abordagem de ABM e
 Os leads/contatos das contas são validados por seus domínios de email/site e associados ao domínio ou subdomínio de email/site dele. A conta com mais correspondências é usada.
 
 >[!NOTE]
+>
 >Cada lead tenta se corresponder a uma conta na ordem preferencial dos métodos acima. Uma vez que a correspondência é feita, a AccountId é definida imediatamente no lead e este não terá outra correspondência feita por outro método. 
 
 ## Pontuação preditiva de engajamento {#predictive-engagement-score}
@@ -64,6 +65,7 @@ Há muitos componentes que fazem parte do algoritmo que calcula a PES. A recenti
 * Qual a probabilidade de ser fechada e perdida/ganha
 
 >[!NOTE]
+>
 >Você pode observar uma nota “N/D“ ou “-” (o símbolo de traço) na Pontuação preditiva de engajamento de algumas contas.
 
 _Uma nota “N/D” significa que ainda não temos dados suficientes sobre essa conta para que o modelo gere uma nota verdadeira. Quando houver mais dados, o modelo atribuirá uma nota._
@@ -76,16 +78,16 @@ Para começar a usar a PES, basta adicionar o campo PES e a lista relacionada ao
 1. Navegue até **[!UICONTROL Configuração]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Contas]** > **[!UICONTROL Layout da página]**. Em seguida, selecione o layout de página que deseja editar.
 1. Vá para [!UICONTROL Campos] e mova o campo “Pontuação preditiva de engajamento” para a seção Informações da conta.
 
-   ![Layout da página de conta mostrando o campo de Pontuação Preditiva de Envolvimento](assets/1.png)
+   ![](assets/account-marketing-3.png)
 
 1. Por fim, acesse [!UICONTROL Listas Relacionadas] e mova a Lista relacionada “Leads” para o layout da página.
 
-   ![Adicionando lista relacionada a clientes potenciais ao layout da página Conta](assets/2.png)
+   ![](assets/account-marketing-4.jpg)
 
 1. Em seguida, acesse **[!UICONTROL Configuração]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Leads]** > **[!UICONTROL Layout da página]** e selecione os layouts de página apropriados que deseja editar.
 1. Clique em **[!UICONTROL Campos]** e adicione o campo [!UICONTROL Conta] onde achar mais adequado na página.
 
-   ![Layout da página de cliente potencial com o campo Conta adicionado](assets/3.png)
+   ![](assets/account-marketing-5.png)
 
 Pronto!
 

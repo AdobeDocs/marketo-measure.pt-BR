@@ -1,15 +1,14 @@
 ---
-description: Remoção e Supressão de Pontos de Contato - [!DNL Marketo Measure]
+description: Orientação sobre remoção e supressão de pontos de contato para usuários do Marketo Measure
 title: Remoção e supressão do touchpoint
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 2%
+source-wordcount: '653'
+ht-degree: 1%
 
 ---
-
 
 # Remoção e supressão do touchpoint {#touchpoint-removal-and-touchpoint-suppression}
 
@@ -34,38 +33,41 @@ Comece adicionando uma regra e selecionando o Campo que definirá seus critério
 
 Escolha em uma lista de Operadores que estarão relacionados ao próximo conjunto de valores, que você adicionará na próxima coluna.
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/touchpoint-settings-10.png)
 
 >[!TIP]
+>
 >Para adicionar vários valores em um campo, use o operador &quot;corresponde a qualquer&quot; com vírgulas separando cada valor.
 
 >[!TIP]
+>
 >Para considerar um valor em branco ou NULO em um campo, deixe a caixa [!UICONTROL Valor] vazia. Isso levará em conta cenários como avaliação em um ponto de contato sem URL de formulário.
 
 >[!NOTE]
+>
 >Os campos de fórmula não podem ser usados em suas regras e não aparecerão na lista de opções. Como as fórmulas são calculadas em segundo plano e não modificam um registro, o [!DNL Marketo Measure] não pode detectar se um registro se encaixa ou não em uma regra.
 
 `2)` Adicione regras no mesmo grupo para utilizar a lógica &quot;AND&quot; na instrução.
 Ou adicione novas instruções fora do grupo para utilizar a lógica &quot;OR&quot; na instrução.
 
-![Construtor de regras de supressão mostrando lógica AND/OR agrupada](assets/2.png)
+![](assets/touchpoint-settings-11.png)
 
 `3)` Se suas regras se tornam complexas e você precisa recriar grupos e fazer pequenas alterações em cada instrução, use a opção [!UICONTROL Clone] para simplificar as coisas.
 
-![Opção de clonagem para duplicar grupos de regras de supressão](assets/3.png)
+![](assets/touchpoint-settings-6.png)
 
 Se você cometer um erro, não se preocupe. Também é possível excluir linhas individuais da instrução ou grupos completos.
 
-![Excluir ícones de instruções individuais e grupos de regras](assets/4.png)
+![](assets/touchpoint-settings-7.png)
 
 `4)` Configure regras para os pontos de contato de atribuição do comprador se desejar aplicá-las a ambos os objetos. Nossa flexibilidade permite definir regras para um ou ambos os objetos e pode optar por configurá-los para ambos se forem aplicáveis.
 
-![Configuração de regras de supressão de Pontos de contato de Atribuição do Comprador](assets/5.png)
+![](assets/touchpoint-settings-8.png)
 
 Para concluir, [!UICONTROL Salve e processe] suas regras. Se você estiver fazendo muitas alterações, certifique-se de Salvar as alterações ao longo do caminho. [!DNL Marketo Measure] não começará a remover seus Pontos de contato até que você clique em
 [!UICONTROL **Salvar e Processar**].
 
-| Operador | Caso de uso |
+| **Operador** | **Caso de uso** |
 |---|---|
 | É Igual a | Valor único - correspondência exata |
 | Contém | Valor único - contém valor |

@@ -1,15 +1,14 @@
 ---
-description: Usando o Carregador de Dados para Atualizar [!DNL Marketo Measure] Campo de Valor Personalizado - [!DNL Marketo Measure]
+description: Utilização do Carregador de dados para atualizar a orientação do Campo de valor personalizado do Marketo Measure para usuários do Marketo Measure
 title: Utilização do Carregador de dados para atualizar o campo Valor personalizado do Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
-
 
 # Usando o Carregador de Dados para Atualizar o Campo de Valor Personalizado [!DNL Marketo Measure] {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 

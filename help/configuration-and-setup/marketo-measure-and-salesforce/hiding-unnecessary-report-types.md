@@ -1,15 +1,14 @@
 ---
-description: Ocultando Tipos de Relatório Desnecessários - [!DNL Marketo Measure]
+description: Orientação desnecessária para tipos de relatório para usuários do Marketo Measure
 title: Ocultar tipos de relatório desnecessários
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 5%
 
 ---
-
 
 # Ocultar tipos de relatório desnecessários {#hiding-unnecessary-report-types}
 
@@ -25,7 +24,8 @@ Após concluir a instalação e começar a usar relatórios, nem todos os relat�
 
 1. Clique nos relatórios marcados abaixo com um X laranja para que sua lista de relatórios tenha a mesma aparência da imagem abaixo.
 
-   ![&#x200B; 4](assets/1-4.png)
+   ![](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
+>
 >[Salesforce - Ocultar Tipos de Relatório Não Utilizados](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

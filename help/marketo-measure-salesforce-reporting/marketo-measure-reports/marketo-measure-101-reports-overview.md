@@ -3,22 +3,22 @@ description: '[!DNL Marketo Measure] 101 Visão Geral de Relatórios - [!DNL Mar
 title: '[!DNL Marketo Measure] Visão geral de relatórios 101'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '926'
 ht-degree: 5%
 
 ---
 
-
 # [!DNL Marketo Measure] Visão geral de relatórios 101 {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
+>
 >Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” em seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
 Todos os clientes do [!DNL Marketo Measure] que usam o [!DNL Marketo Measure] e o [!DNL Salesforce] têm acesso à pasta &#39;Relatórios de Pontos de Contato do Comprador&#39; em suas instâncias do SFDC. Esta pasta contém vários relatórios pré-criados que podem ajudar você a começar a criar relatórios com dados do Buyer Touchpoint.
 
-![Pasta de Relatórios de Pontos de Contato do Comprador da Salesforce no Marketo Measure 101](assets/bizible-101-reports-overview-1.png)
+![](assets/bizible-guide-1.png)
 
 Embora muitos desses relatórios já tenham metas de relatórios específicas estabelecidas, há seis &quot;_[!DNL Marketo Measure]101..._&quot; representados por três tipos de relatórios principais que cobrem a maioria das necessidades de relatórios.
 
@@ -26,7 +26,7 @@ Embora muitos desses relatórios já tenham metas de relatórios específicas es
 * [!DNL Marketo Measure] Pessoas com pontos de contato do comprador
 * Pontos de contato da atribuição do comprador com oportunidades
 
-![Exemplo de lista de relatórios 101 do Marketo Measure no Salesforce](assets/bizible-101-reports-overview-2.png)
+![](assets/bizible-guide-2.png)
 
 Esses relatórios fornecem os campos básicos e a infraestrutura necessários para qualquer relatório relacionado ao [!DNL Marketo Measure] que você deseja criar. Recomendamos que todos os clientes, novos e antigos, comecem com esses relatórios ao explorar perguntas de atribuição de marketing. Abaixo você encontrará uma explicação de cada um dos seis relatórios &quot;_[!DNL Marketo Measure]101..._&quot;.
 

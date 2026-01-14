@@ -1,21 +1,22 @@
 ---
-description: Instalação e Configuração do Pacote Salesforce [!DNL Marketo Measure] - [!DNL Marketo Measure]
-title: '[!DNL Marketo Measure] [!DNL Salesforce] Instalação e configuração do pacote'
+description: Instalação e Configuração do Pacote Salesforce - [!DNL Marketo Measure]
+title: Instalação e Configuração do Pacote [!DNL Salesforce]
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 91%
+source-wordcount: '504'
+ht-degree: 94%
 
 ---
 
-
-# [!DNL Marketo Measure] Instalação e configuração do pacote Salesforce {#marketo-measure-salesforce-package-installation-and-set-up}
+# Instalação do pacote Salesforce{#marketo-measure-salesforce-package-installation}
 
 Antes de instalar o pacote básico do [!DNL Salesforce] [!DNL Marketo Measure], você precisa determinar se o instalará em uma sandbox do [!DNL Salesforce] antes de migrar para a instância de produção do Salesforce.
 
 >[!NOTE]
+>
 >Uma vez que a conta do [!DNL Marketo Measure] está conectada a uma instância de produção do [!DNL Salesforce], não é possível mover-se para trás e se conectar a uma sandbox. Além disso, uma conta do [!DNL Marketo Measure] só pode ser conectada a uma instância de produção do [!DNL Salesforce].
 
 O pacote básico do [!DNL Marketo Measure] contém:
@@ -36,15 +37,16 @@ Siga as etapas abaixo para instalar o pacote básico do [!DNL Marketo Measure Sa
 
 1. Selecione **[!UICONTROL Instalar] para Todos os usuários**.
 
-   ![caixa de diálogo de instalação do Salesforce AppExchange para o pacote do Marketo Measure](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
+   ![](assets/bizible-full-1.png)
 
 1. Quando a instalação estiver concluída, você poderá visualizá-la.
 
-   ![Página de detalhes do pacote do Marketo Measure instalada no Salesforce](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
+   ![](assets/bizible-taxonomy-1.png)
 
 Após concluir a instalação, você pode atualizar os [[!DNL Salesforce] layouts de página](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} com os campos [!DNL Marketo Measure], se desejar.
 
 >[!NOTE]
+>
 >Leia sobre a criação de conjuntos de permissões do [!DNL Marketo Measure] e [como eles são usados](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Criação de um Perfil e usuário do [!DNL Marketo Measure] {#creating-a-marketo-measure-profile-and-user}
@@ -65,6 +67,7 @@ Etapa 1: Criar um perfil específico do [!DNL Marketo Measure]
    * Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver habilitado, poderá haver grandes lacunas no rastreamento de dados.
 
 >[!NOTE]
+>
 >Este perfil pode ser um clone de um perfil de Administrador do sistema.
 
 Etapa 2: Criar um usuário dedicado do [!DNL Marketo Measure] para que você possa acompanhar o impacto do [!DNL Marketo Measure] em sua instância do [!DNL Salesforce]
@@ -88,5 +91,7 @@ Etapa 4: fazer logon na conta do [!DNL Marketo Measure] e reautorizar a conexão
 1. Clique no ícone de Chave à direita da conexão do [!DNL Salesforce] atual e selecione **Reautorizar com a produção**. Faça novamente o logon com as novas credenciais de usuário (se solicitado).
 
 >[!MORELIKETHIS]
-> [Visão geral das permissões de integração](/help/api-connections/integration-permissions-overview.md){target="_blank"}
-> [Instalação do Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>
+>* [Visão geral das permissões de integração](/help/api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Configuração do Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

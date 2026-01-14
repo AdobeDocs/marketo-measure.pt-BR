@@ -1,21 +1,21 @@
 ---
-description: Criando uma Exibição da Lista de Campanhas para [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
+description: Criando uma Exibição da Lista de Campanhas [!DNL Salesforce] Orientação de campanhas para usuários do Marketo Measure
 title: 'Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] '
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
-
 
 # Criando uma Exibição da Lista de Campanhas para [!DNL Salesforce] Campanhas {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Saiba como criar uma Exibição de lista para as campanhas que você deseja sincronizar com os Pontos de contato do comprador.
 
 >[!NOTE]
+>
 >Este artigo aborda um processo desatualizado. Recomendamos que os usuários usem o [processo novo e aprimorado do aplicativo](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 A exibição de lista do Campaign que pode ser criada permite que você tenha um local &quot;ir para&quot; para ver e gerenciar os campos &quot;Tipo&quot; e &quot;Habilitar pontos de contato do comprador&quot; para garantir que cada uma das campanhas do [!DNL Salesforce] que informam aos canais de marketing offline seja configurada corretamente.
@@ -42,4 +42,5 @@ A exibição de lista do Campaign que pode ser criada permite que você tenha um
    * Verifique se você tem permissões para os campos
 
 >[!MORELIKETHIS]
+>
 >[Resolvendo problemas comuns com a Edição Embutida do Modo de Exibição de Lista](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

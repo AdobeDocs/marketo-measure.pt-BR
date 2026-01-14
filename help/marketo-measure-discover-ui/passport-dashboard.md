@@ -1,15 +1,15 @@
 ---
-description: Painel do Passport - [!DNL Marketo Measure] - Produto
+description: Descreve o painel do Passport que controla como os contatos de clientes potenciais e as oportunidades se movem em estágios ao longo do tempo
 title: Painel de passaporte
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
-
 
 # Painel de passaporte {#passport-dashboard}
 
@@ -31,7 +31,7 @@ O painel Passport oferece aos profissionais de marketing uma visualização din�
 * Estágios terminais como &quot;Ganhado fechado&quot; e &quot;Perdido fechado&quot; são excluídos.
 * As datas de início e término são inclusivas.
 
-![Painel do Passport mostrando oportunidades no estágio por nome de estágio](assets/passport-dashboard-1.png)
+![](assets/passport-dashboard-1.png)
 
 ### Clientes Potenciais ou Contatos em Preparo por Nome do Estágio {#leads-or-contacts-in-stage-by-stage-name}
 
@@ -41,7 +41,7 @@ O painel Passport oferece aos profissionais de marketing uma visualização din�
 * Estágios terminais como &quot;Ganhado fechado&quot; e &quot;Perdido fechado&quot; são excluídos.
 * As datas de início e término são inclusivas.
 
-![Painel do Passport mostrando clientes em potencial ou contatos em estágio por nome de estágio](assets/passport-dashboard-2.png)
+![](assets/passport-dashboard-2.png)
 
 ## Painel de Filtro {#filter-pane}
 
@@ -53,5 +53,6 @@ Esse painel é equipado com as seguintes configurações e filtros:
 * Segmentos
 
 >[!MORELIKETHIS]
-> [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Noções básicas do painel do Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Política de Visibilidade de Dados do Painel](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

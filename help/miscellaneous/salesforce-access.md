@@ -1,15 +1,15 @@
 ---
-description: Concedendo [!DNL Salesforce] Acesso a [!DNL Marketo Measure] Suporte - [!DNL Marketo Measure]
+description: Conceder [!DNL Salesforce] acesso às orientações de suporte da Marketo Measure para usuários do Marketo Measure
 title: Concedendo  [!DNL Salesforce] Acesso ao Suporte da Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
-
 
 # Conceder acesso de [!DNL Salesforce] ao suporte da Marketo Measure {#granting-salesforce-access-to-marketo-measure-support}
 

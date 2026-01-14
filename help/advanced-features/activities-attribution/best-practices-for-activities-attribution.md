@@ -1,15 +1,14 @@
 ---
-description: Práticas recomendadas para atribuição de atividades - [!DNL Marketo Measure]
+description: Diretrizes de atribuição de práticas recomendadas para atividades para usuários do Marketo Measure
 title: Práticas recomendadas para atribuição de atividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
-
 
 # Práticas recomendadas para atribuição de atividades {#best-practices-for-activities-attribution}
 
@@ -30,6 +29,7 @@ Se você estiver definindo Regras de atividade pela primeira vez ou apenas revis
    * Como mencionado, o principal caso de uso desse recurso é criar pontos de contato que rastreiam a eficácia da sua equipe de desenvolvimento de vendas, especificamente chamadas telefônicas de saída e emails de saída
 
 >[!NOTE]
+>
 >**NÃO** é recomendado rastrear as Atividades de Vendas que ocorrem após a criação da Oportunidade, pois o rastreamento de um processo de Executivos de Vendas não oferece muita insight. O objetivo é rastrear a influência das vendas ao lado da influência do marketing, principalmente no desenvolvimento de uma nova geração de oportunidades/pipeline
 
 * Não usar campos de fórmula para definir suas regras
@@ -51,5 +51,6 @@ Outros motivos para isso podem acionar uma revisão das regras de atividade:
 * Alterações ou atualizações nas ferramentas de ativação de vendas
 
 >[!MORELIKETHIS]
-> [Atribuição de atividades](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Perguntas frequentes sobre Atribuição de Atividades de Vendas](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>
+>* [Atribuição de atividades](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Perguntas frequentes sobre atribuição de atividades de vendas](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

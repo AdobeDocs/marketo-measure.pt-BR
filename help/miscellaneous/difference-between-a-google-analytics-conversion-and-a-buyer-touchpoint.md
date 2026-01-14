@@ -1,15 +1,14 @@
 ---
-description: Diferença entre uma conversão do Google Analytics e um Buyer Touchpoint
+description: Diferença entre uma Conversão do Google Analytics e uma orientação do Buyer Touchpoint para usuários do Marketo Measure
 title: Diferença entre uma conversão do Google Analytics e um Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 7%
+source-wordcount: '500'
+ht-degree: 5%
 
 ---
-
 
 # Diferença entre uma conversão do Google Analytics e um Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
@@ -21,39 +20,39 @@ As conversões de [!UICONTROL Google Analytics] são determinadas pela maneira c
 
 No entanto, as metas não podem ser codificadas para gerenciar comportamentos específicos. Em vez disso, há Tipos de metas que um desenvolvedor da Web pode configurar. Abaixo estão alguns desses exemplos:
 
-<table>
- <colgroup>
-  <col>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td><strong>Tipo de meta</strong></td>
-   <td><p><strong>Descrição</strong></p></td>
-   <td><strong>Exemplo</strong></td>
-  </tr>
-  <tr>
-   <td><p>Destino</p></td>
-   <td>Um local específico é carregado</td>
-   <td><em>Obrigado por se registrar!Página da Web ou tela do aplicativo </em></td>
-  </tr>
-  <tr>
-   <td>Duração</td>
-   <td>Sessões que duram uma quantidade específica de tempo ou mais</td>
-   <td>10 minutos ou mais em um site de suporte</td>
-  </tr>
-  <tr>
-   <td>Páginas/Screens por sessão</td>
-   <td>Um usuário visualiza um número específico de páginas ou telas</td>
-   <td>5 páginas ou telas foram carregadas</td>
-  </tr>
-  <tr>
-   <td>Evento</td>
-   <td>Uma ação definida como um Evento é acionada</td>
-   <td>Recomendação social, reprodução e clique</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td><strong>Tipo de meta</strong></td> 
+   <td><p><strong>Descrição</strong></p></td> 
+   <td><strong>Exemplo</strong></td> 
+  </tr> 
+  <tr> 
+   <td><p>Destino</p></td> 
+   <td>Um local específico é carregado</td> 
+   <td><em>Obrigado por se registrar!Página da Web ou tela do aplicativo </em></td> 
+  </tr> 
+  <tr> 
+   <td>Duração</td> 
+   <td>Sessões que duram uma quantidade específica de tempo ou mais</td> 
+   <td>10 minutos ou mais em um site de suporte</td> 
+  </tr> 
+  <tr> 
+   <td>Páginas/Screens por sessão</td> 
+   <td>Um usuário visualiza um número específico de páginas ou telas</td> 
+   <td>5 páginas ou telas foram carregadas</td> 
+  </tr> 
+  <tr> 
+   <td>Evento</td> 
+   <td>Uma ação definida como um Evento é acionada</td> 
+   <td>Recomendação social, reprodução e clique</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 A maioria dos profissionais de marketing configura suas conversões como &quot;Metas de destino&quot;, o que significa que geralmente criam uma página de agradecimento após um formulário para considerar que é uma conversão formal.

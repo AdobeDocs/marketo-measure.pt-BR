@@ -1,19 +1,19 @@
 ---
-description: Registros Duplicados e [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Registros duplicados e  [!DNL Marketo Measure] orientação para usuários do Marketo Measure
 title: Registros duplicados e [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 12%
 
 ---
 
-
 # Registros Duplicados e [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
+>
 >Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” em seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
 [!DNL Marketo Measure] usa o endereço de email como um identificador exclusivo ao corresponder dados a um cliente potencial ou contato relacionado no CRM. Quando o [!DNL Marketo Measure] encontra vários Clientes Potenciais ou Contatos com o mesmo endereço de email, exibimos os mesmos dados em todos os registros. O impacto disso ocorre quando você está relatando os Clientes Potenciais ou Contatos com [!DNL Marketo Measure] e pode aumentar incorretamente o número de pessoas únicas que têm Pontos de Contato do Comprador.
@@ -22,7 +22,7 @@ Como isso se parece nos Relatórios de [!DNL Marketo Measure]?
 
 _Exemplo de relatório: [!DNL Marketo Measure] Pessoas com Pontos de Contato do Comprador._
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/additional-functionality-1.png)
 
 Você pode ver para a ID de pessoa [!DNL Marketo Measure] de kelsey@adobe.com que há um cliente potencial e um contato que existem com esse endereço de email. Nesse relatório, são relatados 2 primeiros toques, dois toques de criação de leads e duas interações PostLC. Esses registros duplicados compartilham informações de data e ponto de contato, o que pode levar à conclusão de que são duas pessoas diferentes, apesar de serem a mesma pessoa.
 

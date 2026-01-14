@@ -1,15 +1,14 @@
 ---
-description: Práticas recomendadas para segmentação -  [!DNL Marketo Measure]
+description: Práticas recomendadas de orientação de segmentação para usuários do Marketo Measure
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 98%
 
 ---
-
 
 # Práticas recomendadas para segmentação {#best-practices-for-segmentation}
 
@@ -49,4 +48,5 @@ Outros motivos que podem acionar uma revisão da sua segmentação incluem...
 * Adições ou alterações nos segmentos que já foram estabelecidas
 
 >[!MORELIKETHIS]
+>
 >[Como configurar a segmentação personalizada](/help/advanced-features/segmentation/custom-segmentation.md)

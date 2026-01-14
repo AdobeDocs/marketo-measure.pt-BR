@@ -1,12 +1,12 @@
 ---
-description: Práticas recomendadas para canais online -  [!DNL Marketo Measure]
+description: Orientação de práticas recomendadas para canais online para usuários do Marketo Measure
 title: Práticas recomendadas para Canais online
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 98%
+source-wordcount: '616'
+ht-degree: 96%
 
 ---
 

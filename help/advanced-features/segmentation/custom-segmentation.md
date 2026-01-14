@@ -1,15 +1,14 @@
 ---
-description: Segmentação personalizada - [!DNL Marketo Measure]
+description: Orientação de segmentação personalizada para usuários do Marketo Measure
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
-
 
 # Segmentação personalizada {#custom-segmentation}
 
@@ -26,6 +25,7 @@ A Segmentação personalizada pode ser usada para ver dados de um tipo de regist
 **Como configurá-la?**
 
 >[!NOTE]
+>
 >A atualização de regras de segmento reprocessará os dados históricos.
 
 Etapa 1 - Determinar quais informações você deseja ver.
@@ -42,7 +42,7 @@ Etapa 3 - Entender os componentes.
 
 * Use esta legenda para entender os vários ícones encontrados nesta página
 
-![Legenda de segmentos mostrando ícones usados no administrador](assets/1.png)
+![](assets/segmentation-segmentation-2.png)
 
 Etapa 4 - Adicionar regras de filtro.
 
@@ -50,13 +50,14 @@ Etapa 4 - Adicionar regras de filtro.
 * Clique no sinal de mais para adicionar um segmento
 * Informe um nome de Segmento. Por exemplo, você pode ter um segmento para novos negócios, parceiros, renovação ou venda adicional
 
-![Adicionando uma categoria e um nome de segmento no Marketo Measure](assets/2.png)
+![](assets/segmentation-segmentation-3.png)
 
 * Clique no ícone de adição para revelar os campos de entrada da regra. As opções na lista de opções Campo extrai campos diretamente do seu CRM
 
-![Campos de entrada de regra para definir um filtro de segmento](assets/3.png)
+![](assets/segmentation-segmentation-4.png)
 
 >[!NOTE]
+>
 >Os campos de fórmula não podem ser usados em suas regras e não aparecerão na lista de opções. Como as fórmulas são calculadas em segundo plano e não modificam um registro, o [!DNL Marketo Measure] não pode detectar se um registro se encaixa ou não em uma regra.
 
 * A opção [!UICONTROL Value] não é uma lista suspensa e seu valor deve ser inserido manualmente. Certifique-se de verificar os valores em sua organização do Salesforce

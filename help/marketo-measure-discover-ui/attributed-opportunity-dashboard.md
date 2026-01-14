@@ -1,15 +1,15 @@
 ---
-description: Painel de Oportunidades Atribuído - [!DNL Marketo Measure] - Produto
+description: Abrange o painel Oportunidade atribuída, que mostra os valores e contagens de oportunidades por subcanal de canal e campanha ao longo do tempo
 title: Painel de oportunidades atribuídas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
-
 
 # Painel de oportunidades atribuídas {#attributed-opportunity-dashboard}
 
@@ -39,7 +39,7 @@ Gráfico de barras empilhadas exibindo o Total de oportunidades atribuídas, seg
 * Quais canais geraram o valor de oportunidade mais atribuído a cada trimestre?
 * Qual foi o detalhamento do valor de oportunidade atribuído por canal no mês passado?
 
-![Quantidade de oportunidades atribuída por canal ao longo do gráfico de tempo](assets/attributed-opportunity-dashboard-1.png)
+![](assets/attributed-dashboard-3.png)
 
 ### Tabela de Valores de Oportunidades Atribuídos {#attributed-opportunity-amount-table}
 
@@ -56,7 +56,7 @@ A exibição em tabelas oferece insights claros e organizados da distribuição 
 
 Clique no ícone **+** ao lado de cada Canal para revelar o detalhamento por Subcanal e Campanha.
 
-![Exibição tabular da quantidade de oportunidades atribuída por canal e campanha](assets/attributed-opportunity-dashboard-2.png)
+![](assets/attributed-dashboard-1.png)
 
 #### Visualização em árvore {#tree-view}
 
@@ -64,7 +64,7 @@ A visualização em árvore permite uma exploração de dados mais interativa e 
 
 Clique em uma ramificação para se aprofundar na camada de hierarquia subsequente.
 
-![Hierarquia de exibição em árvore de valor de oportunidade atribuída](assets/attributed-opportunity-dashboard-3.png)
+![](assets/attributed-dashboard-2.png)
 
 ### Painel de Filtro
 

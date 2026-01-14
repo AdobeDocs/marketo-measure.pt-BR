@@ -1,15 +1,14 @@
 ---
-description: Práticas recomendadas para o modelo personalizado - [!DNL Marketo Measure]
+description: Práticas recomendadas para orientação de Modelo personalizado para usuários do Marketo Measure
 title: Práticas recomendadas para o modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
-
 
 # Práticas recomendadas para o modelo personalizado {#best-practices-for-custom-model}
 
@@ -24,6 +23,7 @@ Há dois aspectos principais do seu Modelo de atribuição personalizado:
 **Estágios Personalizados** permitem que os usuários definam sua funnel como ela está relacionada aos seus negócios e processos. Os Estágios personalizados devem representar &quot;marcos&quot; em toda a jornada do comprador, de modo semelhante aos marcos [!DNL Marketo Measure] (Primeiro contato, Toque de criação de lead, Toque de criação de oportunidade e Toque ganho fechado) nos modelos de atribuição de estoque. É crucial que seus estágios personalizados sejam definidos e mapeados corretamente na sua conta para garantir que o [!DNL Marketo Measure] esteja rastreando adequadamente as transições de estágios. Isso serve para identificar quais pontos de contato devem ser associados a cada estágio e atribuir o crédito adequadamente. O mapeamento de estágio personalizado é essencialmente uma extensão do &quot;Mapeamento de estágio&quot; padrão e deve seguir as mesmas práticas.
 
 >[!NOTE]
+>
 >Consulte o recurso Práticas recomendadas de mapeamento de preparo para obter mais detalhes
 
 A **Modelagem de atribuição personalizada** é definida assim que você seleciona a funnel de estágios personalizados. Os usuários podem controlar quanto crédito de atribuição deve ser atribuído a cada estágio personalizado, bem como aos [!DNL Marketo Measure] estágios de marco. Os usuários podem atribuir crédito a cada estágio da maneira que acharem adequada ou fazer referência ao Modelo de Aprendizado de Máquina do [!DNL Marketo Measure] que atua como um &quot;modelo sugestivo&quot; com base em dados históricos.
@@ -68,6 +68,7 @@ Outros motivos para isso podem acionar uma revisão do Modelo personalizado incl
 * Ver posições de ponto de contato preenchidas que não são mais relevantes para a funnel de suas organizações
 
 >[!MORELIKETHIS]
-> [Configuração e modelo de atribuição personalizados](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Habilitar O Rastreamento Do Histórico De Campos Para O Modelo Personalizado &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Modelo de Aprendizado de Máquina](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+>
+>* [Configuração e modelo de atribuição personalizados](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Habilitar O Rastreamento Do Histórico De Campos Para O Modelo Personalizado](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+>* [Modelo de aprendizado de máquina](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

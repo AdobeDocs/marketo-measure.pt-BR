@@ -1,15 +1,14 @@
 ---
-description: Gasto de marketing de relatório
+description: Orientação de gastos com marketing para usuários do Marketo Measure
 title: Gasto de marketing de relatório
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
-
 
 # Gasto de marketing de relatório {#report-marketing-spend}
 
