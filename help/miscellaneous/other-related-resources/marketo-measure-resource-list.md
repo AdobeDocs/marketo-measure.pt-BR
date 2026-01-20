@@ -20,7 +20,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a come
 **Conhecimento Geral**
 
 * [O que é atribuição de marketing?](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-* [Modelos de atribuição do [!DNL Marketo Measure] ](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+* [Modelos de atribuição do [!DNL Marketo Measure] &#x200B;](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
 
 **Configuração**
 

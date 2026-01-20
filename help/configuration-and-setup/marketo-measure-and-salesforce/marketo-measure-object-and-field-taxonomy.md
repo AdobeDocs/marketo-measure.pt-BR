@@ -19,7 +19,7 @@ Abaixo está um fluxograma que representa como [!DNL Marketo Measure] Objetos Pe
 
 Para a imagem em tamanho real, [clique aqui](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [ podem ser encontradas aqui](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [&#x200B; podem ser encontradas aqui](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
 ## Perguntas frequentes {#faq}
 

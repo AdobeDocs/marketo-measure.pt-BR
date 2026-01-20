@@ -18,9 +18,9 @@ ht-degree: 88%
 + Introdução ao [!DNL Marketo Measure] {#introduction-to-marketo-measure}
    + Visão geral dos recursos {#overview-resources}
       + [Atribuição de marketing](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-      + [Modelos de atribuição do [!DNL Marketo Measure] ](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+      + [Modelos de atribuição do [!DNL Marketo Measure] &#x200B;](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [Estrutura do [!DNL Marketo Measure]](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
-      + [Glossário de campos do  [!DNL Marketo Measure] ](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+      + [Glossário de campos do  [!DNL Marketo Measure] &#x200B;](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 + Acompanhamento de [!DNL Marketo Measure] {#marketo-measure-tracking}
    + Configuração do rastreamento {#setting-up-tracking}
       + [Práticas recomendadas para implementação do  [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
@@ -60,7 +60,7 @@ ht-degree: 88%
       + [Tratamento de erros para exportações do CRM](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [Como [!DNL Marketo Measure] e [!DNL Salesforce] interagir](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] Taxonomia de objeto e campo](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
-      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] ](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
+      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] &#x200B;](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [Instruções de layout da página](configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
       + [Ocultar tipos de relatório desnecessários](configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
       + [Criação de um [!DNL Marketo Measure] perfil](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
@@ -87,7 +87,7 @@ ht-degree: 88%
       + Processos herdados {#legacy-processes}
          + [[!UICONTROL Campanhas e membros da campanha]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
          + [Datas de sincronização da campanha](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-         + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] ](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] &#x200B;](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
          + [Campanhas do Dynamics e listas de marketing](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
          + [Sincronização de dados históricos](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [Sincronização de campanhas offline](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)

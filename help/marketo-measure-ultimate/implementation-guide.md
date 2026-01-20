@@ -56,7 +56,7 @@ Recomendamos usar um utilitário de geração automática para criar dez esquema
 
 * As etapas para baixar e configurar o utilitário [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=pt-BR#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para aqueles com _**direito a CDP**_: crie esquemas acessando a página Origens.
+Para aqueles com _&#x200B;**direito a CDP**&#x200B;_: crie esquemas acessando a página Origens.
 
 * Na Origem, selecione Adicionar Dados > Usar modelos
 
