@@ -1,5 +1,5 @@
 ---
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -8,6 +8,7 @@ ht-degree: 100%
 # Código de conduta da Adobe
 
 ## Nosso compromisso
+
 
 Para incentivar um ambiente aberto e acolhedor, nós, como contribuidores e administradores, temos o compromisso de participar para que nosso projeto e
 nossa comunidade tenham uma experiência livre de ataques para todos, independentemente da idade, do corpo,
