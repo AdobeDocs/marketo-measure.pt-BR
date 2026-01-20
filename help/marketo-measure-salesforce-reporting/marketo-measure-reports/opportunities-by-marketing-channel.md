@@ -35,4 +35,4 @@ Este relatório mostra o número de oportunidades geradas pelos seus Canais de m
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriais: Relatórios do Stock SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriais: Relatórios do Stock SFDC](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

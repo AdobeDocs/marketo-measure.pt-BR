@@ -42,4 +42,4 @@ Exemplo na captura de tela abaixo
 
 * É provável que você tenha vários modelos de página de aterrissagem em uso. Certifique-se de adicionar o código a todos os modelos que contêm formulários.
 
-* Às vezes, ao editar o template para landing pages, você deve reaprovar as páginas usadas pela landing page. Este artigo explica [como aprovar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"} em massa.
+* Às vezes, ao editar o template para landing pages, você deve reaprovar as páginas usadas pela landing page. Este artigo explica [como aprovar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=pt-BR){target="_blank"} em massa.
