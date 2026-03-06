@@ -59,7 +59,7 @@ Membros da campanha estão aninhados em [!UICONTROL Campanhas] e estão relacion
 
 Se habilitado, o [!DNL Marketo Measure] enviará um valor de status para membros da campanha em 4 campos diferentes incluídos no pacote instalado: Status do ponto de contato (lead), Status do ponto de contato (contato), Status do ponto de contato (oportunidade) e Data do status do ponto de contato. Isso ajuda clientes a auditar se um ponto de contato foi criado como um Buyer Touchpoint ou Buyer Attribution Touchpoint, dependendo do objeto ao qual ele está relacionado. A data do status do ponto de contato é simplesmente a última data em que o status foi atualizado no membro da campanha.
 
-![Se habilitada, a Marketo Measure enviará um valor de status por push para o ](assets/dynamics-lists-3.png)
+![Se habilitada, a Marketo Measure enviará um valor de status por push para o &#x200B;](assets/dynamics-lists-3.png)
 
 ## Data do Buyer Touchpoint {#buyer-touchpoint-date}
 

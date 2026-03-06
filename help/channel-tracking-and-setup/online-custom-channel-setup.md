@@ -32,7 +32,7 @@ O que deve ser lembrado:
 
 O primeiro passo é baixar a planilha de canal personalizada do aplicativo [!DNL Marketo Measure]. Navegue até **Configurações** na guia **Minha conta** e selecione **Online**. Você pode selecionar **Baixar modelo original** ou **Baixar as regras atuais**.
 
-![A primeira etapa é baixar a planilha do canal personalizado no ](assets/online-channels-1.png)
+![A primeira etapa é baixar a planilha do canal personalizado no &#x200B;](assets/online-channels-1.png)
 
 A planilha tem sete colunas:
 

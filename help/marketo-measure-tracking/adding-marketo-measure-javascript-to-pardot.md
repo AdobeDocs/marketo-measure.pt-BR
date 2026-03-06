@@ -28,7 +28,7 @@ Depois de fazer logon na conta do [!DNL Pardot], siga as etapas abaixo.
 
 1. Determine o Modelo de layout apropriado e clique em **[!UICONTROL Editar]** à direita.
 
-   ![1. Determine o Modelo de layout apropriado e clique em Editar para o ](assets/adding-pages-1.png)
+   ![1. Determine o Modelo de layout apropriado e clique em Editar para o &#x200B;](assets/adding-pages-1.png)
 
 1. Copie e cole o código JavaScript [!DNL Marketo Measure] logo antes da marca de fechamento de cabeçalho na página do HTML.
 

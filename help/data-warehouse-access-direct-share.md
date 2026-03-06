@@ -28,7 +28,7 @@ O [!DNL Marketo Measure] só poderá configurar Compartilhamentos Diretos da Sno
 
 Abra a seção **Configurações** no aplicativo Marketo Measure e navegue até a página **Data Warehouse**. Na seção **Compartilhamento Direto**, digite sua [ID da conta da Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} na caixa fornecida e clique em **Conectar**.
 
-![Abra a seção Configurações no aplicativo Marketo Measure e navegue até ](assets/data-share-1.png)
+![Abra a seção Configurações no aplicativo Marketo Measure e navegue até &#x200B;](assets/data-share-1.png)
 
 ## Acesso ao compartilhamento {#accessing-the-share}
 

@@ -46,7 +46,7 @@ Saiba mais sobre o [Marketo Measure Ultimate](/help/migration-from-tier-to-marke
 
 &#42; _Um esquema compreende uma classe e zero ou mais grupos de campos de esquema. Isso significa que você pode compor um esquema de conjunto de dados sem usar grupos de campos._
 
-![&amp;42; Um esquema compreende uma classe e zero ou mais campos de esquema](assets/marketo-guide-1.png)
+![&42; Um esquema compreende uma classe e zero ou mais campos de esquema](assets/marketo-guide-1.png)
 
 [Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: todos os dados assimilados com êxito na AEP são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, geralmente uma tabela, que contém um esquema (colunas) e campos (linhas).
 
@@ -56,7 +56,7 @@ Recomendamos usar um utilitário de geração automática para criar dez esquema
 
 * As etapas para baixar e configurar o utilitário [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=pt-BR#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Para aqueles com _**direito a CDP**_: crie esquemas acessando a página Origens.
+Para aqueles com _&#x200B;**direito a CDP**&#x200B;_: crie esquemas acessando a página Origens.
 
 * Na Origem, selecione Adicionar Dados > Usar modelos
 

@@ -26,10 +26,10 @@ Se a organização da SFDC usar vários tipos de registro de campanha, os valore
 
 1. Aqui você é trazido para a tela com as listas de seleção disponíveis para esse tipo de registro. Selecione **[!UICONTROL Editar]** ao lado do campo &quot;Habilitar pontos de contato do comprador&quot;.
 
-   ![1. Aqui você é trazido para a tela com as listas de opções disponíveis para ](assets/offline-channels-18.jpg)
+   ![1. Aqui você é trazido para a tela com as listas de opções disponíveis para &#x200B;](assets/offline-channels-18.jpg)
 
 1. Adicione todos os três valores do agrupamento &quot;Valores Disponíveis&quot; ao agrupamento &quot;Valores Selecionados&quot;.
 
-   ![1. Adicione todos os três valores do agrupamento &quot;Valores Disponíveis&quot; ao ](assets/offline-channels-10.jpg)
+   ![1. Adicione todos os três valores do agrupamento &quot;Valores Disponíveis&quot; ao &#x200B;](assets/offline-channels-10.jpg)
 
 1. Defina o valor padrão como &quot;None&quot; e clique em **[!UICONTROL Salvar]**. Repita o procedimento para qualquer tipo de registro de campanha adicional.

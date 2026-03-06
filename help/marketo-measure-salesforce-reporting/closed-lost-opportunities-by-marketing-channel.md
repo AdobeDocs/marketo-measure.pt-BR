@@ -20,7 +20,7 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 1. Na localização rápida, digite &quot;Atribuição de Bizible&quot;, selecione o **[!UICONTROL Ponto de Contato de Atribuição de Bizible com o tipo de relatório Oportunidade]** e selecione **[!UICONTROL Criar]**.
 
-   ![1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione o ](assets/bizible-guide-2.png)
+   ![1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione o &#x200B;](assets/bizible-guide-2.png)
 
 1. A partir da parte superior do relatório, mostre &quot;[!UICONTROL Todos os pontos de contato de atribuição da Bizible]&quot; e ajuste o campo de data de acordo com o período no qual você deseja criar o relatório. No nosso exemplo, estamos olhando para Todos os Tempos. Além disso, altere o formato do relatório de Tabular para Resumo.
 
@@ -30,11 +30,11 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 1. Agora, adicionaremos campos ao relatório. Na localização rápida à esquerda, digite &quot;Canal de marketing&quot; e adicione-o ao agrupamento de resumo no relatório.
 
-   ![1. Agora, adicionaremos campos ao relatório. No ](assets/bizible-guide-4.png)
+   ![1. Agora, adicionaremos campos ao relatório. No &#x200B;](assets/bizible-guide-4.png)
 
 1. Em seguida, adicionaremos um filtro para observar apenas as Ops perdidas fechadas. Na localização rápida à esquerda, procure o campo &quot;Preparo&quot; e arraste-o para a área de filtro.
 
-   ![1. Em seguida, adicionaremos um filtro para observar somente ](assets/marketo-reports-16.jpg)
+   ![1. Em seguida, adicionaremos um filtro para observar somente &#x200B;](assets/marketo-reports-16.jpg)
 
 1. A partir daí, você selecionará a lupa para escolher os estágios que utilizar para as oportunidades &quot;Perdidas Fechadas&quot;. No nosso caso, usaremos o nome padrão &quot;Perda fechada&quot;.
 

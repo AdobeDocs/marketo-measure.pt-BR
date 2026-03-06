@@ -29,7 +29,7 @@ Para habilitar o rastreamento do histórico de campos, siga as instruções abai
 
 1. Acesse o objeto que contém o campo personalizado e clique em **[!UICONTROL Definir rastreamento de histórico]**.
 
-   ![1. Vá para o Objeto onde o campo personalizado está e clique em ](assets/custom-models-1.png)
+   ![1. Vá para o Objeto onde o campo personalizado está e clique em &#x200B;](assets/custom-models-1.png)
 
 1. Selecione os campos nos quais deseja acompanhar as alterações.
 

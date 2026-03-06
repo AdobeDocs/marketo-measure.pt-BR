@@ -32,6 +32,6 @@ Pronto para uso, você tem muitos recursos de relatórios na ponta dos dedos qua
 
 1. Para as relações de objeto, selecione o objeto **[!DNL Marketo Measure]Pessoas** como o objeto secundário. Selecione o relacionamento A para B como, &quot;Cada registro &#39;A&#39; deve ter pelo menos um registro &#39;B&#39; relacionado.&quot; Lá, você relacionará o objeto &quot;Buyer Touchpoint&quot; e selecionará o mesmo relacionamento entre os objetos B e C.
 
-   ![1. Para as relações de objeto, selecione o objeto Pessoas da Marketo Measure ](assets/bizible-guide-2.png)
+   ![1. Para as relações de objeto, selecione o objeto Pessoas da Marketo Measure &#x200B;](assets/bizible-guide-2.png)
 
 1. Salve e comece a criar alguns relatórios!

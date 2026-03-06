@@ -44,7 +44,7 @@ O modelo de Atribuição personalizada [!DNL Marketo Measure] permite que os usu
 
    No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um campo de data. A regra simplesmente declara que, se o campo Data MQL não estiver vazio, ele deverá ser considerado um MQL e deverá ser incluído no modelo personalizado. Também é importante classificar os estágios personalizados depois de criados, para que sigam a progressão do ciclo de vendas.
 
-   ![No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um ](assets/custom-models-10.png)
+   ![No exemplo abaixo, um estágio &quot;MQL&quot; personalizado é definido usando um &#x200B;](assets/custom-models-10.png)
 
    >[!CAUTION]
    >

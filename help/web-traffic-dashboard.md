@@ -89,7 +89,7 @@ Perguntas que o gráfico responde:
 * Qual canal/subcanal/campanha atrai o maior número de visitas ou visitantes únicos?
 * Como o número de visitantes únicos se compara ao total de visitas em um Canal/Subcanal/Campanha específico?
 
-![Como o número de visitantes únicos se compara ao total de visitas em ](assets/web-dashboard-4.png)
+![Como o número de visitantes únicos se compara ao total de visitas em &#x200B;](assets/web-dashboard-4.png)
 
 ## Painel de Filtro {#filter-pane}
 

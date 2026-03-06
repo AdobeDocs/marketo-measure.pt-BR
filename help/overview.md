@@ -47,7 +47,7 @@ Espera-se que profissionais de marketing tragam seus dados B2B (por exemplo, con
 
 O [!DNL Marketo Measure Ultimate] define a moeda padrão como USD até o usuário alterar essa configuração. A definição de uma nova moeda padrão atualizará os dados sem reprocessamento. Desde que a moeda selecionada esteja presente como um código ISO de destino, não é necessário enviar taxas de conversão.
 
-![O Marketo Measure Ultimate define a moeda padrão como USD até ](assets/marketo-overview-7.png)
+![O Marketo Measure Ultimate define a moeda padrão como USD até &#x200B;](assets/marketo-overview-7.png)
 
 Sandbox do **[!DNL Marketo Measure Ultimate]**
 
@@ -92,7 +92,7 @@ As condições das regras são específicas do conjunto de dados. As regras de M
 
 Nenhuma seleção para funil vs bumerangue vs modelo personalizado. Todos os estágios estão selecionados para funil, bumerangue e modelo personalizado. Oferecemos suporte a um número limitado de estágios: 6 estágios integrados mais 15 personalizados.
 
-![Nenhuma seleção para funnel vs bumerangue vs modelo personalizado. Todos os estágios são ](assets/marketo-overview-4.png)
+![Nenhuma seleção para funnel vs bumerangue vs modelo personalizado. Todos os estágios são &#x200B;](assets/marketo-overview-4.png)
 
 As regras de ponto de contato do membro da campanha e as regras de ponto de contato da atividade são específicas para o conjunto de dados.
 

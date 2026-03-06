@@ -42,7 +42,7 @@ Para ajustar as configurações de ponto de contato PostLC para seus clientes em
 
 1. Insira o número de pontos de contato postLC que você gostaria de encaminhar para seus clientes em potencial e clique em **[!UICONTROL Salvar]**.
 
-   ![1. Insira o número de pontos de contato postLC para os quais você deseja enviar ](assets/additional-functionality-3.png)
+   ![1. Insira o número de pontos de contato postLC para os quais você deseja enviar &#x200B;](assets/additional-functionality-3.png)
 
 **Contatos**
 
@@ -52,4 +52,4 @@ Para ajustar as configurações de ponto de contato PostLC para seus clientes em
 
 1. Insira o número de pontos de contato postLC que você gostaria de encaminhar para seus Contatos e clique em **[!UICONTROL Salvar]**.
 
-   ![1. Insira o número de pontos de contato postLC para os quais você deseja enviar ](assets/additional-functionality-4.png)
+   ![1. Insira o número de pontos de contato postLC para os quais você deseja enviar &#x200B;](assets/additional-functionality-4.png)

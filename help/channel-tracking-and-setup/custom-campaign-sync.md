@@ -76,7 +76,7 @@ Você pode verificar facilmente os pontos de contato do comprador e os registros
 
 1. Depois de clicar em [!UICONTROL Testar], você verá o nome da Campanha e o número de Membros da Campanha qualificados para pontos de contato. Abaixo, uma tabela mostrará todas as regras que correspondem à ID da campanha. Somente as correspondências serão exibidas.
 
-   ![1. Depois de clicar em Testar, você verá o nome de ](assets/offline-channels-17.png)
+   ![1. Depois de clicar em Testar, você verá o nome de &#x200B;](assets/offline-channels-17.png)
 
 1. Você também pode clicar na contagem de Membros para ver uma lista de Clientes potenciais e Contatos e suas Ids que fazem parte da qualificação de regra da campanha. Este é apenas um conjunto de amostras e exibirá até 50 para que você possa ter uma ideia de quais registros se qualificam.
 

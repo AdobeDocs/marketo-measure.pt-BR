@@ -26,6 +26,6 @@ Saiba como habilitar a permissão para editar registros de clientes potenciais c
 
 1. Marque a caixa para ativar a permissão para exibir e editar leads convertidos.
 
-   ![1. Marque a caixa para habilitar a permissão para exibir e editar ](assets/additional-functionality-3.png)
+   ![1. Marque a caixa para habilitar a permissão para exibir e editar &#x200B;](assets/additional-functionality-3.png)
 
 E pronto!

@@ -51,7 +51,7 @@ Meta: use o valor de um campo personalizado e coloque-o no objeto Touchpoint par
    * **)** marca o fim da extração
    * **.&#42;** informa que estamos extraindo a cadeia de caracteres inteira
 
-![.&amp;42; informa que estamos extraindo a cadeia de caracteres completa](assets/touchpoint-fields-10.png)
+![.&42; informa que estamos extraindo a cadeia de caracteres completa](assets/touchpoint-fields-10.png)
 
 **Exemplo #2**
 
@@ -71,7 +71,7 @@ Um caso de uso comum que esse recurso permite é obter valores de parâmetros pe
    * **+** extrairá o valor completo do parâmetro sem limite de caracteres
    * Observe que você está usando uma barra e não uma barra invertida
 
-![Observe que você está usando uma barra e não uma ](assets/touchpoint-fields-11.png)
+![Observe que você está usando uma barra e não uma &#x200B;](assets/touchpoint-fields-11.png)
 
 **Exemplo #3**
 
@@ -106,7 +106,7 @@ Vamos tentar um exemplo semelhante em que extraímos um código de rastreamento 
    * **(** marca o início da extração
    * **)** marca o fim da extração
    * **\w** informa que estamos extraindo uma &quot;palavra&quot;
-   * ****** é o número de caracteres que estamos extraindo
+   * **&#x200B;**&#x200B;** é o número de caracteres que estamos extraindo
 
 * Crie um campo calculado e rotule-o como &quot;ID de campanha personalizada&quot;
 * Defina a regra começando pela pesquisa do campo Touchpoint.Session.LandingPage
@@ -148,7 +148,7 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
 
       * Observe que, como estamos extraindo apenas o 4, somente os primeiros dígitos têm o parêntese fechado
    * **\d** informa que estamos extraindo um &quot;dígito&quot;
-   * ****** é o número de caracteres que estamos extraindo
+   * **&#x200B;**&#x200B;** é o número de caracteres que estamos extraindo
 
 
 
@@ -161,12 +161,12 @@ Agora que aprendemos a extrair e mapear para campos, vamos combinar essas açõe
 * Com base no mapeamento e no URL acima, o &quot;Region_Value&quot; para um ponto de contato com essa página inicial seria &quot;EMEA&quot;
 * Repetir a extração e o mapeamento dos 4 conjuntos de dígitos restantes
 
-   * Para extrair o 01, você definiria o valor como &quot;BZ=\d **-**(\d**)**-\d**-\d**-\d**&quot;
+   * Para extrair o 01, você definiria o valor como &quot;BZ=\d **-**(\d&#x200B;**)**-\d&#x200B;**-\d**-\d**&quot;
    * Para extrair o 09, você definiria o valor como &quot;BZ=\d **-\d**-**(\d**)**-\d**-\d**&quot;
-   * Para extrair o 03, você definiria o valor como &quot;BZ=\d **-\d**-\d**-**(\d**)**-\d**&quot;
-   * Para extrair o 10, você definiria o valor como &quot;BZ=\d **-\d**-\d**-\d**-**(\d**)**&quot;
+   * Para extrair o 03, você definiria o valor como &quot;BZ=\d **-\d**-\d&#x200B;**-**(\d&#x200B;**)**-\d**&quot;
+   * Para extrair o 10, você definiria o valor como &quot;BZ=\d **-\d**-\d&#x200B;**-\d**-**(\d**)**&quot;
 
-![Para extrair o 10, você define o valor como &quot;BZ=\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-(\d](assets/touchpoint-fields-3.png))&quot;](assets/touchpoint-fields-3.png)
+![Para extrair o 10, você define o valor como &quot;BZ=\d](assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-(\d&rbrack;(assets/touchpoint-fields-3.png))&quot;&rbrack;(assets/touchpoint-fields-3.png)
 
 **Concatenadas**
 

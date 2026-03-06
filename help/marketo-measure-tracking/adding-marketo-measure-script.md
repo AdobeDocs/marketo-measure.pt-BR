@@ -66,7 +66,7 @@ Converse com a sua equipe da web para informá-los de que o JavaScript do [!DNL 
 
 Se um aviso [!DNL Web Application Firewall (WAF)] for acionado durante a instalação do JavaScript, os usuários poderão desabilitar essa regra do WAF ou incluir na lista de permissões os cookies, como no exemplo abaixo:
 
-![Se um aviso do WAF (Firewall de Aplicativo Web) for disparado durante o ](assets/adding-script-1.png)
+![Se um aviso do WAF (Firewall de Aplicativo Web) for disparado durante o &#x200B;](assets/adding-script-1.png)
 
 ## Formulários que precisam de uma atenção maior {#forms-to-pay-extra-attention-to}
 

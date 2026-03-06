@@ -67,7 +67,7 @@ Saiba mais sobre [sincronização offline [!DNL Salesforce] Campanhas com [!DNL 
 
 Outra dica para manipular campanhas para atividades online é mapear o Tipo de Campanha [!DNL Salesforce] como NULL. Para fazer isso, primeiro crie um canal no aplicativo [!DNL Marketo Measure] chamado NULL, conforme demonstrado na imagem abaixo. Isso é encontrado no aplicativo [!DNL Marketo Measure], na seção **Criar Canais**. Isso será útil caso uma campanha que não deve ser sincronizada seja sincronizada acidentalmente. É fácil encontrar a campanha e corrigir o status de sincronização verificando tudo o que está classificado em NULL.
 
-![Outra dica para manipular campanhas para atividades online é mapear o ](assets/offline-channels-14.png)
+![Outra dica para manipular campanhas para atividades online é mapear o &#x200B;](assets/offline-channels-14.png)
 
 ## Inserção de suas regras de canal offline no aplicativo {#entering-your-offline-channel-rules-to-the-app}
 

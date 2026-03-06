@@ -46,11 +46,11 @@ Etapa 3 - Entender os componentes.
 
 Etapa 4 - Adicionar regras de filtro.
 
-* Primeiro, insira o nome da categoria. [!UICONTROL O Tipo de Negócio ] é um exemplo. Clique na marca de seleção quando terminar. Você precisa inserir um nome de categoria antes de adicionar segmentos
+* Primeiro, insira o nome da categoria. [!UICONTROL O Tipo de Negócio &#x200B;] é um exemplo. Clique na marca de seleção quando terminar. Você precisa inserir um nome de categoria antes de adicionar segmentos
 * Clique no sinal de mais para adicionar um segmento
 * Informe um nome de Segmento. Por exemplo, você pode ter um segmento para novos negócios, parceiros, renovação ou venda adicional
 
-![Insira um nome de segmento. Por exemplo, você pode ter um segmento para ](assets/custom-segmentation-2.png)
+![Insira um nome de segmento. Por exemplo, você pode ter um segmento para &#x200B;](assets/custom-segmentation-2.png)
 
 * Clique no ícone de adição para revelar os campos de entrada da regra. As opções na lista de opções Campo extrai campos diretamente do seu CRM
 

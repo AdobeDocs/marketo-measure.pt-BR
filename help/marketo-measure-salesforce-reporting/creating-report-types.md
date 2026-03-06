@@ -92,8 +92,8 @@ Saiba como criar tipos de relatório [!DNL Marketo Measure] [!DNL Salesforce] pe
 
 1. Depois que os relatórios forem criados, você será redirecionado para uma visão geral do tipo de relatório. Clique em **[!UICONTROL Editar layout]**.
 
-   ![1. Depois que os relatórios forem criados, você será redirecionado para um ](assets/new-types-2.png)
+   ![1. Depois que os relatórios forem criados, você será redirecionado para um &#x200B;](assets/new-types-2.png)
 
 1. Verifique se os campos personalizados que deseja adicionar ao relatório aparecem na seção Propriedades de layout do campo. Se houver outros campos que você queira adicionar, use a opção &quot;[!UICONTROL Adicionar campos relacionados via pesquisa]&quot;.
 
-   ![1. Verifique se os campos personalizados você deseja adicionar a ](assets/new-types-3.png)
+   ![1. Verifique se os campos personalizados você deseja adicionar a &#x200B;](assets/new-types-3.png)

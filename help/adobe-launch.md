@@ -46,7 +46,7 @@ Quando instalada e configurada no Adobe Launch, a extensão [!DNL Marketo Measur
 
 1. No campo Bizible AccountId, digite a URL do seu site (por exemplo, `adobe.com`).
 
-   ![1. No campo Bizible AccountId, digite a URL da sua ](assets/marketo-launch-6.png)
+   ![1. No campo Bizible AccountId, digite a URL da sua &#x200B;](assets/marketo-launch-6.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
