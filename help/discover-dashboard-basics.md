@@ -38,7 +38,7 @@ Passe o mouse sobre o canto superior direito de um visual para ver uma lista som
 
 * Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; a presença de opções de controle de drill na barra de ação indica isso.
 
-![Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; o ](assets/discover-basics-7.png)
+![Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; o &#x200B;](assets/discover-basics-7.png)
 
 * Ative o drill-down clicando na seta para baixo única, realçada por um plano de fundo cinza. Para reverter, use o ícone de drill-up.
 
@@ -71,7 +71,7 @@ Para exportar os dados subjacentes de um visual, passe o mouse sobre o canto sup
 
 Para aplicar mais zoom a um visual ou bloco gráfico específico, passe o mouse sobre o canto superior direito e selecione o botão &quot;foco&quot;.
 
-![Para aplicar mais zoom a um visual ou bloco específico, passe o mouse sobre ](assets/discover-basics-5.gif)
+![Para aplicar mais zoom a um visual ou bloco específico, passe o mouse sobre &#x200B;](assets/discover-basics-5.gif)
 
 ### Filtragem cruzada {#cross-filtering}
 
