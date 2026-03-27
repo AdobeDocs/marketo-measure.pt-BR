@@ -3,7 +3,7 @@ description: Orientação do parâmetro de rastreamento de email para usuários 
 title: Parâmetro de rastreamento por email
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 3%
@@ -32,7 +32,7 @@ A Marketo Measure aceita os seguintes valores: Endereço de email, ID de cliente
 
 | Automatização de marketing | Token/Tag/Macro | Exemplo | Material de suporte |
 | --- | --- | --- | --- |
-| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [Visão geral dos tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=pt-BR) |
+| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [Visão geral dos tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
 | Pardot | %%email%% ou %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Referência das marcas da variável Pardot](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (inserido pelo Editor) | n/d | [Personalizar conteúdo do HubSpot](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | Act-On | (inserido pelo Message Composer) | n/d | [Personalizar conteúdo de email através de ação](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
