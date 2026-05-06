@@ -3,7 +3,7 @@ description: O que é o Adobe Marketo Measure
 title: O que é o Adobe Marketo Measure?
 hide: true
 hidefromtoc: true
-source-git-commit: 7c3f586e308ba885d10f3f9b8925af93277ad2e0
+source-git-commit: 3f04c21a6990f61000418642713217a490d10f86
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -26,10 +26,10 @@ Vamos falar mais sobre como ela faz isso
 Como o Marketo Measure funciona
 O Marketo Measure integra-se com muitas das ferramentas da sua pilha técnica. Também se integra diretamente às plataformas de anúncios listadas abaixo.
 
-●    Anúncios do Google
-●    Bing Ads
-●    Facebook/Meta
-●    LinkedIn
+● Anúncios do Google
+● Bing Ads
+● Facebook/Meta
+● LinkedIn
 
 Essas integrações ajudam a resolver o tráfego de campanha de mídia paga para a campanha de publicidade exata dessas plataformas, quando a marcação automática está ativada.
 
@@ -46,10 +46,10 @@ Com todos esses dados, agora você está criando pontos de contato a partir de u
 
 Pontos de contato também recebem uma posição. Essa posição se baseia na localização do ponto de contato no processo de compra e na jornada. Há quatro posições padrão e você pode criar posições personalizadas. As posições padrão são...
 
-●    Primeiro contato (FT) - O primeiro ponto de contato (pode ser anônimo)
-●    Criação de leads (LC) - o primeiro ponto de contato no qual capturamos um endereço de email
-●    Criação de oportunidade (OC) - O último contato antes da criação de uma oportunidade
-●    Fechado - O último contato antes do fechamento (fechado, conquistado ou fechado, perdido) de uma Oportunidade
+● Primeiro contato (FT) - O primeiro ponto de contato (pode ser anônimo)
+● Criação de leads (LC) - O primeiro ponto de contato onde capturamos um endereço de email
+● Criação de oportunidade (OC) - O último contato antes da criação de uma oportunidade
+● Fechado - O último contato antes do fechamento (fechado, conquistado ou fechado, perdido) de uma Oportunidade
 
 As posições então ditam o peso, com base nos diferentes modelos de atribuição.
 
