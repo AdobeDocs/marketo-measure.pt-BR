@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: Guia do [!DNL Marketo Measure]
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais esforços de marketing são mais eficientes na geração de receita para sua empresa.
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5eb42c797a34163504fe24fef19949d2c647793b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 88%
+source-wordcount: '787'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 + Introdução ao [!DNL Marketo Measure] {#introduction-to-marketo-measure}
    + Visão geral dos recursos {#overview-resources}
       + [Atribuição de marketing](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-      + [Modelos de atribuição do [!DNL Marketo Measure] &#x200B;](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+      + [Modelos de atribuição do [!DNL Marketo Measure]](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [Estrutura do [!DNL Marketo Measure]](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
       + [Glossário de campos do  [!DNL Marketo Measure] &#x200B;](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 + Acompanhamento de [!DNL Marketo Measure] {#marketo-measure-tracking}
@@ -233,7 +233,7 @@ ht-degree: 88%
       + [Solicitação de privacidade](miscellaneous/other-related-resources/privacy-requests.md)
       + [Remover [!DNL Marketo Measure] Rastreamento de parâmetros do URL da página de destino no Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Transição para [!DNL Marketo Measure] do círculo completo](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
-   + [Teste](miscellaneous/test.md)
+   + {hide-from-toc}[Teste](miscellaneous/test.md)
 + Notas de versão {#release-notes}
    + [Notas da versão atual](release-notes/current.md)
    + Versões anteriores {#previous-releases}
