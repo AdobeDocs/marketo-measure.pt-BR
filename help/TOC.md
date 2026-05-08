@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: Guia do [!DNL Marketo Measure]
 user-guide-description: O [!DNL Marketo Measure] fornece aos profissionais de marketing informações sobre quais esforços de marketing são mais eficientes na geração de receita para sua empresa.
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5eb42c797a34163504fe24fef19949d2c647793b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 88%
+source-wordcount: '787'
+ht-degree: 87%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 88%
 + Introdução ao [!DNL Marketo Measure] {#introduction-to-marketo-measure}
    + Visão geral dos recursos {#overview-resources}
       + [Atribuição de marketing](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-      + [Modelos de atribuição do [!DNL Marketo Measure] &#x200B;](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+      + [Modelos de atribuição do [!DNL Marketo Measure]](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [Estrutura do [!DNL Marketo Measure]](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
-      + [Glossário de campos do  [!DNL Marketo Measure] &#x200B;](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+      + [Glossário de campos do  [!DNL Marketo Measure] ](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 + Acompanhamento de [!DNL Marketo Measure] {#marketo-measure-tracking}
    + Configuração do rastreamento {#setting-up-tracking}
       + [Práticas recomendadas para implementação do  [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
@@ -60,7 +60,7 @@ ht-degree: 88%
       + [Tratamento de erros para exportações do CRM](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [Como [!DNL Marketo Measure] e [!DNL Salesforce] interagir](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] Taxonomia de objeto e campo](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
-      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] &#x200B;](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
+      + [Objetos [!DNL Marketo Measure] Campos no padrão [!DNL Salesforce] ](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [Instruções de layout da página](configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
       + [Ocultar tipos de relatório desnecessários](configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
       + [Criação de um [!DNL Marketo Measure] perfil](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
@@ -87,7 +87,7 @@ ht-degree: 88%
       + Processos herdados {#legacy-processes}
          + [[!UICONTROL Campanhas e membros da campanha]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
          + [Datas de sincronização da campanha](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-         + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] &#x200B;](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] ](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
          + [Campanhas do Dynamics e listas de marketing](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
          + [Sincronização de dados históricos](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [Sincronização de campanhas offline](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
@@ -233,7 +233,7 @@ ht-degree: 88%
       + [Solicitação de privacidade](miscellaneous/other-related-resources/privacy-requests.md)
       + [Remover [!DNL Marketo Measure] Rastreamento de parâmetros do URL da página de destino no Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Transição para [!DNL Marketo Measure] do círculo completo](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
-   + [Teste](miscellaneous/test.md)
+   + {hide-from-toc}[Teste](miscellaneous/test.md)
 + Notas de versão {#release-notes}
    + [Notas da versão atual](release-notes/current.md)
    + Versões anteriores {#previous-releases}
