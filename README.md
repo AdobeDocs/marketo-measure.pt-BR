@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARQUIVADO
 
-Este repositório foi migrado para <https://github.com/Adobe-Enterprise-Docs/marketo-measure.en>.
+Este repositório foi migrado para <https://github.com/Adobe-Enterprise-Docs/marketo-measure.pt-BR>.
