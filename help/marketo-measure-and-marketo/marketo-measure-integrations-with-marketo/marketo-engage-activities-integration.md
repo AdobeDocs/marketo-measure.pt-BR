@@ -4,9 +4,13 @@ description: Integração de [!DNL Marketo Engage] Atividades - [!DNL Marketo Me
 title: Integração de atividades do [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/X0GAwexe-IPzGn-ITUglGHhbiwVWtTy1uHEnfDNpQCI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: 1662
 ht-degree: 1%
 
 ---
@@ -44,7 +48,7 @@ Como parte da Integração geral do [!DNL Marketo Measure] e do [!DNL Marketo En
 
 1. Para cada Tipo de atividade, você deve definir uma ou mais regras que determinam quais registros são qualificados para pontos de contato. Neste exemplo, adicionamos uma regra para o tipo de atividade &quot;Alterar pontuação&quot; para que o sistema crie um ponto de contato quando uma pessoa do Marketo atingir uma pontuação de 90 ou superior.
 
-1. Primeiro, dependendo do Tipo de Atividade, talvez seja necessário configurar um Nome de Campanha [!DNL Marketo Measure] que possa ser usado posteriormente para mapeamento de canal. [!DNL Marketo Measure] Nomes de Campanha podem ser reutilizados em várias regras. Isso ajuda a ter nomes mais amplos que podem ser usados em uma única regra de canal. Nem todos os tipos de atividades contêm um programa Marketo, portanto, é necessário ter um nome nesta primeira etapa.
+1. Primeiro, dependendo do Tipo de Atividade, talvez seja necessário configurar um Nome de Campanha [!DNL Marketo Measure] que possa ser usado posteriormente para mapeamento de canal. [!DNL Marketo Measure] Os Nomes de Campanha podem ser reutilizados em várias regras. Isso ajuda a ter nomes mais amplos que podem ser usados em uma única regra de canal. Nem todos os tipos de atividades contêm um programa Marketo, portanto, é necessário ter um nome nesta primeira etapa.
 
    Este é um exemplo de como seria essa etapa extra:
 

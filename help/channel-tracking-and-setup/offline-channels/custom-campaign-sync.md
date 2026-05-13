@@ -4,9 +4,12 @@ description: Sincronização de Campanha Personalizada - [!DNL Marketo Measure]
 title: Sincronização de campanha personalizada
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Sjq6LW7276xADXbs8qEZc-J2spPrhDwPIGLP7-MsePk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: 660
 ht-degree: 1%
 
 ---

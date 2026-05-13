@@ -4,9 +4,13 @@ description: Custos de canal de marketing - [!DNL Marketo Measure]
 title: Custos de canal de marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Mjpr4y4vxdeefsbULVxjk3Gf6jdy7Q2ST70gg73dfqk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: 1295
 ht-degree: 1%
 
 ---
@@ -81,7 +85,7 @@ Vá para o menu **[!UICONTROL Minha conta]**, clique em **[!UICONTROL Configura�
 
 **Etapa 2: baixar o CSV de custos atuais**
 
-Navegue à direita da tela e clique em **[!UICONTROL Baixar custos atuais].** Essa opção permite baixar uma planilha no formato CSV.
+Navegue à direita da tela e clique em **[!UICONTROL Baixar Custos Atuais].** Essa opção permite baixar uma planilha no formato CSV.
 
 ![](assets/2.png)
 
@@ -91,7 +95,7 @@ Você pode importar o arquivo e abri-lo utilizando o Google Sheets, Apple Number
 
 Após importar a planilha, faça as alterações desejadas, como adicionar custos aos canais e subcanais ou atualizar as informações existentes.
 
-Verifique as regras de lógica na sua planilha. Cada linha deve conter um canal e um de seus subcanais separados por um ponto (.) no final. É importante usar esse formato de maneira consistente.
+Verifique as regras de lógica na sua planilha. Cada linha deve conter um canal e um de seus subcanais separados por um (.) ponto no final. É importante usar esse formato de maneira consistente.
 
 Por exemplo, para indicar o Facebook como subcanal e social como canal, a regra deve ser escrita da seguinte maneira: &quot;Social.Facebook&quot;. Da mesma forma, para rastrear um evento offline, a sintaxe do canal deve ser: &quot;Events.Big Conference&quot;. Os exemplos são mostrados na imagem abaixo:
 

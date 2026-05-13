@@ -3,9 +3,12 @@ description: Painel da Velocidade da Oportunidade - [!DNL Marketo Measure] - Pro
 title: Painel de velocidade da oportunidade
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Jo1bO9vUfT5yYLTe1NQZvNyQQVLnjqr-sbntl14lgX0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 380
 ht-degree: 4%
 
 ---
@@ -40,7 +43,7 @@ Perguntas que o gráfico responde:
 
 ![](assets/lead-velocity-dashboard-1.png)
 
-### Velocidade das oportunidades ao longo do tempo  {#opportunity-velocity-over-time}
+### Velocidade das oportunidades ao longo do tempo {#opportunity-velocity-over-time}
 
 O gráfico de linha de série de tempo exibe o tempo médio, em dias, das oportunidades gastas em cada estágio de vendas no período especificado.
 

@@ -4,9 +4,11 @@ description: Metodologia de Mapeamento de Atribuição - [!DNL Marketo Measure]
 title: Metodologia de mapeamento de atribuição
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/VMGKAlL-YsHK20a6Wv4zbSejz4yXAH4gGMyhjkf9KyM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: 612
 ht-degree: 0%
 
 ---

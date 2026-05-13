@@ -4,9 +4,12 @@ description: Instruções de layout de página -  [!DNL Marketo Measure]
 title: Instruções de layout da página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: 840
 ht-degree: 100%
 
 ---
@@ -186,7 +189,7 @@ Se estiver usando o recurso de ABM do [!DNL Marketo Measure], [clique aqui para 
 
 1. Classificar por Data do touchpoint > Ordem crescente.
 
-1. Desmarcar a opção **[!UICONTROL Novo]** na seção de [!UICONTROL Botões].
+1. Desmarque a opção **[!UICONTROL Novo]** na seção de [!UICONTROL Botões].
 
 1. Clique em **[!UICONTROL Salvar]**.
 

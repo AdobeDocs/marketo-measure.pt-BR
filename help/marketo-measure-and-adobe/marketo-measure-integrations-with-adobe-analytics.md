@@ -3,10 +3,14 @@ description: '[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL
 title: '[!DNL Marketo Measure] Integrações com  [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 1%
+source-wordcount: 968
+ht-degree: 2%
 
 ---
 
@@ -34,11 +38,11 @@ A integração de Atributos do Cliente B2B permite que os usuários mútuos do [
 
    Insira a ID organizacional IMS da Adobe. Essa ID é exibida no canto inferior direito do Adobe Experience Cloud Admin Console. Para obter mais ajuda para encontrar essa ID, consulte a Equipe de conta da Adobe (seu gerente de conta).
 
-1. Após concluir a criação da conexão na sua conta do [!DNL Marketo Measure], volte para o console do Experience Cloud para [validar o esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=pt-BR). Você não precisa se preocupar com o carregamento do arquivo FTP. O [!DNL Marketo Measure] automatizou essa parte para você. Vá para a tela de esquema &quot;Exibir/Editar&quot; da Source de atributos do cliente que você criou na Etapa 1 e informe à Adobe quais são os tipos de dados para cada um dos atributos que [!DNL Marketo Measure] carregou em seu nome. Você também pode criar novos nomes amigáveis para exibição para os atributos carregados, se desejar.
+1. Após concluir a criação da conexão na sua conta do [!DNL Marketo Measure], volte para o console do Experience Cloud para [validar o esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Você não precisa se preocupar com o carregamento do arquivo FTP. O [!DNL Marketo Measure] automatizou essa parte para você. Vá para a tela de esquema &quot;Exibir/Editar&quot; da Source de atributos do cliente que você criou na Etapa 1 e informe à Adobe quais são os tipos de dados para cada um dos atributos que [!DNL Marketo Measure] carregou em seu nome. Você também pode criar novos nomes amigáveis para exibição para os atributos carregados, se desejar.
 
    Se você optou por sincronizar atributos do objeto de conta do CRM, é altamente recomendável escolher novos nomes de exibição para eles, pois o [!DNL Marketo Measure] preenche apenas os nomes de nível de API desses atributos, que normalmente não são amigáveis para relatórios.
 
-1. A última etapa é configurar as Assinaturas de atributos para os aplicativos Experience Cloud nos quais você deseja usar os atributos. Você pode configurar Assinaturas para [!DNL Adobe Analytics] ou [!DNL Adobe Target].  Mais informações sobre como fazer isso [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html?lang=pt-BR).
+1. A última etapa é configurar as Assinaturas de atributos para os aplicativos Experience Cloud nos quais você deseja usar os atributos. Você pode configurar Assinaturas para [!DNL Adobe Analytics] ou [!DNL Adobe Target].  Mais informações sobre como fazer isso [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Descrições de atributo {#attribute-descriptions}
 
@@ -57,7 +61,7 @@ Além dos listados abaixo, você também pode carregar todos os atributos anexad
    <td><b>Descrição</b></td>
   </tr> 
   <tr> 
-   <td>Account.Name</td> 
+   <td>Conta.Nome</td> 
    <td>Os nomes de conta associados ao visitante da Web especificado. Se mais de uma conta estiver vinculada ao usuário especificado, [!DNL Marketo Measure] preencherá todos os nomes de contas correspondentes em uma lista delimitada por ponto-e-vírgula.<br/>
    <strong>Observação:</strong> account.name é o nome no nível da API do Salesforce para o atributo name no objeto account. Você pode escolher um nome de exibição melhor (por exemplo, "Empresa") para esse atributo durante a etapa Validação de esquema da configuração de integração (etapa 4).</td>
   </tr>

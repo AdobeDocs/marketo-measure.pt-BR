@@ -4,9 +4,11 @@ description: Parâmetros de UTM -  [!DNL Marketo Measure]
 title: Parâmetros do UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/BjDwxuOaOhug3ynGSyyLLNzSYrzn4v49z-6TGJao9U8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 939
 ht-degree: 92%
 
 ---

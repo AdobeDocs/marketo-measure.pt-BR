@@ -4,10 +4,15 @@ description: Integração com LinkedIn - [!DNL Marketo Measure]
 title: Integração com o LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/q-asa3ypcHJV5cuXj7IeZfsDoDqy6lQsl9agSLVj-lc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2653'
-ht-degree: 1%
+source-wordcount: 2729
+ht-degree: 2%
 
 ---
 
@@ -96,7 +101,7 @@ A partir de agora, o [!DNL Marketo Measure] recomenda que você não duplique ne
 
 O motivo da etapa extra é porque o LinkedIn permite que as URLs de destino sejam uma URL mais curta (bit.ly, goog.le etc.), o que significa que [!DNL Marketo Measure] não vê a URL longa e resolvida e [!DNL Marketo Measure] precisa adicionar parâmetros de rastreamento a uma URL resolvida. Para contornar esse problema, o [!DNL Marketo Measure] procura URLs encurtadas antes de recriar um anúncio, expande a URL e, em seguida, cria o novo anúncio com a URL resolvida e todos os seus parâmetros, permitindo que o [!DNL Marketo Measure] adicione marcas. A criação de um novo anúncio apagará o histórico de anúncios (impressões, cliques, compartilhamentos), daí a necessidade de permissão para marcar URLs encurtados.
 
-Se você usar URLs encurtados intensamente, isso poderá afetar seriamente suas criações. Recomendamos que você não use mais URLs encurtadas para que [!DNL Marketo Measure] possa marcar as páginas de aterrissagem sem ter que criar novos anúncios e apagar o Histórico de Anúncios.
+Caso use muito URLs abreviadas, seus criativos podem ser bastante impactados. Recomendamos que você não use mais URLs encurtadas para que [!DNL Marketo Measure] possa marcar as páginas de aterrissagem sem ter que criar novos anúncios e apagar o Histórico de Anúncios.
 
 **O Processo**
 
@@ -147,7 +152,7 @@ Independentemente do status do Campaign ou do Creative, todas as respostas do fo
 
 **Rastreamento do Forms de Geração de Cliente Potencial no CRM ou no Marketo**
 
-Antes de a Integração do Forms com a Geração líder do LinkedIn existir, era prática comum que os clientes enviassem seus envios de formulários para um Programa da Marketo e/ou Campanha de CRM para rastrear os formulários e receber atribuição nessas atividades. [!DNL Marketo Measure] Depois que a configuração Lead Gen Forms estiver ativada, queremos garantir que esses envios de formulários não sejam contados duas vezes. Verifique o seguinte:
+Antes de a Integração do Forms com a Geração líder do LinkedIn existir, era prática comum que os clientes enviassem seus envios de formulários para um Programa da Marketo e/ou Campanha de CRM para rastrear os formulários e receber atribuição nessas atividades. [!DNL Marketo Measure]Depois que a configuração Lead Gen Forms estiver ativada, queremos garantir que esses envios de formulários não sejam contados duas vezes. Verifique o seguinte:
 
 * O campo &quot;Habilitar pontos de contato do comprador&quot; no objeto CRM está definido como &quot;Nenhum&quot; ou &quot;Excluir todos os membros da campanha&quot;
 * Atualizar qualquer programa do Marketo ou regra de atividade do Marketo relacionada

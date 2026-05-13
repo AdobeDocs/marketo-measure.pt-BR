@@ -3,10 +3,14 @@ description: Visão Geral das Permissões de Integração - [!DNL Marketo Measur
 title: Visão geral das permissões de integração
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/e0BkGPzfpf6LjR0eIUfOTLku8d-Dgm6Kh6Jlfs3cLBA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 3%
+source-wordcount: 1406
+ht-degree: 2%
 
 ---
 
@@ -60,7 +64,7 @@ Os pontos de contato criados e outros dados são gravados em campos bizíveis pe
     <p>
     <b>Permissões de campo padrão do Salesforce</b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objetos e acesso padrão do Salesforce</a>
+    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Acesso e objetos padrão do Salesforce</a>
     <p>
     <b>Permissões de campo personalizado do Salesforce</b>
     <br>
@@ -133,7 +137,7 @@ O Marketo Measure está rastreando contas, campanhas, grupos de anúncios, anún
 <p>
 <b>Escopos</b>
 <br>
-<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">gerenciamento_de_anúncios</a>
+<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>Crie campanhas programaticamente, gerencie anúncios e busque métricas.</li>
 <li>Crie ferramentas de gerenciamento de anúncios que forneçam soluções inovadoras e valor diferenciado para os anunciantes.</li>

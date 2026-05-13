@@ -4,10 +4,13 @@ description: '[!DNL Marketo Measure] Perguntas frequentes sobre Visualização A
 title: '[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 27%
+source-wordcount: 506
+ht-degree: 33%
 
 ---
 
@@ -23,7 +26,7 @@ O recurso [!DNL Marketo Measure] [!UICONTROL Visualizar através da atribuição
 
 ## Por que [!UICONTROL Visualizar através de atribuição] é importante? {#why-is-view-through-attribution-important}
 
-Historicamente, o redirecionamento ou a publicidade de impressão têm sido difíceis de serem considerados pelos profissionais de marketing na análise de atribuição. Os possíveis clientes podem, ocasionalmente, ser expostos a anúncios de redirecionamento, mas é improvável que realmente cliquem em um desses anúncios e preencham um formulário na mesma sessão. Nossa solução View Through Attribution agora tem a capacidade de rastrear se alguém foi exposto ou não a um anúncio de impressão. Esse ponto de contato será anexado ao registro individual e continuará até que o cliente potencial se torne um cliente. Insight Com essas informações, o profissional de marketing agora melhorará o desempenho do seu anúncio de re-direcionamento.
+Historicamente, o redirecionamento ou a publicidade de impressão têm sido difíceis de serem considerados pelos profissionais de marketing na análise de atribuição. Os possíveis clientes podem, ocasionalmente, ser expostos a anúncios de redirecionamento, mas é improvável que realmente cliquem em um desses anúncios e preencham um formulário na mesma sessão. Nossa solução View Through Attribution agora tem a capacidade de rastrear se alguém foi exposto ou não a um anúncio de impressão. Esse ponto de contato será anexado ao registro individual e continuará até que o cliente potencial se torne um cliente. Com essas informações, o profissional de marketing agora melhorará o desempenho do seu anúncio de re-direcionamento.
 
 ## O que está envolvido na configuração? {#what-is-involved-in-setting-this-up}
 
@@ -71,7 +74,7 @@ Fizemos uma análise cuidadosa dos dados de impressão e de sua influência nas 
    <td>100%</td> 
    <td>0%</td> 
    <td>35%</td> 
-   <td>26,6%</td> 
+   <td>26.6%</td> 
    <td>20%</td> 
    <td>Personalizado</td> 
   </tr> 
@@ -80,7 +83,7 @@ Fizemos uma análise cuidadosa dos dados de impressão e de sua influência nas 
    <td>0%</td> 
    <td>100%</td> 
    <td>35%</td> 
-   <td>26,6%</td> 
+   <td>26.6%</td> 
    <td>20%</td> 
    <td>Personalizado</td> 
   </tr> 
@@ -89,7 +92,7 @@ Fizemos uma análise cuidadosa dos dados de impressão e de sua influência nas 
    <td>0%</td> 
    <td>0%</td> 
    <td>0%</td> 
-   <td>26,6%</td> 
+   <td>26.6%</td> 
    <td>20%</td> 
    <td>Personalizado</td> 
   </tr> 

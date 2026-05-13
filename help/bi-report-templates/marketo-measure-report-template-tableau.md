@@ -3,10 +3,13 @@ description: Modelo de Relatório [!DNL Marketo Measure] - Tableau - [!DNL Marke
 title: '[!DNL Marketo Measure] Modelo de relatório - Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/yeKdQAe2ZyoFluQuk8CbqA-yWw3XeSdtGYvAFf2WROM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2302'
-ht-degree: 99%
+source-wordcount: 2314
+ht-degree: 98%
 
 ---
 
@@ -34,7 +37,7 @@ Você também precisará inserir um comando SQL inicial. Isso permite o uso de c
 
 ### Consultas SQL Personalizadas {#custom-sql-queries}
 
-Como o [!DNL Tableau] aplica filtros de fonte de dados à consulta geral e não na tabela individual em que o filtro está definido, optamos por usar SQL personalizado para cada tabela no modelo. Isso permite que o modelo filtre linhas excluídas ou duplicadas no nível da tabela. Por exemplo, quando aplicado como um filtro de fonte de dados, session._deleted_date é nulo e será adicionado à cláusula where da consulta, resultando na seguinte consulta.
+Como o [!DNL Tableau] aplica filtros de fonte de dados à consulta geral e não na tabela individual em que o filtro está definido, optamos por usar SQL personalizado para cada tabela no modelo. Isso permite que o modelo filtre linhas excluídas ou duplicadas no nível da tabela. Por exemplo, quando aplicado como um filtro de origem de dados, session._deleted_date é null será adicionado à cláusula where da consulta, resultando na seguinte consulta.
 
 **Filtros adicionados à fonte de dados**
 

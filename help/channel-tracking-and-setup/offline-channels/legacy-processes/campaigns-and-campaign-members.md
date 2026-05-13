@@ -4,9 +4,11 @@ description: Campanhas e membros da campanha -  [!DNL Marketo Measure]
 title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1200
 ht-degree: 95%
 
 ---

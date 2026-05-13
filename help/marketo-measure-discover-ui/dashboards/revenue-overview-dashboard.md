@@ -3,9 +3,12 @@ description: Painel de Visão Geral da Receita - [!DNL Marketo Measure] - Produt
 title: Painel de visão geral da receita
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/y4bda-nVLkQUqIvv2LQ9e8N4EsaAAT-eoEr7jjHohy0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: 287
 ht-degree: 3%
 
 ---

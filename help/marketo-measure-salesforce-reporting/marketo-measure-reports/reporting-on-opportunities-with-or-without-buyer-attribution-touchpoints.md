@@ -4,10 +4,13 @@ description: Relatórios de Oportunidades com ou sem Pontos de Contato de Atribu
 title: Relatório sobre oportunidades com ou sem Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 31%
+source-wordcount: 188
+ht-degree: 28%
 
 ---
 
@@ -41,4 +44,4 @@ Crie um novo Tipo de Relatório para incluir todas as Oportunidades com ou sem P
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

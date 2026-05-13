@@ -4,9 +4,11 @@ description: Adicionando  [!DNL Marketo Measure] Script ao Lightbox Forms - [!DN
 title: Adição de [!DNL Marketo Measure] script para formulários do Lightbox
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 189
 ht-degree: 2%
 
 ---

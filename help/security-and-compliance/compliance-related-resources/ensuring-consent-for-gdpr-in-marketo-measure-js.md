@@ -4,10 +4,13 @@ description: Garantia de consentimento com o RGPD no Marketo Measure Js - Market
 title: Garantia de consentimento com o RGPD no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 100%
+source-wordcount: 425
+ht-degree: 96%
 
 ---
 
@@ -48,9 +51,9 @@ Opção 2 - Substituir a tag de script padrão do [!DNL bizible.js] por:
 
 Essa opção orienta o [!DNL bizible.js] a não rastrear até a confirmação do consentimento, o que pode ser feito com a seguinte API JS:
 
-*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
+*janela[&#39;Bizible&#39;] = janela[&#39;Bizible&#39;] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
 
-*Bizible.  Push(&#39;Consent&#39;, true);*
+*Bizible. Push(&#39;Consent&#39;, true);*
 
 **Se você usar o [!DNL Google Tag Manager] para instalar o script**, lembre-se de que o GTM remove atributos de dados; portanto, use o seguinte script:
 

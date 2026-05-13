@@ -4,10 +4,13 @@ description: Criando uma Exibição da Lista de Campanhas para [!DNL Salesforce 
 title: 'Criação de uma Exibição de lista de campanhas para Campanhas do  [!DNL Salesforce] '
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 5%
+source-wordcount: 444
+ht-degree: 6%
 
 ---
 

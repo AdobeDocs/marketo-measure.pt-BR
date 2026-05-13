@@ -3,9 +3,11 @@ description: Práticas recomendadas para atribuição de atividades - [!DNL Mark
 title: Práticas recomendadas para atribuição de atividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: 515
 ht-degree: 4%
 
 ---

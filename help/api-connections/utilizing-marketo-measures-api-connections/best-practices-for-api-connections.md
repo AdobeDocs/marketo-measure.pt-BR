@@ -3,9 +3,14 @@ description: Práticas recomendadas para conexões de API -  [!DNL Marketo Measu
 title: Práticas recomendadas para conexões de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 752
 ht-degree: 97%
 
 ---
@@ -35,8 +40,8 @@ Antes de habilitar a marcação automática, exporte o histórico de anúncios p
 
 Por seguir nossas práticas recomendadas, a API do [!DNL Facebook] para [!DNL Marketo Measure] poderá:
 
-* Marcar automaticamente todos os anúncios do [!DNL Facebook] com o parâmetro `_bf ={creative}`, necessário para o [!DNL Marketo Measure] 
-* Baixar informações de custo de anúncio de todos os anúncios ativos do [!DNL Facebook] 
+* Marcar automaticamente todos os anúncios do [!DNL Facebook] com o parâmetro `_bf ={creative}`, necessário para o [!DNL Marketo Measure]
+* Baixar informações de custo de anúncio de todos os anúncios ativos do [!DNL Facebook]
 
 >[!NOTE]
 >
@@ -74,7 +79,7 @@ Por seguir nossas práticas recomendadas, a API LinkedIn do [!DNL Marketo Measur
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
-Embora seguir nossas práticas recomendadas proteja contra a perda de dados em caso de perda de conexão, ainda recomendamos que você analise sua conexão regularmente (mensalmente, se possível).  Para isso, basta realizar uma verificação visual simples da seção [!UICONTROL Conexões] no aplicativo do [!DNL Marketo Measure] para garantir que não haja um ícone de “chave vermelha” nessa seção, o que seria o sinal de uma conta desconectada.
+Embora seguir nossas práticas recomendadas proteja contra a perda de dados em caso de perda de conexão, ainda recomendamos que você analise sua conexão regularmente (mensalmente, se possível). Para isso, basta realizar uma verificação visual simples da seção [!UICONTROL Conexões] no aplicativo do [!DNL Marketo Measure] para garantir que não haja um ícone de “chave vermelha” nessa seção, o que seria o sinal de uma conta desconectada.
 
 Ao desconectar uma conta da API, o [!DNL Marketo Measure] não pode obter dados de despesas ou marcar novos anúncios. É por isso que sempre recomendamos a implementação de um modelo de rastreamento, se possível. O modelo garante que, mesmo que a conta de anúncios seja desconectada, o [!DNL Marketo Measure] ainda possa marcar os anúncios e obter detalhes importantes. Depois de reconectada, os dados de despesas serão preenchidos novamente e a interrupção dos relatórios dos canais pagos será mínima.
 

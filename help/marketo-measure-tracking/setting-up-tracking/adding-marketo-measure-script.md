@@ -4,10 +4,13 @@ description: Adicionando [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
 title: Adição do  [!DNL Marketo Measure]  Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 57%
+source-wordcount: 1292
+ht-degree: 53%
 
 ---
 
@@ -116,25 +119,25 @@ Se um aviso [!DNL Web Application Firewall (WAF)] for acionado durante a instala
 
 **Segundo domínio**
 
-* Problema: [!DNL Marketo Measure] O JavaScript é específico do domínio, portanto, etapas extras devem ser executadas para domínios separados ou internacionais. O JS [!DNL Marketo Measure] pode manipular subdomínios no mesmo domínio raiz.
+* Problema: [!DNL Marketo Measure] O JavaScript é específico do domínio, portanto, etapas extras devem ser executadas para domínios separados ou internacionais. [!DNL Marketo Measure] O JS pode manipular subdomínios no mesmo domínio raiz.
 * Solução: se você tiver vários domínios raiz que gostaria que fossem rastreados pelo [!DNL Marketo Measure], certifique-se de adicionar JS aos domínios E informe ao(à) consultor(a) do [!DNL Marketo Measure] quais domínios devem ser associados manualmente à sua conta do [!DNL Marketo Measure].
 
 ## Testes do JavaScript do [!DNL Marketo Measure] {#testing-marketo-measure-javascript}
 
 O consultor do [!DNL Marketo Measure] ajudará você a fazer o teste pontual do site para garantir que o JavaScript do [!DNL Marketo Measure] esteja presente em todas as páginas. Parte desse teste consiste no envio de alguns preenchimentos de formulário com detalhes de teste claramente indicados para garantir que o rastreamento retorne corretamente.
 
-No entanto, seu consultor(a) do [!DNL Marketo Measure] provavelmente não está tão familiarizado(a) com seu site quanto sua equipe da web. Por isso, é muito importante que sua equipe da web ou outra equipe apropriada verifique minuciosamente o site, especialmente se houver formulários complexos em uso, como os mencionados acima. Sua equipe será responsável por garantir que todas as propriedades da web necessárias estejam rastreando corretamente, mas se você estiver ciente de formulários ou situações complexas, sinta-se a vontade para solicitar ao(à) consultor(a) do [!DNL Marketo Measure] por assistência nos testes. 
+No entanto, seu consultor(a) do [!DNL Marketo Measure] provavelmente não está tão familiarizado(a) com seu site quanto sua equipe da web. Por isso, é muito importante que sua equipe da web ou outra equipe apropriada verifique minuciosamente o site, especialmente se houver formulários complexos em uso, como os mencionados acima. Sua equipe será responsável por garantir que todas as propriedades da web necessárias estejam rastreando corretamente, mas se você estiver ciente de formulários ou situações complexas, sinta-se a vontade para solicitar ao(à) consultor(a) do [!DNL Marketo Measure] por assistência nos testes.
 
 Para testar um formulário por conta própria, siga estas etapas:
 
 1. Sempre use um navegador anônimo ou limpe o cache entre cada teste de envio de formulário E use um endereços de email distintos em cada teste.
 
-   a. Uma prática recomendada é usar um email falso que contenha algo indicando que é um teste e a hora do dia. Por exemplo: teste830am@teste.com.
+   a) Uma prática recomendada é usar um email falso que contenha algo indicando que é um teste e a hora do dia. Por exemplo: teste830am@teste.com.
 
 1. Registre a URL da página em que você está enviando o formulário e o email usado.
 
 1. Localize o registro criado no CRM (cliente potencial ou contato) desse envio de formulário e verifique se um ponto de contato foi criado corretamente.
 
-   a. Você pode usar um relatório de estoque do [!DNL Marketo Measure], como clientes potenciais com Buyer Touchpoints ou verificar o layout da página cliente/contato se optar por atualizar seus layouts de página com detalhes do [!DNL Marketo Measure].
+   a) Você pode usar um relatório de ações de [!DNL Marketo Measure], como Clientes potenciais com pontos de contato do comprador, ou examinar o layout da página Cliente potencial/Contato se optar por atualizar seus layouts de página com [!DNL Marketo Measure] detalhes.
 
-   b. Isso pode levar algum tempo para que os dados sejam processados.
+   b) Isso pode levar algum tempo para que os dados sejam processados.

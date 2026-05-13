@@ -3,9 +3,12 @@ description: Práticas recomendadas para implementação do JavaScript do  [!DNL
 title: 'Práticas recomendadas para implementação do JavaScript do  [!DNL Marketo Measure] '
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 371
 ht-degree: 100%
 
 ---
@@ -32,7 +35,7 @@ Quando implementar e gerenciar o seu JavaScript do [!DNL Marketo Measure], lembr
 * Certifique-se de que todos os domínios estejam listados na sua conta do [!DNL Marketo Measure]
    * Se você tiver dúvidas em relação aos domínios, entre em contato com o suporte
 * Implante o JavaScript em TODAS as páginas.
-   * Inserir o JavaScript apenas em determinadas páginas causará problemas nos dados da sessão, o que levará a dados incorretos do [!DNL Marketo Measure] 
+   * Inserir o JavaScript apenas em determinadas páginas causará problemas nos dados da sessão, o que levará a dados incorretos do [!DNL Marketo Measure]
 * Para um formulário no seu site do qual você não deseja criar Pontos de contato, adicione o script Excluir do [!DNL Marketo Measure]
    * Esse script de exclusão garantirá que os dados da sessão do [!DNL Marketo Measure] não serão interrompidos e que os dados de origem permanecerão no lugar
       * Exemplos de formulários comuns a serem suprimidos são:

@@ -4,9 +4,11 @@ description: '[!DNL Marketo Measure] Esquema do Dynamics - [!DNL Marketo Measure
 title: '[!DNL Marketo Measure] Esquema do Dynamics'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: 1086
 ht-degree: 66%
 
 ---
@@ -34,7 +36,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -319,7 +321,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -722,7 +724,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -807,7 +809,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -874,7 +876,7 @@ Este diagrama é uma visualização de alto nível dos relacionamentos entre as 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -921,7 +923,7 @@ Esta lista fornece as Entidades do Dynamics Standard com as quais [!DNL Marketo 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1006,7 +1008,7 @@ Esta lista fornece as Entidades do Dynamics Standard com as quais [!DNL Marketo 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1055,7 +1057,7 @@ Esta lista fornece as Entidades do Dynamics Standard com as quais [!DNL Marketo 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1098,7 +1100,7 @@ Esta lista fornece as Entidades do Dynamics Standard com as quais [!DNL Marketo 
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1185,7 +1187,7 @@ As permissões de &quot;Criação&quot; do Campaign também são necessárias, a
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1258,7 +1260,7 @@ As permissões de &quot;Criação&quot; do Campaign também são necessárias, a
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1355,7 +1357,7 @@ As permissões de &quot;Criação&quot; do Campaign também são necessárias, a
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1404,7 +1406,7 @@ As permissões de &quot;Criação&quot; do Campaign também são necessárias, a
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 
@@ -1447,7 +1449,7 @@ As permissões de &quot;Criação&quot; do Campaign também são necessárias, a
   <tr> 
    <th><p>Nome do esquema</p></th> 
    <th><p>Padrão/Personalizado</p></th> 
-   <th><p>Ler</p></th> 
+   <th><p>Lido</p></th> 
    <th><p>Gravar</p></th> 
   </tr> 
   <tr> 

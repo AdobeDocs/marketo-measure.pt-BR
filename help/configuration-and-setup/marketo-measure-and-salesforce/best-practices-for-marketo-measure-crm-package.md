@@ -3,10 +3,13 @@ description: Práticas recomendadas para o  [!DNL Marketo Measure] Pacote de CRM
 title: Práticas recomendadas para [!DNL Marketo Measure] Pacote do CRM
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/E8LQ0-uUC-xqhG9D7CSuprsjkABJ54azWFSEdiuFABk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 7%
+source-wordcount: 415
+ht-degree: 8%
 
 ---
 

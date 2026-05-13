@@ -4,9 +4,12 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentação do pro
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: 21775
 ht-degree: 99%
 
 ---
@@ -948,7 +951,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>A quantidade de gastos importada nos últimos 30 dias, aplicável somente ao AdWords.</p>
       </td>
       <td>
-        <p>17260,000000000000000000</p>
+        <p>17260.000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2875,7 +2878,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um toque em forma de W (Consulte Is_First_Touch, Is_Lead_Creation_Touch e Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0,0153374234214425</p>
+        <p>0.0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -2889,7 +2892,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um modelo de caminho completo (Consulte Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0,0143061513081193</p>
+        <p>0.0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -3068,8 +3071,8 @@ Dados gerados a partir da integração da IA de atribuição. Esses campos só s
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>ID de evento original do MM para o evento de conversão 
-    <br>É mapeada para um ponto de contato de usuário ou uma transição de estágio</td>
+    <td>id de evento MM original para o evento de conversão 
+    <br>mapeia para um ponto de contato de usuário ou uma transição de estágio</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3093,8 +3096,8 @@ Dados gerados a partir da integração da IA de atribuição. Esses campos só s
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>ID original do contato do MM para o evento de conversão
-    <br>provavelmente será nula na maioria das vezes</td>
+    <td>id de contato do MM original para o evento de conversão
+    <br>provavelmente será nulo a maior parte do tempo</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -3821,7 +3824,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
       <td>ID</td>
       <td>varchar</td>
       <td>Uma ID exclusiva para o registro de custo.</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
+      <td>aw.6601259029.285114995.21703163075.[Exibição do AdWords]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6213,7 +6216,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um toque em forma de U.</p>
       </td>
       <td>
-        <p>100,0000000000000000000</p>
+        <p>100.0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6269,7 +6272,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>Quantidade da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>42000,00000000</p>
+        <p>42000.00000000</p>
       </td>
     </tr>
     <tr>
@@ -6664,7 +6667,7 @@ Envio de formulário capturado.
         <p>URL onde o formulário foi enviado, incluindo quaisquer parâmetros de consulta.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6918,7 +6921,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       <td>
         <p>URL onde a impressão foi veiculada, incluindo qualquer parâmetro de consulta.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -7056,7 +7059,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       </td>
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
-      <td>NULO</td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8714,7 +8717,7 @@ Oportunidades importadas do sistema de origem.
         <p>Valor do contrato esperado ou fechado da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>8988,00000000</p>
+        <p>8988.00000000</p>
       </td>
     </tr>
     <tr>
@@ -9333,7 +9336,7 @@ Exibições de página coletadas das visitas da Web. Várias exibições de pág
         <p>URL de onde a exibição de página se originou, incluindo qualquer parâmetro de consulta.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9912,7 +9915,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>O URL da primeira exibição de página da sessão, incluindo quaisquer parâmetros de consulta.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10424,7 +10427,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
       <td>
-        <p>NULO</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -11613,7 +11616,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12628,7 +12631,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12679,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>O primeiro formulário gravado em uma sessão que resultou em um touchpoint. Os envios de formulário subsequentes não serão exibidos na tabela Attribution_Touchpoints, mas na tabela Form_Submits. Uma página de formulário bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “URL do formulário - bruto”.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13265,7 +13268,7 @@ Tabela de mapeamento para mapear a Id de sessão do [!DNL Marketo Measure] para 
       <td>varchar</td>
       <td>URL de exibição de página, incluindo qualquer parâmetro de consulta.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>

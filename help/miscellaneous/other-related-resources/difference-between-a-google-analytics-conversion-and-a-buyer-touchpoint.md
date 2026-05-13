@@ -4,9 +4,11 @@ description: Diferença entre uma Conversão do Google Analytics e uma Buyer Tou
 title: Diferença entre uma conversão do Google Analytics e um Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/lgrksIiybtRf6YujoQci-RffEe5-wiEdX2BI71RaBYg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: 496
 ht-degree: 5%
 
 ---
@@ -36,7 +38,7 @@ No entanto, as metas não podem ser codificadas para gerenciar comportamentos es
   <tr> 
    <td><p>Destino</p></td> 
    <td>Um local específico é carregado</td> 
-   <td><em>Obrigado por se registrar!Página da Web ou tela do aplicativo </em></td> 
+   <td><em>Obrigado por se registrar!</em> página da web ou tela do aplicativo</td> 
   </tr> 
   <tr> 
    <td>Duração</td> 

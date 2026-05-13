@@ -4,10 +4,12 @@ description: Usando um Campo de Valor de Receita Personalizado - [!DNL Marketo M
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 2%
+source-wordcount: 689
+ht-degree: 3%
 
 ---
 
@@ -89,7 +91,7 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você alternou 
 
    ![](assets/using-a-custom-revenue-amount-field-12.png)
 
-1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL &#x200B; como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
+1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL  como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
 
    ![](assets/using-a-custom-revenue-amount-field-13.png)
 

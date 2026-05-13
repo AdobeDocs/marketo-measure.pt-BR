@@ -4,9 +4,12 @@ description: '[!DNL Marketo Measure] Taxonomia de Objetos e Campos - [!DNL Marke
 title: '[!DNL Marketo Measure] Taxonomia de objeto e campo'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/8YG-eHRcmSYy3yICJMViCjkGyPsgLxzoLIMHVMl7s74
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: 163
 ht-degree: 5%
 
 ---
@@ -19,7 +22,7 @@ Abaixo está um fluxograma que representa como [!DNL Marketo Measure] Objetos Pe
 
 Para a imagem em tamanho real, [clique aqui](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [&#x200B; podem ser encontradas aqui](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+As definições dos campos [!DNL Marketo Measure] que vivem em cada objeto [ podem ser encontradas aqui](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
 ## Perguntas frequentes {#faq}
 

@@ -4,9 +4,12 @@ description: Oportunidades Perdidas Fechadas por Canal de Marketing - [!DNL Mark
 title: Oportunidades perdidas encerradas pelo canal de marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/PJ0vKn29NiCiDYepN8HRoTXgWi1isrlql00Obi2hJz0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 277
 ht-degree: 4%
 
 ---
@@ -47,4 +50,4 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

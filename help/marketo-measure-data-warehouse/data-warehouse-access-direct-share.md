@@ -3,10 +3,12 @@ description: Acesso à Data Warehouse - Compartilhamento direto - Documentação
 title: Acesso ao Data Warehouse - Compartilhamento direto
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/TT2LYCV4Zv1jdx-ZgzlnThNGVdUAJDwLlely6WgNfXY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 4%
+source-wordcount: 308
+ht-degree: 3%
 
 ---
 

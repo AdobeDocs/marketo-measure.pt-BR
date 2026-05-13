@@ -3,10 +3,14 @@ description: Solicitações de Privacidade - [!DNL Marketo Measure]
 title: Solicitações de privacidade
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 25%
+source-wordcount: 284
+ht-degree: 26%
 
 ---
 
@@ -16,8 +20,8 @@ Este documento fornece uma visão geral do gerenciamento de solicitações indiv
 
 Você pode enviar solicitações individuais para acessar e excluir dados do consumidor de [!DNL Marketo Measure] de duas maneiras:
 
-* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=pt-BR){target="_blank"}.
-* Por meio da API **[!DNL Privacy Service]**. Consulte a documentação [aqui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR){target="_blank"} e a referência da API [aqui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Por meio da [[!DNL Privacy Service] interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Por meio da API **[!DNL Privacy Service]**. Consulte a documentação [aqui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} e a referência da API [aqui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 O [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"} oferece suporte a dois tipos de solicitações: acesso e exclusão de dados.
 
@@ -29,9 +33,9 @@ Para fazer solicitações de Acesso e Exclusão de dados para [!DNL Marketo Meas
 
 1. Identificar o seguinte:
 
-   a. ID de organização IMS
+   a) ID organizacional IMS
 
-   b. Endereço de e-mail da pessoa sobre a qual deseja agir
+   b) Endereço de email da pessoa sobre a qual você deseja agir
 
    Uma ID de organização IMS é uma string de 24 caracteres alfanuméricos anexada com @AdobeOrg. Se a sua equipe de marketing ou o administrador interno do sistema da Adobe não souber a ID de organização IMS, entre em contato com o Atendimento ao cliente da Adobe em gdprsupport@adobe.com. Você precisará da ID de organização IMS para enviar solicitações à API de privacidade.
 
