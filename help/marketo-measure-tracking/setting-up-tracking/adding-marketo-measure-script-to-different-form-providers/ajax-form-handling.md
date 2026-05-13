@@ -5,8 +5,10 @@ title: Manuseio de formulário AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
 TQID: https://experienceleague.adobe.com/2isohrsWngucMZ4EC1YeoaIwhWPP9cyIVdoVUQ6thyI
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 316

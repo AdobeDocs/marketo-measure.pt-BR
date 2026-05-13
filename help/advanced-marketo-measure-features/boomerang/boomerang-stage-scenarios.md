@@ -5,7 +5,8 @@ title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
 TQID: https://experienceleague.adobe.com/OVHlMxrX-hB5JBVm3-zUqkXsJVKTNusMIOO8NzYWv-Q
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1520

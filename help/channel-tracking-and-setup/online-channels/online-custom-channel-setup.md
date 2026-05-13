@@ -5,9 +5,12 @@ title: Configuração de canal personalizado online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
 TQID: https://experienceleague.adobe.com/8mxa4BFlZDGPRecGF-ZYDIf5pzPpistFv2kOUF0Se88
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1225

@@ -5,8 +5,10 @@ title: Configurações
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
 TQID: https://experienceleague.adobe.com/UzGt-bX2JvKlHEMod-NOnokTkKkGe66uxKrvorwCda0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 130

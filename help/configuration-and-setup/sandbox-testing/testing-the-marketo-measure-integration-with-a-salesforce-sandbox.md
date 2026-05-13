@@ -5,7 +5,8 @@ title: Teste da integração do Marketo Measure com uma sandbox da Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
 TQID: https://experienceleague.adobe.com/Es3alliU-EbPfMFY6gOybcr12HGgKVHyu97r7ZfRPFA
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 362

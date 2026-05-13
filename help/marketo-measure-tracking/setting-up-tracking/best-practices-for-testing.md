@@ -5,7 +5,8 @@ title: Práticas recomendadas para testes
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
 TQID: https://experienceleague.adobe.com/RH2rV7k3KuYd1I8s5e96wCWJ1z7Q8CYVoxu7YWV7Kq8
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 182
