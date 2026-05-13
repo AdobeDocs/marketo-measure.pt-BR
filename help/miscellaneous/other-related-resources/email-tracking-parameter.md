@@ -52,7 +52,7 @@ A Marketo Measure aceita os seguintes valores: Endereço de email, ID de cliente
    <td><p>Marketo</p></td> 
    <td><p><pre><code>{{lead.Email Address}}</code></pre></p></td> 
    <td><p><pre><code>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</code></pre></p></td> 
-   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=pt-BR</p></td> 
   </tr> 
   <tr> 
    <td><p>Pardot</p></td> 
