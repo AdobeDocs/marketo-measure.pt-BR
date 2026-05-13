@@ -3,10 +3,15 @@ description: Modelo de Relatório [!DNL Marketo Measure] - Power BI - [!DNL Mark
 title: Modelo de relatório do [!DNL Marketo Measure] - Power BI
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 99%
+source-wordcount: 2565
+ht-degree: 97%
 
 ---
 
@@ -22,7 +27,7 @@ Abra o arquivo do Power BI do modelo de relatório do [!DNL Marketo Measure].
 
 Você pode encontrar suas informações específicas de servidor, warehouse e esquema na interface do [!DNL Marketo Measure] na página de informações do [!DNL Data Warehouse]. As instruções para localizar esta página estão detalhadas [aqui](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-Os parâmetros QueryFilterStartDate e QueryFilterEndDate são usados para limitar a quantidade de dados importados. Esses parâmetros devem estar no formato SQL, pois são usados nas consultas enviadas para o [!DNL Snowflake]. Por exemplo, se você quiser limitar os dados aos últimos dois anos, defina QueryFilterStartDate como `dateadd` (year,-2,current_date()).  Esses parâmetros são comparados com os tipos de dados de data e hora, portanto, é recomendável usar `dateadd` (day,1,current_date()) no QueryFilterEndDate para retornar todos os dados para a hora atual.
+Os parâmetros QueryFilterStartDate e QueryFilterEndDate são usados para limitar a quantidade de dados importados. Esses parâmetros devem estar no formato SQL, pois são usados nas consultas enviadas para o [!DNL Snowflake]. Por exemplo, se você quiser limitar os dados aos últimos dois anos, defina QueryFilterStartDate como `dateadd` (year,-2,current_date()). Esses parâmetros são comparados com os tipos de dados de data e hora, portanto, é recomendável usar `dateadd` (day,1,current_date()) no QueryFilterEndDate para retornar todos os dados para a hora atual.
 
 ## Conexão de dados {#data-connection}
 
@@ -105,9 +110,9 @@ Como os nomes de segmentos são personalizáveis, eles têm nomes de coluna gen�
 
 ### Conversão de ID com diferenciação de maiúsculas e minúsculas {#case-sensitive-id-conversion}
 
-Os dados do [!DNL Marketo Measure] têm algumas tabelas em que os valores da chave primária (ID) fazem distinção entre maiúsculas e minúsculas, estes são: Ponto de contato e Campanha. O mecanismo de dados que orienta a camada de modelagem do Power BI não diferencia maiúsculas de minúsculas, resultando assim em valores de ID “duplicados”. Para preservar a diferenciação entre maiúsculas e minúsculas desses valores-chave, implementamos etapas de transformação que anexam caracteres invisíveis a caracteres em minúsculas, preservando a exclusividade do ID quando avaliado na camada do mecanismo de dados. Mais detalhes sobre o problema e as etapas detalhadas sobre o método que empregamos podem ser encontrados [aqui]
-(https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas de minúsculas são rotulados como “IDs de associação” e usados como chaves de associação na camada de relação. Ocultamos as IDs de associação da camada de relatórios, mantendo os valores de ID originais visíveis para uso nos relatórios, já que os caracteres invisíveis podem interferir nas funções de cortar
-/colar e na filtragem.
+Os dados do [!DNL Marketo Measure] têm algumas tabelas em que os valores da chave primária (ID) fazem distinção entre maiúsculas e minúsculas, estes são: Ponto de contato e Campanha. O mecanismo de dados que orienta a camada de modelagem do Power BI não diferencia maiúsculas de minúsculas, resultando assim em valores de ID “duplicados”. Para preservar a diferenciação entre maiúsculas e minúsculas desses valores-chave, implementamos etapas de transformação que anexam caracteres invisíveis a caracteres em minúsculas, preservando a exclusividade do ID quando avaliado na camada do mecanismo de dados. Mais detalhes sobre o problema e as etapas detalhadas sobre o método que empregamos podem ser encontrados [aqui] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitive/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas de minúsculas são rotulados como “IDs de associação” e usados como chaves de associação na camada de relação. Ocultamos as IDs de associação na camada de relatórios, mantendo os valores de ID originais visíveis para uso no relatório, pois os caracteres invisíveis podem interferir no recorte
+/cole funções e filtragem.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -214,7 +219,7 @@ Todas as contagens de clientes potenciais no Discover são contagens de clientes
 
 ### Caminho de engajamento {#engagement-path}
 
-Não existe comparação direta entre o relatório [!UICONTROL Caminho de engajamento] no Discover e no modelo. O relatório no [!DNL Discover] é modelado a partir do Ponto de contato, enquanto o relatório no modelo é modelado a partir do Ponto de contato de atribuição. O modelo se concentra exclusivamente nas oportunidades e seus pontos de contato relacionados, em vez de mostrar todos os dados de pontos de contato.
+Não existe comparação direta entre o relatório [!UICONTROL Caminho de engajamento] no Discover e no modelo. O relatório no [!DNL Discover] é modelado a partir do ponto de contato, enquanto o relatório no modelo é modelado a partir do ponto de contato de atribuição. O modelo se concentra exclusivamente nas oportunidades e seus pontos de contato relacionados, em vez de mostrar todos os dados de pontos de contato.
 
 ### Velocidade do negócio {#deal-velocity}
 

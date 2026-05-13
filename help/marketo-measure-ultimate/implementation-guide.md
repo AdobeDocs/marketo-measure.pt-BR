@@ -3,10 +3,18 @@ description: '[!DNL Marketo Measure] Guia de Implementação do Ultimate - [!DNL
 title: Guia de implementação do [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Dj1Dbz4wPQt99NlAEtcn7v3AQoQPdIV5HDExXmlbcZ0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 63%
+source-wordcount: 1074
+ht-degree: 65%
 
 ---
 
@@ -72,7 +80,7 @@ Para aqueles com _&#x200B;**direito a CDP**&#x200B;_: crie esquemas acessando a 
 >
 >Ao adicionar um novo conjunto de dados, recomendamos criar um fluxo em vez de usar um existente.
 
-[Visão Geral dos Fluxos de Dados](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=pt-BR){target="_blank"}
+[Visão geral dos fluxos de dados](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=pt-BR){target="_blank"}
 
 **Etapas para criar um fluxo de dados:**
 

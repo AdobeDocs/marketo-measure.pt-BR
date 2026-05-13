@@ -4,9 +4,12 @@ description: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints 
 title: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/vj5iw2eqF-ZBl2P8tloZdHWK67tRJn-J0RVh-hKnOZQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: 392
 ht-degree: 100%
 
 ---

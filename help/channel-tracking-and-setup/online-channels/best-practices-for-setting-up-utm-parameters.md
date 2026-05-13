@@ -4,10 +4,13 @@ description: Práticas recomendadas para configurar parâmetros de UTM -  [!DNL 
 title: Práticas recomendadas para configurar parâmetros do UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 86%
+source-wordcount: 459
+ht-degree: 83%
 
 ---
 
@@ -33,7 +36,7 @@ Mantenha a simplicidade. Não use esse parâmetro para indicar o tipo de anúnci
 
 **utm_campaign**: este campo corresponde para o Nome da campanha publicitária. Use utm_campaign para indicar o título da campanha, como ela existe na plataforma de publicidade, ou como é mencionada internamente.
 
-Este também é um bom parâmetro para indicar Geolocalização, Tipo de rede de publicidade (exibição vs. pesquisa) etc.
+Também é um bom parâmetro para indicar Geolocalização, Tipo de rede de anúncio (exibição v. pesquisa) e assim por diante.
 
 É recomendável usar sublinhados em vez de espaços e evitar o uso de pontuação. Isso reduz as chances de erros de codificação pelos navegadores ao ler seus parâmetros.
 

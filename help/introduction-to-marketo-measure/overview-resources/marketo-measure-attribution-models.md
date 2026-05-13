@@ -4,9 +4,12 @@ description: Modelos de atribuição do Marketo Measure - Marketo Measure - Docu
 title: Modelos de atribuição do Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/auiVcEzz1L3cujxvhEw6C7gig67ZHZCMKmB87oPxjVo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 777
 ht-degree: 100%
 
 ---

@@ -3,9 +3,14 @@ description: Política de Visibilidade de Dados do Painel - [!DNL Marketo Measur
 title: Política de visibilidade de dados do painel
 feature: Reporting
 exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/BoS1frFIuxKjaHbi9FkI5lgtBbjMqYo3-4AFliP9ehc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 239
 ht-degree: 14%
 
 ---

@@ -4,9 +4,14 @@ description: 'Migração da sandbox para a produção no Salesforce:  [!DNL Mark
 title: Migração da sandbox para a produção no Salesforce
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tdO2AE1dXfriuURbldKa0NB6wzc0o6NBH0CdgolkqSc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: 327
 ht-degree: 98%
 
 ---
@@ -19,7 +24,7 @@ Se você optou por testar o [!DNL Marketo Measure] em um ambiente de sandbox do 
 
 * Instale o pacote do [!DNL Marketo Measure] na produção com a configuração “[!UICONTROL Todos os usuários]”
 
-   * [Pacote Base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Pacote base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * Para obter mais informações sobre a relação do [!DNL Marketo Measure] com o [!DNL Salesforce], consulte [este artigo](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * É necessário configurar alguns detalhes no [!DNL Salesforce]. Os itens de ação específicos são descritos na [etapa 4 abaixo](#salesforce-configuration)
@@ -51,7 +56,7 @@ Se você optou por testar o [!DNL Marketo Measure] em um ambiente de sandbox do 
 
 [Conjuntos de permissões](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Compartilhando relatórios](https://help.salesforce.com/s/articleView?language=pt_BR&id=analytics_share_folder.htm&type=0){target="_blank"}
+[Compartilhamento de relatórios](https://help.salesforce.com/s/articleView?language=pt_BR&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Ocultar tipos de relatório desnecessários](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

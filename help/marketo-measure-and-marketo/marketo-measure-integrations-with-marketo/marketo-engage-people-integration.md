@@ -4,10 +4,17 @@ description: '[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Meas
 title: Integração de pessoas do [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/h5Fe8tfw6VkKLRgKVdgKDRrhK91iVtkGSkrwU-W5SKw
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 2%
+source-wordcount: 878
+ht-degree: 3%
 
 ---
 
@@ -60,7 +67,7 @@ Ao relatar clientes potenciais (pessoas) em [!DNL Marketo Measure Discover], voc
   </tr> 
   <tr> 
    <td><p>ID</p></td> 
-   <td><p>ID</p></td> 
+   <td><p>id</p></td> 
   </tr> 
   <tr> 
    <td><p>MODIFIED_DATE</p></td> 
@@ -72,7 +79,7 @@ Ao relatar clientes potenciais (pessoas) em [!DNL Marketo Measure Discover], voc
   </tr> 
   <tr> 
    <td><p>EMAIL</p></td> 
-   <td><p>email</p></td> 
+   <td><p>e-mail</p></td> 
   </tr> 
   <tr> 
    <td><p>WEB_SITE</p></td> 

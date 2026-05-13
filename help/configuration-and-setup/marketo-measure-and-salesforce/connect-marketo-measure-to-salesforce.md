@@ -4,10 +4,15 @@ description: Conectar o Marketo Measure ao Salesforce - [!DNL Marketo Measure]
 title: Conectar o Marketo Measure ao Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/f09jcpWCdMmfgziD5jFyA60axP1HJ87xGKQtlHc4DdQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 1%
+source-wordcount: 431
+ht-degree: 3%
 
 ---
 

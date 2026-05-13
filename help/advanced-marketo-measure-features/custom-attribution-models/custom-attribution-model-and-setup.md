@@ -4,9 +4,14 @@ description: Modelo e Configuração de Atribuição Personalizados - [!DNL Mark
 title: Modelo e configuração de atribuição personalizada
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Bqvp26IvjPnXom9rfkB2cWtrnrM3Jsz6SQKqDYKp-cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: 849
 ht-degree: 1%
 
 ---

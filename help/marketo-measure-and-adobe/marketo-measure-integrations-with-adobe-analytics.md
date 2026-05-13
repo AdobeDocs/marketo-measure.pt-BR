@@ -3,10 +3,18 @@ description: '[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL
 title: '[!DNL Marketo Measure] Integrações com  [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 1%
+source-wordcount: 968
+ht-degree: 2%
 
 ---
 
@@ -57,7 +65,7 @@ Além dos listados abaixo, você também pode carregar todos os atributos anexad
    <td><b>Descrição</b></td>
   </tr> 
   <tr> 
-   <td>Account.Name</td> 
+   <td>Conta.Nome</td> 
    <td>Os nomes de conta associados ao visitante da Web especificado. Se mais de uma conta estiver vinculada ao usuário especificado, [!DNL Marketo Measure] preencherá todos os nomes de contas correspondentes em uma lista delimitada por ponto-e-vírgula.<br/>
    <strong>Observação:</strong> account.name é o nome no nível da API do Salesforce para o atributo name no objeto account. Você pode escolher um nome de exibição melhor (por exemplo, "Empresa") para esse atributo durante a etapa Validação de esquema da configuração de integração (etapa 4).</td>
   </tr>

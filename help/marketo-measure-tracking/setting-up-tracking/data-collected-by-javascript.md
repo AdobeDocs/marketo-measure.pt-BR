@@ -3,9 +3,12 @@ description: Dados Coletados pela JavaScript - [!DNL Marketo Measure]
 title: Dados coletados por JavaScript
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/QSbkXXjEjxmddR-dTrgjZiV0dXvO-iZKjHfSBJP2Jt0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: 231
 ht-degree: 98%
 
 ---

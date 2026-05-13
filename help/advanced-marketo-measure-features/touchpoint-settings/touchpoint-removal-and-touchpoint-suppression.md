@@ -4,9 +4,14 @@ description: Remoção e Supressão de Pontos de Contato - [!DNL Marketo Measure
 title: Remoção e supressão do touchpoint
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/DgzPRjvGigZ3swx1fTw0x7r-XbURxwRMNGHH4JdXLfQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: 648
 ht-degree: 2%
 
 ---

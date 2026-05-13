@@ -4,10 +4,13 @@ description: Definição de sessões da web do  [!DNL Marketo Measure]  -  [!DNL
 title: 'Definição de Sessões da Web do  [!DNL Marketo Measure] '
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/eGTW-4FDBrucACn0d3nFeO9tMITP6MuDlsjA9w-FjGU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: 832
+ht-degree: 97%
 
 ---
 

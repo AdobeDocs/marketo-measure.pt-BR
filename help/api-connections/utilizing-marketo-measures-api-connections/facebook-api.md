@@ -4,9 +4,17 @@ description: API [!DNL Facebook] - [!DNL Marketo Measure]
 title: API [!DNL Facebook]
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: 498
 ht-degree: 3%
 
 ---
@@ -34,7 +42,7 @@ Quanto à instalação, há sete etapas a serem concluídas no aplicativo [!DNL 
    >A pessoa conectando a conta [!DNL Facebook Ads] precisa ser um administrador dentro da conta [!DNL Facebook Ads].
 
 1. Depois que [!DNL Marketo Measure] estiver conectado à sua conta do Facebook, clique no ícone de lápis ao lado da conta.
-1. Nesta exibição, mover a opção &quot;Marcação automática?&quot; alternar para &#39;Sim&#39;. Em seguida, marque a caixa de seleção localizada na seção [!UICONTROL Saiba mais] para concordar com os termos e as condições. Verifique se a opção [!UICONTROL Marcação automática] ainda está definida como &#39;[!UICONTROL Sim]&#39;.
+1. Nesta exibição, mova a opção &quot;Marcação automática?&quot; para &quot;Sim&quot;. Em seguida, marque a caixa de seleção localizada na seção [!UICONTROL Saiba mais] para concordar com os termos e as condições. Verifique se a opção [!UICONTROL Marcação automática] ainda está definida como &#39;[!UICONTROL Sim]&#39;.
 
 ## Conexão com a conta {#connecting-the-account}
 
@@ -83,11 +91,11 @@ Para que a integração funcione corretamente, é necessário habilitar a marca�
    <td><p>[[!DNL Facebook] Nome do Conjunto de Anúncios]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Origem do touchpoint</p></td> 
+   <td><p>Origem do Ponto de Contato</p></td> 
    <td><p>"[!DNL Facebook]" ou [utm_source], se fornecido</p></td> 
   </tr> 
   <tr> 
-   <td><p>Meio</p></td> 
+   <td><p>Médio</p></td> 
    <td><p>"Social" ou [utm_medium] se fornecido</p></td> 
   </tr> 
   <tr> 
@@ -116,7 +124,7 @@ Para que a integração funcione corretamente, é necessário habilitar a marca�
   </tr> 
   <tr> 
    <td><p>Ad_Provider (Data Warehouse)</p></td> 
-   <td><p>[!DNL Facebook]</p></td> 
+   <td><p>"[!DNL Facebook]"</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 

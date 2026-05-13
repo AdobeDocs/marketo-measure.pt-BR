@@ -3,9 +3,15 @@ description: Práticas recomendadas para o modelo personalizado - [!DNL Marketo 
 title: Práticas recomendadas para o modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: 851
 ht-degree: 2%
 
 ---
@@ -44,7 +50,7 @@ Se você estiver configurando seu Modelo personalizado pela primeira vez ou revi
       * Uma porcentagem de atribuição mais baixa significa que os estágios são menos importantes para a equipe monitorar
 * Você deve definir a parte superior dos estágios do funnel com base nos estágios de cliente potencial ou contato, não entre os dois
    * Isso significa que você deve garantir que todas as pessoas passarão por esse estágio no objeto relativo
-      * Por exemplo: se você definir o estágio MQL a partir do objeto de cliente potencial, todas as pessoas deverão entrar em seu sistema como um cliente potencial e ser marcadas como um MQL em seu registro de cliente potencial para que [!DNL Marketo Measure] reflita com precisão qual contato estava relacionado à transição do cliente potencial para MQL. Se esse não for o caso, e algumas pessoas avançarem para Contato antes de se tornarem um MQL líder, o [!DNL Marketo Measure] não poderá contabilizar com precisão isso nos dados do Touchpoint e teremos que assumir que a pessoa já tem um MQL. [!DNL Marketo Measure] não pode levar em conta as saltos de estágio; portanto, vamos inferir que os estágios foram transmitidos, mesmo que não tenham sido.
+      * Por exemplo: se você definir o estágio MQL a partir do objeto de cliente potencial, todas as pessoas deverão entrar em seu sistema como um cliente potencial e ser marcadas como um MQL em seu registro de cliente potencial para que [!DNL Marketo Measure] reflita com precisão qual contato estava relacionado à transição do cliente potencial para MQL. Se esse não for o caso, e algumas pessoas avançarem para Contato antes de se tornarem um MQL líder, o [!DNL Marketo Measure] não poderá contabilizar com precisão isso nos dados do Touchpoint e teremos que assumir que a pessoa já tem um MQL. [!DNL Marketo Measure] não pode levar em conta as saltos de preparo; portanto, vamos inferir que os estágios foram transmitidos, mesmo que não tenham sido.
 * Certifique-se de que o rastreamento do histórico de campo esteja habilitado para todos os campos usados para definir estágios personalizados que você incorpora
 * Não usar campos de fórmula para definir um estágio personalizado
    * Um campo booleano é uma recomendação de prática recomendada

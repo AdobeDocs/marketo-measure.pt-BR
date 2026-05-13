@@ -4,9 +4,12 @@ description: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot] - [!D
 title: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/AQ9eRG6l6KV5K3-suOcgN4j5Jow1WPszggcX3-pLino
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 0%
 
 ---

@@ -4,16 +4,19 @@ description: Adição de script do  [!DNL Marketo Measure]  via  [!DNL Google Ta
 title: Adição de script do  [!DNL Marketo Measure]  via  [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 198
 ht-degree: 95%
 
 ---
 
 # Adição de script do [!DNL Marketo Measure] via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-Ao instalar o JavaScript do [!DNL Marketo Measure], é recomendável [codificar o script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} diretamente no site. Se isso não for possível, use o [!DNL Google Tag Manager] (GTM) para carregar o JS do [!DNL Marketo Measure].  Observe que o JS do [!DNL Marketo Measure] carregado por meio do GTM está sujeito à latência. A latência causa um atraso nos tempos de carregamento do script, que pode resultar em perda de cerca de 3 a 5% de todos os envios de formulários.
+Ao instalar o JavaScript do [!DNL Marketo Measure], é recomendável [codificar o script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} diretamente no site. Se isso não for possível, use o [!DNL Google Tag Manager] (GTM) para carregar o JS do [!DNL Marketo Measure]. Observe que o JS do [!DNL Marketo Measure] carregado por meio do GTM está sujeito à latência. A latência causa um atraso nos tempos de carregamento do script, que pode resultar em perda de cerca de 3 a 5% de todos os envios de formulários.
 
 Se decidir adicionar o script via GTM, defina o script do [!DNL Marketo Measure] com a prioridade mais alta em sua ordem de acionamento e certifique-se de que não haja scripts síncronos na frente da tag do [!DNL Marketo Measure], para reduzir quaisquer efeitos de latência do GTM.
 

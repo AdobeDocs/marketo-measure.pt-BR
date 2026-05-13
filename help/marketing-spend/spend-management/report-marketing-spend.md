@@ -4,9 +4,16 @@ description: Gastos com Marketing de Relatório - [!DNL Marketo Measure]
 title: Gasto de marketing de relatório
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: 347
 ht-degree: 1%
 
 ---

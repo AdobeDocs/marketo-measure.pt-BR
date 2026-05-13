@@ -4,10 +4,17 @@ description: Recomendado [!DNL Salesforce] Permissões para [!DNL Marketo Measur
 title: Permissões [!DNL Salesforce] recomendadas para [!DNL Marketo Measure] usuário conectado
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 23%
+source-wordcount: 441
+ht-degree: 27%
 
 ---
 
@@ -27,7 +34,7 @@ O conjunto de permissões gerenciadas oferece a um administrador do SFDC a capac
 
 * Exibir e editar conjuntos de permissões de clientes em potencial convertidos
 
-Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver ativado, poderá haver lacunas significativas no rastreamento de dados. Você pode encontrar mais informações na [[!DNL Salesforce Trailblazer] comunidade](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
+Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver habilitado, poderá haver grandes lacunas no rastreamento de dados. Você pode encontrar mais informações na [[!DNL Salesforce Trailblazer] comunidade](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * Caixa de seleção de usuário de marketing [!DNL Salesforce]
 

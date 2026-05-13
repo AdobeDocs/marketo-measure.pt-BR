@@ -4,16 +4,19 @@ description: Geração e mapeamento de pontos de contato -  [!DNL Marketo Measur
 title: Geração e mapeamento de pontos de contato
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/otuePoQBPvb-UEJCTI1CeyA1BYQ7Jn-jZQm63si-6uA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 363
 ht-degree: 100%
 
 ---
 
 # Geração e mapeamento de pontos de contato {#touchpoint-generation-and-mapping}
 
- As histórias de atribuição do [!DNL Marketo Measure] dependem de dois processos:
+As histórias de atribuição do [!DNL Marketo Measure] dependem de dois processos:
 
 * Geração de pontos de contato, que cria pontos de contato que representam as interações de uma pessoa com seus esforços de marketing e vendas
 * Mapeamento de pontos de contato, que atribui pontos de contato ao canal e subcanal apropriados

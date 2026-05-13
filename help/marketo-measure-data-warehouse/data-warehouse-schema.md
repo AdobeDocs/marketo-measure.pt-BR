@@ -4,9 +4,16 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentação do pro
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: 21775
 ht-degree: 99%
 
 ---
@@ -948,7 +955,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>A quantidade de gastos importada nos últimos 30 dias, aplicável somente ao AdWords.</p>
       </td>
       <td>
-        <p>17260,000000000000000000</p>
+        <p>17260.000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2875,7 +2882,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um toque em forma de W (Consulte Is_First_Touch, Is_Lead_Creation_Touch e Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0,0153374234214425</p>
+        <p>0.0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -2889,7 +2896,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um modelo de caminho completo (Consulte Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0,0143061513081193</p>
+        <p>0.0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -3068,8 +3075,8 @@ Dados gerados a partir da integração da IA de atribuição. Esses campos só s
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>ID de evento original do MM para o evento de conversão 
-    <br>É mapeada para um ponto de contato de usuário ou uma transição de estágio</td>
+    <td>id de evento MM original para o evento de conversão 
+    <br>mapeia para um ponto de contato de usuário ou uma transição de estágio</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3093,8 +3100,8 @@ Dados gerados a partir da integração da IA de atribuição. Esses campos só s
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>ID original do contato do MM para o evento de conversão
-    <br>provavelmente será nula na maioria das vezes</td>
+    <td>id de contato do MM original para o evento de conversão
+    <br>provavelmente será nulo a maior parte do tempo</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -3821,7 +3828,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
       <td>ID</td>
       <td>varchar</td>
       <td>Uma ID exclusiva para o registro de custo.</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
+      <td>aw.6601259029.285114995.21703163075.[Exibição do AdWords]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6213,7 +6220,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um toque em forma de U.</p>
       </td>
       <td>
-        <p>100,0000000000000000000</p>
+        <p>100.0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6269,7 +6276,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>Quantidade da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>42000,00000000</p>
+        <p>42000.00000000</p>
       </td>
     </tr>
     <tr>
@@ -7056,7 +7063,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       </td>
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
-      <td>NULO</td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8714,7 +8721,7 @@ Oportunidades importadas do sistema de origem.
         <p>Valor do contrato esperado ou fechado da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>8988,00000000</p>
+        <p>8988.00000000</p>
       </td>
     </tr>
     <tr>
@@ -10424,7 +10431,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
       <td>
-        <p>NULO</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>

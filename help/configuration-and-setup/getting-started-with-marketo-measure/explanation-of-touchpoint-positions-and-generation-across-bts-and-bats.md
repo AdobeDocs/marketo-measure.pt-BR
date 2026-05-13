@@ -3,9 +3,14 @@ description: Explicação das Posições do Ponto de Contato e Geração entre B
 title: Explicação das posições de touchpoint e da geração entre BTs e [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 792
 ht-degree: 3%
 
 ---
@@ -92,7 +97,7 @@ A seguir, há uma descrição das posições da Buyer Touchpoint que descrevem o
  </tbody>
 </table>
 
-[!DNL Marketo Measure] tem esses dois conjuntos de dados de Touchpoint para criar uma compreensão clara da jornada e das Oportunidades de uma pessoa. Esses dois conjuntos de dados do Touchpoint fornecem um mapa claro do que aconteceu de cima para baixo do funnel funnel.
+[!DNL Marketo Measure] tem esses dois conjuntos de dados de Touchpoint para criar uma compreensão clara da jornada e das Oportunidades de uma pessoa. Esses dois conjuntos de dados do Touchpoint fornecem um mapa claro do que aconteceu de cima para baixo do funnel.
 
 O exemplo a seguir mostra o fluxo de dados de BTs (Pontos de contato do comprador) para BATs (Pontos de contato de atribuição do comprador). Neste exemplo, a Pessoa A e a Pessoa B fazem parte da mesma Oportunidade que tem uma Data de criação de 7/3/2020 e uma Data de fechamento de 6/5/2020.
 

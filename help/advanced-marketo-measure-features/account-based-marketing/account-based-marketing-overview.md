@@ -4,10 +4,15 @@ description: Saiba mais sobre Account-Based Marketing (ABM) e como o Adobe Marke
 title: Visão geral do marketing baseado em conta
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 98%
+source-wordcount: 837
+ht-degree: 95%
 
 ---
 
@@ -47,7 +52,7 @@ Os leads/contatos das contas são validados por seus domínios de email/site e a
 
 >[!NOTE]
 >
->Cada lead tenta se corresponder a uma conta na ordem preferencial dos métodos acima. Uma vez que a correspondência é feita, a AccountId é definida imediatamente no lead e este não terá outra correspondência feita por outro método. 
+>Cada lead tenta se corresponder a uma conta na ordem preferencial dos métodos acima. Uma vez que a correspondência é feita, a AccountId é definida imediatamente no lead e este não terá outra correspondência feita por outro método.
 
 ## Pontuação preditiva de engajamento {#predictive-engagement-score}
 
@@ -70,7 +75,7 @@ Há muitos componentes que fazem parte do algoritmo que calcula a PES. A recenti
 >Você pode observar uma nota “N/D“ ou “-” (o símbolo de traço) na Pontuação preditiva de engajamento de algumas contas.
 
 _Uma nota “N/D” significa que ainda não temos dados suficientes sobre essa conta para que o modelo gere uma nota verdadeira. Quando houver mais dados, o modelo atribuirá uma nota._
-_Uma nota de “-” (o símbolo de traço) significa que essa conta ainda não terminou o processo do ABM, devido a restrições de tempo, processos ocasionalmente perdidos etc. Se achar que uma conta já deveria ter uma nota, com base em outras contas ou intervalos de tempo semelhantes, entre em contato com o [!DNL Marketo Measure]._
+_Um grau de &quot;-&quot; (o símbolo de traço) significa que esta conta ainda precisa ser processada pelo processo ABM, devido a restrições de tempo, processos ocasionalmente perdidos e assim por diante. Se achar que uma conta já deveria ter uma nota, com base em outras contas ou intervalos de tempo semelhantes, entre em contato com o [!DNL Marketo Measure]._
 
 ## Configuração do layout da página de ABM no [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 

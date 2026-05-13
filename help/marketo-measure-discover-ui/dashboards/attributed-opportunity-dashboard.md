@@ -3,9 +3,15 @@ description: Painel de Oportunidades Atribuído - [!DNL Marketo Measure] - Produ
 title: Painel de oportunidades atribuídas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: 424
 ht-degree: 2%
 
 ---

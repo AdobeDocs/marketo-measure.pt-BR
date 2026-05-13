@@ -4,10 +4,13 @@ description: Sincronizando Campanhas Offline - [!DNL Marketo Measure]
 title: Sincronização de campanhas offline
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 5%
+source-wordcount: 752
+ht-degree: 9%
 
 ---
 

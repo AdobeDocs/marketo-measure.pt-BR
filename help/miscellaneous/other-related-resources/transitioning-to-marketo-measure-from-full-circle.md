@@ -4,9 +4,15 @@ description: Transição para  [!DNL Marketo Measure] do Círculo Completo - [!D
 title: Transição para [!DNL Marketo Measure] do círculo completo
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: 634
 ht-degree: 0%
 
 ---

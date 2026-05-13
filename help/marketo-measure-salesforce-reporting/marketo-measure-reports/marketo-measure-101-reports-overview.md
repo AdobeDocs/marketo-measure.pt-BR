@@ -3,9 +3,14 @@ description: '[!DNL Marketo Measure] 101 Visão Geral de Relatórios - [!DNL Mar
 title: '[!DNL Marketo Measure] Visão geral de relatórios 101'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/13R7Z5YTxgq5QdoT4O90MHzgva5e-cXf50V9jH75-TE
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: 930
 ht-degree: 5%
 
 ---
@@ -32,7 +37,7 @@ Esses relatórios fornecem os campos básicos e a infraestrutura necessários pa
 
 _Se não conseguir encontrar a pasta de Relatório de Pontos de Contato do Comprador ou os seis relatórios &quot;_[!DNL Marketo Measure] 101..._&quot; nessa pasta, entre em contato com o suporte para obter assistência._
 
-**Clientes potenciais com pontos de contato do comprador** | As duas variações a seguir relatam clientes potenciais e seus pontos de contato do comprador. Embora eles usem o mesmo tipo de relatório básico, eles são agrupados por métricas diferentes, ID de lead vs. canal de marketing, para fornecer duas visualizações principais dos dados. Esse tipo de relatório foi projetado para ser parte superior aos relatórios do funnel e é ideal para explorar como seus clientes em potencial estão se envolvendo com suas iniciativas de marketing. Antes de qualquer personalização, os dois relatórios abaixo exibem o seguinte:
+**Clientes potenciais com pontos de contato do comprador** | As duas variações a seguir relatam os clientes potenciais e seus pontos de contato do comprador. Embora eles usem o mesmo tipo de relatório básico, eles são agrupados por métricas diferentes, ID de lead vs. canal de marketing, para fornecer duas visualizações principais dos dados. Esse tipo de relatório foi projetado para ser parte superior aos relatórios do funnel e é ideal para explorar como seus clientes em potencial estão se envolvendo com suas iniciativas de marketing. Antes de qualquer personalização, os dois relatórios abaixo exibem o seguinte:
 
 **[!DNL Marketo Measure]101: Clientes Potenciais por Canal** | Uma exibição de alto nível de como seus Canais de marketing estão influenciando a criação de Clientes potenciais e seus envolvimentos adicionais.
 **[!DNL Marketo Measure]101: clientes em potencial por ID** | Isso exibe a história de Clientes potenciais e é um relatório muito mais granular, mostrando cada Cliente potencial individual e seus Pontos de Contato do Comprador relacionados.
@@ -44,12 +49,12 @@ O objeto Pessoa do [!DNL Marketo Measure] se relaciona aos objetos Lead e Contat
 As duas variações de relatório a seguir usam o mesmo tipo de relatório, mas são agrupadas por métricas diferentes, ID de pessoa (email) vs. Canal de marketing. Esses são os principais relatórios do funnel/meio do funnel que são ótimos quando se trata de explorar como seus clientes em potencial e contatos estão se envolvendo com suas iniciativas de marketing. Antes de qualquer personalização, os dois relatórios abaixo exibem o seguinte:
 
 **[!DNL Marketo Measure]101: Cliente Potencial/Contatos por Canal** | Uma exibição de alto nível de como seus Canais de marketing estão influenciando a criação de Clientes potenciais ou Contatos e seus envolvimentos adicionais. Este relatório é ideal para entender o engajamento total nos Canais de marketing e quais Canais de marketing estão direcionando novos nomes na sua instância do Salesforce.
-**[!DNL Marketo Measure]101: Cliente Potencial/Contatos por ID** | Ele exibe a história de cada pessoa [!DNL Marketo Measure] e é um relatório muito mais granular, mostrando cada indivíduo e seus pontos de contato do comprador, independentemente de o ponto de contato ter ocorrido quando ele era um cliente potencial ou um contato.
+**[!DNL Marketo Measure]101: Cliente Potencial/Contatos por ID** | Isso exibe a história de cada pessoa [!DNL Marketo Measure] e é um relatório muito mais granular, mostrando cada indivíduo e seus pontos de contato do comprador, independentemente de o ponto de contato ter ocorrido quando ele era um cliente potencial ou um contato.
 
 **Oportunidades com pontos de contato de atribuição do comprador** | Os dois últimos relatórios &quot;_[!DNL Marketo Measure]101..._&quot; estão na parte inferior dos relatórios do funnel, que exibem os dados do Buyer Attribution Touchpoint relacionados a Oportunidades. O principal diferencial desses relatórios é que eles são criados a partir de _Pontos de contato de atribuição do comprador_, que estão relacionados aos dados de nível de oportunidade e oportunidade, como receita. Sempre que você deseja relatar Oportunidades ou receita atribuída, este tipo de relatório deve ser usado. Os dois relatórios abaixo usam o mesmo tipo de relatório. No entanto, são agrupados por métricas diferentes, ID da oportunidade vs Canal de marketing. Antes de qualquer personalização, os dois relatórios abaixo exibem o seguinte:
 
 **[!DNL Marketo Measure]101: Oportunidades por Canal** | Uma exibição de alto nível de como seus Canais de marketing estão influenciando e impulsionando a receita atribuída em suas Oportunidades.
-**[!DNL Marketo Measure]101: Oportunidades por ID** | Esta versão granular do relatório mostra a jornada completa de suas Oportunidades. Neste relatório, é possível ver cada Buyer Attribution Touchpoint associada a uma Oportunidade e sua receita atribuída por meio dos vários modelos de atribuição.
+**[!DNL Marketo Measure]101: Oportunidades por ID** | Esta versão granular do relatório mostra a jornada completa de suas oportunidades. Neste relatório, é possível ver cada Buyer Attribution Touchpoint associada a uma Oportunidade e sua receita atribuída por meio dos vários modelos de atribuição.
 
 É considerada uma prática recomendada tratar os relatórios &quot;_[!DNL Marketo Measure]101..._&quot; como modelos para suas necessidades de relatórios. Começar com um dos relatórios acima economizará tempo e garantirá que você esteja trabalhando com os campos corretos relacionados aos dados do [!DNL Marketo Measure]. Sempre certifique-se de &quot;Salvar como&quot; sempre que fizer personalizações nos modelos &quot;_[!DNL Marketo Measure]101..._&quot; para reter a variação original do relatório.
 

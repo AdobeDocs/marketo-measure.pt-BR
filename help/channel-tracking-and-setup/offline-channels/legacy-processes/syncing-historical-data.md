@@ -4,9 +4,15 @@ description: Sincronizando Dados Históricos - [!DNL Marketo Measure]
 title: Sincronização de dados históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: 1516
 ht-degree: 3%
 
 ---
@@ -23,9 +29,9 @@ O [!DNL Marketo Measure] é uma solução que fornece os dados mais granulares e
 
 **Os dados já estão organizados em campanhas?**
 
-a. Os dados precisam ser organizados em Campanhas para serem sincronizados com [!DNL Marketo Measure] para que os Pontos de Contato sejam gerados. Se não estiver organizado atualmente em Campanhas, você desejará avaliar se vale o tempo e os recursos necessários para segmentar os dados nas campanhas apropriadas.
+a) Os dados precisam ser organizados em Campanhas para serem sincronizados com [!DNL Marketo Measure] para que os Pontos de Contato sejam gerados. Se não estiver organizado atualmente em Campanhas, você desejará avaliar se vale o tempo e os recursos necessários para segmentar os dados nas campanhas apropriadas.
 
-b. A data em que o membro foi adicionado à campanha ou marcado como respondido será usada para a data do ponto de contato, portanto, também precisa ser precisa. O [!DNL Marketo Measure] oferece soluções alternativas no SFDC e no MSD para atualizar as datas, mas isso pode ser demorado, dependendo do volume.
+b) A data em que o membro foi adicionado à campanha ou marcado como respondido será usada para a data do ponto de contato, portanto, também precisa ser precisa. O [!DNL Marketo Measure] oferece soluções alternativas no SFDC e no MSD para atualizar as datas, mas isso pode ser demorado, dependendo do volume.
 
 **Você tem uma quantidade bastante semelhante de dados organizados em campanhas para todos os Canais (pesquisa paga, eventos, orgânico etc.)?**
 

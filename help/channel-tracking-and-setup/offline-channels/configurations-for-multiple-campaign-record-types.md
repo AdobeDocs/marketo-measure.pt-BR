@@ -4,9 +4,12 @@ description: Configurações para Vários Tipos de Registro de Campanha - [!DNL 
 title: Configurações para vários tipos de registro de campanha
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JsOl-fMo1Pwe1ozgVM53KsB56Nm2Q1U187crSLiKTiU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: 134
 ht-degree: 8%
 
 ---

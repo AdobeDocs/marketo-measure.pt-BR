@@ -4,9 +4,15 @@ description: '[!DNL Marketo Measure] Objetos Salesforce - [!DNL Marketo Measure]
 title: Objetos do Salesforce do [!DNL Marketo Measure]
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: 941
 ht-degree: 88%
 
 ---
@@ -51,7 +57,7 @@ Um **fluxo de trabalho** precisa ser criado se você usar um [campo personalizad
 
 ![](assets/3-1.png)
 
-O objeto BAT é visível nos objetos [!UICONTROL Oportunidade], [!UICONTROL Contato] e [!UICONTROL Conta] como uma lista relacionada. Esta lista exibe todos os touchpoints com os dados de atribuição pertencentes a uma oportunidade. Ao clicar na ID do Buyer Attribution Touchpoint, você será direcionado para a página Detalhes dele.  Aqui você poderá ver dados de atribuição e informações mais específicas sobre de onde o touchpoint veio (semelhante ao que é fornecido a partir do objeto Buyer Touchpoint).
+O objeto BAT é visível nos objetos [!UICONTROL Oportunidade], [!UICONTROL Contato] e [!UICONTROL Conta] como uma lista relacionada. Esta lista exibe todos os touchpoints com os dados de atribuição pertencentes a uma oportunidade. Ao clicar na ID do Buyer Attribution Touchpoint, você será direcionado para a página Detalhes dele. Aqui você poderá ver dados de atribuição e informações mais específicas sobre de onde o touchpoint veio (semelhante ao que é fornecido a partir do objeto Buyer Touchpoint).
 
 ## Pessoa do [!DNL Marketo Measure] {#marketo-measure-person}
 

@@ -4,9 +4,16 @@ description: Guia de Instalação do CRM do [!DNL Microsoft Dynamics] - Marketo 
 title: Guia de instalação do [!DNL Microsoft Dynamics] CRM
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KMhrHYDuF9z18bdpdrjfj2O3NbIcMsvQyJBqTpLf1Xo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 975
 ht-degree: 99%
 
 ---
@@ -15,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” no CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” em seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
 ## Versões compatíveis {#supported-versions}
 

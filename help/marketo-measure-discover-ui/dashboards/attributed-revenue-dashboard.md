@@ -3,9 +3,15 @@ description: Painel de Receita Atribuída - [!DNL Marketo Measure] - Produto
 title: Painel de receita atribuída
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/2g72TnGfMAnxT86K1VUm7Vn73xiU8Y2l-ROYB7AUVJE
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: 387
 ht-degree: 3%
 
 ---
