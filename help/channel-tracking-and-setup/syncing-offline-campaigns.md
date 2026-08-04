@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Sincronização de campanhas offline {#syncing-offline-campaigns}
 
-Pode ser difícil rastrear com precisão as campanhas offline e entender como elas se comparam aos seus esforços de marketing digital. [!DNL Marketo Measure] O permite rastrear e atribuir pontos de contato às suas campanhas offline no [!DNL Salesforce], mesmo em situações em que uma campanha [!DNL Salesforce] não é criada até algumas semanas após o evento.
+Pode ser difícil rastrear com precisão as campanhas offline e entender como elas se comparam aos seus esforços de marketing digital. O [!DNL Marketo Measure] permite que você rastreie e atribua Pontos de Contato às suas campanhas offline no [!DNL Salesforce], mesmo em situações em que a campanha [!DNL Salesforce] não é criada até algumas semanas após o evento.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ Ao criar esta campanha, clique no campo &quot;[!UICONTROL Habilitar pontos de co
 ![Ao criar esta campanha, clique em &quot;Habilitar Pontos de Contato do Comprador&quot;](assets/dynamics-lists-3.png)
 
 * **Incluir todos os membros da campanha**
-   * Esta opção permite que [!DNL Marketo Measure] atribua um Touchpoint a cada membro da campanha.
+  * Esta opção permite que [!DNL Marketo Measure] atribua um Touchpoint a cada membro da campanha.
 
 * **Incluir membros da campanha &quot;Respondidos&quot;.**
-   * Essa opção aplica pontos de contato a membros da campanha que têm o status &quot;Respondido&quot;.
+  * Essa opção aplica pontos de contato a membros da campanha que têm o status &quot;Respondido&quot;.
 
 * **Excluir todos os membros da campanha.**
-   * Essa opção não atribui pontos de contato a nenhum membro da campanha e atua como um sinalizador de que a campanha foi deliberadamente excluída de [!DNL Marketo Measure]. Se você sincronizar uma campanha com Pontos de contato do comprador acidentalmente, poderá alterar o status para &quot;Excluir todos os membros da campanha&quot; e os Pontos de contato serão removidos.
+  * Essa opção não atribui pontos de contato a nenhum membro da campanha e atua como um sinalizador de que a campanha foi deliberadamente excluída de [!DNL Marketo Measure]. Se você sincronizar uma campanha com Pontos de contato do comprador acidentalmente, poderá alterar o status para &quot;Excluir todos os membros da campanha&quot; e os Pontos de contato serão removidos.
 
 Depois que uma dessas seleções for escolhida, [!DNL Marketo Measure] atribuirá a cada membro da campanha um ponto de contato, se aplicável. O Cliente Potencial ou Contato adicionado à campanha _deve_ ter um endereço de email associado ao seu registro para que [!DNL Marketo Measure] crie um ponto de contato. Sem um endereço de email, o [!DNL Marketo Measure] não atribuirá um ponto de contato ao membro da campanha.
 
