@@ -43,7 +43,7 @@ No nível mais alto, há duas categorias de relatórios baseadas nos dois objeto
 
    * Geralmente usado para métricas e relatórios &quot;topo da funnel&quot; (TOFU) relacionados a _indivíduos_ (clientes em potencial, contatos, [!DNL Marketo Measure] pessoas)
    * Os BTs são usados para entender todas as interações de marketing relacionadas a **pessoas**, pois contêm o histórico completo do ponto de contato de cada pessoa. Como lembrete, esses pontos de contato são criados no CRM para o Primeiro contato anônimo, o Toque de criação de lead e qualquer envio de formulário ou ponto de contato subsequente que você escolher sincronizar
-uma campanha ou atividade offline.
+     uma campanha ou atividade offline.
 
 1. **Pontos de contato de atribuição do comprador** (BATs) / Oportunidade / Nível da conta / Receita
 
