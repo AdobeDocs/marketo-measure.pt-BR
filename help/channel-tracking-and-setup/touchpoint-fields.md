@@ -55,7 +55,7 @@ Meta: use o valor de um campo personalizado e coloque-o no objeto Touchpoint par
   * **)** marca o fim da extração
   * **.&#42;** informa que estamos extraindo a cadeia de caracteres inteira
 
-![.&amp;42; informa que estamos extraindo a cadeia de caracteres completa](assets/touchpoint-fields-10.png)
+![.&42; informa que estamos extraindo a cadeia de caracteres completa](assets/touchpoint-fields-10.png)
 
 **Exemplo #2**
 
@@ -75,7 +75,7 @@ Um caso de uso comum que esse recurso permite é obter valores de parâmetros pe
   * **+** extrairá o valor completo do parâmetro sem limite de caracteres
   * Observe que você está usando uma barra e não uma barra invertida
 
-![Observe que você está usando uma barra e não uma ](assets/touchpoint-fields-11.png)
+![Observe que você está usando uma barra e não uma &#x200B;](assets/touchpoint-fields-11.png)
 
 **Exemplo #3**
 

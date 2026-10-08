@@ -89,7 +89,7 @@ Você provavelmente colocará esses novos pontos de contato em seu [Canal de mar
 | Corresponde a qualquer | Vários valores - Correspondência exata |
 | Corresponde a Qualquer (Contém) | Vários valores - &#42;valor&#42;, &#42;valor, &#42;valor&#42; |
 
-![| Corresponde A Qualquer Um (Contém) | Vários valores - &amp;42;valor&amp;42;, &amp;42;valor, &amp;42;valor&amp;42; |](assets/activities-attribution-8.png)
+![| Corresponde A Qualquer Um (Contém) | Vários valores - &42;valor&42;, &42;valor, &42;valor&42; |](assets/activities-attribution-8.png)
 
 E por último, mas não menos importante, você tem a opção de inserir custos para seus novos canais. O [carregamento de Gastos com marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Gastos){target="_blank"} permite inserir seu gasto no nível do canal, do Subcanal ou da Campanha. Com suas novas Campanhas [!DNL Marketo Measure], você pode adicionar esses custos relacionados por mês e, em seguida, ver o ROI de cada Campanha!
 

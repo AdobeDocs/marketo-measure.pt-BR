@@ -52,7 +52,7 @@ O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que �
 
 Esse cenário usa os mesmos critérios do cenário 2. Um cliente optou por rastrear apenas o estágio SQL com pontos de contato de bumerangue. O MQL e o SAL ainda estão sendo rastreados, mas com o recurso Estágio personalizado [!DNL Marketo Measure].
 
-![Este cenário usa os mesmos critérios do cenário 2. Um cliente tem ](assets/boomerang-stages-20.png)
+![Este cenário usa os mesmos critérios do cenário 2. Um cliente tem &#x200B;](assets/boomerang-stages-20.png)
 
 Nesse cenário, o lead nunca faz a transição para o estágio SAL. Ele se converte em um Contato antes de atingir o estágio SAL, essencialmente &quot;ignorando&quot; o estágio SAL. Nessa situação, [!DNL Marketo Measure] presume que o SAL ocorre com o ponto de contato do OC, e ambas as posições do SAL e do OC aparecerão no mesmo ponto de contato.
 
