@@ -3,13 +3,17 @@ description: Orientação de sincronização de dados históricos para usuários
 title: Sincronização de dados históricos
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 3%
-
 ---
-
 # Sincronização de dados históricos {#syncing-historical-data}
 
 O [!DNL Marketo Measure] é uma solução que fornece os dados mais granulares e acionáveis. Entendemos, no entanto, que você pode ter dados existentes para os quais gostaria de ter atribuição. É possível gerar pontos de contato para dados históricos, mas é importante levar alguns fatores em consideração antes de prosseguir com esse processo.
@@ -24,7 +28,7 @@ O [!DNL Marketo Measure] é uma solução que fornece os dados mais granulares e
 
 a) Os dados precisam ser organizados em Campanhas para serem sincronizados com [!DNL Marketo Measure] para que os Pontos de Contato sejam gerados. Se não estiver organizado atualmente em Campanhas, você desejará avaliar se vale o tempo e os recursos necessários para segmentar os dados nas campanhas apropriadas.
 
-b) A data em que o membro foi adicionado à campanha ou marcado como respondido será usada para a data do ponto de contato, portanto, também precisa ser precisa. [!DNL Marketo Measure] O oferece soluções alternativas no SFDC e no MSD para atualizar as datas, mas isso pode ser demorado, dependendo do volume.
+b) A data em que o membro foi adicionado à campanha ou marcado como respondido será usada para a data do ponto de contato, portanto, também precisa ser precisa. O [!DNL Marketo Measure] oferece soluções alternativas no SFDC e no MSD para atualizar as datas, mas isso pode ser demorado, dependendo do volume.
 
 **Você tem uma quantidade bastante semelhante de dados organizados em campanhas para todos os Canais (pesquisa paga, eventos, orgânico etc.)?**
 

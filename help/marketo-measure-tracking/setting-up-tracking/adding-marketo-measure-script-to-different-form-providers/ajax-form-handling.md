@@ -4,18 +4,20 @@ description: Manuseio de Formulários AJAX - [!DNL Marketo Measure]
 title: Manuseio de formulário AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-TQID: https://experienceleague.adobe.com/2isohrsWngucMZ4EC1YeoaIwhWPP9cyIVdoVUQ6thyI
+TQID: 'https://experienceleague.adobe.com/2isohrsWngucMZ4EC1YeoaIwhWPP9cyIVdoVUQ6thyI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: APIs
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '316'
 ht-degree: 1%
-
 ---
-
 # Manuseio de formulário AJAX {#ajax-form-handling}
 
 Para relatar manualmente conversões de clientes em [!DNL Marketo Measure], há uma API simples que você pode usar. Ambas as APIs do JavaScript estão disponíveis automaticamente no site, se você tiver um código de rastreamento. Não é necessário fazer nada especial para acessá-las.

@@ -3,17 +3,23 @@ description: Orientação de gerenciamento de domínio para usuários do Marketo
 title: Gerenciamento de domínio
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
-
 ---
-
 # Gerenciamento de domínio {#domain-management}
 
-Para locatários habilitados para IMS que executam o [!DNL Marketo Measure] na Interface do Experience Cloud, o [!DNL Marketo Measure] fornece uma interface que permite que os usuários gerenciem sua própria lista de domínios. [!DNL Marketo Measure] os usuários devem primeiro verificar todos os domínios que desejam rastrear no [Adobe Admin Console](https://adminconsole.adobe.com/). Depois que os domínios forem verificados na Admin Console, os usuários poderão gerenciar se [!DNL Marketo Measure] os utiliza para rastrear o tráfego do site.
+Para locatários habilitados para IMS que executam o [!DNL Marketo Measure] na Interface da Experience Cloud, o [!DNL Marketo Measure] fornece uma interface que permite que os usuários gerenciem sua própria lista de domínios. [!DNL Marketo Measure] usuários devem primeiro verificar todos os domínios que desejam rastrear no [Adobe Admin Console](https://adminconsole.adobe.com/). Depois que os domínios forem verificados na Admin Console, os usuários poderão gerenciar se [!DNL Marketo Measure] os utiliza para rastrear o tráfego do site.
 
 ## Adicionar domínios no Admin Console {#adding-domains-in-admin-console}
 
@@ -29,7 +35,7 @@ Depois que um domínio é adicionado ao Admin Console, o [!DNL Marketo Measure] 
 
 ![Depois que um domínio é adicionado à Admin Console, o Marketo Measure](assets/domain-management-2.png)
 
-Na página **[!UICONTROL Integração]** > **[!UICONTROL Domínios]**, o usuário vê todos os domínios que registrou na Admin Console, juntamente com seus status. Cada domínio pode ser ativado ou desativado. Se um domínio estiver habilitado, o rastreamento do [!DNL Marketo Measure] coletará todo o tráfego visto nesse domínio. Se um domínio estiver desabilitado, [!DNL Marketo Measure] ignorará qualquer tráfego proveniente dele e não criará pontos de contato ou outros dados. [!DNL Marketo Measure] confirma a desativação de um domínio e avisa sobre qualquer ramificação:
+Na página **[!UICONTROL Integração]** > **[!UICONTROL Domínios]**, o usuário vê todos os domínios que registrou na Admin Console, juntamente com seus status. Cada domínio pode ser ativado ou desativado. Se um domínio estiver habilitado, o rastreamento do [!DNL Marketo Measure] coletará todo o tráfego visto nesse domínio. Se um domínio estiver desabilitado, [!DNL Marketo Measure] ignorará qualquer tráfego proveniente dele e não criará pontos de contato ou outros dados. [!DNL Marketo Measure] confirma a desativação de um domínio e avisa sobre as ramificações:
 
 ![Na página Domínios de Integração, o usuário vê todos os domínios](assets/domain-management-3.png)
 
@@ -56,7 +62,7 @@ Passar o mouse sobre qualquer item de status individual aciona uma dica de ferra
 
 **O que acontece quando um domínio é removido na Admin Console?**
 
-Quando um domínio é removido na Admin Console, o [!DNL Marketo Measure] marca o domínio como excluído. [!DNL Marketo Measure] O interrompe imediatamente o rastreamento do tráfego neste domínio, mas não remove os dados coletados anteriormente.
+Quando um domínio é removido na Admin Console, o [!DNL Marketo Measure] marca o domínio como excluído. [!DNL Marketo Measure] interrompe imediatamente o rastreamento do tráfego neste domínio, mas não remove nenhum dado coletado anteriormente.
 
 **Por que não consigo habilitar um domínio?**
 

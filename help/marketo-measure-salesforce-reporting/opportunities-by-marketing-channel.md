@@ -3,13 +3,19 @@ description: Oportunidades por orientação de Canal de marketing para usuários
 title: Oportunidades por canal de marketing
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 4%
-
 ---
-
 # Oportunidades por canal de marketing {#opportunities-by-marketing-channel}
 
 Este relatório mostra o número de oportunidades geradas pelos seus Canais de marketing; inclui todas as suas oportunidades. No entanto, você pode filtrar esse relatório para analisar tipos específicos de oportunidades.

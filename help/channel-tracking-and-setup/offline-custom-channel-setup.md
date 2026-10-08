@@ -3,14 +3,18 @@ description: Orientação de configuração de canal personalizado offline para 
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 2%
-
 ---
-
 # Configuração de canal personalizado offline {#offline-custom-channel-setup}
 
 ## Introdução {#getting-started}
@@ -45,7 +49,7 @@ Os tipos de campanha do SFDC aparecerão na guia Canal offline, listada em [!DNL
 
 Por exemplo, imagine que você participe de duas conferências [!DNL Salesforce] por ano. Cada conferência, no entanto, é muito diferente e tem um público-alvo exclusivo. Você quer saber qual dos dois traz mais valor. No ambiente [!DNL Salesforce], você pode dar ao evento de janeiro o Tipo de Campanha &quot;Conferência&quot;, nomear seu canal &quot;[!DNL Salesforce]&quot; e seu subcanal &quot;Conferência de janeiro&quot;.
 
-Agora você quer fazer o mesmo para a conferência de junho. Como essa conferência também é uma conferência, pode receber o mesmo Tipo de campanha, nesse caso, &quot;Conferência&quot;. O canal é o mesmo, [!DNL Salesforce], e o subcanal desta segunda conferência é &quot;Conferência de junho&quot;. Isso faz sentido do ponto de vista organizacional. No entanto, é muito confuso para a lógica [!DNL Marketo Measure] ler e aplicar essas regras porque ambas as campanhas têm o mesmo Tipo de Campanha. [!DNL Marketo Measure] o script não pode mapear dados de um tipo para dois subcanais diferentes. Isso significa que seria necessário criar um novo Tipo de campanha para cada subcanal, mas os subcanais podem ter o mesmo canal.
+Agora você quer fazer o mesmo para a conferência de junho. Como essa conferência também é uma conferência, pode receber o mesmo Tipo de campanha, nesse caso, &quot;Conferência&quot;. O canal é o mesmo, [!DNL Salesforce], e o subcanal desta segunda conferência é &quot;Conferência de junho&quot;. Isso faz sentido do ponto de vista organizacional. No entanto, é muito confuso para a lógica [!DNL Marketo Measure] ler e aplicar essas regras porque ambas as campanhas têm o mesmo Tipo de Campanha. O script [!DNL Marketo Measure] não pode mapear dados de um tipo para dois subcanais diferentes. Isso significa que seria necessário criar um novo Tipo de campanha para cada subcanal, mas os subcanais podem ter o mesmo canal.
 
 Abaixo está um exemplo de lógica que [!DNL Marketo Measure] não conseguiria ler:
 

@@ -1,15 +1,19 @@
 ---
-description: Painel de ROI de Palavra-chave - [!DNL Marketo Measure] - Produto
+description: Painel de ROI de palavra-chave - [!DNL Marketo Measure] - Produto
 title: Painel de ROI da palavra-chave
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # Painel de ROI da palavra-chave {#keyword-roi-dashboard}
 
 O Painel de ROI de palavra-chave fornece informações detalhadas sobre o desempenho das campanhas de Pesquisa paga. Ele fornece uma análise abrangente dos custos em nível de palavra-chave, da receita atribuída e dos novos leads e das oportunidades geradas, garantindo uma compreensão clara do ROI da palavra-chave.
@@ -68,11 +72,11 @@ Detalhe palavras-chave específicas para visualizar as oportunidades influenciad
 Esse painel é equipado com as seguintes configurações e filtros:
 
 * Data
-   * Baseado em:
-      * Data de criação: clientes em potencial de notícias, novas oportunidades
-      * Data de custo incorrido: custo
-      * Data de fechamento: receita atribuída (ROI simples), ofertas
-      * Data do ponto de contato: pontos de contato da receita atribuída realizada (ROI realizado)
+  * Baseado em:
+    * Data de criação: clientes em potencial de notícias, novas oportunidades
+    * Data de custo incorrido: custo
+    * Data de fechamento: receita atribuída (ROI simples), ofertas
+    * Data do ponto de contato: pontos de contato da receita atribuída realizada (ROI realizado)
 * Modelo de atribuição
 * Palavra-chave
 * Campanha

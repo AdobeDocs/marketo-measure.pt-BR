@@ -3,13 +3,20 @@ description: Fluxos de trabalho para alinhar a receita do Dynamics e campos de d
 title: '[!DNL Marketo Measure] Fluxos de trabalho de receita para o Dynamics'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] Fluxos de trabalho de receita para o Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 
 ## Parte 1: Receita estimada versus receita real {#part-estimated-revenue-vs-actual-revenue}
@@ -42,7 +49,7 @@ Este fluxo de trabalho é iniciado quando um usuário fecha uma Oportunidade e a
 
 ## Parte 2: Data de fechamento estimada versus Data de fechamento real {#part-estimated-close-date-vs-actual-close-date}
 
-Por padrão, os dados de receita do pipeline não estão disponíveis no painel porque o Dynamics tem dois campos de data de fechamento de estoque: Data de Fechamento Estimada e Data de Fechamento Real. [!DNL Marketo Measure] O só pode apontar para um campo de data de fechamento no painel e está apontando para a Data de Fechamento Real.
+Por padrão, os dados de receita do pipeline não estão disponíveis no painel porque o Dynamics tem dois campos de data de fechamento de estoque: Data de Fechamento Estimada e Data de Fechamento Real. [!DNL Marketo Measure] só pode apontar para um campo de data de fechamento no painel e está apontando para a Data de Fechamento Real.
 
 Se as oportunidades abertas não tiverem dados no campo Data Real de Fechamento, não haverá dados no painel para as oportunidades abertas. Dito isso, um workflow é necessário com base no estágio de oportunidade para suportar ambos os campos de data.
 

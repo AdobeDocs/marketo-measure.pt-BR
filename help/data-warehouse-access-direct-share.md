@@ -3,13 +3,17 @@ description: Saiba mais sobre os requisitos e as etapas para habilitar o acesso 
 title: Acesso ao Data Warehouse - Compartilhamento direto
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 3%
-
 ---
-
 # Acesso ao Data Warehouse - Compartilhamento direto {#data-warehouse-access-direct-share}
 
 ## Requisitos {#requirements}

@@ -3,14 +3,18 @@ description: Abrange o painel Oportunidade atribuída, que mostra os valores e c
 title: Painel de oportunidades atribuídas
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
-
 ---
-
 # Painel de oportunidades atribuídas {#attributed-opportunity-dashboard}
 
 O Painel de oportunidades atribuídas fornece uma visão abrangente de como os esforços de marketing contribuem para oportunidades de pipeline emergentes e maduras. Analise detalhadamente cada oportunidade aberta e fechada atribuível às suas estratégias, com a flexibilidade de filtrar por estágio de oportunidade, destacando o escopo completo da influência do marketing além das ofertas fechadas.
@@ -72,7 +76,7 @@ Esse painel é equipado com as seguintes configurações e filtros:
 
 * Data (com base na data de criação da oportunidade)
 * Modelo de atribuição
-   * Para oportunidades abertas, os modelos de atribuição &quot;caminho completo&quot; e &quot;personalizado&quot; oferecem visualizações point-in-time e não representam resultados de atribuição finais.
+  * Para oportunidades abertas, os modelos de atribuição &quot;caminho completo&quot; e &quot;personalizado&quot; oferecem visualizações point-in-time e não representam resultados de atribuição finais.
 * Estágio da oportunidade (com base no estágio atual)
 * Canal, Subcanal
 * Campanha

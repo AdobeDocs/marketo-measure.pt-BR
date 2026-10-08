@@ -3,13 +3,17 @@ description: Orientação da metodologia de mapeamento de atribuição para usu�
 title: Metodologia de mapeamento de atribuição
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
-
 ---
-
 # Metodologia de mapeamento de atribuição {#attribution-mapping-methodology}
 
 A Metodologia de mapeamento de atribuição é o processo de pesquisar determinados objetos no seu CRM (Contatos, Oportunidades, Contas) para criar pontos de contato de atribuição na oportunidade associada. Em outras palavras, essa é a maneira [!DNL Marketo Measure] de entender quais pontos de contato incluir no modelo de atribuição com base nos processos do CRM atual.

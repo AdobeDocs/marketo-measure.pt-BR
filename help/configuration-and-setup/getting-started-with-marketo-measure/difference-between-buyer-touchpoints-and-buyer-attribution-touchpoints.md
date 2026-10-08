@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874646
-description: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints - [!DNL Marketo Measure]
+description: Diferença entre Pontos de Contato do Comprador e Pontos de Contato de Atribuição do Comprador - [!DNL Marketo Measure]
 title: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/vj5iw2eqF-ZBl2P8tloZdHWK67tRJn-J0RVh-hKnOZQ
+TQID: 'https://experienceleague.adobe.com/vj5iw2eqF-ZBl2P8tloZdHWK67tRJn-J0RVh-hKnOZQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 100%
-
+source-wordcount: '392'
+ht-degree: 97%
 ---
-
 # Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
 Saiba o que define um Buyer Touchpoint (BT) e um Buyer Attribution Touchpoint (BAT), as diferenças entre os dois e respondem às perguntas mais frequentes.

@@ -3,19 +3,25 @@ description: Reautorizar a orientação de Contas conectadas para usuários do M
 title: Reautorizar contas conectadas
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 4%
-
 ---
-
 # Reautorizar contas conectadas {#reauthorizing-connected-accounts}
 
 Quando uma conta é desconectada da conta [!DNL Marketo Measure], o status da plataforma é alterado para &quot;Autorização necessária&quot; e exibe um ícone de chave vermelha.
 
-Se a plataforma de anúncios for desconectada, o [!DNL Marketo Measure] não poderá baixar dados de custo ou, se a marcação automática estiver habilitada, anexar os parâmetros UTM [!DNL Marketo Measure] a qualquer anúncio recém-criado. [!DNL Marketo Measure] O não poderá anexar retroativamente os parâmetros UTM a nenhum ponto de contato criado na plataforma de anúncio enquanto a conta estiver desconectada.
+Se a plataforma de anúncios for desconectada, o [!DNL Marketo Measure] não poderá baixar dados de custo ou, se a marcação automática estiver habilitada, anexar os parâmetros UTM [!DNL Marketo Measure] a qualquer anúncio recém-criado. [!DNL Marketo Measure] não poderá anexar retroativamente os parâmetros UTM a nenhum ponto de contato criado a partir da plataforma de anúncio enquanto a conta estiver desconectada.
 
 Se a plataforma do CRM for desconectada, o [!DNL Marketo Measure] não poderá atualizar os dados do [!DNL Marketo Measure] nem enviar novos pontos de contato para a sua organização. Depois que a conexão do CRM for restabelecida, o [!DNL Marketo Measure] enviará por push todos os dados que foram perdidos enquanto a conta estava desconectada.
 

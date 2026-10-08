@@ -2,13 +2,14 @@
 description: Orientação de logon único para usuários do Marketo Measure
 title: Logon único
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 54%
-
 ---
-
 # Logon único {#single-sign-on}
 
 A SAML (linguagem de marcação de declaração de segurança) para SSO (logon único) permite que usuários se autentiquem por meio do provedor de identidade de uma empresa ao fazer logon no aplicativo [!DNL Marketo Measure]. O SSO permite que usuários se autentiquem uma vez, sem precisar se autenticar em aplicativos separados. A SAML é uma necessidade para clientes corporativos porque nem todos os usuários têm uma conta do [!DNL Salesforce] ou [!DNL Google] em sua organização. Pensando nisso, o [!DNL Marketo Measure] desenvolveu uma solução de SAML para oferecer suporte a provedores de identidade de empresas.

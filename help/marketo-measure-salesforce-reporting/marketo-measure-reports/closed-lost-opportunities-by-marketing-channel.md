@@ -4,18 +4,23 @@ description: Oportunidades Perdidas Fechadas por Canal de Marketing - [!DNL Mark
 title: Oportunidades perdidas encerradas pelo canal de marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-TQID: https://experienceleague.adobe.com/PJ0vKn29NiCiDYepN8HRoTXgWi1isrlql00Obi2hJz0
+TQID: 'https://experienceleague.adobe.com/PJ0vKn29NiCiDYepN8HRoTXgWi1isrlql00Obi2hJz0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: '277'
 ht-degree: 4%
-
 ---
-
 # Oportunidades perdidas encerradas pelo canal de marketing {#closed-lost-opportunities-by-marketing-channel}
 
 Embora este relatório possa depender dos estágios de oportunidade, ele revelará quais canais de marketing contribuíram para oportunidades que não foram fechadas.

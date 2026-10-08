@@ -3,19 +3,23 @@ description: Novo Guia do Painel do Discover - [!DNL Marketo Measure] - Produto
 title: Novo guia do painel do Discover
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-TQID: https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8
+TQID: 'https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1057'
 ht-degree: 4%
-
 ---
-
 # Novo guia do painel do Discover {#new-discover-dashboard-guide}
 
 Temos o prazer de apresentar o novo design do painel do Discover. Nossa principal meta é oferecer a você uma experiência mais simplificada e intuitiva. Com visuais mais limpos e navegação mais simples, essa renovação não apenas retém a maioria das métricas existentes, como também introduz novos insights. Conheça e descubra a maior clareza e valor agregado.

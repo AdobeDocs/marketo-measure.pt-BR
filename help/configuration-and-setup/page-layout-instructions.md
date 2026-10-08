@@ -3,13 +3,20 @@ description: Guia de Instruções de layout de página para usuários do Marketo
 title: Instruções de layout da página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 92%
-
 ---
-
 # Instruções de layout da página {#page-layout-instructions}
 
 >[!NOTE]
@@ -173,7 +180,7 @@ Se estiver usando o recurso de ABM do [!DNL Marketo Measure], [clique aqui para 
 
 1. Classificar por Data do touchpoint > Ordem crescente.
 
-1. Desmarcar a opção **[!UICONTROL Novo]** na seção de [!UICONTROL Botões].
+1. Desmarque a opção **[!UICONTROL Novo]** na seção de [!UICONTROL Botões].
 
 1. Clique em **[!UICONTROL Salvar]**.
 

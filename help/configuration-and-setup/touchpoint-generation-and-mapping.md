@@ -3,13 +3,17 @@ description: Orientação de geração e mapeamento de pontos de contato para us
 title: Geração e mapeamento de pontos de contato
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 97%
-
 ---
-
 # Geração e mapeamento de pontos de contato {#touchpoint-generation-and-mapping}
 
 As histórias de atribuição do [!DNL Marketo Measure] dependem de dois processos:

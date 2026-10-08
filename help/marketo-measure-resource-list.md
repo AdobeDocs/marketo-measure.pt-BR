@@ -3,13 +3,17 @@ description: Lista de Recursos de [!DNL Marketo Measure] - [!DNL Marketo Measure
 title: '[!DNL Marketo Measure] Lista de recursos'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 6%
-
 ---
-
 # [!DNL Marketo Measure] Lista de recursos {#marketo-measure-resource-list}
 
 Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a começar a usar o [!DNL Marketo Measure]!
@@ -32,7 +36,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a come
 * [Carregando gasto com marketing](/help/marketing-channel-costs.md)
 * [Reconectar contas publicitárias](/help/api-connections/reauthorizing-connected-accounts.md)
 * [Adicionando [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
-   * [Excluir Forms](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
+  * [Excluir Forms](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Relatórios**
 
@@ -46,7 +50,7 @@ Aqui estão vários links para artigos/vídeos pertinentes para ajudá-lo a come
 
 ## Vídeos {#videos}
 
-Veja alguns vídeos    ajudar você a se atualizar:
+Estes são alguns vídeos para ajudar você a se atualizar:
 
 * [[!DNL Marketo Measure] Treinamento de Introdução](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutos)
 * [[!DNL Marketo Measure] Relatórios no SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=pt-BR) (30-45mins)

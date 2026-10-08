@@ -3,21 +3,25 @@ description: Gerenciamento de Domínio - [!DNL Marketo Measure]
 title: Gerenciamento de domínio
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY
+TQID: 'https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 562
+source-wordcount: '562'
 ht-degree: 1%
-
 ---
-
 # Gerenciamento de domínio {#domain-management}
 
-Para locatários habilitados para IMS que executam o [!DNL Marketo Measure] na Interface do Experience Cloud, o [!DNL Marketo Measure] fornece uma interface que permite que os usuários gerenciem sua própria lista de domínios. [!DNL Marketo Measure] usuários devem primeiro verificar todos os domínios que desejam rastrear no [Adobe Admin Console](https://adminconsole.adobe.com/). Depois que os domínios forem verificados na Admin Console, os usuários poderão gerenciar se [!DNL Marketo Measure] os utiliza para rastrear o tráfego do site.
+Para locatários habilitados para IMS que executam o [!DNL Marketo Measure] na Interface da Experience Cloud, o [!DNL Marketo Measure] fornece uma interface que permite que os usuários gerenciem sua própria lista de domínios. [!DNL Marketo Measure] usuários devem primeiro verificar todos os domínios que desejam rastrear no [Adobe Admin Console](https://adminconsole.adobe.com/). Depois que os domínios forem verificados na Admin Console, os usuários poderão gerenciar se [!DNL Marketo Measure] os utiliza para rastrear o tráfego do site.
 
 ## Adicionar domínios no Admin Console {#adding-domains-in-admin-console}
 

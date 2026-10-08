@@ -1,15 +1,19 @@
 ---
-description: Integração de [!DNL Marketo Engage] Atividades - [!DNL Marketo Measure]
+description: Integração de [!DNL Marketo Engage] atividades - [!DNL Marketo Measure]
 title: Integração de atividades do [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 1%
-
 ---
-
 # Integração de atividades do [!DNL Marketo Engage] {#marketo-engage-activities-integration}
 
 Como parte da Integração geral do [!DNL Marketo Measure] e do [!DNL Marketo Engage], esse esforço de obter atividades do Marketo desempenha um papel enorme. Por meio das Atividades do Marketo, o sistema rastreia eventos como `Click Email`, `Change Score` ou `Change Status in Progression` - esses tipos de atividades podem ser analisados e definidos para selecionar um subconjunto qualificado para pontos de contato. Depois que os pontos de contato são criados nessas atividades, eles são rastreados na jornada de envolvimento e medidos junto com seus outros canais de marketing, como pesquisa paga ou marketing de parceiros.

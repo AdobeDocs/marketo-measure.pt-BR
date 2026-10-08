@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874755
-description: Adicionando [!DNL Marketo Measure] a [!DNL Marketo] Landing Pages - [!DNL Marketo Measure]
-title: Adição de [!DNL Marketo Measure] para páginas de destino do Marketo
+description: Adicionando [!DNL Marketo Measure] às [!DNL Marketo] Páginas de Aterrissagem - [!DNL Marketo Measure]
+title: Adicionar [!DNL Marketo Measure] às páginas de aterrissagem do Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-TQID: https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U
+TQID: 'https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 3%
-
+source-wordcount: '232'
+ht-degree: 1%
 ---
-
 # Adicionar [!DNL Marketo Measure] às páginas de aterrissagem do Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Saiba como adicionar rastreamento às Páginas de Aterrissagem do [!DNL Marketo Engage], pois elas exigem manuseio adicional. [!DNL Marketo Measure] O JavaScript deve estar em vigor tanto na página de aterrissagem quanto no próprio formulário [!DNL Marketo Engage]. Para fazer isso, você precisa carregar o JavaScript [!DNL Marketo Measure] no [!DNL Marketo Engage] conforme explicado nas instruções a seguir.

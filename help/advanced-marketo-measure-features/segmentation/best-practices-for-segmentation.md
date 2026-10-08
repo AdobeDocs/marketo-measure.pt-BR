@@ -1,20 +1,23 @@
 ---
-description: Práticas recomendadas para segmentação -  [!DNL Marketo Measure]
+description: Práticas recomendadas de segmentação - [!DNL Marketo Measure]
 title: Práticas recomendadas para segmentação
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY
+TQID: 'https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 100%
-
+source-wordcount: '451'
+ht-degree: 99%
 ---
-
 # Práticas recomendadas para segmentação {#best-practices-for-segmentation}
 
 ## Visão geral {#overview}
@@ -35,11 +38,11 @@ Se você estiver definindo a segmentação pela primeira vez ou apenas revisando
 * Alinhe o nome do segmento à nomenclatura de sua organização, ou seja, a categoria = nome do filtro, segmento = valor do filtro
 * Não use campos de fórmula em suas regras
 * Sempre que possível, crie a segmentação no cliente potencial/contato e na oportunidade para usá-la em todo o funil
-   * Se você for cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo que são específicos para leads ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
-   * Nem todas as categorias de segmentos se alinharão em todo o funil
-      * Por exemplo, uma categoria de segmento de “Tipo de oportunidade” não será relacionada a clientes potenciais, no entanto, um segmento relacionado à “Região” é provavelmente uma categoria que pode ser definida em todo o funil
+  * Se você for cliente do Marketo Measure Ultimate e tiver definido seu Objeto de painel padrão como Contato, não use os dois campos abaixo que são específicos para leads ([saiba mais aqui](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
+  * Nem todas as categorias de segmentos se alinharão em todo o funil
+    * Por exemplo, uma categoria de segmento de “Tipo de oportunidade” não será relacionada a clientes potenciais, no entanto, um segmento relacionado à “Região” é provavelmente uma categoria que pode ser definida em todo o funil
 * Pense nas formas como você prefere dividir seus dados atualmente, seja no CRM ou em uma ferramenta de BI, considere criar isso como um segmento no [!DNL Marketo Measure] para ter os mesmos relatórios no Discover
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}

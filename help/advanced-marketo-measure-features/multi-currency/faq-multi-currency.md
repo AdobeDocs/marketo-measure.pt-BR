@@ -4,18 +4,21 @@ description: Perguntas Frequentes (Multimoedas) - [!DNL Marketo Measure]
 title: Perguntas frequentes (várias moedas)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-TQID: https://experienceleague.adobe.com/VHUWJBPHzIn6aE0H6QmBqKWGKAYQF-HBN-O-gwa-nCs
+TQID: 'https://experienceleague.adobe.com/VHUWJBPHzIn6aE0H6QmBqKWGKAYQF-HBN-O-gwa-nCs'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: '834'
 ht-degree: 0%
-
 ---
-
 # Perguntas frequentes (várias moedas) {#faq-multi-currency}
 
 **Como saber qual bit de recurso habilitar?**

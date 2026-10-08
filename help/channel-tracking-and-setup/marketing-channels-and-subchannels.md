@@ -3,14 +3,18 @@ description: Orientação de canais e subcanais de marketing para usuários do M
 title: Canais e subcanais de marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 62%
-
+ht-degree: 85%
 ---
-
 # Canais e subcanais de marketing {#marketing-channels-and-subchannels}
 
 ## Finalidade {#purpose}
@@ -19,7 +23,7 @@ Para definir o que são um canal e um subcanal no [!DNL Marketo Measure], como s
 
 ## Visão geral {#overview}
 
-Os Canais de marketing são usados para ajudar a categorizar (ou &quot;categoria&quot;) suas atividades de marketing para facilitar os relatórios, tanto no [!DNL Marketo Measure] Traço de ROI quanto no seu CRM. [!DNL Marketo Measure] O vem com 12 canais prontos para uso (que você pode personalizar/renomear para atender às convenções de sua organização), bem como a capacidade de criar canais personalizados para oferecer uma filtragem ainda mais granular.
+Os canais de marketing são usados para ajudar a categorizar (ou “compartimentar”) suas atividades de marketing, facilitando a criação de relatórios tanto no ROI Dash do [!DNL Marketo Measure] quanto no CRM. O [!DNL Marketo Measure] vem com 12 canais prontos para uso (que você pode personalizar/renomear para que atendam às convenções de sua organização) e com a capacidade de criar canais personalizados para uma filtragem ainda mais granular.
 
 Sempre que receber um visitante em uma página de conteúdo no site (seja esse conteúdo uma página da Web, um download de white paper, um URL de página, etc.), esse lead será &quot;compartimentado&quot; em um canal/subcanal com base em vários parâmetros de UTM encontrados no URL:
 
@@ -47,7 +51,7 @@ O diagrama abaixo ilustra um exemplo de canal de marketing, subcanal e conteúdo
 
 * [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
-Nesse caso, o conteúdo que o usuário está tentando acessar é o Guia de introdução à atribuição de marketing B2B. [!DNL Marketo Measure] O analisará o URL que leva a esse Conteúdo usando as Regras de canal configuradas nesta organização e as usará para &quot;agrupar&quot; esse lead no Canal de marketing &quot;Social pago&quot; e no Subcanal &quot;LinkedIn&quot;.
+Nesse caso, o conteúdo que a pessoa está tentando acessar é o Guia de introdução à atribuição de marketing B2B. O [!DNL Marketo Measure] analisará o URL que leva a esse conteúdo usando as Regras de canal configuradas nesta organização e as usará para “compartimentar” esse lead no canal de marketing “Social pago” e no subcanal “LinkedIn”.
 
 ![Nesse caso, o Conteúdo que o usuário está tentando acessar é](assets/online-channels-1.png)
 

@@ -4,18 +4,24 @@ description: '[!DNL Marketo Measure] Conjuntos de permissões - [!DNL Marketo Me
 title: '[!DNL Marketo Measure] Conjuntos de permissões'
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/Taoe3f0JfNQ6R-zdMVPJsbdswgNuii-XAyzEsb4MdCk
+TQID: 'https://experienceleague.adobe.com/Taoe3f0JfNQ6R-zdMVPJsbdswgNuii-XAyzEsb4MdCk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: '271'
 ht-degree: 4%
-
 ---
-
 # [!DNL Marketo Measure] Conjuntos de permissões {#marketo-measure-permission-sets}
 
 Saiba como acessar e atribuir Conjuntos de permissões do [!DNL Marketo Measure] no Salesforce.

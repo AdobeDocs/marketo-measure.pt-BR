@@ -4,16 +4,18 @@ description: Parâmetro de Acompanhamento de Email - [!DNL Marketo Measure]
 title: Parâmetro de rastreamento por email
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-TQID: https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ
+TQID: 'https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 3%
-
 ---
-
 # Parâmetro de rastreamento por email {#email-tracking-parameter}
 
 O Parâmetro de Acompanhamento de Email [!DNL Marketo Measure] permite que os profissionais de marketing tratem cliques de email como envios de formulário, de modo que os pontos de contato sejam gerados para essas ações. Sem usar um parâmetro de rastreamento de email, os click-throughs de um email são tratados apenas como &quot;visitas da Web&quot; até que o usuário realmente se envolva com o site por meio de um envio de formulário ou um chat da Web.

@@ -3,14 +3,23 @@ description: Instalação e Configuração do Pacote Salesforce - [!DNL Marketo 
 title: Instalação e Configuração do Pacote [!DNL Salesforce]
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 84%
-
+ht-degree: 92%
 ---
-
 # Instalação do pacote Salesforce{#marketo-measure-salesforce-package-installation}
 
 Antes de instalar o pacote básico do [!DNL Salesforce] [!DNL Marketo Measure], você precisa determinar se o instalará em uma sandbox do [!DNL Salesforce] antes de migrar para a instância de produção do Salesforce.
@@ -62,9 +71,9 @@ Etapa 1: Criar um perfil específico do [!DNL Marketo Measure]
 1. Atribua as seguintes permissões:
 
 * “[!DNL Marketo Measure] Conjunto de permissões do administrador”
-   * O conjunto de permissões gerenciadas oferece a um administrador do SFDC a capacidade de criar, ler, gravar, excluir registros de objetos do [!DNL Marketo Measure].
+  * O conjunto de permissões gerenciadas oferece a um administrador do SFDC a capacidade de criar, ler, gravar, excluir registros de objetos do [!DNL Marketo Measure].
 * “Exibir e editar conjunto de permissões de leads convertidos”
-   * Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver habilitado, poderá haver grandes lacunas no rastreamento de dados.
+  * Isso permite que o [!DNL Marketo Measure] decore leads depois de serem convertidos em contatos. Se esse conjunto de permissões não estiver habilitado, poderá haver grandes lacunas no rastreamento de dados.
 
 >[!NOTE]
 >
@@ -76,7 +85,7 @@ Etapa 2: Criar um usuário dedicado do [!DNL Marketo Measure] para que você pos
 
 1. Habilite “Usuário de marketing” como uma permissão de nível de usuário.
 
-* A caixa de seleção [!UICONTROL Usuário de marketing] permite que o usuário crie campanhas e use os Assistentes de importação de campanha. Se essa opção não estiver selecionada, o usuário poderá apenas exibir campanhas e configurações de campanha avançadas, editar o Histórico de Campanhas de um único cliente potencial ou contato e executar relatórios de campanha. [!DNL Marketo Measure] deve ser capaz de ler e gravar no objeto da campanha.
+* A caixa de seleção [!UICONTROL Usuário de marketing] permite que o usuário crie campanhas e use os Assistentes de importação de campanha. Se você não selecionar esta opção, o usuário só poderá visualizar campanhas e a configuração avançada de campanhas, editar o histórico de campanha de um único lead ou contato e executar relatórios de campanha. O [!DNL Marketo Measure] precisa da permissão para ler e gravar no objeto de campanha.
 
 Etapa 3: excluir este perfil de todos os acionadores, fluxos de trabalho e processos
 

@@ -3,13 +3,17 @@ description: Orientação de segmentação personalizada para usuários do Marke
 title: Segmentação personalizada
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
-
 ---
-
 # Segmentação personalizada {#custom-segmentation}
 
 Os segmentos fornecem a capacidade de filtrar dados no Painel de ROI do [!DNL Marketo Measure] para detalhar ainda mais um conjunto de dados específico. Por exemplo, um segmento pode ser definido por território geográfico ou um sistema de classificação.
@@ -46,7 +50,7 @@ Etapa 3 - Entender os componentes.
 
 Etapa 4 - Adicionar regras de filtro.
 
-* Primeiro, insira o nome da categoria. [!UICONTROL O Tipo de Negócio &#x200B;] é um exemplo. Clique na marca de seleção quando terminar. Você precisa inserir um nome de categoria antes de adicionar segmentos
+* Primeiro, insira o nome da categoria. [!UICONTROL Tipo Comercial] é um exemplo. Clique na marca de seleção quando terminar. Você precisa inserir um nome de categoria antes de adicionar segmentos
 * Clique no sinal de mais para adicionar um segmento
 * Informe um nome de Segmento. Por exemplo, você pode ter um segmento para novos negócios, parceiros, renovação ou venda adicional
 
@@ -66,9 +70,9 @@ Etapa 4 - Adicionar regras de filtro.
 * Clique no ícone de lixeira para excluir uma categoria inteira ou uma regra individual dentro de uma categoria. Como alternativa, clique no ícone de lápis para editar a categoria ou regra
 * Observe que você tem um botão &quot;[!UICONTROL Salvar]&quot; e um botão &quot;Salvar e Processar&quot;. Use o botão Salvar para salvar seu trabalho e as alterações ao longo do tempo. Use o botão Salvar e Processar SOMENTE depois de se certificar de que:
 
-   * Seu mapeamento está preciso
-   * Você adicionou todos os segmentos que deseja rastrear em uma categoria
-   * O botão Salvar e Processar aciona o [!DNL Marketo Measure] para sincronizar todos os Pontos de Contato e aplicar as novas informações adicionadas. Esse processo leva 7 dias e as regras não podem ser alteradas durante esse período
+  * Seu mapeamento está preciso
+  * Você adicionou todos os segmentos que deseja rastrear em uma categoria
+  * O botão Salvar e Processar aciona o [!DNL Marketo Measure] para sincronizar todos os Pontos de Contato e aplicar as novas informações adicionadas. Esse processo leva 7 dias e as regras não podem ser alteradas durante esse período
 
 **_Observações Adicionais:_**
 

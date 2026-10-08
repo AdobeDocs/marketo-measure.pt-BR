@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] Manutenção - [!DNL Marketo Measure]'
 title: Manutenção do [!DNL Marketo Measure]
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 91%
-
+ht-degree: 95%
 ---
-
 
 # Manutenção do [!DNL Marketo Measure] {#marketo-measure-maintenance}
 
@@ -42,7 +46,7 @@ Consulte [este artigo](/help/channel-tracking-and-setup/online-custom-channel-se
 
 **Avaliar configurações de supressão do ponto de contato (1x/trimestre)**
 
-Caso veja muitos pontos de contato que você prefere que não sejam considerados em sua história de atribuição (por exemplo, de um [!DNL Login] ou [!DNL Unsubscribe forms], uma página de Carreiras ou um aplicativo interno), talvez queira avaliar suas configurações de supressão de ponto de contato atuais. Uma vez por trimestre, aponte quaisquer grupos de pontos de contato que estejam criando ruídos desnecessários e atualize sua lógica de supressão adequadamente. [Aqui está um artigo útil](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) com instruções.
+Caso veja muitos pontos de contato que você prefere que não sejam considerados em sua história de atribuição (por exemplo, de um [!DNL Login] ou [!DNL Unsubscribe forms], uma página de Carreiras ou um aplicativo interno), talvez queira avaliar suas configurações de supressão de ponto de contato atuais. Uma vez por trimestre, identifique grupos de pontos de contato que estejam gerando informações desnecessárias e atualize a lógica de supressão adequadamente. [Veja este artigo útil](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) com instruções.
 
 **Revisar o mapeamento de estágio personalizado para verificar a precisão (1x/trimestre) (se aplicável)**
 

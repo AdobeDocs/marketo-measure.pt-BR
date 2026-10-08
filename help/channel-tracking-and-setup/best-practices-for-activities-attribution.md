@@ -3,13 +3,17 @@ description: Diretrizes de atribuição de práticas recomendadas para atividade
 title: Práticas recomendadas para atribuição de atividades
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
-
 ---
-
 # Práticas recomendadas para atribuição de atividades {#best-practices-for-activities-attribution}
 
 ## Visão geral {#overview}
@@ -25,8 +29,8 @@ Para muitas instâncias do [!DNL Salesforce], o objeto Atividade pode hospedar v
 Se você estiver definindo Regras de atividade pela primeira vez ou apenas revisando Regras de atividade que foram configuradas anteriormente, lembre-se das seguintes práticas recomendadas.
 
 * Iniciar simples
-   * Identifique alguns tipos principais de Atividades que deseja incorporar aos dados do [!DNL Marketo Measure] e adicione mais tipos à medida que se familiarizar com a atribuição desses pontos de contato
-   * Como mencionado, o principal caso de uso desse recurso é criar pontos de contato que rastreiam a eficácia da sua equipe de desenvolvimento de vendas, especificamente chamadas telefônicas de saída e emails de saída
+  * Identifique alguns tipos principais de Atividades que deseja incorporar aos dados do [!DNL Marketo Measure] e adicione mais tipos à medida que se familiarizar com a atribuição desses pontos de contato
+  * Como mencionado, o principal caso de uso desse recurso é criar pontos de contato que rastreiam a eficácia da sua equipe de desenvolvimento de vendas, especificamente chamadas telefônicas de saída e emails de saída
 
 >[!NOTE]
 >
@@ -34,11 +38,11 @@ Se você estiver definindo Regras de atividade pela primeira vez ou apenas revis
 
 * Não usar campos de fórmula para definir suas regras
 * Criar regras específicas e precisas
-   * O limite para a criação de um ponto de contato da Atividade deve ser o mesmo (ou semelhante) para um preenchimento de formulário ou associação à campanha: Respostas a um email de saída ou conversas telefônicas concluídas
+  * O limite para a criação de um ponto de contato da Atividade deve ser o mesmo (ou semelhante) para um preenchimento de formulário ou associação à campanha: Respostas a um email de saída ou conversas telefônicas concluídas
 * Sempre validar novas regras em [!DNL Salesforce] antes de salvar e processar
-   * A replicação das regras de atividade em um tipo de relatório &quot;Tarefas e eventos&quot; oferece uma compreensão clara de exatamente quantos pontos de contato são da regra
+  * A replicação das regras de atividade em um tipo de relatório &quot;Tarefas e eventos&quot; oferece uma compreensão clara de exatamente quantos pontos de contato são da regra
 * Trabalhar com sua equipe de vendas Opp
-   * Trazer a equipe que trabalha mais próxima com seus registros de atividade ou ferramenta de ativação de vendas garantirá que você esteja usando os campos corretos para definir suas regras
+  * Trazer a equipe que trabalha mais próxima com seus registros de atividade ou ferramenta de ativação de vendas garantirá que você esteja usando os campos corretos para definir suas regras
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 

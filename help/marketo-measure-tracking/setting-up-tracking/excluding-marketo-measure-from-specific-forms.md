@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874783
-description: Excluindo [!DNL Marketo Measure] de Forms Específico - [!DNL Marketo Measure]
-title: Excluir [!DNL Marketo Measure] de formulários específicos
+description: Excluindo [!DNL Marketo Measure] do Forms Específico - [!DNL Marketo Measure]
+title: Excluindo [!DNL Marketo Measure] do Forms Específico
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-TQID: https://experienceleague.adobe.com/RtGjsV86NEJPvUpFGnthwVGsQVpX0LqMQdC2xBSFwZc
+TQID: 'https://experienceleague.adobe.com/RtGjsV86NEJPvUpFGnthwVGsQVpX0LqMQdC2xBSFwZc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 93
-ht-degree: 3%
-
+source-wordcount: '95'
+ht-degree: 0%
 ---
-
 # Excluindo [!DNL Marketo Measure] do Forms Específico {#excluding-marketo-measure-from-specific-forms}
 
 Por padrão, o [!DNL Marketo Measure] é anexado a todos os formulários do site. No entanto, nem todos os envios de formulário devem necessariamente ser rastreados ou incluídos em um modelo de atribuição. Isso ocorre porque nem todos os preenchimentos de formulário são considerados &quot;bons&quot;. Um exemplo disso é um cancelamento de inscrição de página/formulário. Além disso, os formulários de logon normalmente não são rastreados, pois diluiriam o modelo de atribuição.

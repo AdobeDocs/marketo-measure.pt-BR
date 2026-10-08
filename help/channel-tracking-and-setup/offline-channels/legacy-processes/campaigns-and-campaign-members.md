@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874578
-description: Campanhas e membros da campanha -  [!DNL Marketo Measure]
+description: Campanhas e Membros da Campanha - [!DNL Marketo Measure]
 title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-TQID: https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU
+TQID: 'https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 95%
-
 ---
-
 # Campanhas e membros da campanha {#campaigns-and-campaign-members}
 
 As campanhas do [!DNL Salesforce] têm como objetivo rastrear listas de leads e contatos associadas a um programa de marketing ou atividade. Por exemplo, estes podem ter sido webinários, registros ou visitas em estandes. Profissionais de marketing podem decidir se uma campanha deve ser creditada em uma jornada de ponto de contato.
@@ -83,7 +85,7 @@ Se o [!UICONTROL Tipo de sincronização] estiver definido como “Incluir somen
 
 * Data do Buyer Touchpoint
 * Data da primeira resposta
-   * A Data da primeira resposta é definida automaticamente assim que o status é alterado para “Respondido” e é um campo padrão do [!DNL Salesforce] que não pode ser alterado
+  * A Data da primeira resposta é definida automaticamente assim que o status é alterado para “Respondido” e é um campo padrão do [!DNL Salesforce] que não pode ser alterado
 
 * Data de criação de membro da campanha
 

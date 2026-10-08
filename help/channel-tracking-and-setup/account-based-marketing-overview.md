@@ -3,13 +3,17 @@ description: Saiba mais sobre Account-Based Marketing (ABM) e como o Adobe Marke
 title: Visão geral do marketing baseado em conta
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 83%
-
+source-wordcount: '876'
+ht-degree: 92%
 ---
-
 # Visão geral do marketing baseado em conta {#account-based-marketing-overview}
 
 As seções a seguir fornecem uma breve visão geral do ABM, dos componentes do recurso ABM do [!DNL Marketo Measure] e como adicioná-lo ao layout de página do [!DNL Salesforce]. Para ler mais sobre a ABM, leia o [blog sobre ABM](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"} da Adobe.
@@ -18,7 +22,7 @@ Para obter instruções detalhadas sobre como configurar o ABM na instância do 
 
 ## O que é o ABM {#what-is-abm}
 
-O marketing baseado em conta, ABM, é uma estratégia de marketing na qual você direciona e vende para empresas e contas como um todo, não apenas como indivíduos. [!DNL Marketo Measure] O ajuda as equipes de marketing e vendas a executarem estratégias de ABM bem-sucedidas com sua funcionalidade de mapeamento de lead para conta e Pontuação preditiva de engajamento.
+O marketing baseado em conta, ABM, é uma estratégia de marketing na qual você direciona e vende para empresas e contas como um todo, não apenas como pessoas. O [!DNL Marketo Measure] ajuda as equipes de marketing e vendas na execução de estratégias de ABM bem-sucedidas com sua funcionalidade de mapeamento de lead para conta e a Pontuação preditiva de engajamento.
 
 Para que nosso modelo de Account-Based Marketing comece a preencher o seu CRM, o [!DNL Marketo Measure] precisa que você atenda aos seguintes critérios:
 
@@ -68,8 +72,8 @@ Há muitos componentes que fazem parte do algoritmo que calcula a PES. A recenti
 >
 >Você pode observar uma nota “N/D“ ou “-” (o símbolo de traço) na Pontuação preditiva de engajamento de algumas contas.
 
-_Um grau de &quot;N/A&quot; significa simplesmente que não há dados suficientes nessa conta para que o modelo gere um grau verdadeiro. Com mais dados, um grau é eventualmente fornecido._
-_Um grau de &quot;-&quot; (o símbolo de traço) significa que essa conta ainda precisa ser processada pelo processo ABM, devido a restrições de tempo, processos ocasionalmente perdidos e assim por diante. Se achar que uma conta já deveria ter uma nota, com base em outras contas ou intervalos de tempo semelhantes, entre em contato com o [!DNL Marketo Measure]._
+_Uma nota “N/D” significa que ainda não temos dados suficientes sobre essa conta para que o modelo gere uma nota verdadeira. Quando houver mais dados, o modelo atribuirá uma nota._
+_Um grau de &quot;-&quot; (o símbolo de traço) significa que esta conta ainda precisa ser processada pelo processo ABM, devido a restrições de tempo, processos ocasionalmente perdidos e assim por diante. Se achar que uma conta já deveria ter uma nota, com base em outras contas ou intervalos de tempo semelhantes, entre em contato com o [!DNL Marketo Measure]._
 
 ## Configuração do layout da página de ABM no [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 

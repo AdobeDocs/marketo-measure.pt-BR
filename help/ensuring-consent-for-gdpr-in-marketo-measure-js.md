@@ -3,13 +3,17 @@ description: Mostra como configurar o bizible.js para aguardar o consentimento d
 title: Garantia de consentimento com o RGPD no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 92%
-
 ---
-
 # Garantia de consentimento com o RGPD no Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 O Regulamento Geral sobre a Proteção de Dados (RGPD) é uma legislação da União Europeia que entrou em vigor em 25 de maio de 2018.

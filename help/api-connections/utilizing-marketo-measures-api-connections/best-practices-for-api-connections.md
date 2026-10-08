@@ -1,24 +1,28 @@
 ---
-description: Práticas recomendadas para conexões de API -  [!DNL Marketo Measure]
+description: Práticas recomendadas para conexões de API - [!DNL Marketo Measure]
 title: Práticas recomendadas para conexões de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA
+TQID: 'https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: '752'
 ht-degree: 97%
-
 ---
-
 # Práticas recomendadas para conexões de API {#best-practices-for-api-connections}
 
 ## Visão geral {#overview}

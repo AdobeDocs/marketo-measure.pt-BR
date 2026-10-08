@@ -3,13 +3,19 @@ description: Diretrizes de solicitações de privacidade para usuários do Marke
 title: Solicitações de privacidade
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 25%
-
 ---
-
 
 # Solicitações de privacidade {#privacy-requests}
 
@@ -49,9 +55,9 @@ Para fazer solicitações de Acesso e Exclusão de dados para [!DNL Marketo Meas
 
 * &quot;ação&quot;: [!UICONTROL acessar] ou excluir
 * &quot;userIDs&quot;
-   * &quot;namespace&quot;: email
-   * &quot;type&quot;: standard
-   * &quot;value&quot;: `<Data Subject's Email Address>`
+  * &quot;namespace&quot;: email
+  * &quot;type&quot;: standard
+  * &quot;value&quot;: `<Data Subject's Email Address>`
 
 &quot;include&quot;:
 

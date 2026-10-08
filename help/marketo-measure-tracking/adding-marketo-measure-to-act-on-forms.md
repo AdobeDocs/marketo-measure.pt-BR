@@ -1,15 +1,19 @@
 ---
-description: Adicionando [!DNL Marketo Measure] orientação Act-On do Forms para usuários do Marketo Measure
-title: Adição de [!DNL Marketo Measure] para formulários do Act-On
+description: Adicionando [!DNL Marketo Measure] à orientação Act-On Forms para usuários do Marketo Measure
+title: Adicionando [!DNL Marketo Measure] ao Act-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
-
+source-wordcount: '84'
+ht-degree: 1%
 ---
-
 # Adicionando [!DNL Marketo Measure] ao Act-On Forms {#adding-marketo-measure-to-act-on-forms}
 
 ## Direções {#directions}

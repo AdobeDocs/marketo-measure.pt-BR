@@ -1,25 +1,29 @@
 ---
-description: Visão Geral da Interface do Adobe Experience Cloud - [!DNL Marketo Measure]
+description: Visão geral da interface da Adobe Experience Cloud - [!DNL Marketo Measure]
 title: Visão geral da interface da Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg
+TQID: 'https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 25%
-
 ---
-
 # Visão geral da interface da Adobe Experience Cloud {#experience-cloud-interface-overview}
 
 A interface da Adobe Experience Cloud alinha a aparência dos aplicativos e serviços da Adobe Experience Cloud. Mas isso é mais do que apenas um novo design. É um aplicativo de página única que oferece experiência de usuário em uma única instância.
 
 ## Fluxo de usuário {#user-flow}
 
-Se você já estiver conectado a um produto Adobe Experience Cloud, clique no ícone de menu e selecione **[!DNL Marketo Measure]**.
+Se você já estiver conectado a um produto da Adobe Experience Cloud, clique no ícone de menu e selecione **[!DNL Marketo Measure]**.
 
 ![](assets/unified-shell-overview-4.png)
 
@@ -27,7 +31,7 @@ Se você já estiver conectado a um produto Adobe Experience Cloud, clique no í
 >
 >O menu suspenso pode parecer diferente dependendo dos produtos da Adobe Experience Cloud aos quais você está inscrito.
 
-Se você já _não_ fez logon em um produto da Adobe Experience Cloud, faça logon diretamente em [!DNL Marketo Measure] aqui: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Se você ainda _não_ fez logon em um produto da Adobe Experience Cloud, faça logon diretamente em [!DNL Marketo Measure] aqui: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Novos recursos {#new-features}
 
@@ -71,9 +75,9 @@ Para alterar o idioma ou outras preferências do Adobe, clique no ícone do perf
 
 Os marcadores são redirecionados. Por exemplo, se você navegasse até https://apps.marketo-measure.com/Discover/391, seria redirecionado para https://experience.adobe.com/marketo-measure/Discover/391 após concluir a autenticação.
 
-**Não consigo fazer logon no [!DNL Marketo Measure] por meio da Interface do Experience Cloud. Qual pode ser o problema?**
+**Não consigo fazer logon no [!DNL Marketo Measure] por meio da Interface da Experience Cloud. Qual pode ser o problema?**
 
-Se você conseguir fazer logon no Adobe Experience Cloud, mas visualizar uma página como a seguinte, o problema pode estar no lado de [!DNL Marketo Measure]:
+Se você conseguir fazer logon na Adobe Experience Cloud, mas vir uma página como a seguinte, o problema pode estar no lado de [!DNL Marketo Measure]:
 
 ![](assets/unified-shell-overview-11.png)
 

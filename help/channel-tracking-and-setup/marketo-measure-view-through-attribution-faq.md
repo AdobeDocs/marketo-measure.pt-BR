@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] Perguntas frequentes sobre Visualização A
 title: '[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 33%
-
 ---
-
 
 # [!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through {#marketo-measure-view-through-attribution-faq}
 
@@ -22,7 +26,7 @@ O recurso [!DNL Marketo Measure] [!UICONTROL Visualizar através da atribuição
 
 ## Por que [!UICONTROL Visualizar através de atribuição] é importante? {#why-is-view-through-attribution-important}
 
-Historicamente, o redirecionamento ou a publicidade de impressão têm sido difíceis de serem considerados pelos profissionais de marketing na análise de atribuição. Os possíveis clientes podem, ocasionalmente, ser expostos a anúncios de redirecionamento, mas é improvável que realmente cliquem em um desses anúncios e preencham um formulário na mesma sessão. Nossa solução View Through Attribution agora tem a capacidade de rastrear se alguém foi exposto ou não a um anúncio de impressão. Esse ponto de contato será anexado ao registro individual e continuará até que o cliente potencial se torne um cliente. Insight Com essas informações, o profissional de marketing agora melhorará o desempenho do seu anúncio de re-direcionamento.
+Historicamente, o redirecionamento ou a publicidade de impressão têm sido difíceis de serem considerados pelos profissionais de marketing na análise de atribuição. Os possíveis clientes podem, ocasionalmente, ser expostos a anúncios de redirecionamento, mas é improvável que realmente cliquem em um desses anúncios e preencham um formulário na mesma sessão. Nossa solução View Through Attribution agora tem a capacidade de rastrear se alguém foi exposto ou não a um anúncio de impressão. Esse ponto de contato será anexado ao registro individual e continuará até que o cliente potencial se torne um cliente. Com essas informações, o profissional de marketing agora melhorará o desempenho do seu anúncio de re-direcionamento.
 
 ## O que está envolvido na configuração? {#what-is-involved-in-setting-this-up}
 

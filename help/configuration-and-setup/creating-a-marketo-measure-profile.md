@@ -1,15 +1,22 @@
 ---
-description: Criando uma  [!DNL Marketo Measure] Orientação de perfil para usuários do Marketo Measure
-title: Criação de um [!DNL Marketo Measure] perfil
+description: Criando uma orientação de perfil do [!DNL Marketo Measure] para usuários do Marketo Measure
+title: Criando um perfil [!DNL Marketo Measure]
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 7%
-
+source-wordcount: '197'
+ht-degree: 6%
 ---
-
 # Criando um perfil [!DNL Marketo Measure] {#creating-a-marketo-measure-profile}
 
 Saiba como criar um perfil do [!DNL Marketo Measure]. A criação de um perfil [!DNL Marketo Measure] garante que não encontraremos erros de validação ao enviar dados para seu CRM.

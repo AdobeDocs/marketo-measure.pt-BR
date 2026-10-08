@@ -1,23 +1,28 @@
 ---
 unique-page-id: 27656737
-description: Gastos com Marketing de Relatório - [!DNL Marketo Measure]
+description: Gastos com marketing de relatório - [!DNL Marketo Measure]
 title: Gasto de marketing de relatório
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-TQID: https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE
+TQID: 'https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 347
+source-wordcount: '347'
 ht-degree: 1%
-
 ---
-
 # Gasto de marketing de relatório {#report-marketing-spend}
 
 ## Tabela de gastos de marketing {#marketing-spend-table}
@@ -38,9 +43,9 @@ Se a moeda do Provedor de Anúncios não corresponder a uma moeda obtida do CRM,
 
 ## Migrar para Gastos de marketing convertidos {#migrate-to-converted-marketing-spend}
 
-Como o gasto de marketing tem sido historicamente apenas em uma moeda única (USD), há uma pequena quantidade de trabalho necessário para alterar todos os gastos relatados para a nova moeda. Mesmo que sua conta não tenha Várias Moedas habilitadas, se você tiver uma única moeda corporativa diferente de USD, deverá fazer essa migração.
+Como o gasto de marketing tem sido historicamente apenas em uma única moeda (USD), há uma pequena quantidade de trabalho necessário para alterar todos os gastos relatados para a nova moeda. Mesmo que sua conta não tenha Várias Moedas habilitadas, se você tiver uma única moeda corporativa diferente da USD, faça essa migração.
 
 1. Baixar o arquivo Gastar atual em um CSV
-1. A coluna de moeda exibe &quot;[!UICONTROL USD]&quot; como a moeda considerada. Você pode substituir manualmente todas as ocorrências de &quot;[!UICONTROL USD]&quot; ou usar Localizar+Substituir para alterar todas as instâncias de &quot;[!UICONTROL USD]&quot; para sua própria moeda corporativa, como &quot;[!UICONTROL EUR]&quot; ou &quot;[!UICONTROL GBP]&quot;.
+1. A coluna de moeda exibe &quot;[!UICONTROL USD]&quot; como a moeda assumida. Você pode substituir manualmente todas as ocorrências de &quot;[!UICONTROL USD]&quot; ou usar Localizar+Substituir para alterar todas as instâncias do &quot;[!UICONTROL USD]&quot; para sua própria moeda corporativa, como &quot;[!UICONTROL EUR]&quot; ou &quot;[!UICONTROL GBP]&quot;.
 1. Salve o arquivo e carregue-o de volta para [!DNL Marketo Measure].
 1. Todos os custos relatados agora serão exibidos como a nova moeda.

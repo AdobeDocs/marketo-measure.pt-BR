@@ -3,13 +3,17 @@ description: Orientação de Métodos de gerenciamento de gastos para usuários 
 title: Métodos de gerenciamento de gastos
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 1%
-
 ---
-
 # Métodos de gerenciamento de gastos {#spend-management-methods}
 
 Os dados de gastos são a chave para o sucesso dos relatórios de ROI com [!DNL Marketo Measure]. Para ter relatórios de ROI precisos e abrangentes em todos os seus canais e subcanais, você deve se certificar de que tem os dados de gastos apropriados sendo transferidos para o [!DNL Marketo Measure].
@@ -28,7 +32,7 @@ Toda conta [!DNL Marketo Measure] tem acesso a um recurso chamado [Sincronizar C
 
 Quando ativado, esse recurso extrai automaticamente os gastos de qualquer campanha/programa de CRM que atenda aos seguintes critérios:
 
-i. [!DNL Marketo Measure] primeiro, verifique se o Programa/Campanha está criando pontos de contato, seja de uma [regra de Sincronização de Campanha](/help/channel-tracking-and-setup/custom-campaign-sync.md) correspondente que foi criada, ou de uma [regra de Sincronização de Programa](/help/marketo-engage-programs-integration.md) correspondente que foi criada, ou o [valor Habilitar Pontos de Contato do Comprador](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) é &quot;Incluir Todos os Membros da Campanha&quot; ou &quot;Incluir Membros da Campanha &#39;Respondidos&#39;.&quot;
+i) [!DNL Marketo Measure] primeiro verifica se o Programa/Campanha está criando pontos de contato, seja a partir de uma [regra de Sincronização de Campanha](/help/channel-tracking-and-setup/custom-campaign-sync.md) correspondente que foi criada, ou de uma [regra de Sincronização de Programa](/help/marketo-engage-programs-integration.md) correspondente que foi criada, ou o [valor Habilitar Pontos de Contato do Comprador](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) é &quot;Incluir Todos os Membros da Campanha&quot; ou &quot;Incluir Membros da Campanha &#39;Respondidos&#39;.&quot;
 
 ii. Uma Data de início deve ser preenchida na campanha/programa
 

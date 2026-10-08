@@ -1,21 +1,25 @@
 ---
-description: Painel de Envolvimento - [!DNL Marketo Measure] - Produto
+description: Painel de Participação - [!DNL Marketo Measure] - Produto
 title: Painel de engajamento
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-TQID: https://experienceleague.adobe.com/m5XdQV-IiIUddL3-YPcne1yf-ORR4ZdbxHzAf5wSADM
+TQID: 'https://experienceleague.adobe.com/m5XdQV-IiIUddL3-YPcne1yf-ORR4ZdbxHzAf5wSADM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: '507'
 ht-degree: 0%
-
 ---
-
 # Painel de engajamento {#engagement-dashboard}
 
 O Painel de engajamento rastreia meticulosamente as métricas de engajamento do usuário. Ele mostra pontos de contato, o número de pessoas envolvidas e a média de pontos de contato por pessoa. Utilize o gráfico de barras de série temporal para uma exibição mensal, trimestral ou anual e o gráfico de barras para obter insights detalhados do Canal, Subcanal e Campanha. Essa ferramenta é essencial para entender os padrões de envolvimento e ajustar as estratégias de envolvimento.
@@ -43,7 +47,7 @@ Perguntas que o painel responde:
 ### Blocos de KPI {#kpi-tiles}
 
 * Pontos de contato: o número total de pontos de contato brutos gerados.
-   * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e MTD.
+  * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e MTD.
 * Pessoas tocadas: o número total de pessoas que têm quaisquer pontos de contato.
 * Pontos de contato por pessoa: número médio de pontos de contato por pessoa que foram tocados.
 

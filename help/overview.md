@@ -1,25 +1,33 @@
 ---
-description: '''[!DNL Marketo Measure] Visão Geral do Ultimate - [!DNL Marketo Measure]'''
+description: Visão Geral do Ultimate '[!DNL Marketo Measure] - [!DNL Marketo Measure]'
 title: Visão geral do [!DNL Marketo Measure] Ultimate
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 81%
-
+ht-degree: 88%
 ---
-
 # Visão geral do [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure] (anteriormente Bizible) fornece aos profissionais de marketing da insight quais esforços de marketing são os mais eficientes na geração de receita e na maximização do retorno sobre o investimento para sua empresa. [!DNL Marketo Measure] O é uma solução de atribuição de marketing que rastreia e cria relatórios automaticamente sobre o desempenho do canal, fornecendo visibilidade de quais canais impulsionam mais o engajamento do cliente e permitindo otimizar adequadamente seus gastos com marketing.
+O [!DNL Marketo Measure] (anteriormente Bizible) fornece aos profissionais de marketing insights sobre quais iniciativas de marketing são as mais eficientes na geração de receita e na maximização do retorno do investimento para a empresa. O [!DNL Marketo Measure] é uma solução de atribuição de marketing que rastreia e faz relatórios automaticamente sobre o desempenho do canal, oferecendo visibilidade sobre quais canais geram a maioria dos engajamentos de clientes e permitindo otimizar seus gastos com marketing de acordo com esses dados.
 
 O [!DNL Marketo Measure Ultimate] contém os recursos adicionais:
 
 * Assimilação a partir de quase qualquer fonte de dados, bem como de várias fontes de dados do mesmo tipo para trazer todos os seus dados para atribuição.
-   * Use com quase qualquer CRM, não apenas o Salesforce e o Dynamics.
-   * Conecte várias instâncias do CRM e/ou do MAP à instância do [!DNL Marketo Measure].
-   * Traga dados de registro e participação em webinários de terceiros.
+  * Use com quase qualquer CRM, não apenas o Salesforce e o Dynamics.
+  * Conecte várias instâncias do CRM e/ou do MAP à instância do [!DNL Marketo Measure].
+  * Traga dados de registro e participação em webinários de terceiros.
 
 * Transforme seus dados com grande flexibilidade por meio dos recursos de transformação e de mapeamento de campo para garantir a forma correta dos dados.
 

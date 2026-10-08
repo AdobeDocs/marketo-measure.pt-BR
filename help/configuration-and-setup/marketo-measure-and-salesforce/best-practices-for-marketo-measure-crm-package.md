@@ -1,20 +1,26 @@
 ---
-description: Práticas recomendadas para o  [!DNL Marketo Measure] Pacote de CRM - [!DNL Marketo Measure]
-title: Práticas recomendadas para [!DNL Marketo Measure] Pacote do CRM
+description: Práticas recomendadas para o pacote de CRM [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Práticas recomendadas para o pacote de CRM [!DNL Marketo Measure]
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/E8LQ0-uUC-xqhG9D7CSuprsjkABJ54azWFSEdiuFABk
+TQID: 'https://experienceleague.adobe.com/E8LQ0-uUC-xqhG9D7CSuprsjkABJ54azWFSEdiuFABk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 415
-ht-degree: 8%
-
+source-wordcount: '423'
+ht-degree: 7%
 ---
-
 # Práticas recomendadas para o pacote de CRM [!DNL Marketo Measure] {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
@@ -37,9 +43,9 @@ Esses pacotes permitem que os usuários do [!DNL Marketo Measure] acessem facilm
 Ao implementar e gerenciar o Pacote [!DNL Marketo Measure] [!DNL Salesforce], lembre-se das seguintes práticas recomendadas.
 
 * Confirme se todos os membros da equipe necessários têm acesso às pastas de relatório [!DNL Marketo Measure]. Deve haver de 1 a 3 pastas [!DNL Marketo Measure] (explicadas abaixo). Para abrir o acesso, a pessoa que instalou os pacotes deve compartilhar as pastas de relatório com os usuários ou funções apropriados.
-   * **Relatórios do Buyer Touchpoint** - disponível para todos
-   * **[!DNL Marketo Measure]Relatórios de marketing baseados em conta** - os relatórios serão preenchidos somente para clientes de Nível 2 e superior
-   * **Painéis do Buyer Touchpoint** - disponível para todos, embora este pacote seja opcional.
+  * **Relatórios do Buyer Touchpoint** - disponível para todos
+  * **[!DNL Marketo Measure]Relatórios de marketing baseados em conta** - os relatórios serão preenchidos somente para clientes de Nível 2 e superior
+  * **Painéis do Buyer Touchpoint** - disponível para todos, embora este pacote seja opcional.
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 

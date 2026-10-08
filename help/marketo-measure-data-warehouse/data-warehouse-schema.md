@@ -4,20 +4,25 @@ description: Esquema de Data Warehouse - Marketo Measure - Documentação do pro
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+TQID: 'https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 21775
+source-wordcount: '21775'
 ht-degree: 99%
-
 ---
-
 # Esquema de Data Warehouse {#data-warehouse-schema}
 
 O Data Warehouse permite rastrear o quanto você desejar, relatar os dados de atribuição onde quiser e conectá-los a outros conjuntos de dados.
@@ -955,7 +960,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>A quantidade de gastos importada nos últimos 30 dias, aplicável somente ao AdWords.</p>
       </td>
       <td>
-        <p>17260.000000000000000000</p>
+        <p>17260,000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2882,7 +2887,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um toque em forma de W (Consulte Is_First_Touch, Is_Lead_Creation_Touch e Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0153374234214425</p>
+        <p>0,0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -2896,7 +2901,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um modelo de caminho completo (Consulte Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0.0143061513081193</p>
+        <p>0,0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -6220,7 +6225,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um toque em forma de U.</p>
       </td>
       <td>
-        <p>100.0000000000000000000</p>
+        <p>100,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6276,7 +6281,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>Quantidade da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>42000.00000000</p>
+        <p>42000,00000000</p>
       </td>
     </tr>
     <tr>
@@ -7063,7 +7068,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       </td>
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
-      <td>NULL</td>
+      <td>NULO</td>
     </tr>
     <tr>
       <td>
@@ -8721,7 +8726,7 @@ Oportunidades importadas do sistema de origem.
         <p>Valor do contrato esperado ou fechado da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>8988.00000000</p>
+        <p>8988,00000000</p>
       </td>
     </tr>
     <tr>
@@ -10431,7 +10436,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
       <td>
-        <p>NULL</p>
+        <p>NULO</p>
       </td>
     </tr>
     <tr>

@@ -3,13 +3,17 @@ description: Orientação de cenários do estágio Boomerang para usuários do M
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 0%
-
 ---
-
 # Cenários de estágio de bumerangue {#boomerang-stage-scenarios}
 
 >[!AVAILABILITY]
@@ -88,7 +92,7 @@ Todos os pontos de contato do lead 1 estão incluídos na oportunidade, de FT a 
 
 O MQL-01 (Último) do Lead 2 acaba sendo o ponto de contato MQL-04 (Último) na Oportunidade. Como esse cenário aborda várias jornadas de clientes potenciais em uma oportunidade, o posicionamento e a numeração dos pontos de contato dos clientes potenciais podem mudar quando forem traduzidos como pontos de contato na oportunidade. Da mesma forma, o SQL-01 (Último) do Lead 2 torna-se o SQL-04 (Último) no Opp. O SAL-01 (Último) do lead 2 também se torna o SAL-02 (Último) da Oportunidade.
 
-Há apenas 2 pontos de contato SAL incluídos na oportunidade. [!DNL Marketo Measure] não tentará forçar/criar pontos de contato para transições de estágio se elas não tiverem ocorrido.
+Há apenas 2 pontos de contato SAL incluídos na oportunidade. [!DNL Marketo Measure] não tentará forçar/criar pontos de contato para transições de estágio se eles não tiverem ocorrido.
 
 A jornada do ponto de contato do lead 3 começa pouco antes do toque do OC ocorrer, mas muito depois do toque do Lead 1 e do Lead 2 em FT e LC. Nesse caso, o FT e o LC do lead 3 aparecem como um ponto de contato de formulário na oportunidade. O cliente em potencial 1 é convertido em um Contato com uma Oportunidade, que é considerado o contato do OC.
 

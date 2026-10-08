@@ -4,20 +4,23 @@ description: '[!DNL Marketo Engage] Integração de pessoas - [!DNL Marketo Meas
 title: Integração de pessoas do [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-TQID: https://experienceleague.adobe.com/h5Fe8tfw6VkKLRgKVdgKDRrhK91iVtkGSkrwU-W5SKw
+TQID: 'https://experienceleague.adobe.com/h5Fe8tfw6VkKLRgKVdgKDRrhK91iVtkGSkrwU-W5SKw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: '878'
 ht-degree: 3%
-
 ---
-
 # Integração de pessoas do [!DNL Marketo Engage] {#marketo-engage-people-integration}
 
 A integração de pessoas do Marketo permite que [!DNL Marketo Measure] comece a baixar pessoas do Marketo e comece a vincular suas sessões rastreadas ao indivíduo e mapear pontos de contato para seus compromissos. Historicamente, o [!DNL Marketo Measure] só conseguiu mapear pontos de contato para uma pessoa do CRM, portanto, isso ajuda os profissionais de marketing a medir seus esforços de marketing antes de esperar um estágio ou acionador para sincronizá-lo ao CRM.
@@ -67,7 +70,7 @@ Ao relatar clientes potenciais (pessoas) em [!DNL Marketo Measure Discover], voc
   </tr> 
   <tr> 
    <td><p>ID</p></td> 
-   <td><p>id</p></td> 
+   <td><p>ID</p></td> 
   </tr> 
   <tr> 
    <td><p>MODIFIED_DATE</p></td> 
@@ -79,7 +82,7 @@ Ao relatar clientes potenciais (pessoas) em [!DNL Marketo Measure Discover], voc
   </tr> 
   <tr> 
    <td><p>EMAIL</p></td> 
-   <td><p>e-mail</p></td> 
+   <td><p>email</p></td> 
   </tr> 
   <tr> 
    <td><p>WEB_SITE</p></td> 

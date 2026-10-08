@@ -1,23 +1,31 @@
 ---
 unique-page-id: 18874791
-description: Concedendo [!DNL Salesforce] Acesso a [!DNL Marketo Measure] Suporte - [!DNL Marketo Measure]
-title: Concedendo  [!DNL Salesforce] Acesso ao Suporte da Marketo Measure
+description: Concedendo [!DNL Salesforce] Acesso ao Suporte [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Conceder acesso de [!DNL Salesforce] ao suporte da Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk
+TQID: 'https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: '190'
 ht-degree: 2%
-
 ---
-
 # Conceder acesso de [!DNL Salesforce] ao suporte da Marketo Measure {#granting-salesforce-access-to-marketo-measure-support}
 
 Em alguns casos, o Suporte do [!DNL Marketo Measure] pode solicitar acesso ao ambiente do [!DNL Salesforce] para auxiliar na solução de problemas de diagnóstico ou na configuração do Salesforce durante a implementação.

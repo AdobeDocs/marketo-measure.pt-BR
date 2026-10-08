@@ -3,13 +3,19 @@ description: Orientação de integração do LinkedIn para usuários do Marketo 
 title: Integração com o LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2778'
 ht-degree: 2%
-
 ---
-
 # Integração com o LinkedIn {#linkedin-integration}
 
 ## Visão geral {#overview}
@@ -87,7 +93,7 @@ O [!DNL Marketo Measure] pode ajudar a monitorar o desempenho da campanha [!DNL 
 
 Com essa integração do [!DNL Marketo Measure/LinkedIn], pedimos que os clientes não copiem/clonem/dupliquem criações existentes. Se compartilhamentos forem encontrados e detectados para serem usados apenas em uma Creative, o [!DNL Marketo Measure] poderá marcar o compartilhamento como está sem precisar recriar Criações ou Compartilhamentos, e todo o histórico de anúncios (impressões, cliques, compartilhamentos) permanecerá.
 
-Assim que for detectado que um Compartilhamento está compartilhado em várias criações, o [!DNL Marketo Measure] terá que executar um processo de pausa, cópia e marcação novamente para criar um conjunto exclusivo. [!DNL Marketo Measure] O pausará e arquivará criações em tempo real e, portanto, apagará o Histórico de anúncios, incluindo impressões, cliques e compartilhamentos sociais para marcar tudo corretamente.
+Assim que for detectado que um Compartilhamento está compartilhado em várias criações, o [!DNL Marketo Measure] terá que executar um processo de pausa, cópia e marcação novamente para criar um conjunto exclusivo. O [!DNL Marketo Measure] pausará e arquivará os anúncios ao vivo e, portanto, apagará o Histórico de Anúncios, incluindo impressões, cliques e compartilhamentos sociais, para marcar tudo automaticamente e tudo corretamente.
 
 A partir de agora, o [!DNL Marketo Measure] recomenda que você não duplique nenhum compartilhamento [!DNL LinkedIn] e mantenha todos os compartilhamentos e criações o mais exclusivos possível para que possamos simplesmente adicionar nosso rastreamento sem ter que apagar o Histórico de Anúncios.
 
@@ -134,7 +140,7 @@ Por meio da API de formulário de anúncio [!DNL LinkedIn's] e da API de respost
 
 Os formulários do LinkedIn podem conter vários endereços de email. Quando baixamos respostas de formulário, procuraremos endereços de email com a seguinte prioridade: email comercial, Endereço de email (campo de formulário principal) ou campos personalizados com um valor de email válido.
 
-Independentemente do status do Campaign ou do Creative, todas as respostas do formulário resultarão em um ponto de contato. [!DNL Marketo Measure] O tem uma restrição de retrospectiva de 90 dias, portanto, o [!DNL Marketo Measure] não pode acessar respostas de formulário com mais de 90 dias, mas quanto mais tempo a integração do [!DNL Marketo Measure] e do [!DNL LinkedIn] estiver habilitada, mais pontos de contato do Formulário de Geração de Cliente Potencial estarão visíveis por meio do [!DNL Marketo Measure].
+Independentemente do status do Campaign ou do Creative, todas as respostas do formulário resultarão em um ponto de contato. [!DNL Marketo Measure] tem uma restrição de lookback de 90 dias, portanto, [!DNL Marketo Measure] não pode acessar respostas de formulário com mais de 90 dias, mas quanto mais tempo a integração [!DNL Marketo Measure] e [!DNL LinkedIn] estiver habilitada, mais pontos de contato do Formulário de Geração de Cliente Potencial estarão visíveis até [!DNL Marketo Measure].
 
 >[!NOTE]
 >
@@ -284,7 +290,7 @@ Um compartilhamento escuro é uma publicação em que ele nunca é postado na p�
 
 **Quais Status [!DNL Marketo Measure] realmente marca?**
 
-Há quatro status diferentes em uma Campanha do [!DNL LinkedIn] e no Creative: Ativo, Pausado, Arquivado e Cancelado. Marcamos somente Campanhas e Criativas que estão Ativas. Marcar outros status os torna Ativos novamente. [!DNL Marketo Measure] não marcará Campanhas em pausa, Arquivadas ou Canceladas ou Criativas, mas retomará a marcação se o status for alterado para Ativo.
+Há quatro status diferentes em uma Campanha do [!DNL LinkedIn] e no Creative: Ativo, Pausado, Arquivado e Cancelado. Marcamos somente Campanhas e Criativas que estão Ativas. Marcar outros status os torna Ativos novamente. [!DNL Marketo Measure] não marcará Campanhas em Pausa, Arquivadas ou Canceladas ou Criação, mas retomará a marcação se o status for alterado para Ativo.
 
 **Qual é o valor que [!DNL Marketo Measure] está usando para marcar?**
 
@@ -304,11 +310,11 @@ Observamos que alguns profissionais de marketing colocarão um link de imagem na
 
 **Não, alguém da minha equipe clonou acidentalmente um compartilhamento. Posso pausar?**
 
-Não se preocupe. [!DNL Marketo Measure] O verificará programaticamente se há compartilhamentos que não são mais exclusivos, o que significa que ele foi copiado desde então para uma Creative diferente. Depois que essa cópia for detectada, o [!DNL Marketo Measure] seguirá o fluxo normal para marcar e criar novos anúncios.
+Não se preocupe. O [!DNL Marketo Measure] verificará programaticamente se há compartilhamentos que não são mais exclusivos, o que significa que ele já foi copiado para uma Creative diferente. Depois que essa cópia for detectada, o [!DNL Marketo Measure] seguirá o fluxo normal para marcar e criar novos anúncios.
 
 **Meu anúncio estava com revisão pendente anteriormente. Por que a revisão está pendente novamente depois que [!DNL Marketo Measure] a marcou?**
 
-O LinkedIn exige que todos os anúncios criados ou modificados passem pelo processo normal de segurança antes de serem publicados. [!DNL Marketo Measure] O tenta interceptar o anúncio o mais rápido possível, pois verifica novos anúncios a cada 6 horas, mas com a etapa adicional [!DNL LinkedIn's], pode atrasar a inicialização em algumas horas.
+O LinkedIn exige que todos os anúncios criados ou modificados passem pelo processo normal de segurança antes de serem publicados. O [!DNL Marketo Measure] tenta interceptar o anúncio o mais rápido possível, pois verifica novos anúncios a cada 6 horas, mas com a etapa adicional [!DNL LinkedIn's], ele pode atrasar a inicialização em algumas horas.
 
 **Há duas URLs no meu anúncio. Qual é marcado?**
 
