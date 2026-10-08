@@ -4,16 +4,18 @@ description: Cenários de Estágio de Bumerangue - [!DNL Marketo Measure]
 title: Cenários de estágio de bumerangue
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-TQID: https://experienceleague.adobe.com/OVHlMxrX-hB5JBVm3-zUqkXsJVKTNusMIOO8NzYWv-Q
+TQID: 'https://experienceleague.adobe.com/OVHlMxrX-hB5JBVm3-zUqkXsJVKTNusMIOO8NzYWv-Q'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: '1520'
 ht-degree: 0%
-
 ---
-
 # Cenários de estágio de bumerangue {#boomerang-stage-scenarios}
 
 >[!AVAILABILITY]

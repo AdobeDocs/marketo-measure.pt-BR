@@ -3,13 +3,17 @@ description: Descreve o painel da Velocidade da oportunidade para controlar o te
 title: Painel de velocidade da oportunidade
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
-
 ---
-
 # Painel de velocidade da oportunidade {#opportunity-velocity-dashboard}
 
 O painel Velocity oferece uma visualização dinâmica do ritmo em que os clientes potenciais passam pelo funnel de vendas, fornecendo aos profissionais de marketing e equipes de vendas informações essenciais sobre os tempos de conversão em vários canais. Essa ferramenta é inestimável para responder às principais perguntas sobre o ciclo de vida da oportunidade e a eficiência da progressão nos estágios de vendas, permitindo otimizar suas estratégias de engajamento para acelerar o crescimento e as conversões.
@@ -72,7 +76,7 @@ Perguntas que o gráfico responde:
 Esse painel é equipado com as seguintes configurações e filtros:
 
 * Data
-   * Baseado em: transição na data
+  * Baseado em: transição na data
 * Estágio
 * Canal
 * Subcanal

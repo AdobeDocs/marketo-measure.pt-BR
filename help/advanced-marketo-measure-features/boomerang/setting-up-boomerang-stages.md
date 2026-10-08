@@ -4,16 +4,18 @@ description: Configurando Estágios de Bumerangue - [!DNL Marketo Measure]
 title: Configurando estágios de bumerangue
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-TQID: https://experienceleague.adobe.com/2H-AGYIsCbmW2sakkMBRPTcz6LWn48HJEcfCwanx8kw
+TQID: 'https://experienceleague.adobe.com/2H-AGYIsCbmW2sakkMBRPTcz6LWn48HJEcfCwanx8kw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 5%
-
 ---
-
 # Configurando estágios de bumerangue {#setting-up-boomerang-stages}
 
 >[!AVAILABILITY]

@@ -3,17 +3,23 @@ description: Orientação de plataformas de anúncios integradas para usuários 
 title: Plataformas de anúncios integradas
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 1%
-
 ---
-
 # Plataformas de anúncios integradas {#integrated-ad-platforms}
 
-[!DNL Marketo Measure] tem conexões de API com o Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads e DoubleClick Campaign Manager. Por meio dessas conexões de API, o [!DNL Marketo Measure] pode obter dados facilmente e enviá-los para o seu CRM, juntamente com o aplicativo Comprador externo. Não é necessário fazer upload manual de custos ou dados. Em vez disso, suas contas precisam apenas estar conectadas e autorizadas ao aplicativo [!DNL Marketo Measure]. [!DNL Marketo Measure] O baixará automaticamente seus custos de marketing das plataformas e os carregará no aplicativo [!DNL Marketo Measure]. Se você optar por habilitar a marcação automática para AdWords, BingAds ou [!DNL Facebook] Anúncios, [!DNL Marketo Measure] anexará automaticamente seus parâmetros às URLs de seus anúncios.
+[!DNL Marketo Measure] tem conexões de API com o Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads e DoubleClick Campaign Manager. Por meio dessas conexões de API, o [!DNL Marketo Measure] pode obter dados facilmente e enviá-los para o seu CRM, juntamente com o aplicativo Comprador externo. Não é necessário fazer upload manual de custos ou dados. Em vez disso, suas contas precisam apenas estar conectadas e autorizadas ao aplicativo [!DNL Marketo Measure]. O [!DNL Marketo Measure] baixará automaticamente seus custos de marketing das plataformas e os carregará no aplicativo [!DNL Marketo Measure]. Se você optar por habilitar a marcação automática para AdWords, BingAds ou [!DNL Facebook] Anúncios, [!DNL Marketo Measure] anexará automaticamente seus parâmetros às URLs de seus anúncios.
 
 ## Como conectar plataformas de publicidade {#how-to-connect-ad-platforms}
 
@@ -41,12 +47,12 @@ O modelo de rastreamento é uma ferramenta que a Google fornece para adicionar o
 
 [!DNL Marketo Measure] Pesquisa por Modelos de Rastreamento na sua conta [!DNL AdWords]:
 
-* *Opção A*: modelo de rastreamento encontrado. [!DNL Marketo Measure] O adiciona os parâmetros ao modelo.
+* *Opção A*: modelo de rastreamento encontrado. [!DNL Marketo Measure] adiciona seus parâmetros ao modelo.
 * *Opção B*: redirecionamento de terceiros encontrado. Se um redirecionamento de terceiros for encontrado no Modelo de Rastreamento, [!DNL Marketo Measure] não poderá realizar nenhuma ação. Será necessário adicionar manualmente as [!DNL Marketo Measure] tags ao sistema de terceiros. Um exemplo de redirecionamento por terceiros seria uma ferramenta de gerenciamento de ofertas, como Kenshoo ou Marin. Saiba mais sobre como as [ferramentas de gerenciamento de ofertas afetam [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
-* *Opção C*: nenhum modelo de rastreamento foi encontrado. [!DNL Marketo Measure] O verificará todas as URLs de Destino de Anúncios em busca dos parâmetros [!DNL Marketo Measure]. Com base na verificação, se:
-   * Parâmetros encontrados: a configuração está concluída!
-   * Parâmetros não encontrados: [!DNL Marketo Measure] anexará seus parâmetros ao final das URLs de Destino de Anúncio. [!DNL Marketo Measure] O anexa novos anúncios duas horas após sua criação. Lembre-se de que os parâmetros não serão adicionados a um modelo.
+* *Opção C*: nenhum modelo de rastreamento foi encontrado. O [!DNL Marketo Measure] verificará todas as URLs de Destino de Anúncios em busca dos parâmetros [!DNL Marketo Measure]. Com base na verificação, se:
+  * Parâmetros encontrados: a configuração está concluída!
+  * Parâmetros não encontrados: [!DNL Marketo Measure] anexará seus parâmetros ao final das URLs de Destino de Anúncio. [!DNL Marketo Measure] anexa novos anúncios dentro de duas horas após sua criação. Lembre-se de que os parâmetros não serão adicionados a um modelo.
 
 Saiba mais sobre nossa [[!DNL AdWords] funcionalidade de marcação automática](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
@@ -68,7 +74,7 @@ Depois que você tiver um modelo de rastreamento em vigor, siga as instruções 
 
 1. No canto superior direito, alterne a **[!UICONTROL Marcação automática]** para **[!UICONTROL Sim]**. Na parte inferior da página, clique em **[!UICONTROL Saiba mais]** para expandir a caixa de texto e clique em **[!UICONTROL Salvar]**. A configuração de marcação automática foi concluída.
 
-   ![1. No canto superior direito, alterne a marcação automática para &#x200B;](assets/utilizing-connections-10.png)
+   ![1. No canto superior direito, alterne a marcação automática para ](assets/utilizing-connections-10.png)
 
 ## Como configurar um modelo de rastreamento no AdWords com [!DNL Marketo Measure] parâmetros {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -119,7 +125,7 @@ Essa ferramenta é uma extensão do Chrome que permite gerar tags UTM rapidament
 
 ## Bing Ads {#bing-ads}
 
-O Bing Ads é uma plataforma integrada que permite habilitar a marcação automática de URLs ou usar uma ferramenta de terceiros, como o [!DNL Marketo Measure], para marcar anúncios. [!DNL Bing Ads] O também depende de parâmetros UTM.
+O Bing Ads é uma plataforma integrada que permite habilitar a marcação automática de URLs ou usar uma ferramenta de terceiros, como o [!DNL Marketo Measure], para marcar anúncios. [!DNL Bing Ads] também depende dos parâmetros UTM.
 
 Nossa integração é compatível com os tipos de anúncios abaixo:
 
@@ -152,7 +158,7 @@ Visite o site [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/bl
 
 ## Anúncios do Facebook {#facebook-ads}
 
-A integração do [!DNL Marketo Measure] com o [!DNL Facebook] permite que ele baixe automaticamente informações de publicidade e marque a URL com seus parâmetros. [!DNL Marketo Measure] O extrairá as informações da Campanha e do Conjunto de anúncios por meio da marcação automática. O Conjunto de anúncios preencherá o campo Nome do grupo de anúncios. Para obter mais informações sobre como configurar tags de URL na plataforma [!DNL Facebook], visite a página [!DNL Facebook] [negócios](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"}.
+A integração do [!DNL Marketo Measure] com o [!DNL Facebook] permite que ele baixe automaticamente informações de publicidade e marque a URL com seus parâmetros. O [!DNL Marketo Measure] obtém as informações da Campanha e do Conjunto de Anúncios por meio de nossa marcação automática. O Conjunto de anúncios preencherá o campo Nome do grupo de anúncios. Para obter mais informações sobre como configurar tags de URL na plataforma [!DNL Facebook], visite a página [!DNL Facebook] [negócios](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"}.
 
 Antes de habilitar a marcação automática com [!DNL Facebook Ads], é importante exportar o histórico de desempenho anterior como um CSV. Neste ponto, quando [!DNL Marketo Measure] marca [!DNL Facebook Ads] com seu parâmetro _bf, [!DNL Facebook] lê os anúncios como totalmente novos e apaga o histórico de desempenho. Portanto, é importante exportar um registro do desempenho anterior se isso for importante para você e para sua organização.
 
@@ -166,7 +172,7 @@ A integração do LinkedIn permite que [!DNL Marketo Measure] marque URLs de des
 
 Como os compartilhamentos do [!DNL LinkedIn] podem ser usados em várias campanhas e criações, pedimos que os clientes não copiem/clonem/dupliquem criações existentes para que possam manter sua exclusividade. Se compartilhamentos forem encontrados e detectados para serem usados apenas em uma Creative, o [!DNL Marketo Measure] poderá marcar o compartilhamento como está sem precisar recriar Criações ou Compartilhamentos, e todo o histórico de anúncios (impressões, cliques, compartilhamentos) permanecerá.
 
-Assim que for detectado que um Compartilhamento está compartilhado em várias criações, o [!DNL Marketo Measure] terá que executar um processo de pausa, cópia e marcação novamente para criar um conjunto exclusivo. [!DNL Marketo Measure] O pausará e arquivará as criações em tempo real, o que significa que o criativo que contém as impressões, cliques e compartilhamentos sociais também será arquivado.
+Assim que for detectado que um Compartilhamento está compartilhado em várias criações, o [!DNL Marketo Measure] terá que executar um processo de pausa, cópia e marcação novamente para criar um conjunto exclusivo. O [!DNL Marketo Measure] pausará e arquivará os trabalhos de criação ao vivo, o que significa que o criativo que contém as impressões, cliques e compartilhamentos sociais também será arquivado.
 
 ## Plataformas não integradas {#non-integrated-platforms}
 

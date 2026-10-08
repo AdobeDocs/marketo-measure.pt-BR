@@ -1,15 +1,19 @@
 ---
-description: Registros duplicados e  [!DNL Marketo Measure] orientação para usuários do Marketo Measure
-title: Registros duplicados e [!DNL Marketo Measure]
+description: Registros duplicados e orientação do [!DNL Marketo Measure] para usuários do Marketo Measure
+title: Registros Duplicados e [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 11%
-
+source-wordcount: '294'
+ht-degree: 10%
 ---
-
 # Registros Duplicados e [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
@@ -28,5 +32,5 @@ Você pode ver para a ID de pessoa [!DNL Marketo Measure] de kelsey@adobe.com qu
 
 **Recomendação**
 
-* Para maximizar o retorno em seus relatórios, recomendamos usar uma ferramenta de desduplicação no CRM para garantir que você esteja criando apenas registros exclusivos e novos. Isso pode ser feito com a ferramenta de Automação de Marketing ou com um software separado instalado no seu CRM. [!DNL Marketo Measure] não exclui registros duplicados automaticamente e não oferece esse serviço por meio de nosso software.
+* Para maximizar o retorno em seus relatórios, recomendamos usar uma ferramenta de desduplicação no CRM para garantir que você esteja criando apenas registros exclusivos e novos. Isso pode ser feito com sua ferramenta de Automação de marketing ou com um software separado instalado em seu CRM. O [!DNL Marketo Measure] não exclui registros duplicados automaticamente e não oferece esse serviço por meio de nosso software.
 * Uma opção alternativa seria mesclar manualmente os registros ao identificar duplicatas. Esse processo pode ser demorado e tedioso, mas o resultado de relatórios precisos vale a pena investir no tempo.

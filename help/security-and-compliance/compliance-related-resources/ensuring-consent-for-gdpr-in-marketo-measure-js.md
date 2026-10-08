@@ -4,18 +4,21 @@ description: Garantia de consentimento com o RGPD no Marketo Measure Js - Market
 title: Garantia de consentimento com o RGPD no Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+TQID: 'https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '425'
 ht-degree: 96%
-
 ---
-
 # Garantia de consentimento com o RGPD no Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 O Regulamento Geral sobre a Proteção de Dados (RGPD) é uma legislação da União Europeia que entrou em vigor em 25 de maio de 2018.

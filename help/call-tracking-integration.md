@@ -3,13 +3,19 @@ description: Orientação de integração de rastreamento de chamadas para usuá
 title: Integração ao rastreamento de chamadas
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 1%
-
 ---
-
 # Integração ao rastreamento de chamadas {#call-tracking-integration}
 
 Nossa integração com o [!DNL CallTrackingMetrics] se destina a mesclar uma sessão da Web com uma chamada telefônica. Uma chamada telefônica é tratada como um envio de formulário para [!DNL Marketo Measure]. Ele dá crédito a uma sessão da Web que, de outra forma, teria sido considerada apenas uma visita da Web, pois não houve envio real de formulário.
@@ -48,7 +54,7 @@ Quando [!DNL Marketo Measure] pode importar/baixar a tarefa, processamos esses d
 
 A &quot;Chamada&quot; do Tipo [!UICONTROL Touchpoint] é retirada da Tarefa, da captura de tela acima, que também é preenchida por CallTrackingMetrics quando a Tarefa é criada.
 
-![A &quot;Chamada&quot; do Tipo de Ponto de Contato é retirada da Tarefa, do &#x200B;](assets/marketo-engage-activities-01.png)
+![A &quot;Chamada&quot; do Tipo de Ponto de Contato é retirada da Tarefa, do ](assets/marketo-engage-activities-01.png)
 
 ## Relatórios {#reporting}
 
@@ -70,7 +76,7 @@ O Tipo de ponto de contato e o Medium contêm os dados obtidos do Task.Type. Tod
 
 Primeiro, verifique a Tarefa para certificar-se de que há um [!DNL BizibleId] preenchido. Se não houver valor, não poderemos criar um ponto de contato para ele. Isso precisa ser escalonado com CallTrackingMetrics.
 
-Se houver um valor, observe que consideramos apenas todas as sessões da Web como 30 minutos. Se um Anúncio do Google foi clicado às 12:17pm (início da sessão no site), mas a chamada telefônica não ocorreu até 1:05pm, não mesclaremos a sessão da Web e a chamada telefônica. Em vez disso, [!DNL Marketo Measure] cria um ponto de contato [!DNL Salesforce Task] separado para rastrear a chamada telefônica, mas não terá dados de sessão da Web.
+Se houver um valor, observe que consideramos apenas todas as sessões da Web como 30 minutos. Se um anúncio do Google foi clicado às 12h17 (início da sessão no site), mas a chamada telefônica não ocorreu até 13h05, não mesclaremos a sessão da Web e a chamada telefônica. Em vez disso, [!DNL Marketo Measure] cria um ponto de contato [!DNL Salesforce Task] separado para rastrear a chamada telefônica, mas não terá dados de sessão da Web.
 
 ![Se houver um valor, observe que somente consideramos toda a Web](assets/other-resources-2.png)
 

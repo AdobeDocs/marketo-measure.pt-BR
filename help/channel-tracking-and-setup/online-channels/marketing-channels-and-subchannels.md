@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874682
-description: Canais e subcanais de marketing -  [!DNL Marketo Measure]
+description: Canais e Subcanais de Marketing - [!DNL Marketo Measure]
 title: Canais e subcanais de marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+TQID: 'https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 93%
-
+source-wordcount: '453'
+ht-degree: 92%
 ---
-
 # Canais e subcanais de marketing {#marketing-channels-and-subchannels}
 
 ## Finalidade {#purpose}

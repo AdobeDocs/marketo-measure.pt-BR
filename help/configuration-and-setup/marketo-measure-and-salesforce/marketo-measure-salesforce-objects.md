@@ -4,19 +4,26 @@ description: '[!DNL Marketo Measure] Objetos Salesforce - [!DNL Marketo Measure]
 title: Objetos do Salesforce do [!DNL Marketo Measure]
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk
+TQID: 'https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Taxonomy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: '941'
 ht-degree: 88%
-
 ---
-
 # Objetos do Salesforce do [!DNL Marketo Measure] {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
@@ -53,7 +60,7 @@ O objeto [!UICONTROL Buyer Attribution Touchpoint] conta a história das intera�
 
 Os Buyer Attribution Touchpoints (BATs) são criados apenas depois que uma oportunidade é criada, e se relacionam aos contatos que têm dados de Buyer Touchpoint (BT). Os BATs não serão criados sem uma oportunidade. Depois que a oportunidade for criada, o objeto BAT usará o campo *Valor* do [!DNL Salesforce] na oportunidade para entender quanta receita deve ser atribuída aos touchpoints.
 
-Um **fluxo de trabalho** precisa ser criado se você usar um [campo personalizado Valor](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) para mostrar a receita no objeto da oportunidade. O [!DNL Marketo Measure] não consegue ler as informações exibidas nos campos personalizados Valor e, consequentemente, não pode preencher dados de atribuição de receita nos touchpoints. Este fluxo de trabalho usará o campo Valor da oportunidade **do**&#x200B;[!DNL Marketo Measure], um dos campos personalizados do [!DNL Marketo Measure], para mapear o valor de receita do campo personalizado Valor para o campo Valor da oportunidade.
+Um **fluxo de trabalho** precisa ser criado se você usar um [campo personalizado Valor](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) para mostrar a receita no objeto da oportunidade. O [!DNL Marketo Measure] não consegue ler as informações exibidas nos campos personalizados Valor e, consequentemente, não pode preencher dados de atribuição de receita nos touchpoints. Este fluxo de trabalho usará o campo Valor da oportunidade **do**[!DNL Marketo Measure], um dos campos personalizados do [!DNL Marketo Measure], para mapear o valor de receita do campo personalizado Valor para o campo Valor da oportunidade.
 
 ![](assets/3-1.png)
 

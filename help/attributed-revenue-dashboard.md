@@ -3,14 +3,18 @@ description: Descreve o painel Receita atribuída, que detalha a receita atribu�
 title: Painel de receita atribuída
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
-
 ---
-
 # Painel de receita atribuída {#attributed-revenue-dashboard}
 
 O Painel de receita atribuída oferece uma perspectiva focada na receita diretamente vinculada às suas iniciativas de marketing. Explore como suas estratégias de marketing foram fundamentais para selar ofertas.

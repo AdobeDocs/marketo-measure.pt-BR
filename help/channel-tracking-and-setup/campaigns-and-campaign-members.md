@@ -3,14 +3,18 @@ description: Orientação de campanhas e membros da campanha para usuários do M
 title: Campanhas e membros da campanha
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
-
+ht-degree: 88%
 ---
-
 # Campanhas e membros da campanha {#campaigns-and-campaign-members}
 
 As campanhas do [!DNL Salesforce] têm como objetivo rastrear listas de leads e contatos associadas a um programa de marketing ou atividade. Por exemplo, estes podem ter sido webinários, registros ou visitas em estandes. Profissionais de marketing podem decidir se uma campanha deve ser creditada em uma jornada de ponto de contato.
@@ -59,7 +63,7 @@ Membros da campanha estão aninhados em [!UICONTROL Campanhas] e estão relacion
 
 Se habilitado, o [!DNL Marketo Measure] enviará um valor de status para membros da campanha em 4 campos diferentes incluídos no pacote instalado: Status do ponto de contato (lead), Status do ponto de contato (contato), Status do ponto de contato (oportunidade) e Data do status do ponto de contato. Isso ajuda clientes a auditar se um ponto de contato foi criado como um Buyer Touchpoint ou Buyer Attribution Touchpoint, dependendo do objeto ao qual ele está relacionado. A data do status do ponto de contato é simplesmente a última data em que o status foi atualizado no membro da campanha.
 
-![Se habilitada, a Marketo Measure enviará um valor de status por push para o &#x200B;](assets/dynamics-lists-3.png)
+![Se habilitada, a Marketo Measure enviará um valor de status por push para o ](assets/dynamics-lists-3.png)
 
 ## Data do Buyer Touchpoint {#buyer-touchpoint-date}
 
@@ -80,7 +84,7 @@ Se o [!UICONTROL Tipo de sincronização] estiver definido como “Incluir somen
 
 * Data do Buyer Touchpoint
 * Data da primeira resposta
-   * A Data da primeira resposta é definida automaticamente assim que o status é alterado para “Respondido” e é um campo padrão do [!DNL Salesforce] que não pode ser alterado
+  * A Data da primeira resposta é definida automaticamente assim que o status é alterado para “Respondido” e é um campo padrão do [!DNL Salesforce] que não pode ser alterado
 
 * Data de criação de membro da campanha
 
@@ -118,7 +122,7 @@ Saiba tudo sobre os custos de campanha [neste artigo](/help/crm-campaign-costs.m
 
 A forma como o [!DNL Marketo Measure] monitora todos os registros excluídos no Salesforce, sejam leads, contas ou oportunidades excluídas, é a partir da visualização desses registros na API e do rastreio de entradas marcadas como “IsDeleted”. Infelizmente, o Salesforce introduziu uma maneira distinta para a exclusão de membros de uma campanha, marcando-os como “removidos”, ao invés de “excluídos”. Portanto, pontos de contato que estavam relacionados aos membros excluídos da campanha ainda permaneciam no Salesforce.
 
-Para contornar esse problema, [!DNL Marketo Measure] criou um objeto de Histórico [!DNL Marketo Measure] e um acionador para rastrear sempre que os Membros da Campanha forem removidos e, em seguida, excluir o ponto de contato correspondente. **Você precisará do [!DNL Marketo Measure] pacote V6.15 ou superior do Marketing Analytics** para usar este recurso.
+Para contornar esse problema, o [!DNL Marketo Measure] criou um objeto de histórico do [!DNL Marketo Measure] e um acionador para detectar quando membros da campanha forem removidos e, em seguida, excluir o ponto de contato correspondente. **Você precisará de um pacote [!DNL Marketo Measure] Marketing Analytics V6.15 ou superior** para usar este recurso.
 
 >[!CAUTION]
 >

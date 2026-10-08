@@ -3,14 +3,18 @@ description: Estrutura do Marketo Measure
 title: Estrutura do Marketo Measure
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 94%
-
 ---
-
 
 # Estrutura do Marketo Measure {#marketo-measure-framework}
 

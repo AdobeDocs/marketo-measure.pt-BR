@@ -3,14 +3,18 @@ description: Descreve o painel Tráfego da Web para visitas visitantes exibiçõ
 title: Painel de tráfego na web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 6%
-
 ---
-
 # Painel de tráfego na web {#web-traffic-dashboard}
 
 O Painel de tráfego da Web fornece uma visualização abrangente das interações do visitante do site. Analise detalhadamente métricas, como contagens de visitantes únicos por URL, visitas gerais, visualizações de página e envios de formulários de URLs de formulário ou páginas de aterrissagem específicas. Monitore tendências mensais de tráfego e identifique mídias pagas de alto desempenho, permitindo que você refine suas estratégias para obter o máximo de receita.
@@ -89,7 +93,7 @@ Perguntas que o gráfico responde:
 * Qual canal/subcanal/campanha atrai o maior número de visitas ou visitantes únicos?
 * Como o número de visitantes únicos se compara ao total de visitas em um Canal/Subcanal/Campanha específico?
 
-![Como o número de visitantes únicos se compara ao total de visitas em &#x200B;](assets/web-dashboard-4.png)
+![Como o número de visitantes únicos se compara ao total de visitas em ](assets/web-dashboard-4.png)
 
 ## Painel de Filtro {#filter-pane}
 

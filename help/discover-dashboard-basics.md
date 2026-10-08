@@ -3,14 +3,18 @@ description: Apresenta a interface do painel do Discover, filtros, ações de an
 title: Noções básicas do painel do Discover
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-hidefromtoc: true
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 1%
-
+source-wordcount: '576'
+ht-degree: 5%
 ---
-
 # Noções básicas do painel do Discover {#discover-dashboard-basics}
 
 Este artigo o guiará pelos recursos fundamentais da interface reprojetada, garantindo que você possa acessar e interpretar seus dados com facilidade. Analise a dinâmica do painel de filtros e descubra as complexidades de nossas funcionalidades de relatórios aprimoradas, como recursos de drill, filtragem cruzada e dicas de ferramentas.
@@ -38,7 +42,7 @@ Passe o mouse sobre o canto superior direito de um visual para ver uma lista som
 
 * Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; a presença de opções de controle de drill na barra de ação indica isso.
 
-![Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; o &#x200B;](assets/discover-basics-7.png)
+![Passe o mouse sobre um visual para identificar se ele tem uma hierarquia; o ](assets/discover-basics-7.png)
 
 * Ative o drill-down clicando na seta para baixo única, realçada por um plano de fundo cinza. Para reverter, use o ícone de drill-up.
 
@@ -65,13 +69,13 @@ Para explorar os dados por trás do visual, clique com o botão direito do mouse
 ### Exportar dados {#export-data}
 
 Para exportar os dados subjacentes de um visual, passe o mouse sobre o canto superior direito. Clique no botão &quot;mais opções&quot;, escolha &quot;exportar dados&quot;, selecione o formato de sua preferência e clique em &quot;exportar&quot;.
-![Para exportar os dados subjacentes de um visual, passe o mouse sobre seu canto superior direito](assets/discover-basics-6.gif)
+![Para exportar os dados subjacentes de um visual, passe o mouse sobre o canto superior direito](assets/discover-basics-6.gif)
 
 ### Modo de foco {#focus-mode}
 
 Para aplicar mais zoom a um visual ou bloco gráfico específico, passe o mouse sobre o canto superior direito e selecione o botão &quot;foco&quot;.
 
-![Para aplicar mais zoom a um visual ou bloco específico, passe o mouse sobre &#x200B;](assets/discover-basics-5.gif)
+![Para aplicar mais zoom a um visual ou bloco específico, passe o mouse sobre ](assets/discover-basics-5.gif)
 
 ### Filtragem cruzada {#cross-filtering}
 

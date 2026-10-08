@@ -3,13 +3,17 @@ description: Configuração do teste A/B e orientação de relatórios para usu�
 title: Configuração e criação de relatórios de teste A/B
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 75%
-
 ---
-
 # Configuração e criação de relatórios de teste A/B {#a-b-testing-set-up-and-reporting}
 
 A integração do Teste A/B [!DNL Marketo Measure] permite rastrear o impacto da receita dos experimentos do site [Otimizely](https://www.optimizely.com/){target="_blank"} e VWO. Este artigo fornece instruções sobre como adicionar seções de teste A/B do [!DNL Marketo Measure] aos layouts das páginas Lead, [!UICONTROL Contato], Caso e [!UICONTROL Oportunidade]. Ele também aborda as práticas gerais de relatório e as recomendações para executar relatórios do tipo A/B no [!DNL Marketo Measure].
@@ -25,7 +29,7 @@ Adicione as [!DNL Marketo Measure] seções de Teste A/B sobre Cliente Potencial
 
 1. Clique no botão de [!UICONTROL chave inglesa]. Remova o campo “ID” do estoque da lista de campos selecionados. Adicione os campos **[!UICONTROL Experimento]**, **[!UICONTROL Variação]**, e **[!UICONTROL Data do relatório]**. Altere “[!UICONTROL Classificar por]” para **[!UICONTROL Data do relatório]** e selecione **[!UICONTROL Decrescente]** no menu suspenso.
 
-   ![1. Clique na chave inglesa. Remover o campo &quot;Id&quot; do estoque de &#x200B;](assets/advanced-features-3.png)
+   ![1. Clique na chave inglesa. Remover o campo &quot;Id&quot; do estoque de ](assets/advanced-features-3.png)
 
 1. Em [!UICONTROL Botões], desmarque **[!UICONTROL Novo]**.
 

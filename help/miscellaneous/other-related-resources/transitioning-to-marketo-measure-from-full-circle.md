@@ -1,22 +1,28 @@
 ---
 unique-page-id: 18874535
-description: Transição para  [!DNL Marketo Measure] do Círculo Completo - [!DNL Marketo Measure]
-title: Transição para [!DNL Marketo Measure] do círculo completo
+description: Transição de Círculo Completo para [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Transição para [!DNL Marketo Measure] do Círculo Completo
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-TQID: https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E
+TQID: 'https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '636'
 ht-degree: 0%
-
 ---
-
 # Transição para [!DNL Marketo Measure] do Círculo Completo {#transitioning-to-marketo-measure-from-full-circle}
 
 Fazendo a migração de Círculo Completo para [!DNL Marketo Measure]? Você não está sozinho. Estas são as maiores considerações a serem levadas em conta e as lições que aprendemos com outros clientes que fizeram a mudança.

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874743
 description: Conectando [!DNL Marketo Measure] ao Gerenciador de Scripts de Liberação - [!DNL Marketo Measure]
-title: Conexão de [!DNL Marketo Measure] para cancelar o Gerenciador de script
+title: Conectando [!DNL Marketo Measure] ao Gerenciador de Script de Unbounce
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M
+TQID: 'https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 120
-ht-degree: 6%
-
+source-wordcount: '122'
+ht-degree: 3%
 ---
-
 # Conectando [!DNL Marketo Measure] ao Gerenciador de Script de Unbounce {#connecting-marketo-measure-to-unbounce-script-manager}
 
 O [!DNL Marketo Measure] integra-se diretamente com o Unbounce, permitindo que você acompanhe a fonte de marketing digital das suas conversões de página de aterrissagem diretamente no [!DNL Salesforce]. Para fazer a conexão, basta adicionar o script [!DNL Marketo Measure] ao Gerenciador de Scripts de Desativação. Veja como.

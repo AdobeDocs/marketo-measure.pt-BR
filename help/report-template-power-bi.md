@@ -3,13 +3,17 @@ description: Modelo de Relatório [!DNL Marketo Measure] - Power BI - [!DNL Mark
 title: Modelo de relatório do [!DNL Marketo Measure] - Power BI
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 91%
-
 ---
-
 # Modelo de relatório do [!DNL Marketo Measure] - Power BI {#marketo-measure-report-template-power-bi}
 
 ## Introdução {#getting-started}
@@ -99,25 +103,25 @@ Renomeamos as tabelas e colunas para facilitar o uso e padronizar convenções d
 
 ### Segmentos renomeados {#renamed-segments}
 
-Como os nomes de segmento são personalizáveis, eles têm nomes de coluna genéricos no data warehouse do Snowflake. [!DNL BIZ_SEGMENT_NAMES] é uma tabela de mapeamento que lista o nome de segmento genérico e seu nome de segmento personalizado mapeado, definido na seção segmento na interface do usuário do [!DNL Marketo Measure]. A tabela Nome do segmento é usada para renomear as colunas de segmento nas tabelas Ponto de contato de cliente potencial e de atribuição. Se não houver nenhum segmento personalizado, o nome do segmento genérico permanecerá.
+Como os nomes de segmentos são personalizáveis, eles têm nomes de coluna genéricos no data warehouse do Snowflake. [!DNL BIZ_SEGMENT_NAMES] é uma tabela de mapeamento que lista o nome de segmento genérico e seu nome de segmento personalizado mapeado, definido na seção segmento na interface do [!DNL Marketo Measure]. A tabela Nome do segmento é usada para renomear as colunas de segmento nas tabelas Ponto de contato de cliente potencial e de atribuição. Se não houver nenhum segmento personalizado, o nome do segmento genérico permanecerá.
 
-![Como os nomes de segmentos são personalizáveis, eles têm nomes de colunas genéricos no &#x200B;](assets/marketo-bi-4.png)
+![Como os nomes de segmentos são personalizáveis, eles têm nomes de colunas genéricos no ](assets/marketo-bi-4.png)
 
 ### Conversão de ID com diferenciação de maiúsculas e minúsculas {#case-sensitive-id-conversion}
 
-Os dados do [!DNL Marketo Measure] têm algumas tabelas em que os valores da chave primária (ID) fazem distinção entre maiúsculas e minúsculas, estes são: Ponto de contato e Campanha. O mecanismo de dados que orienta a camada de modelagem do Power BI não diferencia maiúsculas de minúsculas, resultando assim em valores de ID “duplicados”. Para preservar a diferenciação entre maiúsculas e minúsculas desses valores-chave, implementamos etapas de transformação que anexam caracteres invisíveis a caracteres em minúsculas, preservando a exclusividade do ID quando avaliado na camada do mecanismo de dados. Mais detalhes sobre o problema e as etapas detalhadas sobre o método que empregamos podem ser encontrados [aqui]
-(https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas de minúsculas são rotulados como “IDs de associação” e usados como chaves de associação na camada de relação. Ocultamos as IDs de associação da camada de relatórios, mantendo os valores de ID originais visíveis para uso nos relatórios, já que os caracteres invisíveis podem interferir nas funções de cortar
-/colar e na filtragem.
+Os dados do [!DNL Marketo Measure] têm algumas tabelas em que os valores da chave primária (ID) fazem distinção entre maiúsculas e minúsculas, estes são: Ponto de contato e Campanha. O mecanismo de dados que orienta a camada de modelagem do Power BI não diferencia maiúsculas de minúsculas, resultando assim em valores de ID “duplicados”. Para preservar a diferenciação entre maiúsculas e minúsculas desses valores-chave, implementamos etapas de transformação que anexam caracteres invisíveis a caracteres em minúsculas, preservando a exclusividade do ID quando avaliado na camada do mecanismo de dados. Mais detalhes sobre o problema e as etapas detalhadas sobre o método que empregamos podem ser encontrados [aqui] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitive/){target="_blank"}. Esses valores de ID que diferenciam maiúsculas de minúsculas são rotulados como “IDs de associação” e usados como chaves de associação na camada de relação. Ocultamos as IDs de associação na camada de relatórios, mantendo os valores de ID originais visíveis para uso no relatório, pois os caracteres invisíveis podem interferir no recorte
+/cole funções e filtragem.
 
-![&#x200B; funções/colagem e filtragem.](assets/marketo-bi-8.png)
+![ funções/colagem e filtragem.](assets/marketo-bi-8.png)
 
-![&#x200B; funções/colagem e filtragem.](assets/marketo-bi-11.png)
+![ funções/colagem e filtragem.](assets/marketo-bi-11.png)
 
 ### Linhas adicionadas {#rows-added}
 
 Para adicionar recursos de conversão de moeda aos cálculos no modelo, adicionamos uma coluna de taxa de conversão corporativa às tabelas Oportunidade e Custo. O valor nessa coluna é adicionado no nível da linha e é avaliado associando-se à tabela Taxa de conversão na data e na ID da moeda. Para obter mais detalhes sobre como a conversão de moeda funciona neste modelo, consulte a seção [Conversão de moeda](#currency-conversion) nesta documentação.
 
-![Para adicionar recursos de conversão de moeda aos cálculos no modelo, &#x200B;](assets/marketo-bi-10.png)
+![Para adicionar recursos de conversão de moeda aos cálculos no modelo, ](assets/marketo-bi-10.png)
 
 A tabela Taxa de conversão armazenada no [!DNL Snowflake] contém um intervalo de datas para cada conversão. O Power BI não permite critérios de associação em um cálculo (ou seja, entre um intervalo de datas). Para associar-se a uma data, adicionamos etapas à tabela Taxa de conversão para expandir as linhas até que haja uma linha para cada data no intervalo de datas de conversão.
 

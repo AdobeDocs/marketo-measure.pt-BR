@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874684
-description: Datas de Sincronização de Campanha - [!DNL Marketo Measure]
+description: Datas de Sincronização da Campanha - [!DNL Marketo Measure]
 title: Datas de sincronização da campanha
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-TQID: https://experienceleague.adobe.com/GwenZehxxKmWurJHJ3i3RTyhMocQ8piRR7HVARAbBKI
+TQID: 'https://experienceleague.adobe.com/GwenZehxxKmWurJHJ3i3RTyhMocQ8piRR7HVARAbBKI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: '499'
 ht-degree: 6%
-
 ---
-
 # Datas de sincronização da campanha {#campaign-sync-dates}
 
 Saiba o que o recurso Datas de sincronização do Campaign faz, bem como ofereça alguns casos de uso para esse recurso.

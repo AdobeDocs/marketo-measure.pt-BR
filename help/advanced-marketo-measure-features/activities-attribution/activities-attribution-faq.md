@@ -4,16 +4,18 @@ description: Perguntas Frequentes sobre Atribuição de Atividades - [!DNL Marke
 title: Perguntas frequentes sobre atribuição de atividades
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-TQID: https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo
+TQID: 'https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '773'
 ht-degree: 2%
-
 ---
-
 # Perguntas frequentes sobre atribuição de atividades {#activities-attribution-faq}
 
 [!DNL Marketo Measure] As atividades importam todos os seus registros de Atividade e geram pontos de contato para eles, permitindo que essas Atividades recebam crédito de atribuição. O caso de uso mais comum é rastrear atividades da equipe de vendas, pois geralmente criam um registro de chamadas telefônicas ou emails enviados a clientes potenciais. Outros itens exclusivos que podem ser rastreados são as interações de conteúdo, como downloads de ativos ou visualizações de vídeo.
@@ -32,7 +34,7 @@ O objeto Activities atua como o guarda-chuva ou pai dos objetos Task e Event. As
 
 **Se eu tiver um Cliente Potencial ou Contato com a mesma Tarefa recorrente, verei Pontos de Contato do Comprador para todos eles?**
 
-Sim. Há uma relação 1:1 entre suas Atividades sincronizadas e Pontos de contato criados.
+Sim. Há uma relação 1:1 entre suas Atividades sincronizadas e os Pontos de contato criados.
 
 **Como saber quais registros resultam na criação de Pontos de Contato?**
 

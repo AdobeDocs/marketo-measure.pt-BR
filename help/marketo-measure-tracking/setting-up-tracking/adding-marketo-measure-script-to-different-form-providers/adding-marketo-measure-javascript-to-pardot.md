@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874757
-description: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot] - [!DNL Marketo Measure]
-title: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot]
+description: Adicionando o JavaScript [!DNL Marketo Measure] a [!DNL Pardot] - [!DNL Marketo Measure]
+title: Adicionando o JavaScript [!DNL Marketo Measure] a [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/AQ9eRG6l6KV5K3-suOcgN4j5Jow1WPszggcX3-pLino
+TQID: 'https://experienceleague.adobe.com/AQ9eRG6l6KV5K3-suOcgN4j5Jow1WPszggcX3-pLino'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '227'
 ht-degree: 0%
-
 ---
-
 # Adicionando o JavaScript [!DNL Marketo Measure] a [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
 [!DNL Pardot] formulários exigem manipulação adicional no modelo de formulário além de colocar o script no site para [!DNL Marketo Measure] reconhecer os envios de formulários. O processo é simples; ele só requer a colocação do script de rastreamento [!DNL Marketo Measure] no modelo de formulário [!DNL Pardot].

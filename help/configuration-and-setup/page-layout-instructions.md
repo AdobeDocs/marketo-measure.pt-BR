@@ -3,13 +3,20 @@ description: Guia de Instruções de layout de página para usuários do Marketo
 title: Instruções de layout da página
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 92%
-
 ---
-
 # Instruções de layout da página {#page-layout-instructions}
 
 >[!NOTE]
@@ -64,7 +71,7 @@ Para começar, primeiro navegue até as configurações de definição do [!DNL 
 
 1. Arraste a página do VisualForce **[!UICONTROL Lista relacionada ao lead do Marketo Measure]** para a seção de layout da página.
 
-   ![1. Arraste a página VisualForce da Lista Relacionada ao Cliente Potencial do Marketo Measure para &#x200B;](assets/connect-salesforce-1.png)
+   ![1. Arraste a página VisualForce da Lista Relacionada ao Cliente Potencial do Marketo Measure para ](assets/connect-salesforce-1.png)
 
 1. Clique no ícone de chave inglesa na página [!DNL VisualForce], modifique a altura para 100 e habilite as barras de rolagem.
 
@@ -74,7 +81,7 @@ Para começar, primeiro navegue até as configurações de definição do [!DNL 
 
    >[!NOTE]
    >
-   >Para o aplicativo de tela do [!DNL Marketo Measure Insights] funcionar de maneira adequada, é preciso configurar corretamente as permissões do [&#128279;](/help/configuration-and-setup/marketo-measure-insights-configuration.md).
+   >Para o aplicativo de tela do [!DNL Marketo Measure Insights] funcionar de maneira adequada, é preciso configurar corretamente as permissões do [](/help/configuration-and-setup/marketo-measure-insights-configuration.md).
 
 Se estiver usando o recurso de ABM do [!DNL Marketo Measure], [clique aqui para obter instruções adicionais sobre o layout de página](/help/channel-tracking-and-setup/account-based-marketing-overview.md).
 
@@ -173,7 +180,7 @@ Se estiver usando o recurso de ABM do [!DNL Marketo Measure], [clique aqui para 
 
 1. Classificar por Data do touchpoint > Ordem crescente.
 
-1. Desmarcar a opção **[!UICONTROL Novo]** na seção de [!UICONTROL Botões].
+1. Desmarque a opção **[!UICONTROL Novo]** na seção de [!UICONTROL Botões].
 
 1. Clique em **[!UICONTROL Salvar]**.
 

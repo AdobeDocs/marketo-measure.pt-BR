@@ -3,13 +3,19 @@ description: Orientação de canal de marketing para oportunidades perdidas fech
 title: Oportunidades perdidas encerradas pelo canal de marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 5%
-
 ---
-
 # Oportunidades perdidas encerradas pelo canal de marketing {#closed-lost-opportunities-by-marketing-channel}
 
 Embora este relatório possa depender dos estágios de oportunidade, ele revelará quais canais de marketing contribuíram para oportunidades que não foram fechadas.
@@ -20,7 +26,7 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 1. Na localização rápida, digite &quot;Atribuição de Bizible&quot;, selecione o **[!UICONTROL Ponto de Contato de Atribuição de Bizible com o tipo de relatório Oportunidade]** e selecione **[!UICONTROL Criar]**.
 
-   ![1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione o &#x200B;](assets/bizible-guide-2.png)
+   ![1. Na localização rápida, digite &quot;Atribuição da Bizible&quot; e selecione o ](assets/bizible-guide-2.png)
 
 1. A partir da parte superior do relatório, mostre &quot;[!UICONTROL Todos os pontos de contato de atribuição da Bizible]&quot; e ajuste o campo de data de acordo com o período no qual você deseja criar o relatório. No nosso exemplo, estamos olhando para Todos os Tempos. Além disso, altere o formato do relatório de Tabular para Resumo.
 
@@ -30,11 +36,11 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 1. Agora, adicionaremos campos ao relatório. Na localização rápida à esquerda, digite &quot;Canal de marketing&quot; e adicione-o ao agrupamento de resumo no relatório.
 
-   ![1. Agora, adicionaremos campos ao relatório. No &#x200B;](assets/bizible-guide-4.png)
+   ![1. Agora, adicionaremos campos ao relatório. No ](assets/bizible-guide-4.png)
 
 1. Em seguida, adicionaremos um filtro para observar apenas as Ops perdidas fechadas. Na localização rápida à esquerda, procure o campo &quot;Preparo&quot; e arraste-o para a área de filtro.
 
-   ![1. Em seguida, adicionaremos um filtro para observar somente &#x200B;](assets/marketo-reports-16.jpg)
+   ![1. Em seguida, adicionaremos um filtro para observar somente ](assets/marketo-reports-16.jpg)
 
 1. A partir daí, você selecionará a lupa para escolher os estágios que utilizar para as oportunidades &quot;Perdidas Fechadas&quot;. No nosso caso, usaremos o nome padrão &quot;Perda fechada&quot;.
 
@@ -46,4 +52,4 @@ Embora este relatório possa depender dos estágios de oportunidade, ele revelar
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriais: Relatórios Adicionais do SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

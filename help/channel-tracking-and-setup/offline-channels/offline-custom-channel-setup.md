@@ -4,20 +4,23 @@ description: Configuração de Canal Personalizado Offline - [!DNL Marketo Measu
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-TQID: https://experienceleague.adobe.com/L-mkNzo9yTir-EzNiX-a9ylKKZoKAs0nIXdu39YnLT4
+TQID: 'https://experienceleague.adobe.com/L-mkNzo9yTir-EzNiX-a9ylKKZoKAs0nIXdu39YnLT4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: '900'
 ht-degree: 2%
-
 ---
-
 # Configuração de canal personalizado offline {#offline-custom-channel-setup}
 
 ## Introdução {#getting-started}
@@ -92,6 +95,6 @@ Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] carre
 >
 >* [[!DNL Marketo Measure] Tutoriais: Mapeando Canais Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutoriais: Sincronizando Campanhas Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutoriais: Sincronizando Campanhas Offline](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integração de Programas da Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

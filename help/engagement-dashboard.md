@@ -3,13 +3,17 @@ description: Descubra o painel Engajamento para rastrear pontos de contato com a
 title: Painel de engajamento
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 
 # Painel de engajamento {#engagement-dashboard}
 
@@ -37,7 +41,7 @@ Perguntas que o painel responde:
 ### Blocos de KPI {#kpi-tiles}
 
 * Pontos de contato: o número total de pontos de contato brutos gerados.
-   * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e MTD.
+  * Pontos de contato do comprador e Pontos de contato de atribuição do comprador são resultados de atribuição criados ao selecionar pontos de contato específicos para crédito. Nem todos os pontos de contato são selecionados como BT e MTD.
 * Pessoas tocadas: o número total de pessoas que têm quaisquer pontos de contato.
 * Pontos de contato por pessoa: número médio de pontos de contato por pessoa que foram tocados.
 
@@ -67,7 +71,7 @@ Perguntas que o gráfico responde:
 * Qual canal/subcanal/campanha gerou mais engajamento?
 * Como o número de pontos de contato se compara às pessoas tocadas em um canal/subcanal/campanha específico?
 
-![Como o número de pontos de contato se compara às pessoas tocadas em um &#x200B;](assets/engagement-dashboard-2.png)
+![Como o número de pontos de contato se compara às pessoas tocadas em um ](assets/engagement-dashboard-2.png)
 
 ## Painel de Filtro {#filter-pane}
 

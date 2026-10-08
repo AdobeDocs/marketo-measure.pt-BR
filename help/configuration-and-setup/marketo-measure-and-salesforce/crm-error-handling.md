@@ -3,18 +3,24 @@ description: Saiba como lidar com erros em exportações do CRM
 title: Tratamento de erros para exportações do CRM
 feature: Salesforce
 exl-id: 7452bff0-4bf1-474b-a705-446c29882230
-TQID: https://experienceleague.adobe.com/wDim-XKvs--5I-bXYod5pypn3NTz3hfotreiQ9MtT8k
+TQID: 'https://experienceleague.adobe.com/wDim-XKvs--5I-bXYod5pypn3NTz3hfotreiQ9MtT8k'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 8%
-
 ---
-
 # Tratamento de erros para exportações do CRM
 
 O recurso Pausar em Erros de Exportação permite controlar se os trabalhos de exportação do CRM devem ser pausados ao encontrar um erro de nível de registro.

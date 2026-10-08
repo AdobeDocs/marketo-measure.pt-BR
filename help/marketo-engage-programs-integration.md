@@ -3,13 +3,17 @@ description: Integração de Programas do [!DNL Marketo Engage] - [!DNL Marketo 
 title: Integração de programas do [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 2%
-
 ---
-
 # Integração de programas do [!DNL Marketo Engage] {#marketo-engage-programs-integration}
 
 Por meio da integração do [!DNL Marketo Measure] com os Programas do [!DNL Marketo Engage], nossos clientes podem começar a criar pontos de contato para o rastreamento de atribuição a partir das Associações ao Programa Marketo. Esse recurso permite que os profissionais de marketing iniciem o rastreamento de associações a programas de email ou de engajamento que, de outra forma, não seriam vistos pelo javascript [!DNL Marketo Measure] e devem ser medidos na jornada de atribuição.
@@ -32,9 +36,9 @@ Todos os níveis.
 
 1. Para começar a configurar regras em Programas do Marketo, navegue até **[!UICONTROL Minha Conta]** > **[!UICONTROL Configurações]** > **[!UICONTROL Programas]**. Clique no ícone **+** para começar a criar sua primeira regra.
 
-   ![1. Para começar a configurar regras em Programas do Marketo, navegue até &#x200B;](assets/marketo-engage-programs-01.png)
+   ![1. Para começar a configurar regras em Programas do Marketo, navegue até ](assets/marketo-engage-programs-01.png)
 
-   ![1. Para começar a configurar regras em Programas do Marketo, navegue até &#x200B;](assets/marketo-engage-programs-06.png)
+   ![1. Para começar a configurar regras em Programas do Marketo, navegue até ](assets/marketo-engage-programs-06.png)
 
 1. Você pode, opcionalmente, definir um nome para a regra se isso ajudar a rastreá-los. primeiro, selecione o campo para definir a regra na lista dos campos Program e Program Membership (Programa). Continue criando a regra selecionando o operador e o valor esperado a serem verificados.
 
@@ -42,7 +46,7 @@ Todos os níveis.
 
 1. Adicione outra instrução na mesma caixa para configurar um critério &quot;and&quot; na regra ou clique no ícone + fora da caixa para configurar uma instrução &quot;or&quot;.
 
-   ![1. Adicionar outra instrução na mesma caixa para configurar um &#x200B;](assets/bizible-discover-1.png)
+   ![1. Adicionar outra instrução na mesma caixa para configurar um ](assets/bizible-discover-1.png)
 
 1. Escolha qual campo de data ou data/hora deve ser usado para mapear para a Data do ponto de contato. Para ver a lista de valores disponíveis no Marketo, insira uma chave `{` e exibiremos os campos disponíveis.
 
@@ -88,7 +92,7 @@ Na lista de Canais de programa do Marketo, será possível mapear os valores par
 
 1. Primeiro, selecione o Canal que deve ser mapeado para o valor e, como opção, selecione o Subcanal. Quando terminar, clique em **[!UICONTROL Salvar]** na parte inferior.
 
-   ![1. Selecione primeiro o Canal que deve ser mapeado para o valor e depois &#x200B;](assets/marketo-engage-programs-08.png)
+   ![1. Selecione primeiro o Canal que deve ser mapeado para o valor e depois ](assets/marketo-engage-programs-08.png)
 
 ## Custos do programa {#program-costs}
 

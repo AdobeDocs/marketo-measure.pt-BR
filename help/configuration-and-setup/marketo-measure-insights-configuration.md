@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Measure] Configuração do Insights - [!DNL Marketo Measure]'
+description: Configuração do Insights do [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure] Configuração de Insights'
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 4%
-
 ---
-
 # [!DNL Marketo Measure] Configuração de Insights {#marketo-measure-insights-configuration}
 
 O Aplicativo de Tela do Insights do [!DNL Marketo Measure] deve ser adicionado ao Layout de Página de Cliente Potencial, mas requer configuração adicional na seção Aplicativos Conectados da sua Configuração do [!DNL Salesforce]. Siga estas instruções para garantir que o aplicativo Canvas tenha as permissões apropriadas.

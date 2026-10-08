@@ -4,16 +4,21 @@ description: Testando a Integração do Marketo Measure com uma Sandbox da Sales
 title: Teste da integração do Marketo Measure com uma sandbox da Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/Es3alliU-EbPfMFY6gOybcr12HGgKVHyu97r7ZfRPFA
+TQID: 'https://experienceleague.adobe.com/Es3alliU-EbPfMFY6gOybcr12HGgKVHyu97r7ZfRPFA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: '362'
 ht-degree: 9%
-
 ---
-
 # Teste da integração do Marketo Measure com uma sandbox da Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]

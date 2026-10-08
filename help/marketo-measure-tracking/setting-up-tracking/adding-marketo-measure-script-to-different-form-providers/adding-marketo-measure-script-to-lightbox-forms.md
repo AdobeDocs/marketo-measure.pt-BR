@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874519
-description: Adicionando  [!DNL Marketo Measure] Script ao Lightbox Forms - [!DNL Marketo Measure]
-title: Adição de [!DNL Marketo Measure] script para formulários do Lightbox
+description: Adicionando Script [!DNL Marketo Measure] à Lightbox Forms - [!DNL Marketo Measure]
+title: Adicionando Script [!DNL Marketo Measure] ao Lightbox Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA
+TQID: 'https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 189
-ht-degree: 2%
-
+source-wordcount: '191'
+ht-degree: 0%
 ---
-
 # Adicionando Script [!DNL Marketo Measure] ao Lightbox Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
 Saiba como adicionar corretamente o JavaScript [!DNL Marketo Measure] a um formulário em uma lightbox.

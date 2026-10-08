@@ -1,15 +1,22 @@
 ---
-description: Práticas recomendadas para  [!DNL Marketo Measure] orientação do pacote CRM para usuários do Marketo Measure
-title: Práticas recomendadas para [!DNL Marketo Measure] Pacote do CRM
+description: Práticas recomendadas para a orientação do Pacote CRM [!DNL Marketo Measure] para usuários do Marketo Measure
+title: Práticas recomendadas para o pacote de CRM [!DNL Marketo Measure]
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 8%
-
 ---
-
 
 # Práticas recomendadas para o pacote de CRM [!DNL Marketo Measure] {#best-practices-for-marketo-measure-crm-package}
 
@@ -32,9 +39,9 @@ Esses pacotes permitem que os usuários do [!DNL Marketo Measure] acessem facilm
 Ao implementar e gerenciar o Pacote [!DNL Marketo Measure] [!DNL Salesforce], lembre-se das seguintes práticas recomendadas.
 
 * Confirme se todos os membros da equipe necessários têm acesso às pastas de relatório [!DNL Marketo Measure]. Deve haver de 1 a 3 pastas [!DNL Marketo Measure] (explicadas abaixo). Para abrir o acesso, a pessoa que instalou os pacotes deve compartilhar as pastas de relatório com os usuários ou funções apropriados.
-   * **Relatórios do Buyer Touchpoint** - disponível para todos
-   * **[!DNL Marketo Measure]Relatórios de marketing baseados em conta** - os relatórios serão preenchidos somente para clientes de Nível 2 e superior
-   * **Painéis do Buyer Touchpoint** - disponível para todos, embora este pacote seja opcional.
+  * **Relatórios do Buyer Touchpoint** - disponível para todos
+  * **[!DNL Marketo Measure]Relatórios de marketing baseados em conta** - os relatórios serão preenchidos somente para clientes de Nível 2 e superior
+  * **Painéis do Buyer Touchpoint** - disponível para todos, embora este pacote seja opcional.
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 
@@ -52,7 +59,7 @@ Outros motivos para isso podem acionar uma revisão...
 >Quando você desativa a exportação de dados para o Salesforce, o Marketo Measure não exclui dados existentes. Para removê-lo, siga as etapas em [este artigo de ajuda do Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
-> [Atualizar Pacote Buyer Touchpoint](/help/configuration-and-setup/install-set-up.md)
-> [[!DNL Marketo Measure] Conjuntos de Permissões](/help/configuration-and-setup/marketo-measure-permission-sets.md)
-> [Compartilhando a Pasta de Relatórios e Painéis](https://help.salesforce.com/s/articleView?language=pt_BR&id=analytics_share_folder.htm&type=0)
+> [Atualizar Pacote do Buyer Touchpoint](/help/configuration-and-setup/install-set-up.md)
+> [[!DNL Marketo Measure] Conjuntos de permissões](/help/configuration-and-setup/marketo-measure-permission-sets.md)
+> [Pasta de relatórios e painéis de compartilhamento](https://help.salesforce.com/s/articleView?language=pt_BR&id=analytics_share_folder.htm&type=0)
 > [Conectar o Marketo Measure ao Salesforce](/help/configuration-and-setup/connect-marketo-measure-to-salesforce.md)

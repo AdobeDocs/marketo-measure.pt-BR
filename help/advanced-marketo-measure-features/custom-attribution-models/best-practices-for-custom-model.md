@@ -3,19 +3,23 @@ description: Práticas recomendadas para o modelo personalizado - [!DNL Marketo 
 title: Práticas recomendadas para o modelo personalizado
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I
+TQID: 'https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 2%
-
 ---
-
 # Práticas recomendadas para o modelo personalizado {#best-practices-for-custom-model}
 
 ## Visão geral {#overview}
@@ -41,23 +45,23 @@ A **Modelagem de atribuição personalizada** é definida assim que você seleci
 Se você estiver configurando seu Modelo personalizado pela primeira vez ou revisando o que foi estabelecido anteriormente, é importante ter em mente as seguintes práticas recomendadas.
 
 * Iniciar simples
-   * Identifique os estágios principais que deseja adicionar ao seu Modelo personalizado e que são cruciais para seus relatórios do [!DNL Marketo Measure]. Normalmente, esses são estágios em que você geralmente é medido ou em que você está tentando obter insight
-   * Você sempre pode adicionar ao seu modelo personalizado ao longo do tempo
+  * Identifique os estágios principais que deseja adicionar ao seu Modelo personalizado e que são cruciais para seus relatórios do [!DNL Marketo Measure]. Normalmente, esses são estágios em que você geralmente é medido ou em que você está tentando obter insight
+  * Você sempre pode adicionar ao seu modelo personalizado ao longo do tempo
 * Utilizar o modelo de aprendizado de máquina [!DNL Marketo Measure]
-   * Se você estiver com dificuldades para decidir a porcentagem de detalhamento de atribuição, o Modelo de aprendizado de máquina [!DNL Marketo Measure] pode ajudá-lo a tomar decisões conscientes ao definir seu Modelo de atribuição personalizado.
-   * Ao visualizar o modelo de aprendizado de máquina, as porcentagens de atribuição de cada estágio refletem o impacto potencial de suas iniciativas de marketing
-      * Uma porcentagem maior significa que o marketing pode influenciar diretamente o movimento da funnel nesse ponto
-      * Uma porcentagem de atribuição mais baixa significa que os estágios são menos importantes para a equipe monitorar
+  * Se você estiver com dificuldades para decidir a porcentagem de detalhamento de atribuição, o Modelo de aprendizado de máquina [!DNL Marketo Measure] pode ajudá-lo a tomar decisões conscientes ao definir seu Modelo de atribuição personalizado.
+  * Ao visualizar o modelo de aprendizado de máquina, as porcentagens de atribuição de cada estágio refletem o impacto potencial de suas iniciativas de marketing
+    * Uma porcentagem maior significa que o marketing pode influenciar diretamente o movimento da funnel nesse ponto
+    * Uma porcentagem de atribuição mais baixa significa que os estágios são menos importantes para a equipe monitorar
 * Você deve definir a parte superior dos estágios do funnel com base nos estágios de cliente potencial ou contato, não entre os dois
-   * Isso significa que você deve garantir que todas as pessoas passarão por esse estágio no objeto relativo
-      * Por exemplo: se você definir o estágio MQL a partir do objeto de cliente potencial, todas as pessoas deverão entrar em seu sistema como um cliente potencial e ser marcadas como um MQL em seu registro de cliente potencial para que [!DNL Marketo Measure] reflita com precisão qual contato estava relacionado à transição do cliente potencial para MQL. Se esse não for o caso, e algumas pessoas avançarem para Contato antes de se tornarem um MQL líder, o [!DNL Marketo Measure] não poderá contabilizar com precisão isso nos dados do Touchpoint e teremos que assumir que a pessoa já tem um MQL. [!DNL Marketo Measure] não pode levar em conta as saltos de preparo; portanto, vamos inferir que os estágios foram transmitidos, mesmo que não tenham sido.
+  * Isso significa que você deve garantir que todas as pessoas passarão por esse estágio no objeto relativo
+    * Por exemplo: se você definir o estágio MQL a partir do objeto de cliente potencial, todas as pessoas deverão entrar em seu sistema como um cliente potencial e ser marcadas como um MQL em seu registro de cliente potencial para que [!DNL Marketo Measure] reflita com precisão qual contato estava relacionado à transição do cliente potencial para MQL. Se esse não for o caso, e algumas pessoas avançarem para Contato antes de se tornarem um MQL líder, o [!DNL Marketo Measure] não poderá contabilizar com precisão isso nos dados do Touchpoint e teremos que assumir que a pessoa já tem um MQL. [!DNL Marketo Measure] não pode levar em conta as saltos de preparo; portanto, vamos inferir que os estágios foram transmitidos, mesmo que não tenham sido.
 * Certifique-se de que o rastreamento do histórico de campo esteja habilitado para todos os campos usados para definir estágios personalizados que você incorpora
 * Não usar campos de fórmula para definir um estágio personalizado
-   * Um campo booleano é uma recomendação de prática recomendada
+  * Um campo booleano é uma recomendação de prática recomendada
 * Não incorpore Estágios Personalizados em seu Modelo Personalizado que coincidam com uma [!DNL Marketo Measure] Milestone Touchpoint Position (FT, LC, OC, Won/Lost fechado)
-   * Se você fizer isso, essas posições sempre ocorrerão simultaneamente e poderão causar crédito de atribuição inflado a partes do seu funnel.
+  * Se você fizer isso, essas posições sempre ocorrerão simultaneamente e poderão causar crédito de atribuição inflado a partes do seu funnel.
 * Trabalhar com sua equipe de vendas Opp
-   * Trazer a equipe que trabalha mais perto com estágios e seu significado garante que você esteja usando os estágios corretos e que eles sejam definidos corretamente
+  * Trazer a equipe que trabalha mais perto com estágios e seu significado garante que você esteja usando os estágios corretos e que eles sejam definidos corretamente
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenance}
 

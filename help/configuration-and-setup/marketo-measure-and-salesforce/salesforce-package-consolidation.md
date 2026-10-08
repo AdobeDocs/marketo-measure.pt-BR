@@ -1,22 +1,30 @@
 ---
-description: '[!DNL Salesforce] Consolidação de Pacotes - [!DNL Marketo Measure]'
+description: '[!DNL Salesforce] Consolidação de pacotes - [!DNL Marketo Measure]'
 title: Consolidação de pacotes do [!DNL Salesforce]
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
+TQID: 'https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '446'
 ht-degree: 9%
-
 ---
-
 # Consolidação de pacotes do [!DNL Salesforce] {#salesforce-package-consolidation}
 
 Para aprimorar a experiência do usuário e simplificar o uso, os pacotes existentes estão sendo compilados em um único pacote abrangente.
@@ -43,16 +51,16 @@ A [Equipe de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target
 * Se você já tiver o pacote V2 instalado, deverá atualizá-lo para a nova versão consolidada.
 * Se você tiver relatórios ou painéis de controle de qualquer pacote de relatórios, é possível recriá-los facilmente sem qualquer modificação necessária, pois todos os campos existem no pacote consolidado.
 * Se você tiver relatórios usando campos no pacote V2_EXT, poderá recriá-los no pacote consolidado através das etapas abaixo:
-   * Todos os dados nos campos V2_EXT estão disponíveis nos campos de ponto de contato, portanto, você pode modificar seus relatórios para buscar dados dos campos de ponto de contato V2 correspondentes, adicionando um filtro na posição do ponto de contato.
-   * Exemplo de relatório que busca todos os leads com a FT de conteúdo do anúncio contendo o texto &quot;Outreach&quot;.
-      * Consulta V2_EXT:
-         * bizible2_ext_Ad_Content_FT_c contém Outreach
+  * Todos os dados nos campos V2_EXT estão disponíveis nos campos de ponto de contato, portanto, você pode modificar seus relatórios para buscar dados dos campos de ponto de contato V2 correspondentes, adicionando um filtro na posição do ponto de contato.
+  * Exemplo de relatório que busca todos os leads com a FT de conteúdo do anúncio contendo o texto &quot;Outreach&quot;.
+    * Consulta V2_EXT:
+      * bizible2_ext_Ad_Content_FT_c contém Outreach
 
 ![](assets/package-consolidation-1.png)
 
 * Query correspondente no pacote consolidado:
-   * bizible2_Touchpoint_Position_c contém FT E
-   * bizible2_Ad_Content_c contém Outreach
+  * bizible2_Touchpoint_Position_c contém FT E
+  * bizible2_Ad_Content_c contém Outreach
 
 ![](assets/salesforce-package-consolidation-2.png)
 

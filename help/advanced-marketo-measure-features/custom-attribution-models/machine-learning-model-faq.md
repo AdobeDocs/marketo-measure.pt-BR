@@ -4,18 +4,21 @@ description: Perguntas Frequentes sobre o Modelo de Aprendizado de Máquina - [!
 title: Perguntas frequentes de modelo de aprendizado de máquina
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/tzb0vmVP84uJI33z7Sg3VWQTbTBel5q3IUK7NJdQYoc
+TQID: 'https://experienceleague.adobe.com/tzb0vmVP84uJI33z7Sg3VWQTbTBel5q3IUK7NJdQYoc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 1%
-
 ---
-
 # Perguntas frequentes de modelo de aprendizado de máquina {#machine-learning-model-faq}
 
 O modelo de Aprendizado de Máquina do [!DNL Marketo Measure] usa seus dados de ponto de contato para calcular quanta ponderação de atribuição deve ser atribuída a cada estágio. Isso é determinado pela importância de cada estágio na condução de negócios para fechar.

@@ -3,14 +3,18 @@ description: Orientação de configuração de canal personalizada online para u
 title: Configuração de canal personalizado online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 89%
-
+ht-degree: 94%
 ---
-
 # Configuração de canal personalizado online {#online-custom-channel-setup}
 
 Para ter relatórios precisos, os canais de marketing devem ser configurados para refletir a estratégia de UTM da sua organização. Este guia orientará você pela melhor maneira de configurar suas regras de canal personalizadas.
@@ -26,13 +30,13 @@ O que deve ser lembrado:
 * Cada coleção ou intervalo de dados precisa de sua própria regra (linha na planilha) para especificar como os dados serão organizados. Seja o mais específico possível.
 * [!DNL Marketo Measure] A lógica prioriza os dados em ordem decrescente, começando pela linha superior da planilha e descendo. Ele lê cada intervalo, ou célula, linha por linha, procurando pelo primeiro ajuste. Os dados são classificados de acordo com os valores nesses intervalos. Mais informações sobre isso abaixo.
 * Não classifique a planilha em ordem alfabética, pois isso interferirá nas regras de lógica.
-* Depois que o arquivo for carregado, você não poderá alterar nenhuma das regras por sete dias. [!DNL Marketo Measure] O utiliza esse tempo para processar e atualizar os Pontos de contato.
+* Depois que o arquivo for carregado, não será possível alterar nenhuma das regras por sete dias. O [!DNL Marketo Measure] utiliza esse tempo para processar e atualizar os touchpoints.
 
 ## [!DNL Marketo Measure] Lógica e prioridades {#marketo-measure-logic-and-priorities}
 
 O primeiro passo é baixar a planilha de canal personalizada do aplicativo [!DNL Marketo Measure]. Navegue até **Configurações** na guia **Minha conta** e selecione **Online**. Você pode selecionar **Baixar modelo original** ou **Baixar as regras atuais**.
 
-![A primeira etapa é baixar a planilha do canal personalizado no &#x200B;](assets/online-channels-1.png)
+![A primeira etapa é baixar a planilha do canal personalizado no ](assets/online-channels-1.png)
 
 A planilha tem sete colunas:
 
@@ -46,7 +50,7 @@ A planilha tem sete colunas:
 * **Página de destino:** adicionar página de destino aqui
 * **Site de referência:** os URLs de sites que fazem referência ao tráfego para suas páginas ou lógica integrada do [!DNL Marketo Measure] (indicada por colchetes)
 
-A oitava coluna indica quais regras você não pode excluir da planilha com “Não remover”. A parte superior da planilha tem regras de canal padrão que [!DNL Marketo Measure] recomenda que você não altere ou remova, mesmo que não use esses canais. [!DNL Marketo Measure] O tem integrações profundas com essas plataformas para que sejam incluídas por padrão.
+A oitava coluna indica quais regras você não pode excluir da planilha com “Não remover”. A parte superior da planilha tem regras de canal padrão que o [!DNL Marketo Measure] recomenda que você não altere ou remova, mesmo que não use esses canais. O [!DNL Marketo Measure] tem integrações profundas com essas plataformas para que sejam incluídas por padrão.
 
 As linhas representam as regras e a ordem em que o [!DNL Marketo Measure] prioriza os dados. A primeira linha tem prioridade sobre a segunda linha, a segunda tem prioridade sobre a terceira linha e assim por diante. Ao determinar em qual canal e subcanal de marketing devem ser incluídos touchpoints, o [!DNL Marketo Measure] lê de cima para baixo, da esquerda para a direita, até encontrar uma linha que atenda aos critérios do touchpoint. (Se um touchpoint tiver um `utm_source=Facebook`, o touchpoint será inserido no canal Social.Facebook devido à regra 15 na captura de tela).
 

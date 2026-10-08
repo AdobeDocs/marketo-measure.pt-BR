@@ -3,19 +3,28 @@ description: Guia passo a passo para instalar e configurar o pacote do Marketo M
 title: Guia de instalação do [!DNL Microsoft Dynamics] CRM
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '984'
-ht-degree: 96%
-
+ht-degree: 98%
 ---
-
 # Guia de instalação do [!DNL Microsoft Dynamics] CRM {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
 >
->Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” em seu CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
+>Você pode ver instruções específicas para o “[!DNL Marketo Measure]” na documentação, mas ainda notar o termo “Bizible” no CRM. Estamos trabalhando na atualização e a reformulação da marca será refletida em seu CRM em breve.
 
 ## Versões compatíveis {#supported-versions}
 
@@ -71,8 +80,8 @@ Para entidades padrão do Dynamics, consulte o documento de esquema do [!DNL Mar
 
 1. Selecione o objeto (Buyer Attribution Touchpoints ou Buyer Touchpoints) a ser renderizado na subgrade, que depende do relacionamento do objeto. Opcionalmente, altere as colunas exibidas clicando em Editar. O layout padrão é definido pela solução gerenciada.
 
-   Subgrade do Buyer Attribution Touchpoint - Contas, Oportunidades e Contato
-Subgrade do Buyer Touchpoint - Clientes potenciais e contatos
+   Subgrade Buyer Attribution Touchpoint - Contas, oportunidades e contato
+   Subgrade Buyer Touchpoint - Leads e contatos
 
 1. Quando terminar de atualizar o formulário, publique e salve as alterações.
 

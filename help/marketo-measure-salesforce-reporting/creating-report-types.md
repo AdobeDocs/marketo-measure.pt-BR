@@ -1,16 +1,20 @@
 ---
-description: Criando orientação  [!DNL Marketo Measure] de Tipos de Relatório Personalizados para usuários do Marketo Measure
-title: Criação de tipos de relatórios [!DNL Marketo Measure] personalizados
+description: Criando orientação de Tipos de Relatório [!DNL Marketo Measure] Personalizados para usuários do Marketo Measure
+title: Criando Tipos de Relatório [!DNL Marketo Measure] Personalizados
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 7%
-
+source-wordcount: '440'
+ht-degree: 6%
 ---
-
 # Criando Tipos de Relatório [!DNL Marketo Measure] Personalizados {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
@@ -92,8 +96,8 @@ Saiba como criar tipos de relatório [!DNL Marketo Measure] [!DNL Salesforce] pe
 
 1. Depois que os relatórios forem criados, você será redirecionado para uma visão geral do tipo de relatório. Clique em **[!UICONTROL Editar layout]**.
 
-   ![1. Depois que os relatórios forem criados, você será redirecionado para um &#x200B;](assets/new-types-2.png)
+   ![1. Depois que os relatórios forem criados, você será redirecionado para um ](assets/new-types-2.png)
 
 1. Verifique se os campos personalizados que deseja adicionar ao relatório aparecem na seção Propriedades de layout do campo. Se houver outros campos que você queira adicionar, use a opção &quot;[!UICONTROL Adicionar campos relacionados via pesquisa]&quot;.
 
-   ![1. Verifique se os campos personalizados você deseja adicionar a &#x200B;](assets/new-types-3.png)
+   ![1. Verifique se os campos personalizados você deseja adicionar a ](assets/new-types-3.png)

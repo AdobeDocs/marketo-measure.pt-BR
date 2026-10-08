@@ -3,18 +3,23 @@ description: Práticas recomendadas para o mapeamento de preparo - [!DNL Marketo
 title: Práticas recomendadas para o mapeamento de estágio
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+TQID: 'https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 4%
-
 ---
-
 # Práticas recomendadas para o mapeamento de estágio {#best-practices-for-stage-mapping}
 
 ## Visão geral {#overview}
@@ -30,17 +35,17 @@ Um recurso adicional que é gerenciado nesta seção é o Funnel Stages, que ofe
 Se você estiver avaliando seu Mapeamento de preparo pela primeira vez ou apenas revisando seu pedido do funnel, é importante ter em mente as seguintes práticas recomendadas.
 
 * A ordem é tudo!
-   * Considerando que [!DNL Marketo Measure] obtém estágios ativos e inativos do seu CRM, confirme se qualquer estágio que possa ser usado em um cliente potencial/contato ou oportunidade está agrupado e ordenado adequadamente
+  * Considerando que [!DNL Marketo Measure] obtém estágios ativos e inativos do seu CRM, confirme se qualquer estágio que possa ser usado em um cliente potencial/contato ou oportunidade está agrupado e ordenado adequadamente
 * Ao definir um estágio personalizado, verifique se o rastreamento do histórico de campo está habilitado para todos os campos usados para definir o estágio
 * Não usar um campo de fórmula para definir um estágio personalizado
-   * Um campo booleano é a recomendação de prática recomendada
+  * Um campo booleano é a recomendação de prática recomendada
 * Observe que a seção de estágio de Cliente Potencial ou Contato é dividida em Perdido, Aberto e Convertido; valide se os estágios estão na seção de estágio apropriada
-   * Ter um estágio na seção de estágio incorreta pode resultar em dados [!DNL Marketo Measure] altamente incorretos
-   * Se você for cliente do Marketo Measure Ultimate e tiver definido seu Objeto de Painel Padrão como Contato, não use os dois campos abaixo específicos para Cliente Potencial ([saiba mais](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
+  * Ter um estágio na seção de estágio incorreta pode resultar em dados [!DNL Marketo Measure] altamente incorretos
+  * Se você for cliente do Marketo Measure Ultimate e tiver definido seu Objeto de Painel Padrão como Contato, não use os dois campos abaixo específicos para Cliente Potencial ([saiba mais](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
 * Observe que a seção Estágio da oportunidade é dividida em Perdido, Aberto e Ganho; valide se os estágios estão na seção apropriada do estágio
-   * Ter um estágio na seção de estágio incorreta pode resultar em dados de receita ou pipeline [!DNL Marketo Measure] altamente incorretos
+  * Ter um estágio na seção de estágio incorreta pode resultar em dados de receita ou pipeline [!DNL Marketo Measure] altamente incorretos
 * Evite usar nomes de estágio duplicados (nosso sistema os detectará e removerá automaticamente um).
 * Para definir uma regra que verifique valores NULL, deixe a caixa de texto valor em branco.
 

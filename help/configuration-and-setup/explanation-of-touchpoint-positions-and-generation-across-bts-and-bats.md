@@ -1,15 +1,19 @@
 ---
-description: Explicação das Posições e Geração de Pontos de Contato entre BTs e [!DNL BATs] orientação para usuários do Marketo Measure
-title: Explicação das posições de touchpoint e da geração entre BTs e [!DNL BATs]
+description: Explicação das Posições e Geração de Pontos de Contato entre BTs e orientação do [!DNL BATs] para usuários do Marketo Measure
+title: Explicação das Posições do Ponto de Contato e Geração entre BTs e [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
-
+source-wordcount: '796'
+ht-degree: 2%
 ---
-
 
 # Explicação das Posições do Ponto de Contato e Geração entre BTs e [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
@@ -93,7 +97,7 @@ A seguir, há uma descrição das posições da Buyer Touchpoint que descrevem o
  </tbody>
 </table>
 
-[!DNL Marketo Measure] tem esses dois conjuntos de dados de Touchpoint para criar uma compreensão clara da jornada e das Oportunidades de uma pessoa. Esses dois conjuntos de dados do Touchpoint fornecem um mapa claro do que aconteceu de cima para baixo do funnel funnel.
+[!DNL Marketo Measure] tem esses dois conjuntos de dados de Touchpoint para criar uma compreensão clara da jornada e das Oportunidades de uma pessoa. Esses dois conjuntos de dados do Touchpoint fornecem um mapa claro do que aconteceu de cima para baixo do funnel.
 
 O exemplo a seguir mostra o fluxo de dados de BTs (Pontos de contato do comprador) para BATs (Pontos de contato de atribuição do comprador). Neste exemplo, a Pessoa A e a Pessoa B fazem parte da mesma Oportunidade que tem uma Data de criação de 7/3/2020 e uma Data de fechamento de 6/5/2020.
 
@@ -112,10 +116,10 @@ O exemplo a seguir mostra o fluxo de dados de BTs (Pontos de contato do comprado
 **Oportunidades** Os dados do Buyer Attribution Touchpoint seriam lidos da seguinte maneira...
 
 * Primeiro contato (FT) - Pago Social.Facebook - 26/08/2019
-   * (da **Pessoa B** porque ela tem o verdadeiro _Primeiro contato_ para a Conta/Opp)
+  * (da **Pessoa B** porque ela tem o verdadeiro _Primeiro contato_ para a Conta/Opp)
 * Criação de leads (LC) - Pesquisa orgânica.Google - 20/11/2019
-   * (da **Pessoa A** porque ela tem a verdadeira _Criação de Clientes Potenciais_ para a Conta/Opp)
+  * (da **Pessoa A** porque ela tem a verdadeira _Criação de Clientes Potenciais_ para a Conta/Opp)
 * Criação de oportunidade (OC) - Webinário - 4/3/2020
-   * (o ponto de contato Pós-LC da **Pessoa A** seria o _ponto de contato OC_ porque foi a interação mais recente que temos com a Oportunidade que está sendo criada em 7/3/2020)
+  * (o ponto de contato Pós-LC da **Pessoa A** seria o _ponto de contato OC_ porque foi a interação mais recente que temos com a Oportunidade que está sendo criada em 7/3/2020)
 * Won fechado - Email - 1/5/2020
-   * (o ponto de contato Pós-LC da **Pessoa B** seria o _Ponto de contato Ganho Fechado_ porque foi a interação mais recente que temos com a Oportunidade sendo fechada em 6/5/2020)
+  * (o ponto de contato Pós-LC da **Pessoa B** seria o _Ponto de contato Ganho Fechado_ porque foi a interação mais recente que temos com a Oportunidade sendo fechada em 6/5/2020)

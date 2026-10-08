@@ -3,13 +3,17 @@ description: Orientação do parâmetro de rastreamento de email para usuários 
 title: Parâmetro de rastreamento por email
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 3%
-
 ---
-
 # Parâmetro de rastreamento por email {#email-tracking-parameter}
 
 O Parâmetro de Acompanhamento de Email [!DNL Marketo Measure] permite que os profissionais de marketing tratem cliques de email como envios de formulário, de modo que os pontos de contato sejam gerados para essas ações. Sem usar um parâmetro de rastreamento de email, os click-throughs de um email são tratados apenas como &quot;visitas da Web&quot; até que o usuário realmente se envolva com o site por meio de um envio de formulário ou um chat da Web.
@@ -32,7 +36,7 @@ A Marketo Measure aceita os seguintes valores: Endereço de email, ID de cliente
 
 | Automatização de marketing | Token/Tag/Macro | Exemplo | Material de suporte |
 | --- | --- | --- | --- |
-| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [Visão geral dos tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=pt-BR) |
+| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [Visão geral dos tokens](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
 | Pardot | %%email%% ou %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Referência das marcas da variável Pardot](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (inserido pelo Editor) | n/d | [Personalizar conteúdo do HubSpot](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | Act-On | (inserido pelo Message Composer) | n/d | [Personalizar conteúdo de email através de ação](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |

@@ -3,13 +3,17 @@ description: Diretrizes de manuseio do AJAX Form para usuários do Marketo Measu
 title: Manuseio de formulário AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
-
 ---
-
 # Manuseio de formulário AJAX {#ajax-form-handling}
 
 Para relatar manualmente conversões de clientes em [!DNL Marketo Measure], há uma API simples que você pode usar. Ambas as APIs do JavaScript estão disponíveis automaticamente no site, se você tiver um código de rastreamento. Não é necessário fazer nada especial para acessá-las.
@@ -18,7 +22,7 @@ Para relatar manualmente conversões de clientes em [!DNL Marketo Measure], há 
 
 Ao usar formulários contendo AJAX (ou outro mecanismo) para enviar datas de conversão do cliente para nossos servidores, o [!DNL Marketo Measure] pode não estar ciente da conversão do cliente por meio de qualquer um dos caminhos padrão que monitoramos. Nesse cenário, podemos usar uma API simples (fornecida abaixo).
 
-Se você manipula seus próprios envios de formulários, pode chamar explicitamente [!DNL Marketo Measure] da JavaScript. [!DNL Marketo Measure] O coleta todas as informações relevantes do formulário e as publica de forma assíncrona em nossos servidores.
+Se você manipula seus próprios envios de formulários, pode chamar explicitamente [!DNL Marketo Measure] da JavaScript. O [!DNL Marketo Measure] coleta todas as informações relevantes do formulário e as publica de forma assíncrona em nossos servidores.
 
 **Abaixo está uma amostra de código usando JQuery (supondo que a ID no formulário seja &quot;formId&quot;):**
 
@@ -57,7 +61,7 @@ eMail: 'user@gmail.com' // required
 });
 ```
 
-Neste código, o campo [!UICONTROL email] é obrigatório. [!DNL Marketo Measure] O publica esses dados de forma assíncrona em nossos servidores.
+Neste código, o campo [!UICONTROL email] é obrigatório. O [!DNL Marketo Measure] publica estes dados de forma assíncrona em nossos servidores.
 
 ## Cenário 3 - Relatar informações do usuário a partir da página de agradecimento {#scenario-report-user-information-from-the-thank-you-page}
 
@@ -70,4 +74,4 @@ Neste código, o campo [!UICONTROL email] é obrigatório. [!DNL Marketo Measure
 data-email="user@gmail.com">
 ```
 
-Não importa se o elemento oculto é um div, script ou qualquer outro tipo de tag. [!DNL Marketo Measure] procura a id=&quot;bizible.reportUser&quot; para ler as informações.
+Não importa se o elemento oculto é um div, script ou qualquer outro tipo de tag. [!DNL Marketo Measure] procura id=&quot;bizible.reportUser&quot; para ler as informações.

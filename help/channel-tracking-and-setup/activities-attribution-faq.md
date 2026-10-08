@@ -3,13 +3,17 @@ description: Orientação de perguntas frequentes de atribuição de atividades 
 title: Perguntas frequentes sobre atribuição de atividades
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '755'
 ht-degree: 3%
-
 ---
-
 # Perguntas frequentes sobre atribuição de atividades {#activities-attribution-faq}
 
 [!DNL Marketo Measure] As atividades importam todos os seus registros de Atividade e geram pontos de contato para eles, permitindo que essas Atividades recebam crédito de atribuição. O caso de uso mais comum é rastrear atividades da equipe de vendas, pois geralmente criam um registro de chamadas telefônicas ou emails enviados a clientes potenciais. Outros itens exclusivos que podem ser rastreados são as interações de conteúdo, como downloads de ativos ou visualizações de vídeo.
@@ -24,7 +28,7 @@ O objeto Activities atua como o guarda-chuva ou pai dos objetos Task e Event. As
 
 **Se eu tiver um Cliente Potencial ou Contato com a mesma Tarefa recorrente, verei Pontos de Contato do Comprador para todos eles?**
 
-Sim. Há uma relação 1:1 entre suas Atividades sincronizadas e Pontos de contato criados.
+Sim. Há uma relação 1:1 entre suas Atividades sincronizadas e os Pontos de contato criados.
 
 **Como saber quais registros resultam na criação de Pontos de Contato?**
 
@@ -68,6 +72,6 @@ As instruções sobre como configurar Atividades no aplicativo [!UICONTROL Marke
 
 **Em qual Canal estas Atividades se encontram?**
 
-Quando a regra de Atividade e seu Nome de campanha [!DNL Marketo Measure] correspondente forem criados, use as definições de Canais Online para colocar essas Campanhas no Canal de marketing correto. [!DNL Marketo Measure] O pode definir canais usando não apenas o meio e a origem, mas também o campaign.
+Quando a regra de Atividade e seu Nome de campanha [!DNL Marketo Measure] correspondente forem criados, use as definições de Canais Online para colocar essas Campanhas no Canal de marketing correto. [!DNL Marketo Measure] pode definir Canais usando não apenas o meio e a origem, mas também o Campaign.
 
 No exemplo acima, para atribuir a campanha &quot;Chamada de saída {Assigned To}&quot; ao canal BDR, insira uma linha no CSV Canais online para o canal BDR com uma definição de campanha de &quot;Chamada de saída&#42;&quot; - o asterisco denota um valor curinga, de modo que todas as campanhas que começam com &quot;Chamada de saída&quot; caibam no canal BDR, em vez de terem que criar uma linha separada para cada nome de campanha.

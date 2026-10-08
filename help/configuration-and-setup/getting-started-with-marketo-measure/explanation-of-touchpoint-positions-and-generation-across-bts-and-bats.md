@@ -1,20 +1,23 @@
 ---
 description: Explicação das Posições do Ponto de Contato e Geração entre BTs e BATs - [!DNL Marketo Measure]
-title: Explicação das posições de touchpoint e da geração entre BTs e [!DNL BATs]
+title: Explicação das Posições do Ponto de Contato e Geração entre BTs e [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
+TQID: 'https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 3%
-
+source-wordcount: '792'
+ht-degree: 2%
 ---
-
 # Explicação das Posições do Ponto de Contato e Geração entre BTs e [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Geração de Posições de Pontos de Contato e Fluxo através da Jornada de Compradores**
@@ -116,10 +119,10 @@ O exemplo a seguir mostra o fluxo de dados de BTs (Pontos de contato do comprado
 **Oportunidades** Os dados do Buyer Attribution Touchpoint seriam lidos da seguinte maneira...
 
 * Primeiro contato (FT) - Pago Social.Facebook - 26/08/2019
-   * (da **Pessoa B** porque ela tem o verdadeiro _Primeiro contato_ para a Conta/Opp)
+  * (da **Pessoa B** porque ela tem o verdadeiro _Primeiro contato_ para a Conta/Opp)
 * Criação de leads (LC) - Pesquisa orgânica.Google - 20/11/2019
-   * (da **Pessoa A** porque ela tem a verdadeira _Criação de Clientes Potenciais_ para a Conta/Opp)
+  * (da **Pessoa A** porque ela tem a verdadeira _Criação de Clientes Potenciais_ para a Conta/Opp)
 * Criação de oportunidade (OC) - Webinário - 4/3/2020
-   * (o ponto de contato Pós-LC da **Pessoa A** seria o _ponto de contato OC_ porque foi a interação mais recente que temos com a Oportunidade que está sendo criada em 7/3/2020)
+  * (o ponto de contato Pós-LC da **Pessoa A** seria o _ponto de contato OC_ porque foi a interação mais recente que temos com a Oportunidade que está sendo criada em 7/3/2020)
 * Won fechado - Email - 1/5/2020
-   * (o ponto de contato Pós-LC da **Pessoa B** seria o _Ponto de contato Ganho Fechado_ porque foi a interação mais recente que temos com a Oportunidade sendo fechada em 6/5/2020)
+  * (o ponto de contato Pós-LC da **Pessoa B** seria o _Ponto de contato Ganho Fechado_ porque foi a interação mais recente que temos com a Oportunidade sendo fechada em 6/5/2020)

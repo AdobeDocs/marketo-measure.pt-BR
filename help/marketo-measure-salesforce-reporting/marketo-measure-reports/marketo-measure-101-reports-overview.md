@@ -1,20 +1,23 @@
 ---
-description: '[!DNL Marketo Measure] 101 Visão Geral de Relatórios - [!DNL Marketo Measure]'
+description: Visão Geral dos Relatórios do [!DNL Marketo Measure] 101 - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure] Visão geral de relatórios 101'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-TQID: https://experienceleague.adobe.com/13R7Z5YTxgq5QdoT4O90MHzgva5e-cXf50V9jH75-TE
+TQID: 'https://experienceleague.adobe.com/13R7Z5YTxgq5QdoT4O90MHzgva5e-cXf50V9jH75-TE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 930
+source-wordcount: '935'
 ht-degree: 5%
-
 ---
-
 # [!DNL Marketo Measure] Visão geral de relatórios 101 {#marketo-measure-101-reports-overview}
 
 >[!NOTE]

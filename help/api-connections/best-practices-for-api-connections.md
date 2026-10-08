@@ -3,13 +3,19 @@ description: Práticas recomendadas para orientação de Conexões de API para u
 title: Práticas recomendadas para conexões de API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 96%
-
 ---
-
 # Práticas recomendadas para conexões de API {#best-practices-for-api-connections}
 
 ## Visão geral {#overview}

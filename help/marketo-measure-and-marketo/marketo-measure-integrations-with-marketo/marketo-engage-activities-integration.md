@@ -1,23 +1,26 @@
 ---
 unique-page-id: 42762749
-description: Integração de [!DNL Marketo Engage] Atividades - [!DNL Marketo Measure]
+description: Integração de [!DNL Marketo Engage] atividades - [!DNL Marketo Measure]
 title: Integração de atividades do [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-TQID: https://experienceleague.adobe.com/X0GAwexe-IPzGn-ITUglGHhbiwVWtTy1uHEnfDNpQCI
+TQID: 'https://experienceleague.adobe.com/X0GAwexe-IPzGn-ITUglGHhbiwVWtTy1uHEnfDNpQCI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1662
+source-wordcount: '1662'
 ht-degree: 1%
-
 ---
-
 # Integração de atividades do [!DNL Marketo Engage] {#marketo-engage-activities-integration}
 
 Como parte da Integração geral do [!DNL Marketo Measure] e do [!DNL Marketo Engage], esse esforço de obter atividades do Marketo desempenha um papel enorme. Por meio das Atividades do Marketo, o sistema rastreia eventos como `Click Email`, `Change Score` ou `Change Status in Progression` - esses tipos de atividades podem ser analisados e definidos para selecionar um subconjunto qualificado para pontos de contato. Depois que os pontos de contato são criados nessas atividades, eles são rastreados na jornada de envolvimento e medidos junto com seus outros canais de marketing, como pesquisa paga ou marketing de parceiros.

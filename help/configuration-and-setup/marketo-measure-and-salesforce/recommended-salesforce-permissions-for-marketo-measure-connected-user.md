@@ -1,23 +1,31 @@
 ---
 unique-page-id: 18874696
-description: Recomendado [!DNL Salesforce] Permissões para [!DNL Marketo Measure] Usuário Conectado - [!DNL Marketo Measure]
-title: Permissões [!DNL Salesforce] recomendadas para [!DNL Marketo Measure] usuário conectado
+description: '[!DNL Salesforce] Permissões Recomendadas para [!DNL Marketo Measure] Usuário Conectado - [!DNL Marketo Measure]'
+title: '[!DNL Salesforce] Permissões recomendadas para [!DNL Marketo Measure] usuário conectado'
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g
+TQID: 'https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 27%
-
+source-wordcount: '445'
+ht-degree: 26%
 ---
-
 # [!DNL Salesforce] Permissões recomendadas para [!DNL Marketo Measure] usuário conectado {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
 O [!DNL Marketo Measure] envia e recebe dados por meio de um usuário conectado do [!DNL Salesforce] no aplicativo [!DNL Marketo Measure].

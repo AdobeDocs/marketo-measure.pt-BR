@@ -3,13 +3,19 @@ description: Orientação do relatório de clientes potenciais com pontos de con
 title: Cliente Potencial com Relatório de Pontos de Contato do Comprador
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 8%
-
 ---
-
 # Cliente Potencial com Relatório de Pontos de Contato do Comprador {#leads-with-buyer-touchpoints-report}
 
 >[!NOTE]
@@ -32,6 +38,6 @@ Pronto para uso, você tem muitos recursos de relatórios na ponta dos dedos qua
 
 1. Para as relações de objeto, selecione o objeto **[!DNL Marketo Measure]Pessoas** como o objeto secundário. Selecione o relacionamento A para B como, &quot;Cada registro &#39;A&#39; deve ter pelo menos um registro &#39;B&#39; relacionado.&quot; Lá, você relacionará o objeto &quot;Buyer Touchpoint&quot; e selecionará o mesmo relacionamento entre os objetos B e C.
 
-   ![1. Para as relações de objeto, selecione o objeto Pessoas da Marketo Measure &#x200B;](assets/bizible-guide-2.png)
+   ![1. Para as relações de objeto, selecione o objeto Pessoas da Marketo Measure ](assets/bizible-guide-2.png)
 
 1. Salve e comece a criar alguns relatórios!

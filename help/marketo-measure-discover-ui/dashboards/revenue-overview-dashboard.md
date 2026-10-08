@@ -3,19 +3,23 @@ description: Painel de Visão Geral da Receita - [!DNL Marketo Measure] - Produt
 title: Painel de visão geral da receita
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-TQID: https://experienceleague.adobe.com/y4bda-nVLkQUqIvv2LQ9e8N4EsaAAT-eoEr7jjHohy0
+TQID: 'https://experienceleague.adobe.com/y4bda-nVLkQUqIvv2LQ9e8N4EsaAAT-eoEr7jjHohy0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: '287'
 ht-degree: 3%
-
 ---
-
 # Painel de visão geral da receita {#revenue-overview-dashboard}
 
 O painel Visão geral da receita fornece insights sobre a receita total derivada do seu CRM, esclarecendo a função das estratégias de marketing. Ele oferece uma visão geral de como o marketing influencia sua receita geral e contribui para o encerramento bem-sucedido das ofertas.

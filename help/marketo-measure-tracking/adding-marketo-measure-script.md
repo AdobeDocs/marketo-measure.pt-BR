@@ -1,16 +1,20 @@
 ---
-description: Adicionando  [!DNL Marketo Measure] orientação de script para usuários do Marketo Measure
-title: Adição do  [!DNL Marketo Measure]  Script
+description: Adicionando orientação de script [!DNL Marketo Measure] para usuários do Marketo Measure
+title: Adição do [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1309'
 ht-degree: 52%
-
 ---
-
 # Adição do [!DNL Marketo Measure] Script {#adding-marketo-measure-script}
 
 O JavaScript do [!DNL Marketo Measure] que você gostaria de acompanhar pelo [!DNL Marketo Measure] deve ser adicionado a todas as propriedades da web assim que possível. Depois que o JavaScript for implantado, o [!DNL Marketo Measure] começará a coletar seus dados digitais. Este artigo descreve os métodos de implantação do JavaScript [!DNL Marketo Measure] e considerações adicionais.
@@ -66,7 +70,7 @@ Converse com a sua equipe da web para informá-los de que o JavaScript do [!DNL 
 
 Se um aviso [!DNL Web Application Firewall (WAF)] for acionado durante a instalação do JavaScript, os usuários poderão desabilitar essa regra do WAF ou incluir na lista de permissões os cookies, como no exemplo abaixo:
 
-![Se um aviso do WAF (Firewall de Aplicativo Web) for disparado durante o &#x200B;](assets/adding-script-1.png)
+![Se um aviso do WAF (Firewall de Aplicativo Web) for disparado durante o ](assets/adding-script-1.png)
 
 ## Formulários que precisam de uma atenção maior {#forms-to-pay-extra-attention-to}
 

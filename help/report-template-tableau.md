@@ -1,15 +1,19 @@
 ---
-description: Modelo de Relatório [!DNL Marketo Measure] - Tableau - [!DNL Marketo Measure]
+description: '[!DNL Marketo Measure] Modelo de relatório - Tableau - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Modelo de relatório - Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2485'
-ht-degree: 89%
-
+ht-degree: 91%
 ---
-
 # [!DNL Marketo Measure] Modelo de relatório - Tableau {#marketo-measure-report-template-tableau}
 
 ## Introdução {#getting-started}
@@ -84,7 +88,7 @@ Renomeamos as tabelas e colunas para facilitar o uso e padronizar convenções d
 
 Para adicionar um recurso de conversão de moeda aos cálculos no modelo, adicionamos uma taxa de conversão corporativa e uma coluna de taxa de conversão de destino às tabelas de Oportunidade e Custo. O valor nessas colunas é adicionado no nível da linha e é avaliado associando-se à tabela Taxa de conversão na data e no ID da moeda. Como o Tableau não permite que as tabelas de fatos compartilhem mais de uma tabela de dimensão, as taxas de conversão foram adicionadas diretamente às tabelas que as utilizam. Para obter mais detalhes sobre como a conversão de moeda funciona neste modelo, consulte a seção [Conversão de moeda](#currency-conversion) nesta documentação.
 
-![Para adicionar recursos de conversão de moeda aos cálculos no modelo, &#x200B;](assets/marketo-tableau-4.png)
+![Para adicionar recursos de conversão de moeda aos cálculos no modelo, ](assets/marketo-tableau-4.png)
 
 Há alguns lugares onde duas tabelas do [!DNL Snowflake] foram combinadas com uma união para criar uma tabela no modelo de dados do [!DNL Tableau]. Nesses casos, uma coluna “Tipo” foi adicionada para indicar de qual tabela do [!DNL Snowflake] ela vem e designa qual entidade a linha representa. Para obter mais detalhes sobre as tabelas que foram combinadas, consulte a seção Relação e fluxo de dados nesta documentação.
 
@@ -92,7 +96,7 @@ Há alguns lugares onde duas tabelas do [!DNL Snowflake] foram combinadas com um
 
 ### Nomes dos segmentos {#segment-names}
 
-Como os nomes de segmento são personalizáveis, eles têm nomes de coluna genéricos no data warehouse do Snowflake. [!DNL BIZ_SEGMENT_NAMES] é uma tabela de mapeamento que lista o nome de segmento genérico com o nome de segmento personalizado para o qual está mapeado, conforme definido na seção de segmentos na interface do usuário do [!DNL Marketo Measure]. Se você usa nomes de segmento personalizados e deseja atualizar seu modelo do [!DNL Tableau] para incorporar estes, use esta tabela e renomeie manualmente as colunas dentro do modelo do Tableau. As colunas de segmento estão na tabela Pontos de contato de cliente potencial e de atribuição, e só precisarão ser renomeadas uma vez.
+Como os nomes de segmentos são personalizáveis, eles têm nomes de coluna genéricos no data warehouse do Snowflake. [!DNL BIZ_SEGMENT_NAMES] é uma tabela de mapeamento que lista o nome de segmento genérico com o nome de segmento personalizado para o qual está mapeado, conforme definido na seção do segmento na interface do [!DNL Marketo Measure]. Se você usa nomes de segmento personalizados e deseja atualizar seu modelo do [!DNL Tableau] para incorporar estes, use esta tabela e renomeie manualmente as colunas dentro do modelo do Tableau. As colunas de segmento estão na tabela Pontos de contato de cliente potencial e de atribuição, e só precisarão ser renomeadas uma vez.
 
 A coluna [!UICONTROL CATEGORIA] lista o número da categoria e a coluna SEGMENT_NAME tem o nome do segmento personalizado para o qual ela é mapeada.
 
@@ -104,7 +108,7 @@ Os nomes podem ser atualizados de duas maneiras. A primeira opção é atualizar
 
 A outra opção é renomear as colunas diretamente na tabela do [!DNL Tableau].
 
-![A outra opção é renomear as colunas diretamente em &#x200B;](assets/marketo-tableau-9.png)
+![A outra opção é renomear as colunas diretamente em ](assets/marketo-tableau-9.png)
 
 ## Modelo de dados {#data-model}
 

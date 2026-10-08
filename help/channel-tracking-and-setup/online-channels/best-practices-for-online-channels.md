@@ -1,23 +1,27 @@
 ---
-description: Práticas recomendadas para canais online -  [!DNL Marketo Measure]
+description: Práticas recomendadas para canais online - [!DNL Marketo Measure]
 title: Práticas recomendadas para Canais online
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-TQID: https://experienceleague.adobe.com/USJRMuxX8gBPFwCYWb5ujG-158EWyVpwwy47studXK0
+TQID: 'https://experienceleague.adobe.com/USJRMuxX8gBPFwCYWb5ujG-158EWyVpwwy47studXK0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 100%
-
+source-wordcount: '613'
+ht-degree: 99%
 ---
-
 # Práticas recomendadas para Canais online {#best-practices-for-online-channels}
 
 ## Visão geral {#overview}
@@ -37,16 +41,16 @@ Reserve algum tempo para pensar sobre a organização de suas campanhas de marke
 O que deve ser lembrado:
 
 * Todos os canais e subcanais digitais precisam ser representados com pelo menos uma regra
-   * Se o canal não leva pessoas ao seu site, ele não é um Canal online
+  * Se o canal não leva pessoas ao seu site, ele não é um Canal online
 * Não há problema em ter várias regras para um canal/subcanal
-   * Várias regras podem ser consideradas como “lançar uma rede mais ampla” para garantir que cada ponto de contato seja mapeado corretamente. Muitas vezes, os parâmetros podem ser adicionados incorretamente ou estar completamente ausentes, portanto, ter várias regras para capturar um canal/subcanal é uma boa ideia para garantir a precisão do mapeamento.
+  * Várias regras podem ser consideradas como “lançar uma rede mais ampla” para garantir que cada ponto de contato seja mapeado corretamente. Muitas vezes, os parâmetros podem ser adicionados incorretamente ou estar completamente ausentes, portanto, ter várias regras para capturar um canal/subcanal é uma boa ideia para garantir a precisão do mapeamento.
 * A lógica do [!DNL Marketo Measure] prioriza o mapeamento de pontos de contato em ordem decrescente, começando pela linha superior da planilha e descendo
-   * O [!DNL Marketo Measure] lê cada regra (linha) procurando pela primeira adequada que seja verdadeira. O ponto de contato é então mapeado para esse canal/subcanal
-   * Não classifique a planilha em ordem alfabética, pois isso interferirá nas regras de lógica.
+  * O [!DNL Marketo Measure] lê cada regra (linha) procurando pela primeira adequada que seja verdadeira. O ponto de contato é então mapeado para esse canal/subcanal
+  * Não classifique a planilha em ordem alfabética, pois isso interferirá nas regras de lógica.
 * Mantenha as regras entre colchetes como estão, sem editá-las ou adicionar novas regras (exemplo: [Pesquisa paga do AdWords] ou [Facebook pago] )
-   * Estas são regras prontas para uso do [!DNL Marketo Measure] que têm uma lógica integrada e estão vinculadas às integrações do [!DNL Marketo Measure]. Dê prioridade máxima a essas regras na seção do canal/subcanal para garantir que as integrações do [!DNL Marketo Measure] funcionem como planejado.
+  * Estas são regras prontas para uso do [!DNL Marketo Measure] que têm uma lógica integrada e estão vinculadas às integrações do [!DNL Marketo Measure]. Dê prioridade máxima a essas regras na seção do canal/subcanal para garantir que as integrações do [!DNL Marketo Measure] funcionem como planejado.
 * Após o arquivo ser enviado, nenhuma regra poderá ser alterada por sete dias
-   * O [!DNL Marketo Measure] utiliza esse tempo para processar e atualizar os pontos de contato, portanto, verifique com atenção as regras antes de fazer o upload.
+  * O [!DNL Marketo Measure] utiliza esse tempo para processar e atualizar os pontos de contato, portanto, verifique com atenção as regras antes de fazer o upload.
 
 ## Prática recomendada para manutenção {#best-practice-for-maintenace}
 

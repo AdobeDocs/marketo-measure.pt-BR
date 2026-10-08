@@ -3,17 +3,21 @@ description: Práticas recomendadas para configurar a orientação de Parâmetro
 title: Práticas recomendadas para configurar parâmetros do UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 71%
-
+ht-degree: 80%
 ---
-
 # Práticas recomendadas para configurar parâmetros do UTM {#best-practices-for-setting-up-utm-parameters}
 
-Parâmetros UTM são uma ótima maneira de cortar e dividir seus dados de marketing. [!DNL Marketo Measure] O usa e captura todos os parâmetros UTM para preencher campos no Salesforce e no aplicativo [!DNL Marketo Measure]. Com essas informações, é possível obter uma compreensão detalhada de onde estão vindo seus leads, oportunidades e ofertas fechadas/ganhas.
+Parâmetros do UTM são uma ótima maneira de dividir seus dados de marketing. O [!DNL Marketo Measure] usa e captura todos os parâmetros do UTM para preencher campos no Salesforce e no aplicativo do [!DNL Marketo Measure]. Com essas informações, é possível obter uma compreensão detalhada de onde estão vindo seus leads, oportunidades e ofertas fechadas/ganhas.
 
 Você pode usar o [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=pt-BR){target="_blank"} para configurar os parâmetros de UTM e adicioná-los aos links nos seus esforços de marketing. Use esta [Planilha do Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} se quiser uma maneira mais fácil de rastrear todos os links UTM.
 
@@ -29,7 +33,7 @@ Não use esse campo para chamar o subcanal.
 
 Por exemplo, Facebook, Twitter, Linkedin, Drip_email, Email_blast, boletim informativo.
 
-Mantenha a simplicidade. Não use esse parâmetro para indicar o tipo de anúncio, como redirecionamento ou patrocinado. Não adicione um utm_source = homepage, webdirect, site. [!DNL Marketo Measure] O preenche automaticamente essas informações para você.
+Mantenha a simplicidade. Não use esse parâmetro para indicar o tipo de anúncio, como redirecionamento ou patrocinado. Não adicione um utm_source = homepage, webdirect, site. O [!DNL Marketo Measure] preencherá automaticamente essas informações para você.
 
 **utm_campaign**: este campo corresponde para o Nome da campanha publicitária. Use utm_campaign para indicar o título da campanha, como ela existe na plataforma de publicidade, ou como é mencionada internamente.
 

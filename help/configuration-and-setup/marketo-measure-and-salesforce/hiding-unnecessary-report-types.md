@@ -4,16 +4,21 @@ description: Ocultando Tipos de Relatório Desnecessários - [!DNL Marketo Measu
 title: Ocultar tipos de relatório desnecessários
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII
+TQID: 'https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: '152'
 ht-degree: 5%
-
 ---
-
 # Ocultar tipos de relatório desnecessários {#hiding-unnecessary-report-types}
 
 Após concluir a instalação e começar a usar relatórios, nem todos os relatórios do pacote [!DNL Marketo Measure] serão usados pela organização. Portanto, é útil ocultar os tipos de relatório que você não está usando para eliminar qualquer confusão e permitir uma aparência mais limpa. Você pode ocultar os relatórios desejados, mas os relatórios identificados na imagem abaixo geralmente ficam ocultos.

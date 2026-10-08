@@ -3,19 +3,23 @@ description: Acesso à Data Warehouse - Conta da Reader - Documentação do prod
 title: Acesso ao Data Warehouse - Conta do Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM
+TQID: 'https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # Acesso ao Data Warehouse - Conta do Reader {#data-warehouse-access-reader-account}
 
 ## Link de acesso do Snowflake {#snowflake-access-link}
@@ -72,14 +76,14 @@ Para acessar o data warehouse da Snowflake, navegue até o URL específico da su
 >Cada ferramenta tem requisitos de conexão diferentes. Recomenda-se consultar a documentação da ferramenta específica que você está tentando conectar.
 
 * **URI** (sempre obrigatório)
-   * Esse é o nome de domínio da conta do Snowflake. Ele está contido em uma parte do link de logon do Snowflake.
+  * Esse é o nome de domínio da conta do Snowflake. Ele está contido em uma parte do link de logon do Snowflake.
 * **Nome de usuário** (sempre necessário)
-   * O nome de usuário está listado na página de informações do Data Warehouse em [!DNL Marketo Measure].
+  * O nome de usuário está listado na página de informações do Data Warehouse em [!DNL Marketo Measure].
 * **Senha** (sempre obrigatório)
-   * Essa é a senha definida na primeira vez que você faz logon na sua conta da Snowflake. Para redefinir a senha, consulte as etapas descritas acima.
+  * Essa é a senha definida na primeira vez que você faz logon na sua conta da Snowflake. Para redefinir a senha, consulte as etapas descritas acima.
 * **Nome do Banco de Dados** (nem sempre necessário)
-   * O banco de dados é o que armazena os dados no Snowflake. É o recurso de armazenamento. O nome do banco de dados está listado na página de informações do Data Warehouse em [!DNL Marketo Measure].
+  * O banco de dados é o que armazena os dados no Snowflake. É o recurso de armazenamento. O nome do banco de dados está listado na página de informações do Data Warehouse em [!DNL Marketo Measure].
 * **Nome do Depósito** (nem sempre necessário)
-   * O warehouse é o que executa consultas no Snowflake. É o recurso calculado. O nome do warehouse está listado na página de informações do Data Warehouse em [!DNL Marketo Measure].
+  * O warehouse é o que executa consultas no Snowflake. É o recurso calculado. O nome do warehouse está listado na página de informações do Data Warehouse em [!DNL Marketo Measure].
 
   ![](assets/data-warehouse-access-reader-account-9.png)

@@ -1,15 +1,19 @@
 ---
-description: Adicionando o  [!DNL Marketo Measure] JavaScript [!DNL Pardot] orientação para usuários do Marketo Measure
-title: Adicionando [!DNL Marketo Measure] JavaScript a [!DNL Pardot]
+description: Adicionando o JavaScript [!DNL Marketo Measure] às orientações de [!DNL Pardot] para usuários do Marketo Measure
+title: Adicionando o JavaScript [!DNL Marketo Measure] a [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '247'
 ht-degree: 1%
-
 ---
-
 # Adicionando o JavaScript [!DNL Marketo Measure] a [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
 [!DNL Pardot] formulários exigem manipulação adicional no modelo de formulário além de colocar o script no site para [!DNL Marketo Measure] reconhecer os envios de formulários. O processo é simples; ele só requer a colocação do script de rastreamento [!DNL Marketo Measure] no modelo de formulário [!DNL Pardot].
@@ -28,7 +32,7 @@ Depois de fazer logon na conta do [!DNL Pardot], siga as etapas abaixo.
 
 1. Determine o Modelo de layout apropriado e clique em **[!UICONTROL Editar]** à direita.
 
-   ![1. Determine o Modelo de layout apropriado e clique em Editar para o &#x200B;](assets/adding-pages-1.png)
+   ![1. Determine o Modelo de layout apropriado e clique em Editar para o ](assets/adding-pages-1.png)
 
 1. Copie e cole o código JavaScript [!DNL Marketo Measure] logo antes da marca de fechamento de cabeçalho na página do HTML.
 

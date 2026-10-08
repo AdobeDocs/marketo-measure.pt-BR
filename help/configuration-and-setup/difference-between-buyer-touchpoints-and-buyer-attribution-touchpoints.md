@@ -3,13 +3,17 @@ description: Diferença entre Pontos de contato do comprador e orientação de P
 title: Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 92%
-
 ---
-
 # Diferença entre Buyer Touchpoints e Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
 Saiba o que define um Buyer Touchpoint (BT) e um Buyer Attribution Touchpoint (BAT), as diferenças entre os dois e respondem às perguntas mais frequentes.

@@ -1,24 +1,31 @@
 ---
-description: Notas da versão atual -  [!DNL Marketo Measure]
+description: Notas de versão atuais – [!DNL Marketo Measure]
 title: Notas da versão atual
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-TQID: https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y
+TQID: 'https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: ffecc0ee-70f2-5687-bca0-deee982ffbfa
+    internal-label: Release Notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: '1464'
 ht-degree: 91%
-
 ---
-
 # Notas de versão: 2024 {#release-notes-2024}
 
 Abaixo, você encontrará todos os recursos novos e atualizados das versões de 2024.

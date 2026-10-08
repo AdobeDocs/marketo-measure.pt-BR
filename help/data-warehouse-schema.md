@@ -3,13 +3,17 @@ description: Referência do esquema do Data Warehouse da Marketo Measure detalha
 title: Esquema de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '21802'
 ht-degree: 99%
-
 ---
-
 # Esquema de Data Warehouse {#data-warehouse-schema}
 
 O Data Warehouse permite rastrear o quanto você desejar, relatar os dados de atribuição onde quiser e conectá-los a outros conjuntos de dados.
@@ -794,7 +798,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a Conta de anúncio ainda está ativa ou não no sistema de origem.</p>
@@ -808,7 +812,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a Conta de anúncio foi ou não excluída no sistema de origem.</p>
@@ -854,7 +858,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o anunciante precisa ou não ser atualizado para marcação do [!DNL Marketo Measure].</p>
@@ -947,7 +951,7 @@ Contas de anúncio importadas de qualquer conta de anúncio conectada.
         <p>A quantidade de gastos importada nos últimos 30 dias, aplicável somente ao AdWords.</p>
       </td>
       <td>
-        <p>17260.000000000000000000</p>
+        <p>17260,000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1154,7 +1158,7 @@ Campanhas importadas de contas de anúncios conectadas, sistemas de origem, utm 
         <p>Esperado que seja nulo, pois não há um Grupo de anúncios acima da Campanha em qualquer hierarquia de anúncios.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -1192,7 +1196,7 @@ Campanhas importadas de contas de anúncios conectadas, sistemas de origem, utm 
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a Campanha ainda está ativa ou não no sistema de origem.</p>
@@ -1206,7 +1210,7 @@ Campanhas importadas de contas de anúncios conectadas, sistemas de origem, utm 
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a Campanha foi excluída ou não no sistema de origem.</p>
@@ -1254,7 +1258,7 @@ Campanhas importadas de contas de anúncios conectadas, sistemas de origem, utm 
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a campanha precisa ou não ser atualizada para marcação do [!DNL Marketo Measure].</p>
@@ -1307,7 +1311,7 @@ Campanhas importadas de contas de anúncios conectadas, sistemas de origem, utm 
         <p>O orçamento diário definido na Plataforma de publicidade da campanha.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1440,7 +1444,7 @@ Formulários de anúncio importados de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Status excluído do sistema de origem. Definido como excluído se o status for Rascunho, Arquivado ou Cancelado.</p>
@@ -1653,7 +1657,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>Espera-se que seja nulo, pois não há um Grupo de anúncios na hierarquia de anúncios de clique duplo.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -1665,7 +1669,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>Espera-se que seja nulo, pois não há um Grupo de anúncios na hierarquia de anúncios de clique duplo.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -1677,7 +1681,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>Esperado que seja nulo, pois é o registro do Grupo de publicidade na hierarquia.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -1689,7 +1693,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>Esperado que seja nulo, pois é o registro do Grupo de publicidade na hierarquia.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -1721,7 +1725,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a Conta de anúncio ainda está ativa ou não no sistema de origem.</p>
@@ -1735,7 +1739,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a Conta de anúncio foi ou não excluída no sistema de origem.</p>
@@ -1783,7 +1787,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o anunciante precisa ou não ser atualizado para marcação do [!DNL Marketo Measure].</p>
@@ -2734,7 +2738,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_FIRST_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o primeiro contato da jornada de oportunidade.</p>
@@ -2748,7 +2752,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_LEAD_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o principal contato de criação da jornada de oportunidade.</p>
@@ -2762,7 +2766,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_OPP_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o toque de criação de oportunidade da jornada de oportunidade.</p>
@@ -2776,7 +2780,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_CLOSED_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o toque de encerramento da jornada de oportunidade.</p>
@@ -2798,7 +2802,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_FORM_SUBMISSION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint tinha ou não um formulário preenchido durante a sessão.</p>
@@ -2812,7 +2816,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_IMPRESSION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o primeiro toque de impressão da jornada de oportunidade</p>
@@ -2832,7 +2836,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque é um primeiro contato (Consulte Is_First_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2846,7 +2850,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque é um toque de criação de lead (Consulte Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2860,7 +2864,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um toque em forma de U (Consulte Is_First_Touch e Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -2874,7 +2878,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um toque em forma de W (Consulte Is_First_Touch, Is_Lead_Creation_Touch e Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0153374234214425</p>
+        <p>0,0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -2888,7 +2892,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>A porcentagem calculada alocada para esse touchpoint porque faz parte de um modelo de caminho completo (Consulte Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0.0143061513081193</p>
+        <p>0,0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -2904,7 +2908,7 @@ Grupos de anúncios importados de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é excluído.</p>
@@ -3092,8 +3096,8 @@ Dados gerados a partir da integração da IA de atribuição. Esses campos só s
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>ID original do contato do MM para o evento de conversão
-    <br>provavelmente será nula na maioria das vezes</td>
+    <td>id de contato do MM original para o evento de conversão
+    <br>provavelmente será nulo a maior parte do tempo</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -3298,7 +3302,7 @@ Membros da campanha importados do sistema de origem. Essa tabela estará vazia s
         <p>HAS_RESPONDED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Informa se o membro da campanha foi marcado como “Respondido” no seletor de status.</p>
@@ -3408,7 +3412,7 @@ Membros da campanha importados do sistema de origem. Essa tabela estará vazia s
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro é considerado excluído ou não no sistema de origem.</p>
@@ -3644,7 +3648,7 @@ Contatos importados do sistema de origem.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro é ou não excluído no sistema de origem.</p>
@@ -3935,7 +3939,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>ACCOUNT_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por conta. (ou seja, para obter o custo da conta, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -3973,7 +3977,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>CAMPAIGN_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por campanha. (ou seja, para obter o custo da campanha, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -4011,7 +4015,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>AD_GROUP_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por grupo de anúncios. (ou seja, para obter o custo da grupo de anúncios, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -4049,7 +4053,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>AD_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por anúncio. (ou seja, para obter o custo de anúncio, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -4087,7 +4091,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>CREATIVE_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por criativo. (ou seja, para obter o custo do criativo, some linhas onde essa coluna é igual a verdadeiro.)</p>
@@ -4125,7 +4129,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>KEYWORD_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por palavra-chave. (ou seja, para obter o custo da palavra-chave, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -4163,7 +4167,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>PLACEMENT_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por inserção. (ou seja, para obter o custo de inserção, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -4201,7 +4205,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>SITE_IS_AGGREGATABLE_COST</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por site. (ou seja, para obter o custo do site, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -4215,7 +4219,7 @@ Dados de custo importados de contas de anúncio conectadas ou de gastos de marke
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro é considerado excluído ou não no sistema de origem.</p>
@@ -4456,7 +4460,7 @@ Criativos importados de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o criativo ainda está ativo ou não no sistema de origem.</p>
@@ -4470,7 +4474,7 @@ Criativos importados de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o criativo foi ou não excluído no sistema de origem.</p>
@@ -4518,7 +4522,7 @@ Criativos importados de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o criativo precisa ou não ser atualizado para marcação do [!DNL Marketo Measure].</p>
@@ -4632,7 +4636,7 @@ Criativos importados de qualquer conta de anúncio conectada.
         <p>IS_UPGRADED_URL</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o criativo está usando URLs atualizados ou não.</p>
@@ -5306,7 +5310,7 @@ Testes A/B registrados. Essa tabela estará vazia se os Testes A/B não estivere
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro foi ou não excluído, usado para diagnósticos e auditoria.</p>
@@ -5417,7 +5421,7 @@ Eventos da Web que foram registrados usando eventos personalizados no Javascript
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro foi ou não excluído, usado para diagnósticos e auditoria.</p>
@@ -5554,7 +5558,7 @@ Páginas de destino baixadas de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -5598,7 +5602,7 @@ Páginas de destino baixadas de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -5749,7 +5753,7 @@ Tabela de mapeamento para endereços de email e IDs de visitante.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro é considerado excluído ou não, usado para diagnósticos e auditoria.</p>
@@ -6212,7 +6216,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um toque em forma de U.</p>
       </td>
       <td>
-        <p>100.0000000000000000000</p>
+        <p>100,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6226,7 +6230,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um toque em forma de W.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6240,7 +6244,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um modelo de caminho completo.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6254,7 +6258,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>A porcentagem calculada que é alocada para esse touchpoint porque faz parte de um modelo personalizado.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -6268,7 +6272,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>Quantidade da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>42000.00000000</p>
+        <p>42000,00000000</p>
       </td>
     </tr>
     <tr>
@@ -6276,7 +6280,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_WON</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a oportunidade foi movida para uma fase que é classificada como vencida.</p>
@@ -6290,7 +6294,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_OPP_CLOSED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a oportunidade foi movida para um estágio classificado como fechado.</p>
@@ -6390,7 +6394,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_AD</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por anúncio. (ou seja, para obter o custo de anúncio, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6402,7 +6406,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_ADVERTISER</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por anunciante. (ou seja, para obter o custo do anunciante, some linhas nas quais essa coluna é igual a verdadeiro).</p>
@@ -6414,7 +6418,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_AD_ACCOUNT</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por conta. (ou seja, para obter o custo da conta, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6428,7 +6432,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_AD_GROUP</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por grupo de anúncios. (ou seja, para obter o custo da grupo de anúncios, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6442,7 +6446,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_CAMPAIGN</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por campanha. (ou seja, para obter o custo da campanha, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6456,7 +6460,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_CHANNEL</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por canal. (ou seja, para obter o custo do canal, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6468,7 +6472,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_CREATIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por criativo. (ou seja, para obter o custo do criativo, some linhas onde essa coluna é igual a verdadeiro.)</p>
@@ -6482,7 +6486,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_KEYWORD</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por palavra-chave. (ou seja, para obter o custo da palavra-chave, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6496,7 +6500,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_PLACEMENT</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por inserção. (ou seja, para obter o custo de inserção, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6510,7 +6514,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_AGGREGATABLE_COST_SITE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha contém o custo que pode ser resumido por site. (ou seja, para obter o custo do site, some linhas nas quais essa coluna é igual a verdadeiro.)</p>
@@ -6524,7 +6528,7 @@ Uniões unem Impressões, Exibições de página, Visitas, Envio de formulário,
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro foi excluído ou não, usado como uma trilha de auditoria.</p>
@@ -6663,7 +6667,7 @@ Envio de formulário capturado.
         <p>URL onde o formulário foi enviado, incluindo quaisquer parâmetros de consulta.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6675,7 +6679,7 @@ Envio de formulário capturado.
         <p>O endereço IP registrado no momento em que o formulário foi enviado.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174127184158</p>
       </td>
     </tr>
     <tr>
@@ -6705,7 +6709,7 @@ Envio de formulário capturado.
         <p>CLIENT_SEQUENCE</p>
       </td>
       <td>varchar</td>
-      <td>Indica a ordem em que a Exibição de página ocorreu na sessão.</td>
+      <td>Indica a ordem em que a exibição de página ocorreu na sessão.</td>
       <td>
         <p>4</p>
       </td>
@@ -6917,7 +6921,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
       <td>
         <p>URL onde a impressão foi veiculada, incluindo qualquer parâmetro de consulta.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -6954,7 +6958,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
         <p>CLIENT_SEQUENCE</p>
       </td>
       <td>varchar</td>
-      <td>Indica a ordem em que a Exibição de página ocorreu na sessão.</td>
+      <td>Indica a ordem em que a exibição de página ocorreu na sessão.</td>
       <td>
         <p>4</p>
       </td>
@@ -7188,7 +7192,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
         <p>Esperado que seja nulo, pois não há um Grupo de anúncios na hierarquia do Doubleclick para impressões</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -7200,7 +7204,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
         <p>Esperado que seja nulo, pois não há um Grupo de anúncios na hierarquia do Doubleclick para impressões</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -7236,7 +7240,7 @@ Impressões disparadas e registradas. Esta tabela requer uma conexão com o Doub
         <p>Esperado que seja nulo, pois não há criativo na hierarquia do Doubleclick para impressões.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -7531,7 +7535,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
         <p>Esperado que seja nulo, pois não há palavra-chave na hierarquia do Doubleclick para impressões.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -7543,7 +7547,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
         <p>Esperado que seja nulo, pois não há palavra-chave na hierarquia do Doubleclick para impressões.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -7599,7 +7603,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a palavra-chave ainda está ativa ou não no sistema de origem.</p>
@@ -7613,7 +7617,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a palavra-chave foi ou não excluída no sistema de origem.</p>
@@ -7659,7 +7663,7 @@ Palavras-chave importadas de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a palavra-chave precisa ou não ser atualizada para marcação do [!DNL Marketo Measure].</p>
@@ -7936,7 +7940,7 @@ Páginas de destino importadas de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -7980,7 +7984,7 @@ Páginas de destino importadas de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td></td>
       <td></td>
@@ -8145,7 +8149,7 @@ Leads importados do sistema de origem.
         <p>IS_CONVERTED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o lead foi ou não convertido em um contato.</p>
@@ -8249,7 +8253,7 @@ Leads importados do sistema de origem.
         <p>(obsoleto)</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -8261,7 +8265,7 @@ Leads importados do sistema de origem.
         <p>(obsoleto)</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -8281,7 +8285,7 @@ Leads importados do sistema de origem.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro é ou não excluído no sistema de origem.</p>
@@ -8496,7 +8500,7 @@ Transições de estágio para leads ou contatos.
         <p>IS_PENDING</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se o touchpoint está pendente e ainda não foi fechado. Só é exibido para clientes com modelo de atribuição de caminho completo.</p>
@@ -8510,7 +8514,7 @@ Transições de estágio para leads ou contatos.
         <p>IS_NON_TRANSITIONAL</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha está vinculada a uma transição de estágio. Por exemplo, se houver 3 estágios/entradas (FT, LC, MQL) e 4 touchpoints, o touchpoint 1 sem um estágio será considerado “sem transição”, de modo que o valor seja igual a verdadeiro.</p>
@@ -8558,7 +8562,7 @@ Transições de estágio para leads ou contatos.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro de transição é considerado excluído ou não.</p>
@@ -8655,7 +8659,7 @@ Oportunidades importadas do sistema de origem.
         <p>IS_WON</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a oportunidade foi movida para um estágio considerado vencido.</p>
@@ -8669,7 +8673,7 @@ Oportunidades importadas do sistema de origem.
         <p>IS_CLOSED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a oportunidade foi movida para um estágio considerado fechado.</p>
@@ -8699,7 +8703,7 @@ Oportunidades importadas do sistema de origem.
         <p>(obsoleto)</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -8713,7 +8717,7 @@ Oportunidades importadas do sistema de origem.
         <p>Valor do contrato esperado ou fechado da oportunidade, no sistema de origem.</p>
       </td>
       <td>
-        <p>8988.00000000</p>
+        <p>8988,00000000</p>
       </td>
     </tr>
     <tr>
@@ -8726,7 +8730,7 @@ Oportunidades importadas do sistema de origem.
         <p>Observe que este campo não está definido e retorna nulo no Snowflake para todos os clientes.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -8739,7 +8743,7 @@ Oportunidades importadas do sistema de origem.
         <p>Observe que este campo não está definido e retorna nulo no Snowflake para todos os clientes.</p>
       </td>
       <td>
-        <p>null</p>
+        <p>nulo</p>
       </td>
     </tr>
     <tr>
@@ -8809,7 +8813,7 @@ Oportunidades importadas do sistema de origem.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro é ou não excluído no sistema de origem.</p>
@@ -9037,7 +9041,7 @@ Transições de preparo para oportunidades.
         <p>IS_PENDING</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se o touchpoint está pendente e ainda não foi fechado. Só é exibido para clientes com modelo de atribuição de caminho completo.</p>
@@ -9051,7 +9055,7 @@ Transições de preparo para oportunidades.
         <p>IS_NON_TRANSITIONAL</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se a linha está vinculada a uma transição de estágio. Por exemplo, se houver 3 estágios/entradas (FT, LC, MQL) e 4 touchpoints, o touchpoint 1 sem um estágio será considerado “sem transição”, de modo que o valor seja igual a verdadeiro.</p>
@@ -9099,7 +9103,7 @@ Transições de preparo para oportunidades.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o registro de transição é considerado excluído ou não.</p>
@@ -9242,7 +9246,7 @@ Exibições de página coletadas das visitas da Web. Várias exibições de pág
         <p>O endereço IP registrado no momento em que o formulário foi enviado.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174127184158</p>
       </td>
     </tr>
     <tr>
@@ -9332,7 +9336,7 @@ Exibições de página coletadas das visitas da Web. Várias exibições de pág
         <p>URL de onde a exibição de página se originou, incluindo qualquer parâmetro de consulta.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9525,7 +9529,7 @@ Tabela que armazena todas as disposições baixadas de qualquer conta de anúnci
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a inserção ainda está ativa ou não no sistema de origem.</p>
@@ -9537,7 +9541,7 @@ Tabela que armazena todas as disposições baixadas de qualquer conta de anúnci
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a inserção foi ou não excluída do sistema de origem.</p>
@@ -9577,7 +9581,7 @@ Tabela que armazena todas as disposições baixadas de qualquer conta de anúnci
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a inserção precisa ou não ser atualizada para marcação do [!DNL Marketo Measure].</p>
@@ -9911,7 +9915,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>O URL da primeira exibição de página da sessão, incluindo quaisquer parâmetros de consulta.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -9979,7 +9983,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>HAS_FORM</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a sessão continha ou não um preenchimento de formulário,</p>
@@ -9993,7 +9997,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>HAS_CHAT</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a sessão continha ou não um chat na Web.</p>
@@ -10007,7 +10011,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>HAS_EMAIL</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a sessão tinha ou não um endereço de email.</p>
@@ -10021,7 +10025,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>HAS_CRM_ACTIVITY</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se a sessão veio ou não de um registro de atividade do CRM.</p>
@@ -10423,7 +10427,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
       <td>varchar</td>
       <td>Espera-se que seja nulo, visto que o campo é obsoleto.</td>
       <td>
-        <p>NULL</p>
+        <p>NULO</p>
       </td>
     </tr>
     <tr>
@@ -10435,7 +10439,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>O endereço IP registrado no momento da sessão.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174127184158</p>
       </td>
     </tr>
     <tr>
@@ -10443,7 +10447,7 @@ Sessões como processadas a partir de exibições de página. Várias exibiçõe
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Determina se esta sessão foi mesclada com outra e deve ser excluída.</p>
@@ -10672,7 +10676,7 @@ Sites importados de qualquer conta de anúncio conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o site ainda está ativo ou não no sistema de origem.</p>
@@ -10684,7 +10688,7 @@ Sites importados de qualquer conta de anúncio conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o Site foi excluído ou não no sistema de origem.</p>
@@ -10724,7 +10728,7 @@ Sites importados de qualquer conta de anúncio conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o Site precisa ou não ser atualizado para marcação do [!DNL Marketo Measure].</p>
@@ -10924,7 +10928,7 @@ Links de sites de qualquer conta de anúncios conectada.
         <p>IS_ACTIVE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o link do site ainda está ativo ou não na conta de anúncios</p>
@@ -10938,7 +10942,7 @@ Links de sites de qualquer conta de anúncios conectada.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o link do site foi ou não excluído na conta de anúncios</p>
@@ -10984,7 +10988,7 @@ Links de sites de qualquer conta de anúncios conectada.
         <p>NEEDS_UPDATE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o link do site precisa ou não ser atualizado para obter a marcação do Marketo Measure</p>
@@ -11145,7 +11149,7 @@ Lista de estágios conforme importados ou definidos no aplicativo [!DNL Marketo 
         <p>IS_IN_CUSTOM_MODEL</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se o estágio está selecionado para rastrear no modelo personalizado.</p>
@@ -11159,7 +11163,7 @@ Lista de estágios conforme importados ou definidos no aplicativo [!DNL Marketo 
         <p>IS_BOOMERANG</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se o estágio está selecionado para rastrear como um estágio de bumerangue.</p>
@@ -11197,7 +11201,7 @@ Lista de estágios conforme importados ou definidos no aplicativo [!DNL Marketo 
         <p>IS_FROM_SALESFORCE</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Indica se o estágio é importado de um sistema de origem externo.</p>
@@ -11237,7 +11241,7 @@ Lista de estágios conforme importados ou definidos no aplicativo [!DNL Marketo 
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o estágio foi ou não excluído.</p>
@@ -11612,7 +11616,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12024,7 +12028,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_FIRST_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o primeiro contato da jornada de oportunidade.</p>
@@ -12038,7 +12042,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_LEAD_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o principal contato de criação da jornada de oportunidade.</p>
@@ -12052,7 +12056,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_OPP_CREATION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o toque de criação de oportunidade da jornada de oportunidade.</p>
@@ -12066,7 +12070,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_CLOSED_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o toque de encerramento da jornada de oportunidade.</p>
@@ -12086,7 +12090,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_FORM_SUBMISSION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint tinha ou não um formulário preenchido durante a sessão.</p>
@@ -12100,7 +12104,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_IMPRESSION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o primeiro toque de impressão da jornada de oportunidade</p>
@@ -12191,7 +12195,7 @@ Buyer Touchpoints, todos os touchpoints associados ao lead ou contato. Essa tabe
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é excluído.</p>
@@ -12627,7 +12631,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>A primeira página de destino da sessão que resultou em um touchpoint. Uma página de destino bruta conterá todos os parâmetros de consulta no URL. Referenciado no CRM como “Página de destino - Bruta”.</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12675,7 +12679,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>O primeiro formulário gravado em uma sessão que resultou em um touchpoint. Os envios de formulário subsequentes não serão exibidos na tabela Attribution_Touchpoints, mas na tabela Form_Submits. Uma página de formulário bruta pode conter parâmetros de consulta no URL. Referenciado no CRM como “URL do formulário - bruto”.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13051,7 +13055,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>IS_FORM_SUBMISSION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint tinha ou não um formulário preenchido durante a sessão.</p>
@@ -13065,7 +13069,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>IS_IMPRESSION_TOUCH</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se esse touchpoint é tratado ou não como o primeiro toque de impressão da jornada de oportunidade.</p>
@@ -13079,7 +13083,7 @@ Todos os touchpoints criados a partir de qualquer evento vinculado a um email.
         <p>IS_DELETED</p>
       </td>
       <td>
-        <p>booleano</p>
+        <p>boolean</p>
       </td>
       <td>
         <p>Se o touchpoint é excluído ou não.</p>
@@ -13264,7 +13268,7 @@ Tabela de mapeamento para mapear a Id de sessão do [!DNL Marketo Measure] para 
       <td>varchar</td>
       <td>URL de exibição de página, incluindo qualquer parâmetro de consulta.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>

@@ -4,18 +4,21 @@ description: '[!DNL Marketo Measure] Perguntas frequentes sobre Visualização A
 title: '[!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
+TQID: 'https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 33%
-
 ---
-
 # [!DNL Marketo Measure] Perguntas frequentes sobre atribuição de view through {#marketo-measure-view-through-attribution-faq}
 
 ## O que é Visualizar por meio de atribuição? {#what-is-view-through-attribution}

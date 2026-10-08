@@ -4,16 +4,18 @@ description: Usando um Campo de Valor de Receita Personalizado - [!DNL Marketo M
 title: Utilização de um campo de quantia de receita personalizada
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+TQID: 'https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 3%
-
 ---
-
 # Utilização de um campo de quantia de receita personalizada {#using-a-custom-revenue-amount-field}
 
 Por padrão, os Pontos de Contato da Atribuição do Comprador extrairão a Quantia da Oportunidade de um dos dois campos:
@@ -92,7 +94,7 @@ As etapas a seguir são para usuários do Salesforce Classic. Se você alternou 
 
    ![](assets/using-a-custom-revenue-amount-field-12.png)
 
-1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL &#x200B; como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
+1. Configure o workflow. Defina o Nome da regra como &quot;Atualizar [!DNL Marketo Measure] Valor da oportunidade&quot;. Defina o Critério de avaliação como &quot;Criado e sempre que for editado&quot;. Para os Critérios da Regra, selecione o campo Valor personalizado e selecione o Operador [!UICONTROL  como &quot;Diferente de&quot;] e deixe o campo &quot;Valor&quot; em branco.
 
    ![](assets/using-a-custom-revenue-amount-field-13.png)
 

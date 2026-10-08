@@ -1,21 +1,25 @@
 ---
-description: Painel de ROI de Palavra-chave - [!DNL Marketo Measure] - Produto
+description: Painel de ROI de palavra-chave - [!DNL Marketo Measure] - Produto
 title: Painel de ROI da palavra-chave
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-TQID: https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw
+TQID: 'https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # Painel de ROI da palavra-chave {#keyword-roi-dashboard}
 
 O Painel de ROI de palavra-chave fornece informações detalhadas sobre o desempenho das campanhas de Pesquisa paga. Ele fornece uma análise abrangente dos custos em nível de palavra-chave, da receita atribuída e dos novos leads e das oportunidades geradas, garantindo uma compreensão clara do ROI da palavra-chave.
@@ -74,11 +78,11 @@ Detalhe palavras-chave específicas para visualizar as oportunidades influenciad
 Esse painel é equipado com as seguintes configurações e filtros:
 
 * Data
-   * Baseado em:
-      * Data de criação: clientes em potencial de notícias, novas oportunidades
-      * Data de custo incorrido: custo
-      * Data de fechamento: receita atribuída (ROI simples), ofertas
-      * Data do ponto de contato: pontos de contato da receita atribuída realizada (ROI realizado)
+  * Baseado em:
+    * Data de criação: clientes em potencial de notícias, novas oportunidades
+    * Data de custo incorrido: custo
+    * Data de fechamento: receita atribuída (ROI simples), ofertas
+    * Data do ponto de contato: pontos de contato da receita atribuída realizada (ROI realizado)
 * Modelo de atribuição
 * Palavra-chave
 * Campanha

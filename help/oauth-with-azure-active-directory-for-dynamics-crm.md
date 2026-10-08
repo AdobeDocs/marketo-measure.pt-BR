@@ -1,16 +1,23 @@
 ---
-description: OAuth com  [!DNL Azure Active Directory] orientação do Dynamics CRM para usuários do Marketo Measure
-title: OAuth com  [!DNL Azure Active Directory] for Dynamics CRM
+description: Orientação do OAuth com [!DNL Azure Active Directory] for Dynamics CRM para usuários do Marketo Measure
+title: OAuth com [!DNL Azure Active Directory] for Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '970'
 ht-degree: 1%
-
 ---
-
 # OAuth com [!DNL Azure Active Directory] for Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 
 ## Quem é afetado {#who-s-affected}
@@ -27,11 +34,11 @@ Esta configuração é para novos clientes do [!DNL Marketo Measure] que usam o 
 
 1. Escolha o locatário do Azure AD clicando em sua conta no canto superior direito da página, seguido por um clique na navegação do Diretório de alternância e selecionando o locatário apropriado. Ignore esta etapa se você tiver apenas um locatário do Azure AD em sua conta ou se já tiver selecionado o locatário apropriado do Azure AD.
 
-   ![1. Escolha o locatário do Azure AD clicando em sua conta no &#x200B;](assets/bizible-taxonomy-1.png)
+   ![1. Escolha o locatário do Azure AD clicando em sua conta no ](assets/bizible-taxonomy-1.png)
 
 1. Pesquise por &quot;[!DNL Azure Active Directory]&quot; na barra de pesquisa e clique no nome a ser aberto.
 
-   ![1. Pesquise por &quot;Azure Ative Diretory&quot; na barra de pesquisa e &#x200B;](assets/microsoft-guide-1.png)
+   ![1. Pesquise por &quot;Azure Ative Diretory&quot; na barra de pesquisa e ](assets/microsoft-guide-1.png)
 
 1. Clique em **[!UICONTROL Registros de aplicativo]** no menu à esquerda.
 
@@ -56,15 +63,15 @@ c) Forneça o URI de redirecionamento. Para Aplicativos Web, este é o URL base 
 
 1. Adicione as [!DNL Marketo Measure] URLs de redirecionamento: `https://apps.bizible.com/OAuth2` e `https://apps.bizible.com/OAuth2?identityOnly=true` à lista de URLs de Redirecionamento.
 
-   ![1. Adicionar as URLs de redirecionamento do Marketo Measure: https://apps.bizible.com/OAuth2 e https://apps.bizible.com/OAuth2?identityOnly=true a &#x200B;](assets/microsoft-guide-5.png)
+   ![1. Adicionar as URLs de redirecionamento do Marketo Measure: https://apps.bizible.com/OAuth2 e https://apps.bizible.com/OAuth2?identityOnly=true a ](assets/microsoft-guide-5.png)
 
 1. Navegue até a guia Permissões de API e verifique se as permissões corretas foram atribuídas ao aplicativo.
 
-   ![1. Navegue até a guia Permissões de API e verifique se &#x200B;](assets/microsoft-guide-6.png)
+   ![1. Navegue até a guia Permissões de API e verifique se ](assets/microsoft-guide-6.png)
 
 1. Aqui, digite &quot;[!UICONTROL empresa]&quot; na caixa de pesquisa e clique em **[!UICONTROL Aplicativos Corporativos]**.
 
-   ![1. Aqui, digite &quot;empresa&quot; na caixa de pesquisa e clique em &#x200B;](assets/microsoft-guide-7.png)
+   ![1. Aqui, digite &quot;empresa&quot; na caixa de pesquisa e clique em ](assets/microsoft-guide-7.png)
 
 1. Novamente, encontre e abra seu novo aplicativo na lista de aplicativos.
 
@@ -78,7 +85,7 @@ c) Forneça o URI de redirecionamento. Para Aplicativos Web, este é o URL base 
 
 1. Na guia &quot;[!UICONTROL Usuários e grupos]&quot;, verifique se os &quot;Usuários e grupos&quot; válidos estão atribuídos ao Aplicativo.
 
-   ![1. Na guia &quot;Usuários e grupos&quot;, verifique se o campo &#x200B;](assets/microsoft-guide-10.png)
+   ![1. Na guia &quot;Usuários e grupos&quot;, verifique se o campo ](assets/microsoft-guide-10.png)
 
 ## Criando um usuário da aplicação {#creating-an-application-user}
 

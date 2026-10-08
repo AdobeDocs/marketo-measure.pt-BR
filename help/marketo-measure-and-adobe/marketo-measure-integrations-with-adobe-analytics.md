@@ -1,23 +1,27 @@
 ---
 description: '[!DNL Marketo Measure] Integrações com o Adobe Analytics - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Integrações com  [!DNL Adobe Analytics]'
+title: '[!DNL Marketo Measure] Integrações com [!DNL Adobe Analytics]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+TQID: 'https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: '965'
 ht-degree: 2%
-
 ---
-
 # [!DNL Marketo Measure] Integrações com o Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
 A integração de Atributos do Cliente B2B permite que os usuários mútuos do [!DNL Marketo Measure] e do Adobe Analytics enriqueçam seus perfis de usuário do [!DNL Adobe Analytics] com metadados valiosos derivados do mecanismo de atribuição do [!DNL Marketo Measure] e por meio de seu recurso de sincronização com CRMs ([!DNL Microsoft Dynamics] e [!DNL Salesforce]). Ele está disponível gratuitamente para todos os clientes que usam o [!DNL Adobe Analytics] e o [!DNL Marketo Measure].
@@ -28,7 +32,7 @@ A integração de Atributos do Cliente B2B permite que os usuários mútuos do [
 
 ## Configurar a integração {#configuring-the-integration}
 
-1. Crie uma nova Source de dados de atributos do cliente em seu console do Experience Cloud. Instruções detalhadas [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=pt-BR).
+1. Crie uma nova Source de dados de atributos do cliente em seu console da Experience Cloud. Instruções detalhadas [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=pt-BR).
 
    Anote as seguintes informações, necessárias nas etapas posteriores:
 
@@ -40,13 +44,13 @@ A integração de Atributos do Cliente B2B permite que os usuários mútuos do [
 
 1. Clique no botão **[!UICONTROL Configurar nova conexão de atributos do cliente]** e siga as instruções para configurar a integração de atributos do cliente. A interface solicita a ID de alias e as informações de conexão FTP adquiridas ao criar a Source de atributos do cliente no console dos serviços principais. Selecione o conjunto de atributos de conta que você deseja sincronizar com sua conta do [!DNL Adobe Analytics].
 
-   Insira a ID organizacional IMS da Adobe. Essa ID é exibida no canto inferior direito do Adobe Experience Cloud Admin Console. Para obter mais ajuda para encontrar essa ID, consulte a Equipe de conta da Adobe (seu gerente de conta).
+   Insira a ID organizacional IMS da Adobe. Essa ID é exibida no canto inferior direito da Adobe Experience Cloud Admin Console. Para obter mais ajuda para encontrar essa ID, consulte a Equipe de conta da Adobe (seu gerente de conta).
 
-1. Após concluir a criação da conexão na sua conta do [!DNL Marketo Measure], volte para o console do Experience Cloud para [validar o esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=pt-BR). Você não precisa se preocupar com o carregamento do arquivo FTP. O [!DNL Marketo Measure] automatizou essa parte para você. Vá para a tela de esquema &quot;Exibir/Editar&quot; da Source de atributos do cliente que você criou na Etapa 1 e informe à Adobe quais são os tipos de dados para cada um dos atributos que [!DNL Marketo Measure] carregou em seu nome. Você também pode criar novos nomes amigáveis para exibição para os atributos carregados, se desejar.
+1. Após concluir a criação da conexão na conta do [!DNL Marketo Measure], volte para o console da Experience Cloud para [validar o esquema](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Você não precisa se preocupar com o carregamento do arquivo FTP. O [!DNL Marketo Measure] automatizou essa parte para você. Vá para a tela de esquema &quot;Exibir/Editar&quot; da Source de atributos do cliente que você criou na Etapa 1 e informe à Adobe quais são os tipos de dados para cada um dos atributos que [!DNL Marketo Measure] carregou em seu nome. Você também pode criar novos nomes amigáveis para exibição para os atributos carregados, se desejar.
 
    Se você optou por sincronizar atributos do objeto de conta do CRM, é altamente recomendável escolher novos nomes de exibição para eles, pois o [!DNL Marketo Measure] preenche apenas os nomes de nível de API desses atributos, que normalmente não são amigáveis para relatórios.
 
-1. A última etapa é configurar as Assinaturas de atributos para os aplicativos Experience Cloud nos quais você deseja usar os atributos. Você pode configurar Assinaturas para [!DNL Adobe Analytics] ou [!DNL Adobe Target].  Mais informações sobre como fazer isso [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html?lang=pt-BR).
+1. A última etapa é configurar as Assinaturas de atributos para os aplicativos da Experience Cloud nos quais você deseja usar os atributos. Você pode configurar Assinaturas para [!DNL Adobe Analytics] ou [!DNL Adobe Target].  Mais informações sobre como fazer isso [podem ser encontradas aqui](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Descrições de atributo {#attribute-descriptions}
 

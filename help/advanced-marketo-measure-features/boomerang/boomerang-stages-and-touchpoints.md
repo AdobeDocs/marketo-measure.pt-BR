@@ -1,19 +1,23 @@
 ---
 unique-page-id: 18874558
-description: Estágios e Pontos de Contato de Bumerangue - [!DNL Marketo Measure]
+description: Estágios e pontos de contato do bumerangue - [!DNL Marketo Measure]
 title: Estágios de bumerangue e touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-TQID: https://experienceleague.adobe.com/mp1vsPh6lSoJuX4jvuENn7kuiYwIVCMrSw19y86u5UA
+TQID: 'https://experienceleague.adobe.com/mp1vsPh6lSoJuX4jvuENn7kuiYwIVCMrSw19y86u5UA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: '724'
 ht-degree: 1%
-
 ---
-
 # Estágios de bumerangue e touchpoints {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]

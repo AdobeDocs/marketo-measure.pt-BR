@@ -4,21 +4,27 @@ description: API [!DNL Facebook] - [!DNL Marketo Measure]
 title: API [!DNL Facebook]
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
+TQID: 'https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Facebook API
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 498
-ht-degree: 3%
-
+source-wordcount: '500'
+ht-degree: 4%
 ---
-
 # API [!DNL Facebook] {#facebook-api}
 
 ## Introdução {#introduction}
@@ -91,11 +97,11 @@ Para que a integração funcione corretamente, é necessário habilitar a marca�
    <td><p>[[!DNL Facebook] Nome do Conjunto de Anúncios]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Origem do Ponto de Contato</p></td> 
+   <td><p>Origem do touchpoint</p></td> 
    <td><p>"[!DNL Facebook]" ou [utm_source], se fornecido</p></td> 
   </tr> 
   <tr> 
-   <td><p>Médio</p></td> 
+   <td><p>Meio</p></td> 
    <td><p>"Social" ou [utm_medium] se fornecido</p></td> 
   </tr> 
   <tr> 

@@ -3,18 +3,21 @@ description: Painel do Passport - [!DNL Marketo Measure] - Produto
 title: Painel de passaporte
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-TQID: https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk
+TQID: 'https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 2%
-
 ---
-
 # Painel de passaporte {#passport-dashboard}
 
 O painel Passport oferece aos profissionais de marketing uma visualização dinâmica de clientes potenciais, contatos e oportunidades à medida que transitam por vários estágios em um período especificado. Ao filtrar por uma data específica, os usuários também podem obter um instantâneo dos registros desse dia.
@@ -23,7 +26,7 @@ O painel Passport oferece aos profissionais de marketing uma visualização din�
 
 * Quantos leads, contatos ou oportunidades existiam em cada estágio não terminal em um dia escolhido?
 * Durante um período especificado, quantos Clientes Potenciais ou Contatos distintos avançaram em cada estágio transitório?
-   * _Exemplo_: se o Líder A estivesse no estágio 1 em 1/1/2023 e avançasse para o estágio 5 em 31/3/2023, a análise do Passport do primeiro trimestre de 2023 contaria o Líder A nos estágios 1 a 5.
+  * _Exemplo_: se o Líder A estivesse no estágio 1 em 1/1/2023 e avançasse para o estágio 5 em 31/3/2023, a análise do Passport do primeiro trimestre de 2023 contaria o Líder A nos estágios 1 a 5.
 * Quantas oportunidades únicas passaram por cada estágio transitório durante um determinado período?
 
 ## Componentes do painel {#dashboard-components}
@@ -31,7 +34,7 @@ O painel Passport oferece aos profissionais de marketing uma visualização din�
 ### Oportunidades em Estágio por Nome de Estágio {#opportunities-in-stage-by-stage-name}
 
 * Cada estágio mostra o número de Oportunidades com pontos de contato que passaram por elas em um determinado período.
-   * Se uma oportunidade progredir por vários estágios dentro desse intervalo, ela será contada em cada estágio que passar.
+  * Se uma oportunidade progredir por vários estágios dentro desse intervalo, ela será contada em cada estágio que passar.
 * Estágios terminais como &quot;Ganhado fechado&quot; e &quot;Perdido fechado&quot; são excluídos.
 * As datas de início e término são inclusivas.
 
@@ -40,8 +43,8 @@ O painel Passport oferece aos profissionais de marketing uma visualização din�
 ### Clientes Potenciais ou Contatos em Preparo por Nome do Estágio {#leads-or-contacts-in-stage-by-stage-name}
 
 * Cada estágio mostra o número de Clientes Potenciais ou Contatos com pontos de contato que passaram por eles em um determinado período.
-   * A exibição de &quot;Cliente em potencial&quot; ou &quot;Contato&quot; é determinada pela preferência definida em: Configurações > Configurações de atribuição > Objeto de painel padrão.
-   * Se um lead ou contato progredir por vários estágios dentro desse intervalo, ele será contado em cada estágio que passar.
+  * A exibição de &quot;Cliente em potencial&quot; ou &quot;Contato&quot; é determinada pela preferência definida em: Configurações > Configurações de atribuição > Objeto de painel padrão.
+  * Se um lead ou contato progredir por vários estágios dentro desse intervalo, ele será contado em cada estágio que passar.
 * Estágios terminais como &quot;Ganhado fechado&quot; e &quot;Perdido fechado&quot; são excluídos.
 * As datas de início e término são inclusivas.
 

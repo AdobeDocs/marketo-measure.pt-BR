@@ -3,13 +3,17 @@ description: Orientação de perguntas frequentes (várias moedas) para usuário
 title: Perguntas frequentes (várias moedas)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Perguntas frequentes (várias moedas) {#faq-multi-currency}
 
 **Como saber qual bit de recurso habilitar?**
@@ -52,7 +56,7 @@ Para clientes do [!DNL Dynamics] e do [!DNL Salesforce] que usam apenas o gerenc
 
 Infelizmente, há algumas nuances no modo como isso funciona para usuários do Gerenciamento de Moeda Avançado do [!DNL Salesforce], devido a uma longa limitação do [!DNL Salesforce]. A resposta curta para &quot;o que fazemos neste caso&quot; é que convertemos valores de receita usando as taxas fixas definidas na guia básica (ou seja, não avançada) &quot;Gerenciar moedas&quot;. Em outras palavras, ignoramos completamente as taxas de câmbio datadas, apesar do fato de que o cliente definiu taxas de câmbio datadas.
 
-Para o leitor interessado, veja por que funciona assim. Nossos pontos de contato usam campos de fórmula para calcular a receita (derivada do valor de oportunidade associado). [!DNL Salesforce] O suporta nativamente a conversão de moeda para esses cálculos de fórmula, mas apenas para seu tipo básico de suporte de moeda. É impossível para nós definir um campo de fórmula que faça referência às taxas de câmbio datadas. [!DNL Salesforce] O simplesmente não oferece suporte a esse recurso, portanto, não temos como fazer referência às taxas datadas em nossos cálculos de receita, apesar do fato de que essas taxas datadas existem em [!DNL Salesforce] (parece loucura, mas é assim que funciona.)
+Para o leitor interessado, veja por que funciona assim. Nossos pontos de contato usam campos de fórmula para calcular a receita (derivada do valor de oportunidade associado). O [!DNL Salesforce] oferece suporte nativo à conversão de moeda para esses cálculos de fórmula, mas apenas para o tipo básico de suporte à moeda. É impossível para nós definir um campo de fórmula que faça referência às taxas de câmbio datadas. O [!DNL Salesforce] simplesmente não oferece suporte a esse recurso, portanto, não temos como fazer referência às taxas datadas em nossos cálculos de receita, apesar do fato de que essas taxas datadas existem em [!DNL Salesforce] (parece loucura, mas é assim que funciona.)
 
 **Se meu cliente usou um fluxo de trabalho para preencher um campo convertido, como ele deve usar esse campo daqui em diante?**
 

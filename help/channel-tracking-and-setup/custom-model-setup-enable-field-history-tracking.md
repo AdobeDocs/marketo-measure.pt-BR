@@ -3,19 +3,23 @@ description: Configuração do modelo personalizado - Habilitar a orientação d
 title: 'Configuração de modelo personalizado: habilitar o rastreamento do histórico de campos'
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 78%
-
+ht-degree: 90%
 ---
-
 # Configuração de modelo personalizado: habilitar o rastreamento do histórico de campos {#custom-model-setup-enable-field-history-tracking}
 
 ## Por que e quando habilitar o rastreamento do histórico de campos {#why-and-when-to-enable-field-history-tracking}
 
-Se você decidir incluir um campo personalizado como um estágio em seu modelo de atribuição personalizado, o rastreamento do histórico de campos **deve estar habilitado** para este campo. Habilitar o rastreamento do histórico de campo permitirá que [!DNL Salesforce] rastreie sempre que o campo personalizado for editado, criando um registro na tabela Rastreamento do histórico. [!DNL Marketo Measure] Você pode baixar essa tabela e usar essas informações para medir o horário e o dia em que uma &quot;transição&quot; ocorreu. Sem o rastreamento do histórico de campos, o [!DNL Marketo Measure] não consegue rastrear alterações relacionadas a este campo.
+Se você decidir incluir um campo personalizado como um estágio em seu modelo de atribuição personalizado, o rastreamento do histórico de campos **deve estar habilitado** para este campo. Habilitar o rastreamento do histórico de campos permite que o [!DNL Salesforce] rastreie cada edição do campo personalizado, criando um registro na tabela Rastreamento de histórico. O [!DNL Marketo Measure] pode baixar essa tabela e usar essas informações para medir a hora e o dia em que ocorreu uma “transição”. Sem o rastreamento do histórico de campos, o [!DNL Marketo Measure] não consegue rastrear alterações relacionadas a este campo.
 
 Se você usar apenas os estágios de [!UICONTROL status do lead] ou oportunidade no modelo personalizado, não há necessidade de habilitar o rastreamento do histórico de campos, visto que ele será rastreado automaticamente como uma transição de estágio.
 
@@ -29,7 +33,7 @@ Para habilitar o rastreamento do histórico de campos, siga as instruções abai
 
 1. Acesse o objeto que contém o campo personalizado e clique em **[!UICONTROL Definir rastreamento de histórico]**.
 
-   ![1. Vá para o Objeto onde o campo personalizado está e clique em &#x200B;](assets/custom-models-1.png)
+   ![1. Vá para o Objeto onde o campo personalizado está e clique em ](assets/custom-models-1.png)
 
 1. Selecione os campos nos quais deseja acompanhar as alterações.
 

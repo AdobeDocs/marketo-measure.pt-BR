@@ -3,24 +3,28 @@ description: Configurar as diretrizes do Marketo Connection para usuários do Ma
 title: Configurar conexão do Marketo
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%
-
 ---
-
 # Configurar conexão do Marketo {#set-up-marketo-connection}
 
 Veja como configurar sua conexão com o Marketo.
 
 >[!PREREQUISITES]
 >
->[Criar uma função de Usuário Somente API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=pt-BR) para a conexão [!DNL Marketo Measure]/Marketo Engage.
+>[Criar uma função de Usuário Somente API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) para a conexão [!DNL Marketo Measure]/Marketo Engage.
 
 1. Em [!DNL Marketo Measure], clique no menu suspenso **[!UICONTROL Minha Conta]** e selecione **[!UICONTROL Configurações]**.
 
-   ![1. No Marketo Measure, clique no menu suspenso Minha Conta e &#x200B;](assets/set-connection-7.png)
+   ![1. No Marketo Measure, clique no menu suspenso Minha Conta e ](assets/set-connection-7.png)
 
 1. Em [!UICONTROL Integrações], clique em **[!UICONTROL Conexões]**.
 
@@ -40,7 +44,7 @@ Veja como configurar sua conexão com o Marketo.
 
 1. Ainda no Marketo Engage, selecione **LaunchPoint** na árvore à esquerda. Encontre o serviço personalizado que você deseja conectar ao Marketo Measure e clique em **Exibir Detalhes**.
 
-   ![1. Ainda no Marketo Engage, selecione LaunchPoint na árvore no &#x200B;](assets/set-connection-4.png)
+   ![1. Ainda no Marketo Engage, selecione LaunchPoint na árvore no ](assets/set-connection-4.png)
 
 1. Realce e salve a ID do cliente e o Segredo do cliente. Clique em **Fechar**.
 
@@ -48,7 +52,7 @@ Veja como configurar sua conexão com o Marketo.
 
 1. De volta ao [!DNL Marketo Measure], preencha os campos com os dados coletados.
 
-   ![1. De volta ao Marketo Measure, preencha os campos com os dados &#x200B;](assets/set-connection-1.png)
+   ![1. De volta ao Marketo Measure, preencha os campos com os dados ](assets/set-connection-1.png)
 
 1. Após inserir os valores, clique em **[!UICONTROL Autenticar]**. Sua conta do Marketo Engage está conectada ao [!DNL Marketo Measure].
 

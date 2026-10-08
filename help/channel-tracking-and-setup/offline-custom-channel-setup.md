@@ -3,14 +3,18 @@ description: Orientação de configuração de canal personalizado offline para 
 title: Configuração de canal personalizado offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 2%
-
 ---
-
 # Configuração de canal personalizado offline {#offline-custom-channel-setup}
 
 ## Introdução {#getting-started}
@@ -45,7 +49,7 @@ Os tipos de campanha do SFDC aparecerão na guia Canal offline, listada em [!DNL
 
 Por exemplo, imagine que você participe de duas conferências [!DNL Salesforce] por ano. Cada conferência, no entanto, é muito diferente e tem um público-alvo exclusivo. Você quer saber qual dos dois traz mais valor. No ambiente [!DNL Salesforce], você pode dar ao evento de janeiro o Tipo de Campanha &quot;Conferência&quot;, nomear seu canal &quot;[!DNL Salesforce]&quot; e seu subcanal &quot;Conferência de janeiro&quot;.
 
-Agora você quer fazer o mesmo para a conferência de junho. Como essa conferência também é uma conferência, pode receber o mesmo Tipo de campanha, nesse caso, &quot;Conferência&quot;. O canal é o mesmo, [!DNL Salesforce], e o subcanal desta segunda conferência é &quot;Conferência de junho&quot;. Isso faz sentido do ponto de vista organizacional. No entanto, é muito confuso para a lógica [!DNL Marketo Measure] ler e aplicar essas regras porque ambas as campanhas têm o mesmo Tipo de Campanha. [!DNL Marketo Measure] o script não pode mapear dados de um tipo para dois subcanais diferentes. Isso significa que seria necessário criar um novo Tipo de campanha para cada subcanal, mas os subcanais podem ter o mesmo canal.
+Agora você quer fazer o mesmo para a conferência de junho. Como essa conferência também é uma conferência, pode receber o mesmo Tipo de campanha, nesse caso, &quot;Conferência&quot;. O canal é o mesmo, [!DNL Salesforce], e o subcanal desta segunda conferência é &quot;Conferência de junho&quot;. Isso faz sentido do ponto de vista organizacional. No entanto, é muito confuso para a lógica [!DNL Marketo Measure] ler e aplicar essas regras porque ambas as campanhas têm o mesmo Tipo de Campanha. O script [!DNL Marketo Measure] não pode mapear dados de um tipo para dois subcanais diferentes. Isso significa que seria necessário criar um novo Tipo de campanha para cada subcanal, mas os subcanais podem ter o mesmo canal.
 
 Abaixo está um exemplo de lógica que [!DNL Marketo Measure] não conseguiria ler:
 
@@ -67,7 +71,7 @@ Saiba mais sobre [sincronização offline [!DNL Salesforce] Campanhas com [!DNL 
 
 Outra dica para manipular campanhas para atividades online é mapear o Tipo de Campanha [!DNL Salesforce] como NULL. Para fazer isso, primeiro crie um canal no aplicativo [!DNL Marketo Measure] chamado NULL, conforme demonstrado na imagem abaixo. Isso é encontrado no aplicativo [!DNL Marketo Measure], na seção **Criar Canais**. Isso será útil caso uma campanha que não deve ser sincronizada seja sincronizada acidentalmente. É fácil encontrar a campanha e corrigir o status de sincronização verificando tudo o que está classificado em NULL.
 
-![Outra dica para manipular campanhas para atividades online é mapear o &#x200B;](assets/offline-channels-14.png)
+![Outra dica para manipular campanhas para atividades online é mapear o ](assets/offline-channels-14.png)
 
 ## Inserção de suas regras de canal offline no aplicativo {#entering-your-offline-channel-rules-to-the-app}
 
@@ -85,6 +89,6 @@ Clique em **[!UICONTROL Salvar]** quando terminar e [!DNL Marketo Measure] carre
 >
 >* [[!DNL Marketo Measure] Tutoriais: Mapeando Canais Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutoriais: Sincronizando Campanhas Offline](https://experienceleague.adobe.com/pt-br/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutoriais: Sincronizando Campanhas Offline](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Integração de Programas da Marketo Engage](/help/marketo-engage-programs-integration.md){target="_blank"}
