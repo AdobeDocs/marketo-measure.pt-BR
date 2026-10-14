@@ -16,7 +16,7 @@ A SAML (linguagem de marcação de declaração de segurança) para SSO (logon �
 
 >[!CAUTION]
 >
->Este artigo descreve o processo de logon único (SSO) e gerenciamento avançado de usuários do CRM. Se sua conta foi provisionada **após 10/9/2020**, ignore este artigo, pois o SSO e o gerenciamento de identidade da sua integração do  [!DNL Marketo Measure] ](/help/implementation-guide.md) serão configurados no [Adobe Admin Console.
+>Este artigo descreve o processo de logon único (SSO) e gerenciamento avançado de usuários do CRM. Se sua conta foi provisionada **após 10/9/2020**, ignore este artigo, pois o SSO e o gerenciamento de identidade da sua integração do  [!DNL Marketo Measure] [&#128279;](/help/implementation-guide.md) serão configurados no Adobe Admin Console.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Defina e mapeie suas configurações de Atributo do usuário para o respectivo n
     
     b. Dica: se você testar sua configuração do SAML agora, analisaremos os atributos Email, Nome e Sobrenome que você pode usar para esta seção.
 
-![b. Dica: se você testar sua configuração SAML agora, analisaremos ](assets/discover-control-1.png)
+![b. Dica: se você testar sua configuração SAML agora, analisaremos &#x200B;](assets/discover-control-1.png)
 
 Defina e mapeie suas configurações de função de usuário para as respectivas funções ou grupos classificados pelo seu IdP.
 
@@ -111,7 +111,7 @@ Experimente.
     
     c. Parabéns! Você configurou com sucesso o logon único no aplicativo  [!DNL Marketo Measure]  para sua conta.
 
-![c Parabéns! Você configurou com êxito o Logon Único no ](assets/discover-control-3.png)
+![c Parabéns! Você configurou com êxito o Logon Único no &#x200B;](assets/discover-control-3.png)
 
 >[!NOTE]
 >
