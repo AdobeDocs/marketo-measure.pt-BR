@@ -2,20 +2,19 @@
 solution: Marketo Measure
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: "Marketo Measure"
 usetq: true
 feature-set: Marketo Measure
 landing-page-name: marketo-measure
 landing-page-breadcrumb-title: Marketo Measure
 type: Documentation
-git-repo: https://github.com/AdobeDocs/marketo-measure.pt-BR
+git-repo: https://github.com/AdobeDocs/marketo-measure.en
 index: true
 source-git-commit: 42cfed9661c0cdce6880bcc71448353f772aa66d
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 94%
-
+source-wordcount: '120'
+ht-degree: 98%
 ---
-
 
 # Metadados para uso interno
 
