@@ -25,11 +25,11 @@ Você pode adicionar parâmetros de UTM manualmente aos URLs ou anexá-los por m
 
 Para entender como os parâmetros do UTM funcionam, vamos observar um URL típico sem UTMs:
 
-`http://www.adobe.com`
+`http://www.adobe.com/br`
 
 Agora, vamos verificar um URL com UTMs:
 
-`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com/br?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 O segundo link contém mais texto. Os parâmetros de UTM sempre seguem o domínio de nível superior (“.com” neste exemplo) e começam com um ponto de interrogação. Depois disso, a ordem dos parâmetros não importa, mas é recomendável seguir uma convenção de nomeação consistente. Você deve colocar um “e comercial” entre os parâmetros para separar cada UTM. Agora podemos entrar em mais detalhes sobre o que cada parâmetro representa.
 
